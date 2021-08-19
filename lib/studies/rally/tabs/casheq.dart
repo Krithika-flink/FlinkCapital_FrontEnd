@@ -10,12 +10,12 @@ import 'package:gallery/studies/rally/data.dart';
 import 'package:gallery/studies/rally/finance.dart';
 import 'package:gallery/studies/rally/tabs/sidebar.dart';
 
-class BudgetsView extends StatefulWidget {
+class CashView extends StatefulWidget {
   @override
-  _BudgetsViewState createState() => _BudgetsViewState();
+  _CashViewState createState() => _CashViewState();
 }
 
-class _BudgetsViewState extends State<BudgetsView>
+class _CashViewState extends State<CashView>
     with SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {

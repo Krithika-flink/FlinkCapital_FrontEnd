@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get signIn => 'INGIA KATIKA AKAUNTI';
 
   @override
-  String get bannerDemoText => 'Nenosiri lako limesasishwa kwenye kifaa chako kingine. Tafadhali ingia tena katika akaunti.';
+  String get bannerDemoText =>
+      'Nenosiri lako limesasishwa kwenye kifaa chako kingine. Tafadhali ingia tena katika akaunti.';
 
   @override
   String get bannerDemoResetText => 'Badilisha bango';
@@ -44,7 +44,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get cardsDemoTappable => 'Inayoweza kuguswa';
 
   @override
-  String get cardsDemoSelectable => 'Inayoweza kuchaguliwa (bonyeza kwa muda mrefu)';
+  String get cardsDemoSelectable =>
+      'Inayoweza kuchaguliwa (bonyeza kwa muda mrefu)';
 
   @override
   String get cardsDemoExplore => 'Gundua';
@@ -60,7 +61,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'Miji 10 Maarufu ya Kutembelea jimboni Tamil Nadu';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'Miji 10 Maarufu ya Kutembelea jimboni Tamil Nadu';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Nambari ya 10';
@@ -75,7 +77,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get cardsDemoTravelDestinationTitle2 => 'Fundi wa India ya Kaskazini';
 
   @override
-  String get cardsDemoTravelDestinationDescription2 => 'Watengenezaji wa Hariri';
+  String get cardsDemoTravelDestinationDescription2 =>
+      'Watengenezaji wa Hariri';
 
   @override
   String get cardsDemoTravelDestinationCity2 => 'Chettinad';
@@ -99,7 +102,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get shrineDescription => 'Programu ya kisasa ya uuzaji wa rejareja';
 
   @override
-  String get fortnightlyDescription => 'Programu ya habari inayoangazia maudhui';
+  String get fortnightlyDescription =>
+      'Programu ya habari inayoangazia maudhui';
 
   @override
   String get rallyDescription => 'Programu ya fedha ya binafsi';
@@ -120,7 +124,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Likizo';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Asilimia ya Mapato kila Mwaka';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Asilimia ya Mapato kila Mwaka';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Kiwango cha Riba';
@@ -129,7 +134,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'Riba ya Mwaka hadi leo';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Riba Iliyolipwa Mwaka Uliopita';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Riba Iliyolipwa Mwaka Uliopita';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Taarifa Inayofuata';
@@ -183,7 +189,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get rallySettingsPersonalInformation => 'Taarifa Binafsi';
 
   @override
-  String get rallySettingsPaperlessSettings => 'Mipangilio ya Kutotumia Karatasi';
+  String get rallySettingsPaperlessSettings =>
+      'Mipangilio ya Kutotumia Karatasi';
 
   @override
   String get rallySettingsFindAtms => 'Tafuta ATM';
@@ -285,8 +292,10 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Ongeza kiwango cha kodi unayoweza kupunguziwa! Weka aina kwenye muamala 1 ambao hauna aina.',
-      other: 'Ongeza kiwango cha kodi unayoweza kupunguziwa! Weka aina kwenye miamala ${count} ambayo haina aina.',
+      one:
+          'Ongeza kiwango cha kodi unayoweza kupunguziwa! Weka aina kwenye muamala 1 ambao hauna aina.',
+      other:
+          'Ongeza kiwango cha kodi unayoweza kupunguziwa! Weka aina kwenye miamala ${count} ambayo haina aina.',
     );
   }
 
@@ -300,7 +309,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Angalia bajeti zote';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'Akaunti ya ${accountName} ${accountNumber} iliyo na ${amount}.';
   }
 
@@ -310,7 +320,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'Bajeti ya ${budgetName} yenye ${amountUsed} ambazo zimetumika kati ya ${amountTotal}, zimesalia ${amountLeft}';
   }
 
@@ -342,7 +353,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoCodeViewerCopyAll => 'NAKILI YOTE';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'Imewekwa kwenye ubao wa kunakili.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'Imewekwa kwenye ubao wa kunakili.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -353,7 +365,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Angalia chaguo';
 
   @override
-  String get demoOptionsFeatureDescription => 'Gusa hapa ili uangalie chaguo zinazopatikana kwa onyesho hili.';
+  String get demoOptionsFeatureDescription =>
+      'Gusa hapa ili uangalie chaguo zinazopatikana kwa onyesho hili.';
 
   @override
   String get settingsTitle => 'Mipangilio';
@@ -425,19 +438,23 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Upau wa chini wa programu';
 
   @override
-  String get demoBottomAppBarSubtitle => 'Huonyesha usogezaji na vitendo katika sehemu ya chini';
+  String get demoBottomAppBarSubtitle =>
+      'Huonyesha usogezaji na vitendo katika sehemu ya chini';
 
   @override
-  String get demoBottomAppBarDescription => 'Pau za chini za programu hutoa uwezo wa kufikia droo ya chini ya kusogeza na hadi vitendo vinne, ikiwa ni pamoja na kitufe cha kutenda kinachoelea.';
+  String get demoBottomAppBarDescription =>
+      'Pau za chini za programu hutoa uwezo wa kufikia droo ya chini ya kusogeza na hadi vitendo vinne, ikiwa ni pamoja na kitufe cha kutenda kinachoelea.';
 
   @override
   String get bottomAppBarNotch => 'Pengo';
@@ -464,13 +481,15 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Kuonyesha bango katika orodha';
 
   @override
-  String get demoBannerDescription => 'Bango huonyesha ujumbe muhimu na dhahiri na kuwapa watumiaji hatua za kutekeleza (au kuondoa bango). Mtumiaji anahitajika kuchukua hatua ili kuiondoa.';
+  String get demoBannerDescription =>
+      'Bango huonyesha ujumbe muhimu na dhahiri na kuwapa watumiaji hatua za kutekeleza (au kuondoa bango). Mtumiaji anahitajika kuchukua hatua ili kuiondoa.';
 
   @override
   String get demoBottomNavigationTitle => 'Usogezaji katika sehemu ya chini';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Usogezaji katika sehemu ya chini na mwonekano unaofifia kwa kupishana';
+  String get demoBottomNavigationSubtitle =>
+      'Usogezaji katika sehemu ya chini na mwonekano unaofifia kwa kupishana';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Lebo endelevu';
@@ -479,43 +498,50 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Lebo iliyochaguliwa';
 
   @override
-  String get demoBottomNavigationDescription => 'Sehemu za chini za viungo muhimu huonyesha vituo vitatu hadi vitano katika sehemu ya chini ya skrini. Kila kituo kinawakilishwa na aikoni na lebo ya maandishi isiyo ya lazima. Aikoni ya usogezaji ya chini inapoguswa, mtumiaji hupelekwa kwenye kituo cha usogezaji cha kiwango cha juu kinachohusiana na aikoni hiyo.';
+  String get demoBottomNavigationDescription =>
+      'Sehemu za chini za viungo muhimu huonyesha vituo vitatu hadi vitano katika sehemu ya chini ya skrini. Kila kituo kinawakilishwa na aikoni na lebo ya maandishi isiyo ya lazima. Aikoni ya usogezaji ya chini inapoguswa, mtumiaji hupelekwa kwenye kituo cha usogezaji cha kiwango cha juu kinachohusiana na aikoni hiyo.';
 
   @override
   String get demoButtonTitle => 'Vitufe';
 
   @override
-  String get demoButtonSubtitle => 'Kilichoinuliwa, chenye mpaka wa mstari, maandishi na zaidi';
+  String get demoButtonSubtitle =>
+      'Kilichoinuliwa, chenye mpaka wa mstari, maandishi na zaidi';
 
   @override
   String get demoTextButtonTitle => 'Kitufe cha Maandishi';
 
   @override
-  String get demoTextButtonDescription => 'Kitufe cha maandishi huonyesha madoadoa ya wino wakati wa kubonyeza lakini hakiinuki. Tumia vitufe vya maandishi kwenye upau wa vidhibiti, katika vidirisha na kulingana na maandishi yenye nafasi';
+  String get demoTextButtonDescription =>
+      'Kitufe cha maandishi huonyesha madoadoa ya wino wakati wa kubonyeza lakini hakiinuki. Tumia vitufe vya maandishi kwenye upau wa vidhibiti, katika vidirisha na kulingana na maandishi yenye nafasi';
 
   @override
   String get demoElevatedButtonTitle => 'Kitufe Kilichoinuliwa';
 
   @override
-  String get demoElevatedButtonDescription => 'Vitufe vilivyoinuliwa huongeza kina kwenye miundo iliyo bapa kwa sehemu kubwa. Vinasisitiza utendaji kwenye nafasi pana au yenye shughuli nyingi.';
+  String get demoElevatedButtonDescription =>
+      'Vitufe vilivyoinuliwa huongeza kina kwenye miundo iliyo bapa kwa sehemu kubwa. Vinasisitiza utendaji kwenye nafasi pana au yenye shughuli nyingi.';
 
   @override
   String get demoOutlinedButtonTitle => 'Kitufe chenye Mpaka wa Mstari';
 
   @override
-  String get demoOutlinedButtonDescription => 'Vitufe vyenye mipaka ya mistari huwa havipenyezi nuru na huinuka vinapobonyezwa. Mara nyingi vinaoanishwa na vitufe vilivyoinuliwa ili kuashiria kitendo mbadala, cha pili.';
+  String get demoOutlinedButtonDescription =>
+      'Vitufe vyenye mipaka ya mistari huwa havipenyezi nuru na huinuka vinapobonyezwa. Mara nyingi vinaoanishwa na vitufe vilivyoinuliwa ili kuashiria kitendo mbadala, cha pili.';
 
   @override
   String get demoToggleButtonTitle => 'Vitufe vya Kugeuza';
 
   @override
-  String get demoToggleButtonDescription => 'Vitufe vya kugeuza vinaweza kutumiwa kuweka chaguo zinazohusiana katika vikundi. Ili kusisitiza vikundi vya vitufe vya kugeuza vinavyohusiana, kikundi kinafaa kushiriki metadata ya kawaida';
+  String get demoToggleButtonDescription =>
+      'Vitufe vya kugeuza vinaweza kutumiwa kuweka chaguo zinazohusiana katika vikundi. Ili kusisitiza vikundi vya vitufe vya kugeuza vinavyohusiana, kikundi kinafaa kushiriki metadata ya kawaida';
 
   @override
   String get demoFloatingButtonTitle => 'Kitufe cha Kutenda Kinachoelea';
 
   @override
-  String get demoFloatingButtonDescription => 'Kitufe cha kutenda kinachoelea ni kitufe cha aikoni ya mduara kinachoelea juu ya maudhui ili kukuza kitendo cha msingi katika programu.';
+  String get demoFloatingButtonDescription =>
+      'Kitufe cha kutenda kinachoelea ni kitufe cha aikoni ya mduara kinachoelea juu ya maudhui ili kukuza kitendo cha msingi katika programu.';
 
   @override
   String get demoCardTitle => 'Kadi';
@@ -527,34 +553,40 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoChipTitle => 'Chipu';
 
   @override
-  String get demoCardDescription => 'Kadi ni laha ya Nyenzo inayotumika kuwasilisha maelezo fulani yanayohusiana, kwa mfano maelezo ya anwani, albamu, eneo, mlo n.k.';
+  String get demoCardDescription =>
+      'Kadi ni laha ya Nyenzo inayotumika kuwasilisha maelezo fulani yanayohusiana, kwa mfano maelezo ya anwani, albamu, eneo, mlo n.k.';
 
   @override
-  String get demoChipSubtitle => 'Vipengee vilivyoshikamana vinavyowakilisha ingizo, sifa au kitendo';
+  String get demoChipSubtitle =>
+      'Vipengee vilivyoshikamana vinavyowakilisha ingizo, sifa au kitendo';
 
   @override
   String get demoActionChipTitle => 'Chipu ya Kutenda';
 
   @override
-  String get demoActionChipDescription => 'Chipu za kutenda ni seti ya chaguo zinazosababisha kitendo kinachohusiana na maudhui ya msingi. Chipu za kutenda zinafaa kuonekana kwa urahisi na kwa utaratibu katika kiolesura.';
+  String get demoActionChipDescription =>
+      'Chipu za kutenda ni seti ya chaguo zinazosababisha kitendo kinachohusiana na maudhui ya msingi. Chipu za kutenda zinafaa kuonekana kwa urahisi na kwa utaratibu katika kiolesura.';
 
   @override
   String get demoChoiceChipTitle => 'Chipu ya Kuchagua';
 
   @override
-  String get demoChoiceChipDescription => 'Chipu za kuchagua zinawakilisha chaguo moja kwenye seti. Chipu za kuchagua zina aina au maandishi ya ufafanuzi yanayohusiana.';
+  String get demoChoiceChipDescription =>
+      'Chipu za kuchagua zinawakilisha chaguo moja kwenye seti. Chipu za kuchagua zina aina au maandishi ya ufafanuzi yanayohusiana.';
 
   @override
   String get demoFilterChipTitle => 'Chipu ya Kichujio';
 
   @override
-  String get demoFilterChipDescription => 'Chipu za kuchuja hutumia lebo au maneno ya ufafanuzi kama mbinu ya kuchuja maudhui.';
+  String get demoFilterChipDescription =>
+      'Chipu za kuchuja hutumia lebo au maneno ya ufafanuzi kama mbinu ya kuchuja maudhui.';
 
   @override
   String get demoInputChipTitle => 'Chipu ya Kuingiza';
 
   @override
-  String get demoInputChipDescription => 'Chipu za kuingiza huwakilisha taarifa ya kina, kama vile huluki (mtu, mahali au kitu) au maandishi ya mazungumzo katika muundo wa kushikamana.';
+  String get demoInputChipDescription =>
+      'Chipu za kuingiza huwakilisha taarifa ya kina, kama vile huluki (mtu, mahali au kitu) au maandishi ya mazungumzo katika muundo wa kushikamana.';
 
   @override
   String get demoDataTableTitle => 'Majedwali ya Data';
@@ -563,7 +595,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'Safu mlalo na wima za maelezo';
 
   @override
-  String get demoDataTableDescription => 'Majedwali ya data huonyesha maelezo katika muundo wa gridi ya safu mlalo na safu wima. Hupanga maelezo kwa njia ambayo ni rahisi kukagua, ili watumiaji waweze kutafuta mitindo na maarifa.';
+  String get demoDataTableDescription =>
+      'Majedwali ya data huonyesha maelezo katika muundo wa gridi ya safu mlalo na safu wima. Hupanga maelezo kwa njia ambayo ni rahisi kukagua, ili watumiaji waweze kutafuta mitindo na maarifa.';
 
   @override
   String get dataTableHeader => 'Lishe';
@@ -642,7 +675,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'Arifa';
 
   @override
-  String get demoAlertDialogDescription => 'Kidirisha cha arifa humjulisha mtumiaji kuhusu hali zinazohitaji uthibitisho. Kidirisha cha arifa kina kichwa kisicho cha lazima na orodha isiyo ya lazima ya vitendo.';
+  String get demoAlertDialogDescription =>
+      'Kidirisha cha arifa humjulisha mtumiaji kuhusu hali zinazohitaji uthibitisho. Kidirisha cha arifa kina kichwa kisicho cha lazima na orodha isiyo ya lazima ya vitendo.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Arifa Yenye Jina';
@@ -651,16 +685,19 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Rahisi';
 
   @override
-  String get demoSimpleDialogDescription => 'Kidirisha rahisi humpa mtumiaji chaguo kati ya chaguo nyingi. Kidirisha rahisi kina kichwa kisicho cha lazima kinachoonyeshwa juu ya chaguo.';
+  String get demoSimpleDialogDescription =>
+      'Kidirisha rahisi humpa mtumiaji chaguo kati ya chaguo nyingi. Kidirisha rahisi kina kichwa kisicho cha lazima kinachoonyeshwa juu ya chaguo.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +709,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Muundo wa safu mlalo na safu wima';
 
   @override
-  String get demoGridListsDescription => 'Orodha za Gridi zinafaa zaidi kwa kuwasilisha data ya aina moja, picha kwa kawaida. Kila kipengee katika orodha ya gridi huitwa kigae.';
+  String get demoGridListsDescription =>
+      'Orodha za Gridi zinafaa zaidi kwa kuwasilisha data ya aina moja, picha kwa kawaida. Kila kipengee katika orodha ya gridi huitwa kigae.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Picha pekee';
@@ -687,40 +725,48 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoSlidersTitle => 'Vitelezi';
 
   @override
-  String get demoSlidersSubtitle => 'Wijeti za kuchagua thamani kwa kutelezesha kidole';
+  String get demoSlidersSubtitle =>
+      'Wijeti za kuchagua thamani kwa kutelezesha kidole';
 
   @override
-  String get demoSlidersDescription => 'Vitelezi huonyesha thamani mbalimbali kwenye upau, ambapo watumiaji wanaweza kuchagua thamani moja. Hutumika kurekebisha mipangilio kama vile kiwango cha sauti, mwangaza au kutumia vichujio vya picha.';
+  String get demoSlidersDescription =>
+      'Vitelezi huonyesha thamani mbalimbali kwenye upau, ambapo watumiaji wanaweza kuchagua thamani moja. Hutumika kurekebisha mipangilio kama vile kiwango cha sauti, mwangaza au kutumia vichujio vya picha.';
 
   @override
   String get demoRangeSlidersTitle => 'Vitelezi vya Fungu la Visanduku';
 
   @override
-  String get demoRangeSlidersDescription => 'Vitelezi huonyesha thamani mbalimbali kwenye upau. Vinaweza kuwa na aikoni kwenye pande zote za upau zinazoonyesha thamani mbalimbali. Hutumika kurekebisha mipangilio kama vile kiwango cha sauti, mwangaza au kutumia vichujio vya picha.';
+  String get demoRangeSlidersDescription =>
+      'Vitelezi huonyesha thamani mbalimbali kwenye upau. Vinaweza kuwa na aikoni kwenye pande zote za upau zinazoonyesha thamani mbalimbali. Hutumika kurekebisha mipangilio kama vile kiwango cha sauti, mwangaza au kutumia vichujio vya picha.';
 
   @override
   String get demoCustomSlidersTitle => 'Vitelezi Maalum';
 
   @override
-  String get demoCustomSlidersDescription => 'Vitelezi huonyesha thamani mbalimbali kwenye upau, ambapo watumiaji wanaweza kuchagua thamani moja au thamani mbalimbali. Unaweza kuwekea vitelezi mapendeleo na dhamira.';
+  String get demoCustomSlidersDescription =>
+      'Vitelezi huonyesha thamani mbalimbali kwenye upau, ambapo watumiaji wanaweza kuchagua thamani moja au thamani mbalimbali. Unaweza kuwekea vitelezi mapendeleo na dhamira.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Endelevu yenye Thamani ya Nambari Inayoweza Kubadilishwa';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Endelevu yenye Thamani ya Nambari Inayoweza Kubadilishwa';
 
   @override
   String get demoSlidersDiscrete => 'Zenye kikomo';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Kitelezi chenye Kikomo kilicho na Mandhari Maalum';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Kitelezi chenye Kikomo kilicho na Mandhari Maalum';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Kitelezi cha Fungu Endelevu la Visanduku chenye Mandhari Maalum';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Kitelezi cha Fungu Endelevu la Visanduku chenye Mandhari Maalum';
 
   @override
   String get demoSlidersContinuous => 'Endelevu';
 
   @override
-  String get demoSlidersEditableNumericalValue => 'Thamani ya nambari inayoweza kubadilishwa';
+  String get demoSlidersEditableNumericalValue =>
+      'Thamani ya nambari inayoweza kubadilishwa';
 
   @override
   String get demoMenuTitle => 'Menyu';
@@ -741,7 +787,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Vitufe vya menyu na menyu sahili';
 
   @override
-  String get demoMenuDescription => 'Menyu huonyesha orodha ya chaguo kwenye sehemu ya muda mfupi. Huonekana watumiaji wanapotumia kitufe, kitendo au kidhibiti kingine.';
+  String get demoMenuDescription =>
+      'Menyu huonyesha orodha ya chaguo kwenye sehemu ya muda mfupi. Huonekana watumiaji wanapotumia kitufe, kitendo au kidhibiti kingine.';
 
   @override
   String get demoMenuItemValueOne => 'Kipengee cha kwanza cha menyu';
@@ -777,7 +824,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoMenuContextMenuItemThree => 'Kipengee cha tatu cha menyu';
 
   @override
-  String get demoMenuAnItemWithASectionedMenu => 'Kipengee chenye menyu ya vijisehemu';
+  String get demoMenuAnItemWithASectionedMenu =>
+      'Kipengee chenye menyu ya vijisehemu';
 
   @override
   String get demoMenuPreview => 'Kagua kwanza';
@@ -805,10 +853,12 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoNavigationDrawerTitle => 'Droo ya Kusogeza';
 
   @override
-  String get demoNavigationDrawerSubtitle => 'Inaonyesha droo katika upau wa programu';
+  String get demoNavigationDrawerSubtitle =>
+      'Inaonyesha droo katika upau wa programu';
 
   @override
-  String get demoNavigationDrawerDescription => 'Kidirisha cha Usanifu Bora kinachoteleza kwa mlalo kuanzia ukingo wa skrini ili kuonyesha viungo vya usogezaji katika programu.';
+  String get demoNavigationDrawerDescription =>
+      'Kidirisha cha Usanifu Bora kinachoteleza kwa mlalo kuanzia ukingo wa skrini ili kuonyesha viungo vya usogezaji katika programu.';
 
   @override
   String get demoNavigationDrawerUserName => 'Jina la Mtumiaji';
@@ -823,16 +873,19 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Kipengee cha Pili';
 
   @override
-  String get demoNavigationDrawerText => 'Telezesha kidole kuanzia kwenye ukingo au uguse aikoni iliyo juu kushoto ili uone droo';
+  String get demoNavigationDrawerText =>
+      'Telezesha kidole kuanzia kwenye ukingo au uguse aikoni iliyo juu kushoto ili uone droo';
 
   @override
   String get demoNavigationRailTitle => 'Reli ya Usogezaji';
 
   @override
-  String get demoNavigationRailSubtitle => 'Inaonyesha Reli ya Usogezaji katika programu';
+  String get demoNavigationRailSubtitle =>
+      'Inaonyesha Reli ya Usogezaji katika programu';
 
   @override
-  String get demoNavigationRailDescription => 'Wijeti ya usanifu bora ambayo imeundwa kwa ajili ya kuonyeshwa kwenye upande wa kushoto au kulia wa programu ili kusogeza kati ya idadi ndogo ya kutazamwa, kwa kawaida kati ya tatu na tano.';
+  String get demoNavigationRailDescription =>
+      'Wijeti ya usanifu bora ambayo imeundwa kwa ajili ya kuonyeshwa kwenye upande wa kushoto au kulia wa programu ili kusogeza kati ya idadi ndogo ya kutazamwa, kwa kawaida kati ya tatu na tano.';
 
   @override
   String get demoNavigationRailFirst => 'Ya kwanza';
@@ -847,22 +900,26 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoMenuAnItemWithASimpleMenu => 'Kipengee chenye menyu sahili';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Kipengee chenye menyu ya orodha hakikishi';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Kipengee chenye menyu ya orodha hakikishi';
 
   @override
   String get demoFullscreenDialogTitle => 'Skrini nzima';
 
   @override
-  String get demoFullscreenDialogDescription => 'Sifa ya fullscreenDialog hubainisha iwapo ukurasa ujao ni wa kidirisha cha kawaida cha skrini nzima';
+  String get demoFullscreenDialogDescription =>
+      'Sifa ya fullscreenDialog hubainisha iwapo ukurasa ujao ni wa kidirisha cha kawaida cha skrini nzima';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Kiashirio cha shughuli';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'Viashirio vya shughuli vya muundo wa iOS';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'Viashirio vya shughuli vya muundo wa iOS';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'Kiashirio cha shughuli cha muundo wa iOS chenye mzunguko wa saa.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'Kiashirio cha shughuli cha muundo wa iOS chenye mzunguko wa saa.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Vitufe';
@@ -871,7 +928,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'Vitufe vya muundo wa iOS';
 
   @override
-  String get demoCupertinoButtonsDescription => 'Kitufe cha muundo wa iOS. Huchukua maandishi na/au aikoni ambayo hufifia nje na ndani inapoguswa. Huenda kwa hiari ikawa na mandharinyuma.';
+  String get demoCupertinoButtonsDescription =>
+      'Kitufe cha muundo wa iOS. Huchukua maandishi na/au aikoni ambayo hufifia nje na ndani inapoguswa. Huenda kwa hiari ikawa na mandharinyuma.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +938,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,19 +948,22 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Arifa';
 
   @override
-  String get demoCupertinoAlertsSubtitle => 'Vidirisha vya arifa vya muundo wa iOS.';
+  String get demoCupertinoAlertsSubtitle =>
+      'Vidirisha vya arifa vya muundo wa iOS.';
 
   @override
   String get demoCupertinoAlertTitle => 'Arifa';
 
   @override
-  String get demoCupertinoAlertDescription => 'Kidirisha cha arifa humjulisha mtumiaji kuhusu hali zinazohitaji uthibitisho. Kidirisha cha arifa kina kichwa kisicho cha lazima, maudhui yasiyo ya lazima na orodha isiyo ya lazima ya vitendo. Kichwa huonyeshwa juu ya maudhui na vitendo huonyeshwa chini ya maudhui.';
+  String get demoCupertinoAlertDescription =>
+      'Kidirisha cha arifa humjulisha mtumiaji kuhusu hali zinazohitaji uthibitisho. Kidirisha cha arifa kina kichwa kisicho cha lazima, maudhui yasiyo ya lazima na orodha isiyo ya lazima ya vitendo. Kichwa huonyeshwa juu ya maudhui na vitendo huonyeshwa chini ya maudhui.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Arifa Yenye Kichwa';
@@ -916,25 +978,30 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'Laha la Kutenda';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Laha ya kutenda ni muundo mahususi wa arifa unaompa mtumiaji seti ya chaguo mbili au zaidi zinazohusiana na muktadha wa sasa. Laha ya kutenda inaweza kuwa na kichwa, ujumbe wa ziada na orodha ya vitendo.';
+  String get demoCupertinoActionSheetDescription =>
+      'Laha ya kutenda ni muundo mahususi wa arifa unaompa mtumiaji seti ya chaguo mbili au zaidi zinazohusiana na muktadha wa sasa. Laha ya kutenda inaweza kuwa na kichwa, ujumbe wa ziada na orodha ya vitendo.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Sehemu ya viungo muhimu';
 
   @override
-  String get demoCupertinoNavigationBarSubtitle => 'Sehemu ya viungo muhimu ya muundo wa iOs';
+  String get demoCupertinoNavigationBarSubtitle =>
+      'Sehemu ya viungo muhimu ya muundo wa iOs';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'Sehemu ya viungo muhimu ya muundo wa iOS. Sehemu ya viungo muhimu ni upau wa vidhibiti ambao kwa kiasi kidogo una kichwa cha ukurasa, katikati ya upau wa vidhibiti.';
+  String get demoCupertinoNavigationBarDescription =>
+      'Sehemu ya viungo muhimu ya muundo wa iOS. Sehemu ya viungo muhimu ni upau wa vidhibiti ambao kwa kiasi kidogo una kichwa cha ukurasa, katikati ya upau wa vidhibiti.';
 
   @override
   String get demoCupertinoPickerTitle => 'Viteua';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'Viteua vya tarehe na wakati vya muundo wa iOS';
+  String get demoCupertinoPickerSubtitle =>
+      'Viteua vya tarehe na wakati vya muundo wa iOS';
 
   @override
-  String get demoCupertinoPickerDescription => 'Wijeti ya kiteua ya muundo wa iOS inayoweza kutumika ili kuchagua tarehe, wakati au tarehe pamoja na wakati.';
+  String get demoCupertinoPickerDescription =>
+      'Wijeti ya kiteua ya muundo wa iOS inayoweza kutumika ili kuchagua tarehe, wakati au tarehe pamoja na wakati.';
 
   @override
   String get demoCupertinoPickerTimer => 'Kipima muda';
@@ -952,19 +1019,23 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'Vuta ili uonyeshe upya';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'Kidhibiti cha \"vuta ili uonyeshe upya\" cha muundo wa iOS';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'Kidhibiti cha \"vuta ili uonyeshe upya\" cha muundo wa iOS';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Wijeti inayotekeleza kidhibiti cha maudhui cha \"vuta ili uonyeshe upya\" cha muundo wa iOS.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Wijeti inayotekeleza kidhibiti cha maudhui cha \"vuta ili uonyeshe upya\" cha muundo wa iOS.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Udhibiti wa vikundi';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'Udhibiti wa vikundi vya muundo wa iOS';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'Udhibiti wa vikundi vya muundo wa iOS';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Hutumika kuchagua kati ya chaguo kadhaa za kipekee. Chaguo moja katika udhibiti wa vikundi ikichaguliwa, chaguo zingine katika udhibiti wa vikundi hazitachaguliwa.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Hutumika kuchagua kati ya chaguo kadhaa za kipekee. Chaguo moja katika udhibiti wa vikundi ikichaguliwa, chaguo zingine katika udhibiti wa vikundi hazitachaguliwa.';
 
   @override
   String get demoCupertinoSliderTitle => 'Kitelezi';
@@ -973,7 +1044,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'Kitelezi cha muundo wa iOS';
 
   @override
-  String get demoCupertinoSliderDescription => 'Kitelezi kinaweza kutumiwa ili kuchagua kati ya seti za thamani endelevu au zenye kikomo.';
+  String get demoCupertinoSliderDescription =>
+      'Kitelezi kinaweza kutumiwa ili kuchagua kati ya seti za thamani endelevu au zenye kikomo.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,16 +1061,19 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'Swichi ya muundo wa iOS';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Swichi inatumika kugeuza hali ya kuwasha/kuzima ya chaguo moja la mipangilio.';
+  String get demoCupertinoSwitchDescription =>
+      'Swichi inatumika kugeuza hali ya kuwasha/kuzima ya chaguo moja la mipangilio.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Upao wa kichupo';
 
   @override
-  String get demoCupertinoTabBarSubtitle => 'Upau wa kichupo wa upande wa chini wa muundo wa iOS';
+  String get demoCupertinoTabBarSubtitle =>
+      'Upau wa kichupo wa upande wa chini wa muundo wa iOS';
 
   @override
-  String get demoCupertinoTabBarDescription => 'Upau wa kichupo cha kusogeza wa upande wa chini wa muundo wa iOS. Huonyesha vichupo vingi huku kichupo kimoja kikitumika, kichupo cha kwanza kwa chaguomsingi.';
+  String get demoCupertinoTabBarDescription =>
+      'Upau wa kichupo cha kusogeza wa upande wa chini wa muundo wa iOS. Huonyesha vichupo vingi huku kichupo kimoja kikitumika, kichupo cha kwanza kwa chaguomsingi.';
 
   @override
   String get cupertinoTabBarHomeTab => 'Skrini ya kwanza';
@@ -1013,10 +1088,12 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoCupertinoTextFieldTitle => 'Sehemu za maandishi';
 
   @override
-  String get demoCupertinoTextFieldSubtitle => 'Sehemu za maandishi za muundo wa iOS';
+  String get demoCupertinoTextFieldSubtitle =>
+      'Sehemu za maandishi za muundo wa iOS';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'Sehemu ya maandishi humruhusu mtumiaji kuweka maandishi, kwa kutumia kibodi ya maunzi au kutumia kibodi iliyo kwenye skrini.';
+  String get demoCupertinoTextFieldDescription =>
+      'Sehemu ya maandishi humruhusu mtumiaji kuweka maandishi, kwa kutumia kibodi ya maunzi au kutumia kibodi iliyo kwenye skrini.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN';
@@ -1025,22 +1102,27 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoMotionTitle => 'Picha video';
 
   @override
-  String get demoMotionSubtitle => 'Michoro yote ya kubadilisha iliyobainishwa mapema';
+  String get demoMotionSubtitle =>
+      'Michoro yote ya kubadilisha iliyobainishwa mapema';
 
   @override
   String get demoContainerTransformDemoInstructions => 'Kadi, Orodha na FAB';
 
   @override
-  String get demoSharedXAxisDemoInstructions => 'Vitufe vya Kuendelea na Kurudi Nyuma';
+  String get demoSharedXAxisDemoInstructions =>
+      'Vitufe vya Kuendelea na Kurudi Nyuma';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'Panga kulingana na \"Ulizocheza Karibuni\"';
+  String get demoSharedYAxisDemoInstructions =>
+      'Panga kulingana na \"Ulizocheza Karibuni\"';
 
   @override
-  String get demoSharedZAxisDemoInstructions => 'Kitufe cha aikoni ya mipangilio';
+  String get demoSharedZAxisDemoInstructions =>
+      'Kitufe cha aikoni ya mipangilio';
 
   @override
-  String get demoFadeThroughDemoInstructions => 'Usogezaji katika sehemu ya chini';
+  String get demoFadeThroughDemoInstructions =>
+      'Usogezaji katika sehemu ya chini';
 
   @override
   String get demoFadeScaleDemoInstructions => 'Kidirisha na FAB';
@@ -1049,7 +1131,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'Ubadilishaji wa Metadata';
 
   @override
-  String get demoContainerTransformDescription => 'Mchoro wa kubadilisha metadata umeundwa ili kubadilisha kati ya vipengele vya kiolesura ambavyo vinajumuisha metadata. Mchoro huu huunda muunganisho unaoonekana kati ya vipengele viwili vya kiolesura';
+  String get demoContainerTransformDescription =>
+      'Mchoro wa kubadilisha metadata umeundwa ili kubadilisha kati ya vipengele vya kiolesura ambavyo vinajumuisha metadata. Mchoro huu huunda muunganisho unaoonekana kati ya vipengele viwili vya kiolesura';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'Hali ya kufifisha';
@@ -1076,7 +1159,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Kipengee cha orodha';
 
   @override
-  String get demoSharedAxisDescription => 'Mchoro wa mhimili unaoshirikiwa hutumika kubadilisha kati ya vipengele vya kiolesura ambavyo vina uhusiano wa uelekezaji au wa eneo. Mchoro huu hutumia ubadilishaji unaoshirikiwa kwenye mhimili wa x, y au z ili kutilia mkazo uhusiano kati ya vipengele.';
+  String get demoSharedAxisDescription =>
+      'Mchoro wa mhimili unaoshirikiwa hutumika kubadilisha kati ya vipengele vya kiolesura ambavyo vina uhusiano wa uelekezaji au wa eneo. Mchoro huu hutumia ubadilishaji unaoshirikiwa kwenye mhimili wa x, y au z ili kutilia mkazo uhusiano kati ya vipengele.';
 
   @override
   String get demoSharedXAxisTitle => 'Mhimili wa x unaoshirikiwa';
@@ -1091,7 +1175,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'Ratibu kozi zako';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Aina zilizowekwa kwenye mafungu huonekana kama makundi katika mipasho yako. Unaweza kubadilisha mipangilio hii wakati wowote baadaye.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Aina zilizowekwa kwenye mafungu huonekana kama makundi katika mipasho yako. Unaweza kubadilisha mipangilio hii wakati wowote baadaye.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Sanaa na Ufundi';
@@ -1121,10 +1206,12 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoSharedXAxisSignInSubtitleText => 'Ingia ukitumia akaunti yako';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'Anwani ya barua pepe au nambari ya simu';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'Anwani ya barua pepe au nambari ya simu';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'JE, UMESAHAU ANWANI YA BARUA PEPE?';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'JE, UMESAHAU ANWANI YA BARUA PEPE?';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'FUNGUA AKAUNTI';
@@ -1178,19 +1265,23 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Uduvi';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Mapishi ya mlo wa uduvi';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Mapishi ya mlo wa uduvi';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Kaa';
 
   @override
-  String get demoSharedZAxisCrabPlateRecipeDescription => 'Mapishi ya mlo wa kaa';
+  String get demoSharedZAxisCrabPlateRecipeDescription =>
+      'Mapishi ya mlo wa kaa';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeTitle => 'Sandwichi ya nyama ya ng\'ombe';
+  String get demoSharedZAxisBeefSandwichRecipeTitle =>
+      'Sandwichi ya nyama ya ng\'ombe';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Mapishi ya sandwichi ya nyama ya ng\'ombe';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Mapishi ya sandwichi ya nyama ya ng\'ombe';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Mapishi Yaliyohifadhiwa';
@@ -1211,7 +1302,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Inayoruhusu kufifisha';
 
   @override
-  String get demoFadeThroughDescription => 'Mchoro unaoruhusu kufifisha hutumiwa kubadilisha kati ya vipengele vya kiolesura ambavyo havina uhusiano thabiti kati yake.';
+  String get demoFadeThroughDescription =>
+      'Mchoro unaoruhusu kufifisha hutumiwa kubadilisha kati ya vipengele vya kiolesura ambavyo havina uhusiano thabiti kati yake.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Albamu';
@@ -1229,7 +1321,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Fifisha';
 
   @override
-  String get demoFadeScaleDescription => 'Mchoro wa kufifisha hutumiwa kwenye vipengele vya kiolesura vinavyoingia au kuondoka katika mipaka ya skrini, kama vile kidirisha kinachofifia katikati ya skrini.';
+  String get demoFadeScaleDescription =>
+      'Mchoro wa kufifisha hutumiwa kwenye vipengele vya kiolesura vinavyoingia au kuondoka katika mipaka ya skrini, kama vile kidirisha kinachofifia katikati ya skrini.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'ONYESHA KIDIRISHA';
@@ -1256,16 +1349,19 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Rangi zote zilizobainishwa mapema';
 
   @override
-  String get demoColorsDescription => 'Rangi na seti ya rangi isiyobadilika ambayo inawakilisha safu ya rangi ya Usanifu Bora.';
+  String get demoColorsDescription =>
+      'Rangi na seti ya rangi isiyobadilika ambayo inawakilisha safu ya rangi ya Usanifu Bora.';
 
   @override
   String get demoTypographyTitle => 'Taipografia';
 
   @override
-  String get demoTypographySubtitle => 'Miundo yote ya maandishi iliyobainishwa';
+  String get demoTypographySubtitle =>
+      'Miundo yote ya maandishi iliyobainishwa';
 
   @override
-  String get demoTypographyDescription => 'Ufafanuzi wa miundo mbalimbali ya taipografia inayopatikana katika Usanifu Bora.';
+  String get demoTypographyDescription =>
+      'Ufafanuzi wa miundo mbalimbali ya taipografia inayopatikana katika Usanifu Bora.';
 
   @override
   String get demo2dTransformationsTitle => 'Ubadilishaji wa 2D';
@@ -1274,7 +1370,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'Geuza upande, kuza, zungusha';
 
   @override
-  String get demo2dTransformationsDescription => 'Gusa ili ubadilishe vigae na utumie ishara kusogea hapa na pale kwenye tukio. Buruta ili ugeuze upande, bana ili ukuze, zungusha ukitumia vidole viwili. Bonyeza kitufe cha kuweka upya ili urejeshe kwenye mkao wa kuanza.';
+  String get demo2dTransformationsDescription =>
+      'Gusa ili ubadilishe vigae na utumie ishara kusogea hapa na pale kwenye tukio. Buruta ili ugeuze upande, bana ili ukuze, zungusha ukitumia vidole viwili. Bonyeza kitufe cha kuweka upya ili urejeshe kwenye mkao wa kuanza.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Weka upya ubadilishaji';
@@ -1295,13 +1392,15 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'Laha endelevu ya chini';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Laha endelevu ya chini huonyesha maelezo yanayojaliza maudhui ya msingi ya programu. Laha endelevu ya chini huendelea kuonekana hata wakati mtumiaji anatumia sehemu zingine za programu.';
+  String get demoBottomSheetPersistentDescription =>
+      'Laha endelevu ya chini huonyesha maelezo yanayojaliza maudhui ya msingi ya programu. Laha endelevu ya chini huendelea kuonekana hata wakati mtumiaji anatumia sehemu zingine za programu.';
 
   @override
   String get demoBottomSheetModalTitle => 'Laha ya kawaida ya chini';
 
   @override
-  String get demoBottomSheetModalDescription => 'Laha ya kawaida ya chini ni mbadala wa menyu au kidirisha na humzuia mtumiaji kutumia sehemu inayosalia ya programu.';
+  String get demoBottomSheetModalDescription =>
+      'Laha ya kawaida ya chini ni mbadala wa menyu au kidirisha na humzuia mtumiaji kutumia sehemu inayosalia ya programu.';
 
   @override
   String get demoBottomSheetAddLabel => 'Ongeza';
@@ -1324,7 +1423,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoListsSubtitle => 'Miundo ya orodha za kusogeza';
 
   @override
-  String get demoListsDescription => 'Safu wima moja ya urefu usiobadilika ambayo kwa kawaida ina baadhi ya maandishi na pia aikoni ya mwanzoni au mwishoni.';
+  String get demoListsDescription =>
+      'Safu wima moja ya urefu usiobadilika ambayo kwa kawaida ina baadhi ya maandishi na pia aikoni ya mwanzoni au mwishoni.';
 
   @override
   String get demoOneLineListsTitle => 'Mstari Mmoja';
@@ -1339,19 +1439,24 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoProgressIndicatorTitle => 'Viashirio vya shughuli';
 
   @override
-  String get demoProgressIndicatorSubtitle => 'Cha mstari, cha mviringo, kisichopimika';
+  String get demoProgressIndicatorSubtitle =>
+      'Cha mstari, cha mviringo, kisichopimika';
 
   @override
-  String get demoCircularProgressIndicatorTitle => 'Kiashirio cha Shughuli cha Mduara';
+  String get demoCircularProgressIndicatorTitle =>
+      'Kiashirio cha Shughuli cha Mduara';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Kiashirio cha Usanifu Bora cha shughuli cha mduara, kinachozunguka kuonyesha kuwa programu inatumika.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Kiashirio cha Usanifu Bora cha shughuli cha mduara, kinachozunguka kuonyesha kuwa programu inatumika.';
 
   @override
-  String get demoLinearProgressIndicatorTitle => 'Kiashirio cha Shughuli cha Mstari';
+  String get demoLinearProgressIndicatorTitle =>
+      'Kiashirio cha Shughuli cha Mstari';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Kiashirio cha Usanifu Bora cha shughuli cha mstari, pia huitwa upau wa shughuli.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Kiashirio cha Usanifu Bora cha shughuli cha mstari, pia huitwa upau wa shughuli.';
 
   @override
   String get demoPickersTitle => 'Viteua';
@@ -1363,19 +1468,22 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Kiteua Tarehe';
 
   @override
-  String get demoDatePickerDescription => 'Huonyesha kidirisha chenye kiteua tarehe cha Usanifu Bora.';
+  String get demoDatePickerDescription =>
+      'Huonyesha kidirisha chenye kiteua tarehe cha Usanifu Bora.';
 
   @override
   String get demoTimePickerTitle => 'Kiteua Wakati';
 
   @override
-  String get demoTimePickerDescription => 'Huonyesha kidirisha chenye kiteua wakati cha Usanifu Bora.';
+  String get demoTimePickerDescription =>
+      'Huonyesha kidirisha chenye kiteua wakati cha Usanifu Bora.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'ONYESHA KITEUA';
@@ -1390,19 +1498,23 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoTabsNonScrollingTitle => 'Isiyosogeza';
 
   @override
-  String get demoTabsSubtitle => 'Vichupo vyenye mionekano huru inayoweza kusogezwa';
+  String get demoTabsSubtitle =>
+      'Vichupo vyenye mionekano huru inayoweza kusogezwa';
 
   @override
-  String get demoTabsDescription => 'Vichupo hupanga maudhui kwenye skrini tofauti, seti za data na shughuli zingine.';
+  String get demoTabsDescription =>
+      'Vichupo hupanga maudhui kwenye skrini tofauti, seti za data na shughuli zingine.';
 
   @override
   String get demoSnackbarsTitle => 'Vidirisha vya arifa';
 
   @override
-  String get demoSnackbarsSubtitle => 'Vidirisha vya arifa huonyesha ujumbe katika sehemu ya chini ya skrini';
+  String get demoSnackbarsSubtitle =>
+      'Vidirisha vya arifa huonyesha ujumbe katika sehemu ya chini ya skrini';
 
   @override
-  String get demoSnackbarsDescription => 'Vidirisha vya arifa huwajulisha watumiaji kuhusu mchakato ambao programu imetekeleza au itatekeleza. Huonekana kwa muda mfupi, kuelekea sehemu ya chini ya skrini. Havifai kusumbua hali ya utumiaji, na havihitaji mtumiaji achukue hatua yoyote ili viondoke.';
+  String get demoSnackbarsDescription =>
+      'Vidirisha vya arifa huwajulisha watumiaji kuhusu mchakato ambao programu imetekeleza au itatekeleza. Huonekana kwa muda mfupi, kuelekea sehemu ya chini ya skrini. Havifai kusumbua hali ya utumiaji, na havihitaji mtumiaji achukue hatua yoyote ili viondoke.';
 
   @override
   String get demoSnackbarsButtonLabel => 'ONYESHA KIDIRISHA CHA ARIFA';
@@ -1414,31 +1526,36 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoSnackbarsActionButtonLabel => 'KITENDO';
 
   @override
-  String get demoSnackbarsAction => 'Umebonyeza kitendo cha kidirisha cha arifa.';
+  String get demoSnackbarsAction =>
+      'Umebonyeza kitendo cha kidirisha cha arifa.';
 
   @override
   String get demoSelectionControlsTitle => 'Vidhibiti vya kuteua';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Visanduku vya kuteua, vitufe vya mviringo na swichi';
+  String get demoSelectionControlsSubtitle =>
+      'Visanduku vya kuteua, vitufe vya mviringo na swichi';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Kisanduku cha kuteua';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Visanduku vya kuteua humruhusu mtumiaji kuteua chaguo nyingi kwenye seti. Thamani ya kawaida ya kisanduku cha kuteua ni ndivyo au saivyo na thamani ya hali tatu ya kisanduku cha kuteua pia inaweza kuwa batili.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Visanduku vya kuteua humruhusu mtumiaji kuteua chaguo nyingi kwenye seti. Thamani ya kawaida ya kisanduku cha kuteua ni ndivyo au saivyo na thamani ya hali tatu ya kisanduku cha kuteua pia inaweza kuwa batili.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Redio';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Vitufe vya mviringo humruhusu mtumiaji kuteua chaguo moja kwenye seti. Tumia vitufe vya mviringo kwa uteuzi wa kipekee ikiwa unafikiri kuwa mtumiaji anahitaji kuona chaguo zote upande kwa upande.';
+  String get demoSelectionControlsRadioDescription =>
+      'Vitufe vya mviringo humruhusu mtumiaji kuteua chaguo moja kwenye seti. Tumia vitufe vya mviringo kwa uteuzi wa kipekee ikiwa unafikiri kuwa mtumiaji anahitaji kuona chaguo zote upande kwa upande.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Swichi';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Swichi za kuwasha/kuzima hugeuza hali ya chaguo moja la mipangilio. Chaguo ambalo swichi inadhibiti na pia hali ambayo chaguo hilo limo inafaa kubainishwa wazi kwenye lebo inayolingana na maandishi.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Swichi za kuwasha/kuzima hugeuza hali ya chaguo moja la mipangilio. Chaguo ambalo swichi inadhibiti na pia hali ambayo chaguo hilo limo inafaa kubainishwa wazi kwenye lebo inayolingana na maandishi.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Sehemu za maandishi';
@@ -1447,10 +1564,12 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoTextFieldTitle => 'Sehemu za maandishi';
 
   @override
-  String get demoTextFieldSubtitle => 'Mstari mmoja wa maandishi na nambari zinazoweza kubadilishwa';
+  String get demoTextFieldSubtitle =>
+      'Mstari mmoja wa maandishi na nambari zinazoweza kubadilishwa';
 
   @override
-  String get demoTextFieldDescription => 'Sehemu za maandishi huwaruhusu watumiaji kuweka maandishi kwenye kiolesura. Kwa kawaida huwa zinaonekana katika fomu na vidirisha.';
+  String get demoTextFieldDescription =>
+      'Sehemu za maandishi huwaruhusu watumiaji kuweka maandishi kwenye kiolesura. Kwa kawaida huwa zinaonekana katika fomu na vidirisha.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Onyesha nenosiri';
@@ -1459,16 +1578,19 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Ficha nenosiri';
 
   @override
-  String get demoTextFieldFormErrors => 'Tafadhali tatua hitilafu zilizo katika rangi nyekundu kabla ya kuwasilisha.';
+  String get demoTextFieldFormErrors =>
+      'Tafadhali tatua hitilafu zilizo katika rangi nyekundu kabla ya kuwasilisha.';
 
   @override
   String get demoTextFieldNameRequired => 'Ni sharti ujaze jina.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'Tafadhali weka herufi za kialfabeti pekee.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'Tafadhali weka herufi za kialfabeti pekee.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - Weka nambari ya simu ya Marekani.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - Weka nambari ya simu ya Marekani.';
 
   @override
   String get demoTextFieldEnterPassword => 'Tafadhali weka nenosiri.';
@@ -1483,7 +1605,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoTextFieldNameField => 'Jina*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'Je, tunawezaje kuwasiliana nawe?';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'Je, tunawezaje kuwasiliana nawe?';
 
   @override
   String get demoTextFieldPhoneNumber => 'Nambari ya simu*';
@@ -1495,10 +1618,12 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get demoTextFieldEmail => 'Barua pepe';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Tueleze kukuhusu (k.m., andika kazi unayofanya au mambo unayopenda kupitishia muda)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Tueleze kukuhusu (k.m., andika kazi unayofanya au mambo unayopenda kupitishia muda)';
 
   @override
-  String get demoTextFieldKeepItShort => 'Tumia herufi chache, hili ni onyesho tu.';
+  String get demoTextFieldKeepItShort =>
+      'Tumia herufi chache, hili ni onyesho tu.';
 
   @override
   String get demoTextFieldLifeStory => 'Hadithi ya wasifu';
@@ -1527,19 +1652,23 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   }
 
   @override
-  String get demoTextFieldRequiredField => '* inaonyesha sehemu ambayo sharti ijazwe';
+  String get demoTextFieldRequiredField =>
+      '* inaonyesha sehemu ambayo sharti ijazwe';
 
   @override
   String get demoTooltipTitle => 'Vidirisha vya vidokezo';
 
   @override
-  String get demoTooltipSubtitle => 'Ujumbe mfupi unaoonyeshwa ukibonyeza kwa muda mrefu au kuelea juu';
+  String get demoTooltipSubtitle =>
+      'Ujumbe mfupi unaoonyeshwa ukibonyeza kwa muda mrefu au kuelea juu';
 
   @override
-  String get demoTooltipDescription => 'Vidirisha vya vidokezo hutoa lebo za matini zinazosaidia kueleza umuhimu wa kitufe au kitendo kingine cha kiolesura. Vidirisha vya vidokezo huonyesha matini ya maelezo watumiaji wanapoelea, lenga au kubonyeza kipengee kwa muda mrefu.';
+  String get demoTooltipDescription =>
+      'Vidirisha vya vidokezo hutoa lebo za matini zinazosaidia kueleza umuhimu wa kitufe au kitendo kingine cha kiolesura. Vidirisha vya vidokezo huonyesha matini ya maelezo watumiaji wanapoelea, lenga au kubonyeza kipengee kwa muda mrefu.';
 
   @override
-  String get demoTooltipInstructions => 'Bonyeza kwa muda mrefu au uelee ili uonyeshe kidirisha cha vidokezo.';
+  String get demoTooltipInstructions =>
+      'Bonyeza kwa muda mrefu au uelee ili uonyeshe kidirisha cha vidokezo.';
 
   @override
   String get bottomNavigationCommentsTab => 'Maoni';
@@ -1597,10 +1726,12 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get dialogDiscardTitle => 'Ungependa kufuta rasimu?';
 
   @override
-  String get dialogLocationTitle => 'Ungependa kutumia huduma ya mahali ya Google?';
+  String get dialogLocationTitle =>
+      'Ungependa kutumia huduma ya mahali ya Google?';
 
   @override
-  String get dialogLocationDescription => 'Ruhusu Google isaidie programu kutambua mahali. Hii inamaanisha kutuma data isiyokutambulisha kwa Google, hata wakati hakuna programu zinazotumika.';
+  String get dialogLocationDescription =>
+      'Ruhusu Google isaidie programu kutambua mahali. Hii inamaanisha kutuma data isiyokutambulisha kwa Google, hata wakati hakuna programu zinazotumika.';
 
   @override
   String get dialogCancel => 'GHAIRI';
@@ -1630,7 +1761,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get dialogFullscreenSave => 'HIFADHI';
 
   @override
-  String get dialogFullscreenDescription => 'Onyesho la kidirisha cha skrini nzima';
+  String get dialogFullscreenDescription =>
+      'Onyesho la kidirisha cha skrini nzima';
 
   @override
   String get cupertinoButton => 'Kitufe';
@@ -1645,10 +1777,12 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Ondoa';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Ungependa kuruhusu \"Ramani\" zifikie maelezo ya mahali ulipo unapotumia programu?';
+  String get cupertinoAlertLocationTitle =>
+      'Ungependa kuruhusu \"Ramani\" zifikie maelezo ya mahali ulipo unapotumia programu?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Mahali ulipo sasa pataonyeshwa kwenye ramani na kutumiwa kwa maelekezo, matokeo ya utafutaji wa karibu na muda uliokadiriwa wa kusafiri.';
+  String get cupertinoAlertLocationDescription =>
+      'Mahali ulipo sasa pataonyeshwa kwenye ramani na kutumiwa kwa maelekezo, matokeo ya utafutaji wa karibu na muda uliokadiriwa wa kusafiri.';
 
   @override
   String get cupertinoAlertAllow => 'Ruhusu';
@@ -1660,7 +1794,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Chagua Kitindamlo Unachopenda';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Tafadhali chagua aina unayoipenda ya kitindamlo kwenye orodha iliyo hapa chini. Uteuzi wako utatumiwa kuweka mapendeleo kwenye orodha iliyopendekezwa ya mikahawa katika eneo lako.';
+  String get cupertinoAlertDessertDescription =>
+      'Tafadhali chagua aina unayoipenda ya kitindamlo kwenye orodha iliyo hapa chini. Uteuzi wako utatumiwa kuweka mapendeleo kwenye orodha iliyopendekezwa ya mikahawa katika eneo lako.';
 
   @override
   String get cupertinoAlertCheesecake => 'Keki ya jibini';
@@ -1780,7 +1915,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get starterAppTitle => 'Programu ya kuanza';
 
   @override
-  String get starterAppDescription => 'Muundo wa kuanzisha unaobadilika kulingana na kifaa';
+  String get starterAppDescription =>
+      'Muundo wa kuanzisha unaobadilika kulingana na kifaa';
 
   @override
   String get starterAppGenericButton => 'KITUFE';
@@ -1974,7 +2110,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get shrineProductGingerScarf => 'Skafu ya Ginger';
 
   @override
-  String get shrineProductRamonaCrossover => 'Blauzi iliyofunguka kidogo kifuani';
+  String get shrineProductRamonaCrossover =>
+      'Blauzi iliyofunguka kidogo kifuani';
 
   @override
   String get shrineProductClassicWhiteCollar => 'Blauzi nyeupe ya kawaida';
@@ -2243,25 +2380,30 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get craneEat10 => 'Lisbon, Ureno';
 
   @override
-  String get craneFly0SemanticLabel => 'Nyumba ndogo ya kupumzika katika mandhari ya theluji yenye miti ya kijani kibichi';
+  String get craneFly0SemanticLabel =>
+      'Nyumba ndogo ya kupumzika katika mandhari ya theluji yenye miti ya kijani kibichi';
 
   @override
   String get craneFly1SemanticLabel => 'Hema katika uwanja';
 
   @override
-  String get craneFly2SemanticLabel => 'Bendera za maombi mbele ya mlima uliofunikwa kwa theluji';
+  String get craneFly2SemanticLabel =>
+      'Bendera za maombi mbele ya mlima uliofunikwa kwa theluji';
 
   @override
   String get craneFly3SemanticLabel => 'Ngome ya Machu Picchu';
 
   @override
-  String get craneFly4SemanticLabel => 'Nyumba zisizo na ghorofa zilizojengwa juu ya maji';
+  String get craneFly4SemanticLabel =>
+      'Nyumba zisizo na ghorofa zilizojengwa juu ya maji';
 
   @override
-  String get craneFly5SemanticLabel => 'Hoteli kando ya ziwa na mbele ya milima';
+  String get craneFly5SemanticLabel =>
+      'Hoteli kando ya ziwa na mbele ya milima';
 
   @override
-  String get craneFly6SemanticLabel => 'Mwonekeno wa juu wa Palacio de Bellas Artes';
+  String get craneFly6SemanticLabel =>
+      'Mwonekeno wa juu wa Palacio de Bellas Artes';
 
   @override
   String get craneFly7SemanticLabel => 'Mlima Rushmore';
@@ -2270,10 +2412,12 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'Kijisitu cha Supertree';
 
   @override
-  String get craneFly9SemanticLabel => 'Mwanaume aliyeegemea gari la kale la samawati';
+  String get craneFly9SemanticLabel =>
+      'Mwanaume aliyeegemea gari la kale la samawati';
 
   @override
-  String get craneFly10SemanticLabel => 'Minara ya Msikiti wa Al-Azhar wakati wa machweo';
+  String get craneFly10SemanticLabel =>
+      'Minara ya Msikiti wa Al-Azhar wakati wa machweo';
 
   @override
   String get craneFly11SemanticLabel => 'Mnara wa taa wa matofali baharini';
@@ -2282,22 +2426,27 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get craneFly12SemanticLabel => 'Bwawa lenye michikichi';
 
   @override
-  String get craneFly13SemanticLabel => 'Bwawa lenye michikichi kando ya bahari';
+  String get craneFly13SemanticLabel =>
+      'Bwawa lenye michikichi kando ya bahari';
 
   @override
-  String get craneSleep0SemanticLabel => 'Nyumba zisizo na ghorofa zilizojengwa juu ya maji';
+  String get craneSleep0SemanticLabel =>
+      'Nyumba zisizo na ghorofa zilizojengwa juu ya maji';
 
   @override
-  String get craneSleep1SemanticLabel => 'Nyumba ndogo ya kupumzika katika mandhari ya theluji yenye miti ya kijani kibichi';
+  String get craneSleep1SemanticLabel =>
+      'Nyumba ndogo ya kupumzika katika mandhari ya theluji yenye miti ya kijani kibichi';
 
   @override
   String get craneSleep2SemanticLabel => 'Ngome ya Machu Picchu';
 
   @override
-  String get craneSleep3SemanticLabel => 'Mwanaume aliyeegemea gari la kale la samawati';
+  String get craneSleep3SemanticLabel =>
+      'Mwanaume aliyeegemea gari la kale la samawati';
 
   @override
-  String get craneSleep4SemanticLabel => 'Hoteli kando ya ziwa na mbele ya milima';
+  String get craneSleep4SemanticLabel =>
+      'Hoteli kando ya ziwa na mbele ya milima';
 
   @override
   String get craneSleep5SemanticLabel => 'Hema katika uwanja';
@@ -2306,16 +2455,19 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get craneSleep6SemanticLabel => 'Bwawa lenye michikichi';
 
   @override
-  String get craneSleep7SemanticLabel => 'Nyumba maridadi katika Mraba wa Riberia';
+  String get craneSleep7SemanticLabel =>
+      'Nyumba maridadi katika Mraba wa Riberia';
 
   @override
-  String get craneSleep8SemanticLabel => 'Magofu ya Maya kwenye jabali juu ya ufuo';
+  String get craneSleep8SemanticLabel =>
+      'Magofu ya Maya kwenye jabali juu ya ufuo';
 
   @override
   String get craneSleep9SemanticLabel => 'Mnara wa taa wa matofali baharini';
 
   @override
-  String get craneSleep10SemanticLabel => 'Minara ya Msikiti wa Al-Azhar wakati wa machweo';
+  String get craneSleep10SemanticLabel =>
+      'Minara ya Msikiti wa Al-Azhar wakati wa machweo';
 
   @override
   String get craneSleep11SemanticLabel => 'Maghorofa ya Taipei 101';
@@ -2324,7 +2476,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get craneEat0SemanticLabel => 'Piza ndani ya tanuri la kuni';
 
   @override
-  String get craneEat1SemanticLabel => 'Baa tupu yenye stuli za muundo wa behewa';
+  String get craneEat1SemanticLabel =>
+      'Baa tupu yenye stuli za muundo wa behewa';
 
   @override
   String get craneEat2SemanticLabel => 'Baga';
@@ -2351,7 +2504,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get craneEat9SemanticLabel => 'Kaunta ya mkahawa yenye vitobosha';
 
   @override
-  String get craneEat10SemanticLabel => 'Mwanamke aliyeshika sandiwichi kubwa ya pastrami';
+  String get craneEat10SemanticLabel =>
+      'Mwanamke aliyeshika sandiwichi kubwa ya pastrami';
 
   @override
   String get fortnightlyMenuFrontPage => 'Ukurasa wa Mbele';
@@ -2390,7 +2544,8 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get fortnightlyTrendingReform => 'Mageuzi';
 
   @override
-  String get fortnightlyTrendingHealthcareRevolution => 'Mapinduzi ya Huduma za Afya';
+  String get fortnightlyTrendingHealthcareRevolution =>
+      'Mapinduzi ya Huduma za Afya';
 
   @override
   String get fortnightlyTrendingGreenArmy => 'Jeshi la Kijani';
@@ -2402,25 +2557,31 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Taarifa za Hivi Karibuni';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Mapinduzi Kimya, Ila Yenye Nguvu ya Huduma za Afya';
+  String get fortnightlyHeadlineHealthcare =>
+      'Mapinduzi Kimya, Ila Yenye Nguvu ya Huduma za Afya';
 
   @override
-  String get fortnightlyHeadlineWar => 'Maisha ya Utengano ya Marekani Wakati wa Vita';
+  String get fortnightlyHeadlineWar =>
+      'Maisha ya Utengano ya Marekani Wakati wa Vita';
 
   @override
   String get fortnightlyHeadlineGasoline => 'Mustakabali wa Mafuta';
 
   @override
-  String get fortnightlyHeadlineArmy => 'Mageuzi ya Jeshi la Kijani Kukota Ndani';
+  String get fortnightlyHeadlineArmy =>
+      'Mageuzi ya Jeshi la Kijani Kukota Ndani';
 
   @override
-  String get fortnightlyHeadlineStocks => 'Hisa Zinapodoroa, Wengi Huwekeza Kwenye Sarafu';
+  String get fortnightlyHeadlineStocks =>
+      'Hisa Zinapodoroa, Wengi Huwekeza Kwenye Sarafu';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Wanamitindo Wanatumia Teknolojia Kutengeneza Vitambaa vya Kisasa';
+  String get fortnightlyHeadlineFabrics =>
+      'Wanamitindo Wanatumia Teknolojia Kutengeneza Vitambaa vya Kisasa';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'Watetezi wa Nadharia ya Haki na Usawa wa Wanawake Wanavyopambana na Ubaguzi';
+  String get fortnightlyHeadlineFeminists =>
+      'Watetezi wa Nadharia ya Haki na Usawa wa Wanawake Wanavyopambana na Ubaguzi';
 
   @override
   String get fortnightlyHeadlineBees => 'Upungufu wa Nyuki wa Shambani';

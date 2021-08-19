@@ -6,6 +6,11 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 import 'package:gallery/studies/rally/formatters.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
+//import 'package:flutterfire_samples/res/custom_colors.dart';
+//import 'package:flutterfire_samples/screens/edit_screen.dart';
+import 'package:gallery/utils/database.dart';
 
 /// Calculates the sum of the primary amounts of a list of [AccountData].
 double sumAccountDataPrimaryAmount(List<AccountData> items) =>
@@ -42,7 +47,7 @@ double sumOf<T>(List<T> list, double Function(T elt) getValue) {
 ///
 /// The [primaryAmount] is the balance of the account in USD.
 class AccountData {
-  const AccountData({this.name, this.primaryAmount, this.accountNumber});
+  const AccountData({this.name, this.primaryAmount, this.InputLot});
 
   /// The display name of this entity.
   final String name;
@@ -51,7 +56,7 @@ class AccountData {
   final double primaryAmount;
 
   /// The full displayable account number.
-  final String accountNumber;
+  final String InputLot;
 }
 
 /// A data model for a bill.
@@ -140,22 +145,22 @@ class DummyDataService {
       AccountData(
         name: GalleryLocalizations.of(context).rallyAccountDataChecking,
         primaryAmount: 2215.13,
-        accountNumber: 'Click here to Input No. of lots',
+        InputLot: 'Click here to Input No. of lots',
       ),
       AccountData(
         name: GalleryLocalizations.of(context).rallyAccountDataHomeSavings,
         primaryAmount: 8678.88,
-        accountNumber: 'Click here to Input No. of lots',
+        InputLot: 'Click here to Input No. of lots',
       ),
       AccountData(
         name: GalleryLocalizations.of(context).rallyAccountDataCarSavings,
         primaryAmount: 987.48,
-        accountNumber: 'Click here to Input No. of lots',
+        InputLot: 'Click here to Input No. of lots',
       )
       //AccountData(
       //name: GalleryLocalizations.of(context).rallyAccountDataVacation,
       //primaryAmount: 253,
-      //accountNumber: '1231233456',
+      //InputLot: '1231233456',
       //),
     ];
   }
@@ -190,7 +195,7 @@ class DummyDataService {
       UserDetailData(
         title:
             GalleryLocalizations.of(context).rallyAccountDetailDataAccountOwner,
-        value: 'Philip Cao',
+        value: 'Krithika',
       ),
     ];
   }
@@ -330,14 +335,14 @@ class DummyDataService {
 
   static List<String> getSettingsTitles(BuildContext context) {
     return <String>[
-      GalleryLocalizations.of(context).rallySettingsManageAccounts,
+      /* GalleryLocalizations.of(context).rallySettingsManageAccounts,
       GalleryLocalizations.of(context).rallySettingsTaxDocuments,
       GalleryLocalizations.of(context).rallySettingsPasscodeAndTouchId,
       GalleryLocalizations.of(context).rallySettingsNotifications,
       GalleryLocalizations.of(context).rallySettingsPersonalInformation,
       GalleryLocalizations.of(context).rallySettingsPaperlessSettings,
       GalleryLocalizations.of(context).rallySettingsFindAtms,
-      GalleryLocalizations.of(context).rallySettingsHelp,
+      GalleryLocalizations.of(context).rallySettingsHelp, */
       GalleryLocalizations.of(context).rallySettingsSignOut,
     ];
   }
@@ -505,6 +510,100 @@ class FlinkPorttable extends StatelessWidget {
           ],
         ),
       ],
+    );
+  }
+}
+
+List<DataRow> _createRows(QuerySnapshot snapshot) {
+  List<DataRow> newList =
+      snapshot.docs.map((DocumentSnapshot documentSnapshot) {
+    return new DataRow(cells: [
+      DataCell(Text(documentSnapshot.id.toString())),
+      DataCell(Text(documentSnapshot['symbol'].toString())),
+      DataCell(Text(documentSnapshot['buy_sell'].toString())),
+      DataCell(Text(documentSnapshot['type'].toString())),
+      DataCell(Text(documentSnapshot['quantity'].toString())),
+      DataCell(Text(documentSnapshot['price'].toString())),
+      DataCell(Text(documentSnapshot['timestamp'].toString())),
+      DataCell(Text(documentSnapshot['status'].toString())),
+      //DataCell(Text(documentSnapshot['Rapper name'].toString())),
+    ]);
+  }).toList();
+
+  return newList;
+}
+
+class ItemList extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return StreamBuilder<QuerySnapshot>(
+      stream: Database.readItems(),
+      builder: (context, snapshot) {
+        if (snapshot.hasError) {
+          return Text('Something went wrong');
+        } else if (snapshot.hasData || snapshot.data != null) {
+          return new DataTable(
+            columns: <DataColumn>[
+              new DataColumn(
+                label: Text(
+                  'ORDER ID',
+                  style: TextStyle(fontStyle: FontStyle.normal),
+                ),
+              ),
+              new DataColumn(
+                label: Text(
+                  'SYMBOL',
+                  style: TextStyle(fontStyle: FontStyle.normal),
+                ),
+              ),
+              new DataColumn(
+                label: Text(
+                  'BUY/SELL',
+                  style: TextStyle(fontStyle: FontStyle.normal),
+                ),
+              ),
+              new DataColumn(
+                label: Text(
+                  'TYPE',
+                  style: TextStyle(fontStyle: FontStyle.normal),
+                ),
+              ),
+              new DataColumn(
+                label: Text(
+                  'QTY',
+                  style: TextStyle(fontStyle: FontStyle.normal),
+                ),
+              ),
+              new DataColumn(
+                label: Text(
+                  'PRICE',
+                  style: TextStyle(fontStyle: FontStyle.normal),
+                ),
+              ),
+              new DataColumn(
+                label: Text(
+                  'TIME',
+                  style: TextStyle(fontStyle: FontStyle.normal),
+                ),
+              ),
+              new DataColumn(
+                label: Text(
+                  'STATUS',
+                  style: TextStyle(fontStyle: FontStyle.normal),
+                ),
+              ),
+              //new DataColumn(label: Text('Votes')),
+              //new DataColumn(label: Text('Rapper name')),
+            ],
+            rows: _createRows(snapshot.data),
+          );
+        }
+        return Center(
+          child: CircularProgressIndicator(
+            valueColor: AlwaysStoppedAnimation<Color>(Colors.orange),
+          ),
+        );
+      },
     );
   }
 }

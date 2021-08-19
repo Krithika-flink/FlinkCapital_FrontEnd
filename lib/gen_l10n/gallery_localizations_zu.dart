@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get signIn => 'NGENA NGEMVUME';
 
   @override
-  String get bannerDemoText => 'Iphasiwedi yakho ibuyekezwe kwenye yamadivayisi akho. Sicela uphinde ungene ngemvume.';
+  String get bannerDemoText =>
+      'Iphasiwedi yakho ibuyekezwe kwenye yamadivayisi akho. Sicela uphinde ungene ngemvume.';
 
   @override
   String get bannerDemoResetText => 'Setha kabusa isibhengenzo';
@@ -60,7 +60,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'Amadolobha aphezulu angu-10 ongawavakashela e-Tamil Nadu';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'Amadolobha aphezulu angu-10 ongawavakashela e-Tamil Nadu';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Inombolo engu-10';
@@ -72,7 +73,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get cardsDemoTravelDestinationLocation1 => 'E-Thanjavur, e-Tamil Nadu';
 
   @override
-  String get cardsDemoTravelDestinationTitle2 => 'Izingcwethi zase-Southern India';
+  String get cardsDemoTravelDestinationTitle2 =>
+      'Izingcwethi zase-Southern India';
 
   @override
   String get cardsDemoTravelDestinationDescription2 => 'Amaspina esilika';
@@ -99,13 +101,15 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get shrineDescription => 'Uhlelo lokusebenza lokuthenga lwemfashini';
 
   @override
-  String get fortnightlyDescription => 'Uhlelo lokusebenza lwezindaba olugxiliswe kokuqukethwe';
+  String get fortnightlyDescription =>
+      'Uhlelo lokusebenza lwezindaba olugxiliswe kokuqukethwe';
 
   @override
   String get rallyDescription => 'Uhlelo lokusebenza lezezimali zomuntu';
 
   @override
-  String get replyDescription => 'Uhlelo lokusebenza le-imeyili eligxilile, nelanele';
+  String get replyDescription =>
+      'Uhlelo lokusebenza le-imeyili eligxilile, nelanele';
 
   @override
   String get rallyAccountDataChecking => 'Kuyahlolwa';
@@ -120,7 +124,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Uhambo';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Ukuvuma kwephesenti kwangonyaka';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Ukuvuma kwephesenti kwangonyaka';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Isilinganiso senzalo';
@@ -129,7 +134,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'I-YTD yenzalo';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Inzuzo ekhokhelwe unyaka owedlule';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Inzuzo ekhokhelwe unyaka owedlule';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Isitatimende esilandelayo';
@@ -285,8 +291,10 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Khuphula amandla akho okudonselwa intela! Nikeza izigaba kumsebenzi ongu-1 ongenasigaba.',
-      other: 'Khuphula amandla akho okudonselwa intela! Nikeza izigaba kumisebenzi enganikeziwe engu-${count}.',
+      one:
+          'Khuphula amandla akho okudonselwa intela! Nikeza izigaba kumsebenzi ongu-1 ongenasigaba.',
+      other:
+          'Khuphula amandla akho okudonselwa intela! Nikeza izigaba kumisebenzi enganikeziwe engu-${count}.',
     );
   }
 
@@ -300,7 +308,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Bona wonke amabhajethi';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${accountName} i-akhawunti engu-${accountNumber} enokungu-${amount}.';
   }
 
@@ -310,12 +319,14 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return '${budgetName} ibhajethi enokungu-${amountUsed} okusetshenzisiwe kokungu-${amountTotal}, ${amountLeft} okusele';
   }
 
   @override
-  String get craneDescription => 'Uhlelo lokusebenza lokuhamba olwenziwe ngezifiso';
+  String get craneDescription =>
+      'Uhlelo lokusebenza lokuhamba olwenziwe ngezifiso';
 
   @override
   String get homeCategoryReference => 'IZITAYELA NOKUNYE';
@@ -342,7 +353,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoCodeViewerCopyAll => 'KOPISHA KONKE';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'Kukopishwe kubhodi lokunamathisela.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'Kukopishwe kubhodi lokunamathisela.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -353,7 +365,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Buka izinketho';
 
   @override
-  String get demoOptionsFeatureDescription => 'Thepha lapha ukuze ubuke izinketho ezitholakalayo zale demo.';
+  String get demoOptionsFeatureDescription =>
+      'Thepha lapha ukuze ubuke izinketho ezitholakalayo zale demo.';
 
   @override
   String get settingsTitle => 'Izilungiselelo';
@@ -425,10 +438,12 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Ibha yaphansi yohlelo lokusebenza';
@@ -437,7 +452,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoBottomAppBarSubtitle => 'Ibonisa ukuzula nezenzo phansi';
 
   @override
-  String get demoBottomAppBarDescription => 'Amabha wohlelo lokusebenza waphansi anikezela ngokufinyelela kwikhabethe lokuzula eliphansi futhi kufika kwizenzo ezine, kufaka phakathi inkinobho yesenzo yokuntanta.';
+  String get demoBottomAppBarDescription =>
+      'Amabha wohlelo lokusebenza waphansi anikezela ngokufinyelela kwikhabethe lokuzula eliphansi futhi kufika kwizenzo ezine, kufaka phakathi inkinobho yesenzo yokuntanta.';
 
   @override
   String get bottomAppBarNotch => 'I-Notch';
@@ -464,13 +480,15 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Ukubonisa isibhengezo ngaphakathi kohlu';
 
   @override
-  String get demoBannerDescription => 'Isibhengezo sibonisa umlayezo obalulekile, nocacile, futhi sinikeza izenzo zokufanele kwenziwe ngumsebenzisi (noma ukucashisa leso sibhengezo). Isenzo somsebenzisi sidingekile ukuze sicashiswe.';
+  String get demoBannerDescription =>
+      'Isibhengezo sibonisa umlayezo obalulekile, nocacile, futhi sinikeza izenzo zokufanele kwenziwe ngumsebenzisi (noma ukucashisa leso sibhengezo). Isenzo somsebenzisi sidingekile ukuze sicashiswe.';
 
   @override
   String get demoBottomNavigationTitle => 'Ukuzulela phansi';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Ukuzula kwaphansi ngokubuka kwe-cross-fading';
+  String get demoBottomNavigationSubtitle =>
+      'Ukuzula kwaphansi ngokubuka kwe-cross-fading';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Amalebuli aphoqelelayo';
@@ -479,43 +497,50 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Ilebuli ekhethiwe';
 
   @override
-  String get demoBottomNavigationDescription => 'Amabha wokuzula aphansi abonisa ubukhulu obuthathu bezindawo ezinhlanu phansi kwesikrini. Indawo ngayinye imelwe isithonjana kanye nelebuli yombhalo ekhethekayo. Uma isithonjana sokuzula sithephiwa, umsebenzisi uyiswa endaweni yokuzula ephathelene naleso sithonjana.';
+  String get demoBottomNavigationDescription =>
+      'Amabha wokuzula aphansi abonisa ubukhulu obuthathu bezindawo ezinhlanu phansi kwesikrini. Indawo ngayinye imelwe isithonjana kanye nelebuli yombhalo ekhethekayo. Uma isithonjana sokuzula sithephiwa, umsebenzisi uyiswa endaweni yokuzula ephathelene naleso sithonjana.';
 
   @override
   String get demoButtonTitle => 'Izinkinobho';
 
   @override
-  String get demoButtonSubtitle => 'Umbhalo, okuphakanyisiwe, okuchaziwe, nokuningi';
+  String get demoButtonSubtitle =>
+      'Umbhalo, okuphakanyisiwe, okuchaziwe, nokuningi';
 
   @override
   String get demoTextButtonTitle => 'Inkinobho Yombhalo';
 
   @override
-  String get demoTextButtonDescription => 'Inkinobho yombhalo ibonisa ukusaphazeka kweyinki ekucindezelweni kodwa ayiphakami. Sebenzisa izinkinobho zombhalo kubha yamathuluzi, kumabhokisi nangaphakathi kolayini ngokokugxusha';
+  String get demoTextButtonDescription =>
+      'Inkinobho yombhalo ibonisa ukusaphazeka kweyinki ekucindezelweni kodwa ayiphakami. Sebenzisa izinkinobho zombhalo kubha yamathuluzi, kumabhokisi nangaphakathi kolayini ngokokugxusha';
 
   @override
   String get demoElevatedButtonTitle => 'Inkinobho Ephakanyisiwe';
 
   @override
-  String get demoElevatedButtonDescription => 'Izinkinobho eziphakanyisiwe zingeza ubukhulu kaningi kuzakhiwo eziphansi. Zigcizelela imisebenzi kuzikhala ezimatasa noma ezibanzi.';
+  String get demoElevatedButtonDescription =>
+      'Izinkinobho eziphakanyisiwe zingeza ubukhulu kaningi kuzakhiwo eziphansi. Zigcizelela imisebenzi kuzikhala ezimatasa noma ezibanzi.';
 
   @override
   String get demoOutlinedButtonTitle => 'Inkinobho Echaziwe';
 
   @override
-  String get demoOutlinedButtonDescription => 'Izinkinobho ezichaziwe ziba i-opaque ziphinde ziphakame uma zicindezelwa. Zivamise ukubhangqwa nezinkinobho eziphakanyisiwe ukuze zibonise esinye isenzo, sesibili.';
+  String get demoOutlinedButtonDescription =>
+      'Izinkinobho ezichaziwe ziba i-opaque ziphinde ziphakame uma zicindezelwa. Zivamise ukubhangqwa nezinkinobho eziphakanyisiwe ukuze zibonise esinye isenzo, sesibili.';
 
   @override
   String get demoToggleButtonTitle => 'Izinkinobho zokuguqula';
 
   @override
-  String get demoToggleButtonDescription => 'Izinkinobho zokuguqula zingasetshenziswa ukuze zifake kuqembu izinketho ezihambisanayo. Ukuze kugcizelelwe amaqembu ezinkinobho ezihambisanayo zokuguqula, iqembu kumele labelane ngesiqukathi esijwayelekile';
+  String get demoToggleButtonDescription =>
+      'Izinkinobho zokuguqula zingasetshenziswa ukuze zifake kuqembu izinketho ezihambisanayo. Ukuze kugcizelelwe amaqembu ezinkinobho ezihambisanayo zokuguqula, iqembu kumele labelane ngesiqukathi esijwayelekile';
 
   @override
   String get demoFloatingButtonTitle => 'Inkinobho yesenzo entantayo';
 
   @override
-  String get demoFloatingButtonDescription => 'Inkinobho yesenzo esintantayo inkinobho esandingiliza yesithonjana ehamba ngaphezulu kokuqukethwe ukuze kuphromothwe isenzo esiyinhloko kuhlelo lokusebenza.';
+  String get demoFloatingButtonDescription =>
+      'Inkinobho yesenzo esintantayo inkinobho esandingiliza yesithonjana ehamba ngaphezulu kokuqukethwe ukuze kuphromothwe isenzo esiyinhloko kuhlelo lokusebenza.';
 
   @override
   String get demoCardTitle => 'Amakhadi';
@@ -527,34 +552,40 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoChipTitle => 'Amashipsi';
 
   @override
-  String get demoCardDescription => 'Ikhadi yishidi lokubalulekile okusetshenziselwa ukumelela imininingwane ethile ehlobene nakho, ngokwesibonelo i-albhamu, indawo yomhlaba, ukudla, imininingwane yokukuthinta, njll.';
+  String get demoCardDescription =>
+      'Ikhadi yishidi lokubalulekile okusetshenziselwa ukumelela imininingwane ethile ehlobene nakho, ngokwesibonelo i-albhamu, indawo yomhlaba, ukudla, imininingwane yokukuthinta, njll.';
 
   @override
-  String get demoChipSubtitle => 'Izinto ezihlangene ezimela ukungena, ukuchasisa, noma isenzo';
+  String get demoChipSubtitle =>
+      'Izinto ezihlangene ezimela ukungena, ukuchasisa, noma isenzo';
 
   @override
   String get demoActionChipTitle => 'I-Chip yesenzo';
 
   @override
-  String get demoActionChipDescription => 'Ama-chip ayisethi yezinketho acupha isenzo esiphathelene nokuqukethwe okuyinhloko. Ama-chip kufanele abonakale ngokubanzi nangokuqukethwe ku-UI.';
+  String get demoActionChipDescription =>
+      'Ama-chip ayisethi yezinketho acupha isenzo esiphathelene nokuqukethwe okuyinhloko. Ama-chip kufanele abonakale ngokubanzi nangokuqukethwe ku-UI.';
 
   @override
   String get demoChoiceChipTitle => 'I-Chip yenketho';
 
   @override
-  String get demoChoiceChipDescription => 'Ama-chips amela inketho eyodwa kusuka kusethi. Ama-chip enketho aphathelene nombhalo wencazelo noma izigaba.';
+  String get demoChoiceChipDescription =>
+      'Ama-chips amela inketho eyodwa kusuka kusethi. Ama-chip enketho aphathelene nombhalo wencazelo noma izigaba.';
 
   @override
   String get demoFilterChipTitle => 'I-chip yesihlungi';
 
   @override
-  String get demoFilterChipDescription => 'Hlunga ama-chip wokusebenzisa noma amagama okuchaza njengendlela yokuhlunga okuqukethwe.';
+  String get demoFilterChipDescription =>
+      'Hlunga ama-chip wokusebenzisa noma amagama okuchaza njengendlela yokuhlunga okuqukethwe.';
 
   @override
   String get demoInputChipTitle => 'I-Chip yokungena';
 
   @override
-  String get demoInputChipDescription => 'Ama-chip amela ucezu oluyingxube lolwazi, njengamabhizinisi (okomuntu, indawo, into) umbhalo wengxoxo ngendlela eminyene.';
+  String get demoInputChipDescription =>
+      'Ama-chip amela ucezu oluyingxube lolwazi, njengamabhizinisi (okomuntu, indawo, into) umbhalo wengxoxo ngendlela eminyene.';
 
   @override
   String get demoDataTableTitle => 'Amathebula edatha';
@@ -563,13 +594,15 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'Imigqa namakholomu emininingwane';
 
   @override
-  String get demoDataTableDescription => 'Amathebula edatha abonisa imininingwane ngefomethi eyigridi yemigqa namakholomu. Ihlela imininingwane ngendlela yokuthi kube lula ukuphequlula, ukuze abasebenzisi babheke amaphethini nemininingwane.';
+  String get demoDataTableDescription =>
+      'Amathebula edatha abonisa imininingwane ngefomethi eyigridi yemigqa namakholomu. Ihlela imininingwane ngendlela yokuthi kube lula ukuphequlula, ukuze abasebenzisi babheke amaphethini nemininingwane.';
 
   @override
   String get dataTableHeader => 'Ukudla okunomsonco';
 
   @override
-  String get dataTableColumnDessert => 'Ukudla okumnandi kokugcina (1 ukuphakelwa)';
+  String get dataTableColumnDessert =>
+      'Ukudla okumnandi kokugcina (1 ukuphakelwa)';
 
   @override
   String get dataTableColumnCalories => 'Amakhalori';
@@ -642,7 +675,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'Isexwayiso';
 
   @override
-  String get demoAlertDialogDescription => 'Ibhokisi lesexwayiso lazisa umsebenzisi mayelana nezimo ezidinga ukuvunywa. Ibhokisi lesexwayiso linesihloko ongasikhetha kanye nohlu ongalukhetha lwezenzo.';
+  String get demoAlertDialogDescription =>
+      'Ibhokisi lesexwayiso lazisa umsebenzisi mayelana nezimo ezidinga ukuvunywa. Ibhokisi lesexwayiso linesihloko ongasikhetha kanye nohlu ongalukhetha lwezenzo.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Isexwayiso esinesihloko';
@@ -651,16 +685,19 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Kulula';
 
   @override
-  String get demoSimpleDialogDescription => 'Ibhokisi elilula linikeza umsebenzisi inketho ephakathi kwezinketho ezithile. Ibhokisi elilula linesihloko ongasikhetha esiboniswa ngaphezulu kwezinketho.';
+  String get demoSimpleDialogDescription =>
+      'Ibhokisi elilula linikeza umsebenzisi inketho ephakathi kwezinketho ezithile. Ibhokisi elilula linesihloko ongasikhetha esiboniswa ngaphezulu kwezinketho.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +709,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Isakhiwo somugqa nesekholomu';
 
   @override
-  String get demoGridListsDescription => 'Uhlu lwegridi lufaneleke kahle kakhulu ekuphrezenteni idatha enhlobonye, ngokuvamile izithombe. Into ngayinye ekuhlu lwegridi ibizwa ngokuthi ithayili.';
+  String get demoGridListsDescription =>
+      'Uhlu lwegridi lufaneleke kahle kakhulu ekuphrezenteni idatha enhlobonye, ngokuvamile izithombe. Into ngayinye ekuhlu lwegridi ibizwa ngokuthi ithayili.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Isithombe kuphela';
@@ -690,37 +728,44 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoSlidersSubtitle => 'Amawijethi wokukhetha ivelu ngokuswayipha';
 
   @override
-  String get demoSlidersDescription => 'Izilayidi zibonisa ibanga lamavelu kwibha, kusuka lapha abasebenzisi bangakhetha khona ivelu elilodwa. Abalulekele ukulungisa izilungiselelo ezifana nevolomu, ukukhanya, noma ukufaka izihlungi zesithombe.';
+  String get demoSlidersDescription =>
+      'Izilayidi zibonisa ibanga lamavelu kwibha, kusuka lapha abasebenzisi bangakhetha khona ivelu elilodwa. Abalulekele ukulungisa izilungiselelo ezifana nevolomu, ukukhanya, noma ukufaka izihlungi zesithombe.';
 
   @override
   String get demoRangeSlidersTitle => 'Izilayidi zebanga';
 
   @override
-  String get demoRangeSlidersDescription => 'Izilayidi zibonisa ibanga lamavelu kwibha. Zingaba nezithonjana ngasekugcineni kwebha ezibonisa ibanga lamavelu. Abalulekele ukulungisa izilungiselelo ezifana nevolomu, ukukhanya, noma ukufaka izihlungi zesithombe.';
+  String get demoRangeSlidersDescription =>
+      'Izilayidi zibonisa ibanga lamavelu kwibha. Zingaba nezithonjana ngasekugcineni kwebha ezibonisa ibanga lamavelu. Abalulekele ukulungisa izilungiselelo ezifana nevolomu, ukukhanya, noma ukufaka izihlungi zesithombe.';
 
   @override
   String get demoCustomSlidersTitle => 'Izilayidi zangokwezifiso';
 
   @override
-  String get demoCustomSlidersDescription => 'Izilayidi zibonisa ibanga lamavelu kwibha, kusuka lapho abasebenzisi bangakhetha khona ivelu elilodwa noma ibanga lamavelu. Izilayidi zingaba netimu futhi zenziwe ngokwezifiso.';
+  String get demoCustomSlidersDescription =>
+      'Izilayidi zibonisa ibanga lamavelu kwibha, kusuka lapho abasebenzisi bangakhetha khona ivelu elilodwa noma ibanga lamavelu. Izilayidi zingaba netimu futhi zenziwe ngokwezifiso.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Ukuqhubeka ne-Editable Numerical Value';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Ukuqhubeka ne-Editable Numerical Value';
 
   @override
   String get demoSlidersDiscrete => 'Lahla';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Lahla isilayidi ngetimu yangokwezifiso';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Lahla isilayidi ngetimu yangokwezifiso';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Ukuqhubekisa isilayidi sebanga ngetimu yangokwezifsio';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Ukuqhubekisa isilayidi sebanga ngetimu yangokwezifsio';
 
   @override
   String get demoSlidersContinuous => 'Okuqhubekayo';
 
   @override
-  String get demoSlidersEditableNumericalValue => 'Ivelu lenombolo elihlelekayo';
+  String get demoSlidersEditableNumericalValue =>
+      'Ivelu lenombolo elihlelekayo';
 
   @override
   String get demoMenuTitle => 'Imenyu';
@@ -741,7 +786,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Izinkinobho zemenyu namamenyu alula';
 
   @override
-  String get demoMenuDescription => 'Imenyu ibonisa uhlu lwezinketho kundawo yangokwesikhashana. Zivela uma abasebenzisi bahlanganyela nenkinobho, isenzo, noma esinye isilawuli.';
+  String get demoMenuDescription =>
+      'Imenyu ibonisa uhlu lwezinketho kundawo yangokwesikhashana. Zivela uma abasebenzisi bahlanganyela nenkinobho, isenzo, noma esinye isilawuli.';
 
   @override
   String get demoMenuItemValueOne => 'Into yemenyu yokuqala';
@@ -765,19 +811,23 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoMenuFour => 'Kune';
 
   @override
-  String get demoMenuAnItemWithAContextMenuButton => 'Into enemenyu yokuqukethwe';
+  String get demoMenuAnItemWithAContextMenuButton =>
+      'Into enemenyu yokuqukethwe';
 
   @override
-  String get demoMenuContextMenuItemOne => 'Into yokuqala yokuqukethwe kwemenyu';
+  String get demoMenuContextMenuItemOne =>
+      'Into yokuqala yokuqukethwe kwemenyu';
 
   @override
   String get demoMenuADisabledMenuItem => 'Into yemenyu ekhutshaziwe';
 
   @override
-  String get demoMenuContextMenuItemThree => 'Into yesithathu yokuqukethwe kwemenyu';
+  String get demoMenuContextMenuItemThree =>
+      'Into yesithathu yokuqukethwe kwemenyu';
 
   @override
-  String get demoMenuAnItemWithASectionedMenu => 'Into enemenyu efakwe kusigaba';
+  String get demoMenuAnItemWithASectionedMenu =>
+      'Into enemenyu efakwe kusigaba';
 
   @override
   String get demoMenuPreview => 'Buka kuqala';
@@ -805,10 +855,12 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoNavigationDrawerTitle => 'Idrowa Lokuzula';
 
   @override
-  String get demoNavigationDrawerSubtitle => 'Ibonisa ikhabethe ngaphakathi kwebha yohlelo lokusebenza';
+  String get demoNavigationDrawerSubtitle =>
+      'Ibonisa ikhabethe ngaphakathi kwebha yohlelo lokusebenza';
 
   @override
-  String get demoNavigationDrawerDescription => 'Iphaneli Yedizayini Ebalulekile eslayida ngokuvundlile kusuka onqenqemeni lwesikrini ukubonisa izixhumanisi zokuzulazula kuhlelo lokusebenza.';
+  String get demoNavigationDrawerDescription =>
+      'Iphaneli Yedizayini Ebalulekile eslayida ngokuvundlile kusuka onqenqemeni lwesikrini ukubonisa izixhumanisi zokuzulazula kuhlelo lokusebenza.';
 
   @override
   String get demoNavigationDrawerUserName => 'Igama Lomsebenzisi';
@@ -823,16 +875,19 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Into Yesibili';
 
   @override
-  String get demoNavigationDrawerText => 'Swayipha kusuka onqenqemeni noma thepha isithonjana esiphezulu ngakwesobunxele ukuze ubone ikhabethe';
+  String get demoNavigationDrawerText =>
+      'Swayipha kusuka onqenqemeni noma thepha isithonjana esiphezulu ngakwesobunxele ukuze ubone ikhabethe';
 
   @override
   String get demoNavigationRailTitle => 'Uthango Lokuzulazula';
 
   @override
-  String get demoNavigationRailSubtitle => 'Ibonisa Uthango Lokuzulazula ngaphakathi kohlelo lokusebenza';
+  String get demoNavigationRailSubtitle =>
+      'Ibonisa Uthango Lokuzulazula ngaphakathi kohlelo lokusebenza';
 
   @override
-  String get demoNavigationRailDescription => 'Iwijethi ebalulekile ehloselwe ukuboniswa kwesobunxele noma sokudla ukuze uhlelo lokusebenza luzulazule phakathi kwenombolo encane yokubuka, ngokuvamile phakathi kokuthathu nokuhlanu.';
+  String get demoNavigationRailDescription =>
+      'Iwijethi ebalulekile ehloselwe ukuboniswa kwesobunxele noma sokudla ukuze uhlelo lokusebenza luzulazule phakathi kwenombolo encane yokubuka, ngokuvamile phakathi kokuthathu nokuhlanu.';
 
   @override
   String get demoNavigationRailFirst => 'Okokuqala';
@@ -847,22 +902,26 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoMenuAnItemWithASimpleMenu => 'Into enemenyu elula';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Into enemenyu yohlu lokuhlola';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Into enemenyu yohlu lokuhlola';
 
   @override
   String get demoFullscreenDialogTitle => 'Isikrini esigcwele';
 
   @override
-  String get demoFullscreenDialogDescription => 'Isici se-FullscreenDialog sicacisa uma ngabe ikhasi elingenayo liyibhokisi lesikrini esigcwele se-modal yini';
+  String get demoFullscreenDialogDescription =>
+      'Isici se-FullscreenDialog sicacisa uma ngabe ikhasi elingenayo liyibhokisi lesikrini esigcwele se-modal yini';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Isikhombi somsebenzi';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'isikhombisi somsebenzi wesitayela se-iOS';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'isikhombisi somsebenzi wesitayela se-iOS';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'Isikhombisi somsebenzi wesitayela esiphendukela ku-clockwise.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'Isikhombisi somsebenzi wesitayela esiphendukela ku-clockwise.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Izinkinobho';
@@ -871,7 +930,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'izinkinobho zesitayela se-iOS';
 
   @override
-  String get demoCupertinoButtonsDescription => 'Inkinobho yesitayela se-iOS. Ithatha ifake ngaphakathi umbhalo kanye/noma isithonjana esifiphalayo siphume siphinde sifiphale singene ekuthintweni. Kungenzeka ngokukhetheka ibe nengemuva.';
+  String get demoCupertinoButtonsDescription =>
+      'Inkinobho yesitayela se-iOS. Ithatha ifake ngaphakathi umbhalo kanye/noma isithonjana esifiphalayo siphume siphinde sifiphale singene ekuthintweni. Kungenzeka ngokukhetheka ibe nengemuva.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +940,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,19 +950,22 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Izexwayiso';
 
   @override
-  String get demoCupertinoAlertsSubtitle => 'amabhokisi esexwayiso sesitayela se-iOS';
+  String get demoCupertinoAlertsSubtitle =>
+      'amabhokisi esexwayiso sesitayela se-iOS';
 
   @override
   String get demoCupertinoAlertTitle => 'Isexwayiso';
 
   @override
-  String get demoCupertinoAlertDescription => 'Ibhokisi lesexwayiso lazisa umsebenzisi mayelana nezimo ezidinga ukuvunywa. Ibhokisi lesexwayiso linesihloko ongasikhetha, okuqukethwe ongakukhetha, kanye nohlu ongalukhetha lwezenzo. Isihloko siboniswa ngaphezulu kokuqukethwe futhi izenzo ziboniswa ngaphansi kokuqukethwe.';
+  String get demoCupertinoAlertDescription =>
+      'Ibhokisi lesexwayiso lazisa umsebenzisi mayelana nezimo ezidinga ukuvunywa. Ibhokisi lesexwayiso linesihloko ongasikhetha, okuqukethwe ongakukhetha, kanye nohlu ongalukhetha lwezenzo. Isihloko siboniswa ngaphezulu kokuqukethwe futhi izenzo ziboniswa ngaphansi kokuqukethwe.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Isexwayiso esinesihloko';
@@ -910,31 +974,37 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoCupertinoAlertButtonsTitle => 'Isexwayiso esinezinkinobho';
 
   @override
-  String get demoCupertinoAlertButtonsOnlyTitle => 'Izinkinobho zesexwayiso kuphela';
+  String get demoCupertinoAlertButtonsOnlyTitle =>
+      'Izinkinobho zesexwayiso kuphela';
 
   @override
   String get demoCupertinoActionSheetTitle => 'Ishidi lesenzo';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Ishidi lesenzo uhlobo oluthile lwesexwayiso oluphrezenta umsebenzisi ngesethi yezinketho ezimbili noma ngaphezulu ezihambisana nokuqukethwe kwamanje. Ishidi lesenzo lingaba nesihloko, umlayezo ongeziwe, kanye nohlu lwezenzo.';
+  String get demoCupertinoActionSheetDescription =>
+      'Ishidi lesenzo uhlobo oluthile lwesexwayiso oluphrezenta umsebenzisi ngesethi yezinketho ezimbili noma ngaphezulu ezihambisana nokuqukethwe kwamanje. Ishidi lesenzo lingaba nesihloko, umlayezo ongeziwe, kanye nohlu lwezenzo.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Ibha yokuzula';
 
   @override
-  String get demoCupertinoNavigationBarSubtitle => 'Ibha yokuzulazula yesitayela se-iOS';
+  String get demoCupertinoNavigationBarSubtitle =>
+      'Ibha yokuzulazula yesitayela se-iOS';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'Ibha yokuzulazula yesitayela se-iOS. Ibha yokuzulazula ibha yamathuluzi efaka ngokuncane isihloko sekhasi, ngaphakathi kwebha yamathuluzi.';
+  String get demoCupertinoNavigationBarDescription =>
+      'Ibha yokuzulazula yesitayela se-iOS. Ibha yokuzulazula ibha yamathuluzi efaka ngokuncane isihloko sekhasi, ngaphakathi kwebha yamathuluzi.';
 
   @override
   String get demoCupertinoPickerTitle => 'Izikhi';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'Izikhi zesikhathi nosuku lwesitayela se-iOS';
+  String get demoCupertinoPickerSubtitle =>
+      'Izikhi zesikhathi nosuku lwesitayela se-iOS';
 
   @override
-  String get demoCupertinoPickerDescription => 'Iwijethi yesikhi sesitayela se-iOS engasetshenziselwa ukukhetha izinsuku, izikhathi, noma kokubili usuku nesikhathi.';
+  String get demoCupertinoPickerDescription =>
+      'Iwijethi yesikhi sesitayela se-iOS engasetshenziselwa ukukhetha izinsuku, izikhathi, noma kokubili usuku nesikhathi.';
 
   @override
   String get demoCupertinoPickerTimer => 'Isibali sikhathi';
@@ -952,19 +1022,24 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'Donsa ukuze uvuselele';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'Ulawulo lwesitayela se-iOS lokudonsa ukuze uvuselele';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'Ulawulo lwesitayela se-iOS lokudonsa ukuze uvuselele';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Iwijethi esebenzisa ulawulo lwesitayela se-iOS lokudonsa ukuze uvuselele.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Iwijethi esebenzisa ulawulo lwesitayela se-iOS lokudonsa ukuze uvuselele.';
 
   @override
-  String get demoCupertinoSegmentedControlTitle => 'Ulawulo olufakwe kusegmenti';
+  String get demoCupertinoSegmentedControlTitle =>
+      'Ulawulo olufakwe kusegmenti';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'ulawulo olwenziwe isegmenti lwesitayela se-iOS';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'ulawulo olwenziwe isegmenti lwesitayela se-iOS';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Kusetshenziselwe ukukhetha phakathi kwenombolo yezinketho ezikhethekile ngokufanayo. Uma inketho eyodwa ekulawulweni okwenziwe isegmenti ikhethwa, ezinye izinketho ekulawulweni okwenziwe isegmenti ziyayeka ukukhethwa.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Kusetshenziselwe ukukhetha phakathi kwenombolo yezinketho ezikhethekile ngokufanayo. Uma inketho eyodwa ekulawulweni okwenziwe isegmenti ikhethwa, ezinye izinketho ekulawulweni okwenziwe isegmenti ziyayeka ukukhethwa.';
 
   @override
   String get demoCupertinoSliderTitle => 'Isilayida';
@@ -973,7 +1048,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'isilayida sesitayela se-iOS';
 
   @override
-  String get demoCupertinoSliderDescription => 'Isilayida singasetshenziswa ukuze kukhethwe isethi yamanani aqhubekayo noma okuzikhethela.';
+  String get demoCupertinoSliderDescription =>
+      'Isilayida singasetshenziswa ukuze kukhethwe isethi yamanani aqhubekayo noma okuzikhethela.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,16 +1065,19 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'iswishi yesitayela se-iOS';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Iswishi isetshenziselwa ukuguqula isimo sokuvula/sokuvala kusilungiselelo esisodwa.';
+  String get demoCupertinoSwitchDescription =>
+      'Iswishi isetshenziselwa ukuguqula isimo sokuvula/sokuvala kusilungiselelo esisodwa.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Ibha yethebhu';
 
   @override
-  String get demoCupertinoTabBarSubtitle => 'Ibha yethebhu engaphansi yesitayela se-iOS';
+  String get demoCupertinoTabBarSubtitle =>
+      'Ibha yethebhu engaphansi yesitayela se-iOS';
 
   @override
-  String get demoCupertinoTabBarDescription => 'Ibha yethebhu yokuzulazula engaphansi yesitayela se-iOS. Ibonisa amathebhu amaningi ngethebhu eyodwa eyenziwe yasebenza, ithebhu yokuqala ngokuzenzakalela.';
+  String get demoCupertinoTabBarDescription =>
+      'Ibha yethebhu yokuzulazula engaphansi yesitayela se-iOS. Ibonisa amathebhu amaningi ngethebhu eyodwa eyenziwe yasebenza, ithebhu yokuqala ngokuzenzakalela.';
 
   @override
   String get cupertinoTabBarHomeTab => 'Ekhaya';
@@ -1013,10 +1092,12 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoCupertinoTextFieldTitle => 'Izinkambu zombhalo';
 
   @override
-  String get demoCupertinoTextFieldSubtitle => 'Izinkambu zombhalo wesitayela se-iOS';
+  String get demoCupertinoTextFieldSubtitle =>
+      'Izinkambu zombhalo wesitayela se-iOS';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'Inkambu yombhalo ivumela umsebenzisi afake umbhalo, kungaba khekhibhodi yekhompuyutha noma ngekhibhodi esesikrinini.';
+  String get demoCupertinoTextFieldDescription =>
+      'Inkambu yombhalo ivumela umsebenzisi afake umbhalo, kungaba khekhibhodi yekhompuyutha noma ngekhibhodi esesikrinini.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'I-PIN';
@@ -1025,19 +1106,24 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoMotionTitle => 'Motion';
 
   @override
-  String get demoMotionSubtitle => 'Wonke amaphethini okudlula achazwe ngaphambilini';
+  String get demoMotionSubtitle =>
+      'Wonke amaphethini okudlula achazwe ngaphambilini';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'Amakhadi, Izinhla ne-FAB';
+  String get demoContainerTransformDemoInstructions =>
+      'Amakhadi, Izinhla ne-FAB';
 
   @override
-  String get demoSharedXAxisDemoInstructions => 'Inkinobho Yokulandelayo Neyasemuva';
+  String get demoSharedXAxisDemoInstructions =>
+      'Inkinobho Yokulandelayo Neyasemuva';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'Hlunga ngokuthi \"Okudlalwe Kamuva\"';
+  String get demoSharedYAxisDemoInstructions =>
+      'Hlunga ngokuthi \"Okudlalwe Kamuva\"';
 
   @override
-  String get demoSharedZAxisDemoInstructions => 'Inkinobho yesithonjana samasethingi';
+  String get demoSharedZAxisDemoInstructions =>
+      'Inkinobho yesithonjana samasethingi';
 
   @override
   String get demoFadeThroughDemoInstructions => 'Ukuzulela phansi';
@@ -1049,7 +1135,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'Ukuguqulwa Kwesiqukathi';
 
   @override
-  String get demoContainerTransformDescription => 'Iphethini yokuguqulwa kwesiqukathi idizayinelwe ukudlula phakathi kwama-elementi e-UI afaka isiqukathi. Le phethini idala ukuxhumana okubonakalayo phakathi kwama-elementi amabili e-UI';
+  String get demoContainerTransformDescription =>
+      'Iphethini yokuguqulwa kwesiqukathi idizayinelwe ukudlula phakathi kwama-elementi e-UI afaka isiqukathi. Le phethini idala ukuxhumana okubonakalayo phakathi kwama-elementi amabili e-UI';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'Imodi yokufiphala';
@@ -1076,7 +1163,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Into yohlu';
 
   @override
-  String get demoSharedAxisDescription => 'Iphethini ye-axis eyabiwe isetshenziselwa ukuguqulwa okuphakathi kwama-elementi e-UI anobudlelwane be-spatial noma bokuzulazula. Le phethini isebenzisa ukuguqulwa okwabiwe ku-axis ka-x, y, noma u-z ukuze kuphinde kuqiniswe ubudlelwane phakathi kwama-elementi.';
+  String get demoSharedAxisDescription =>
+      'Iphethini ye-axis eyabiwe isetshenziselwa ukuguqulwa okuphakathi kwama-elementi e-UI anobudlelwane be-spatial noma bokuzulazula. Le phethini isebenzisa ukuguqulwa okwabiwe ku-axis ka-x, y, noma u-z ukuze kuphinde kuqiniswe ubudlelwane phakathi kwama-elementi.';
 
   @override
   String get demoSharedXAxisTitle => 'I-x-axis eyabiwe';
@@ -1088,10 +1176,12 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoSharedXAxisNextButtonText => 'OKULANDELAYO';
 
   @override
-  String get demoSharedXAxisCoursePageTitle => 'Yenza umugqa oqondile izifundo zakho';
+  String get demoSharedXAxisCoursePageTitle =>
+      'Yenza umugqa oqondile izifundo zakho';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Izigaba ezenziwe inqwaba zivela njengamaqembu kokuphakelayo kwakho. Ungahlala ushintsha lokhu ngemuva kwesikhathi.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Izigaba ezenziwe inqwaba zivela njengamaqembu kokuphakelayo kwakho. Ungahlala ushintsha lokhu ngemuva kwesikhathi.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Ubuciko nokwakha';
@@ -1118,10 +1208,12 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoSharedXAxisSignInWelcomeText => 'Sawubona David Park';
 
   @override
-  String get demoSharedXAxisSignInSubtitleText => 'Ngena ngemvume nge-akhawunti yakho';
+  String get demoSharedXAxisSignInSubtitleText =>
+      'Ngena ngemvume nge-akhawunti yakho';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'I-imeyili noma inombolo yefoni';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'I-imeyili noma inombolo yefoni';
 
   @override
   String get demoSharedXAxisForgotEmailButtonText => 'UKHOHLWE I-IMEYILI?';
@@ -1178,19 +1270,22 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'I-Shrimp';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Iresiphu yepuleti le-shrimp';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Iresiphu yepuleti le-shrimp';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Inkalankala';
 
   @override
-  String get demoSharedZAxisCrabPlateRecipeDescription => 'Iresiphu yepuleti lenkalankala';
+  String get demoSharedZAxisCrabPlateRecipeDescription =>
+      'Iresiphu yepuleti lenkalankala';
 
   @override
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Isemeshi yebhifu';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Iresiphu yesemishi yebhifu';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Iresiphu yesemishi yebhifu';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Amaresiphu Alondoloziwe';
@@ -1211,7 +1306,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Fiphala udlulele';
 
   @override
-  String get demoFadeThroughDescription => 'Iphethini yokufiphala kudlulwe isetshenziselwa ukudlula okuphakathi kwama-elementi e-UI anganabo ubudlelwano obuqinile kokunye.';
+  String get demoFadeThroughDescription =>
+      'Iphethini yokufiphala kudlulwe isetshenziselwa ukudlula okuphakathi kwama-elementi e-UI anganabo ubudlelwano obuqinile kokunye.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Ama-albhamu';
@@ -1229,7 +1325,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Ukufiphala';
 
   @override
-  String get demoFadeScaleDescription => 'Iphethini yokufiphala isetshenziselwa ama-elementi e-UI angena noma aphuma ngaphakathi kwemikhawulo yesikrini, njengebhokisi elifiphala phakathi nendawo kusikrini.';
+  String get demoFadeScaleDescription =>
+      'Iphethini yokufiphala isetshenziselwa ama-elementi e-UI angena noma aphuma ngaphakathi kwemikhawulo yesikrini, njengebhokisi elifiphala phakathi nendawo kusikrini.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'BONISA I-MODAL';
@@ -1256,16 +1353,19 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Yonke imibala echazwe ngaphambilini';
 
   @override
-  String get demoColorsDescription => 'Umbala nokuhambisana kahle kwe-swatch yombala okumele i-palette yombala yedizayini yokubalulekile.';
+  String get demoColorsDescription =>
+      'Umbala nokuhambisana kahle kwe-swatch yombala okumele i-palette yombala yedizayini yokubalulekile.';
 
   @override
   String get demoTypographyTitle => 'I-Typography';
 
   @override
-  String get demoTypographySubtitle => 'Zonke izitayela zombhalo ezichazwe ngaphambilini';
+  String get demoTypographySubtitle =>
+      'Zonke izitayela zombhalo ezichazwe ngaphambilini';
 
   @override
-  String get demoTypographyDescription => 'Izincazelo zezitayela ezahlukahlukene ze-typographical zitholakele kudizayini ebalulekile.';
+  String get demoTypographyDescription =>
+      'Izincazelo zezitayela ezahlukahlukene ze-typographical zitholakele kudizayini ebalulekile.';
 
   @override
   String get demo2dTransformationsTitle => '2D ukuguqula';
@@ -1274,7 +1374,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'Nyakaza, sondeza, phendukisa';
 
   @override
-  String get demo2dTransformationsDescription => 'Thepha ukuze uhlele amathayela, futhi usebenzise ukuthinta ukuze uzulazule esigcawini. Hudula ukuze unyakazise, nciza ukuze usondeze, phendukisa ngeminwe emibili. Cindezela inkinobho yokusetha kabusha ukuze ubuyele ekuqaleni komumo wesikrini.';
+  String get demo2dTransformationsDescription =>
+      'Thepha ukuze uhlele amathayela, futhi usebenzise ukuthinta ukuze uzulazule esigcawini. Hudula ukuze unyakazise, nciza ukuze usondeze, phendukisa ngeminwe emibili. Cindezela inkinobho yokusetha kabusha ukuze ubuyele ekuqaleni komumo wesikrini.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Setha kabusha ukuguqula';
@@ -1289,19 +1390,23 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoBottomSheetTitle => 'Ishidi eliphansi';
 
   @override
-  String get demoBottomSheetSubtitle => 'Amashidi waphansi aphoqelelayo nawe-modal';
+  String get demoBottomSheetSubtitle =>
+      'Amashidi waphansi aphoqelelayo nawe-modal';
 
   @override
-  String get demoBottomSheetPersistentTitle => 'ishidi eliphansi eliphoqelelayo';
+  String get demoBottomSheetPersistentTitle =>
+      'ishidi eliphansi eliphoqelelayo';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Ishidi eliphansi eliphoqelelayo libonisa uolwazi olusekela okuqukethwe okuyinhloko kohlelo lokusebenza. Ishidi laphansi eliphoqelelayo lihlala libonakala ngisho noma umsebenzisi exhumana nezinye izingxenye zohlelo lokusebenza.';
+  String get demoBottomSheetPersistentDescription =>
+      'Ishidi eliphansi eliphoqelelayo libonisa uolwazi olusekela okuqukethwe okuyinhloko kohlelo lokusebenza. Ishidi laphansi eliphoqelelayo lihlala libonakala ngisho noma umsebenzisi exhumana nezinye izingxenye zohlelo lokusebenza.';
 
   @override
   String get demoBottomSheetModalTitle => 'Ishidi laphansi le-Modal';
 
   @override
-  String get demoBottomSheetModalDescription => 'Ishidi eliphansi le-modal kungenye indlela kumentu noma ingxoxo futhi ivimbela umsebenzisi ekusebenzisaneni nalo lonke uhlelo lokusebenza.';
+  String get demoBottomSheetModalDescription =>
+      'Ishidi eliphansi le-modal kungenye indlela kumentu noma ingxoxo futhi ivimbela umsebenzisi ekusebenzisaneni nalo lonke uhlelo lokusebenza.';
 
   @override
   String get demoBottomSheetAddLabel => 'Engeza';
@@ -1324,7 +1429,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoListsSubtitle => 'Izendlalelo zohlu lokuskrola';
 
   @override
-  String get demoListsDescription => 'Umugqa wokuphakama okulungisiwe oqukethe umbhalo kanye nesithonjana esilandelayo noma esiholayo.';
+  String get demoListsDescription =>
+      'Umugqa wokuphakama okulungisiwe oqukethe umbhalo kanye nesithonjana esilandelayo noma esiholayo.';
 
   @override
   String get demoOneLineListsTitle => 'Umugqa owodwa';
@@ -1339,19 +1445,23 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoProgressIndicatorTitle => 'Isikhombisi sokuqhubeka';
 
   @override
-  String get demoProgressIndicatorSubtitle => 'I-Linear, circular, indeterminate';
+  String get demoProgressIndicatorSubtitle =>
+      'I-Linear, circular, indeterminate';
 
   @override
   String get demoCircularProgressIndicatorTitle => 'Isikhombisi sokuqhubeka';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Isikhombisi sokuqhubeka se-Material Design, okuphendukisa ukubonisa ukuthi uhlelo lokusebenza lumatasatasa.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Isikhombisi sokuqhubeka se-Material Design, okuphendukisa ukubonisa ukuthi uhlelo lokusebenza lumatasatasa.';
 
   @override
-  String get demoLinearProgressIndicatorTitle => 'Isikhombisi sokuqhubeka se-Linear';
+  String get demoLinearProgressIndicatorTitle =>
+      'Isikhombisi sokuqhubeka se-Linear';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Isikhombisi sokuqhubeka se-Material Design linear, futhi saziwa ngebha yokuqhubeka.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Isikhombisi sokuqhubeka se-Material Design linear, futhi saziwa ngebha yokuqhubeka.';
 
   @override
   String get demoPickersTitle => 'Izikhi';
@@ -1363,19 +1473,22 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Isikhi sedethi';
 
   @override
-  String get demoDatePickerDescription => 'Ibonisa ibhokisi eliqukethe isikhi sedethi yedizayini ebalulekile.';
+  String get demoDatePickerDescription =>
+      'Ibonisa ibhokisi eliqukethe isikhi sedethi yedizayini ebalulekile.';
 
   @override
   String get demoTimePickerTitle => 'Isikhi sesikhathi';
 
   @override
-  String get demoTimePickerDescription => 'Ibonisa ibhokisi eliqukethe isikhi sesikhathi sedizayini ebalulekile.';
+  String get demoTimePickerDescription =>
+      'Ibonisa ibhokisi eliqukethe isikhi sesikhathi sedizayini ebalulekile.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'BONISA ISIKHI';
@@ -1393,16 +1506,19 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoTabsSubtitle => 'Amathebhu anokubuka okuzimele okuskrolekayo';
 
   @override
-  String get demoTabsDescription => 'Amathebhu ahlela okuqukethwe kuzikrini ezihlukile zokuqukethwe, amasethi edatha, nokunye ukuhlanganyela.';
+  String get demoTabsDescription =>
+      'Amathebhu ahlela okuqukethwe kuzikrini ezihlukile zokuqukethwe, amasethi edatha, nokunye ukuhlanganyela.';
 
   @override
   String get demoSnackbarsTitle => 'Ama-snackbar';
 
   @override
-  String get demoSnackbarsSubtitle => 'Ama-snackbar abonisa imilayezo ngaphansi kwesikrini';
+  String get demoSnackbarsSubtitle =>
+      'Ama-snackbar abonisa imilayezo ngaphansi kwesikrini';
 
   @override
-  String get demoSnackbarsDescription => 'Ama-snackbar azisa abasebenzisi ngenqubo uhlelo lokusebenza oluyenzile noma oluzoyenza. Avela okwesikhashana, ngaphansi kwesikrini. Akumele aphazamise umuzwa womsebenzisi, futhi awadingi ukufakwa komsebenzisi ukuze anyamalale.';
+  String get demoSnackbarsDescription =>
+      'Ama-snackbar azisa abasebenzisi ngenqubo uhlelo lokusebenza oluyenzile noma oluzoyenza. Avela okwesikhashana, ngaphansi kwesikrini. Akumele aphazamise umuzwa womsebenzisi, futhi awadingi ukufakwa komsebenzisi ukuze anyamalale.';
 
   @override
   String get demoSnackbarsButtonLabel => 'BONISA I-SNACKBAR';
@@ -1420,25 +1536,29 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoSelectionControlsTitle => 'Izilawuli zokukhethwa';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Amabhokisi okuthikha, izinkinobho zerediyo, namaswishi';
+  String get demoSelectionControlsSubtitle =>
+      'Amabhokisi okuthikha, izinkinobho zerediyo, namaswishi';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Ibhokisi lokuthikha';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Amabhokisi okuhlola avumela umsebenzisi ukuthi akhethe izinketho eziningi kusukela kusethi. Inani elijwayelekile lebhokisi lokuhlola liyiqiniso noma lingamanga futhi inani lebhokisi lokuhlola le-tristate nalo lingaba ngelingavumelekile.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Amabhokisi okuhlola avumela umsebenzisi ukuthi akhethe izinketho eziningi kusukela kusethi. Inani elijwayelekile lebhokisi lokuhlola liyiqiniso noma lingamanga futhi inani lebhokisi lokuhlola le-tristate nalo lingaba ngelingavumelekile.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Irediyo';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Izinkinobho zerediyo zivumela umsebenzisi ukuthi akhethe inketho eyodwa kusukela kusethi. Sebenzisa izinkinobho zerediyo zokukhethwa okukhethekile uma ucabanga ukuthi umsebenzisi kumele abone zonke izinketho ezikhethekile uhlangothi ukuya kolunye.';
+  String get demoSelectionControlsRadioDescription =>
+      'Izinkinobho zerediyo zivumela umsebenzisi ukuthi akhethe inketho eyodwa kusukela kusethi. Sebenzisa izinkinobho zerediyo zokukhethwa okukhethekile uma ucabanga ukuthi umsebenzisi kumele abone zonke izinketho ezikhethekile uhlangothi ukuya kolunye.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Iswishi';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Amaswishi okuvula/ukuvala aguqula isimo senketho eyodwa yezilungiselelo. Inketho elawulwa iswishi kanye nesimo ekuyo, kumele kwenziwe kube sobala kusukela kulebula engaphakathi komugqa ehambisanayo.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Amaswishi okuvula/ukuvala aguqula isimo senketho eyodwa yezilungiselelo. Inketho elawulwa iswishi kanye nesimo ekuyo, kumele kwenziwe kube sobala kusukela kulebula engaphakathi komugqa ehambisanayo.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Izinkambu zombhalo';
@@ -1447,10 +1567,12 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoTextFieldTitle => 'Izinkambu zombhalo';
 
   @override
-  String get demoTextFieldSubtitle => 'Umugqa owodwa wombhalo ohlelekayo nezinombolo';
+  String get demoTextFieldSubtitle =>
+      'Umugqa owodwa wombhalo ohlelekayo nezinombolo';
 
   @override
-  String get demoTextFieldDescription => 'Izinkambu zombhalo zivumela abasebenzisi ukufaka umbhalo ku-UI. Ibonakala kumafomu nezingxoxo.';
+  String get demoTextFieldDescription =>
+      'Izinkambu zombhalo zivumela abasebenzisi ukufaka umbhalo ku-UI. Ibonakala kumafomu nezingxoxo.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Bonisa iphasiwedi';
@@ -1459,16 +1581,19 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Fihla iphasiwedi';
 
   @override
-  String get demoTextFieldFormErrors => 'Sicela ulungise amaphutha abomvu ngaphambi kokuhambisa.';
+  String get demoTextFieldFormErrors =>
+      'Sicela ulungise amaphutha abomvu ngaphambi kokuhambisa.';
 
   @override
   String get demoTextFieldNameRequired => 'Igama liyadingeka.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'Sicela ufake izinhlamvu ngokulandelana.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'Sicela ufake izinhlamvu ngokulandelana.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - Faka inombolo yefoni ye-US.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - Faka inombolo yefoni ye-US.';
 
   @override
   String get demoTextFieldEnterPassword => 'Sicela ufake iphasiwedi.';
@@ -1495,7 +1620,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoTextFieldEmail => 'I-imeyili';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Sitshele ngawe (isb., bhala phansi okwenzayo noma okuthandayo onakho)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Sitshele ngawe (isb., bhala phansi okwenzayo noma okuthandayo onakho)';
 
   @override
   String get demoTextFieldKeepItShort => 'Igcine iyimfushane, le idemo nje.';
@@ -1533,13 +1659,16 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get demoTooltipTitle => 'Amathulithiphu';
 
   @override
-  String get demoTooltipSubtitle => 'Umlayezo omfushane uboniswa ekucindezeleni kwesikhathi eside noma ekuhambiseni phezulu';
+  String get demoTooltipSubtitle =>
+      'Umlayezo omfushane uboniswa ekucindezeleni kwesikhathi eside noma ekuhambiseni phezulu';
 
   @override
-  String get demoTooltipDescription => 'Amathulithiphu anikeza amalebula ombhalo asiza ukuchaza ukusebenza kwenkinobho noma esinye isenzo sokusetshenziswa kubonwa. Amathulithiphu abonisa umbhalo onolwazi uma abasebenzisa bahambisa ngaphezulu, bagxila, noma bacindezela isikhathi eside ku-elementi.';
+  String get demoTooltipDescription =>
+      'Amathulithiphu anikeza amalebula ombhalo asiza ukuchaza ukusebenza kwenkinobho noma esinye isenzo sokusetshenziswa kubonwa. Amathulithiphu abonisa umbhalo onolwazi uma abasebenzisa bahambisa ngaphezulu, bagxila, noma bacindezela isikhathi eside ku-elementi.';
 
   @override
-  String get demoTooltipInstructions => 'Cindezela isikhathi eside noma hambisa ngaphezulu ukuze ubonise ithulithiphu.';
+  String get demoTooltipInstructions =>
+      'Cindezela isikhathi eside noma hambisa ngaphezulu ukuze ubonise ithulithiphu.';
 
   @override
   String get bottomNavigationCommentsTab => 'Amazwana';
@@ -1600,7 +1729,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get dialogLocationTitle => 'Sebenzisa isevisi yendawo ye-Google?';
 
   @override
-  String get dialogLocationDescription => 'Vumela i-Google isize izinhlelo zokusebenza zithole indawo. Lokhu kusho ukuthumela idatha yendawo engaziwa ku-Google, nanoma kungekho zinhlelo zokusebenza ezisebenzayo.';
+  String get dialogLocationDescription =>
+      'Vumela i-Google isize izinhlelo zokusebenza zithole indawo. Lokhu kusho ukuthumela idatha yendawo engaziwa ku-Google, nanoma kungekho zinhlelo zokusebenza ezisebenzayo.';
 
   @override
   String get dialogCancel => 'KHANSELA';
@@ -1630,7 +1760,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get dialogFullscreenSave => 'LONDOLOZA';
 
   @override
-  String get dialogFullscreenDescription => 'Idemo yebhokisi lesikrini esigcwele';
+  String get dialogFullscreenDescription =>
+      'Idemo yebhokisi lesikrini esigcwele';
 
   @override
   String get cupertinoButton => 'Inkinobho';
@@ -1645,10 +1776,12 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Lahla';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Vumela okuthi \"Amamephu\" ukuze ufinyelele kundawo yakho ngenkathi usebenzisa uhlelo lokusebenza?';
+  String get cupertinoAlertLocationTitle =>
+      'Vumela okuthi \"Amamephu\" ukuze ufinyelele kundawo yakho ngenkathi usebenzisa uhlelo lokusebenza?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Indawo yakho yamanje izoboniswa kumephu iphinde isetshenziselwe izikhombisi-ndlela, imiphumela yosesho oluseduze, nezikhathi zokuvakasha ezilinganisiwe.';
+  String get cupertinoAlertLocationDescription =>
+      'Indawo yakho yamanje izoboniswa kumephu iphinde isetshenziselwe izikhombisi-ndlela, imiphumela yosesho oluseduze, nezikhathi zokuvakasha ezilinganisiwe.';
 
   @override
   String get cupertinoAlertAllow => 'Vumela';
@@ -1657,10 +1790,12 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get cupertinoAlertDontAllow => 'Ungavumeli';
 
   @override
-  String get cupertinoAlertFavoriteDessert => 'Khetha isidlo sokwehlisa esiyintandokazi';
+  String get cupertinoAlertFavoriteDessert =>
+      'Khetha isidlo sokwehlisa esiyintandokazi';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Sicela ukhethe uhlobo lwakho oluyintandokazi lwesidlo sokwehlisa kusukela kuhlu olungezansi. Ukukhethwa kwakho kuzosetshenziselwa ukwenza kube ngokwakho uhlu oluphakanyisiwe lwezindawo zokudlela endaweni yangakini.';
+  String get cupertinoAlertDessertDescription =>
+      'Sicela ukhethe uhlobo lwakho oluyintandokazi lwesidlo sokwehlisa kusukela kuhlu olungezansi. Ukukhethwa kwakho kuzosetshenziselwa ukwenza kube ngokwakho uhlu oluphakanyisiwe lwezindawo zokudlela endaweni yangakini.';
 
   @override
   String get cupertinoAlertCheesecake => 'I-Cheesecake';
@@ -1923,7 +2058,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get shrineProductHurrahsTeaSet => 'Isethi yetiya ye-Hurrahs';
 
   @override
-  String get shrineProductBlueStoneMug => 'I-mug yetshe eluhlaza okwesibhakabhaka';
+  String get shrineProductBlueStoneMug =>
+      'I-mug yetshe eluhlaza okwesibhakabhaka';
 
   @override
   String get shrineProductRainwaterTray => 'Ithreyi ye-Rainwater';
@@ -1950,7 +2086,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get shrineProductPlasterTunic => 'I-Plaster tunic';
 
   @override
-  String get shrineProductWhitePinstripeShirt => 'Ishedi le-pinstripe elimhlophe';
+  String get shrineProductWhitePinstripeShirt =>
+      'Ishedi le-pinstripe elimhlophe';
 
   @override
   String get shrineProductChambrayShirt => 'Ishedi le-Chambray';
@@ -2243,13 +2380,15 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get craneEat10 => 'I-Lisbon, e-Portugal';
 
   @override
-  String get craneFly0SemanticLabel => 'I-chalet yokwakheka kwezwe eneqhwa enezihlahla ezihlala ziluhlaza';
+  String get craneFly0SemanticLabel =>
+      'I-chalet yokwakheka kwezwe eneqhwa enezihlahla ezihlala ziluhlaza';
 
   @override
   String get craneFly1SemanticLabel => 'Itende kunkambu';
 
   @override
-  String get craneFly2SemanticLabel => 'Amafulegi omthandazo angaphambi kwentaba eneqhwa';
+  String get craneFly2SemanticLabel =>
+      'Amafulegi omthandazo angaphambi kwentaba eneqhwa';
 
   @override
   String get craneFly3SemanticLabel => 'I-Machu Picchu citadel';
@@ -2258,10 +2397,12 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get craneFly4SemanticLabel => 'Ama-bungalow angaphezu kwamanzi';
 
   @override
-  String get craneFly5SemanticLabel => 'Ihhotela elikuhlangothi lwechibi ngaphambi kwezintaba';
+  String get craneFly5SemanticLabel =>
+      'Ihhotela elikuhlangothi lwechibi ngaphambi kwezintaba';
 
   @override
-  String get craneFly6SemanticLabel => 'Ukubuka okuphezulu kwe-Palacio de Bellas Artes';
+  String get craneFly6SemanticLabel =>
+      'Ukubuka okuphezulu kwe-Palacio de Bellas Artes';
 
   @override
   String get craneFly7SemanticLabel => 'I-Mount Rushmore';
@@ -2270,10 +2411,12 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'I-Supertree Grove';
 
   @override
-  String get craneFly9SemanticLabel => 'Indoda encike kumoto endala eluhlaza okwesibhakabhaka';
+  String get craneFly9SemanticLabel =>
+      'Indoda encike kumoto endala eluhlaza okwesibhakabhaka';
 
   @override
-  String get craneFly10SemanticLabel => 'I-Al-Azhar Mosque towers ngesikhathi sokushona kwelanga';
+  String get craneFly10SemanticLabel =>
+      'I-Al-Azhar Mosque towers ngesikhathi sokushona kwelanga';
 
   @override
   String get craneFly11SemanticLabel => 'Indlu enesibani yesitina esolwandle';
@@ -2282,22 +2425,26 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get craneFly12SemanticLabel => 'Iphuli enezihlahla zamasundu';
 
   @override
-  String get craneFly13SemanticLabel => 'Iphuli ekuhlangothi lolwandle olunezihlahla zamasundu';
+  String get craneFly13SemanticLabel =>
+      'Iphuli ekuhlangothi lolwandle olunezihlahla zamasundu';
 
   @override
   String get craneSleep0SemanticLabel => 'Ama-bungalow angaphezu kwamanzi';
 
   @override
-  String get craneSleep1SemanticLabel => 'I-chalet yokwakheka kwezwe eneqhwa enezihlahla ezihlala ziluhlaza';
+  String get craneSleep1SemanticLabel =>
+      'I-chalet yokwakheka kwezwe eneqhwa enezihlahla ezihlala ziluhlaza';
 
   @override
   String get craneSleep2SemanticLabel => 'I-Machu Picchu citadel';
 
   @override
-  String get craneSleep3SemanticLabel => 'Indoda encike kumoto endala eluhlaza okwesibhakabhaka';
+  String get craneSleep3SemanticLabel =>
+      'Indoda encike kumoto endala eluhlaza okwesibhakabhaka';
 
   @override
-  String get craneSleep4SemanticLabel => 'Ihhotela elikuhlangothi lwechibi ngaphambi kwezintaba';
+  String get craneSleep4SemanticLabel =>
+      'Ihhotela elikuhlangothi lwechibi ngaphambi kwezintaba';
 
   @override
   String get craneSleep5SemanticLabel => 'Itende kunkambu';
@@ -2306,16 +2453,19 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get craneSleep6SemanticLabel => 'Iphuli enezihlahla zamasundu';
 
   @override
-  String get craneSleep7SemanticLabel => 'Izindawo zokuhlala ezinemibalabala e-Riberia Square';
+  String get craneSleep7SemanticLabel =>
+      'Izindawo zokuhlala ezinemibalabala e-Riberia Square';
 
   @override
-  String get craneSleep8SemanticLabel => 'Ukonakala kwase-Mayan eweni ngaphezulu kwebhishi';
+  String get craneSleep8SemanticLabel =>
+      'Ukonakala kwase-Mayan eweni ngaphezulu kwebhishi';
 
   @override
   String get craneSleep9SemanticLabel => 'Indlu enesibani yesitina esolwandle';
 
   @override
-  String get craneSleep10SemanticLabel => 'I-Al-Azhar Mosque towers ngesikhathi sokushona kwelanga';
+  String get craneSleep10SemanticLabel =>
+      'I-Al-Azhar Mosque towers ngesikhathi sokushona kwelanga';
 
   @override
   String get craneSleep11SemanticLabel => 'I-Taipei 101 skyscraper';
@@ -2324,7 +2474,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get craneEat0SemanticLabel => 'I-pizza kuwovini onomlilo wezinkuni';
 
   @override
-  String get craneEat1SemanticLabel => 'Ibha engenalutho enezitulo zesitayela sedina';
+  String get craneEat1SemanticLabel =>
+      'Ibha engenalutho enezitulo zesitayela sedina';
 
   @override
   String get craneEat2SemanticLabel => 'Ibhega';
@@ -2336,7 +2487,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get craneEat4SemanticLabel => 'Isidlo sokwehlisa soshokoledi';
 
   @override
-  String get craneEat5SemanticLabel => 'Indawo yokuhlala yerestshurenti ye-Artsy';
+  String get craneEat5SemanticLabel =>
+      'Indawo yokuhlala yerestshurenti ye-Artsy';
 
   @override
   String get craneEat6SemanticLabel => 'Isidlo se-Shrimp';
@@ -2351,7 +2503,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get craneEat9SemanticLabel => 'Ikhawunta yekhefi enama-pastry';
 
   @override
-  String get craneEat10SemanticLabel => 'Owesifazane ophethe isemishi enkulu ye-pastrami';
+  String get craneEat10SemanticLabel =>
+      'Owesifazane ophethe isemishi enkulu ye-pastrami';
 
   @override
   String get fortnightlyMenuFrontPage => 'Ikhasi langaphambili';
@@ -2390,7 +2543,8 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get fortnightlyTrendingReform => 'Okulungisiwe';
 
   @override
-  String get fortnightlyTrendingHealthcareRevolution => 'I-HealthcareRevolution';
+  String get fortnightlyTrendingHealthcareRevolution =>
+      'I-HealthcareRevolution';
 
   @override
   String get fortnightlyTrendingGreenArmy => 'I-GreenArmy';
@@ -2402,28 +2556,35 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Izibuyekezo Zakamuva';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Ukuphenduka Okuthulile, Kodwa Okunamandla Kokunakekelwa Kwezempilo';
+  String get fortnightlyHeadlineHealthcare =>
+      'Ukuphenduka Okuthulile, Kodwa Okunamandla Kokunakekelwa Kwezempilo';
 
   @override
-  String get fortnightlyHeadlineWar => 'Owasemelika Ohlukanisiwe Ophila Ngesikhathi Sempi';
+  String get fortnightlyHeadlineWar =>
+      'Owasemelika Ohlukanisiwe Ophila Ngesikhathi Sempi';
 
   @override
   String get fortnightlyHeadlineGasoline => 'Ikusasa Lephethiloli';
 
   @override
-  String get fortnightlyHeadlineArmy => 'Ukulungiswa Kwempi Eluhlaza Kusukela Ngaphakathi';
+  String get fortnightlyHeadlineArmy =>
+      'Ukulungiswa Kwempi Eluhlaza Kusukela Ngaphakathi';
 
   @override
-  String get fortnightlyHeadlineStocks => 'Njengoba Izitoko Zihamba Kancane, Iningi Labantu Libheka Uhlobo Lwemali';
+  String get fortnightlyHeadlineStocks =>
+      'Njengoba Izitoko Zihamba Kancane, Iningi Labantu Libheka Uhlobo Lwemali';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Abadizayinayo Basebenzisa Ubuchwepheshe Ukuze Benze Izindwangu Ezizayo';
+  String get fortnightlyHeadlineFabrics =>
+      'Abadizayinayo Basebenzisa Ubuchwepheshe Ukuze Benze Izindwangu Ezizayo';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'Ama-Ferminist Athatha i-Partisanship';
+  String get fortnightlyHeadlineFeminists =>
+      'Ama-Ferminist Athatha i-Partisanship';
 
   @override
-  String get fortnightlyHeadlineBees => 'Izinyosi Zendawo Yefamu Zinokunikezwa Okumfushane';
+  String get fortnightlyHeadlineBees =>
+      'Izinyosi Zendawo Yefamu Zinokunikezwa Okumfushane';
 
   @override
   String get replyInboxLabel => 'Ibhokisi lokungenayo';

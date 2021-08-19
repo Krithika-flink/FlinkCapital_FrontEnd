@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get signIn => 'LOG MASUK';
 
   @override
-  String get bannerDemoText => 'Kata laluan anda telah dikemas kini pada peranti anda yang lain. Sila log masuk sekali lagi.';
+  String get bannerDemoText =>
+      'Kata laluan anda telah dikemas kini pada peranti anda yang lain. Sila log masuk sekali lagi.';
 
   @override
   String get bannerDemoResetText => 'Tetapkan semula sepanduk';
@@ -60,7 +60,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => '10 Bandar Paling Popular untuk Dilawati di Tamil Nadu';
+  String get cardsDemoTravelDestinationTitle1 =>
+      '10 Bandar Paling Popular untuk Dilawati di Tamil Nadu';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Nombor 10';
@@ -72,7 +73,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get cardsDemoTravelDestinationLocation1 => 'Thanjavur, Tamil Nadu';
 
   @override
-  String get cardsDemoTravelDestinationTitle2 => 'Tenaga Mahir dari India Selatan';
+  String get cardsDemoTravelDestinationTitle2 =>
+      'Tenaga Mahir dari India Selatan';
 
   @override
   String get cardsDemoTravelDestinationDescription2 => 'Pemintal Sutera';
@@ -120,7 +122,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Percutian';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Peratus Hasil Tahunan';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Peratus Hasil Tahunan';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Kadar Faedah';
@@ -129,7 +132,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'Faedah YTD';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Faedah Dibayar Pada Tahun Lalu';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Faedah Dibayar Pada Tahun Lalu';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Penyata seterusnya';
@@ -285,8 +289,10 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Tingkatkan potongan cukai berpotensi anda! Tetapkan kategori kepada 1 transaksi yang tidak ditentukan.',
-      other: 'Tingkatkan potongan cukai berpotensi anda! Tetapkan kategori kepada ${count} transaksi yang tidak ditentukan.',
+      one:
+          'Tingkatkan potongan cukai berpotensi anda! Tetapkan kategori kepada 1 transaksi yang tidak ditentukan.',
+      other:
+          'Tingkatkan potongan cukai berpotensi anda! Tetapkan kategori kepada ${count} transaksi yang tidak ditentukan.',
     );
   }
 
@@ -300,7 +306,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Lihat semua belanjawan';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'Akaun ${accountName} bagi ${accountNumber} sebanyak ${amount}.';
   }
 
@@ -310,7 +317,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'Belanjawan ${budgetName} dengan ${amountUsed} digunakan daripada ${amountTotal}, baki ${amountLeft}';
   }
 
@@ -342,7 +350,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoCodeViewerCopyAll => 'SALIN SEMUA';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'Disalin ke papan keratan.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'Disalin ke papan keratan.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -353,7 +362,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Lihat pilihan';
 
   @override
-  String get demoOptionsFeatureDescription => 'Ketik di sini untuk melihat pilihan yang tersedia untuk tunjuk cara ini.';
+  String get demoOptionsFeatureDescription =>
+      'Ketik di sini untuk melihat pilihan yang tersedia untuk tunjuk cara ini.';
 
   @override
   String get settingsTitle => 'Tetapan';
@@ -425,19 +435,23 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Bar apl sebelah bawah';
 
   @override
-  String get demoBottomAppBarSubtitle => 'Memaparkan navigasi dan tindakan di bahagian bawah';
+  String get demoBottomAppBarSubtitle =>
+      'Memaparkan navigasi dan tindakan di bahagian bawah';
 
   @override
-  String get demoBottomAppBarDescription => 'Bar apl sebelah bawah menyediakan akses kepada laci navigasi bawah dan sehingga empat tindakan, termasuk butang tindakan terapung.';
+  String get demoBottomAppBarDescription =>
+      'Bar apl sebelah bawah menyediakan akses kepada laci navigasi bawah dan sehingga empat tindakan, termasuk butang tindakan terapung.';
 
   @override
   String get bottomAppBarNotch => 'Takuk';
@@ -464,13 +478,15 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Memaparkan sepanduk dalam senarai';
 
   @override
-  String get demoBannerDescription => 'Sepanduk memaparkan mesej yang penting, ringkas dan menyediakan tindakan untuk ditangani pengguna (atau mengetepikan sepanduk). Tindakan pengguna diperlukan untuk mengetepikan sepanduk.';
+  String get demoBannerDescription =>
+      'Sepanduk memaparkan mesej yang penting, ringkas dan menyediakan tindakan untuk ditangani pengguna (atau mengetepikan sepanduk). Tindakan pengguna diperlukan untuk mengetepikan sepanduk.';
 
   @override
   String get demoBottomNavigationTitle => 'Navigasi bawah';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Navigasi bawah dengan paparan memudar silang';
+  String get demoBottomNavigationSubtitle =>
+      'Navigasi bawah dengan paparan memudar silang';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Label berterusan';
@@ -479,7 +495,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Label yang dipilih';
 
   @override
-  String get demoBottomNavigationDescription => 'Bar navigasi bawah menunjukkan tiga hingga lima destinasi di bahagian bawah skrin. Setiap destinasi diwakili oleh ikon dan label teks pilihan. Apabila ikon navigasi bawah diketik, pengguna dibawa ke destinasi navigasi tahap tinggi yang dikaitkan dengan ikon tersebut.';
+  String get demoBottomNavigationDescription =>
+      'Bar navigasi bawah menunjukkan tiga hingga lima destinasi di bahagian bawah skrin. Setiap destinasi diwakili oleh ikon dan label teks pilihan. Apabila ikon navigasi bawah diketik, pengguna dibawa ke destinasi navigasi tahap tinggi yang dikaitkan dengan ikon tersebut.';
 
   @override
   String get demoButtonTitle => 'Butang';
@@ -491,31 +508,36 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoTextButtonTitle => 'Butang Teks';
 
   @override
-  String get demoTextButtonDescription => 'Butang teks memaparkan percikan dakwat apabila ditekan namun tidak timbul. Gunakan butang teks pada bar alat, dalam dialog dan sebaris dengan pelapik';
+  String get demoTextButtonDescription =>
+      'Butang teks memaparkan percikan dakwat apabila ditekan namun tidak timbul. Gunakan butang teks pada bar alat, dalam dialog dan sebaris dengan pelapik';
 
   @override
   String get demoElevatedButtonTitle => 'Butang Terangkat';
 
   @override
-  String get demoElevatedButtonDescription => 'Butang terangkat menambahkan dimensi pada reka letak yang kebanyakannya rata. Butang ini menekankan fungsi pada ruang sibuk atau luas.';
+  String get demoElevatedButtonDescription =>
+      'Butang terangkat menambahkan dimensi pada reka letak yang kebanyakannya rata. Butang ini menekankan fungsi pada ruang sibuk atau luas.';
 
   @override
   String get demoOutlinedButtonTitle => 'Butang Garis Kasar';
 
   @override
-  String get demoOutlinedButtonDescription => 'Butang garis kasar menjadi legap dan terangkat apabila ditekan. Butang ini sering digandingkan dengan butang timbul untuk menunjukkan tindakan sekunder alternatif.';
+  String get demoOutlinedButtonDescription =>
+      'Butang garis kasar menjadi legap dan terangkat apabila ditekan. Butang ini sering digandingkan dengan butang timbul untuk menunjukkan tindakan sekunder alternatif.';
 
   @override
   String get demoToggleButtonTitle => 'Butang Togol';
 
   @override
-  String get demoToggleButtonDescription => 'Butang togol boleh digunakan untuk mengumpulkan pilihan yang berkaitan. Untuk menekankan kumpulan butang togol yang berkaitan, kumpulan harus berkongsi bekas yang sama';
+  String get demoToggleButtonDescription =>
+      'Butang togol boleh digunakan untuk mengumpulkan pilihan yang berkaitan. Untuk menekankan kumpulan butang togol yang berkaitan, kumpulan harus berkongsi bekas yang sama';
 
   @override
   String get demoFloatingButtonTitle => 'Butang Tindakan Terapung';
 
   @override
-  String get demoFloatingButtonDescription => 'Butang tindakan terapung ialah butang ikon bulat yang menuding pada kandungan untuk mempromosikan tindakan utama dalam aplikasi.';
+  String get demoFloatingButtonDescription =>
+      'Butang tindakan terapung ialah butang ikon bulat yang menuding pada kandungan untuk mempromosikan tindakan utama dalam aplikasi.';
 
   @override
   String get demoCardTitle => 'Kad';
@@ -527,34 +549,40 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoChipTitle => 'Cip';
 
   @override
-  String get demoCardDescription => 'Kad merupakan helaian Bahan yang digunakan untuk mewakili beberapa maklumat berkaitan, contohnya album, lokasi geografi, hidangan, butiran hubungan dan lain-lain.';
+  String get demoCardDescription =>
+      'Kad merupakan helaian Bahan yang digunakan untuk mewakili beberapa maklumat berkaitan, contohnya album, lokasi geografi, hidangan, butiran hubungan dan lain-lain.';
 
   @override
-  String get demoChipSubtitle => 'Unsur sarat yang mewakili input, atribut atau tindakan';
+  String get demoChipSubtitle =>
+      'Unsur sarat yang mewakili input, atribut atau tindakan';
 
   @override
   String get demoActionChipTitle => 'Cip Tindakan';
 
   @override
-  String get demoActionChipDescription => 'Cip tindakan ialah satu set pilihan yang mencetuskan tindakan yang berkaitan dengan kandungan utama. Cip tindakan seharusnya dipaparkan secara dinamik dan kontekstual dalam UI.';
+  String get demoActionChipDescription =>
+      'Cip tindakan ialah satu set pilihan yang mencetuskan tindakan yang berkaitan dengan kandungan utama. Cip tindakan seharusnya dipaparkan secara dinamik dan kontekstual dalam UI.';
 
   @override
   String get demoChoiceChipTitle => 'Cip Pilihan';
 
   @override
-  String get demoChoiceChipDescription => 'Cip pilihan mewakili satu pilihan daripada satu set. Cip pilihan mengandungi teks atau kategori deskriptif yang berkaitan.';
+  String get demoChoiceChipDescription =>
+      'Cip pilihan mewakili satu pilihan daripada satu set. Cip pilihan mengandungi teks atau kategori deskriptif yang berkaitan.';
 
   @override
   String get demoFilterChipTitle => 'Cip Penapis';
 
   @override
-  String get demoFilterChipDescription => 'Cip penapis menggunakan teg atau perkataan deskriptif sebagai cara untuk menapis kandungan.';
+  String get demoFilterChipDescription =>
+      'Cip penapis menggunakan teg atau perkataan deskriptif sebagai cara untuk menapis kandungan.';
 
   @override
   String get demoInputChipTitle => 'Cip Input';
 
   @override
-  String get demoInputChipDescription => 'Cip input mewakili bahagian maklumat yang kompleks, seperti entiti (orang, tempat atau benda) atau teks perbualan dalam bentuk padat.';
+  String get demoInputChipDescription =>
+      'Cip input mewakili bahagian maklumat yang kompleks, seperti entiti (orang, tempat atau benda) atau teks perbualan dalam bentuk padat.';
 
   @override
   String get demoDataTableTitle => 'Jadual Data';
@@ -563,7 +591,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'Baris dan lajur maklumat';
 
   @override
-  String get demoDataTableDescription => 'Jadual data memaparkan maklumat dalam format seperti grid yang mengandungi baris dan lajur. Jadual ini menyusun maklumat dengan cara yang mudah untuk diimbas, supaya pengguna dapat mencari corak dan cerapan.';
+  String get demoDataTableDescription =>
+      'Jadual data memaparkan maklumat dalam format seperti grid yang mengandungi baris dan lajur. Jadual ini menyusun maklumat dengan cara yang mudah untuk diimbas, supaya pengguna dapat mencari corak dan cerapan.';
 
   @override
   String get dataTableHeader => 'Pemakanan';
@@ -642,7 +671,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'Makluman';
 
   @override
-  String get demoAlertDialogDescription => 'Dialog makluman memberitahu pengguna tentang situasi yang memerlukan perakuan. Dialog makluman mempunyai tajuk pilihan dan senarai tindakan pilihan.';
+  String get demoAlertDialogDescription =>
+      'Dialog makluman memberitahu pengguna tentang situasi yang memerlukan perakuan. Dialog makluman mempunyai tajuk pilihan dan senarai tindakan pilihan.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Makluman Bertajuk';
@@ -651,16 +681,19 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Ringkas';
 
   @override
-  String get demoSimpleDialogDescription => 'Dialog ringkas menawarkan pengguna satu pilihan antara beberapa pilihan. Dialog ringkas mempunyai tajuk pilihan yang dipaparkan di bahagian atas pilihan itu.';
+  String get demoSimpleDialogDescription =>
+      'Dialog ringkas menawarkan pengguna satu pilihan antara beberapa pilihan. Dialog ringkas mempunyai tajuk pilihan yang dipaparkan di bahagian atas pilihan itu.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +705,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Reka letak baris dan lajur';
 
   @override
-  String get demoGridListsDescription => 'Senarai Grid adalah paling sesuai untuk pembentangan data homogen, biasanya imej. Setiap item dalam senarai grid dipanggil jubin.';
+  String get demoGridListsDescription =>
+      'Senarai Grid adalah paling sesuai untuk pembentangan data homogen, biasanya imej. Setiap item dalam senarai grid dipanggil jubin.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Imej sahaja';
@@ -690,31 +724,37 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoSlidersSubtitle => 'Widget untuk memilih nilai dengan meleret';
 
   @override
-  String get demoSlidersDescription => 'Peluncur menggambarkan satu julat nilai di sepanjang bar dan pengguna boleh memilih satu daripada nilai itu. Peluncur ini sesuai untuk melaraskan tetapan seperti kelantangan, kecerahan atau penggunaan penapis imej.';
+  String get demoSlidersDescription =>
+      'Peluncur menggambarkan satu julat nilai di sepanjang bar dan pengguna boleh memilih satu daripada nilai itu. Peluncur ini sesuai untuk melaraskan tetapan seperti kelantangan, kecerahan atau penggunaan penapis imej.';
 
   @override
   String get demoRangeSlidersTitle => 'Peluncur Julat';
 
   @override
-  String get demoRangeSlidersDescription => 'Peluncur menggambarkan satu julat nilai di sepanjang bar. Peluncur boleh mempunyai ikon di kedua-dua hujung bar yang menggambarkan satu julat nilai. Peluncur ini sesuai untuk melaraskan tetapan seperti kelantangan, kecerahan atau penggunaan penapis imej.';
+  String get demoRangeSlidersDescription =>
+      'Peluncur menggambarkan satu julat nilai di sepanjang bar. Peluncur boleh mempunyai ikon di kedua-dua hujung bar yang menggambarkan satu julat nilai. Peluncur ini sesuai untuk melaraskan tetapan seperti kelantangan, kecerahan atau penggunaan penapis imej.';
 
   @override
   String get demoCustomSlidersTitle => 'Peluncur Tersuai';
 
   @override
-  String get demoCustomSlidersDescription => 'Peluncur menggambarkan satu julat nilai di sepanjang bar dan pengguna boleh memilih satu atau beberapa nilai itu. Peluncur boleh bertema atau disesuaikan.';
+  String get demoCustomSlidersDescription =>
+      'Peluncur menggambarkan satu julat nilai di sepanjang bar dan pengguna boleh memilih satu atau beberapa nilai itu. Peluncur boleh bertema atau disesuaikan.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Berterusan dengan Nilai Berangka Boleh Edit';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Berterusan dengan Nilai Berangka Boleh Edit';
 
   @override
   String get demoSlidersDiscrete => 'Diskret';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Peluncur Diskret dengan Tema Tersuai';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Peluncur Diskret dengan Tema Tersuai';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Peluncur Julat Berterusan dengan Tema Tersuai';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Peluncur Julat Berterusan dengan Tema Tersuai';
 
   @override
   String get demoSlidersContinuous => 'Berterusan';
@@ -741,7 +781,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Butang menu dan menu ringkas';
 
   @override
-  String get demoMenuDescription => 'Menu memaparkan senarai pilihan pada permukaan sementara. Menu ini muncul apabila pengguna berinteraksi dengan butang, tindakan atau kawalan lain.';
+  String get demoMenuDescription =>
+      'Menu memaparkan senarai pilihan pada permukaan sementara. Menu ini muncul apabila pengguna berinteraksi dengan butang, tindakan atau kawalan lain.';
 
   @override
   String get demoMenuItemValueOne => 'Item menu pertama';
@@ -808,7 +849,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoNavigationDrawerSubtitle => 'Memaparkan laci dalam bar apl';
 
   @override
-  String get demoNavigationDrawerDescription => 'Panel Reka Bentuk Bahan yang diluncurkan secara mendatar dari tepi skrin untuk menunjukkan pautan navigasi dalam aplikasi.';
+  String get demoNavigationDrawerDescription =>
+      'Panel Reka Bentuk Bahan yang diluncurkan secara mendatar dari tepi skrin untuk menunjukkan pautan navigasi dalam aplikasi.';
 
   @override
   String get demoNavigationDrawerUserName => 'Nama Pengguna';
@@ -823,16 +865,19 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Item Dua';
 
   @override
-  String get demoNavigationDrawerText => 'Leret dari tepi atau ketik ikon kiri sebelah atas untuk melihat laci';
+  String get demoNavigationDrawerText =>
+      'Leret dari tepi atau ketik ikon kiri sebelah atas untuk melihat laci';
 
   @override
   String get demoNavigationRailTitle => 'Laluan Navigasi';
 
   @override
-  String get demoNavigationRailSubtitle => 'Memaparkan Laluan Navigasi dalam apl';
+  String get demoNavigationRailSubtitle =>
+      'Memaparkan Laluan Navigasi dalam apl';
 
   @override
-  String get demoNavigationRailDescription => 'Widget bahan yang dimaksudkan untuk dipaparkan di kiri atau kanan apl untuk menavigasi antara sebilangan kecil paparan, biasanya antara tiga hingga lima.';
+  String get demoNavigationRailDescription =>
+      'Widget bahan yang dimaksudkan untuk dipaparkan di kiri atau kanan apl untuk menavigasi antara sebilangan kecil paparan, biasanya antara tiga hingga lima.';
 
   @override
   String get demoNavigationRailFirst => 'Pertama';
@@ -847,22 +892,26 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoMenuAnItemWithASimpleMenu => 'Item dengan menu ringkas';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Item dengan menu senarai semak';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Item dengan menu senarai semak';
 
   @override
   String get demoFullscreenDialogTitle => 'Skrin penuh';
 
   @override
-  String get demoFullscreenDialogDescription => 'Sifat Dialogskrinpenuh menentukan sama ada halaman masuk ialah dialog mod skrin penuh';
+  String get demoFullscreenDialogDescription =>
+      'Sifat Dialogskrinpenuh menentukan sama ada halaman masuk ialah dialog mod skrin penuh';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Penunjuk aktiviti';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'Penunjuk aktiviti gaya iOS';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'Penunjuk aktiviti gaya iOS';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'Penunjuk aktiviti gaya iOS yang berputar mengikut arah jam.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'Penunjuk aktiviti gaya iOS yang berputar mengikut arah jam.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Butang';
@@ -871,7 +920,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'Butang gaya iOS';
 
   @override
-  String get demoCupertinoButtonsDescription => 'Butang gaya iOS. Butang menggunakan teks dan/atau ikon yang melenyap keluar dan muncul apabila disentuh. Boleh mempunyai latar belakang secara pilihan.';
+  String get demoCupertinoButtonsDescription =>
+      'Butang gaya iOS. Butang menggunakan teks dan/atau ikon yang melenyap keluar dan muncul apabila disentuh. Boleh mempunyai latar belakang secara pilihan.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +930,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,7 +940,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Makluman';
@@ -901,7 +953,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => 'Makluman';
 
   @override
-  String get demoCupertinoAlertDescription => 'Dialog makluman memberitahu pengguna tentang situasi yang memerlukan perakuan. Dialog makluman mempunyai tajuk pilihan, kandungan pilihan dan senarai tindakan pilihan. Tajuk dipaparkan di bahagian atas kandungan manakala tindakan dipaparkan di bahagian bawah kandungan.';
+  String get demoCupertinoAlertDescription =>
+      'Dialog makluman memberitahu pengguna tentang situasi yang memerlukan perakuan. Dialog makluman mempunyai tajuk pilihan, kandungan pilihan dan senarai tindakan pilihan. Tajuk dipaparkan di bahagian atas kandungan manakala tindakan dipaparkan di bahagian bawah kandungan.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Makluman Bertajuk';
@@ -916,7 +969,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'Helaian Tindakan';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Helaian tindakan ialah gaya makluman tertentu yang mengemukakan kepada pengguna set dua atau lebih pilihan yang berkaitan dengan konteks semasa. Helaian tindakan boleh mempunyai tajuk, mesej tambahan dan senarai tindakan.';
+  String get demoCupertinoActionSheetDescription =>
+      'Helaian tindakan ialah gaya makluman tertentu yang mengemukakan kepada pengguna set dua atau lebih pilihan yang berkaitan dengan konteks semasa. Helaian tindakan boleh mempunyai tajuk, mesej tambahan dan senarai tindakan.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Bar navigasi';
@@ -925,7 +979,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoCupertinoNavigationBarSubtitle => 'Bar navigasi gaya iOS';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'Bar navigasi bergaya iOS Bar navigasi ialah bar alat yang secara minimumnya mengandungi tajuk halaman di tengah-tengah bar alat.';
+  String get demoCupertinoNavigationBarDescription =>
+      'Bar navigasi bergaya iOS Bar navigasi ialah bar alat yang secara minimumnya mengandungi tajuk halaman di tengah-tengah bar alat.';
 
   @override
   String get demoCupertinoPickerTitle => 'Pemilih';
@@ -934,7 +989,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoCupertinoPickerSubtitle => 'Pemilih tarikh dan masa gaya iOS';
 
   @override
-  String get demoCupertinoPickerDescription => 'Widget pemilih gaya iOS yang boleh digunakan untuk memilih tarikh, masa atau kedua-duanya.';
+  String get demoCupertinoPickerDescription =>
+      'Widget pemilih gaya iOS yang boleh digunakan untuk memilih tarikh, masa atau kedua-duanya.';
 
   @override
   String get demoCupertinoPickerTimer => 'Pemasa';
@@ -952,19 +1008,23 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'Tarik untuk memuat semula';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'Kawalan tarik untuk muat semula gaya iOS';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'Kawalan tarik untuk muat semula gaya iOS';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Widget yang melaksanakan kawalan kandungan tarik untuk muat semula gaya iOS.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Widget yang melaksanakan kawalan kandungan tarik untuk muat semula gaya iOS.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Kawalan disegmenkan';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'Kawalan disegmenkan gaya iOS';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'Kawalan disegmenkan gaya iOS';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Digunakan untuk memilih antara beberapa pilihan eksklusif bersama. Apabila satu pilihan dalam kawalan yang disegmenkan dipilih, pilihan lain dalam kawalan disegmenkan itu dihentikan sebagai pilihan.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Digunakan untuk memilih antara beberapa pilihan eksklusif bersama. Apabila satu pilihan dalam kawalan yang disegmenkan dipilih, pilihan lain dalam kawalan disegmenkan itu dihentikan sebagai pilihan.';
 
   @override
   String get demoCupertinoSliderTitle => 'Peluncur';
@@ -973,7 +1033,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'Peluncur gaya iOS';
 
   @override
-  String get demoCupertinoSliderDescription => 'Peluncur boleh digunakan untuk memilih daripada set nilai berterusan atau diskret.';
+  String get demoCupertinoSliderDescription =>
+      'Peluncur boleh digunakan untuk memilih daripada set nilai berterusan atau diskret.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,7 +1050,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'Suis gaya iOS';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Suis digunakan untuk menogol keadaan hidup/mati tetapan tunggal.';
+  String get demoCupertinoSwitchDescription =>
+      'Suis digunakan untuk menogol keadaan hidup/mati tetapan tunggal.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Bar tab';
@@ -998,7 +1060,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'Bar tab bawah gaya iOS';
 
   @override
-  String get demoCupertinoTabBarDescription => 'Bar tab navigasi bawah gaya iOS. Memaparkan berbilang tab dengan satu tab sedang aktif, tab pertama secara lalai.';
+  String get demoCupertinoTabBarDescription =>
+      'Bar tab navigasi bawah gaya iOS. Memaparkan berbilang tab dengan satu tab sedang aktif, tab pertama secara lalai.';
 
   @override
   String get cupertinoTabBarHomeTab => 'Laman Utama';
@@ -1016,7 +1079,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'Medan teks gaya iOS';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'Medan teks membolehkan pengguna memasukkan teks menggunakan papan kekunci perkakasan atau papan kekunci pada skrin.';
+  String get demoCupertinoTextFieldDescription =>
+      'Medan teks membolehkan pengguna memasukkan teks menggunakan papan kekunci perkakasan atau papan kekunci pada skrin.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN';
@@ -1034,7 +1098,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoSharedXAxisDemoInstructions => 'Butang Seterusnya dan Kembali';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'Isih mengikut \"Dimainkan Baru-baru Ini\"';
+  String get demoSharedYAxisDemoInstructions =>
+      'Isih mengikut \"Dimainkan Baru-baru Ini\"';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'Butang ikon tetapan';
@@ -1049,7 +1114,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'Pengubahan Bekas';
 
   @override
-  String get demoContainerTransformDescription => 'Corak pengubahan bekas direka bentuk untuk peralihan antara unsur UI yang merangkumi bekas. Corak ini mewujudkan hubungan yang boleh dilihat antara dua unsur UI';
+  String get demoContainerTransformDescription =>
+      'Corak pengubahan bekas direka bentuk untuk peralihan antara unsur UI yang merangkumi bekas. Corak ini mewujudkan hubungan yang boleh dilihat antara dua unsur UI';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'Mod lenyap';
@@ -1076,7 +1142,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Item senarai';
 
   @override
-  String get demoSharedAxisDescription => 'Corak paksi dikongsi digunakan untuk peralihan antara unsur UI yang mempunyai perhubungan ruang atau navigasi. Corak ini menggunakan pengubahan dikongsi pada paksi x, y atau z untuk mengukuhkan perhubungan antara unsur.';
+  String get demoSharedAxisDescription =>
+      'Corak paksi dikongsi digunakan untuk peralihan antara unsur UI yang mempunyai perhubungan ruang atau navigasi. Corak ini menggunakan pengubahan dikongsi pada paksi x, y atau z untuk mengukuhkan perhubungan antara unsur.';
 
   @override
   String get demoSharedXAxisTitle => 'Paksi x dikongsi';
@@ -1091,7 +1158,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'Selaraskan kursus anda';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Kategori yang dihimpun dipaparkan sebagai kumpulan dalam suapan anda. Anda boleh menukar tetapan ini pada bila-bila masa kemudian.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Kategori yang dihimpun dipaparkan sebagai kumpulan dalam suapan anda. Anda boleh menukar tetapan ini pada bila-bila masa kemudian.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Seni & Pertukangan';
@@ -1112,7 +1180,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoSharedXAxisBundledCourseSubtitle => 'Dihimpunkan';
 
   @override
-  String get demoSharedXAxisIndividualCourseSubtitle => 'Ditunjukkan Secara Berasingan';
+  String get demoSharedXAxisIndividualCourseSubtitle =>
+      'Ditunjukkan Secara Berasingan';
 
   @override
   String get demoSharedXAxisSignInWelcomeText => 'Hai, David Park';
@@ -1178,19 +1247,22 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Udang';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Resipi sepiring udang';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Resipi sepiring udang';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Ketam';
 
   @override
-  String get demoSharedZAxisCrabPlateRecipeDescription => 'Resipi sepiring ketam';
+  String get demoSharedZAxisCrabPlateRecipeDescription =>
+      'Resipi sepiring ketam';
 
   @override
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Sandwic Daging';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Resipi Sandwic Daging';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Resipi Sandwic Daging';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Resipi yang Disimpan';
@@ -1211,7 +1283,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Lenyap';
 
   @override
-  String get demoFadeThroughDescription => 'Corak lenyap digunakan untuk peralihan antara unsur UI yang tidak mempunyai perhubungan yang kukuh antara satu sama lain.';
+  String get demoFadeThroughDescription =>
+      'Corak lenyap digunakan untuk peralihan antara unsur UI yang tidak mempunyai perhubungan yang kukuh antara satu sama lain.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Album';
@@ -1229,7 +1302,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Lenyap';
 
   @override
-  String get demoFadeScaleDescription => 'Corak lenyap digunakan untuk elemen UI yang masuk atau keluar dalam sempadan skrin, seperti dialog yang lenyap di tengah-tengah skrin.';
+  String get demoFadeScaleDescription =>
+      'Corak lenyap digunakan untuk elemen UI yang masuk atau keluar dalam sempadan skrin, seperti dialog yang lenyap di tengah-tengah skrin.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'TUNJUKKAN MODAL';
@@ -1256,7 +1330,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Semua warna yang dipratakrif';
 
   @override
-  String get demoColorsDescription => 'Warna dan malar reja warna yang mewakili palet warna Reka Bentuk Bahan.';
+  String get demoColorsDescription =>
+      'Warna dan malar reja warna yang mewakili palet warna Reka Bentuk Bahan.';
 
   @override
   String get demoTypographyTitle => 'Tipografi';
@@ -1265,7 +1340,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoTypographySubtitle => 'Semua gaya teks yang dipratentukan';
 
   @override
-  String get demoTypographyDescription => 'Definisi bagi pelbagai gaya tipografi yang ditemui dalam Reka Bentuk Bahan.';
+  String get demoTypographyDescription =>
+      'Definisi bagi pelbagai gaya tipografi yang ditemui dalam Reka Bentuk Bahan.';
 
   @override
   String get demo2dTransformationsTitle => 'Transformasi 2D';
@@ -1274,10 +1350,12 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'Sorot, zum, putar';
 
   @override
-  String get demo2dTransformationsDescription => 'Ketik untuk mengedit jubin dan gunakan gerak isyarat untuk bergerak di sekitar latar. Seret untuk menyorot, cubit untuk mengezum, putar menggunakan dua jari. Tekan butang tetapkan semula untuk kembali ke orientasi permulaan.';
+  String get demo2dTransformationsDescription =>
+      'Ketik untuk mengedit jubin dan gunakan gerak isyarat untuk bergerak di sekitar latar. Seret untuk menyorot, cubit untuk mengezum, putar menggunakan dua jari. Tekan butang tetapkan semula untuk kembali ke orientasi permulaan.';
 
   @override
-  String get demo2dTransformationsResetTooltip => 'Tetapkan semula transformasi';
+  String get demo2dTransformationsResetTooltip =>
+      'Tetapkan semula transformasi';
 
   @override
   String get demo2dTransformationsEditTooltip => 'Edit jubin';
@@ -1295,13 +1373,15 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'Helaian bawah berterusan';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Helaian bawah berterusan menunjukkan maklumat yang menambah kandungan utama apl. Helaian bawah berterusan tetap kelihatan walaupun semasa pengguna berinteraksi dengan bahagian lain apl.';
+  String get demoBottomSheetPersistentDescription =>
+      'Helaian bawah berterusan menunjukkan maklumat yang menambah kandungan utama apl. Helaian bawah berterusan tetap kelihatan walaupun semasa pengguna berinteraksi dengan bahagian lain apl.';
 
   @override
   String get demoBottomSheetModalTitle => 'Helaian bawah mod';
 
   @override
-  String get demoBottomSheetModalDescription => 'Helaian bawah mod adalah sebagai alternatif kepada menu atau dialog dan menghalang pengguna daripada berinteraksi dengan apl yang lain.';
+  String get demoBottomSheetModalDescription =>
+      'Helaian bawah mod adalah sebagai alternatif kepada menu atau dialog dan menghalang pengguna daripada berinteraksi dengan apl yang lain.';
 
   @override
   String get demoBottomSheetAddLabel => 'Tambah';
@@ -1324,7 +1404,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoListsSubtitle => 'Reka letak senarai penatalan';
 
   @override
-  String get demoListsDescription => 'Baris tunggal ketinggian tetap yang biasanya mengandungi beberapa teks serta ikon mendulu atau mengekor.';
+  String get demoListsDescription =>
+      'Baris tunggal ketinggian tetap yang biasanya mengandungi beberapa teks serta ikon mendulu atau mengekor.';
 
   @override
   String get demoOneLineListsTitle => 'Satu Baris';
@@ -1345,13 +1426,15 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoCircularProgressIndicatorTitle => 'Penunjuk Kemajuan Bulat';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Penunjuk kemajuan bulat bagi Reka Bentuk Bahan, yang berputar untuk menunjukkan bahawa aplikasi sedang sibuk.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Penunjuk kemajuan bulat bagi Reka Bentuk Bahan, yang berputar untuk menunjukkan bahawa aplikasi sedang sibuk.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'Penunjuk Kemajuan Linear';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Penunjuk kemajuan linear Reka Bentuk Bahan, juga dikenali sebagai bar kemajuan.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Penunjuk kemajuan linear Reka Bentuk Bahan, juga dikenali sebagai bar kemajuan.';
 
   @override
   String get demoPickersTitle => 'Pemilih';
@@ -1363,19 +1446,22 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Pemilih Tarikh';
 
   @override
-  String get demoDatePickerDescription => 'Menunjukkan dialog yang mengandungi pemilih tarikh Reka Bentuk Bahan.';
+  String get demoDatePickerDescription =>
+      'Menunjukkan dialog yang mengandungi pemilih tarikh Reka Bentuk Bahan.';
 
   @override
   String get demoTimePickerTitle => 'Pemilih Masa';
 
   @override
-  String get demoTimePickerDescription => 'Menunjukkan dialog yang mengandungi pemilih masa Reka Bentuk Bahan.';
+  String get demoTimePickerDescription =>
+      'Menunjukkan dialog yang mengandungi pemilih masa Reka Bentuk Bahan.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'TUNJUKKAN PEMILIH';
@@ -1390,19 +1476,23 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoTabsNonScrollingTitle => 'Bukan menatal';
 
   @override
-  String get demoTabsSubtitle => 'Tab dengan paparan boleh ditatal secara bebas';
+  String get demoTabsSubtitle =>
+      'Tab dengan paparan boleh ditatal secara bebas';
 
   @override
-  String get demoTabsDescription => 'Tab menyusun kandungan untuk semua skrin, set data dan interaksi lain yang berbeza-beza.';
+  String get demoTabsDescription =>
+      'Tab menyusun kandungan untuk semua skrin, set data dan interaksi lain yang berbeza-beza.';
 
   @override
   String get demoSnackbarsTitle => 'Bar snek';
 
   @override
-  String get demoSnackbarsSubtitle => 'Bar snek menunjukkan mesej di bahagian bawah skrin';
+  String get demoSnackbarsSubtitle =>
+      'Bar snek menunjukkan mesej di bahagian bawah skrin';
 
   @override
-  String get demoSnackbarsDescription => 'Bar snek memberitahu pengguna tentang proses yang telah dilakukan atau yang akan dilakukan oleh apl. Bar snek ini dipaparkan di bahagian bawah skrin secara sementara. Bar snek tidak sepatutnya mengganggu pengalaman pengguna dan tidak memerlukan input pengguna untuk hilang.';
+  String get demoSnackbarsDescription =>
+      'Bar snek memberitahu pengguna tentang proses yang telah dilakukan atau yang akan dilakukan oleh apl. Bar snek ini dipaparkan di bahagian bawah skrin secara sementara. Bar snek tidak sepatutnya mengganggu pengalaman pengguna dan tidak memerlukan input pengguna untuk hilang.';
 
   @override
   String get demoSnackbarsButtonLabel => 'TUNJUKKAN BAR SNEK';
@@ -1420,25 +1510,29 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoSelectionControlsTitle => 'Kawalan pilihan';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Kotak pilihan, butang radio dan suis';
+  String get demoSelectionControlsSubtitle =>
+      'Kotak pilihan, butang radio dan suis';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Kotak pilihan';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Kotak pilihan membenarkan pengguna memilih beberapa pilihan daripada satu set. Nilai kotak pilihan biasa adalah benar atau salah dan nilai kotak pilihan tiga keadaan juga boleh menjadi sifar.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Kotak pilihan membenarkan pengguna memilih beberapa pilihan daripada satu set. Nilai kotak pilihan biasa adalah benar atau salah dan nilai kotak pilihan tiga keadaan juga boleh menjadi sifar.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Radio';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Butang radio membenarkan pengguna memilih satu pilihan daripada satu set. Gunakan butang radio untuk pemilihan eksklusif jika anda berpendapat bahawa pengguna perlu melihat semua pilihan yang tersedia secara bersebelahan.';
+  String get demoSelectionControlsRadioDescription =>
+      'Butang radio membenarkan pengguna memilih satu pilihan daripada satu set. Gunakan butang radio untuk pemilihan eksklusif jika anda berpendapat bahawa pengguna perlu melihat semua pilihan yang tersedia secara bersebelahan.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Tukar';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Suis hidup/mati menogol keadaan pilihan tetapan tunggal. Pilihan kawalan suis serta keadaannya, hendaklah dibuat jelas daripada label sebaris yang sepadan.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Suis hidup/mati menogol keadaan pilihan tetapan tunggal. Pilihan kawalan suis serta keadaannya, hendaklah dibuat jelas daripada label sebaris yang sepadan.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Medan teks';
@@ -1447,10 +1541,12 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoTextFieldTitle => 'Medan teks';
 
   @override
-  String get demoTextFieldSubtitle => 'Teks dan nombor boleh edit bagi garisan tunggal';
+  String get demoTextFieldSubtitle =>
+      'Teks dan nombor boleh edit bagi garisan tunggal';
 
   @override
-  String get demoTextFieldDescription => 'Medan teks membolehkan pengguna memasukkan teks ke dalam UI. Medan teks ini biasanya dipaparkan dalam borang dan dialog.';
+  String get demoTextFieldDescription =>
+      'Medan teks membolehkan pengguna memasukkan teks ke dalam UI. Medan teks ini biasanya dipaparkan dalam borang dan dialog.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Tunjukkan kata laluan';
@@ -1459,16 +1555,19 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Sembunyikan kata laluan';
 
   @override
-  String get demoTextFieldFormErrors => 'Sila betulkan ralat yang berwarna merah sebelum serahan.';
+  String get demoTextFieldFormErrors =>
+      'Sila betulkan ralat yang berwarna merah sebelum serahan.';
 
   @override
   String get demoTextFieldNameRequired => 'Nama diperlukan.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'Sila masukkan aksara mengikut abjad sahaja.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'Sila masukkan aksara mengikut abjad sahaja.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - Masukkan nombor telefon AS.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - Masukkan nombor telefon AS.';
 
   @override
   String get demoTextFieldEnterPassword => 'Sila masukkan kata laluan.';
@@ -1483,7 +1582,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoTextFieldNameField => 'Nama*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'Bagaimanakah cara menghubungi anda?';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'Bagaimanakah cara menghubungi anda?';
 
   @override
   String get demoTextFieldPhoneNumber => 'Nombor telefon*';
@@ -1495,7 +1595,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoTextFieldEmail => 'E-mel';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Beritahu kami tentang diri anda. (misalnya, tulis perkara yang anda lakukan atau hobi anda)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Beritahu kami tentang diri anda. (misalnya, tulis perkara yang anda lakukan atau hobi anda)';
 
   @override
   String get demoTextFieldKeepItShort => 'Ringkaskan, teks ini hanya demo.';
@@ -1533,13 +1634,16 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get demoTooltipTitle => 'Tip alat';
 
   @override
-  String get demoTooltipSubtitle => 'Mesej ringkas dipaparkan apabila tekan lama atau tuding';
+  String get demoTooltipSubtitle =>
+      'Mesej ringkas dipaparkan apabila tekan lama atau tuding';
 
   @override
-  String get demoTooltipDescription => 'Tip alat menyediakan label teks yang membantu menjelaskan fungsi butang atau tindakan antara muka pengguna yang lain. Tip alat memaparkan teks bermaklumat apabila pengguna menuding, menumpukan atau tekan lama pada satu unsur.';
+  String get demoTooltipDescription =>
+      'Tip alat menyediakan label teks yang membantu menjelaskan fungsi butang atau tindakan antara muka pengguna yang lain. Tip alat memaparkan teks bermaklumat apabila pengguna menuding, menumpukan atau tekan lama pada satu unsur.';
 
   @override
-  String get demoTooltipInstructions => 'Tekan lama atau tuding untuk memaparkan tip alat.';
+  String get demoTooltipInstructions =>
+      'Tekan lama atau tuding untuk memaparkan tip alat.';
 
   @override
   String get bottomNavigationCommentsTab => 'Ulasan';
@@ -1600,7 +1704,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get dialogLocationTitle => 'Gunakan perkhidmatan lokasi Google?';
 
   @override
-  String get dialogLocationDescription => 'Benarkan Google membantu apl menentukan lokasi. Ini bermakna menghantar data lokasi awanama kepada Google, walaupun semasa tiada apl yang berjalan.';
+  String get dialogLocationDescription =>
+      'Benarkan Google membantu apl menentukan lokasi. Ini bermakna menghantar data lokasi awanama kepada Google, walaupun semasa tiada apl yang berjalan.';
 
   @override
   String get dialogCancel => 'BATAL';
@@ -1645,10 +1750,12 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Buang';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Benarkan \"Peta\" mengakses lokasi anda semasa anda menggunakan apl?';
+  String get cupertinoAlertLocationTitle =>
+      'Benarkan \"Peta\" mengakses lokasi anda semasa anda menggunakan apl?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Lokasi semasa anda akan dipaparkan pada peta dan digunakan untuk menunjuk arah, hasil carian tempat berdekatan dan anggaran waktu perjalanan.';
+  String get cupertinoAlertLocationDescription =>
+      'Lokasi semasa anda akan dipaparkan pada peta dan digunakan untuk menunjuk arah, hasil carian tempat berdekatan dan anggaran waktu perjalanan.';
 
   @override
   String get cupertinoAlertAllow => 'Benarkan';
@@ -1660,7 +1767,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Pilih Pencuci Mulut Kegemaran';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Sila pilih jenis pencuci mulut kegemaran anda daripada senarai di bawah. Pemilihan anda akan digunakan untuk menyesuaikan senarai kedai makan yang dicadangkan di kawasan anda.';
+  String get cupertinoAlertDessertDescription =>
+      'Sila pilih jenis pencuci mulut kegemaran anda daripada senarai di bawah. Pemilihan anda akan digunakan untuk menyesuaikan senarai kedai makan yang dicadangkan di kawasan anda.';
 
   @override
   String get cupertinoAlertCheesecake => 'Kek keju';
@@ -2243,7 +2351,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get craneEat10 => 'Lisbon, Portugal';
 
   @override
-  String get craneFly0SemanticLabel => 'Chalet dalam lanskap bersalji dengan pokok malar hijau';
+  String get craneFly0SemanticLabel =>
+      'Chalet dalam lanskap bersalji dengan pokok malar hijau';
 
   @override
   String get craneFly1SemanticLabel => 'Khemah di padang';
@@ -2261,7 +2370,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get craneFly5SemanticLabel => 'Hotel tepi tasik berhadapan gunung';
 
   @override
-  String get craneFly6SemanticLabel => 'Pemandangan udara Palacio de Bellas Artes';
+  String get craneFly6SemanticLabel =>
+      'Pemandangan udara Palacio de Bellas Artes';
 
   @override
   String get craneFly7SemanticLabel => 'Gunung Rushmore';
@@ -2270,10 +2380,12 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'Supertree Grove';
 
   @override
-  String get craneFly9SemanticLabel => 'Lelaki bersandar pada kereta biru antik';
+  String get craneFly9SemanticLabel =>
+      'Lelaki bersandar pada kereta biru antik';
 
   @override
-  String get craneFly10SemanticLabel => 'Menara Masjid Al-Azhar semasa matahari terbenam';
+  String get craneFly10SemanticLabel =>
+      'Menara Masjid Al-Azhar semasa matahari terbenam';
 
   @override
   String get craneFly11SemanticLabel => 'Rumah api bata di laut';
@@ -2282,19 +2394,22 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get craneFly12SemanticLabel => 'Kolam renang dengan pokok palma';
 
   @override
-  String get craneFly13SemanticLabel => 'Kolam renang tepi laut dengan pokok palma';
+  String get craneFly13SemanticLabel =>
+      'Kolam renang tepi laut dengan pokok palma';
 
   @override
   String get craneSleep0SemanticLabel => 'Banglo terapung';
 
   @override
-  String get craneSleep1SemanticLabel => 'Chalet dalam lanskap bersalji dengan pokok malar hijau';
+  String get craneSleep1SemanticLabel =>
+      'Chalet dalam lanskap bersalji dengan pokok malar hijau';
 
   @override
   String get craneSleep2SemanticLabel => 'Kubu kota Machu Picchu';
 
   @override
-  String get craneSleep3SemanticLabel => 'Lelaki bersandar pada kereta biru antik';
+  String get craneSleep3SemanticLabel =>
+      'Lelaki bersandar pada kereta biru antik';
 
   @override
   String get craneSleep4SemanticLabel => 'Hotel tepi tasik berhadapan gunung';
@@ -2306,16 +2421,19 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get craneSleep6SemanticLabel => 'Kolam renang dengan pokok palma';
 
   @override
-  String get craneSleep7SemanticLabel => 'Pangsapuri berwarna-warni di Ribeira Square';
+  String get craneSleep7SemanticLabel =>
+      'Pangsapuri berwarna-warni di Ribeira Square';
 
   @override
-  String get craneSleep8SemanticLabel => 'Runtuhan maya pada cenuram di atas pantai';
+  String get craneSleep8SemanticLabel =>
+      'Runtuhan maya pada cenuram di atas pantai';
 
   @override
   String get craneSleep9SemanticLabel => 'Rumah api bata di laut';
 
   @override
-  String get craneSleep10SemanticLabel => 'Menara Masjid Al-Azhar semasa matahari terbenam';
+  String get craneSleep10SemanticLabel =>
+      'Menara Masjid Al-Azhar semasa matahari terbenam';
 
   @override
   String get craneSleep11SemanticLabel => 'Pencakar langit Taipei 101';
@@ -2324,7 +2442,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get craneEat0SemanticLabel => 'Pizza dalam ketuhar menggunakan kayu';
 
   @override
-  String get craneEat1SemanticLabel => 'Bar kosong dengan bangku gaya makan malam';
+  String get craneEat1SemanticLabel =>
+      'Bar kosong dengan bangku gaya makan malam';
 
   @override
   String get craneEat2SemanticLabel => 'Burger';
@@ -2351,7 +2470,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get craneEat9SemanticLabel => 'Kaunter kafe dengan pastri';
 
   @override
-  String get craneEat10SemanticLabel => 'Wanita memegang sandwic pastrami yang sangat besar';
+  String get craneEat10SemanticLabel =>
+      'Wanita memegang sandwic pastrami yang sangat besar';
 
   @override
   String get fortnightlyMenuFrontPage => 'Halaman Depan';
@@ -2402,7 +2522,8 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Kemas Kini Terkini';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'The Quiet, Yet Powerful Healthcare Revolution';
+  String get fortnightlyHeadlineHealthcare =>
+      'The Quiet, Yet Powerful Healthcare Revolution';
 
   @override
   String get fortnightlyHeadlineWar => 'Divided American Lives During War';
@@ -2414,10 +2535,12 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'Reforming The Green Army From Within';
 
   @override
-  String get fortnightlyHeadlineStocks => 'As Stocks Stagnate, Many Look To Currency';
+  String get fortnightlyHeadlineStocks =>
+      'As Stocks Stagnate, Many Look To Currency';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Designers Use Tech To Make Futuristic Fabrics';
+  String get fortnightlyHeadlineFabrics =>
+      'Designers Use Tech To Make Futuristic Fabrics';
 
   @override
   String get fortnightlyHeadlineFeminists => 'Feminists Take On Partisanship';

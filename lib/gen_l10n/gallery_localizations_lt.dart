@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get signIn => 'PRISIJUNGTI';
 
   @override
-  String get bannerDemoText => 'Jūsų slaptažodis buvo atnaujintas kitame įrenginyje. Prisijunkite dar kartą.';
+  String get bannerDemoText =>
+      'Jūsų slaptažodis buvo atnaujintas kitame įrenginyje. Prisijunkite dar kartą.';
 
   @override
   String get bannerDemoResetText => 'Iš naujo nustatyti reklamjuostę';
@@ -60,7 +60,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => '10 populiariausių lankytinų miestų Tamilnade';
+  String get cardsDemoTravelDestinationTitle1 =>
+      '10 populiariausių lankytinų miestų Tamilnade';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Skaičius 10';
@@ -120,16 +121,19 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Atostogos';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Metinis pelningumas procentais';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Metinis pelningumas procentais';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Palūkanų norma';
 
   @override
-  String get rallyAccountDetailDataInterestYtd => 'Palūkanos nuo metų pradžios iki dabar';
+  String get rallyAccountDetailDataInterestYtd =>
+      'Palūkanos nuo metų pradžios iki dabar';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Praėjusiais metais išmokėtos palūkanos';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Praėjusiais metais išmokėtos palūkanos';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Kita ataskaita';
@@ -183,7 +187,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get rallySettingsPersonalInformation => 'Asmens informacija';
 
   @override
-  String get rallySettingsPaperlessSettings => 'Elektroninių ataskaitų nustatymas';
+  String get rallySettingsPaperlessSettings =>
+      'Elektroninių ataskaitų nustatymas';
 
   @override
   String get rallySettingsFindAtms => 'Rasti bankomatus';
@@ -285,10 +290,14 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Gaukite didesnę mokesčių lengvatą! Priskirkite kategorijas 1 nepriskirtai operacijai.',
-      few: 'Gaukite didesnę mokesčių lengvatą! Priskirkite kategorijas ${count} nepriskirtoms operacijoms.',
-      many: 'Gaukite didesnę mokesčių lengvatą! Priskirkite kategorijas ${count} nepriskirtos operacijos.',
-      other: 'Gaukite didesnę mokesčių lengvatą! Priskirkite kategorijas ${count} nepriskirtų operacijų.',
+      one:
+          'Gaukite didesnę mokesčių lengvatą! Priskirkite kategorijas 1 nepriskirtai operacijai.',
+      few:
+          'Gaukite didesnę mokesčių lengvatą! Priskirkite kategorijas ${count} nepriskirtoms operacijoms.',
+      many:
+          'Gaukite didesnę mokesčių lengvatą! Priskirkite kategorijas ${count} nepriskirtos operacijos.',
+      other:
+          'Gaukite didesnę mokesčių lengvatą! Priskirkite kategorijas ${count} nepriskirtų operacijų.',
     );
   }
 
@@ -302,7 +311,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Peržiūrėti visus biudžetus';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${accountName} sąskaita (${accountNumber}), kurioje yra ${amount}.';
   }
 
@@ -312,7 +322,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'Biudžetas „${budgetName}“, kurio išnaudota suma: ${amountUsed} iš ${amountTotal}; likusi suma: ${amountLeft}';
   }
 
@@ -344,7 +355,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoCodeViewerCopyAll => 'KOPIJUOTI VISKĄ';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'Nukopijuota į iškarpinę.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'Nukopijuota į iškarpinę.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -355,7 +367,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Žr. parinktis';
 
   @override
-  String get demoOptionsFeatureDescription => 'Palieskite čia, kad peržiūrėtumėte pasiekiamas šios demonstracinės versijos parinktis.';
+  String get demoOptionsFeatureDescription =>
+      'Palieskite čia, kad peržiūrėtumėte pasiekiamas šios demonstracinės versijos parinktis.';
 
   @override
   String get settingsTitle => 'Nustatymai';
@@ -427,19 +440,23 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Apatinė programų juosta';
 
   @override
-  String get demoBottomAppBarSubtitle => 'Pateikiami naršymo elementai ir veiksmai apačioje';
+  String get demoBottomAppBarSubtitle =>
+      'Pateikiami naršymo elementai ir veiksmai apačioje';
 
   @override
-  String get demoBottomAppBarDescription => 'Apatinėse programų juostose galima pasiekti apatinį naršymo skydelį ir iki keturių veiksmų, įskaitant slankųjį veiksmo mygtuką.';
+  String get demoBottomAppBarDescription =>
+      'Apatinėse programų juostose galima pasiekti apatinį naršymo skydelį ir iki keturių veiksmų, įskaitant slankųjį veiksmo mygtuką.';
 
   @override
   String get bottomAppBarNotch => 'Įranta';
@@ -451,7 +468,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get bottomAppBarPositionDockedEnd => 'Prijungta prie doko – pabaigoje';
 
   @override
-  String get bottomAppBarPositionDockedCenter => 'Prijungta prie doko – per vidurį';
+  String get bottomAppBarPositionDockedCenter =>
+      'Prijungta prie doko – per vidurį';
 
   @override
   String get bottomAppBarPositionFloatingEnd => 'Slankusis – pabaigoje';
@@ -466,13 +484,15 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Pateikiama reklamjuostė sąraše';
 
   @override
-  String get demoBannerDescription => 'Reklamjuostėje pateikiamas svarbus, trumpas pranešimas ir pateikiami veiksmai, kuriuos turėtų atlikti naudotojai (arba atsisakyti reklamjuostės). Norėdamas atsisakyti reklamjuostės naudotojas turi atlikti veiksmą.';
+  String get demoBannerDescription =>
+      'Reklamjuostėje pateikiamas svarbus, trumpas pranešimas ir pateikiami veiksmai, kuriuos turėtų atlikti naudotojai (arba atsisakyti reklamjuostės). Norėdamas atsisakyti reklamjuostės naudotojas turi atlikti veiksmą.';
 
   @override
   String get demoBottomNavigationTitle => 'Apatinė naršymo juosta';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Apatinė naršymo juosta su blunkančiais rodiniais';
+  String get demoBottomNavigationSubtitle =>
+      'Apatinė naršymo juosta su blunkančiais rodiniais';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Nuolatinės etiketės';
@@ -481,7 +501,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Pasirinkta etiketė';
 
   @override
-  String get demoBottomNavigationDescription => 'Apatinėse naršymo juostose ekrano apačioje pateikiama nuo trijų iki penkių paskirties vietų. Kiekvieną paskirties vietą nurodo piktograma ir pasirenkama teksto etiketė. Palietęs apatinės naršymo juostos piktogramą, naudotojas patenka į pagrindinę su piktograma susietą naršymo paskirties vietą.';
+  String get demoBottomNavigationDescription =>
+      'Apatinėse naršymo juostose ekrano apačioje pateikiama nuo trijų iki penkių paskirties vietų. Kiekvieną paskirties vietą nurodo piktograma ir pasirenkama teksto etiketė. Palietęs apatinės naršymo juostos piktogramą, naudotojas patenka į pagrindinę su piktograma susietą naršymo paskirties vietą.';
 
   @override
   String get demoButtonTitle => 'Mygtukai';
@@ -493,31 +514,36 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoTextButtonTitle => 'Tekstinis mygtukas';
 
   @override
-  String get demoTextButtonDescription => 'Paspaudus tekstinį mygtuką pateikiama rašalo dėmė, bet ji neišnyksta. Naudokite tekstinius mygtukus įrankių juostose, dialogų languose ir įterptus su užpildymu';
+  String get demoTextButtonDescription =>
+      'Paspaudus tekstinį mygtuką pateikiama rašalo dėmė, bet ji neišnyksta. Naudokite tekstinius mygtukus įrankių juostose, dialogų languose ir įterptus su užpildymu';
 
   @override
   String get demoElevatedButtonTitle => 'Iškilusis mygtukas';
 
   @override
-  String get demoElevatedButtonDescription => 'Iškilieji mygtukai padidina daugumą plokščiųjų išdėstymų. Jie paryškina funkcijas užimtose ar plačiose erdvėse.';
+  String get demoElevatedButtonDescription =>
+      'Iškilieji mygtukai padidina daugumą plokščiųjų išdėstymų. Jie paryškina funkcijas užimtose ar plačiose erdvėse.';
 
   @override
   String get demoOutlinedButtonTitle => 'Kontūriniai mygtukai';
 
   @override
-  String get demoOutlinedButtonDescription => 'Paspaudus kontūrinius mygtukus jie tampa neskaidrūs ir pakyla. Jie dažnai teikiami su iškiliaisiais mygtukais norint nurodyti alternatyvų, antrinį veiksmą.';
+  String get demoOutlinedButtonDescription =>
+      'Paspaudus kontūrinius mygtukus jie tampa neskaidrūs ir pakyla. Jie dažnai teikiami su iškiliaisiais mygtukais norint nurodyti alternatyvų, antrinį veiksmą.';
 
   @override
   String get demoToggleButtonTitle => 'Perjungimo mygtukai';
 
   @override
-  String get demoToggleButtonDescription => 'Perjungimo mygtukais galima grupuoti susijusias parinktis. Norint pažymėti susijusių perjungimo mygtukų grupes, turėtų būti bendrinamas bendras grupės sudėtinis rodinys';
+  String get demoToggleButtonDescription =>
+      'Perjungimo mygtukais galima grupuoti susijusias parinktis. Norint pažymėti susijusių perjungimo mygtukų grupes, turėtų būti bendrinamas bendras grupės sudėtinis rodinys';
 
   @override
   String get demoFloatingButtonTitle => 'Slankusis veiksmo mygtukas';
 
   @override
-  String get demoFloatingButtonDescription => 'Slankusis veiksmo mygtukas – tai apskritas piktogramos mygtukas, pateikiamas virš turinio, raginant atlikti pagrindinį veiksmą programoje.';
+  String get demoFloatingButtonDescription =>
+      'Slankusis veiksmo mygtukas – tai apskritas piktogramos mygtukas, pateikiamas virš turinio, raginant atlikti pagrindinį veiksmą programoje.';
 
   @override
   String get demoCardTitle => 'Kortelės';
@@ -529,34 +555,40 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoChipTitle => 'Fragmentai';
 
   @override
-  String get demoCardDescription => 'Kortelė – tai trimačių objektų dizaino lapas, kuriame pateikiama tam tikra susijusi informacija, pvz., albumas, geografine informacija apibrėžta vietovė, patiekalas, išsami kontaktinė informacija ir pan.';
+  String get demoCardDescription =>
+      'Kortelė – tai trimačių objektų dizaino lapas, kuriame pateikiama tam tikra susijusi informacija, pvz., albumas, geografine informacija apibrėžta vietovė, patiekalas, išsami kontaktinė informacija ir pan.';
 
   @override
-  String get demoChipSubtitle => 'Kompaktiški elementai, kuriuose yra įvestis, atributas ar veiksmas';
+  String get demoChipSubtitle =>
+      'Kompaktiški elementai, kuriuose yra įvestis, atributas ar veiksmas';
 
   @override
   String get demoActionChipTitle => 'Veiksmo fragmentas';
 
   @override
-  String get demoActionChipDescription => 'Veiksmo fragmentai – tai parinkčių rinkiniai, suaktyvinantys su pradiniu turiniu susijusį veiksmą. Veiksmo fragmentai NS turėtų būti rodomi dinamiškai ir pagal kontekstą.';
+  String get demoActionChipDescription =>
+      'Veiksmo fragmentai – tai parinkčių rinkiniai, suaktyvinantys su pradiniu turiniu susijusį veiksmą. Veiksmo fragmentai NS turėtų būti rodomi dinamiškai ir pagal kontekstą.';
 
   @override
   String get demoChoiceChipTitle => 'Pasirinkimo fragmentas';
 
   @override
-  String get demoChoiceChipDescription => 'Pasirinkimo fragmentai nurodo vieną pasirinkimą iš rinkinio. Pasirinkimo fragmentuose įtraukiamas susijęs aprašomasis tekstas ar kategorijos.';
+  String get demoChoiceChipDescription =>
+      'Pasirinkimo fragmentai nurodo vieną pasirinkimą iš rinkinio. Pasirinkimo fragmentuose įtraukiamas susijęs aprašomasis tekstas ar kategorijos.';
 
   @override
   String get demoFilterChipTitle => 'Filtro fragmentas';
 
   @override
-  String get demoFilterChipDescription => 'Turiniui filtruoti filtro fragmentai naudoja žymas ar aprašomuosius žodžius.';
+  String get demoFilterChipDescription =>
+      'Turiniui filtruoti filtro fragmentai naudoja žymas ar aprašomuosius žodžius.';
 
   @override
   String get demoInputChipTitle => 'Įvesties fragmentas';
 
   @override
-  String get demoInputChipDescription => 'Įvesties fragmentai glaustai pateikia sudėtinę informaciją, pvz., subjekto (asmens, vietos ar daikto) informaciją ar pokalbių tekstą.';
+  String get demoInputChipDescription =>
+      'Įvesties fragmentai glaustai pateikia sudėtinę informaciją, pvz., subjekto (asmens, vietos ar daikto) informaciją ar pokalbių tekstą.';
 
   @override
   String get demoDataTableTitle => 'Duomenų lentelės';
@@ -565,7 +597,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'Informacijos eilutės ir stulpeliai';
 
   @override
-  String get demoDataTableDescription => 'Duomenų lentelėse informacija pateikiama į tinklelį panašiu eilučių ir stulpelių formatu. Jose informacija sisteminama, kad būtų paprasta nuskaityti ir naudotojai galėtų ieškoti šablonų bei įžvalgų.';
+  String get demoDataTableDescription =>
+      'Duomenų lentelėse informacija pateikiama į tinklelį panašiu eilučių ir stulpelių formatu. Jose informacija sisteminama, kad būtų paprasta nuskaityti ir naudotojai galėtų ieškoti šablonų bei įžvalgų.';
 
   @override
   String get dataTableHeader => 'Mityba';
@@ -644,7 +677,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'Įspėjimas';
 
   @override
-  String get demoAlertDialogDescription => 'Įspėjimo dialogo lange naudotojas informuojamas apie situacijas, kurias reikia patvirtinti. Nurodomi įspėjimo dialogo lango pasirenkamas pavadinimas ir pasirenkamas veiksmų sąrašas.';
+  String get demoAlertDialogDescription =>
+      'Įspėjimo dialogo lange naudotojas informuojamas apie situacijas, kurias reikia patvirtinti. Nurodomi įspėjimo dialogo lango pasirenkamas pavadinimas ir pasirenkamas veiksmų sąrašas.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Įspėjimas su pavadinimu';
@@ -653,16 +687,19 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Paprastas';
 
   @override
-  String get demoSimpleDialogDescription => 'Rodant paprastą dialogo langą naudotojui galima rinktis iš kelių parinkčių. Nurodomas pasirenkamas paprasto dialogo lango pavadinimas, kuris pateikiamas virš pasirinkimo variantų.';
+  String get demoSimpleDialogDescription =>
+      'Rodant paprastą dialogo langą naudotojui galima rinktis iš kelių parinkčių. Nurodomas pasirenkamas paprasto dialogo lango pavadinimas, kuris pateikiamas virš pasirinkimo variantų.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -674,7 +711,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Eilučių ir stulpelių išdėstymas';
 
   @override
-  String get demoGridListsDescription => 'Tinklelio sąrašai tinkamiausi norint rodyti vienos rūšies duomenis, įprastai vaizdus. Kiekvienas tinklelio sąrašo elementas vadinamas išklotinės elementu.';
+  String get demoGridListsDescription =>
+      'Tinklelio sąrašai tinkamiausi norint rodyti vienos rūšies duomenis, įprastai vaizdus. Kiekvienas tinklelio sąrašo elementas vadinamas išklotinės elementu.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Tik vaizdas';
@@ -689,34 +727,41 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoSlidersTitle => 'Šliaužikliai';
 
   @override
-  String get demoSlidersSubtitle => 'Vertės pasirinkimo perbraukiant valdikliai';
+  String get demoSlidersSubtitle =>
+      'Vertės pasirinkimo perbraukiant valdikliai';
 
   @override
-  String get demoSlidersDescription => 'Šliaužikliai atspindi juostos verčių diapazoną, iš kurio naudotojai gali pasirinkti vieną vertę. Jais galima lengvai koreguoti nustatymus, pvz., garsumą, šviesumą, arba taikyti vaizdų filtrus.';
+  String get demoSlidersDescription =>
+      'Šliaužikliai atspindi juostos verčių diapazoną, iš kurio naudotojai gali pasirinkti vieną vertę. Jais galima lengvai koreguoti nustatymus, pvz., garsumą, šviesumą, arba taikyti vaizdų filtrus.';
 
   @override
   String get demoRangeSlidersTitle => 'Diapazono šliaužikliai';
 
   @override
-  String get demoRangeSlidersDescription => 'Šliaužikliai atspindi juostos verčių diapazoną. Jie gali būti su piktogramomis abiejose verčių diapazoną atspindinčios juostos pusėse. Jais galima lengvai koreguoti nustatymus, pvz., garsumą, šviesumą, arba taikyti vaizdų filtrus.';
+  String get demoRangeSlidersDescription =>
+      'Šliaužikliai atspindi juostos verčių diapazoną. Jie gali būti su piktogramomis abiejose verčių diapazoną atspindinčios juostos pusėse. Jais galima lengvai koreguoti nustatymus, pvz., garsumą, šviesumą, arba taikyti vaizdų filtrus.';
 
   @override
   String get demoCustomSlidersTitle => 'Tinkinti šliaužikliai';
 
   @override
-  String get demoCustomSlidersDescription => 'Šliaužikliai atspindi juostos verčių diapazoną, iš kurio naudotojai gali pasirinkti vieną vertę arba verčių diapazoną. Galima nustatyti šliaužiklių temas arba juos tinkinti.';
+  String get demoCustomSlidersDescription =>
+      'Šliaužikliai atspindi juostos verčių diapazoną, iš kurio naudotojai gali pasirinkti vieną vertę arba verčių diapazoną. Galima nustatyti šliaužiklių temas arba juos tinkinti.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Tolydusis su redaguojama skaitine verte';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Tolydusis su redaguojama skaitine verte';
 
   @override
   String get demoSlidersDiscrete => 'Diskretusis';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Tinkintos temos diskretusis šliaužiklis';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Tinkintos temos diskretusis šliaužiklis';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Tinkintos temos tolydusis diapazono šliaužiklis';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Tinkintos temos tolydusis diapazono šliaužiklis';
 
   @override
   String get demoSlidersContinuous => 'Tolydusis';
@@ -743,7 +788,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Meniu mygtukai ir paprasti meniu';
 
   @override
-  String get demoMenuDescription => 'Meniu pateikiamas laikinai rodomų pasirinkimų sąrašas. Jie rodomi naudotojams naudojant mygtuką, atliekant veiksmą ar naudojant kitą valdiklį.';
+  String get demoMenuDescription =>
+      'Meniu pateikiamas laikinai rodomų pasirinkimų sąrašas. Jie rodomi naudotojams naudojant mygtuką, atliekant veiksmą ar naudojant kitą valdiklį.';
 
   @override
   String get demoMenuItemValueOne => 'Pirmas meniu elementas';
@@ -767,19 +813,23 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoMenuFour => 'Keturi';
 
   @override
-  String get demoMenuAnItemWithAContextMenuButton => 'Kontekstinio meniu elementas';
+  String get demoMenuAnItemWithAContextMenuButton =>
+      'Kontekstinio meniu elementas';
 
   @override
-  String get demoMenuContextMenuItemOne => 'Pirmas kontekstinio meniu elementas';
+  String get demoMenuContextMenuItemOne =>
+      'Pirmas kontekstinio meniu elementas';
 
   @override
   String get demoMenuADisabledMenuItem => 'Išjungtas meniu elementas';
 
   @override
-  String get demoMenuContextMenuItemThree => 'Trečias kontekstinio meniu elementas';
+  String get demoMenuContextMenuItemThree =>
+      'Trečias kontekstinio meniu elementas';
 
   @override
-  String get demoMenuAnItemWithASectionedMenu => 'Į skiltis suskirstyto meniu elementas';
+  String get demoMenuAnItemWithASectionedMenu =>
+      'Į skiltis suskirstyto meniu elementas';
 
   @override
   String get demoMenuPreview => 'Peržiūrėti';
@@ -807,10 +857,12 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoNavigationDrawerTitle => 'Naršymo skydelis';
 
   @override
-  String get demoNavigationDrawerSubtitle => 'Rodomas skydelis programų juostoje';
+  String get demoNavigationDrawerSubtitle =>
+      'Rodomas skydelis programų juostoje';
 
   @override
-  String get demoNavigationDrawerDescription => 'Trimačių objektų dizaino skydelis, pateikiamas horizontaliai nuo ekrano krašto. Jame rodomos naršymo nuorodos programoje.';
+  String get demoNavigationDrawerDescription =>
+      'Trimačių objektų dizaino skydelis, pateikiamas horizontaliai nuo ekrano krašto. Jame rodomos naršymo nuorodos programoje.';
 
   @override
   String get demoNavigationDrawerUserName => 'Naudotojo vardas';
@@ -825,7 +877,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Antras elementas';
 
   @override
-  String get demoNavigationDrawerText => 'Perbraukite nuo krašto arba palieskite viršuje kairėje esančią piktogramą, kad būtų parodytas skydelis';
+  String get demoNavigationDrawerText =>
+      'Perbraukite nuo krašto arba palieskite viršuje kairėje esančią piktogramą, kad būtų parodytas skydelis';
 
   @override
   String get demoNavigationRailTitle => 'Naršymo juosta';
@@ -834,7 +887,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoNavigationRailSubtitle => 'Programoje rodoma naršymo juosta';
 
   @override
-  String get demoNavigationRailDescription => 'Trimačių objektų dizaino valdiklis, rodomas programos kairėje ar dešinėje, skirtas naršyti tarp kelių rodinių, paprastai nuo trijų iki penkių.';
+  String get demoNavigationRailDescription =>
+      'Trimačių objektų dizaino valdiklis, rodomas programos kairėje ar dešinėje, skirtas naršyti tarp kelių rodinių, paprastai nuo trijų iki penkių.';
 
   @override
   String get demoNavigationRailFirst => 'Pirma';
@@ -849,22 +903,26 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoMenuAnItemWithASimpleMenu => 'Paprasto meniu elementas';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Kontrolinio sąrašo meniu elementas';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Kontrolinio sąrašo meniu elementas';
 
   @override
   String get demoFullscreenDialogTitle => 'Visas ekranas';
 
   @override
-  String get demoFullscreenDialogDescription => 'Viso ekrano dialogo lango nuosavybė nurodo, ar gaunamas puslapis yra viso ekrano modalinis dialogo langas';
+  String get demoFullscreenDialogDescription =>
+      'Viso ekrano dialogo lango nuosavybė nurodo, ar gaunamas puslapis yra viso ekrano modalinis dialogo langas';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Veiklos indikatorius';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => '„iOS“ stiliaus veiklos indikatoriai';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      '„iOS“ stiliaus veiklos indikatoriai';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'Pagal laikrodžio rodyklę besisukantis „iOS“ stiliaus veiklos indikatorius.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'Pagal laikrodžio rodyklę besisukantis „iOS“ stiliaus veiklos indikatorius.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Mygtukai';
@@ -873,7 +931,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => '„iOS“ stiliaus mygtukai';
 
   @override
-  String get demoCupertinoButtonsDescription => '„iOS“ stiliaus mygtukas. Jis rodomas tekste ir (arba) kaip piktograma, kuri išnyksta ir atsiranda palietus. Galima pasirinkti foną.';
+  String get demoCupertinoButtonsDescription =>
+      '„iOS“ stiliaus mygtukas. Jis rodomas tekste ir (arba) kaip piktograma, kuri išnyksta ir atsiranda palietus. Galima pasirinkti foną.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -882,7 +941,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -891,19 +951,22 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Įspėjimai';
 
   @override
-  String get demoCupertinoAlertsSubtitle => '„iOS“ stiliaus įspėjimo dialogų langai';
+  String get demoCupertinoAlertsSubtitle =>
+      '„iOS“ stiliaus įspėjimo dialogų langai';
 
   @override
   String get demoCupertinoAlertTitle => 'Įspėjimas';
 
   @override
-  String get demoCupertinoAlertDescription => 'Įspėjimo dialogo lange naudotojas informuojamas apie situacijas, kurias reikia patvirtinti. Nurodomi įspėjimo dialogo lango pasirenkamas pavadinimas, pasirenkamas turinys ir pasirenkamas veiksmų sąrašas. Pavadinimas pateikiamas virš turinio, o veiksmai – po juo.';
+  String get demoCupertinoAlertDescription =>
+      'Įspėjimo dialogo lange naudotojas informuojamas apie situacijas, kurias reikia patvirtinti. Nurodomi įspėjimo dialogo lango pasirenkamas pavadinimas, pasirenkamas turinys ir pasirenkamas veiksmų sąrašas. Pavadinimas pateikiamas virš turinio, o veiksmai – po juo.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Įspėjimas su pavadinimu';
@@ -918,25 +981,30 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'Veiksmų lapas';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Veiksmų lapas – tai konkretaus stiliaus įspėjimas, kai naudotojui rodomas dviejų ar daugiau pasirinkimo variantų, susijusių su dabartiniu kontekstu, rinkinys. Galima nurodyti veiksmų lapo pavadinimą, papildomą pranešimą ir veiksmų sąrašą.';
+  String get demoCupertinoActionSheetDescription =>
+      'Veiksmų lapas – tai konkretaus stiliaus įspėjimas, kai naudotojui rodomas dviejų ar daugiau pasirinkimo variantų, susijusių su dabartiniu kontekstu, rinkinys. Galima nurodyti veiksmų lapo pavadinimą, papildomą pranešimą ir veiksmų sąrašą.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Naršymo juosta';
 
   @override
-  String get demoCupertinoNavigationBarSubtitle => '„iOS“ stiliaus naršymo juosta';
+  String get demoCupertinoNavigationBarSubtitle =>
+      '„iOS“ stiliaus naršymo juosta';
 
   @override
-  String get demoCupertinoNavigationBarDescription => '„iOS“ stiliaus naršymo juosta. Naršymo juosta – tai įrankių juosta, kurią sudaro bent puslapio pavadinimas, pateiktas įrankių juostos centre.';
+  String get demoCupertinoNavigationBarDescription =>
+      '„iOS“ stiliaus naršymo juosta. Naršymo juosta – tai įrankių juosta, kurią sudaro bent puslapio pavadinimas, pateiktas įrankių juostos centre.';
 
   @override
   String get demoCupertinoPickerTitle => 'Rinkikliai';
 
   @override
-  String get demoCupertinoPickerSubtitle => '„iOS“ stiliaus datos ir laiko rinkikliai';
+  String get demoCupertinoPickerSubtitle =>
+      '„iOS“ stiliaus datos ir laiko rinkikliai';
 
   @override
-  String get demoCupertinoPickerDescription => '„iOS“ stiliaus rinkiklis, kurį galima naudoti norint pasirinkti datas, laiką arba ir datą, ir laiką.';
+  String get demoCupertinoPickerDescription =>
+      '„iOS“ stiliaus rinkiklis, kurį galima naudoti norint pasirinkti datas, laiką arba ir datą, ir laiką.';
 
   @override
   String get demoCupertinoPickerTimer => 'Laikmatis';
@@ -951,22 +1019,27 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoCupertinoPickerDateTime => 'Data ir laikas';
 
   @override
-  String get demoCupertinoPullToRefreshTitle => 'Patraukite, kad atnaujintumėte';
+  String get demoCupertinoPullToRefreshTitle =>
+      'Patraukite, kad atnaujintumėte';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => '„iOS“ stiliaus atnaujinimo patraukus valdiklis';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      '„iOS“ stiliaus atnaujinimo patraukus valdiklis';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Valdiklis, apimantis „iOS“ stiliaus turinio atnaujinimo patraukus valdymą.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Valdiklis, apimantis „iOS“ stiliaus turinio atnaujinimo patraukus valdymą.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Segmentuotas valdiklis';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => '„iOS“ stiliaus segmentuotas valdiklis';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      '„iOS“ stiliaus segmentuotas valdiklis';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Naudojama renkantis iš įvairių bendrai išskiriamų parinkčių. Pasirinkus vieną segmentuoto valdiklio parinktį, kitos jo parinktys nebepasirenkamos.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Naudojama renkantis iš įvairių bendrai išskiriamų parinkčių. Pasirinkus vieną segmentuoto valdiklio parinktį, kitos jo parinktys nebepasirenkamos.';
 
   @override
   String get demoCupertinoSliderTitle => 'Šliaužiklis';
@@ -975,7 +1048,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => '„iOS“ stiliaus šliaužiklis';
 
   @override
-  String get demoCupertinoSliderDescription => 'Šliaužikliu galima pasirinkti tęstinių arba konkrečių verčių rinkinius.';
+  String get demoCupertinoSliderDescription =>
+      'Šliaužikliu galima pasirinkti tęstinių arba konkrečių verčių rinkinius.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -991,16 +1065,19 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => '„iOS“ stiliaus jungiklis';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Jungikliu galima įjungti ir išjungti konkretaus nustatymo būseną.';
+  String get demoCupertinoSwitchDescription =>
+      'Jungikliu galima įjungti ir išjungti konkretaus nustatymo būseną.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Skirtukų juosta';
 
   @override
-  String get demoCupertinoTabBarSubtitle => '„iOS“ stiliaus apatinė skirtukų juosta';
+  String get demoCupertinoTabBarSubtitle =>
+      '„iOS“ stiliaus apatinė skirtukų juosta';
 
   @override
-  String get demoCupertinoTabBarDescription => '„iOS“ stiliaus apatinė naršymo skirtukų juosta. Teikiami keli skirtukai, iš kurių vienas (pagal numatytuosius nustatymus – pirmas) aktyvus.';
+  String get demoCupertinoTabBarDescription =>
+      '„iOS“ stiliaus apatinė naršymo skirtukų juosta. Teikiami keli skirtukai, iš kurių vienas (pagal numatytuosius nustatymus – pirmas) aktyvus.';
 
   @override
   String get cupertinoTabBarHomeTab => 'Pagrindinis';
@@ -1018,7 +1095,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => '„iOS“ stiliaus teksto laukai';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'Teksto lauke naudotojas gali įvesti tekstą aparatinės įrangos arba ekrano klaviatūra.';
+  String get demoCupertinoTextFieldDescription =>
+      'Teksto lauke naudotojas gali įvesti tekstą aparatinės įrangos arba ekrano klaviatūra.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN kodas';
@@ -1027,19 +1105,23 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoMotionTitle => 'Judėjimas';
 
   @override
-  String get demoMotionSubtitle => 'Visi iš anksto nustatyti perkėlimo šablonai';
+  String get demoMotionSubtitle =>
+      'Visi iš anksto nustatyti perkėlimo šablonai';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'Kortelės, sąrašai ir SVM';
+  String get demoContainerTransformDemoInstructions =>
+      'Kortelės, sąrašai ir SVM';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'Mygtukai „Kitas“ ir „Atgal“';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'Rūšiuoti pagal „Neseniai leista“';
+  String get demoSharedYAxisDemoInstructions =>
+      'Rūšiuoti pagal „Neseniai leista“';
 
   @override
-  String get demoSharedZAxisDemoInstructions => 'Nustatymų piktogramos mygtukas';
+  String get demoSharedZAxisDemoInstructions =>
+      'Nustatymų piktogramos mygtukas';
 
   @override
   String get demoFadeThroughDemoInstructions => 'Apatinė naršymo juosta';
@@ -1051,7 +1133,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'Sudėtinio rodinio transformavimas';
 
   @override
-  String get demoContainerTransformDescription => 'Sudėtinio rodinio transformavimo šablonas skirtas NS elementams, apimantiems sudėtinį rodinį, perkelti. Naudojant šį šabloną sukuriamas matomas dviejų NS elementų ryšys';
+  String get demoContainerTransformDescription =>
+      'Sudėtinio rodinio transformavimo šablonas skirtas NS elementams, apimantiems sudėtinį rodinį, perkelti. Naudojant šį šabloną sukuriamas matomas dviejų NS elementų ryšys';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'Išblukimo režimas';
@@ -1078,7 +1161,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Sąrašo elementas';
 
   @override
-  String get demoSharedAxisDescription => 'Bendrinamos ašies šablonas naudojamas NS elementams, susietiems erdviniais ar naršymo ryšiais, perkelti. Šis šablonas naudoja bendrinamą transformavimą x, y arba z ašyje elementų ryšiui sustiprinti.';
+  String get demoSharedAxisDescription =>
+      'Bendrinamos ašies šablonas naudojamas NS elementams, susietiems erdviniais ar naršymo ryšiais, perkelti. Šis šablonas naudoja bendrinamą transformavimą x, y arba z ašyje elementų ryšiui sustiprinti.';
 
   @override
   String get demoSharedXAxisTitle => 'Bendrinama x ašis';
@@ -1093,7 +1177,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'Supaprastinti kursai';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Kategorijų rinkiniai rodomi kaip grupės jūsų sklaidos kanale. Vėliau bet kada galėsite tai pakeisti.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Kategorijų rinkiniai rodomi kaip grupės jūsų sklaidos kanale. Vėliau bet kada galėsite tai pakeisti.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Menai ir amatai';
@@ -1123,10 +1208,12 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoSharedXAxisSignInSubtitleText => 'Prisijunkite prie paskyros';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'El. pašto adresas arba telefono numeris';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'El. pašto adresas arba telefono numeris';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'PAMIRŠOTE EL. PAŠTO ADRESĄ?';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'PAMIRŠOTE EL. PAŠTO ADRESĄ?';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'SUKURTI PASKYRĄ';
@@ -1180,19 +1267,22 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Krevetė';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Krevečių patiekalo receptas';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Krevečių patiekalo receptas';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Krabas';
 
   @override
-  String get demoSharedZAxisCrabPlateRecipeDescription => 'Krabų patiekalo receptas';
+  String get demoSharedZAxisCrabPlateRecipeDescription =>
+      'Krabų patiekalo receptas';
 
   @override
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Sumuštinis su jautiena';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Sumuštinio su jautiena receptas';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Sumuštinio su jautiena receptas';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Išsaugoti receptai';
@@ -1213,7 +1303,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Išblukimas';
 
   @override
-  String get demoFadeThroughDescription => 'Išblukimo šablonas naudojamas NS elementams, kurie nėra susieti tvirtais ryšiais, perkelti.';
+  String get demoFadeThroughDescription =>
+      'Išblukimo šablonas naudojamas NS elementams, kurie nėra susieti tvirtais ryšiais, perkelti.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Albumai';
@@ -1231,7 +1322,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Išblukimas';
 
   @override
-  String get demoFadeScaleDescription => 'Išblukimo šablonas naudojamas NS elementams, kurie patenka į ekrano ribas ar už jų, pvz., dialogo langui, kuris išblunka ekrano centre.';
+  String get demoFadeScaleDescription =>
+      'Išblukimo šablonas naudojamas NS elementams, kurie patenka į ekrano ribas ar už jų, pvz., dialogo langui, kuris išblunka ekrano centre.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'RODYTI MODALINĮ';
@@ -1258,31 +1350,38 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Visos iš anksto nustatytos spalvos';
 
   @override
-  String get demoColorsDescription => 'Spalvų ir spalvų pavyzdžio konstantos, nurodančios trimačių objektų dizaino spalvų gamą.';
+  String get demoColorsDescription =>
+      'Spalvų ir spalvų pavyzdžio konstantos, nurodančios trimačių objektų dizaino spalvų gamą.';
 
   @override
   String get demoTypographyTitle => 'Spausdinimas';
 
   @override
-  String get demoTypographySubtitle => 'Visi iš anksto nustatyti teksto stiliai';
+  String get demoTypographySubtitle =>
+      'Visi iš anksto nustatyti teksto stiliai';
 
   @override
-  String get demoTypographyDescription => 'Įvairių tipografinių stilių apibrėžtys prie trimačių objektų dizaino.';
+  String get demoTypographyDescription =>
+      'Įvairių tipografinių stilių apibrėžtys prie trimačių objektų dizaino.';
 
   @override
   String get demo2dTransformationsTitle => '2D transformacijos';
 
   @override
-  String get demo2dTransformationsSubtitle => 'Stumdymas, mastelio keitimas, pasukimas';
+  String get demo2dTransformationsSubtitle =>
+      'Stumdymas, mastelio keitimas, pasukimas';
 
   @override
-  String get demo2dTransformationsDescription => 'Palieskite, kad redaguotumėte išklotinės elementus, ir naudokite gestus, kad galėtumėte judėti. Vilkite, kad pastumtumėte, suimkite, kad pakeistumėte mastelį, pasukite dviem pirštais. Paspauskite nustatymo iš naujo mygtuką, kad grįžtumėte į pradinę orientaciją.';
+  String get demo2dTransformationsDescription =>
+      'Palieskite, kad redaguotumėte išklotinės elementus, ir naudokite gestus, kad galėtumėte judėti. Vilkite, kad pastumtumėte, suimkite, kad pakeistumėte mastelį, pasukite dviem pirštais. Paspauskite nustatymo iš naujo mygtuką, kad grįžtumėte į pradinę orientaciją.';
 
   @override
-  String get demo2dTransformationsResetTooltip => 'Nustatyti transformacijas iš naujo';
+  String get demo2dTransformationsResetTooltip =>
+      'Nustatyti transformacijas iš naujo';
 
   @override
-  String get demo2dTransformationsEditTooltip => 'Redaguoti išklotinės elementą';
+  String get demo2dTransformationsEditTooltip =>
+      'Redaguoti išklotinės elementą';
 
   @override
   String get buttonText => 'MYGTUKAS';
@@ -1291,19 +1390,23 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoBottomSheetTitle => 'Apatinio lapo mygtukas';
 
   @override
-  String get demoBottomSheetSubtitle => 'Nuolatinis ir modalinis apatinio lapo mygtukai';
+  String get demoBottomSheetSubtitle =>
+      'Nuolatinis ir modalinis apatinio lapo mygtukai';
 
   @override
-  String get demoBottomSheetPersistentTitle => 'Nuolatinis apatinio lapo mygtukas';
+  String get demoBottomSheetPersistentTitle =>
+      'Nuolatinis apatinio lapo mygtukas';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Nuolatiniu apatinio lapo mygtuku pateikiama informacija, papildanti pagrindinį programos turinį. Nuolatinis apatinio lapo mygtukas išlieka matomas net asmeniui naudojant kitas programos dalis.';
+  String get demoBottomSheetPersistentDescription =>
+      'Nuolatiniu apatinio lapo mygtuku pateikiama informacija, papildanti pagrindinį programos turinį. Nuolatinis apatinio lapo mygtukas išlieka matomas net asmeniui naudojant kitas programos dalis.';
 
   @override
   String get demoBottomSheetModalTitle => 'Modalinis apatinio lapo mygtukas';
 
   @override
-  String get demoBottomSheetModalDescription => 'Modalinis apatinio lapo mygtukas naudojamas vietoj meniu ar dialogo lango, kad naudotojui nereikėtų naudoti kitų programos langų.';
+  String get demoBottomSheetModalDescription =>
+      'Modalinis apatinio lapo mygtukas naudojamas vietoj meniu ar dialogo lango, kad naudotojui nereikėtų naudoti kitų programos langų.';
 
   @override
   String get demoBottomSheetAddLabel => 'Pridėti';
@@ -1326,7 +1429,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoListsSubtitle => 'Slenkamojo sąrašo išdėstymai';
 
   @override
-  String get demoListsDescription => 'Viena fiksuoto aukščio eilutė, kurioje paprastai yra teksto bei piktograma pradžioje ar pabaigoje.';
+  String get demoListsDescription =>
+      'Viena fiksuoto aukščio eilutė, kurioje paprastai yra teksto bei piktograma pradžioje ar pabaigoje.';
 
   @override
   String get demoOneLineListsTitle => 'Viena eilutė';
@@ -1341,19 +1445,23 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoProgressIndicatorTitle => 'Eigos indikatoriai';
 
   @override
-  String get demoProgressIndicatorSubtitle => 'Linijinis, apskritas, neapibrėžtas';
+  String get demoProgressIndicatorSubtitle =>
+      'Linijinis, apskritas, neapibrėžtas';
 
   @override
-  String get demoCircularProgressIndicatorTitle => 'Apskritas eigos indikatorius';
+  String get demoCircularProgressIndicatorTitle =>
+      'Apskritas eigos indikatorius';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Trimačių objektų dizaino apskritas eigos indikatorius, kuris sukasi nurodydamas, kad programa užimta.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Trimačių objektų dizaino apskritas eigos indikatorius, kuris sukasi nurodydamas, kad programa užimta.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'Linijinis eigos indikatorius';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Trimačių objektų dizaino linijinis eigos indikatorius, taip pat vadinamas eigos juosta.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Trimačių objektų dizaino linijinis eigos indikatorius, taip pat vadinamas eigos juosta.';
 
   @override
   String get demoPickersTitle => 'Rinkikliai';
@@ -1365,19 +1473,22 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Datos rinkiklis';
 
   @override
-  String get demoDatePickerDescription => 'Rodomas dialogo langas, kuriame pateikiamas trimačių objektų dizaino datos rinkiklis.';
+  String get demoDatePickerDescription =>
+      'Rodomas dialogo langas, kuriame pateikiamas trimačių objektų dizaino datos rinkiklis.';
 
   @override
   String get demoTimePickerTitle => 'Laiko rinkiklis';
 
   @override
-  String get demoTimePickerDescription => 'Rodomas dialogo langas, kuriame pateikiamas trimačių objektų dizaino laiko rinkiklis.';
+  String get demoTimePickerDescription =>
+      'Rodomas dialogo langas, kuriame pateikiamas trimačių objektų dizaino laiko rinkiklis.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'RODYTI RINKIKLĮ';
@@ -1395,16 +1506,19 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoTabsSubtitle => 'Skirtukai su atskirai slenkamais rodiniais';
 
   @override
-  String get demoTabsDescription => 'Naudojant skirtukus tvarkomas turinys skirtinguose ekranuose, duomenų rinkiniuose ir naudojant kitas sąveikas.';
+  String get demoTabsDescription =>
+      'Naudojant skirtukus tvarkomas turinys skirtinguose ekranuose, duomenų rinkiniuose ir naudojant kitas sąveikas.';
 
   @override
   String get demoSnackbarsTitle => 'Laikinos juostos';
 
   @override
-  String get demoSnackbarsSubtitle => 'Laikinose juostose ekrano apačioje rodomi pranešimai';
+  String get demoSnackbarsSubtitle =>
+      'Laikinose juostose ekrano apačioje rodomi pranešimai';
 
   @override
-  String get demoSnackbarsDescription => 'Laikinos juostos informuoja naudotojus apie programos eigą: kas jau yra ir dar bus atlikta. Jos rodomos laikinai ekrano apačioje. Juostos negali trukdyti naudotojo funkcijoms ir kad dingtų naudotojui nereikia atlikti jokių veiksmų.';
+  String get demoSnackbarsDescription =>
+      'Laikinos juostos informuoja naudotojus apie programos eigą: kas jau yra ir dar bus atlikta. Jos rodomos laikinai ekrano apačioje. Juostos negali trukdyti naudotojo funkcijoms ir kad dingtų naudotojui nereikia atlikti jokių veiksmų.';
 
   @override
   String get demoSnackbarsButtonLabel => 'RODYTI LAIKINĄ JUOSTĄ';
@@ -1416,31 +1530,36 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoSnackbarsActionButtonLabel => 'VEIKSMAS';
 
   @override
-  String get demoSnackbarsAction => 'Paspaudėte laikinos juostos veiksmo mygtuką.';
+  String get demoSnackbarsAction =>
+      'Paspaudėte laikinos juostos veiksmo mygtuką.';
 
   @override
   String get demoSelectionControlsTitle => 'Pasirinkimo valdikliai';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Žymimieji laukeliai, akutės ir jungikliai';
+  String get demoSelectionControlsSubtitle =>
+      'Žymimieji laukeliai, akutės ir jungikliai';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Žymimasis laukelis';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Naudotojas žymimaisiais laukeliais gali pasirinkti kelias parinktis iš rinkinio. Įprasto žymimojo laukelio vertė yra „true“ (tiesa) arba „false“ (netiesa), o trijų parinkčių žymimojo laukelio vertė bė minėtųjų gali būti ir nulis.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Naudotojas žymimaisiais laukeliais gali pasirinkti kelias parinktis iš rinkinio. Įprasto žymimojo laukelio vertė yra „true“ (tiesa) arba „false“ (netiesa), o trijų parinkčių žymimojo laukelio vertė bė minėtųjų gali būti ir nulis.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Akutė';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Naudotojas akutėmis gali pasirinkti vieną parinktį iš rinkinio. Naudokite akutes išskirtiniams pasirinkimams, jei manote, kad naudotojui reikia peržiūrėti visas galimas parinktis kartu.';
+  String get demoSelectionControlsRadioDescription =>
+      'Naudotojas akutėmis gali pasirinkti vieną parinktį iš rinkinio. Naudokite akutes išskirtiniams pasirinkimams, jei manote, kad naudotojui reikia peržiūrėti visas galimas parinktis kartu.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Perjungti';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Įjungimo ir išjungimo jungikliais galima keisti kiekvienos nustatymo parinkties būseną. Jungiklio valdoma parinktis ir nustatyta būsena turi būti aiškios be įterptos etiketės.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Įjungimo ir išjungimo jungikliais galima keisti kiekvienos nustatymo parinkties būseną. Jungiklio valdoma parinktis ir nustatyta būsena turi būti aiškios be įterptos etiketės.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Teksto laukai';
@@ -1449,10 +1568,12 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoTextFieldTitle => 'Teksto laukai';
 
   @override
-  String get demoTextFieldSubtitle => 'Viena redaguojamo teksto ar skaičių eilutė';
+  String get demoTextFieldSubtitle =>
+      'Viena redaguojamo teksto ar skaičių eilutė';
 
   @override
-  String get demoTextFieldDescription => 'Naudotojas gali įvesti tekstą į NS per teksto laukus. Jie paprastai naudojami formose ir dialogo languose.';
+  String get demoTextFieldDescription =>
+      'Naudotojas gali įvesti tekstą į NS per teksto laukus. Jie paprastai naudojami formose ir dialogo languose.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Rodyti slaptažodį';
@@ -1461,7 +1582,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Slėpti slaptažodį';
 
   @override
-  String get demoTextFieldFormErrors => 'Prieš pateikdami ištaisykite raudonai pažymėtas klaidas.';
+  String get demoTextFieldFormErrors =>
+      'Prieš pateikdami ištaisykite raudonai pažymėtas klaidas.';
 
   @override
   String get demoTextFieldNameRequired => 'Būtina nurodyti vardą ir pavardę.';
@@ -1470,7 +1592,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoTextFieldOnlyAlphabeticalChars => 'Įveskite tik raides.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### – įveskite JAV telefono numerį.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### – įveskite JAV telefono numerį.';
 
   @override
   String get demoTextFieldEnterPassword => 'Įveskite slaptažodį.';
@@ -1485,7 +1608,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoTextFieldNameField => 'Vardas*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'Kaip galime su jumis susisiekti?';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'Kaip galime su jumis susisiekti?';
 
   @override
   String get demoTextFieldPhoneNumber => 'Telefono numeris*';
@@ -1497,10 +1621,12 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoTextFieldEmail => 'El. paštas';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Papasakokite apie save (pvz., parašykite, ką veikiate ar kokie jūsų pomėgiai)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Papasakokite apie save (pvz., parašykite, ką veikiate ar kokie jūsų pomėgiai)';
 
   @override
-  String get demoTextFieldKeepItShort => 'Rašykite trumpai, tai tik demonstracinė versija.';
+  String get demoTextFieldKeepItShort =>
+      'Rašykite trumpai, tai tik demonstracinė versija.';
 
   @override
   String get demoTextFieldLifeStory => 'Gyvenimo istorija';
@@ -1535,13 +1661,16 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get demoTooltipTitle => 'Patarimai';
 
   @override
-  String get demoTooltipSubtitle => 'Trumpas pranešimas, pateikiamas ilgai paspaudus arba užvedus pelės žymeklį';
+  String get demoTooltipSubtitle =>
+      'Trumpas pranešimas, pateikiamas ilgai paspaudus arba užvedus pelės žymeklį';
 
   @override
-  String get demoTooltipDescription => 'Patarimuose teikiamos teksto etiketės, padedančios paaiškinti mygtuko ar kito naudotojo sąsajos veiksmo funkciją. Patarimuose pateikiama informatyvaus teksto, naudotojams užvedus pelės žymeklį virš elemento, paryškinus jį ar ilgai paspaudus.';
+  String get demoTooltipDescription =>
+      'Patarimuose teikiamos teksto etiketės, padedančios paaiškinti mygtuko ar kito naudotojo sąsajos veiksmo funkciją. Patarimuose pateikiama informatyvaus teksto, naudotojams užvedus pelės žymeklį virš elemento, paryškinus jį ar ilgai paspaudus.';
 
   @override
-  String get demoTooltipInstructions => 'Ilgai paspauskite arba užveskite pelės žymeklį, kad būtų pateiktas patarimas.';
+  String get demoTooltipInstructions =>
+      'Ilgai paspauskite arba užveskite pelės žymeklį, kad būtų pateiktas patarimas.';
 
   @override
   String get bottomNavigationCommentsTab => 'Komentarai';
@@ -1602,7 +1731,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get dialogLocationTitle => 'Naudoti „Google“ vietovės paslaugą?';
 
   @override
-  String get dialogLocationDescription => 'Leisti „Google“ padėti programoms nustatyti vietovę. Tai reiškia anoniminių vietovės duomenų siuntimą „Google“, net kai nevykdomos jokios programos.';
+  String get dialogLocationDescription =>
+      'Leisti „Google“ padėti programoms nustatyti vietovę. Tai reiškia anoniminių vietovės duomenų siuntimą „Google“, net kai nevykdomos jokios programos.';
 
   @override
   String get dialogCancel => 'ATŠAUKTI';
@@ -1632,7 +1762,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get dialogFullscreenSave => 'IŠSAUGOTI';
 
   @override
-  String get dialogFullscreenDescription => 'Viso ekrano dialogo lango demonstracinė versija';
+  String get dialogFullscreenDescription =>
+      'Viso ekrano dialogo lango demonstracinė versija';
 
   @override
   String get cupertinoButton => 'Mygtukas';
@@ -1647,10 +1778,12 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Atmesti';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Leisti Žemėlapiams pasiekti vietovę jums naudojant programą?';
+  String get cupertinoAlertLocationTitle =>
+      'Leisti Žemėlapiams pasiekti vietovę jums naudojant programą?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Jūsų dabartinė vietovė bus pateikta žemėlapyje ir naudojama nuorodoms, paieškos rezultatams netoliese ir apskaičiuotam kelionės laikui rodyti.';
+  String get cupertinoAlertLocationDescription =>
+      'Jūsų dabartinė vietovė bus pateikta žemėlapyje ir naudojama nuorodoms, paieškos rezultatams netoliese ir apskaičiuotam kelionės laikui rodyti.';
 
   @override
   String get cupertinoAlertAllow => 'Leisti';
@@ -1659,10 +1792,12 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get cupertinoAlertDontAllow => 'Neleisti';
 
   @override
-  String get cupertinoAlertFavoriteDessert => 'Mėgstamiausio deserto pasirinkimas';
+  String get cupertinoAlertFavoriteDessert =>
+      'Mėgstamiausio deserto pasirinkimas';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Pasirinkite savo mėgstamiausią desertą iš toliau pateikto sąrašo. Pagal pasirinkimą bus tinkinamas siūlomas valgyklų jūsų regione sąrašas.';
+  String get cupertinoAlertDessertDescription =>
+      'Pasirinkite savo mėgstamiausią desertą iš toliau pateikto sąrašo. Pagal pasirinkimą bus tinkinamas siūlomas valgyklų jūsų regione sąrašas.';
 
   @override
   String get cupertinoAlertCheesecake => 'Sūrio pyragas';
@@ -1782,7 +1917,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get starterAppTitle => 'Pradedančiųjų programa';
 
   @override
-  String get starterAppDescription => 'Interaktyvus pradedančiųjų programos išdėstymas';
+  String get starterAppDescription =>
+      'Interaktyvus pradedančiųjų programos išdėstymas';
 
   @override
   String get starterAppGenericButton => 'MYGTUKAS';
@@ -1891,7 +2027,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get shrineProductVagabondSack => '„Vagabond“ krepšys';
 
   @override
-  String get shrineProductStellaSunglasses => 'Stellos McCartney akiniai nuo saulės';
+  String get shrineProductStellaSunglasses =>
+      'Stellos McCartney akiniai nuo saulės';
 
   @override
   String get shrineProductWhitneyBelt => '„Whitney“ diržas';
@@ -1969,7 +2106,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get shrineProductNavyTrousers => 'Tamsiai mėlynos kelnės';
 
   @override
-  String get shrineProductWalterHenleyWhite => '„Walter“ prasegami marškinėliai (balti)';
+  String get shrineProductWalterHenleyWhite =>
+      '„Walter“ prasegami marškinėliai (balti)';
 
   @override
   String get shrineProductSurfAndPerfShirt => 'Sportiniai ir kiti marškinėliai';
@@ -1981,13 +2119,16 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get shrineProductRamonaCrossover => '„Ramona“ rankinė per petį';
 
   @override
-  String get shrineProductClassicWhiteCollar => 'Klasikinis kvalifikuotas darbas';
+  String get shrineProductClassicWhiteCollar =>
+      'Klasikinis kvalifikuotas darbas';
 
   @override
-  String get shrineProductCeriseScallopTee => 'Ciklameno spalvos marškinėliai ovalia apačia';
+  String get shrineProductCeriseScallopTee =>
+      'Ciklameno spalvos marškinėliai ovalia apačia';
 
   @override
-  String get shrineProductShoulderRollsTee => 'Pečius apnuoginantys marškinėliai';
+  String get shrineProductShoulderRollsTee =>
+      'Pečius apnuoginantys marškinėliai';
 
   @override
   String get shrineProductGreySlouchTank => 'Pilki marškinėliai be rankovių';
@@ -2103,7 +2244,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get craneFlySubhead => 'Ieškokite skrydžių pagal kelionės tikslą';
 
   @override
-  String get craneSleepSubhead => 'Ieškokite nuomojamų patalpų pagal kelionės tikslą';
+  String get craneSleepSubhead =>
+      'Ieškokite nuomojamų patalpų pagal kelionės tikslą';
 
   @override
   String get craneEatSubhead => 'Ieškokite restoranų pagal kelionės tikslą';
@@ -2259,7 +2401,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get craneEat10 => 'Lisabona, Portugalija';
 
   @override
-  String get craneFly0SemanticLabel => 'Trobelė sniegynuose su visžaliais medžiais';
+  String get craneFly0SemanticLabel =>
+      'Trobelė sniegynuose su visžaliais medžiais';
 
   @override
   String get craneFly1SemanticLabel => 'Palapinė lauke';
@@ -2277,7 +2420,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get craneFly5SemanticLabel => 'Viešbutis ežero pakrantėje su kalnais';
 
   @override
-  String get craneFly6SemanticLabel => 'Meksiko vaizduojamojo meno rūmų vaizdas iš viršaus';
+  String get craneFly6SemanticLabel =>
+      'Meksiko vaizduojamojo meno rūmų vaizdas iš viršaus';
 
   @override
   String get craneFly7SemanticLabel => 'Rašmoro kalnas';
@@ -2286,10 +2430,12 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'Supermedžių giraitė';
 
   @override
-  String get craneFly9SemanticLabel => 'Žmogus, palinkęs prie senovinio mėlyno automobilio';
+  String get craneFly9SemanticLabel =>
+      'Žmogus, palinkęs prie senovinio mėlyno automobilio';
 
   @override
-  String get craneFly10SemanticLabel => 'Al Azharo mečetės bokštai per saulėlydį';
+  String get craneFly10SemanticLabel =>
+      'Al Azharo mečetės bokštai per saulėlydį';
 
   @override
   String get craneFly11SemanticLabel => 'Mūrinis švyturys jūroje';
@@ -2304,16 +2450,19 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get craneSleep0SemanticLabel => 'Vilos ant vandens';
 
   @override
-  String get craneSleep1SemanticLabel => 'Trobelė sniegynuose su visžaliais medžiais';
+  String get craneSleep1SemanticLabel =>
+      'Trobelė sniegynuose su visžaliais medžiais';
 
   @override
   String get craneSleep2SemanticLabel => 'Maču Pikču tvirtovė';
 
   @override
-  String get craneSleep3SemanticLabel => 'Žmogus, palinkęs prie senovinio mėlyno automobilio';
+  String get craneSleep3SemanticLabel =>
+      'Žmogus, palinkęs prie senovinio mėlyno automobilio';
 
   @override
-  String get craneSleep4SemanticLabel => 'Viešbutis ežero pakrantėje su kalnais';
+  String get craneSleep4SemanticLabel =>
+      'Viešbutis ežero pakrantėje su kalnais';
 
   @override
   String get craneSleep5SemanticLabel => 'Palapinė lauke';
@@ -2322,16 +2471,19 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get craneSleep6SemanticLabel => 'Baseinas su palmėmis';
 
   @override
-  String get craneSleep7SemanticLabel => 'Spalvingi apartamentai Ribeiro aikštėje';
+  String get craneSleep7SemanticLabel =>
+      'Spalvingi apartamentai Ribeiro aikštėje';
 
   @override
-  String get craneSleep8SemanticLabel => 'Majų griuvėsiai paplūdimyje ant uolos';
+  String get craneSleep8SemanticLabel =>
+      'Majų griuvėsiai paplūdimyje ant uolos';
 
   @override
   String get craneSleep9SemanticLabel => 'Mūrinis švyturys jūroje';
 
   @override
-  String get craneSleep10SemanticLabel => 'Al Azharo mečetės bokštai per saulėlydį';
+  String get craneSleep10SemanticLabel =>
+      'Al Azharo mečetės bokštai per saulėlydį';
 
   @override
   String get craneSleep11SemanticLabel => 'Taipėjaus dangoraižis 101';
@@ -2340,7 +2492,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get craneEat0SemanticLabel => 'Pica malkinėje krosnyje';
 
   @override
-  String get craneEat1SemanticLabel => 'Tuščias baras su aukštomis baro kėdėmis';
+  String get craneEat1SemanticLabel =>
+      'Tuščias baras su aukštomis baro kėdėmis';
 
   @override
   String get craneEat2SemanticLabel => 'Mėsainis';
@@ -2406,7 +2559,8 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get fortnightlyTrendingReform => 'Reforma';
 
   @override
-  String get fortnightlyTrendingHealthcareRevolution => 'Sveikatos priežiūros perversmas';
+  String get fortnightlyTrendingHealthcareRevolution =>
+      'Sveikatos priežiūros perversmas';
 
   @override
   String get fortnightlyTrendingGreenArmy => 'Žalioji armija';
@@ -2418,22 +2572,27 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Karščiausios naujienos';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Tylus, bet galingas sveikatos priežiūros perversmas';
+  String get fortnightlyHeadlineHealthcare =>
+      'Tylus, bet galingas sveikatos priežiūros perversmas';
 
   @override
-  String get fortnightlyHeadlineWar => 'Padalytų amerikiečių gyvenimas per karą';
+  String get fortnightlyHeadlineWar =>
+      'Padalytų amerikiečių gyvenimas per karą';
 
   @override
   String get fortnightlyHeadlineGasoline => 'Benzino ateitis';
 
   @override
-  String get fortnightlyHeadlineArmy => 'Žaliosios armijos reformavimas iš vidaus';
+  String get fortnightlyHeadlineArmy =>
+      'Žaliosios armijos reformavimas iš vidaus';
 
   @override
-  String get fortnightlyHeadlineStocks => 'Įvykus akcijų stagnacijai dauguma griebiasi valiutos';
+  String get fortnightlyHeadlineStocks =>
+      'Įvykus akcijų stagnacijai dauguma griebiasi valiutos';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Dizaineriai kuria futuristinius audinius pasitelkę technologijas';
+  String get fortnightlyHeadlineFabrics =>
+      'Dizaineriai kuria futuristinius audinius pasitelkę technologijas';
 
   @override
   String get fortnightlyHeadlineFeminists => 'Feministai lieka šališki';

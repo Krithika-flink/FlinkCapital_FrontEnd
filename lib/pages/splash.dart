@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:gallery/constants.dart';
 import 'package:gallery/layout/adaptive.dart';
 import 'package:gallery/pages/home.dart';
+import 'package:gallery/studies/rally/colors.dart';
 
 const homePeekDesktop = 210.0;
 const homePeekMobile = 60.0;
@@ -182,21 +183,33 @@ class _SplashBackLayer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var effectAsset = 'splash_effects/splash_effect_$effect.gif';
-    final flutterLogo = Image.asset(
-      'assets/logo/flutter_logo.png',
-      package: 'flutter_gallery_assets',
-    );
-
+    final flutterLogo = Image.asset('assets/logo.png');
+    final textTheme = Theme.of(context).textTheme;
     Widget child;
     if (isSplashCollapsed) {
       child = isDisplayDesktop(context)
-          ? Padding(
-              padding: const EdgeInsets.only(top: 50),
-              child: Align(
-                alignment: Alignment.topCenter,
-                child: GestureDetector(
-                  onTap: onTap,
-                  child: flutterLogo,
+          ? Expanded(
+              child: Padding(
+                padding: const EdgeInsets.only(top: 1),
+                child: Align(
+                  alignment: Alignment.topCenter,
+                  child: GestureDetector(
+                    child: Column(
+                      children: [
+                        flutterLogo,
+                        Text(
+                          'Flink Capital - Fully Automated Trading Bigg Bott',
+                          style: textTheme.bodyText1.copyWith(
+                              fontSize: 16,
+                              color: RallyColors.gray60,
+                              fontStyle: FontStyle.italic,
+                              fontWeight: FontWeight.bold),
+                        ),
+                      ],
+                    ),
+                    onTap: onTap,
+                    //child: flutterLogo,
+                  ),
                 ),
               ),
             )

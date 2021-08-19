@@ -34,15 +34,15 @@ class _AboutDialog extends StatelessWidget {
     final bodyTextStyle =
         textTheme.bodyText1.apply(color: colorScheme.onPrimary);
 
-    final name = 'Flutter Gallery'; // Don't need to localize.
-    final legalese = '© 2021 The Flutter team'; // Don't need to localize.
-    final repoText = GalleryLocalizations.of(context).githubRepo(name);
-    final seeSource =
-        GalleryLocalizations.of(context).aboutDialogDescription(repoText);
-    final repoLinkIndex = seeSource.indexOf(repoText);
+    final name = 'Flink Capital'; // Don't need to localize.
+    final legalese = '© 2021 The WTFABRIKAT team'; // Don't need to localize.
+    final repoText = ' Flink Capital Website ';
+    final seeSource = 'To see more about Flink Capital,Please visit the';
+    //GalleryLocalizations.of(context).aboutDialogDescription(repoText);
+    /* final repoLinkIndex = seeSource.indexOf(repoText);
     final repoLinkIndexEnd = repoLinkIndex + repoText.length;
     final seeSourceFirst = seeSource.substring(0, repoLinkIndex);
-    final seeSourceSecond = seeSource.substring(repoLinkIndexEnd);
+    final seeSourceSecond = seeSource.substring(repoLinkIndexEnd); */
 
     return AlertDialog(
       backgroundColor: colorScheme.background,
@@ -66,7 +66,7 @@ class _AboutDialog extends StatelessWidget {
                 children: [
                   TextSpan(
                     style: bodyTextStyle,
-                    text: seeSourceFirst,
+                    text: seeSource,
                   ),
                   TextSpan(
                     style: bodyTextStyle.copyWith(
@@ -75,7 +75,7 @@ class _AboutDialog extends StatelessWidget {
                     text: repoText,
                     recognizer: TapGestureRecognizer()
                       ..onTap = () async {
-                        final url = 'https://github.com/flutter/gallery/';
+                        final url = 'https://flinkcapital.com';
                         if (await canLaunch(url)) {
                           await launch(
                             url,
@@ -86,7 +86,7 @@ class _AboutDialog extends StatelessWidget {
                   ),
                   TextSpan(
                     style: bodyTextStyle,
-                    text: seeSourceSecond,
+                    text: '.Thank You!',
                   ),
                 ],
               ),

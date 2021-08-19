@@ -92,7 +92,7 @@ class GalleryLocalizationsTl extends GalleryLocalizations {
   String get cardsDemoTravelDestinationDescription3 => 'Mga Templo';
 
   @override
-  String get homeHeaderGallery => 'Gallery';
+  String get homeHeaderGallery => 'Flink Capital Partners';
 
   @override
   String get homeHeaderCategories => 'Mga Kategorya';

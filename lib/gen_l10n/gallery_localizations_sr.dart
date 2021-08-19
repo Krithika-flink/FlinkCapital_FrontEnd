@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get signIn => 'ПРИЈАВИТЕ СЕ';
 
   @override
-  String get bannerDemoText => 'Лозинка је ажурирана на другом уређају. Пријавите се поново.';
+  String get bannerDemoText =>
+      'Лозинка је ажурирана на другом уређају. Пријавите се поново.';
 
   @override
   String get bannerDemoResetText => 'Ресетуј банер';
@@ -60,7 +60,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'Најпопуларнијих 10 градова које треба да посетите у Тамил Надуу';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'Најпопуларнијих 10 градова које треба да посетите у Тамил Надуу';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => '10. место';
@@ -99,7 +100,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get shrineDescription => 'Модерна апликација за малопродају';
 
   @override
-  String get fortnightlyDescription => 'Апликација за вести фокусирана на садржај';
+  String get fortnightlyDescription =>
+      'Апликација за вести фокусирана на садржај';
 
   @override
   String get rallyDescription => 'Апликација за личне финансије';
@@ -120,16 +122,19 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Одмор';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Годишњи проценат добити';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Годишњи проценат добити';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Каматна стопа';
 
   @override
-  String get rallyAccountDetailDataInterestYtd => 'Камата од почетка године до данас';
+  String get rallyAccountDetailDataInterestYtd =>
+      'Камата од почетка године до данас';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Камата плаћена прошле године';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Камата плаћена прошле године';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Следећи извод';
@@ -285,9 +290,12 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Повећајте могући одбитак пореза! Доделите категорије 1 недодељеној трансакцији.',
-      few: 'Повећајте могући одбитак пореза! Доделите категорије за ${count} недодељене трансакције.',
-      other: 'Повећајте могући одбитак пореза! Доделите категорије за ${count} недодељених трансакција.',
+      one:
+          'Повећајте могући одбитак пореза! Доделите категорије 1 недодељеној трансакцији.',
+      few:
+          'Повећајте могући одбитак пореза! Доделите категорије за ${count} недодељене трансакције.',
+      other:
+          'Повећајте могући одбитак пореза! Доделите категорије за ${count} недодељених трансакција.',
     );
   }
 
@@ -301,7 +309,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Прикажи све буџете';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${accountName} рачун ${accountNumber} са ${amount}.';
   }
 
@@ -311,7 +320,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'Буџет за ${budgetName}, потрошено је ${amountUsed} од ${amountTotal}, преостало је ${amountLeft}';
   }
 
@@ -343,7 +353,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoCodeViewerCopyAll => 'КОПИРАЈ СВЕ';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'Копирано је у привремену меморију.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'Копирано је у привремену меморију.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -354,7 +365,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Прегледајте опције';
 
   @override
-  String get demoOptionsFeatureDescription => 'Додирните овде да бисте видели доступне опције за ову демонстрацију.';
+  String get demoOptionsFeatureDescription =>
+      'Додирните овде да бисте видели доступне опције за ову демонстрацију.';
 
   @override
   String get settingsTitle => 'Подешавања';
@@ -426,10 +438,12 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Доња трака са апликацијама';
@@ -438,7 +452,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoBottomAppBarSubtitle => 'Приказује навигацију и радње у дну';
 
   @override
-  String get demoBottomAppBarDescription => 'Доње траке са апликацијама пружају приступ доњој фиоки за навигацију и највише четири радње, укључујући плутајуће дугме за радњу.';
+  String get demoBottomAppBarDescription =>
+      'Доње траке са апликацијама пружају приступ доњој фиоки за навигацију и највише четири радње, укључујући плутајуће дугме за радњу.';
 
   @override
   String get bottomAppBarNotch => 'Урез';
@@ -447,10 +462,12 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get bottomAppBarPosition => 'Положај плутајућег дугмета за радњу';
 
   @override
-  String get bottomAppBarPositionDockedEnd => 'На траци са апликацијама – на крају';
+  String get bottomAppBarPositionDockedEnd =>
+      'На траци са апликацијама – на крају';
 
   @override
-  String get bottomAppBarPositionDockedCenter => 'На траци са апликацијама – у средини';
+  String get bottomAppBarPositionDockedCenter =>
+      'На траци са апликацијама – у средини';
 
   @override
   String get bottomAppBarPositionFloatingEnd => 'Плутање – на крају';
@@ -465,13 +482,15 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Приказује банер у оквиру листе';
 
   @override
-  String get demoBannerDescription => 'Банер приказује важну, сажету поруку и наводи радње које корисници могу да обаве (или могу да одбаце банер). Неопходно је да корисник обави радњу одбацивања.';
+  String get demoBannerDescription =>
+      'Банер приказује важну, сажету поруку и наводи радње које корисници могу да обаве (или могу да одбаце банер). Неопходно је да корисник обави радњу одбацивања.';
 
   @override
   String get demoBottomNavigationTitle => 'Доња навигација';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Доња навигација која се постепено приказује и нестаје';
+  String get demoBottomNavigationSubtitle =>
+      'Доња навигација која се постепено приказује и нестаје';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Трајне ознаке';
@@ -480,43 +499,50 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Изабрана ознака';
 
   @override
-  String get demoBottomNavigationDescription => 'Доња трака за навигацију приказује три до пет одредишта у дну екрана. Свако одредиште представљају икона и опционална текстуална ознака. Када корисник додирне доњу икону за навигацију, отвара се одредиште за дестинацију највишег нивоа које је повезано са том иконом.';
+  String get demoBottomNavigationDescription =>
+      'Доња трака за навигацију приказује три до пет одредишта у дну екрана. Свако одредиште представљају икона и опционална текстуална ознака. Када корисник додирне доњу икону за навигацију, отвара се одредиште за дестинацију највишег нивоа које је повезано са том иконом.';
 
   @override
   String get demoButtonTitle => 'Дугмад';
 
   @override
-  String get demoButtonSubtitle => 'Дугме за текст, издигнуто и оивичено дугме и друго';
+  String get demoButtonSubtitle =>
+      'Дугме за текст, издигнуто и оивичено дугме и друго';
 
   @override
   String get demoTextButtonTitle => 'Дугме за текст';
 
   @override
-  String get demoTextButtonDescription => 'Када се притисне, дугме за текст приказује мрљу боје, али се не подиже. Дугмад за текст користите на тракама с алаткама, у дијалозима и у тексту са размаком';
+  String get demoTextButtonDescription =>
+      'Када се притисне, дугме за текст приказује мрљу боје, али се не подиже. Дугмад за текст користите на тракама с алаткама, у дијалозима и у тексту са размаком';
 
   @override
   String get demoElevatedButtonTitle => 'Издигнуто дугме';
 
   @override
-  String get demoElevatedButtonDescription => 'Издигнута дугмад пружа тродимензионални изглед равном приказу. Она наглашава функције у широким просторима или онима са пуно елемената.';
+  String get demoElevatedButtonDescription =>
+      'Издигнута дугмад пружа тродимензионални изглед равном приказу. Она наглашава функције у широким просторима или онима са пуно елемената.';
 
   @override
   String get demoOutlinedButtonTitle => 'Оивичено дугме';
 
   @override
-  String get demoOutlinedButtonDescription => 'Оивичена дугмад постаје непрозирна и подиже се када се притисне. Обично се упарује заједно са издигнутом дугмади да би означила алтернативну, секундарну радњу.';
+  String get demoOutlinedButtonDescription =>
+      'Оивичена дугмад постаје непрозирна и подиже се када се притисне. Обично се упарује заједно са издигнутом дугмади да би означила алтернативну, секундарну радњу.';
 
   @override
   String get demoToggleButtonTitle => 'Дугмад за укључивање/искључивање';
 
   @override
-  String get demoToggleButtonDescription => 'Дугмад за укључивање/искључивање може да се користи за груписање сродних опција. Да бисте нагласили групе сродне дугмади за укључивање/искључивање, група треба да има заједнички контејнер';
+  String get demoToggleButtonDescription =>
+      'Дугмад за укључивање/искључивање може да се користи за груписање сродних опција. Да бисте нагласили групе сродне дугмади за укључивање/искључивање, група треба да има заједнички контејнер';
 
   @override
   String get demoFloatingButtonTitle => 'Плутајуће дугме за радњу';
 
   @override
-  String get demoFloatingButtonDescription => 'Плутајуће дугме за радњу је кружна икона дугмета које се приказује изнад садржаја ради истицања примарне радње у апликацији.';
+  String get demoFloatingButtonDescription =>
+      'Плутајуће дугме за радњу је кружна икона дугмета које се приказује изнад садржаја ради истицања примарне радње у апликацији.';
 
   @override
   String get demoCardTitle => 'Картице';
@@ -528,34 +554,40 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoChipTitle => 'Чипови';
 
   @override
-  String get demoCardDescription => 'Картица је елемент материјалног дизајна који се користи за представљање сродних информација, на пример, албума, географске локације, оброка, података за контакт итд.';
+  String get demoCardDescription =>
+      'Картица је елемент материјалног дизајна који се користи за представљање сродних информација, на пример, албума, географске локације, оброка, података за контакт итд.';
 
   @override
-  String get demoChipSubtitle => 'Компактни елементи који представљају унос, атрибут или радњу';
+  String get demoChipSubtitle =>
+      'Компактни елементи који представљају унос, атрибут или радњу';
 
   @override
   String get demoActionChipTitle => 'Чип радњи';
 
   @override
-  String get demoActionChipDescription => 'Чипови радњи су скуп опција које покрећу радњу повезану са примарним садржајем. Чипови радњи треба да се појављују динамички и контекстуално у корисничком интерфејсу.';
+  String get demoActionChipDescription =>
+      'Чипови радњи су скуп опција које покрећу радњу повезану са примарним садржајем. Чипови радњи треба да се појављују динамички и контекстуално у корисничком интерфејсу.';
 
   @override
   String get demoChoiceChipTitle => 'Чип избора';
 
   @override
-  String get demoChoiceChipDescription => 'Чипови избора представљају појединачну изабрану ставку из скупа. Чипови избора садрже повезани описни текст или категорије.';
+  String get demoChoiceChipDescription =>
+      'Чипови избора представљају појединачну изабрану ставку из скупа. Чипови избора садрже повезани описни текст или категорије.';
 
   @override
   String get demoFilterChipTitle => 'Чип филтера';
 
   @override
-  String get demoFilterChipDescription => 'Чипови филтера користе ознаке или описне речи као начин да филтрирају садржај.';
+  String get demoFilterChipDescription =>
+      'Чипови филтера користе ознаке или описне речи као начин да филтрирају садржај.';
 
   @override
   String get demoInputChipTitle => 'Чип уноса';
 
   @override
-  String get demoInputChipDescription => 'Чипови уноса представљају сложене информације, попут ентитета (особе, места или ствари) или текста из говорног језика, у компактном облику.';
+  String get demoInputChipDescription =>
+      'Чипови уноса представљају сложене информације, попут ентитета (особе, места или ствари) или текста из говорног језика, у компактном облику.';
 
   @override
   String get demoDataTableTitle => 'Табеле са подацима';
@@ -564,7 +596,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'Редови и колоне са информацијама';
 
   @override
-  String get demoDataTableDescription => 'Табеле са подацима приказују информације у облику мреже са редовима и колонама. У њима су информације организоване тако да могу лако да се прегледају и да би корисници могли да траже шаблоне и увиде.';
+  String get demoDataTableDescription =>
+      'Табеле са подацима приказују информације у облику мреже са редовима и колонама. У њима су информације организоване тако да могу лако да се прегледају и да би корисници могли да траже шаблоне и увиде.';
 
   @override
   String get dataTableHeader => 'Исхрана';
@@ -637,13 +670,15 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoDialogTitle => 'Дијалози';
 
   @override
-  String get demoDialogSubtitle => 'Једноставан, са обавештењем и преко целог екрана';
+  String get demoDialogSubtitle =>
+      'Једноставан, са обавештењем и преко целог екрана';
 
   @override
   String get demoAlertDialogTitle => 'Обавештење';
 
   @override
-  String get demoAlertDialogDescription => 'Дијалог обавештења информише кориснике о ситуацијама које захтевају њихову пажњу. Дијалог обавештења има опционални наслов и опционалну листу радњи.';
+  String get demoAlertDialogDescription =>
+      'Дијалог обавештења информише кориснике о ситуацијама које захтевају њихову пажњу. Дијалог обавештења има опционални наслов и опционалну листу радњи.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Обавештење са насловом';
@@ -652,16 +687,19 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Једноставан';
 
   @override
-  String get demoSimpleDialogDescription => 'Једноставан дијалог кориснику нуди избор између неколико опција. Једноставан дијалог има опционални наслов који се приказује изнад тих избора.';
+  String get demoSimpleDialogDescription =>
+      'Једноставан дијалог кориснику нуди избор између неколико опција. Једноставан дијалог има опционални наслов који се приказује изнад тих избора.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -673,7 +711,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Изглед са редовима и колонама';
 
   @override
-  String get demoGridListsDescription => 'Листе у облику координатних мрежа су најбоље за приказивање хомогених података, најчешће слика. Свака ставка на листи у облику координатне мреже се зове плочица.';
+  String get demoGridListsDescription =>
+      'Листе у облику координатних мрежа су најбоље за приказивање хомогених података, најчешће слика. Свака ставка на листи у облику координатне мреже се зове плочица.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Само слике';
@@ -688,40 +727,48 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoSlidersTitle => 'Клизачи';
 
   @override
-  String get demoSlidersSubtitle => 'Виџети за бирање вредности превлачењем прстом';
+  String get demoSlidersSubtitle =>
+      'Виџети за бирање вредности превлачењем прстом';
 
   @override
-  String get demoSlidersDescription => 'Клизачи одражавају опсег вредности на траци, а корисници могу да изаберу једну вредност. Идеални су за прилагођавање подешавања као што су јачина звука, осветљеност или примена филтера за слике.';
+  String get demoSlidersDescription =>
+      'Клизачи одражавају опсег вредности на траци, а корисници могу да изаберу једну вредност. Идеални су за прилагођавање подешавања као што су јачина звука, осветљеност или примена филтера за слике.';
 
   @override
   String get demoRangeSlidersTitle => 'Клизачи опсега';
 
   @override
-  String get demoRangeSlidersDescription => 'Клизачи одражавају опсег вредности на траци. Могу да имају иконе на оба краја траке који одражавају опсег вредности. Идеални су за прилагођавање подешавања као што су јачина звука, осветљеност или примена филтера за слике.';
+  String get demoRangeSlidersDescription =>
+      'Клизачи одражавају опсег вредности на траци. Могу да имају иконе на оба краја траке који одражавају опсег вредности. Идеални су за прилагођавање подешавања као што су јачина звука, осветљеност или примена филтера за слике.';
 
   @override
   String get demoCustomSlidersTitle => 'Прилагођени клизачи';
 
   @override
-  String get demoCustomSlidersDescription => 'Клизачи одражавају опсег вредности на траци, а корисници могу да изаберу једну вредност или опсег вредности. Клизачи могу да имају тему и да се прилагоде.';
+  String get demoCustomSlidersDescription =>
+      'Клизачи одражавају опсег вредности на траци, а корисници могу да изаберу једну вредност или опсег вредности. Клизачи могу да имају тему и да се прилагоде.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Непрекидан са нумеричком вредношћу која може да се измени';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Непрекидан са нумеричком вредношћу која може да се измени';
 
   @override
   String get demoSlidersDiscrete => 'Дискретан';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Дискретан клизач са прилагођеном темом';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Дискретан клизач са прилагођеном темом';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Непрекидан клизач опсега са прилагођеном темом';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Непрекидан клизач опсега са прилагођеном темом';
 
   @override
   String get demoSlidersContinuous => 'Непрекидан';
 
   @override
-  String get demoSlidersEditableNumericalValue => 'Нумеричка вредност која може да се измени';
+  String get demoSlidersEditableNumericalValue =>
+      'Нумеричка вредност која може да се измени';
 
   @override
   String get demoMenuTitle => 'Мени';
@@ -742,7 +789,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Дугмад менија и једноставни менији';
 
   @override
-  String get demoMenuDescription => 'Мени приказује листу опција на привременој површини. Оне се приказују када корисници остварују интеракцију са дугметом, радњом или другом контролом.';
+  String get demoMenuDescription =>
+      'Мени приказује листу опција на привременој површини. Оне се приказују када корисници остварују интеракцију са дугметом, радњом или другом контролом.';
 
   @override
   String get demoMenuItemValueOne => 'Прва ставка менија';
@@ -766,7 +814,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoMenuFour => 'Четири';
 
   @override
-  String get demoMenuAnItemWithAContextMenuButton => 'Ставка са контекстуалним менијем';
+  String get demoMenuAnItemWithAContextMenuButton =>
+      'Ставка са контекстуалним менијем';
 
   @override
   String get demoMenuContextMenuItemOne => 'Прва ставка контекстуалног менија';
@@ -775,10 +824,12 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoMenuADisabledMenuItem => 'Онемогућена ставка менија';
 
   @override
-  String get demoMenuContextMenuItemThree => 'Трећа ставка контекстуалног менија';
+  String get demoMenuContextMenuItemThree =>
+      'Трећа ставка контекстуалног менија';
 
   @override
-  String get demoMenuAnItemWithASectionedMenu => 'Ставка са менијем са одељцима';
+  String get demoMenuAnItemWithASectionedMenu =>
+      'Ставка са менијем са одељцима';
 
   @override
   String get demoMenuPreview => 'Преглед';
@@ -806,10 +857,12 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoNavigationDrawerTitle => 'Фиока за навигацију';
 
   @override
-  String get demoNavigationDrawerSubtitle => 'Приказује фиоку на траци са апликацијама';
+  String get demoNavigationDrawerSubtitle =>
+      'Приказује фиоку на траци са апликацијама';
 
   @override
-  String get demoNavigationDrawerDescription => 'Окно Материјални дизајн које се превлачи хоризонтално од ивице екрана ради приказивања линкова за навигацију у апликацији.';
+  String get demoNavigationDrawerDescription =>
+      'Окно Материјални дизајн које се превлачи хоризонтално од ивице екрана ради приказивања линкова за навигацију у апликацији.';
 
   @override
   String get demoNavigationDrawerUserName => 'Корисничко име';
@@ -824,16 +877,19 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Друга ставка';
 
   @override
-  String get demoNavigationDrawerText => 'Превуците од ивице или додирните икону у горњем левом углу да бисте видели фиоку';
+  String get demoNavigationDrawerText =>
+      'Превуците од ивице или додирните икону у горњем левом углу да бисте видели фиоку';
 
   @override
   String get demoNavigationRailTitle => 'Пруга за навигацију';
 
   @override
-  String get demoNavigationRailSubtitle => 'Приказује пругу за навигацију у апликацији';
+  String get demoNavigationRailSubtitle =>
+      'Приказује пругу за навигацију у апликацији';
 
   @override
-  String get demoNavigationRailDescription => 'Виџет материјалног дизајна који треба да се приказује лево или десно у апликацији ради кретања између малог броја приказа, обично између три и пет.';
+  String get demoNavigationRailDescription =>
+      'Виџет материјалног дизајна који треба да се приказује лево или десно у апликацији ради кретања између малог броја приказа, обично између три и пет.';
 
   @override
   String get demoNavigationRailFirst => 'Прва';
@@ -848,22 +904,26 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoMenuAnItemWithASimpleMenu => 'Ставка са једноставним менијем';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Ставка са менијем са контролним листама';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Ставка са менијем са контролним листама';
 
   @override
   String get demoFullscreenDialogTitle => 'Цео екран';
 
   @override
-  String get demoFullscreenDialogDescription => 'Производ fullscreenDialog одређује да ли се следећа страница отвара у модалном дијалогу преко целог екрана';
+  String get demoFullscreenDialogDescription =>
+      'Производ fullscreenDialog одређује да ли се следећа страница отвара у модалном дијалогу преко целог екрана';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Индикатор активности';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'Индикатори активности у iOS стилу';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'Индикатори активности у iOS стилу';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'Индикатор активности у iOS стилу који се окреће у смеру кретања казаљке на сату';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'Индикатор активности у iOS стилу који се окреће у смеру кретања казаљке на сату';
 
   @override
   String get demoCupertinoButtonsTitle => 'Дугмад';
@@ -872,7 +932,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'Дугмад у iOS стилу';
 
   @override
-  String get demoCupertinoButtonsDescription => 'Дугме у iOS стилу. Садржи текст и/или икону који постепено нестају или се приказују када се дугме додирне. Опционално може да има позадину.';
+  String get demoCupertinoButtonsDescription =>
+      'Дугме у iOS стилу. Садржи текст и/или икону који постепено нестају или се приказују када се дугме додирне. Опционално може да има позадину.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -881,7 +942,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -890,7 +952,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Обавештења';
@@ -902,7 +965,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => 'Обавештење';
 
   @override
-  String get demoCupertinoAlertDescription => 'Дијалог обавештења информише кориснике о ситуацијама које захтевају њихову пажњу. Дијалог обавештења има опционални наслов, опционални садржај и опционалну листу радњи. Наслов се приказује изнад садржаја, а радње се приказују испод садржаја.';
+  String get demoCupertinoAlertDescription =>
+      'Дијалог обавештења информише кориснике о ситуацијама које захтевају њихову пажњу. Дијалог обавештења има опционални наслов, опционални садржај и опционалну листу радњи. Наслов се приказује изнад садржаја, а радње се приказују испод садржаја.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Обавештење са насловом';
@@ -917,25 +981,30 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'Табела радњи';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Табела радњи је посебан стил обавештења којим се корисницима нуде два или више избора у вези са актуелним контекстом. Табела радњи може да има наслов, додатну поруку и листу радњи.';
+  String get demoCupertinoActionSheetDescription =>
+      'Табела радњи је посебан стил обавештења којим се корисницима нуде два или више избора у вези са актуелним контекстом. Табела радњи може да има наслов, додатну поруку и листу радњи.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Трака за навигацију';
 
   @override
-  String get demoCupertinoNavigationBarSubtitle => 'Трака за навигацију у iOS стилу';
+  String get demoCupertinoNavigationBarSubtitle =>
+      'Трака за навигацију у iOS стилу';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'Трака за навигацију са iOS стилом. Трака за навигацију је трака с алаткама која у најгорем случају садржи само наслов странице на средини.';
+  String get demoCupertinoNavigationBarDescription =>
+      'Трака за навигацију са iOS стилом. Трака за навигацију је трака с алаткама која у најгорем случају садржи само наслов странице на средини.';
 
   @override
   String get demoCupertinoPickerTitle => 'Бирачи';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'Бирачи за датум и време у iOS стилу';
+  String get demoCupertinoPickerSubtitle =>
+      'Бирачи за датум и време у iOS стилу';
 
   @override
-  String get demoCupertinoPickerDescription => 'Виџет бирача у iOS стилу који може да се користи за бирање датума, времена или и датума и времена.';
+  String get demoCupertinoPickerDescription =>
+      'Виџет бирача у iOS стилу који може да се користи за бирање датума, времена или и датума и времена.';
 
   @override
   String get demoCupertinoPickerTimer => 'Тајмер';
@@ -953,19 +1022,23 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'Повуците да бисте освежили';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'Контрола за повлачење ради освежавања у iOS стилу';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'Контрола за повлачење ради освежавања у iOS стилу';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Виџет који примењује контролу за повлачење ради освежавања садржаја у iOS стилу.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Виџет који примењује контролу за повлачење ради освежавања садржаја у iOS стилу.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Сегментирана контрола';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'Сегментирана контрола у iOS стилу';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'Сегментирана контрола у iOS стилу';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Користи се за бирање једне од међусобно искључивих опција. Када је изабрана једна опција у сегментираној контроли, опозива се избор осталих опција у тој сегментираној контроли.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Користи се за бирање једне од међусобно искључивих опција. Када је изабрана једна опција у сегментираној контроли, опозива се избор осталих опција у тој сегментираној контроли.';
 
   @override
   String get demoCupertinoSliderTitle => 'Клизач';
@@ -974,7 +1047,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'Клизач у iOS стилу';
 
   @override
-  String get demoCupertinoSliderDescription => 'Клизач може да се користи да бисте изабрали непрекидан или дискретан скуп вредности.';
+  String get demoCupertinoSliderDescription =>
+      'Клизач може да се користи да бисте изабрали непрекидан или дискретан скуп вредности.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -990,16 +1064,19 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'Прекидач у iOS стилу';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Прекидач се користи за укључивање/искључивање појединачних подешавања.';
+  String get demoCupertinoSwitchDescription =>
+      'Прекидач се користи за укључивање/искључивање појединачних подешавања.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Трака са картицама';
 
   @override
-  String get demoCupertinoTabBarSubtitle => 'Доња трака са картицама у iOS стилу';
+  String get demoCupertinoTabBarSubtitle =>
+      'Доња трака са картицама у iOS стилу';
 
   @override
-  String get demoCupertinoTabBarDescription => 'Доња трака са картицама за навигацију у iOS стилу. Приказује више картица, при чему је само једна активна, а према подразумеваним подешавањима то је прва картица.';
+  String get demoCupertinoTabBarDescription =>
+      'Доња трака са картицама за навигацију у iOS стилу. Приказује више картица, при чему је само једна активна, а према подразумеваним подешавањима то је прва картица.';
 
   @override
   String get cupertinoTabBarHomeTab => 'Почетна';
@@ -1014,10 +1091,12 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoCupertinoTextFieldTitle => 'Поља за унос текста';
 
   @override
-  String get demoCupertinoTextFieldSubtitle => 'Поља за унос текста у iOS стилу';
+  String get demoCupertinoTextFieldSubtitle =>
+      'Поља за унос текста у iOS стилу';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'Поље за унос текста омогућава кориснику да уноси текст помоћу физичке тастатуре или тастатуре на екрану.';
+  String get demoCupertinoTextFieldDescription =>
+      'Поље за унос текста омогућава кориснику да уноси текст помоћу физичке тастатуре или тастатуре на екрану.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN';
@@ -1029,13 +1108,15 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoMotionSubtitle => 'Сви унапред дефинисани шаблони прелаза';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'Картице, листе и плутајуће дугме за радњу';
+  String get demoContainerTransformDemoInstructions =>
+      'Картице, листе и плутајуће дугме за радњу';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'Дугмад Даље и Назад';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'Сортирај по критеријуму Недавно слушано';
+  String get demoSharedYAxisDemoInstructions =>
+      'Сортирај по критеријуму Недавно слушано';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'Дугме иконе Подешавања';
@@ -1044,19 +1125,23 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoFadeThroughDemoInstructions => 'Доња навигација';
 
   @override
-  String get demoFadeScaleDemoInstructions => 'Модално и плутајуће дугме за радњу';
+  String get demoFadeScaleDemoInstructions =>
+      'Модално и плутајуће дугме за радњу';
 
   @override
   String get demoContainerTransformTitle => 'Трансформисање контејнера';
 
   @override
-  String get demoContainerTransformDescription => 'Шаблон трансформисања контејнера је направљен за прелаз између елемената корисничког интерфејса који садрже контејнер. Овај шаблон прави видљиву везу између два елемента корисничког интерфејса';
+  String get demoContainerTransformDescription =>
+      'Шаблон трансформисања контејнера је направљен за прелаз између елемената корисничког интерфејса који садрже контејнер. Овај шаблон прави видљиву везу између два елемента корисничког интерфејса';
 
   @override
-  String get demoContainerTransformModalBottomSheetTitle => 'Режим постепеног појављивања и нестајања';
+  String get demoContainerTransformModalBottomSheetTitle =>
+      'Режим постепеног појављивања и нестајања';
 
   @override
-  String get demoContainerTransformTypeFade => 'ПОСТЕПЕНО ПОЈАВЉИВАЊЕ И НЕСТАЈАЊЕ';
+  String get demoContainerTransformTypeFade =>
+      'ПОСТЕПЕНО ПОЈАВЉИВАЊЕ И НЕСТАЈАЊЕ';
 
   @override
   String get demoContainerTransformTypeFadeThrough => 'ПОСТЕПЕНИ ПРЕЛАЗ';
@@ -1077,7 +1162,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Ставка листе';
 
   @override
-  String get demoSharedAxisDescription => 'Шаблон заједничке осе се користи за прелаз између елемената корисничког интерфејса који имају просторни или навигациони однос. Овај шаблон користи заједничку трансформацију по X, Y или Z оси за наглашавање односа између елемената.';
+  String get demoSharedAxisDescription =>
+      'Шаблон заједничке осе се користи за прелаз између елемената корисничког интерфејса који имају просторни или навигациони однос. Овај шаблон користи заједничку трансформацију по X, Y или Z оси за наглашавање односа између елемената.';
 
   @override
   String get demoSharedXAxisTitle => 'Заједничка X оса';
@@ -1089,10 +1175,12 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoSharedXAxisNextButtonText => 'ДАЉЕ';
 
   @override
-  String get demoSharedXAxisCoursePageTitle => 'Побољшајте организацију курсева';
+  String get demoSharedXAxisCoursePageTitle =>
+      'Побољшајте организацију курсева';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Категорије у пакету се приказују као групе у фиду. Ово можете да промените кад год пожелите.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Категорије у пакету се приказују као групе у фиду. Ово можете да промените кад год пожелите.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Уметност и занати';
@@ -1113,7 +1201,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoSharedXAxisBundledCourseSubtitle => 'У пакету';
 
   @override
-  String get demoSharedXAxisIndividualCourseSubtitle => 'Приказује се појединачно';
+  String get demoSharedXAxisIndividualCourseSubtitle =>
+      'Приказује се појединачно';
 
   @override
   String get demoSharedXAxisSignInWelcomeText => 'Здраво, Дејвид Парк';
@@ -1179,19 +1268,22 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Шкамп';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Рецепт за јело са шкампима';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Рецепт за јело са шкампима';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Рак';
 
   @override
-  String get demoSharedZAxisCrabPlateRecipeDescription => 'Рецепт за јело са раковима';
+  String get demoSharedZAxisCrabPlateRecipeDescription =>
+      'Рецепт за јело са раковима';
 
   @override
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Сендвич са говедином';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Рецепт за сендвич са говедином';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Рецепт за сендвич са говедином';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Сачувани рецепти';
@@ -1212,7 +1304,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Постепени прелаз';
 
   @override
-  String get demoFadeThroughDescription => 'Шаблон постепеног прелаза се користи за прелаз између елемената корисничког интерфејса који немају јак међусобни однос.';
+  String get demoFadeThroughDescription =>
+      'Шаблон постепеног прелаза се користи за прелаз између елемената корисничког интерфејса који немају јак међусобни однос.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Албуми';
@@ -1230,7 +1323,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Постепено појављивање и нестајање';
 
   @override
-  String get demoFadeScaleDescription => 'Шаблон постепеног појављивања и нестајања се користи за елементе корисничког система који се појављују или нестају унутар граница екрана, попут дијалога који се постепено појављује и нестаје у центру екрана.';
+  String get demoFadeScaleDescription =>
+      'Шаблон постепеног појављивања и нестајања се користи за елементе корисничког система који се појављују или нестају унутар граница екрана, попут дијалога који се постепено појављује и нестаје у центру екрана.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'ПРИКАЖИ ИСКАЧУЋИ ПРОЗОР';
@@ -1257,7 +1351,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Све унапред одређене боје';
 
   @override
-  String get demoColorsDescription => 'Боје и шема боја које представљају палету боја материјалног дизајна.';
+  String get demoColorsDescription =>
+      'Боје и шема боја које представљају палету боја материјалног дизајна.';
 
   @override
   String get demoTypographyTitle => 'Типографија';
@@ -1266,7 +1361,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoTypographySubtitle => 'Сви унапред дефинисани стилови текста';
 
   @override
-  String get demoTypographyDescription => 'Дефиниције разних типографских стилова у материјалном дизајну.';
+  String get demoTypographyDescription =>
+      'Дефиниције разних типографских стилова у материјалном дизајну.';
 
   @override
   String get demo2dTransformationsTitle => '2D трансформације';
@@ -1275,7 +1371,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'Померање, зумирање, ротирање';
 
   @override
-  String get demo2dTransformationsDescription => 'Додирните да бисте изменили делове слике и користите покрете да бисте се кретали по сцени. Превуците да бисте померали, скупите прсте да бисте зумирали и ротирајте помоћу два прста. Притисните дугме за ресетовање да бисте се вратили на почетни положај.';
+  String get demo2dTransformationsDescription =>
+      'Додирните да бисте изменили делове слике и користите покрете да бисте се кретали по сцени. Превуците да бисте померали, скупите прсте да бисте зумирали и ротирајте помоћу два прста. Притисните дугме за ресетовање да бисте се вратили на почетни положај.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Ресетујте трансформације';
@@ -1296,13 +1393,15 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'Трајна доња табела';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Трајна доња табела приказује информације које допуњују примарни садржај апликације. Трајна доња табела остаје видљива и при интеракцији корисника са другим деловима апликације.';
+  String get demoBottomSheetPersistentDescription =>
+      'Трајна доња табела приказује информације које допуњују примарни садржај апликације. Трајна доња табела остаје видљива и при интеракцији корисника са другим деловима апликације.';
 
   @override
   String get demoBottomSheetModalTitle => 'Модална доња табела';
 
   @override
-  String get demoBottomSheetModalDescription => 'Модална доња табела је алтернатива менију или дијалогу и онемогућава интеракцију корисника са остатком апликације.';
+  String get demoBottomSheetModalDescription =>
+      'Модална доња табела је алтернатива менију или дијалогу и онемогућава интеракцију корисника са остатком апликације.';
 
   @override
   String get demoBottomSheetAddLabel => 'Додајте';
@@ -1325,7 +1424,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoListsSubtitle => 'Изгледи покретних листа';
 
   @override
-  String get demoListsDescription => 'Један ред фиксне висине који обично садржи неки текст, као и икону на почетку или на крају.';
+  String get demoListsDescription =>
+      'Један ред фиксне висине који обично садржи неки текст, као и икону на почетку или на крају.';
 
   @override
   String get demoOneLineListsTitle => 'Један ред';
@@ -1346,13 +1446,15 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoCircularProgressIndicatorTitle => 'Кружни индикатор напретка';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Кружни индикатор напретка материјалног дизајна који се окреће да би показао да је апликација заузета.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Кружни индикатор напретка материјалног дизајна који се окреће да би показао да је апликација заузета.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'Линеарни индикатор напретка';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Линеарни индикатор напретка материјалног дизајна, познат и као трака напретка.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Линеарни индикатор напретка материјалног дизајна, познат и као трака напретка.';
 
   @override
   String get demoPickersTitle => 'Бирачи';
@@ -1364,19 +1466,22 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Бирач датума';
 
   @override
-  String get demoDatePickerDescription => 'Приказује дијалог са бирачем датума материјалног дизајна.';
+  String get demoDatePickerDescription =>
+      'Приказује дијалог са бирачем датума материјалног дизајна.';
 
   @override
   String get demoTimePickerTitle => 'Бирач времена';
 
   @override
-  String get demoTimePickerDescription => 'Приказује дијалог са бирачем времена материјалног дизајна.';
+  String get demoTimePickerDescription =>
+      'Приказује дијалог са бирачем времена материјалног дизајна.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'ПРИКАЖИ БИРАЧ';
@@ -1391,19 +1496,23 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoTabsNonScrollingTitle => 'Без померања';
 
   @override
-  String get demoTabsSubtitle => 'Картице са приказима који могу засебно да се померају';
+  String get demoTabsSubtitle =>
+      'Картице са приказима који могу засебно да се померају';
 
   @override
-  String get demoTabsDescription => 'Картице организују садржај на различитим екранима, у скуповима података и другим интеракцијама.';
+  String get demoTabsDescription =>
+      'Картице организују садржај на различитим екранима, у скуповима података и другим интеракцијама.';
 
   @override
   String get demoSnackbarsTitle => 'Траке за обавештења';
 
   @override
-  String get demoSnackbarsSubtitle => 'Траке за обавештења приказују поруке у дну екрана';
+  String get demoSnackbarsSubtitle =>
+      'Траке за обавештења приказују поруке у дну екрана';
 
   @override
-  String get demoSnackbarsDescription => 'Траке за обавештења обавештавају кориснике о процесу који је нека апликација обавила или ће обавити. Привремено се приказују у дну екрана. Не би требало да ометају кориснички доживљај и не захтевају активност корисника да би нестале.';
+  String get demoSnackbarsDescription =>
+      'Траке за обавештења обавештавају кориснике о процесу који је нека апликација обавила или ће обавити. Привремено се приказују у дну екрана. Не би требало да ометају кориснички доживљај и не захтевају активност корисника да би нестале.';
 
   @override
   String get demoSnackbarsButtonLabel => 'ПРИКАЗУЈ ТРАКУ ЗА ОБАВЕШТЕЊА';
@@ -1421,25 +1530,29 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoSelectionControlsTitle => 'Контроле избора';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Поља за потврду, дугмад за избор и прекидачи';
+  String get demoSelectionControlsSubtitle =>
+      'Поља за потврду, дугмад за избор и прекидачи';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Поље за потврду';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Поља за потврду омогућавају кориснику да изабере више опција из скупа. Вредност уобичајеног поља за потврду је Тачно или Нетачно, а вредност троструког поља за потврду може да буде и Ништа.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Поља за потврду омогућавају кориснику да изабере више опција из скупа. Вредност уобичајеног поља за потврду је Тачно или Нетачно, а вредност троструког поља за потврду може да буде и Ништа.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Дугме за избор';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Дугмад за избор омогућавају кориснику да изабере једну опцију из скупа. Користите дугмад за избор да бисте омогућили ексклузивни избор ако сматрате да корисник треба да види све доступне опције једну поред друге.';
+  String get demoSelectionControlsRadioDescription =>
+      'Дугмад за избор омогућавају кориснику да изабере једну опцију из скупа. Користите дугмад за избор да бисте омогућили ексклузивни избор ако сматрате да корисник треба да види све доступне опције једну поред друге.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Прекидач';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Прекидачи за укључивање/искључивање мењају статус појединачних опција подешавања. На основу одговарајуће ознаке у тексту корисницима треба да буде јасно коју опцију прекидач контролише и који је њен статус.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Прекидачи за укључивање/искључивање мењају статус појединачних опција подешавања. На основу одговарајуће ознаке у тексту корисницима треба да буде јасно коју опцију прекидач контролише и који је њен статус.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Поља за унос текста';
@@ -1448,10 +1561,12 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoTextFieldTitle => 'Поља за унос текста';
 
   @override
-  String get demoTextFieldSubtitle => 'Један ред текста и бројева који могу да се измене';
+  String get demoTextFieldSubtitle =>
+      'Један ред текста и бројева који могу да се измене';
 
   @override
-  String get demoTextFieldDescription => 'Поља за унос текста омогућавају корисницима да унесу текст у кориснички интерфејс. Обично се приказују у облику образаца и дијалога.';
+  String get demoTextFieldDescription =>
+      'Поља за унос текста омогућавају корисницима да унесу текст у кориснички интерфејс. Обично се приказују у облику образаца и дијалога.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Прикажи лозинку';
@@ -1460,16 +1575,19 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Сакриј лозинку';
 
   @override
-  String get demoTextFieldFormErrors => 'Пре слања исправите грешке означене црвеном бојом.';
+  String get demoTextFieldFormErrors =>
+      'Пре слања исправите грешке означене црвеном бојом.';
 
   @override
   String get demoTextFieldNameRequired => 'Име је обавезно.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'Уносите само абецедне знакове.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'Уносите само абецедне знакове.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### – унесите број телефона у Сједињеним Америчким Државама';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### – унесите број телефона у Сједињеним Америчким Државама';
 
   @override
   String get demoTextFieldEnterPassword => 'Унесите лозинку.';
@@ -1484,7 +1602,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoTextFieldNameField => 'Име*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'Где можемо да вас контактирамо?';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'Где можемо да вас контактирамо?';
 
   @override
   String get demoTextFieldPhoneNumber => 'Број телефона*';
@@ -1496,10 +1615,12 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoTextFieldEmail => 'Имејл';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Реците нам нешто о себи (нпр. напишите чиме се бавите или које хобије имате)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Реците нам нешто о себи (нпр. напишите чиме се бавите или које хобије имате)';
 
   @override
-  String get demoTextFieldKeepItShort => 'Нека буде кратко, ово је само демонстрација.';
+  String get demoTextFieldKeepItShort =>
+      'Нека буде кратко, ово је само демонстрација.';
 
   @override
   String get demoTextFieldLifeStory => 'Биографија';
@@ -1534,13 +1655,16 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get demoTooltipTitle => 'Објашњења';
 
   @override
-  String get demoTooltipSubtitle => 'Кратка порука која се приказује при дугом притиску или преласку курсором';
+  String get demoTooltipSubtitle =>
+      'Кратка порука која се приказује при дугом притиску или преласку курсором';
 
   @override
-  String get demoTooltipDescription => 'Објашњења пружају текстуалне ознаке које објашњавају функцију дугмета или неке друге радње у корисничком интерфејсу. Објашњења приказују информативни текст када корисници прелазе курсором преко елемента, односно када се фокусирају на њега или га дуго притискају.';
+  String get demoTooltipDescription =>
+      'Објашњења пружају текстуалне ознаке које објашњавају функцију дугмета или неке друге радње у корисничком интерфејсу. Објашњења приказују информативни текст када корисници прелазе курсором преко елемента, односно када се фокусирају на њега или га дуго притискају.';
 
   @override
-  String get demoTooltipInstructions => 'Дуго притискајте елемент или пређите курсором преко њега да би се приказало објашњење.';
+  String get demoTooltipInstructions =>
+      'Дуго притискајте елемент или пређите курсором преко њега да би се приказало објашњење.';
 
   @override
   String get bottomNavigationCommentsTab => 'Коментари';
@@ -1598,10 +1722,12 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get dialogDiscardTitle => 'Желите ли да одбаците радну верзију?';
 
   @override
-  String get dialogLocationTitle => 'Желите ли да користите Google услуге локације?';
+  String get dialogLocationTitle =>
+      'Желите ли да користите Google услуге локације?';
 
   @override
-  String get dialogLocationDescription => 'Дозволите да Google помаже апликацијама у одређивању локације. То значи да се Google-у шаљу анонимни подаци о локацији, чак и када ниједна апликација није покренута.';
+  String get dialogLocationDescription =>
+      'Дозволите да Google помаже апликацијама у одређивању локације. То значи да се Google-у шаљу анонимни подаци о локацији, чак и када ниједна апликација није покренута.';
 
   @override
   String get dialogCancel => 'ОТКАЖИ';
@@ -1631,7 +1757,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get dialogFullscreenSave => 'САЧУВАЈ';
 
   @override
-  String get dialogFullscreenDescription => 'Демонстрација дијалога на целом екрану';
+  String get dialogFullscreenDescription =>
+      'Демонстрација дијалога на целом екрану';
 
   @override
   String get cupertinoButton => 'Дугме';
@@ -1646,10 +1773,12 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Одбаци';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Желите ли да дозволите да Мапе приступају вашој локацији док користите ту апликацију?';
+  String get cupertinoAlertLocationTitle =>
+      'Желите ли да дозволите да Мапе приступају вашој локацији док користите ту апликацију?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Актуелна локација ће се приказивати на мапама и користи се за путање, резултате претраге за ствари у близини и процењено трајање путовања.';
+  String get cupertinoAlertLocationDescription =>
+      'Актуелна локација ће се приказивати на мапама и користи се за путање, резултате претраге за ствари у близини и процењено трајање путовања.';
 
   @override
   String get cupertinoAlertAllow => 'Дозволи';
@@ -1661,7 +1790,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Изаберите омиљену посластицу';
 
   @override
-  String get cupertinoAlertDessertDescription => 'На листи у наставку изаберите омиљени тип посластице. Ваш избор ће се користити за прилагођавање листе предлога за ресторане у вашој области.';
+  String get cupertinoAlertDessertDescription =>
+      'На листи у наставку изаберите омиљени тип посластице. Ваш избор ће се користити за прилагођавање листе предлога за ресторане у вашој области.';
 
   @override
   String get cupertinoAlertCheesecake => 'Чизкејк';
@@ -1781,7 +1911,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get starterAppTitle => 'Апликација за покретање';
 
   @override
-  String get starterAppDescription => 'Изглед апликације за покретање која реагује';
+  String get starterAppDescription =>
+      'Изглед апликације за покретање која реагује';
 
   @override
   String get starterAppGenericButton => 'ДУГМЕ';
@@ -1958,7 +2089,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get shrineProductChambrayShirt => 'Платнена мајица';
 
   @override
-  String get shrineProductSeabreezeSweater => 'Џемпер са шаблоном морских таласа';
+  String get shrineProductSeabreezeSweater =>
+      'Џемпер са шаблоном морских таласа';
 
   @override
   String get shrineProductGentryJacket => 'Gentry јакна';
@@ -1967,7 +2099,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get shrineProductNavyTrousers => 'Тамноплаве панталоне';
 
   @override
-  String get shrineProductWalterHenleyWhite => 'Мајица са изрезом у облику слова v (беле боје)';
+  String get shrineProductWalterHenleyWhite =>
+      'Мајица са изрезом у облику слова v (беле боје)';
 
   @override
   String get shrineProductSurfAndPerfShirt => 'Сурферска мајица';
@@ -1982,7 +2115,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get shrineProductClassicWhiteCollar => 'Класична бела кошуља';
 
   @override
-  String get shrineProductCeriseScallopTee => 'Тамноружичаста мајица са таласастим рубом';
+  String get shrineProductCeriseScallopTee =>
+      'Тамноружичаста мајица са таласастим рубом';
 
   @override
   String get shrineProductShoulderRollsTee => 'Мајица са заврнутим рукавима';
@@ -2098,7 +2232,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get craneFlySubhead => 'Истражујте летове према дестинацији';
 
   @override
-  String get craneSleepSubhead => 'Истражујте смештајне објекте према одредишту';
+  String get craneSleepSubhead =>
+      'Истражујте смештајне објекте према одредишту';
 
   @override
   String get craneEatSubhead => 'Истражујте ресторане према одредишту';
@@ -2251,13 +2386,15 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get craneEat10 => 'Лисабон, Португалија';
 
   @override
-  String get craneFly0SemanticLabel => 'Планинска колиба у снежном пејзажу са зимзеленим дрвећем';
+  String get craneFly0SemanticLabel =>
+      'Планинска колиба у снежном пејзажу са зимзеленим дрвећем';
 
   @override
   String get craneFly1SemanticLabel => 'Шатор у пољу';
 
   @override
-  String get craneFly2SemanticLabel => 'Молитвене заставице испред снегом прекривене планине';
+  String get craneFly2SemanticLabel =>
+      'Молитвене заставице испред снегом прекривене планине';
 
   @override
   String get craneFly3SemanticLabel => 'Тврђава у Мачу Пикчуу';
@@ -2269,7 +2406,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get craneFly5SemanticLabel => 'Хотел на обали језера испред планина';
 
   @override
-  String get craneFly6SemanticLabel => 'Поглед на Палату лепих уметности из ваздуха';
+  String get craneFly6SemanticLabel =>
+      'Поглед на Палату лепих уметности из ваздуха';
 
   @override
   String get craneFly7SemanticLabel => 'Маунт Рашмор';
@@ -2278,7 +2416,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'Supertree Grove';
 
   @override
-  String get craneFly9SemanticLabel => 'Човек се наслања на стари плави аутомобил';
+  String get craneFly9SemanticLabel =>
+      'Човек се наслања на стари плави аутомобил';
 
   @override
   String get craneFly10SemanticLabel => 'Минарети џамије Ал-Аџар у сумрак';
@@ -2293,16 +2432,19 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get craneFly13SemanticLabel => 'Базен на обали мора са палмама';
 
   @override
-  String get craneSleep0SemanticLabel => 'Бунгалови који се надвијају над водом';
+  String get craneSleep0SemanticLabel =>
+      'Бунгалови који се надвијају над водом';
 
   @override
-  String get craneSleep1SemanticLabel => 'Планинска колиба у снежном пејзажу са зимзеленим дрвећем';
+  String get craneSleep1SemanticLabel =>
+      'Планинска колиба у снежном пејзажу са зимзеленим дрвећем';
 
   @override
   String get craneSleep2SemanticLabel => 'Тврђава у Мачу Пикчуу';
 
   @override
-  String get craneSleep3SemanticLabel => 'Човек се наслања на стари плави аутомобил';
+  String get craneSleep3SemanticLabel =>
+      'Човек се наслања на стари плави аутомобил';
 
   @override
   String get craneSleep4SemanticLabel => 'Хотел на обали језера испред планина';
@@ -2317,7 +2459,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get craneSleep7SemanticLabel => 'Шарени станови на тргу Рибеира';
 
   @override
-  String get craneSleep8SemanticLabel => 'Мајанске рушевине на литици изнад плаже';
+  String get craneSleep8SemanticLabel =>
+      'Мајанске рушевине на литици изнад плаже';
 
   @override
   String get craneSleep9SemanticLabel => 'Светионик од цигала на мору';
@@ -2332,7 +2475,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get craneEat0SemanticLabel => 'Пица у пећи на дрва';
 
   @override
-  String get craneEat1SemanticLabel => 'Празан бар са високим барским столицама';
+  String get craneEat1SemanticLabel =>
+      'Празан бар са високим барским столицама';
 
   @override
   String get craneEat2SemanticLabel => 'Пљескавица';
@@ -2344,7 +2488,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get craneEat4SemanticLabel => 'Чоколадни десерт';
 
   @override
-  String get craneEat5SemanticLabel => 'Део за седење у ресторану са уметничком атмосфером';
+  String get craneEat5SemanticLabel =>
+      'Део за седење у ресторану са уметничком атмосфером';
 
   @override
   String get craneEat6SemanticLabel => 'Јело са шкампима';
@@ -2410,7 +2555,8 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Најновије вести';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Тиха, али моћна револуција здравственог система';
+  String get fortnightlyHeadlineHealthcare =>
+      'Тиха, али моћна револуција здравственог система';
 
   @override
   String get fortnightlyHeadlineWar => 'Раздвојени амерички животи током рата';
@@ -2422,10 +2568,12 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'Реформисање Зелене армије изнутра';
 
   @override
-  String get fortnightlyHeadlineStocks => 'Док акције стагнирају, многи се окрећу валути';
+  String get fortnightlyHeadlineStocks =>
+      'Док акције стагнирају, многи се окрећу валути';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Дизајнери користе технологију да би правили футуристичке тканине';
+  String get fortnightlyHeadlineFabrics =>
+      'Дизајнери користе технологију да би правили футуристичке тканине';
 
   @override
   String get fortnightlyHeadlineFeminists => 'Феминисткиње се баве политиком';
@@ -2454,7 +2602,7 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
 
 /// The translations for Serbian, using the Latin script (`sr_Latn`).
 class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
-  GalleryLocalizationsSrLatn(): super('sr_Latn');
+  GalleryLocalizationsSrLatn() : super('sr_Latn');
 
   @override
   String githubRepo(Object repoName) {
@@ -2470,7 +2618,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get signIn => 'PRIJAVITE SE';
 
   @override
-  String get bannerDemoText => 'Lozinka je ažurirana na drugom uređaju. Prijavite se ponovo.';
+  String get bannerDemoText =>
+      'Lozinka je ažurirana na drugom uređaju. Prijavite se ponovo.';
 
   @override
   String get bannerDemoResetText => 'Resetuj baner';
@@ -2507,7 +2656,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'Najpopularnijih 10 gradova koje treba da posetite u Tamil Naduu';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'Najpopularnijih 10 gradova koje treba da posetite u Tamil Naduu';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => '10. mesto';
@@ -2546,7 +2696,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get shrineDescription => 'Moderna aplikacija za maloprodaju';
 
   @override
-  String get fortnightlyDescription => 'Aplikacija za vesti fokusirana na sadržaj';
+  String get fortnightlyDescription =>
+      'Aplikacija za vesti fokusirana na sadržaj';
 
   @override
   String get rallyDescription => 'Aplikacija za lične finansije';
@@ -2567,16 +2718,19 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get rallyAccountDataVacation => 'Odmor';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Godišnji procenat dobiti';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Godišnji procenat dobiti';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Kamatna stopa';
 
   @override
-  String get rallyAccountDetailDataInterestYtd => 'Kamata od početka godine do danas';
+  String get rallyAccountDetailDataInterestYtd =>
+      'Kamata od početka godine do danas';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Kamata plaćena prošle godine';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Kamata plaćena prošle godine';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Sledeći izvod';
@@ -2732,9 +2886,12 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Povećajte mogući odbitak poreza! Dodelite kategorije 1 nedodeljenoj transakciji.',
-      few: 'Povećajte mogući odbitak poreza! Dodelite kategorije za ${count} nedodeljene transakcije.',
-      other: 'Povećajte mogući odbitak poreza! Dodelite kategorije za ${count} nedodeljenih transakcija.',
+      one:
+          'Povećajte mogući odbitak poreza! Dodelite kategorije 1 nedodeljenoj transakciji.',
+      few:
+          'Povećajte mogući odbitak poreza! Dodelite kategorije za ${count} nedodeljene transakcije.',
+      other:
+          'Povećajte mogući odbitak poreza! Dodelite kategorije za ${count} nedodeljenih transakcija.',
     );
   }
 
@@ -2748,7 +2905,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get rallySeeAllBudgets => 'Prikaži sve budžete';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${accountName} račun ${accountNumber} sa ${amount}.';
   }
 
@@ -2758,7 +2916,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'Budžet za ${budgetName}, potrošeno je ${amountUsed} od ${amountTotal}, preostalo je ${amountLeft}';
   }
 
@@ -2790,7 +2949,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoCodeViewerCopyAll => 'KOPIRAJ SVE';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'Kopirano je u privremenu memoriju.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'Kopirano je u privremenu memoriju.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -2801,7 +2961,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoOptionsFeatureTitle => 'Pregledajte opcije';
 
   @override
-  String get demoOptionsFeatureDescription => 'Dodirnite ovde da biste videli dostupne opcije za ovu demonstraciju.';
+  String get demoOptionsFeatureDescription =>
+      'Dodirnite ovde da biste videli dostupne opcije za ovu demonstraciju.';
 
   @override
   String get settingsTitle => 'Podešavanja';
@@ -2876,7 +3037,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoBottomAppBarSubtitle => 'Prikazuje navigaciju i radnje u dnu';
 
   @override
-  String get demoBottomAppBarDescription => 'Donje trake sa aplikacijama pružaju pristup donjoj fioki za navigaciju i najviše četiri radnje, uključujući plutajuće dugme za radnju.';
+  String get demoBottomAppBarDescription =>
+      'Donje trake sa aplikacijama pružaju pristup donjoj fioki za navigaciju i najviše četiri radnje, uključujući plutajuće dugme za radnju.';
 
   @override
   String get bottomAppBarNotch => 'Urez';
@@ -2885,10 +3047,12 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get bottomAppBarPosition => 'Položaj plutajućeg dugmeta za radnju';
 
   @override
-  String get bottomAppBarPositionDockedEnd => 'Na traci sa aplikacijama – na kraju';
+  String get bottomAppBarPositionDockedEnd =>
+      'Na traci sa aplikacijama – na kraju';
 
   @override
-  String get bottomAppBarPositionDockedCenter => 'Na traci sa aplikacijama – u sredini';
+  String get bottomAppBarPositionDockedCenter =>
+      'Na traci sa aplikacijama – u sredini';
 
   @override
   String get bottomAppBarPositionFloatingEnd => 'Plutanje – na kraju';
@@ -2903,13 +3067,15 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoBannerSubtitle => 'Prikazuje baner u okviru liste';
 
   @override
-  String get demoBannerDescription => 'Baner prikazuje važnu, sažetu poruku i navodi radnje koje korisnici mogu da obave (ili mogu da odbace baner). Neophodno je da korisnik obavi radnju odbacivanja.';
+  String get demoBannerDescription =>
+      'Baner prikazuje važnu, sažetu poruku i navodi radnje koje korisnici mogu da obave (ili mogu da odbace baner). Neophodno je da korisnik obavi radnju odbacivanja.';
 
   @override
   String get demoBottomNavigationTitle => 'Donja navigacija';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Donja navigacija koja se postepeno prikazuje i nestaje';
+  String get demoBottomNavigationSubtitle =>
+      'Donja navigacija koja se postepeno prikazuje i nestaje';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Trajne oznake';
@@ -2918,43 +3084,50 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoBottomNavigationSelectedLabel => 'Izabrana oznaka';
 
   @override
-  String get demoBottomNavigationDescription => 'Donja traka za navigaciju prikazuje tri do pet odredišta u dnu ekrana. Svako odredište predstavljaju ikona i opcionalna tekstualna oznaka. Kada korisnik dodirne donju ikonu za navigaciju, otvara se odredište za destinaciju najvišeg nivoa koje je povezano sa tom ikonom.';
+  String get demoBottomNavigationDescription =>
+      'Donja traka za navigaciju prikazuje tri do pet odredišta u dnu ekrana. Svako odredište predstavljaju ikona i opcionalna tekstualna oznaka. Kada korisnik dodirne donju ikonu za navigaciju, otvara se odredište za destinaciju najvišeg nivoa koje je povezano sa tom ikonom.';
 
   @override
   String get demoButtonTitle => 'Dugmad';
 
   @override
-  String get demoButtonSubtitle => 'Dugme za tekst, izdignuto i oivičeno dugme i drugo';
+  String get demoButtonSubtitle =>
+      'Dugme za tekst, izdignuto i oivičeno dugme i drugo';
 
   @override
   String get demoTextButtonTitle => 'Dugme za tekst';
 
   @override
-  String get demoTextButtonDescription => 'Kada se pritisne, dugme za tekst prikazuje mrlju boje, ali se ne podiže. Dugmad za tekst koristite na trakama s alatkama, u dijalozima i u tekstu sa razmakom';
+  String get demoTextButtonDescription =>
+      'Kada se pritisne, dugme za tekst prikazuje mrlju boje, ali se ne podiže. Dugmad za tekst koristite na trakama s alatkama, u dijalozima i u tekstu sa razmakom';
 
   @override
   String get demoElevatedButtonTitle => 'Izdignuto dugme';
 
   @override
-  String get demoElevatedButtonDescription => 'Izdignuta dugmad pruža trodimenzionalni izgled ravnom prikazu. Ona naglašava funkcije u širokim prostorima ili onima sa puno elemenata.';
+  String get demoElevatedButtonDescription =>
+      'Izdignuta dugmad pruža trodimenzionalni izgled ravnom prikazu. Ona naglašava funkcije u širokim prostorima ili onima sa puno elemenata.';
 
   @override
   String get demoOutlinedButtonTitle => 'Oivičeno dugme';
 
   @override
-  String get demoOutlinedButtonDescription => 'Oivičena dugmad postaje neprozirna i podiže se kada se pritisne. Obično se uparuje zajedno sa izdignutom dugmadi da bi označila alternativnu, sekundarnu radnju.';
+  String get demoOutlinedButtonDescription =>
+      'Oivičena dugmad postaje neprozirna i podiže se kada se pritisne. Obično se uparuje zajedno sa izdignutom dugmadi da bi označila alternativnu, sekundarnu radnju.';
 
   @override
   String get demoToggleButtonTitle => 'Dugmad za uključivanje/isključivanje';
 
   @override
-  String get demoToggleButtonDescription => 'Dugmad za uključivanje/isključivanje može da se koristi za grupisanje srodnih opcija. Da biste naglasili grupe srodne dugmadi za uključivanje/isključivanje, grupa treba da ima zajednički kontejner';
+  String get demoToggleButtonDescription =>
+      'Dugmad za uključivanje/isključivanje može da se koristi za grupisanje srodnih opcija. Da biste naglasili grupe srodne dugmadi za uključivanje/isključivanje, grupa treba da ima zajednički kontejner';
 
   @override
   String get demoFloatingButtonTitle => 'Plutajuće dugme za radnju';
 
   @override
-  String get demoFloatingButtonDescription => 'Plutajuće dugme za radnju je kružna ikona dugmeta koje se prikazuje iznad sadržaja radi isticanja primarne radnje u aplikaciji.';
+  String get demoFloatingButtonDescription =>
+      'Plutajuće dugme za radnju je kružna ikona dugmeta koje se prikazuje iznad sadržaja radi isticanja primarne radnje u aplikaciji.';
 
   @override
   String get demoCardTitle => 'Kartice';
@@ -2966,34 +3139,40 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoChipTitle => 'Čipovi';
 
   @override
-  String get demoCardDescription => 'Kartica je element materijalnog dizajna koji se koristi za predstavljanje srodnih informacija, na primer, albuma, geografske lokacije, obroka, podataka za kontakt itd.';
+  String get demoCardDescription =>
+      'Kartica je element materijalnog dizajna koji se koristi za predstavljanje srodnih informacija, na primer, albuma, geografske lokacije, obroka, podataka za kontakt itd.';
 
   @override
-  String get demoChipSubtitle => 'Kompaktni elementi koji predstavljaju unos, atribut ili radnju';
+  String get demoChipSubtitle =>
+      'Kompaktni elementi koji predstavljaju unos, atribut ili radnju';
 
   @override
   String get demoActionChipTitle => 'Čip radnji';
 
   @override
-  String get demoActionChipDescription => 'Čipovi radnji su skup opcija koje pokreću radnju povezanu sa primarnim sadržajem. Čipovi radnji treba da se pojavljuju dinamički i kontekstualno u korisničkom interfejsu.';
+  String get demoActionChipDescription =>
+      'Čipovi radnji su skup opcija koje pokreću radnju povezanu sa primarnim sadržajem. Čipovi radnji treba da se pojavljuju dinamički i kontekstualno u korisničkom interfejsu.';
 
   @override
   String get demoChoiceChipTitle => 'Čip izbora';
 
   @override
-  String get demoChoiceChipDescription => 'Čipovi izbora predstavljaju pojedinačnu izabranu stavku iz skupa. Čipovi izbora sadrže povezani opisni tekst ili kategorije.';
+  String get demoChoiceChipDescription =>
+      'Čipovi izbora predstavljaju pojedinačnu izabranu stavku iz skupa. Čipovi izbora sadrže povezani opisni tekst ili kategorije.';
 
   @override
   String get demoFilterChipTitle => 'Čip filtera';
 
   @override
-  String get demoFilterChipDescription => 'Čipovi filtera koriste oznake ili opisne reči kao način da filtriraju sadržaj.';
+  String get demoFilterChipDescription =>
+      'Čipovi filtera koriste oznake ili opisne reči kao način da filtriraju sadržaj.';
 
   @override
   String get demoInputChipTitle => 'Čip unosa';
 
   @override
-  String get demoInputChipDescription => 'Čipovi unosa predstavljaju složene informacije, poput entiteta (osobe, mesta ili stvari) ili teksta iz govornog jezika, u kompaktnom obliku.';
+  String get demoInputChipDescription =>
+      'Čipovi unosa predstavljaju složene informacije, poput entiteta (osobe, mesta ili stvari) ili teksta iz govornog jezika, u kompaktnom obliku.';
 
   @override
   String get demoDataTableTitle => 'Tabele sa podacima';
@@ -3002,7 +3181,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoDataTableSubtitle => 'Redovi i kolone sa informacijama';
 
   @override
-  String get demoDataTableDescription => 'Tabele sa podacima prikazuju informacije u obliku mreže sa redovima i kolonama. U njima su informacije organizovane tako da mogu lako da se pregledaju i da bi korisnici mogli da traže šablone i uvide.';
+  String get demoDataTableDescription =>
+      'Tabele sa podacima prikazuju informacije u obliku mreže sa redovima i kolonama. U njima su informacije organizovane tako da mogu lako da se pregledaju i da bi korisnici mogli da traže šablone i uvide.';
 
   @override
   String get dataTableHeader => 'Ishrana';
@@ -3075,13 +3255,15 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoDialogTitle => 'Dijalozi';
 
   @override
-  String get demoDialogSubtitle => 'Jednostavan, sa obaveštenjem i preko celog ekrana';
+  String get demoDialogSubtitle =>
+      'Jednostavan, sa obaveštenjem i preko celog ekrana';
 
   @override
   String get demoAlertDialogTitle => 'Obaveštenje';
 
   @override
-  String get demoAlertDialogDescription => 'Dijalog obaveštenja informiše korisnike o situacijama koje zahtevaju njihovu pažnju. Dijalog obaveštenja ima opcionalni naslov i opcionalnu listu radnji.';
+  String get demoAlertDialogDescription =>
+      'Dijalog obaveštenja informiše korisnike o situacijama koje zahtevaju njihovu pažnju. Dijalog obaveštenja ima opcionalni naslov i opcionalnu listu radnji.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Obaveštenje sa naslovom';
@@ -3090,7 +3272,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoSimpleDialogTitle => 'Jednostavan';
 
   @override
-  String get demoSimpleDialogDescription => 'Jednostavan dijalog korisniku nudi izbor između nekoliko opcija. Jednostavan dijalog ima opcionalni naslov koji se prikazuje iznad tih izbora.';
+  String get demoSimpleDialogDescription =>
+      'Jednostavan dijalog korisniku nudi izbor između nekoliko opcija. Jednostavan dijalog ima opcionalni naslov koji se prikazuje iznad tih izbora.';
 
   @override
   String get demoGridListsTitle => 'Liste u obliku koordinatnih mreža';
@@ -3099,7 +3282,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoGridListsSubtitle => 'Izgled sa redovima i kolonama';
 
   @override
-  String get demoGridListsDescription => 'Liste u obliku koordinatnih mreža su najbolje za prikazivanje homogenih podataka, najčešće slika. Svaka stavka na listi u obliku koordinatne mreže se zove pločica.';
+  String get demoGridListsDescription =>
+      'Liste u obliku koordinatnih mreža su najbolje za prikazivanje homogenih podataka, najčešće slika. Svaka stavka na listi u obliku koordinatne mreže se zove pločica.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Samo slike';
@@ -3114,40 +3298,48 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoSlidersTitle => 'Klizači';
 
   @override
-  String get demoSlidersSubtitle => 'Vidžeti za biranje vrednosti prevlačenjem prstom';
+  String get demoSlidersSubtitle =>
+      'Vidžeti za biranje vrednosti prevlačenjem prstom';
 
   @override
-  String get demoSlidersDescription => 'Klizači odražavaju opseg vrednosti na traci, a korisnici mogu da izaberu jednu vrednost. Idealni su za prilagođavanje podešavanja kao što su jačina zvuka, osvetljenost ili primena filtera za slike.';
+  String get demoSlidersDescription =>
+      'Klizači odražavaju opseg vrednosti na traci, a korisnici mogu da izaberu jednu vrednost. Idealni su za prilagođavanje podešavanja kao što su jačina zvuka, osvetljenost ili primena filtera za slike.';
 
   @override
   String get demoRangeSlidersTitle => 'Klizači opsega';
 
   @override
-  String get demoRangeSlidersDescription => 'Klizači odražavaju opseg vrednosti na traci. Mogu da imaju ikone na oba kraja trake koji odražavaju opseg vrednosti. Idealni su za prilagođavanje podešavanja kao što su jačina zvuka, osvetljenost ili primena filtera za slike.';
+  String get demoRangeSlidersDescription =>
+      'Klizači odražavaju opseg vrednosti na traci. Mogu da imaju ikone na oba kraja trake koji odražavaju opseg vrednosti. Idealni su za prilagođavanje podešavanja kao što su jačina zvuka, osvetljenost ili primena filtera za slike.';
 
   @override
   String get demoCustomSlidersTitle => 'Prilagođeni klizači';
 
   @override
-  String get demoCustomSlidersDescription => 'Klizači odražavaju opseg vrednosti na traci, a korisnici mogu da izaberu jednu vrednost ili opseg vrednosti. Klizači mogu da imaju temu i da se prilagode.';
+  String get demoCustomSlidersDescription =>
+      'Klizači odražavaju opseg vrednosti na traci, a korisnici mogu da izaberu jednu vrednost ili opseg vrednosti. Klizači mogu da imaju temu i da se prilagode.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Neprekidan sa numeričkom vrednošću koja može da se izmeni';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Neprekidan sa numeričkom vrednošću koja može da se izmeni';
 
   @override
   String get demoSlidersDiscrete => 'Diskretan';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Diskretan klizač sa prilagođenom temom';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Diskretan klizač sa prilagođenom temom';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Neprekidan klizač opsega sa prilagođenom temom';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Neprekidan klizač opsega sa prilagođenom temom';
 
   @override
   String get demoSlidersContinuous => 'Neprekidan';
 
   @override
-  String get demoSlidersEditableNumericalValue => 'Numerička vrednost koja može da se izmeni';
+  String get demoSlidersEditableNumericalValue =>
+      'Numerička vrednost koja može da se izmeni';
 
   @override
   String get demoMenuTitle => 'Meni';
@@ -3168,7 +3360,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoMenuSubtitle => 'Dugmad menija i jednostavni meniji';
 
   @override
-  String get demoMenuDescription => 'Meni prikazuje listu opcija na privremenoj površini. One se prikazuju kada korisnici ostvaruju interakciju sa dugmetom, radnjom ili drugom kontrolom.';
+  String get demoMenuDescription =>
+      'Meni prikazuje listu opcija na privremenoj površini. One se prikazuju kada korisnici ostvaruju interakciju sa dugmetom, radnjom ili drugom kontrolom.';
 
   @override
   String get demoMenuItemValueOne => 'Prva stavka menija';
@@ -3192,7 +3385,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoMenuFour => 'Četiri';
 
   @override
-  String get demoMenuAnItemWithAContextMenuButton => 'Stavka sa kontekstualnim menijem';
+  String get demoMenuAnItemWithAContextMenuButton =>
+      'Stavka sa kontekstualnim menijem';
 
   @override
   String get demoMenuContextMenuItemOne => 'Prva stavka kontekstualnog menija';
@@ -3201,10 +3395,12 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoMenuADisabledMenuItem => 'Onemogućena stavka menija';
 
   @override
-  String get demoMenuContextMenuItemThree => 'Treća stavka kontekstualnog menija';
+  String get demoMenuContextMenuItemThree =>
+      'Treća stavka kontekstualnog menija';
 
   @override
-  String get demoMenuAnItemWithASectionedMenu => 'Stavka sa menijem sa odeljcima';
+  String get demoMenuAnItemWithASectionedMenu =>
+      'Stavka sa menijem sa odeljcima';
 
   @override
   String get demoMenuPreview => 'Pregled';
@@ -3232,10 +3428,12 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoNavigationDrawerTitle => 'Fioka za navigaciju';
 
   @override
-  String get demoNavigationDrawerSubtitle => 'Prikazuje fioku na traci sa aplikacijama';
+  String get demoNavigationDrawerSubtitle =>
+      'Prikazuje fioku na traci sa aplikacijama';
 
   @override
-  String get demoNavigationDrawerDescription => 'Okno Materijalni dizajn koje se prevlači horizontalno od ivice ekrana radi prikazivanja linkova za navigaciju u aplikaciji.';
+  String get demoNavigationDrawerDescription =>
+      'Okno Materijalni dizajn koje se prevlači horizontalno od ivice ekrana radi prikazivanja linkova za navigaciju u aplikaciji.';
 
   @override
   String get demoNavigationDrawerUserName => 'Korisničko ime';
@@ -3250,16 +3448,19 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoNavigationDrawerToPageTwo => 'Druga stavka';
 
   @override
-  String get demoNavigationDrawerText => 'Prevucite od ivice ili dodirnite ikonu u gornjem levom uglu da biste videli fioku';
+  String get demoNavigationDrawerText =>
+      'Prevucite od ivice ili dodirnite ikonu u gornjem levom uglu da biste videli fioku';
 
   @override
   String get demoNavigationRailTitle => 'Pruga za navigaciju';
 
   @override
-  String get demoNavigationRailSubtitle => 'Prikazuje prugu za navigaciju u aplikaciji';
+  String get demoNavigationRailSubtitle =>
+      'Prikazuje prugu za navigaciju u aplikaciji';
 
   @override
-  String get demoNavigationRailDescription => 'Vidžet materijalnog dizajna koji treba da se prikazuje levo ili desno u aplikaciji radi kretanja između malog broja prikaza, obično između tri i pet.';
+  String get demoNavigationRailDescription =>
+      'Vidžet materijalnog dizajna koji treba da se prikazuje levo ili desno u aplikaciji radi kretanja između malog broja prikaza, obično između tri i pet.';
 
   @override
   String get demoNavigationRailFirst => 'Prva';
@@ -3274,22 +3475,26 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoMenuAnItemWithASimpleMenu => 'Stavka sa jednostavnim menijem';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Stavka sa menijem sa kontrolnim listama';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Stavka sa menijem sa kontrolnim listama';
 
   @override
   String get demoFullscreenDialogTitle => 'Ceo ekran';
 
   @override
-  String get demoFullscreenDialogDescription => 'Proizvod fullscreenDialog određuje da li se sledeća stranica otvara u modalnom dijalogu preko celog ekrana';
+  String get demoFullscreenDialogDescription =>
+      'Proizvod fullscreenDialog određuje da li se sledeća stranica otvara u modalnom dijalogu preko celog ekrana';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Indikator aktivnosti';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'Indikatori aktivnosti u iOS stilu';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'Indikatori aktivnosti u iOS stilu';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'Indikator aktivnosti u iOS stilu koji se okreće u smeru kretanja kazaljke na satu';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'Indikator aktivnosti u iOS stilu koji se okreće u smeru kretanja kazaljke na satu';
 
   @override
   String get demoCupertinoButtonsTitle => 'Dugmad';
@@ -3298,7 +3503,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoCupertinoButtonsSubtitle => 'Dugmad u iOS stilu';
 
   @override
-  String get demoCupertinoButtonsDescription => 'Dugme u iOS stilu. Sadrži tekst i/ili ikonu koji postepeno nestaju ili se prikazuju kada se dugme dodirne. Opcionalno može da ima pozadinu.';
+  String get demoCupertinoButtonsDescription =>
+      'Dugme u iOS stilu. Sadrži tekst i/ili ikonu koji postepeno nestaju ili se prikazuju kada se dugme dodirne. Opcionalno može da ima pozadinu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Obaveštenja';
@@ -3310,7 +3516,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoCupertinoAlertTitle => 'Obaveštenje';
 
   @override
-  String get demoCupertinoAlertDescription => 'Dijalog obaveštenja informiše korisnike o situacijama koje zahtevaju njihovu pažnju. Dijalog obaveštenja ima opcionalni naslov, opcionalni sadržaj i opcionalnu listu radnji. Naslov se prikazuje iznad sadržaja, a radnje se prikazuju ispod sadržaja.';
+  String get demoCupertinoAlertDescription =>
+      'Dijalog obaveštenja informiše korisnike o situacijama koje zahtevaju njihovu pažnju. Dijalog obaveštenja ima opcionalni naslov, opcionalni sadržaj i opcionalnu listu radnji. Naslov se prikazuje iznad sadržaja, a radnje se prikazuju ispod sadržaja.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Obaveštenje sa naslovom';
@@ -3319,31 +3526,37 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoCupertinoAlertButtonsTitle => 'Obaveštenje sa dugmadi';
 
   @override
-  String get demoCupertinoAlertButtonsOnlyTitle => 'Samo dugmad sa obaveštenjem';
+  String get demoCupertinoAlertButtonsOnlyTitle =>
+      'Samo dugmad sa obaveštenjem';
 
   @override
   String get demoCupertinoActionSheetTitle => 'Tabela radnji';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Tabela radnji je poseban stil obaveštenja kojim se korisnicima nude dva ili više izbora u vezi sa aktuelnim kontekstom. Tabela radnji može da ima naslov, dodatnu poruku i listu radnji.';
+  String get demoCupertinoActionSheetDescription =>
+      'Tabela radnji je poseban stil obaveštenja kojim se korisnicima nude dva ili više izbora u vezi sa aktuelnim kontekstom. Tabela radnji može da ima naslov, dodatnu poruku i listu radnji.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Traka za navigaciju';
 
   @override
-  String get demoCupertinoNavigationBarSubtitle => 'Traka za navigaciju u iOS stilu';
+  String get demoCupertinoNavigationBarSubtitle =>
+      'Traka za navigaciju u iOS stilu';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'Traka za navigaciju sa iOS stilom. Traka za navigaciju je traka s alatkama koja u najgorem slučaju sadrži samo naslov stranice na sredini.';
+  String get demoCupertinoNavigationBarDescription =>
+      'Traka za navigaciju sa iOS stilom. Traka za navigaciju je traka s alatkama koja u najgorem slučaju sadrži samo naslov stranice na sredini.';
 
   @override
   String get demoCupertinoPickerTitle => 'Birači';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'Birači za datum i vreme u iOS stilu';
+  String get demoCupertinoPickerSubtitle =>
+      'Birači za datum i vreme u iOS stilu';
 
   @override
-  String get demoCupertinoPickerDescription => 'Vidžet birača u iOS stilu koji može da se koristi za biranje datuma, vremena ili i datuma i vremena.';
+  String get demoCupertinoPickerDescription =>
+      'Vidžet birača u iOS stilu koji može da se koristi za biranje datuma, vremena ili i datuma i vremena.';
 
   @override
   String get demoCupertinoPickerTimer => 'Tajmer';
@@ -3361,19 +3574,23 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoCupertinoPullToRefreshTitle => 'Povucite da biste osvežili';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'Kontrola za povlačenje radi osvežavanja u iOS stilu';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'Kontrola za povlačenje radi osvežavanja u iOS stilu';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Vidžet koji primenjuje kontrolu za povlačenje radi osvežavanja sadržaja u iOS stilu.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Vidžet koji primenjuje kontrolu za povlačenje radi osvežavanja sadržaja u iOS stilu.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Segmentirana kontrola';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'Segmentirana kontrola u iOS stilu';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'Segmentirana kontrola u iOS stilu';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Koristi se za biranje jedne od međusobno isključivih opcija. Kada je izabrana jedna opcija u segmentiranoj kontroli, opoziva se izbor ostalih opcija u toj segmentiranoj kontroli.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Koristi se za biranje jedne od međusobno isključivih opcija. Kada je izabrana jedna opcija u segmentiranoj kontroli, opoziva se izbor ostalih opcija u toj segmentiranoj kontroli.';
 
   @override
   String get demoCupertinoSliderTitle => 'Klizač';
@@ -3382,7 +3599,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoCupertinoSliderSubtitle => 'Klizač u iOS stilu';
 
   @override
-  String get demoCupertinoSliderDescription => 'Klizač može da se koristi da biste izabrali neprekidan ili diskretan skup vrednosti.';
+  String get demoCupertinoSliderDescription =>
+      'Klizač može da se koristi da biste izabrali neprekidan ili diskretan skup vrednosti.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -3398,16 +3616,19 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoCupertinoSwitchSubtitle => 'Prekidač u iOS stilu';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Prekidač se koristi za uključivanje/isključivanje pojedinačnih podešavanja.';
+  String get demoCupertinoSwitchDescription =>
+      'Prekidač se koristi za uključivanje/isključivanje pojedinačnih podešavanja.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Traka sa karticama';
 
   @override
-  String get demoCupertinoTabBarSubtitle => 'Donja traka sa karticama u iOS stilu';
+  String get demoCupertinoTabBarSubtitle =>
+      'Donja traka sa karticama u iOS stilu';
 
   @override
-  String get demoCupertinoTabBarDescription => 'Donja traka sa karticama za navigaciju u iOS stilu. Prikazuje više kartica, pri čemu je samo jedna aktivna, a prema podrazumevanim podešavanjima to je prva kartica.';
+  String get demoCupertinoTabBarDescription =>
+      'Donja traka sa karticama za navigaciju u iOS stilu. Prikazuje više kartica, pri čemu je samo jedna aktivna, a prema podrazumevanim podešavanjima to je prva kartica.';
 
   @override
   String get cupertinoTabBarHomeTab => 'Početna';
@@ -3422,10 +3643,12 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoCupertinoTextFieldTitle => 'Polja za unos teksta';
 
   @override
-  String get demoCupertinoTextFieldSubtitle => 'Polja za unos teksta u iOS stilu';
+  String get demoCupertinoTextFieldSubtitle =>
+      'Polja za unos teksta u iOS stilu';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'Polje za unos teksta omogućava korisniku da unosi tekst pomoću fizičke tastature ili tastature na ekranu.';
+  String get demoCupertinoTextFieldDescription =>
+      'Polje za unos teksta omogućava korisniku da unosi tekst pomoću fizičke tastature ili tastature na ekranu.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN';
@@ -3437,13 +3660,15 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoMotionSubtitle => 'Svi unapred definisani šabloni prelaza';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'Kartice, liste i plutajuće dugme za radnju';
+  String get demoContainerTransformDemoInstructions =>
+      'Kartice, liste i plutajuće dugme za radnju';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'Dugmad Dalje i Nazad';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'Sortiraj po kriterijumu Nedavno slušano';
+  String get demoSharedYAxisDemoInstructions =>
+      'Sortiraj po kriterijumu Nedavno slušano';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'Dugme ikone Podešavanja';
@@ -3452,19 +3677,23 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoFadeThroughDemoInstructions => 'Donja navigacija';
 
   @override
-  String get demoFadeScaleDemoInstructions => 'Modalno i plutajuće dugme za radnju';
+  String get demoFadeScaleDemoInstructions =>
+      'Modalno i plutajuće dugme za radnju';
 
   @override
   String get demoContainerTransformTitle => 'Transformisanje kontejnera';
 
   @override
-  String get demoContainerTransformDescription => 'Šablon transformisanja kontejnera je napravljen za prelaz između elemenata korisničkog interfejsa koji sadrže kontejner. Ovaj šablon pravi vidljivu vezu između dva elementa korisničkog interfejsa';
+  String get demoContainerTransformDescription =>
+      'Šablon transformisanja kontejnera je napravljen za prelaz između elemenata korisničkog interfejsa koji sadrže kontejner. Ovaj šablon pravi vidljivu vezu između dva elementa korisničkog interfejsa';
 
   @override
-  String get demoContainerTransformModalBottomSheetTitle => 'Režim postepenog pojavljivanja i nestajanja';
+  String get demoContainerTransformModalBottomSheetTitle =>
+      'Režim postepenog pojavljivanja i nestajanja';
 
   @override
-  String get demoContainerTransformTypeFade => 'POSTEPENO POJAVLJIVANJE I NESTAJANJE';
+  String get demoContainerTransformTypeFade =>
+      'POSTEPENO POJAVLJIVANJE I NESTAJANJE';
 
   @override
   String get demoContainerTransformTypeFadeThrough => 'POSTEPENI PRELAZ';
@@ -3485,7 +3714,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoMotionListTileTitle => 'Stavka liste';
 
   @override
-  String get demoSharedAxisDescription => 'Šablon zajedničke ose se koristi za prelaz između elemenata korisničkog interfejsa koji imaju prostorni ili navigacioni odnos. Ovaj šablon koristi zajedničku transformaciju po X, Y ili Z osi za naglašavanje odnosa između elemenata.';
+  String get demoSharedAxisDescription =>
+      'Šablon zajedničke ose se koristi za prelaz između elemenata korisničkog interfejsa koji imaju prostorni ili navigacioni odnos. Ovaj šablon koristi zajedničku transformaciju po X, Y ili Z osi za naglašavanje odnosa između elemenata.';
 
   @override
   String get demoSharedXAxisTitle => 'Zajednička X osa';
@@ -3497,10 +3727,12 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoSharedXAxisNextButtonText => 'DALJE';
 
   @override
-  String get demoSharedXAxisCoursePageTitle => 'Poboljšajte organizaciju kurseva';
+  String get demoSharedXAxisCoursePageTitle =>
+      'Poboljšajte organizaciju kurseva';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Kategorije u paketu se prikazuju kao grupe u fidu. Ovo možete da promenite kad god poželite.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Kategorije u paketu se prikazuju kao grupe u fidu. Ovo možete da promenite kad god poželite.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Umetnost i zanati';
@@ -3521,7 +3753,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoSharedXAxisBundledCourseSubtitle => 'U paketu';
 
   @override
-  String get demoSharedXAxisIndividualCourseSubtitle => 'Prikazuje se pojedinačno';
+  String get demoSharedXAxisIndividualCourseSubtitle =>
+      'Prikazuje se pojedinačno';
 
   @override
   String get demoSharedXAxisSignInWelcomeText => 'Zdravo, Dejvid Park';
@@ -3587,19 +3820,22 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Škamp';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Recept za jelo sa škampima';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Recept za jelo sa škampima';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Rak';
 
   @override
-  String get demoSharedZAxisCrabPlateRecipeDescription => 'Recept za jelo sa rakovima';
+  String get demoSharedZAxisCrabPlateRecipeDescription =>
+      'Recept za jelo sa rakovima';
 
   @override
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Sendvič sa govedinom';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Recept za sendvič sa govedinom';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Recept za sendvič sa govedinom';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Sačuvani recepti';
@@ -3620,7 +3856,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoFadeThroughTitle => 'Postepeni prelaz';
 
   @override
-  String get demoFadeThroughDescription => 'Šablon postepenog prelaza se koristi za prelaz između elemenata korisničkog interfejsa koji nemaju jak međusobni odnos.';
+  String get demoFadeThroughDescription =>
+      'Šablon postepenog prelaza se koristi za prelaz između elemenata korisničkog interfejsa koji nemaju jak međusobni odnos.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Albumi';
@@ -3638,7 +3875,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoFadeScaleTitle => 'Postepeno pojavljivanje i nestajanje';
 
   @override
-  String get demoFadeScaleDescription => 'Šablon postepenog pojavljivanja i nestajanja se koristi za elemente korisničkog sistema koji se pojavljuju ili nestaju unutar granica ekrana, poput dijaloga koji se postepeno pojavljuje i nestaje u centru ekrana.';
+  String get demoFadeScaleDescription =>
+      'Šablon postepenog pojavljivanja i nestajanja se koristi za elemente korisničkog sistema koji se pojavljuju ili nestaju unutar granica ekrana, poput dijaloga koji se postepeno pojavljuje i nestaje u centru ekrana.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'PRIKAŽI ISKAČUĆI PROZOR';
@@ -3665,7 +3903,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoColorsSubtitle => 'Sve unapred određene boje';
 
   @override
-  String get demoColorsDescription => 'Boje i šema boja koje predstavljaju paletu boja materijalnog dizajna.';
+  String get demoColorsDescription =>
+      'Boje i šema boja koje predstavljaju paletu boja materijalnog dizajna.';
 
   @override
   String get demoTypographyTitle => 'Tipografija';
@@ -3674,7 +3913,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoTypographySubtitle => 'Svi unapred definisani stilovi teksta';
 
   @override
-  String get demoTypographyDescription => 'Definicije raznih tipografskih stilova u materijalnom dizajnu.';
+  String get demoTypographyDescription =>
+      'Definicije raznih tipografskih stilova u materijalnom dizajnu.';
 
   @override
   String get demo2dTransformationsTitle => '2D transformacije';
@@ -3683,7 +3923,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demo2dTransformationsSubtitle => 'Pomeranje, zumiranje, rotiranje';
 
   @override
-  String get demo2dTransformationsDescription => 'Dodirnite da biste izmenili delove slike i koristite pokrete da biste se kretali po sceni. Prevucite da biste pomerali, skupite prste da biste zumirali i rotirajte pomoću dva prsta. Pritisnite dugme za resetovanje da biste se vratili na početni položaj.';
+  String get demo2dTransformationsDescription =>
+      'Dodirnite da biste izmenili delove slike i koristite pokrete da biste se kretali po sceni. Prevucite da biste pomerali, skupite prste da biste zumirali i rotirajte pomoću dva prsta. Pritisnite dugme za resetovanje da biste se vratili na početni položaj.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Resetujte transformacije';
@@ -3704,13 +3945,15 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoBottomSheetPersistentTitle => 'Trajna donja tabela';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Trajna donja tabela prikazuje informacije koje dopunjuju primarni sadržaj aplikacije. Trajna donja tabela ostaje vidljiva i pri interakciji korisnika sa drugim delovima aplikacije.';
+  String get demoBottomSheetPersistentDescription =>
+      'Trajna donja tabela prikazuje informacije koje dopunjuju primarni sadržaj aplikacije. Trajna donja tabela ostaje vidljiva i pri interakciji korisnika sa drugim delovima aplikacije.';
 
   @override
   String get demoBottomSheetModalTitle => 'Modalna donja tabela';
 
   @override
-  String get demoBottomSheetModalDescription => 'Modalna donja tabela je alternativa meniju ili dijalogu i onemogućava interakciju korisnika sa ostatkom aplikacije.';
+  String get demoBottomSheetModalDescription =>
+      'Modalna donja tabela je alternativa meniju ili dijalogu i onemogućava interakciju korisnika sa ostatkom aplikacije.';
 
   @override
   String get demoBottomSheetAddLabel => 'Dodajte';
@@ -3733,7 +3976,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoListsSubtitle => 'Izgledi pokretnih lista';
 
   @override
-  String get demoListsDescription => 'Jedan red fiksne visine koji obično sadrži neki tekst, kao i ikonu na početku ili na kraju.';
+  String get demoListsDescription =>
+      'Jedan red fiksne visine koji obično sadrži neki tekst, kao i ikonu na početku ili na kraju.';
 
   @override
   String get demoOneLineListsTitle => 'Jedan red';
@@ -3754,13 +3998,15 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoCircularProgressIndicatorTitle => 'Kružni indikator napretka';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Kružni indikator napretka materijalnog dizajna koji se okreće da bi pokazao da je aplikacija zauzeta.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Kružni indikator napretka materijalnog dizajna koji se okreće da bi pokazao da je aplikacija zauzeta.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'Linearni indikator napretka';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Linearni indikator napretka materijalnog dizajna, poznat i kao traka napretka.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Linearni indikator napretka materijalnog dizajna, poznat i kao traka napretka.';
 
   @override
   String get demoPickersTitle => 'Birači';
@@ -3772,13 +4018,15 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoDatePickerTitle => 'Birač datuma';
 
   @override
-  String get demoDatePickerDescription => 'Prikazuje dijalog sa biračem datuma materijalnog dizajna.';
+  String get demoDatePickerDescription =>
+      'Prikazuje dijalog sa biračem datuma materijalnog dizajna.';
 
   @override
   String get demoTimePickerTitle => 'Birač vremena';
 
   @override
-  String get demoTimePickerDescription => 'Prikazuje dijalog sa biračem vremena materijalnog dizajna.';
+  String get demoTimePickerDescription =>
+      'Prikazuje dijalog sa biračem vremena materijalnog dizajna.';
 
   @override
   String get demoPickersShowPicker => 'PRIKAŽI BIRAČ';
@@ -3793,19 +4041,23 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoTabsNonScrollingTitle => 'Bez pomeranja';
 
   @override
-  String get demoTabsSubtitle => 'Kartice sa prikazima koji mogu zasebno da se pomeraju';
+  String get demoTabsSubtitle =>
+      'Kartice sa prikazima koji mogu zasebno da se pomeraju';
 
   @override
-  String get demoTabsDescription => 'Kartice organizuju sadržaj na različitim ekranima, u skupovima podataka i drugim interakcijama.';
+  String get demoTabsDescription =>
+      'Kartice organizuju sadržaj na različitim ekranima, u skupovima podataka i drugim interakcijama.';
 
   @override
   String get demoSnackbarsTitle => 'Trake za obaveštenja';
 
   @override
-  String get demoSnackbarsSubtitle => 'Trake za obaveštenja prikazuju poruke u dnu ekrana';
+  String get demoSnackbarsSubtitle =>
+      'Trake za obaveštenja prikazuju poruke u dnu ekrana';
 
   @override
-  String get demoSnackbarsDescription => 'Trake za obaveštenja obaveštavaju korisnike o procesu koji je neka aplikacija obavila ili će obaviti. Privremeno se prikazuju u dnu ekrana. Ne bi trebalo da ometaju korisnički doživljaj i ne zahtevaju aktivnost korisnika da bi nestale.';
+  String get demoSnackbarsDescription =>
+      'Trake za obaveštenja obaveštavaju korisnike o procesu koji je neka aplikacija obavila ili će obaviti. Privremeno se prikazuju u dnu ekrana. Ne bi trebalo da ometaju korisnički doživljaj i ne zahtevaju aktivnost korisnika da bi nestale.';
 
   @override
   String get demoSnackbarsButtonLabel => 'PRIKAZUJ TRAKU ZA OBAVEŠTENJA';
@@ -3817,31 +4069,36 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoSnackbarsActionButtonLabel => 'RADNJA';
 
   @override
-  String get demoSnackbarsAction => 'Pritisnuli ste radnju trake za obaveštenja.';
+  String get demoSnackbarsAction =>
+      'Pritisnuli ste radnju trake za obaveštenja.';
 
   @override
   String get demoSelectionControlsTitle => 'Kontrole izbora';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Polja za potvrdu, dugmad za izbor i prekidači';
+  String get demoSelectionControlsSubtitle =>
+      'Polja za potvrdu, dugmad za izbor i prekidači';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Polje za potvrdu';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Polja za potvrdu omogućavaju korisniku da izabere više opcija iz skupa. Vrednost uobičajenog polja za potvrdu je Tačno ili Netačno, a vrednost trostrukog polja za potvrdu može da bude i Ništa.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Polja za potvrdu omogućavaju korisniku da izabere više opcija iz skupa. Vrednost uobičajenog polja za potvrdu je Tačno ili Netačno, a vrednost trostrukog polja za potvrdu može da bude i Ništa.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Dugme za izbor';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Dugmad za izbor omogućavaju korisniku da izabere jednu opciju iz skupa. Koristite dugmad za izbor da biste omogućili ekskluzivni izbor ako smatrate da korisnik treba da vidi sve dostupne opcije jednu pored druge.';
+  String get demoSelectionControlsRadioDescription =>
+      'Dugmad za izbor omogućavaju korisniku da izabere jednu opciju iz skupa. Koristite dugmad za izbor da biste omogućili ekskluzivni izbor ako smatrate da korisnik treba da vidi sve dostupne opcije jednu pored druge.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Prekidač';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Prekidači za uključivanje/isključivanje menjaju status pojedinačnih opcija podešavanja. Na osnovu odgovarajuće oznake u tekstu korisnicima treba da bude jasno koju opciju prekidač kontroliše i koji je njen status.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Prekidači za uključivanje/isključivanje menjaju status pojedinačnih opcija podešavanja. Na osnovu odgovarajuće oznake u tekstu korisnicima treba da bude jasno koju opciju prekidač kontroliše i koji je njen status.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Polja za unos teksta';
@@ -3850,10 +4107,12 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoTextFieldTitle => 'Polja za unos teksta';
 
   @override
-  String get demoTextFieldSubtitle => 'Jedan red teksta i brojeva koji mogu da se izmene';
+  String get demoTextFieldSubtitle =>
+      'Jedan red teksta i brojeva koji mogu da se izmene';
 
   @override
-  String get demoTextFieldDescription => 'Polja za unos teksta omogućavaju korisnicima da unesu tekst u korisnički interfejs. Obično se prikazuju u obliku obrazaca i dijaloga.';
+  String get demoTextFieldDescription =>
+      'Polja za unos teksta omogućavaju korisnicima da unesu tekst u korisnički interfejs. Obično se prikazuju u obliku obrazaca i dijaloga.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Prikaži lozinku';
@@ -3862,16 +4121,19 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoTextFieldHidePasswordLabel => 'Sakrij lozinku';
 
   @override
-  String get demoTextFieldFormErrors => 'Pre slanja ispravite greške označene crvenom bojom.';
+  String get demoTextFieldFormErrors =>
+      'Pre slanja ispravite greške označene crvenom bojom.';
 
   @override
   String get demoTextFieldNameRequired => 'Ime je obavezno.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'Unosite samo abecedne znakove.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'Unosite samo abecedne znakove.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### – unesite broj telefona u Sjedinjenim Američkim Državama';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### – unesite broj telefona u Sjedinjenim Američkim Državama';
 
   @override
   String get demoTextFieldEnterPassword => 'Unesite lozinku.';
@@ -3886,7 +4148,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoTextFieldNameField => 'Ime*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'Gde možemo da vas kontaktiramo?';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'Gde možemo da vas kontaktiramo?';
 
   @override
   String get demoTextFieldPhoneNumber => 'Broj telefona*';
@@ -3898,10 +4161,12 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoTextFieldEmail => 'Imejl';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Recite nam nešto o sebi (npr. napišite čime se bavite ili koje hobije imate)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Recite nam nešto o sebi (npr. napišite čime se bavite ili koje hobije imate)';
 
   @override
-  String get demoTextFieldKeepItShort => 'Neka bude kratko, ovo je samo demonstracija.';
+  String get demoTextFieldKeepItShort =>
+      'Neka bude kratko, ovo je samo demonstracija.';
 
   @override
   String get demoTextFieldLifeStory => 'Biografija';
@@ -3936,13 +4201,16 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get demoTooltipTitle => 'Objašnjenja';
 
   @override
-  String get demoTooltipSubtitle => 'Kratka poruka koja se prikazuje pri dugom pritisku ili prelasku kursorom';
+  String get demoTooltipSubtitle =>
+      'Kratka poruka koja se prikazuje pri dugom pritisku ili prelasku kursorom';
 
   @override
-  String get demoTooltipDescription => 'Objašnjenja pružaju tekstualne oznake koje objašnjavaju funkciju dugmeta ili neke druge radnje u korisničkom interfejsu. Objašnjenja prikazuju informativni tekst kada korisnici prelaze kursorom preko elementa, odnosno kada se fokusiraju na njega ili ga dugo pritiskaju.';
+  String get demoTooltipDescription =>
+      'Objašnjenja pružaju tekstualne oznake koje objašnjavaju funkciju dugmeta ili neke druge radnje u korisničkom interfejsu. Objašnjenja prikazuju informativni tekst kada korisnici prelaze kursorom preko elementa, odnosno kada se fokusiraju na njega ili ga dugo pritiskaju.';
 
   @override
-  String get demoTooltipInstructions => 'Dugo pritiskajte element ili pređite kursorom preko njega da bi se prikazalo objašnjenje.';
+  String get demoTooltipInstructions =>
+      'Dugo pritiskajte element ili pređite kursorom preko njega da bi se prikazalo objašnjenje.';
 
   @override
   String get bottomNavigationCommentsTab => 'Komentari';
@@ -4000,10 +4268,12 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get dialogDiscardTitle => 'Želite li da odbacite radnu verziju?';
 
   @override
-  String get dialogLocationTitle => 'Želite li da koristite Google usluge lokacije?';
+  String get dialogLocationTitle =>
+      'Želite li da koristite Google usluge lokacije?';
 
   @override
-  String get dialogLocationDescription => 'Dozvolite da Google pomaže aplikacijama u određivanju lokacije. To znači da se Google-u šalju anonimni podaci o lokaciji, čak i kada nijedna aplikacija nije pokrenuta.';
+  String get dialogLocationDescription =>
+      'Dozvolite da Google pomaže aplikacijama u određivanju lokacije. To znači da se Google-u šalju anonimni podaci o lokaciji, čak i kada nijedna aplikacija nije pokrenuta.';
 
   @override
   String get dialogCancel => 'OTKAŽI';
@@ -4033,7 +4303,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get dialogFullscreenSave => 'SAČUVAJ';
 
   @override
-  String get dialogFullscreenDescription => 'Demonstracija dijaloga na celom ekranu';
+  String get dialogFullscreenDescription =>
+      'Demonstracija dijaloga na celom ekranu';
 
   @override
   String get cupertinoButton => 'Dugme';
@@ -4048,10 +4319,12 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get cupertinoAlertDiscard => 'Odbaci';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Želite li da dozvolite da Mape pristupaju vašoj lokaciji dok koristite tu aplikaciju?';
+  String get cupertinoAlertLocationTitle =>
+      'Želite li da dozvolite da Mape pristupaju vašoj lokaciji dok koristite tu aplikaciju?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Aktuelna lokacija će se prikazivati na mapama i koristi se za putanje, rezultate pretrage za stvari u blizini i procenjeno trajanje putovanja.';
+  String get cupertinoAlertLocationDescription =>
+      'Aktuelna lokacija će se prikazivati na mapama i koristi se za putanje, rezultate pretrage za stvari u blizini i procenjeno trajanje putovanja.';
 
   @override
   String get cupertinoAlertAllow => 'Dozvoli';
@@ -4063,7 +4336,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get cupertinoAlertFavoriteDessert => 'Izaberite omiljenu poslasticu';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Na listi u nastavku izaberite omiljeni tip poslastice. Vaš izbor će se koristiti za prilagođavanje liste predloga za restorane u vašoj oblasti.';
+  String get cupertinoAlertDessertDescription =>
+      'Na listi u nastavku izaberite omiljeni tip poslastice. Vaš izbor će se koristiti za prilagođavanje liste predloga za restorane u vašoj oblasti.';
 
   @override
   String get cupertinoAlertCheesecake => 'Čizkejk';
@@ -4183,7 +4457,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get starterAppTitle => 'Aplikacija za pokretanje';
 
   @override
-  String get starterAppDescription => 'Izgled aplikacije za pokretanje koja reaguje';
+  String get starterAppDescription =>
+      'Izgled aplikacije za pokretanje koja reaguje';
 
   @override
   String get starterAppGenericButton => 'DUGME';
@@ -4360,7 +4635,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get shrineProductChambrayShirt => 'Platnena majica';
 
   @override
-  String get shrineProductSeabreezeSweater => 'Džemper sa šablonom morskih talasa';
+  String get shrineProductSeabreezeSweater =>
+      'Džemper sa šablonom morskih talasa';
 
   @override
   String get shrineProductGentryJacket => 'Gentry jakna';
@@ -4369,7 +4645,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get shrineProductNavyTrousers => 'Tamnoplave pantalone';
 
   @override
-  String get shrineProductWalterHenleyWhite => 'Majica sa izrezom u obliku slova v (bele boje)';
+  String get shrineProductWalterHenleyWhite =>
+      'Majica sa izrezom u obliku slova v (bele boje)';
 
   @override
   String get shrineProductSurfAndPerfShirt => 'Surferska majica';
@@ -4384,7 +4661,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get shrineProductClassicWhiteCollar => 'Klasična bela košulja';
 
   @override
-  String get shrineProductCeriseScallopTee => 'Tamnoružičasta majica sa talasastim rubom';
+  String get shrineProductCeriseScallopTee =>
+      'Tamnoružičasta majica sa talasastim rubom';
 
   @override
   String get shrineProductShoulderRollsTee => 'Majica sa zavrnutim rukavima';
@@ -4500,7 +4778,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get craneFlySubhead => 'Istražujte letove prema destinaciji';
 
   @override
-  String get craneSleepSubhead => 'Istražujte smeštajne objekte prema odredištu';
+  String get craneSleepSubhead =>
+      'Istražujte smeštajne objekte prema odredištu';
 
   @override
   String get craneEatSubhead => 'Istražujte restorane prema odredištu';
@@ -4653,13 +4932,15 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get craneEat10 => 'Lisabon, Portugalija';
 
   @override
-  String get craneFly0SemanticLabel => 'Planinska koliba u snežnom pejzažu sa zimzelenim drvećem';
+  String get craneFly0SemanticLabel =>
+      'Planinska koliba u snežnom pejzažu sa zimzelenim drvećem';
 
   @override
   String get craneFly1SemanticLabel => 'Šator u polju';
 
   @override
-  String get craneFly2SemanticLabel => 'Molitvene zastavice ispred snegom prekrivene planine';
+  String get craneFly2SemanticLabel =>
+      'Molitvene zastavice ispred snegom prekrivene planine';
 
   @override
   String get craneFly3SemanticLabel => 'Tvrđava u Maču Pikčuu';
@@ -4671,7 +4952,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get craneFly5SemanticLabel => 'Hotel na obali jezera ispred planina';
 
   @override
-  String get craneFly6SemanticLabel => 'Pogled na Palatu lepih umetnosti iz vazduha';
+  String get craneFly6SemanticLabel =>
+      'Pogled na Palatu lepih umetnosti iz vazduha';
 
   @override
   String get craneFly7SemanticLabel => 'Maunt Rašmor';
@@ -4680,7 +4962,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get craneFly8SemanticLabel => 'Supertree Grove';
 
   @override
-  String get craneFly9SemanticLabel => 'Čovek se naslanja na stari plavi automobil';
+  String get craneFly9SemanticLabel =>
+      'Čovek se naslanja na stari plavi automobil';
 
   @override
   String get craneFly10SemanticLabel => 'Minareti džamije Al-Adžar u sumrak';
@@ -4695,16 +4978,19 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get craneFly13SemanticLabel => 'Bazen na obali mora sa palmama';
 
   @override
-  String get craneSleep0SemanticLabel => 'Bungalovi koji se nadvijaju nad vodom';
+  String get craneSleep0SemanticLabel =>
+      'Bungalovi koji se nadvijaju nad vodom';
 
   @override
-  String get craneSleep1SemanticLabel => 'Planinska koliba u snežnom pejzažu sa zimzelenim drvećem';
+  String get craneSleep1SemanticLabel =>
+      'Planinska koliba u snežnom pejzažu sa zimzelenim drvećem';
 
   @override
   String get craneSleep2SemanticLabel => 'Tvrđava u Maču Pikčuu';
 
   @override
-  String get craneSleep3SemanticLabel => 'Čovek se naslanja na stari plavi automobil';
+  String get craneSleep3SemanticLabel =>
+      'Čovek se naslanja na stari plavi automobil';
 
   @override
   String get craneSleep4SemanticLabel => 'Hotel na obali jezera ispred planina';
@@ -4719,7 +5005,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get craneSleep7SemanticLabel => 'Šareni stanovi na trgu Ribeira';
 
   @override
-  String get craneSleep8SemanticLabel => 'Majanske ruševine na litici iznad plaže';
+  String get craneSleep8SemanticLabel =>
+      'Majanske ruševine na litici iznad plaže';
 
   @override
   String get craneSleep9SemanticLabel => 'Svetionik od cigala na moru';
@@ -4734,7 +5021,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get craneEat0SemanticLabel => 'Pica u peći na drva';
 
   @override
-  String get craneEat1SemanticLabel => 'Prazan bar sa visokim barskim stolicama';
+  String get craneEat1SemanticLabel =>
+      'Prazan bar sa visokim barskim stolicama';
 
   @override
   String get craneEat2SemanticLabel => 'Pljeskavica';
@@ -4746,7 +5034,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get craneEat4SemanticLabel => 'Čokoladni desert';
 
   @override
-  String get craneEat5SemanticLabel => 'Deo za sedenje u restoranu sa umetničkom atmosferom';
+  String get craneEat5SemanticLabel =>
+      'Deo za sedenje u restoranu sa umetničkom atmosferom';
 
   @override
   String get craneEat6SemanticLabel => 'Jelo sa škampima';
@@ -4812,7 +5101,8 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get fortnightlyLatestUpdates => 'Najnovije vesti';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Tiha, ali moćna revolucija zdravstvenog sistema';
+  String get fortnightlyHeadlineHealthcare =>
+      'Tiha, ali moćna revolucija zdravstvenog sistema';
 
   @override
   String get fortnightlyHeadlineWar => 'Razdvojeni američki životi tokom rata';
@@ -4824,10 +5114,12 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
   String get fortnightlyHeadlineArmy => 'Reformisanje Zelene armije iznutra';
 
   @override
-  String get fortnightlyHeadlineStocks => 'Dok akcije stagniraju, mnogi se okreću valuti';
+  String get fortnightlyHeadlineStocks =>
+      'Dok akcije stagniraju, mnogi se okreću valuti';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Dizajneri koriste tehnologiju da bi pravili futurističke tkanine';
+  String get fortnightlyHeadlineFabrics =>
+      'Dizajneri koriste tehnologiju da bi pravili futurističke tkanine';
 
   @override
   String get fortnightlyHeadlineFeminists => 'Feministkinje se bave politikom';

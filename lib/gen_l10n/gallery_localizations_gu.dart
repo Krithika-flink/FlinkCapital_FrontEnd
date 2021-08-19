@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get signIn => 'સાઇન ઇન કરો';
 
   @override
-  String get bannerDemoText => 'તમારા અન્ય ડિવાઇસ પર તમારો પાસવર્ડ અપડેટ કર્યો હતો. કૃપા કરીને ફરી સાઇન ઇન કરો.';
+  String get bannerDemoText =>
+      'તમારા અન્ય ડિવાઇસ પર તમારો પાસવર્ડ અપડેટ કર્યો હતો. કૃપા કરીને ફરી સાઇન ઇન કરો.';
 
   @override
   String get bannerDemoResetText => 'બૅનરને રીસેટ કરો';
@@ -60,7 +60,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'તમિળનાડુના મુલાકાત લેવા માટેના લોકપ્રિય 10 શહેર';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'તમિળનાડુના મુલાકાત લેવા માટેના લોકપ્રિય 10 શહેર';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'નંબર 10';
@@ -90,7 +91,7 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get cardsDemoTravelDestinationDescription3 => 'મંદિરો';
 
   @override
-  String get homeHeaderGallery => 'Gallery';
+  String get homeHeaderGallery => 'Flink Capital Partners';
 
   @override
   String get homeHeaderCategories => 'કૅટેગરી';
@@ -120,7 +121,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'વેકેશન';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'વાર્ષિક ઉપજની ટકાવારી';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'વાર્ષિક ઉપજની ટકાવારી';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'વ્યાજનો દર';
@@ -129,7 +131,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'વ્યાજ YTD';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'ગયા વર્ષે ચૂકવેલું વ્યાજ';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'ગયા વર્ષે ચૂકવેલું વ્યાજ';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'આગલું સ્ટેટમેન્ટ';
@@ -285,8 +288,10 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'તમારો સંભવિત કર કપાત વધારો! ન સોંપાયેલ 1 વ્યવહાર માટે કૅટેગરી સોંપો.',
-      other: 'તમારો સંભવિત કર કપાત વધારો! ન સોંપાયેલ ${count} વ્યવહાર માટે કૅટેગરી સોંપો.',
+      one:
+          'તમારો સંભવિત કર કપાત વધારો! ન સોંપાયેલ 1 વ્યવહાર માટે કૅટેગરી સોંપો.',
+      other:
+          'તમારો સંભવિત કર કપાત વધારો! ન સોંપાયેલ ${count} વ્યવહાર માટે કૅટેગરી સોંપો.',
     );
   }
 
@@ -300,7 +305,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'બધા બજેટ જુઓ';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${accountName}ના એકાઉન્ટ નંબર ${accountNumber}માં ${amount} જમા કર્યાં.';
   }
 
@@ -310,7 +316,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return '${budgetName}ના ${amountTotal}ના બજેટમાંથી ${amountUsed} વપરાયા, ${amountLeft} બાકી છે';
   }
 
@@ -342,7 +349,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoCodeViewerCopyAll => 'બધા કૉપિ કરો';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'ક્લિપબોર્ડ પર કૉપિ કર્યા.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'ક્લિપબોર્ડ પર કૉપિ કર્યા.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -353,7 +361,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'વિકલ્પો જુઓ';
 
   @override
-  String get demoOptionsFeatureDescription => 'આ ડેમો માટે ઉપલબ્ધ વિકલ્પો જોવા માટે અહીં ટૅપ કરો.';
+  String get demoOptionsFeatureDescription =>
+      'આ ડેમો માટે ઉપલબ્ધ વિકલ્પો જોવા માટે અહીં ટૅપ કરો.';
 
   @override
   String get settingsTitle => 'સેટિંગ';
@@ -425,19 +434,23 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'ઍપનો સૌથી નીચેનો બાર';
 
   @override
-  String get demoBottomAppBarSubtitle => 'સૌથી નીચે નૅવિગેશન અને ક્રિયાઓ બતાવે છે';
+  String get demoBottomAppBarSubtitle =>
+      'સૌથી નીચે નૅવિગેશન અને ક્રિયાઓ બતાવે છે';
 
   @override
-  String get demoBottomAppBarDescription => 'ઍપના સૌથી નીચેના બાર, ફ્લોટિંગ એક્શન બટન સહિત સૌથી નીચેના નૅવિગેશન ડ્રોઅર અને વધુમાં વધુ ચાર ક્રિયાઓનો ઍક્સેસ પ્રદાન કરે છે.';
+  String get demoBottomAppBarDescription =>
+      'ઍપના સૌથી નીચેના બાર, ફ્લોટિંગ એક્શન બટન સહિત સૌથી નીચેના નૅવિગેશન ડ્રોઅર અને વધુમાં વધુ ચાર ક્રિયાઓનો ઍક્સેસ પ્રદાન કરે છે.';
 
   @override
   String get bottomAppBarNotch => 'નૉચ';
@@ -464,13 +477,15 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoBannerSubtitle => 'સૂચિમાં બૅનર બતાવવું';
 
   @override
-  String get demoBannerDescription => 'બૅનર મહત્ત્વપૂર્ણ, મુદ્દાસર સંદેશ બતાવે છે અને વપરાશકર્તા આગળ શું કરી શકે છે તે માટેની ક્રિયાઓ આપે છે (અથવા બૅનરને છોડી દેવાનો વિકલ્પ પણ આપે છે). બૅનર રદ કરવા માટે, વપરાશકર્તા ક્રિયા જરૂરી હોય છે.';
+  String get demoBannerDescription =>
+      'બૅનર મહત્ત્વપૂર્ણ, મુદ્દાસર સંદેશ બતાવે છે અને વપરાશકર્તા આગળ શું કરી શકે છે તે માટેની ક્રિયાઓ આપે છે (અથવા બૅનરને છોડી દેવાનો વિકલ્પ પણ આપે છે). બૅનર રદ કરવા માટે, વપરાશકર્તા ક્રિયા જરૂરી હોય છે.';
 
   @override
   String get demoBottomNavigationTitle => 'બોટમ નૅવિગેશન';
 
   @override
-  String get demoBottomNavigationSubtitle => 'અરસપરસ ફેડ થતા દૃશ્યો સાથે બોટમ નૅવિગેશન';
+  String get demoBottomNavigationSubtitle =>
+      'અરસપરસ ફેડ થતા દૃશ્યો સાથે બોટમ નૅવિગેશન';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'પર્સીસ્ટન્ટ લેબલ';
@@ -479,43 +494,50 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'પસંદ કરેલું લેબલ';
 
   @override
-  String get demoBottomNavigationDescription => 'બોટમ નૅવિગેશન બાર સ્ક્રીનના તળિયે ત્રણથી પાંચ સ્થાન બતાવે છે. દરેક સ્થાન આઇકન અને વૈકલ્પિક ટેક્સ્ટ લેબલ દ્વારા દર્શાવાય છે. બોટમ નૅવિગેશન આઇકન પર ટૅપ કરવામાં આવે, ત્યારે વપરાશકર્તાને તે આઇકન સાથે સંકળાયેલા ટોચના સ્તરના નૅવિગેશન સ્થાન પર લઈ જવામાં આવે છે.';
+  String get demoBottomNavigationDescription =>
+      'બોટમ નૅવિગેશન બાર સ્ક્રીનના તળિયે ત્રણથી પાંચ સ્થાન બતાવે છે. દરેક સ્થાન આઇકન અને વૈકલ્પિક ટેક્સ્ટ લેબલ દ્વારા દર્શાવાય છે. બોટમ નૅવિગેશન આઇકન પર ટૅપ કરવામાં આવે, ત્યારે વપરાશકર્તાને તે આઇકન સાથે સંકળાયેલા ટોચના સ્તરના નૅવિગેશન સ્થાન પર લઈ જવામાં આવે છે.';
 
   @override
   String get demoButtonTitle => 'બટન';
 
   @override
-  String get demoButtonSubtitle => 'ટેક્સ્ટ, ઉપર ચડાવેલું, આઉટલાઇન, અને ઘણું બધું';
+  String get demoButtonSubtitle =>
+      'ટેક્સ્ટ, ઉપર ચડાવેલું, આઉટલાઇન, અને ઘણું બધું';
 
   @override
   String get demoTextButtonTitle => 'ટેક્સ્ટ બટન';
 
   @override
-  String get demoTextButtonDescription => 'ટેક્સ્ટ બટન દબાવવા પર ઇંક સ્પ્લૅશ બતાવે છે પરંતુ તે ઉપસી આવતું નથી. ટૂલબાર પર, સંવાદમાં અને પૅડિંગની સાથે ઇનલાઇનમાં ટેક્સ્ટ બટનનો ઉપયોગ કરો';
+  String get demoTextButtonDescription =>
+      'ટેક્સ્ટ બટન દબાવવા પર ઇંક સ્પ્લૅશ બતાવે છે પરંતુ તે ઉપસી આવતું નથી. ટૂલબાર પર, સંવાદમાં અને પૅડિંગની સાથે ઇનલાઇનમાં ટેક્સ્ટ બટનનો ઉપયોગ કરો';
 
   @override
   String get demoElevatedButtonTitle => 'ઉપર ચડાવેલું બટન';
 
   @override
-  String get demoElevatedButtonDescription => 'ઉપર ચડાવેલા બટન મોટાભાગના સમતલ લેઆઉટ પર પરિમાણ ઉમેરે છે. તે વ્યસ્ત અથવા વ્યાપક સ્થાનો પર ફંક્શન પર ભાર આપે છે.';
+  String get demoElevatedButtonDescription =>
+      'ઉપર ચડાવેલા બટન મોટાભાગના સમતલ લેઆઉટ પર પરિમાણ ઉમેરે છે. તે વ્યસ્ત અથવા વ્યાપક સ્થાનો પર ફંક્શન પર ભાર આપે છે.';
 
   @override
   String get demoOutlinedButtonTitle => 'આઉટલાઇન બટન';
 
   @override
-  String get demoOutlinedButtonDescription => 'આઉટલાઇન બટન દબાવવા પર અપારદર્શી બને છે અને તે ઉપસી આવે છે. વૈકલ્પિક, ગૌણ ક્રિયા બતાવવા માટે અવારનવાર ઉપસેલા બટન સાથે તેનું જોડાણ બનાવવામાં આવે છે.';
+  String get demoOutlinedButtonDescription =>
+      'આઉટલાઇન બટન દબાવવા પર અપારદર્શી બને છે અને તે ઉપસી આવે છે. વૈકલ્પિક, ગૌણ ક્રિયા બતાવવા માટે અવારનવાર ઉપસેલા બટન સાથે તેનું જોડાણ બનાવવામાં આવે છે.';
 
   @override
   String get demoToggleButtonTitle => 'ટૉગલ બટન';
 
   @override
-  String get demoToggleButtonDescription => 'સંબંધિત વિકલ્પોનું ગ્રૂપ બનાવવા માટે ટૉગલ બટનનો ઉપયોગ કરી શકાય છે. સંબંધિત ટૉગલ બટનના ગ્રૂપ પર ભાર આપવા માટે, ગ્રૂપે એક કૉમન કન્ટેનર શેર કરવું જોઈએ';
+  String get demoToggleButtonDescription =>
+      'સંબંધિત વિકલ્પોનું ગ્રૂપ બનાવવા માટે ટૉગલ બટનનો ઉપયોગ કરી શકાય છે. સંબંધિત ટૉગલ બટનના ગ્રૂપ પર ભાર આપવા માટે, ગ્રૂપે એક કૉમન કન્ટેનર શેર કરવું જોઈએ';
 
   @override
   String get demoFloatingButtonTitle => 'ફ્લોટિંગ ઍક્શન બટન';
 
   @override
-  String get demoFloatingButtonDescription => 'ફ્લોટિંગ ઍક્શન બટન એ એક સર્ક્યુલર આઇકન બટન છે જે ઍપમાં મુખ્ય ક્રિયાનો પ્રચાર કરવા માટે કન્ટેન્ટ પર હૉવર કરે છે.';
+  String get demoFloatingButtonDescription =>
+      'ફ્લોટિંગ ઍક્શન બટન એ એક સર્ક્યુલર આઇકન બટન છે જે ઍપમાં મુખ્ય ક્રિયાનો પ્રચાર કરવા માટે કન્ટેન્ટ પર હૉવર કરે છે.';
 
   @override
   String get demoCardTitle => 'કાર્ડ';
@@ -527,34 +549,40 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoChipTitle => 'ચિપ';
 
   @override
-  String get demoCardDescription => 'કાર્ડ એ એવી કેટલીક સંબંધિત માહિતીને રજૂ કરવા માટે વપરાતી સામગ્રીની શીટ હોય છે, ઉદાહરણ તરીકે, આલ્બમ, ભૌગોલિક સ્થાન, ભોજન, સંપર્કની વિગતો, વગેરે.';
+  String get demoCardDescription =>
+      'કાર્ડ એ એવી કેટલીક સંબંધિત માહિતીને રજૂ કરવા માટે વપરાતી સામગ્રીની શીટ હોય છે, ઉદાહરણ તરીકે, આલ્બમ, ભૌગોલિક સ્થાન, ભોજન, સંપર્કની વિગતો, વગેરે.';
 
   @override
-  String get demoChipSubtitle => 'સંક્ષિપ્ત ઘટકો કે જે ઇનપુટ, એટ્રિબ્યુટ અથવા ઍક્શનને પ્રસ્તુત કરે છે';
+  String get demoChipSubtitle =>
+      'સંક્ષિપ્ત ઘટકો કે જે ઇનપુટ, એટ્રિબ્યુટ અથવા ઍક્શનને પ્રસ્તુત કરે છે';
 
   @override
   String get demoActionChipTitle => 'ઍક્શન ચિપ';
 
   @override
-  String get demoActionChipDescription => 'ઍક્શન ચિપ એ વિકલ્પોનો સેટ છે જે મુખ્ય કન્ટેન્ટથી સંબંધિત ઍક્શનને ટ્રિગર કરે છે. ઍક્શન ચિપ, UIમાં ડાયનામિક રીતે અને સાંદર્ભિક રીતે દેખાવા જોઈએ.';
+  String get demoActionChipDescription =>
+      'ઍક્શન ચિપ એ વિકલ્પોનો સેટ છે જે મુખ્ય કન્ટેન્ટથી સંબંધિત ઍક્શનને ટ્રિગર કરે છે. ઍક્શન ચિપ, UIમાં ડાયનામિક રીતે અને સાંદર્ભિક રીતે દેખાવા જોઈએ.';
 
   @override
   String get demoChoiceChipTitle => 'ચૉઇસ ચિપ';
 
   @override
-  String get demoChoiceChipDescription => 'ચૉઇસ ચિપ એ કોઈ સેટની એકલ પસંદગીને પ્રસ્તુત કરે છે. ચૉઇસ ચિપમાં સંબંધિત વર્ણનાત્મક ટેક્સ્ટ અથવા શ્રેણીઓ શામેલ હોય છે.';
+  String get demoChoiceChipDescription =>
+      'ચૉઇસ ચિપ એ કોઈ સેટની એકલ પસંદગીને પ્રસ્તુત કરે છે. ચૉઇસ ચિપમાં સંબંધિત વર્ણનાત્મક ટેક્સ્ટ અથવા શ્રેણીઓ શામેલ હોય છે.';
 
   @override
   String get demoFilterChipTitle => 'ફિલ્ટર ચિપ';
 
   @override
-  String get demoFilterChipDescription => 'ફિલ્ટર ચિપ, કન્ટેન્ટને ફિલ્ટર કરવા માટે ટૅગ અથવા વર્ણનાત્મક શબ્દોનો ઉપયોગ કરે છે.';
+  String get demoFilterChipDescription =>
+      'ફિલ્ટર ચિપ, કન્ટેન્ટને ફિલ્ટર કરવા માટે ટૅગ અથવા વર્ણનાત્મક શબ્દોનો ઉપયોગ કરે છે.';
 
   @override
   String get demoInputChipTitle => 'ઇનપુટ ચિપ';
 
   @override
-  String get demoInputChipDescription => 'ઇનપુટ ચિપ, એકમ (વ્યક્તિ, સ્થાન અથવા વસ્તુ) અથવા સંવાદી ટેક્સ્ટ જેવી જટિલ માહિતીને સંક્ષિપ્ત રૂપમાં પ્રસ્તુત કરે છે.';
+  String get demoInputChipDescription =>
+      'ઇનપુટ ચિપ, એકમ (વ્યક્તિ, સ્થાન અથવા વસ્તુ) અથવા સંવાદી ટેક્સ્ટ જેવી જટિલ માહિતીને સંક્ષિપ્ત રૂપમાં પ્રસ્તુત કરે છે.';
 
   @override
   String get demoDataTableTitle => 'ડેટા ટેબલ';
@@ -563,7 +591,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'માહિતીની પંક્તિઓ અને કૉલમ';
 
   @override
-  String get demoDataTableDescription => 'ડેટા ટેબલ પંક્તિઓ અને કૉલમના ગ્રિડ જેવા ફોર્મેટમાં માહિતી બતાવે છે. તે માહિતીને એવી રીતે ગોઠવે છે કે જેનાથી સ્કૅન કરવાનું સરળ બની રહે છે, જેથી વપરાશકર્તાઓ પૅટર્ન અને જાણકારીને શોધી શકે.';
+  String get demoDataTableDescription =>
+      'ડેટા ટેબલ પંક્તિઓ અને કૉલમના ગ્રિડ જેવા ફોર્મેટમાં માહિતી બતાવે છે. તે માહિતીને એવી રીતે ગોઠવે છે કે જેનાથી સ્કૅન કરવાનું સરળ બની રહે છે, જેથી વપરાશકર્તાઓ પૅટર્ન અને જાણકારીને શોધી શકે.';
 
   @override
   String get dataTableHeader => 'પોષણ';
@@ -642,7 +671,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'અલર્ટ';
 
   @override
-  String get demoAlertDialogDescription => 'અલર્ટ સંવાદ વપરાશકર્તાને જ્યાં સંમતિ જરૂરી હોય એવી સ્થિતિઓ વિશે સૂચિત કરે છે. અલર્ટ સંવાદમાં વૈકલ્પિક શીર્ષક અને ક્રિયાઓની વૈકલ્પિક સૂચિ હોય છે.';
+  String get demoAlertDialogDescription =>
+      'અલર્ટ સંવાદ વપરાશકર્તાને જ્યાં સંમતિ જરૂરી હોય એવી સ્થિતિઓ વિશે સૂચિત કરે છે. અલર્ટ સંવાદમાં વૈકલ્પિક શીર્ષક અને ક્રિયાઓની વૈકલ્પિક સૂચિ હોય છે.';
 
   @override
   String get demoAlertTitleDialogTitle => 'શીર્ષકની સાથે અલર્ટ';
@@ -651,16 +681,19 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'સરળ';
 
   @override
-  String get demoSimpleDialogDescription => 'સરળ સંવાદ વપરાશકર્તાને ઘણા વિકલ્પો વચ્ચે પસંદગીની તક આપે છે. સરળ સંવાદમાં વૈકલ્પિક શીર્ષક હોય છે જે વિકલ્પોની ઉપર બતાવવામાં આવે છે.';
+  String get demoSimpleDialogDescription =>
+      'સરળ સંવાદ વપરાશકર્તાને ઘણા વિકલ્પો વચ્ચે પસંદગીની તક આપે છે. સરળ સંવાદમાં વૈકલ્પિક શીર્ષક હોય છે જે વિકલ્પોની ઉપર બતાવવામાં આવે છે.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +705,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'પંક્તિ અને કૉલમ લેઆઉટ';
 
   @override
-  String get demoGridListsDescription => 'એક જ પ્રકારનો ડેટા ખાસ કરીને છબીઓ પ્રસ્તુત કરવા માટે ગ્રિડ સૂચિઓ શ્રેષ્ઠપણે અનુકૂળ છે. ગ્રિડ સૂચિમાંની દરેક આઇટમને ટાઇલ કહેવામાં આવે છે.';
+  String get demoGridListsDescription =>
+      'એક જ પ્રકારનો ડેટા ખાસ કરીને છબીઓ પ્રસ્તુત કરવા માટે ગ્રિડ સૂચિઓ શ્રેષ્ઠપણે અનુકૂળ છે. ગ્રિડ સૂચિમાંની દરેક આઇટમને ટાઇલ કહેવામાં આવે છે.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'માત્ર છબી';
@@ -690,37 +724,44 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoSlidersSubtitle => 'સ્વાઇપ કરીને મૂલ્ય પસંદ કરવા માટેના વિજેટ';
 
   @override
-  String get demoSlidersDescription => '\'સ્લાઇડર\' બારમાં મૂલ્યોની શ્રેણી બતાવે છે, જેમાંથી વપરાશકર્તાઓ એક મૂલ્ય પસંદ કરી શકે છે. તેઓ વૉલ્યૂમ, બ્રાઇટનેસ, અથવા છબી ફિલ્ટર લાગુ કરવા જેવી સેટિંગની ગોઠવણ કરવા માટે આદર્શ છે.';
+  String get demoSlidersDescription =>
+      '\'સ્લાઇડર\' બારમાં મૂલ્યોની શ્રેણી બતાવે છે, જેમાંથી વપરાશકર્તાઓ એક મૂલ્ય પસંદ કરી શકે છે. તેઓ વૉલ્યૂમ, બ્રાઇટનેસ, અથવા છબી ફિલ્ટર લાગુ કરવા જેવી સેટિંગની ગોઠવણ કરવા માટે આદર્શ છે.';
 
   @override
   String get demoRangeSlidersTitle => 'સ્લાઇડરની શ્રેણી';
 
   @override
-  String get demoRangeSlidersDescription => 'સ્લાઇડર બારમાં મૂલ્યોની શ્રેણી બતાવે છે. તેઓ બારના બન્ને છેડા પર એવા આઇકન ધરાવી શકે છે, જે મૂલ્યોની શ્રેણી બતાવે છે. તેઓ વૉલ્યૂમ, બ્રાઇટનેસ, અથવા છબી ફિલ્ટર લાગુ કરવા જેવી સેટિંગની ગોઠવણ કરવા માટે આદર્શ છે.';
+  String get demoRangeSlidersDescription =>
+      'સ્લાઇડર બારમાં મૂલ્યોની શ્રેણી બતાવે છે. તેઓ બારના બન્ને છેડા પર એવા આઇકન ધરાવી શકે છે, જે મૂલ્યોની શ્રેણી બતાવે છે. તેઓ વૉલ્યૂમ, બ્રાઇટનેસ, અથવા છબી ફિલ્ટર લાગુ કરવા જેવી સેટિંગની ગોઠવણ કરવા માટે આદર્શ છે.';
 
   @override
   String get demoCustomSlidersTitle => 'કસ્ટમ સ્લાઇડર';
 
   @override
-  String get demoCustomSlidersDescription => 'સ્લાઇડર બારમાં મૂલ્યોની શ્રેણી બતાવે છે, જેમાંથી વપરાશકર્તાઓ એક મૂલ્ય અથવા મૂલ્યોની શ્રેણી પસંદ કરી શકે છે. સ્લાઇડરની થીમ નક્કી કરી શકાય છે અને તેઓને કસ્ટમાઇઝ પણ કરી શકાય છે.';
+  String get demoCustomSlidersDescription =>
+      'સ્લાઇડર બારમાં મૂલ્યોની શ્રેણી બતાવે છે, જેમાંથી વપરાશકર્તાઓ એક મૂલ્ય અથવા મૂલ્યોની શ્રેણી પસંદ કરી શકે છે. સ્લાઇડરની થીમ નક્કી કરી શકાય છે અને તેઓને કસ્ટમાઇઝ પણ કરી શકાય છે.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'ફેરફાર કરી શકાય તેવા સતત સંખ્યાત્મક મૂલ્યો ધરાવતું';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'ફેરફાર કરી શકાય તેવા સતત સંખ્યાત્મક મૂલ્યો ધરાવતું';
 
   @override
   String get demoSlidersDiscrete => 'અલગ';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'કસ્ટમ થીમ સાથેનું અલગ સ્લાઇડર';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'કસ્ટમ થીમ સાથેનું અલગ સ્લાઇડર';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'કસ્ટમ થીમ સાથેનું સતત શ્રેણી ધરાવતું સ્લાઇડર';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'કસ્ટમ થીમ સાથેનું સતત શ્રેણી ધરાવતું સ્લાઇડર';
 
   @override
   String get demoSlidersContinuous => 'સતત';
 
   @override
-  String get demoSlidersEditableNumericalValue => 'ફેરફાર કરી શકાય તેવું સંખ્યાત્મક મૂલ્ય';
+  String get demoSlidersEditableNumericalValue =>
+      'ફેરફાર કરી શકાય તેવું સંખ્યાત્મક મૂલ્ય';
 
   @override
   String get demoMenuTitle => 'મેનૂ';
@@ -741,7 +782,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoMenuSubtitle => 'મેનૂ બટન અને સરળ મેનૂ';
 
   @override
-  String get demoMenuDescription => 'મેનૂ હંગામી સપાટી પર પસંદગીઓની સૂચિ બતાવે છે. જ્યારે વપરાશકર્તાઓ બટન, ક્રિયા અથવા અન્ય નિયંત્રણથી ક્રિયાપ્રતિક્રિયા કરે, ત્યારે તે દેખાય છે.';
+  String get demoMenuDescription =>
+      'મેનૂ હંગામી સપાટી પર પસંદગીઓની સૂચિ બતાવે છે. જ્યારે વપરાશકર્તાઓ બટન, ક્રિયા અથવા અન્ય નિયંત્રણથી ક્રિયાપ્રતિક્રિયા કરે, ત્યારે તે દેખાય છે.';
 
   @override
   String get demoMenuItemValueOne => 'મેનૂમાં પહેલી આઇટમ';
@@ -808,7 +850,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoNavigationDrawerSubtitle => 'ઍપ બારની અંદર ડ્રોઅર બતાવે છે';
 
   @override
-  String get demoNavigationDrawerDescription => 'એક મટિરિયલ ડિઝાઇનની પૅનલ, જે ઍપ્લિકેશનમાં નૅવિગેશનની લિંક બતાવવા માટે, સ્ક્રીનની કિનારી પરથી આડી રીતે સ્લાઇડ થઈને આવે છે.';
+  String get demoNavigationDrawerDescription =>
+      'એક મટિરિયલ ડિઝાઇનની પૅનલ, જે ઍપ્લિકેશનમાં નૅવિગેશનની લિંક બતાવવા માટે, સ્ક્રીનની કિનારી પરથી આડી રીતે સ્લાઇડ થઈને આવે છે.';
 
   @override
   String get demoNavigationDrawerUserName => 'વપરાશકર્તાનું નામ';
@@ -823,7 +866,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'આઇટમ બે';
 
   @override
-  String get demoNavigationDrawerText => 'ડ્રોઅર જોવા માટે કિનારી પરથી સ્વાઇપ કરો અથવા ઉપર ડાબી બાજુના આઇકન પર ટૅપ કરો';
+  String get demoNavigationDrawerText =>
+      'ડ્રોઅર જોવા માટે કિનારી પરથી સ્વાઇપ કરો અથવા ઉપર ડાબી બાજુના આઇકન પર ટૅપ કરો';
 
   @override
   String get demoNavigationRailTitle => 'નૅવિગેશન રેલ';
@@ -832,7 +876,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoNavigationRailSubtitle => 'ઍપની અંદર નૅવિગેશન રેલ બતાવે છે';
 
   @override
-  String get demoNavigationRailDescription => 'એક મટિરિયલ વિજેટ જેને અમુક વ્યૂની વચ્ચે નૅવિગેટ કરવા માટે, ઍપની ડાબી કે જમણી બાજુએ બતાવવામાં આવે છે, સામાન્ય રીતે ત્રણ અને પાંચની વચ્ચેના વ્યૂ.';
+  String get demoNavigationRailDescription =>
+      'એક મટિરિયલ વિજેટ જેને અમુક વ્યૂની વચ્ચે નૅવિગેટ કરવા માટે, ઍપની ડાબી કે જમણી બાજુએ બતાવવામાં આવે છે, સામાન્ય રીતે ત્રણ અને પાંચની વચ્ચેના વ્યૂ.';
 
   @override
   String get demoNavigationRailFirst => 'પહેલું';
@@ -853,16 +898,19 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoFullscreenDialogTitle => 'પૂર્ણસ્ક્રીન';
 
   @override
-  String get demoFullscreenDialogDescription => 'fullscreenDialog પ્રોપર્ટી ઇનકમિંગ પેજ પૂર્ણસ્ક્રીન મૉડલ સંવાદ હશે કે કેમ તેનો ઉલ્લેખ કરે છે';
+  String get demoFullscreenDialogDescription =>
+      'fullscreenDialog પ્રોપર્ટી ઇનકમિંગ પેજ પૂર્ણસ્ક્રીન મૉડલ સંવાદ હશે કે કેમ તેનો ઉલ્લેખ કરે છે';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'પ્રવૃત્તિ સૂચક';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'iOS-શૈલીના પ્રવૃત્તિ સૂચકો';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'iOS-શૈલીના પ્રવૃત્તિ સૂચકો';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'iOS-શૈલીનું એક પ્રવૃત્તિ સૂચક જે ઘડિયાળની દિશામાં ફરે છે.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'iOS-શૈલીનું એક પ્રવૃત્તિ સૂચક જે ઘડિયાળની દિશામાં ફરે છે.';
 
   @override
   String get demoCupertinoButtonsTitle => 'બટન';
@@ -871,7 +919,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'iOS-શૈલીના બટન';
 
   @override
-  String get demoCupertinoButtonsDescription => 'iOS-શૈલીનું બટન. તે ટેક્સ્ટ અને/અથવા આઇકનનો ઉપયોગ કરે છે કે જે સ્પર્શ કરવા પર ઝાંખું થાય છે તથા ઝાંખું નથી થતું. તેમાં વૈકલ્પિક રૂપે બૅકગ્રાઉન્ડ હોઈ શકે છે.';
+  String get demoCupertinoButtonsDescription =>
+      'iOS-શૈલીનું બટન. તે ટેક્સ્ટ અને/અથવા આઇકનનો ઉપયોગ કરે છે કે જે સ્પર્શ કરવા પર ઝાંખું થાય છે તથા ઝાંખું નથી થતું. તેમાં વૈકલ્પિક રૂપે બૅકગ્રાઉન્ડ હોઈ શકે છે.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +929,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,7 +939,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'અલર્ટ';
@@ -901,7 +952,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => 'અલર્ટ';
 
   @override
-  String get demoCupertinoAlertDescription => 'અલર્ટ સંવાદ વપરાશકર્તાને જ્યાં સંમતિ જરૂરી હોય એવી સ્થિતિઓ વિશે સૂચિત કરે છે. અલર્ટ સંવાદમાં વૈકલ્પિક શીર્ષક, વૈકલ્પિક કન્ટેન્ટ અને ક્રિયાઓની વૈકલ્પિક સૂચિ હોય છે. શીર્ષક, કન્ટેન્ટની ઉપર બતાવવામાં આવે છે અને ક્રિયાઓ, કન્ટેન્ટની નીચે બતાવવામાં આવે છે.';
+  String get demoCupertinoAlertDescription =>
+      'અલર્ટ સંવાદ વપરાશકર્તાને જ્યાં સંમતિ જરૂરી હોય એવી સ્થિતિઓ વિશે સૂચિત કરે છે. અલર્ટ સંવાદમાં વૈકલ્પિક શીર્ષક, વૈકલ્પિક કન્ટેન્ટ અને ક્રિયાઓની વૈકલ્પિક સૂચિ હોય છે. શીર્ષક, કન્ટેન્ટની ઉપર બતાવવામાં આવે છે અને ક્રિયાઓ, કન્ટેન્ટની નીચે બતાવવામાં આવે છે.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'શીર્ષકની સાથે અલર્ટ';
@@ -916,7 +968,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'ઍક્શન શીટ';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'ઍક્શન શીટ એ અલર્ટની એક ચોક્કસ શૈલી છે જે વપરાશકર્તા સમક્ષ વર્તમાન સંદર્ભથી સંબંધિત બે કે તેથી વધુ વિકલ્પોનો સેટ પ્રસ્તુત કરે છે. ઍક્શન શીટમાં શીર્ષક, વૈકલ્પિક સંદેશ અને ક્રિયાઓની સૂચિ હોય શકે છે.';
+  String get demoCupertinoActionSheetDescription =>
+      'ઍક્શન શીટ એ અલર્ટની એક ચોક્કસ શૈલી છે જે વપરાશકર્તા સમક્ષ વર્તમાન સંદર્ભથી સંબંધિત બે કે તેથી વધુ વિકલ્પોનો સેટ પ્રસ્તુત કરે છે. ઍક્શન શીટમાં શીર્ષક, વૈકલ્પિક સંદેશ અને ક્રિયાઓની સૂચિ હોય શકે છે.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'નૅવિગેશન બાર';
@@ -925,7 +978,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoCupertinoNavigationBarSubtitle => 'iOS-શૈલીનો નૅવિગેશન બાર';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'iOS-શૈલીનો નૅવિગેશન બાર. નૅવિગેશન બાર એ ટૂલબાર છે, જેમાં ટૂલબારની મધ્યમાં ઓછામાં ઓછું પેજ શીર્ષક શામેલ હોય છે.';
+  String get demoCupertinoNavigationBarDescription =>
+      'iOS-શૈલીનો નૅવિગેશન બાર. નૅવિગેશન બાર એ ટૂલબાર છે, જેમાં ટૂલબારની મધ્યમાં ઓછામાં ઓછું પેજ શીર્ષક શામેલ હોય છે.';
 
   @override
   String get demoCupertinoPickerTitle => 'પિકર';
@@ -934,7 +988,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoCupertinoPickerSubtitle => 'iOS-શૈલીના તારીખ અને સમય પિકર';
 
   @override
-  String get demoCupertinoPickerDescription => 'iOS-શૈલીનું પિકર વિજેટ જેનો ઉપયોગ તારીખ, સમય અથવા તારીખ અને સમય એમ બન્ને પસંદ કરવા માટે કરી શકાય છે.';
+  String get demoCupertinoPickerDescription =>
+      'iOS-શૈલીનું પિકર વિજેટ જેનો ઉપયોગ તારીખ, સમય અથવા તારીખ અને સમય એમ બન્ને પસંદ કરવા માટે કરી શકાય છે.';
 
   @override
   String get demoCupertinoPickerTimer => 'ટાઇમર';
@@ -952,19 +1007,23 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'રિફ્રેશ કરવા માટે ખેંચો';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'નિયંત્રણ રિફ્રેશ કરવા માટે iOS-શૈલીમાં ખેંચો';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'નિયંત્રણ રિફ્રેશ કરવા માટે iOS-શૈલીમાં ખેંચો';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'વિજેટ કે જે કન્ટેન્ટ નિયંત્રણને રિફ્રેશ કરવા માટે iOS-શૈલીમાં ખેંચવાની સુવિધાનો અમલ કરે છે.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'વિજેટ કે જે કન્ટેન્ટ નિયંત્રણને રિફ્રેશ કરવા માટે iOS-શૈલીમાં ખેંચવાની સુવિધાનો અમલ કરે છે.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'વિભાગ મુજબ નિયંત્રણ';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'iOS-શૈલીના વિભાગ મુજબ નિયંત્રણ';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'iOS-શૈલીના વિભાગ મુજબ નિયંત્રણ';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'આનો ઉપયોગ પરસ્પર ખાસ વિકલ્પોમાંથી પસંદ કરવા માટે થાય છે. જ્યારે વિભાગ મુજબ નિયંત્રણમાંથી એક વિકલ્પ પસંદ કર્યો હોય, ત્યારે વિભાગ મુજબ નિયંત્રણના અન્ય વિકલ્પો પસંદ કરવાની સુવિધા બંધ કરવામાં આવે છે.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'આનો ઉપયોગ પરસ્પર ખાસ વિકલ્પોમાંથી પસંદ કરવા માટે થાય છે. જ્યારે વિભાગ મુજબ નિયંત્રણમાંથી એક વિકલ્પ પસંદ કર્યો હોય, ત્યારે વિભાગ મુજબ નિયંત્રણના અન્ય વિકલ્પો પસંદ કરવાની સુવિધા બંધ કરવામાં આવે છે.';
 
   @override
   String get demoCupertinoSliderTitle => 'સ્લાઇડર';
@@ -973,7 +1032,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'iOS-શૈલીનું સ્લાઇડર';
 
   @override
-  String get demoCupertinoSliderDescription => 'સ્લાઇડરનો ઉપયોગ સતત અથવા અલગ મૂલ્યોના સેટમાંથી પસંદ કરવા માટે કરી શકાય છે.';
+  String get demoCupertinoSliderDescription =>
+      'સ્લાઇડરનો ઉપયોગ સતત અથવા અલગ મૂલ્યોના સેટમાંથી પસંદ કરવા માટે કરી શકાય છે.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,7 +1049,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'iOS-શૈલીનું સ્વિચ';
 
   @override
-  String get demoCupertinoSwitchDescription => 'સ્વિચનો ઉપયોગ સિંગલ સેટિંગની ચાલુ/બંધ સ્થિતિને ટૉગલ કરવા માટે થાય છે.';
+  String get demoCupertinoSwitchDescription =>
+      'સ્વિચનો ઉપયોગ સિંગલ સેટિંગની ચાલુ/બંધ સ્થિતિને ટૉગલ કરવા માટે થાય છે.';
 
   @override
   String get demoCupertinoTabBarTitle => 'ટૅબ બાર';
@@ -998,7 +1059,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'iOS-શૈલીના તળિયાની ટૅબનું બાર';
 
   @override
-  String get demoCupertinoTabBarDescription => 'iOS-શૈલીના તળિયાના નૅવિગેશન ટૅબનું બાર. એક ટૅબ સક્રિય હોવાની સાથે એકથી વધુ ટૅબ બતાવે છે, જેમાં પહેલી ટૅબ ડિફૉલ્ટ તરીકે હોય છે.';
+  String get demoCupertinoTabBarDescription =>
+      'iOS-શૈલીના તળિયાના નૅવિગેશન ટૅબનું બાર. એક ટૅબ સક્રિય હોવાની સાથે એકથી વધુ ટૅબ બતાવે છે, જેમાં પહેલી ટૅબ ડિફૉલ્ટ તરીકે હોય છે.';
 
   @override
   String get cupertinoTabBarHomeTab => 'હોમ';
@@ -1016,7 +1078,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'iOS-શૈલીની ટેક્સ્ટ ફીલ્ડ';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'ટેક્સ્ટ ફીલ્ડની મદદથી વપરાશકર્તા ટેક્સ્ટને હાર્ડવેરના કીબોર્ડ અથવા ઑનસ્ક્રીન કીબોર્ડ વડે દાખલ કરી શકે છે.';
+  String get demoCupertinoTextFieldDescription =>
+      'ટેક્સ્ટ ફીલ્ડની મદદથી વપરાશકર્તા ટેક્સ્ટને હાર્ડવેરના કીબોર્ડ અથવા ઑનસ્ક્રીન કીબોર્ડ વડે દાખલ કરી શકે છે.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'પિન';
@@ -1034,7 +1097,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoSharedXAxisDemoInstructions => 'આગળ અને પાછળ બટન';
 
   @override
-  String get demoSharedYAxisDemoInstructions => '\"તાજેતરમાં ચલાવેલા\" અનુસાર સૉર્ટ કરો';
+  String get demoSharedYAxisDemoInstructions =>
+      '\"તાજેતરમાં ચલાવેલા\" અનુસાર સૉર્ટ કરો';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'સેટિંગ આઇકનનું બટન';
@@ -1049,7 +1113,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'કન્ટેનર ટ્રાંસ્ફોર્મ';
 
   @override
-  String get demoContainerTransformDescription => 'કન્ટેનર ટ્રાંસ્ફોર્મ પૅટર્નની રચના કન્ટેનર સમાવતા UI ઘટકોની વચ્ચે ટ્રાંઝિશન માટે થઈ છે. આ પૅટર્ન બે UI ઘટકોની વચ્ચે એક દેખાતું કનેક્શન બનાવે છે';
+  String get demoContainerTransformDescription =>
+      'કન્ટેનર ટ્રાંસ્ફોર્મ પૅટર્નની રચના કન્ટેનર સમાવતા UI ઘટકોની વચ્ચે ટ્રાંઝિશન માટે થઈ છે. આ પૅટર્ન બે UI ઘટકોની વચ્ચે એક દેખાતું કનેક્શન બનાવે છે';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'ઝાંખો મોડ';
@@ -1076,7 +1141,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'સૂચિ આઇટમ';
 
   @override
-  String get demoSharedAxisDescription => 'શેર કરેલી અક્ષ પૅટર્નનો ઉપયોગ તેવા UI ઘટકોની વચ્ચે ટ્રાંઝિશન માટે થાય છે કે જેનો અંતર સંબંધી અથવા નૅવિગેશન સંબંધી સંબંધ હોય છે. આ પૅટર્ન ઘટકોની વચ્ચેના સંબંધને વધુ મજબૂત બનાવવા માટે x, y અથવા z અક્ષ પરના શેર કરેલા ટ્રાંસ્ફોર્મેશનનો ઉપયોગ કરે છે.';
+  String get demoSharedAxisDescription =>
+      'શેર કરેલી અક્ષ પૅટર્નનો ઉપયોગ તેવા UI ઘટકોની વચ્ચે ટ્રાંઝિશન માટે થાય છે કે જેનો અંતર સંબંધી અથવા નૅવિગેશન સંબંધી સંબંધ હોય છે. આ પૅટર્ન ઘટકોની વચ્ચેના સંબંધને વધુ મજબૂત બનાવવા માટે x, y અથવા z અક્ષ પરના શેર કરેલા ટ્રાંસ્ફોર્મેશનનો ઉપયોગ કરે છે.';
 
   @override
   String get demoSharedXAxisTitle => 'શેર કરેલા x-અક્ષ';
@@ -1091,7 +1157,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'તમારા કોર્સને સુવ્યવસ્થિત કરો';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'બંડલ બનાવેલી કૅટેગરી તમારા ફીડમાં ગ્રૂપ તરીકે દેખાય છે. તમે આને પછીથી ગમે-ત્યારે બદલી શકો છો.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'બંડલ બનાવેલી કૅટેગરી તમારા ફીડમાં ગ્રૂપ તરીકે દેખાય છે. તમે આને પછીથી ગમે-ત્યારે બદલી શકો છો.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'કળા અને હસ્તકળા';
@@ -1190,7 +1257,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'બીફ સૅન્ડવિચ';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'બીફ સૅન્ડવિચની રૅસિપિ';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'બીફ સૅન્ડવિચની રૅસિપિ';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'સાચવેલી રૅસિપિ';
@@ -1211,7 +1279,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'ફેડ થ્રૂ';
 
   @override
-  String get demoFadeThroughDescription => 'ફેડ થ્રૂ પૅટર્નનો ઉપયોગ તેવા UI ઘટકોની વચ્ચે ટ્રાંઝિશન માટે થાય છે કે જેનો એકબીજાની સાથે મજબૂત સંબંધ હોતો નથી.';
+  String get demoFadeThroughDescription =>
+      'ફેડ થ્રૂ પૅટર્નનો ઉપયોગ તેવા UI ઘટકોની વચ્ચે ટ્રાંઝિશન માટે થાય છે કે જેનો એકબીજાની સાથે મજબૂત સંબંધ હોતો નથી.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'આલ્બમ';
@@ -1229,7 +1298,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'ઝાંખો';
 
   @override
-  String get demoFadeScaleDescription => 'ફેડ પૅટર્નનો ઉપયોગ તેવા UI ઘટકો માટે થાય છે કે જે સ્ક્રીનની સીમામાં અંદર જાય છે અથવા બહાર નીકળે છે, જેમ કે એક સંવાદ જે સ્ક્રીનના કેંદ્રમાં ફેડ થાય છે.';
+  String get demoFadeScaleDescription =>
+      'ફેડ પૅટર્નનો ઉપયોગ તેવા UI ઘટકો માટે થાય છે કે જે સ્ક્રીનની સીમામાં અંદર જાય છે અથવા બહાર નીકળે છે, જેમ કે એક સંવાદ જે સ્ક્રીનના કેંદ્રમાં ફેડ થાય છે.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'મોડલ બતાવો';
@@ -1256,7 +1326,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoColorsSubtitle => 'તમામ પૂર્વનિર્ધારિત રંગ';
 
   @override
-  String get demoColorsDescription => 'સામગ્રીની ડિઝાઇનના વિવિધ રંગનું પ્રતિનિધિત્વ કરતા રંગ અને રંગ સ્વૉચ કૉન્સ્ટન્ટ.';
+  String get demoColorsDescription =>
+      'સામગ્રીની ડિઝાઇનના વિવિધ રંગનું પ્રતિનિધિત્વ કરતા રંગ અને રંગ સ્વૉચ કૉન્સ્ટન્ટ.';
 
   @override
   String get demoTypographyTitle => 'ટાઇપોગ્રાફી';
@@ -1265,7 +1336,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoTypographySubtitle => 'ટેક્સ્ટની પૂર્વવ્યાખ્યાયિત બધી જ શૈલીઓ';
 
   @override
-  String get demoTypographyDescription => 'સામગ્રીની ડિઝાઇનમાં જોવા મળતી ટાઇપોગ્રાફીની વિવિધ શૈલીઓ માટેની વ્યાખ્યાઓ.';
+  String get demoTypographyDescription =>
+      'સામગ્રીની ડિઝાઇનમાં જોવા મળતી ટાઇપોગ્રાફીની વિવિધ શૈલીઓ માટેની વ્યાખ્યાઓ.';
 
   @override
   String get demo2dTransformationsTitle => '2D રૂપાંતરણો';
@@ -1274,7 +1346,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'પૅન કરો, નાનું-મોટું કરો, ફેરવો';
 
   @override
-  String get demo2dTransformationsDescription => 'ટાઇલમાં ફેરફાર કરવા માટે ટૅપ કરો અને દૃશ્યની આસપાસ ફરવા માટે સંકેતનો ઉપયોગ કરો. પૅન કરવા ખેંચો, નાનું-મોટું કરવા માટે પિન્ચ કરો, બે આંગળીઓથી ફેરવો. પ્રારંભિક ઓરિએન્ટેશન પર પાછા ફરવા માટે રીસેટ કરો બટન દબાવો.';
+  String get demo2dTransformationsDescription =>
+      'ટાઇલમાં ફેરફાર કરવા માટે ટૅપ કરો અને દૃશ્યની આસપાસ ફરવા માટે સંકેતનો ઉપયોગ કરો. પૅન કરવા ખેંચો, નાનું-મોટું કરવા માટે પિન્ચ કરો, બે આંગળીઓથી ફેરવો. પ્રારંભિક ઓરિએન્ટેશન પર પાછા ફરવા માટે રીસેટ કરો બટન દબાવો.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'રૂપાંતરણો રીસેટ કરો';
@@ -1295,13 +1368,15 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'પર્સીસ્ટન્ટ બોટમ શીટ';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'પર્સીસ્ટન્ટ બોટમ શીટ ઍપના મુખ્ય કન્ટેન્ટને પૂરક હોય તેવી માહિતી બતાવે છે. વપરાશકર્તા ઍપના અન્ય ભાગ સાથે ક્રિયાપ્રતિક્રિયા કરતા હોય ત્યારે પણ પર્સીસ્ટન્ટ બોટમ શીટ દેખાતી રહે છે.';
+  String get demoBottomSheetPersistentDescription =>
+      'પર્સીસ્ટન્ટ બોટમ શીટ ઍપના મુખ્ય કન્ટેન્ટને પૂરક હોય તેવી માહિતી બતાવે છે. વપરાશકર્તા ઍપના અન્ય ભાગ સાથે ક્રિયાપ્રતિક્રિયા કરતા હોય ત્યારે પણ પર્સીસ્ટન્ટ બોટમ શીટ દેખાતી રહે છે.';
 
   @override
   String get demoBottomSheetModalTitle => 'મોડલ બોટમ શીટ';
 
   @override
-  String get demoBottomSheetModalDescription => 'મોડલ બોટમ શીટ મેનૂ અથવા સંવાદના વિકલ્પરૂપે હોય છે અને વપરાશકર્તાને ઍપના બાકીના ભાગ સાથે ક્રિયાપ્રતિક્રિયા કરતા અટકાવે છે.';
+  String get demoBottomSheetModalDescription =>
+      'મોડલ બોટમ શીટ મેનૂ અથવા સંવાદના વિકલ્પરૂપે હોય છે અને વપરાશકર્તાને ઍપના બાકીના ભાગ સાથે ક્રિયાપ્રતિક્રિયા કરતા અટકાવે છે.';
 
   @override
   String get demoBottomSheetAddLabel => 'ઉમેરો';
@@ -1324,7 +1399,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoListsSubtitle => 'સ્ક્રોલિંગ સૂચિ લેઆઉટ';
 
   @override
-  String get demoListsDescription => 'એક નિશ્ચિત-ઊંચાઈની પંક્તિમાં સામાન્ય રીતે અમુક ટેક્સ્ટ તેમજ તેની આગળ કે પાછળ આઇકન શામેલ હોય છે.';
+  String get demoListsDescription =>
+      'એક નિશ્ચિત-ઊંચાઈની પંક્તિમાં સામાન્ય રીતે અમુક ટેક્સ્ટ તેમજ તેની આગળ કે પાછળ આઇકન શામેલ હોય છે.';
 
   @override
   String get demoOneLineListsTitle => 'એક લાઇન';
@@ -1345,13 +1421,15 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoCircularProgressIndicatorTitle => 'વર્તુળાકાર પ્રગતિ સૂચક';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'સામગ્રીની ડિઝાઇનનું એક વર્તુળાકાર પ્રગતિ સૂચક, જે ઍપ્લિકેશન વ્યસ્ત છે તેવું બતાવવા માટે ગોળ ફરે છે.';
+  String get demoCircularProgressIndicatorDescription =>
+      'સામગ્રીની ડિઝાઇનનું એક વર્તુળાકાર પ્રગતિ સૂચક, જે ઍપ્લિકેશન વ્યસ્ત છે તેવું બતાવવા માટે ગોળ ફરે છે.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'રેખીય પ્રગતિ સૂચક';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'સામગ્રીની ડિઝાઇનનું એક રેખીય પ્રગતિ સૂચક, જે પ્રોગ્રેસ બાર તરીકે પણ ઓળખાય છે.';
+  String get demoLinearProgressIndicatorDescription =>
+      'સામગ્રીની ડિઝાઇનનું એક રેખીય પ્રગતિ સૂચક, જે પ્રોગ્રેસ બાર તરીકે પણ ઓળખાય છે.';
 
   @override
   String get demoPickersTitle => 'પિકર';
@@ -1363,19 +1441,22 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoDatePickerTitle => 'તારીખ પિકર';
 
   @override
-  String get demoDatePickerDescription => 'સામગ્રીની ડિઝાઇનવાળા તારીખ પિકરને સમાવતો સંવાદ બતાવે છે.';
+  String get demoDatePickerDescription =>
+      'સામગ્રીની ડિઝાઇનવાળા તારીખ પિકરને સમાવતો સંવાદ બતાવે છે.';
 
   @override
   String get demoTimePickerTitle => 'સમય પિકર';
 
   @override
-  String get demoTimePickerDescription => 'સામગ્રીની ડિઝાઇનવાળા સમય પિકરને સમાવતો સંવાદ બતાવે છે.';
+  String get demoTimePickerDescription =>
+      'સામગ્રીની ડિઝાઇનવાળા સમય પિકરને સમાવતો સંવાદ બતાવે છે.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'પિકર બતાવો';
@@ -1393,16 +1474,19 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoTabsSubtitle => 'સ્વતંત્ર રીતે સ્ક્રોલ કરવા યોગ્ય વ્યૂ ટૅબ';
 
   @override
-  String get demoTabsDescription => 'ટૅબ અલગ અલગ સ્ક્રીન, ડેટા સેટ અને અન્ય ક્રિયાપ્રતિક્રિયાઓ પર કન્ટેન્ટને ગોઠવે છે.';
+  String get demoTabsDescription =>
+      'ટૅબ અલગ અલગ સ્ક્રીન, ડેટા સેટ અને અન્ય ક્રિયાપ્રતિક્રિયાઓ પર કન્ટેન્ટને ગોઠવે છે.';
 
   @override
   String get demoSnackbarsTitle => 'સ્નૅકબાર';
 
   @override
-  String get demoSnackbarsSubtitle => 'સ્નૅકબાર, સ્ક્રીનના તળિયા પર સંદેશા બતાવે છે';
+  String get demoSnackbarsSubtitle =>
+      'સ્નૅકબાર, સ્ક્રીનના તળિયા પર સંદેશા બતાવે છે';
 
   @override
-  String get demoSnackbarsDescription => 'સ્નૅકબાર વપરાશકર્તાઓને તે પ્રક્રિયા અંગે સૂચના આપે છે કે જે ઍપે કરી છે અથવા તો જે કરશે. તે સ્ક્રીનના તળિયે અસ્થાયીરૂપે દેખાય છે. તેઓએ વપરાશકર્તા અનુભવમાં વિક્ષેપ કરવો જોઈએ નહીં અને અદૃશ્ય થવા માટે તેઓને વપરાશકર્તા ઇનપુટની જરૂર હોતી નથી.';
+  String get demoSnackbarsDescription =>
+      'સ્નૅકબાર વપરાશકર્તાઓને તે પ્રક્રિયા અંગે સૂચના આપે છે કે જે ઍપે કરી છે અથવા તો જે કરશે. તે સ્ક્રીનના તળિયે અસ્થાયીરૂપે દેખાય છે. તેઓએ વપરાશકર્તા અનુભવમાં વિક્ષેપ કરવો જોઈએ નહીં અને અદૃશ્ય થવા માટે તેઓને વપરાશકર્તા ઇનપુટની જરૂર હોતી નથી.';
 
   @override
   String get demoSnackbarsButtonLabel => 'સ્નૅકબાર બતાવો';
@@ -1426,19 +1510,22 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoSelectionControlsCheckboxTitle => 'ચેકબૉક્સ';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'ચેકબૉક્સ વપરાશકર્તાને સેટમાંથી એકથી વધુ વિકલ્પો પસંદ કરવાની મંજૂરી આપે છે. સામાન્ય ચેકબૉક્સનું મૂલ્ય સાચું અથવા ખોટું છે અને ત્રણ સ્ટેટના ચેકબોક્સનું મૂલ્ય શૂન્ય પણ હોઈ શકે છે.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'ચેકબૉક્સ વપરાશકર્તાને સેટમાંથી એકથી વધુ વિકલ્પો પસંદ કરવાની મંજૂરી આપે છે. સામાન્ય ચેકબૉક્સનું મૂલ્ય સાચું અથવા ખોટું છે અને ત્રણ સ્ટેટના ચેકબોક્સનું મૂલ્ય શૂન્ય પણ હોઈ શકે છે.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'રેડિયો';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'રેડિયો બટન વપરાશકર્તાને સેટમાંથી એક વિકલ્પ પસંદ કરવાની મંજૂરી આપે છે. જો તમને લાગે કે વપરાશકર્તાને એક પછી એક ઉપલબ્ધ બધા વિકલ્પો જોવાની જરૂર છે, તો વિશિષ્ટ પસંદગી માટે રેડિયો બટનનો ઉપયોગ કરો.';
+  String get demoSelectionControlsRadioDescription =>
+      'રેડિયો બટન વપરાશકર્તાને સેટમાંથી એક વિકલ્પ પસંદ કરવાની મંજૂરી આપે છે. જો તમને લાગે કે વપરાશકર્તાને એક પછી એક ઉપલબ્ધ બધા વિકલ્પો જોવાની જરૂર છે, તો વિશિષ્ટ પસંદગી માટે રેડિયો બટનનો ઉપયોગ કરો.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'સ્વિચ';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'ચાલુ/બંધ સ્વિચ સિંગલ સેટિંગ વિકલ્પની સ્થિતિને ટૉગલ કરે છે. સ્વિચ નિયંત્રિત કરે છે તે વિકલ્પ તેમજ તેની સ્થિતિ સંબંધિત ઇનલાઇન લેબલથી સ્પષ્ટ થવી જોઈએ.';
+  String get demoSelectionControlsSwitchDescription =>
+      'ચાલુ/બંધ સ્વિચ સિંગલ સેટિંગ વિકલ્પની સ્થિતિને ટૉગલ કરે છે. સ્વિચ નિયંત્રિત કરે છે તે વિકલ્પ તેમજ તેની સ્થિતિ સંબંધિત ઇનલાઇન લેબલથી સ્પષ્ટ થવી જોઈએ.';
 
   @override
   String get demoBottomTextFieldsTitle => 'ટેક્સ્ટ ફીલ્ડ';
@@ -1447,10 +1534,12 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoTextFieldTitle => 'ટેક્સ્ટ ફીલ્ડ';
 
   @override
-  String get demoTextFieldSubtitle => 'ફેરફાર કરી શકાય તેવા ટેક્સ્ટ અને નંબરની સિંગલ લાઇન';
+  String get demoTextFieldSubtitle =>
+      'ફેરફાર કરી શકાય તેવા ટેક્સ્ટ અને નંબરની સિંગલ લાઇન';
 
   @override
-  String get demoTextFieldDescription => 'ટેક્સ્ટ ફીલ્ડ વડે વપરાશકર્તાઓ UIમાં ટેક્સ્ટ દાખલ કરી શકે છે. સામાન્ય રીતે તે ફોર્મ અને સંવાદમાં આવતા હોય છે.';
+  String get demoTextFieldDescription =>
+      'ટેક્સ્ટ ફીલ્ડ વડે વપરાશકર્તાઓ UIમાં ટેક્સ્ટ દાખલ કરી શકે છે. સામાન્ય રીતે તે ફોર્મ અને સંવાદમાં આવતા હોય છે.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'પાસવર્ડ બતાવો';
@@ -1459,16 +1548,19 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'પાસવર્ડ છુપાવો';
 
   @override
-  String get demoTextFieldFormErrors => 'સબમિટ કરતા પહેલાં કૃપા કરીને લાલ રંગે દર્શાવેલી ભૂલો ઠીક કરો.';
+  String get demoTextFieldFormErrors =>
+      'સબમિટ કરતા પહેલાં કૃપા કરીને લાલ રંગે દર્શાવેલી ભૂલો ઠીક કરો.';
 
   @override
   String get demoTextFieldNameRequired => 'નામ જરૂરી છે.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'કૃપા કરીને માત્ર મૂળાક્ષરના અક્ષરો દાખલ કરો.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'કૃપા કરીને માત્ર મૂળાક્ષરના અક્ષરો દાખલ કરો.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - અમેરિકાનો ફોન નંબર દાખલ કરો.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - અમેરિકાનો ફોન નંબર દાખલ કરો.';
 
   @override
   String get demoTextFieldEnterPassword => 'કૃપા કરીને પાસવર્ડ દાખલ કરો.';
@@ -1477,13 +1569,15 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoTextFieldPasswordsDoNotMatch => 'પાસવર્ડનો મેળ બેસતો નથી';
 
   @override
-  String get demoTextFieldWhatDoPeopleCallYou => 'લોકો તમને શું કહીને બોલાવે છે?';
+  String get demoTextFieldWhatDoPeopleCallYou =>
+      'લોકો તમને શું કહીને બોલાવે છે?';
 
   @override
   String get demoTextFieldNameField => 'નામ*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'અમે ક્યાં તમારો સંપર્ક કરી શકીએ?';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'અમે ક્યાં તમારો સંપર્ક કરી શકીએ?';
 
   @override
   String get demoTextFieldPhoneNumber => 'ફોન નંબર*';
@@ -1495,7 +1589,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoTextFieldEmail => 'ઇમેઇલ';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'અમને તમારા વિશે જણાવો (દા.ત., તમે શું કરો છો તે અથવા તમારા શોખ વિશે લખો)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'અમને તમારા વિશે જણાવો (દા.ત., તમે શું કરો છો તે અથવા તમારા શોખ વિશે લખો)';
 
   @override
   String get demoTextFieldKeepItShort => 'ટૂંકું જ બનાવો, આ માત્ર ડેમો છે.';
@@ -1533,13 +1628,16 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get demoTooltipTitle => 'ટૂલટિપ';
 
   @override
-  String get demoTooltipSubtitle => 'ટૂંકા સંદેશ પર થોડીવાર દબાવી રાખવાથી અથવા તેના પર લઈ જવાથી તે પ્રદર્શિત થાય છે';
+  String get demoTooltipSubtitle =>
+      'ટૂંકા સંદેશ પર થોડીવાર દબાવી રાખવાથી અથવા તેના પર લઈ જવાથી તે પ્રદર્શિત થાય છે';
 
   @override
-  String get demoTooltipDescription => 'ટૂલટિપ ટેક્સ્ટ લેબલ આપે છે, જે બટન અથવા યૂઝર ઇન્ટરફેસની અન્ય ક્રિયાના ફંક્શન સમજાવવામાં સહાય કરે છે. જ્યારે વપરાશકર્તા કોઈ ઘટક પર લઈ જાય, તેના પર ફોકસ કરે અથવા તેના પર થોડીવાર દબાવી રાખે, ત્યારે ટૂલટિપ માહિતીપ્રદ ટેક્સ્ટ પ્રદર્શિત કરે છે.';
+  String get demoTooltipDescription =>
+      'ટૂલટિપ ટેક્સ્ટ લેબલ આપે છે, જે બટન અથવા યૂઝર ઇન્ટરફેસની અન્ય ક્રિયાના ફંક્શન સમજાવવામાં સહાય કરે છે. જ્યારે વપરાશકર્તા કોઈ ઘટક પર લઈ જાય, તેના પર ફોકસ કરે અથવા તેના પર થોડીવાર દબાવી રાખે, ત્યારે ટૂલટિપ માહિતીપ્રદ ટેક્સ્ટ પ્રદર્શિત કરે છે.';
 
   @override
-  String get demoTooltipInstructions => 'ટૂલટિપ બતાવવા માટે થોડીવાર દબાવી રાખો અથવા તેના પર લઈ જાઓ.';
+  String get demoTooltipInstructions =>
+      'ટૂલટિપ બતાવવા માટે થોડીવાર દબાવી રાખો અથવા તેના પર લઈ જાઓ.';
 
   @override
   String get bottomNavigationCommentsTab => 'કૉમેન્ટ';
@@ -1600,7 +1698,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get dialogLocationTitle => 'Googleની સ્થાન સેવાનો ઉપયોગ કરીએ?';
 
   @override
-  String get dialogLocationDescription => 'Googleને સ્થાન નિર્ધારિત કરવામાં ઍપની સહાય કરવા દો. આનો અર્થ છે જ્યારે કોઈ ઍપ ચાલી ન રહી હોય ત્યારે પણ Googleને અનામ સ્થાન ડેટા મોકલવો.';
+  String get dialogLocationDescription =>
+      'Googleને સ્થાન નિર્ધારિત કરવામાં ઍપની સહાય કરવા દો. આનો અર્થ છે જ્યારે કોઈ ઍપ ચાલી ન રહી હોય ત્યારે પણ Googleને અનામ સ્થાન ડેટા મોકલવો.';
 
   @override
   String get dialogCancel => 'રદ કરો';
@@ -1645,10 +1744,12 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'કાઢી નાખો';
 
   @override
-  String get cupertinoAlertLocationTitle => 'તમે ઍપનો ઉપયોગ કરી રહ્યાં હો તે વખતે \"Maps\"ને તમારા સ્થાનના ઍક્સેસની મંજૂરી આપીએ?';
+  String get cupertinoAlertLocationTitle =>
+      'તમે ઍપનો ઉપયોગ કરી રહ્યાં હો તે વખતે \"Maps\"ને તમારા સ્થાનના ઍક્સેસની મંજૂરી આપીએ?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'નકશા પર તમારું વર્તમાન સ્થાન બતાવવામાં આવશે અને દિશા નિર્દેશો, નજીકના શોધ પરિણામ અને મુસાફરીના અંદાજિત સમયને બતાવવા માટે તેનો ઉપયોગ કરવામાં આવશે.';
+  String get cupertinoAlertLocationDescription =>
+      'નકશા પર તમારું વર્તમાન સ્થાન બતાવવામાં આવશે અને દિશા નિર્દેશો, નજીકના શોધ પરિણામ અને મુસાફરીના અંદાજિત સમયને બતાવવા માટે તેનો ઉપયોગ કરવામાં આવશે.';
 
   @override
   String get cupertinoAlertAllow => 'મંજૂરી આપો';
@@ -1660,7 +1761,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'મનપસંદ મીઠાઈ પસંદ કરો';
 
   @override
-  String get cupertinoAlertDessertDescription => 'નીચેની સૂચિમાંથી કૃપા કરીને તમારા મનપસંદ પ્રકારની મીઠાઈને પસંદ કરો. તમારા ક્ષેત્રમાં રહેલી ખાવા-પીવાની દુકાનોની સૂચવેલી સૂચિને કસ્ટમાઇઝ કરવા માટે તમારી પસંદગીનો ઉપયોગ કરવામાં આવશે.';
+  String get cupertinoAlertDessertDescription =>
+      'નીચેની સૂચિમાંથી કૃપા કરીને તમારા મનપસંદ પ્રકારની મીઠાઈને પસંદ કરો. તમારા ક્ષેત્રમાં રહેલી ખાવા-પીવાની દુકાનોની સૂચવેલી સૂચિને કસ્ટમાઇઝ કરવા માટે તમારી પસંદગીનો ઉપયોગ કરવામાં આવશે.';
 
   @override
   String get cupertinoAlertCheesecake => 'ચીઝકેક';
@@ -2093,10 +2195,12 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get craneFlySubhead => 'નિર્ધારિત સ્થાન દ્વારા ફ્લાઇટની શોધખોળ કરો';
 
   @override
-  String get craneSleepSubhead => 'નિર્ધારિત સ્થાન દ્વારા પ્રોપર્ટીની શોધખોળ કરો';
+  String get craneSleepSubhead =>
+      'નિર્ધારિત સ્થાન દ્વારા પ્રોપર્ટીની શોધખોળ કરો';
 
   @override
-  String get craneEatSubhead => 'નિર્ધારિત સ્થાન દ્વારા રેસ્ટોરન્ટની શોધખોળ કરો';
+  String get craneEatSubhead =>
+      'નિર્ધારિત સ્થાન દ્વારા રેસ્ટોરન્ટની શોધખોળ કરો';
 
   @override
   String craneFlyStops(int numberOfStops) {
@@ -2243,13 +2347,15 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get craneEat10 => 'લિસ્બન, પોર્ટુગલ';
 
   @override
-  String get craneFly0SemanticLabel => 'સદાબહાર ઝાડવાળા બર્ફીલા લૅન્ડસ્કેપમાં ચેલેટ';
+  String get craneFly0SemanticLabel =>
+      'સદાબહાર ઝાડવાળા બર્ફીલા લૅન્ડસ્કેપમાં ચેલેટ';
 
   @override
   String get craneFly1SemanticLabel => 'ફીલ્ડમાં તંબુ';
 
   @override
-  String get craneFly2SemanticLabel => 'બર્ફીલા પર્વતની આગળ પ્રાર્થના માટે લગાવેલા ધ્વજ';
+  String get craneFly2SemanticLabel =>
+      'બર્ફીલા પર્વતની આગળ પ્રાર્થના માટે લગાવેલા ધ્વજ';
 
   @override
   String get craneFly3SemanticLabel => 'માચુ પિચ્ચુનો રાજગઢ';
@@ -2261,7 +2367,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get craneFly5SemanticLabel => 'પર્વતોની સામે તળાવ બાજુ હોટલ';
 
   @override
-  String get craneFly6SemanticLabel => 'પેલેસિઓ ડી બેલાસ આર્ટસનું ઉપરથી દેખાતું દૃશ્ય';
+  String get craneFly6SemanticLabel =>
+      'પેલેસિઓ ડી બેલાસ આર્ટસનું ઉપરથી દેખાતું દૃશ્ય';
 
   @override
   String get craneFly7SemanticLabel => 'માઉન્ટ રુશ્મોર';
@@ -2270,7 +2377,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'સુપરટ્રી ગ્રોવ';
 
   @override
-  String get craneFly9SemanticLabel => 'પ્રાચીન વાદળી કારને ટેકો આપીને ઉભેલો માણસ';
+  String get craneFly9SemanticLabel =>
+      'પ્રાચીન વાદળી કારને ટેકો આપીને ઉભેલો માણસ';
 
   @override
   String get craneFly10SemanticLabel => 'સૂર્યાસ્ત પછી અલ-અઝહર મસ્જિદના ટાવર';
@@ -2288,13 +2396,15 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get craneSleep0SemanticLabel => 'પાણીની ઉપર બનાવેલો બંગલો';
 
   @override
-  String get craneSleep1SemanticLabel => 'સદાબહાર ઝાડવાળા બર્ફીલા લૅન્ડસ્કેપમાં ચેલેટ';
+  String get craneSleep1SemanticLabel =>
+      'સદાબહાર ઝાડવાળા બર્ફીલા લૅન્ડસ્કેપમાં ચેલેટ';
 
   @override
   String get craneSleep2SemanticLabel => 'માચુ પિચ્ચુનો રાજગઢ';
 
   @override
-  String get craneSleep3SemanticLabel => 'પ્રાચીન વાદળી કારને ટેકો આપીને ઉભેલો માણસ';
+  String get craneSleep3SemanticLabel =>
+      'પ્રાચીન વાદળી કારને ટેકો આપીને ઉભેલો માણસ';
 
   @override
   String get craneSleep4SemanticLabel => 'પર્વતોની સામે તળાવ બાજુ હોટલ';
@@ -2306,13 +2416,15 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get craneSleep6SemanticLabel => 'પામના વૃક્ષોવાળો પૂલ';
 
   @override
-  String get craneSleep7SemanticLabel => 'રિબેરિયા સ્ક્વેરમાં રંગીન એપાર્ટમેન્ટ';
+  String get craneSleep7SemanticLabel =>
+      'રિબેરિયા સ્ક્વેરમાં રંગીન એપાર્ટમેન્ટ';
 
   @override
   String get craneSleep8SemanticLabel => 'મય બીચના ખડક પર ખંડેર';
 
   @override
-  String get craneSleep9SemanticLabel => 'સમુદ્ર કિનારે ઈંટથી બનાવેલી દીવાદાંડી';
+  String get craneSleep9SemanticLabel =>
+      'સમુદ્ર કિનારે ઈંટથી બનાવેલી દીવાદાંડી';
 
   @override
   String get craneSleep10SemanticLabel => 'સૂર્યાસ્ત પછી અલ-અઝહર મસ્જિદના ટાવર';
@@ -2336,7 +2448,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get craneEat4SemanticLabel => 'ચોકલેટ ડેઝર્ટ';
 
   @override
-  String get craneEat5SemanticLabel => 'કલાત્મક રીતે બનાવેલા રેસ્ટોરન્ટનો બેઠક વિસ્તાર';
+  String get craneEat5SemanticLabel =>
+      'કલાત્મક રીતે બનાવેલા રેસ્ટોરન્ટનો બેઠક વિસ્તાર';
 
   @override
   String get craneEat6SemanticLabel => 'ઝીંગાની વાનગી';
@@ -2351,7 +2464,8 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get craneEat9SemanticLabel => 'પેસ્ટ્રી સાથે કૅફે કાઉન્ટર';
 
   @override
-  String get craneEat10SemanticLabel => 'મોટી પાસ્ટ્રામી સેન્ડવિચ પકડીને ઉભેલી સ્ત્રી';
+  String get craneEat10SemanticLabel =>
+      'મોટી પાસ્ટ્રામી સેન્ડવિચ પકડીને ઉભેલી સ્ત્રી';
 
   @override
   String get fortnightlyMenuFrontPage => 'ફ્રન્ટ પેજ';
@@ -2402,10 +2516,12 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'તાજેતરના અપડેટ';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'આરોગ્યસંભાળની સશક્ત ક્રાંતિ, તે પણ કશા શોરબકોર વિના';
+  String get fortnightlyHeadlineHealthcare =>
+      'આરોગ્યસંભાળની સશક્ત ક્રાંતિ, તે પણ કશા શોરબકોર વિના';
 
   @override
-  String get fortnightlyHeadlineWar => 'યુદ્ધે અમેરિકન લોકોને બે પક્ષમાં વહેંચી દીધા';
+  String get fortnightlyHeadlineWar =>
+      'યુદ્ધે અમેરિકન લોકોને બે પક્ષમાં વહેંચી દીધા';
 
   @override
   String get fortnightlyHeadlineGasoline => 'પેટ્રોલનું ભવિતવ્ય';
@@ -2414,13 +2530,16 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'પર્યાવરણની રક્ષકોના સંગાથે';
 
   @override
-  String get fortnightlyHeadlineStocks => 'સ્ટૉકમાં સ્થિરતા પછી લોકોનો ચલણ તરફી ઝુકાવ';
+  String get fortnightlyHeadlineStocks =>
+      'સ્ટૉકમાં સ્થિરતા પછી લોકોનો ચલણ તરફી ઝુકાવ';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'ભવિષ્યના વસ્ત્રો માટે ડિઝાઇનરોએ લીધો ટેકનો સહારો';
+  String get fortnightlyHeadlineFabrics =>
+      'ભવિષ્યના વસ્ત્રો માટે ડિઝાઇનરોએ લીધો ટેકનો સહારો';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'છેડાઈ ગયો જંગ નારીવાદીઓ અને પક્ષપાતીઓ વચ્ચે';
+  String get fortnightlyHeadlineFeminists =>
+      'છેડાઈ ગયો જંગ નારીવાદીઓ અને પક્ષપાતીઓ વચ્ચે';
 
   @override
   String get fortnightlyHeadlineBees => 'ક્યાં છે મધમાખીઓ!';

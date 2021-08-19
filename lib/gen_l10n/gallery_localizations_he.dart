@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get signIn => 'כניסה';
 
   @override
-  String get bannerDemoText => 'הסיסמה שלך עודכנה במכשיר הנוסף שלך. יש להתחבר שוב.';
+  String get bannerDemoText =>
+      'הסיסמה שלך עודכנה במכשיר הנוסף שלך. יש להתחבר שוב.';
 
   @override
   String get bannerDemoResetText => 'איפוס של הבאנר';
@@ -60,7 +60,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => '10 הערים המובילות שצריך לבקר בהן בטמיל נאדו';
+  String get cardsDemoTravelDestinationTitle1 =>
+      '10 הערים המובילות שצריך לבקר בהן בטמיל נאדו';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'מספר 10';
@@ -72,7 +73,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get cardsDemoTravelDestinationLocation1 => 'טאנג\'וור, טמיל נאדו';
 
   @override
-  String get cardsDemoTravelDestinationTitle2 => 'אנשי המלאכה המיומנים של דרום הודו';
+  String get cardsDemoTravelDestinationTitle2 =>
+      'אנשי המלאכה המיומנים של דרום הודו';
 
   @override
   String get cardsDemoTravelDestinationDescription2 => 'טוויית משי';
@@ -120,7 +122,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'חופשה';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'תשואה שנתית באחוזים';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'תשואה שנתית באחוזים';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'שיעור ריבית';
@@ -129,7 +132,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'ריבית שנתית עד ליום הנוכחי';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'ריבית ששולמה בשנה שעברה';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'ריבית ששולמה בשנה שעברה';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'דוח התנועות הבא';
@@ -285,9 +289,12 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'רוצה להגדיל את ההנחה הפוטנציאלית שלך במס? יש להקצות קטגוריות לעסקה אחת שלא הוקצתה.',
-      many: 'רוצה להגדיל את ההנחה הפוטנציאלית שלך במס? יש להקצות קטגוריות ל-${count} עסקאות שלא הוקצו.',
-      other: 'רוצה להגדיל את ההנחה הפוטנציאלית שלך במס? יש להקצות קטגוריות ל-${count} עסקאות שלא הוקצו.',
+      one:
+          'רוצה להגדיל את ההנחה הפוטנציאלית שלך במס? יש להקצות קטגוריות לעסקה אחת שלא הוקצתה.',
+      many:
+          'רוצה להגדיל את ההנחה הפוטנציאלית שלך במס? יש להקצות קטגוריות ל-${count} עסקאות שלא הוקצו.',
+      other:
+          'רוצה להגדיל את ההנחה הפוטנציאלית שלך במס? יש להקצות קטגוריות ל-${count} עסקאות שלא הוקצו.',
     );
   }
 
@@ -301,7 +308,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'הצגת כל התקציבים';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'בחשבון ${accountName} עם המספר ${accountNumber} יש ${amount}.';
   }
 
@@ -311,7 +319,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'בתקציב ${budgetName} הייתה הוצאה של ${amountUsed} מתוך ${amountTotal} ונותר הסכום ${amountLeft}';
   }
 
@@ -354,7 +363,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'הצגת אפשרויות';
 
   @override
-  String get demoOptionsFeatureDescription => 'יש להקיש כאן כדי להציג אפשרויות זמינות להדגמה זו.';
+  String get demoOptionsFeatureDescription =>
+      'יש להקיש כאן כדי להציג אפשרויות זמינות להדגמה זו.';
 
   @override
   String get settingsTitle => 'הגדרות';
@@ -426,10 +436,12 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'סרגל האפליקציה התחתון';
@@ -438,7 +450,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoBottomAppBarSubtitle => 'מציג ניווט ופעולות בתחתית המסך';
 
   @override
-  String get demoBottomAppBarDescription => 'סרגלי אפליקציה תחתונים נותנים גישה לחלונית הזזה תחתית לניווט ולארבע פעולות לכל היותר, כולל לחצן הפעולה הצף.';
+  String get demoBottomAppBarDescription =>
+      'סרגלי אפליקציה תחתונים נותנים גישה לחלונית הזזה תחתית לניווט ולארבע פעולות לכל היותר, כולל לחצן הפעולה הצף.';
 
   @override
   String get bottomAppBarNotch => 'חריץ';
@@ -465,13 +478,15 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoBannerSubtitle => 'הצגת באנר בתוך רשימה';
 
   @override
-  String get demoBannerDescription => 'באנר מציג הודעה חשובה ותמציתית, וכולל פעולות שהמשתמשים צריכים להתייחס אליהן (או לסגור את הבאנר). יש צורך בפעולה מצד המשתמש כדי שהבאנר ייסגר.';
+  String get demoBannerDescription =>
+      'באנר מציג הודעה חשובה ותמציתית, וכולל פעולות שהמשתמשים צריכים להתייחס אליהן (או לסגור את הבאנר). יש צורך בפעולה מצד המשתמש כדי שהבאנר ייסגר.';
 
   @override
   String get demoBottomNavigationTitle => 'ניווט בחלק התחתון';
 
   @override
-  String get demoBottomNavigationSubtitle => 'ניווט בחלק התחתון עם תצוגות במידת שקיפות משתנה';
+  String get demoBottomNavigationSubtitle =>
+      'ניווט בחלק התחתון עם תצוגות במידת שקיפות משתנה';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'תוויות קבועות';
@@ -480,7 +495,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'תווית שנבחרה';
 
   @override
-  String get demoBottomNavigationDescription => 'סרגלי ניווט תחתונים מציגים שלושה עד חמישה יעדים בחלק התחתון של מסך כלשהו. כל יעד מיוצג על ידי סמל ותווית טקסט אופציונלית. כשמשתמש מקיש על סמל ניווט תחתון, המשתמש מועבר ליעד הניווט ברמה העליונה שמשויך לסמל הזה.';
+  String get demoBottomNavigationDescription =>
+      'סרגלי ניווט תחתונים מציגים שלושה עד חמישה יעדים בחלק התחתון של מסך כלשהו. כל יעד מיוצג על ידי סמל ותווית טקסט אופציונלית. כשמשתמש מקיש על סמל ניווט תחתון, המשתמש מועבר ליעד הניווט ברמה העליונה שמשויך לסמל הזה.';
 
   @override
   String get demoButtonTitle => 'לחצנים';
@@ -492,31 +508,36 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoTextButtonTitle => 'לחצן הטקסט';
 
   @override
-  String get demoTextButtonDescription => 'לחצן טקסט מציג התזת דיו כשלוחצים עליו, אבל הוא לא מובלט. יש להשתמש בלחצני טקסט בסרגלי כלים, בתיבות דו-שיח ובתוך שורות עם מרווח פנימי.';
+  String get demoTextButtonDescription =>
+      'לחצן טקסט מציג התזת דיו כשלוחצים עליו, אבל הוא לא מובלט. יש להשתמש בלחצני טקסט בסרגלי כלים, בתיבות דו-שיח ובתוך שורות עם מרווח פנימי.';
 
   @override
   String get demoElevatedButtonTitle => 'לחצן בולט';
 
   @override
-  String get demoElevatedButtonDescription => 'לחצנים בולטים מוסיפים ממד לפריסות ששטוחות ברובן. הם מדגישים פונקציות בסביבות תצוגה עמוסות או רחבות.';
+  String get demoElevatedButtonDescription =>
+      'לחצנים בולטים מוסיפים ממד לפריסות ששטוחות ברובן. הם מדגישים פונקציות בסביבות תצוגה עמוסות או רחבות.';
 
   @override
   String get demoOutlinedButtonTitle => 'לחצן מודגש';
 
   @override
-  String get demoOutlinedButtonDescription => 'לחצנים מודגשים הופכים לאטומים ובולטים כשלוחצים עליהם. בדרך כלל, מבוצעת להם התאמה עם לחצנים בולטים כדי לציין פעולה חלופית משנית.';
+  String get demoOutlinedButtonDescription =>
+      'לחצנים מודגשים הופכים לאטומים ובולטים כשלוחצים עליהם. בדרך כלל, מבוצעת להם התאמה עם לחצנים בולטים כדי לציין פעולה חלופית משנית.';
 
   @override
   String get demoToggleButtonTitle => 'לחצני החלפת מצב';
 
   @override
-  String get demoToggleButtonDescription => 'אפשר להשתמש בלחצני החלפת מצב לקיבוץ של אפשרויות קשורות. כדי להדגיש קבוצות של לחצני החלפת מצב קשורים, לקבוצה צריך להיות מאגר משותף';
+  String get demoToggleButtonDescription =>
+      'אפשר להשתמש בלחצני החלפת מצב לקיבוץ של אפשרויות קשורות. כדי להדגיש קבוצות של לחצני החלפת מצב קשורים, לקבוצה צריך להיות מאגר משותף';
 
   @override
   String get demoFloatingButtonTitle => 'לחצן פעולה צף';
 
   @override
-  String get demoFloatingButtonDescription => 'לחצן פעולה צף הוא לחצן סמל מעגלי שמוצג מעל תוכן, כדי לקדם פעולה ראשית באפליקציה.';
+  String get demoFloatingButtonDescription =>
+      'לחצן פעולה צף הוא לחצן סמל מעגלי שמוצג מעל תוכן, כדי לקדם פעולה ראשית באפליקציה.';
 
   @override
   String get demoCardTitle => 'כרטיסים';
@@ -528,34 +549,40 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoChipTitle => 'צ\'יפים';
 
   @override
-  String get demoCardDescription => 'כרטיס הוא גיליון בעיצוב חדשני תלת-ממדי שמשמש לייצוג מידע קשור, לדוגמה: אלבום, מיקום גיאוגרפי, ארוחה, פרטים ליצירת קשר וכו\'.';
+  String get demoCardDescription =>
+      'כרטיס הוא גיליון בעיצוב חדשני תלת-ממדי שמשמש לייצוג מידע קשור, לדוגמה: אלבום, מיקום גיאוגרפי, ארוחה, פרטים ליצירת קשר וכו\'.';
 
   @override
-  String get demoChipSubtitle => 'רכיבים קומפקטיים שמייצגים קלט, מאפיין או פעולה';
+  String get demoChipSubtitle =>
+      'רכיבים קומפקטיים שמייצגים קלט, מאפיין או פעולה';
 
   @override
   String get demoActionChipTitle => 'צ\'יפ של פעולה';
 
   @override
-  String get demoActionChipDescription => 'צ\'יפים של פעולה הם קבוצת אפשרויות שמפעילה פעולה כלשהי שקשורה לתוכן עיקרי. צ\'יפים של פעולה צריכים להופיע באופן דינמי ולפי הקשר בממשק המשתמש.';
+  String get demoActionChipDescription =>
+      'צ\'יפים של פעולה הם קבוצת אפשרויות שמפעילה פעולה כלשהי שקשורה לתוכן עיקרי. צ\'יפים של פעולה צריכים להופיע באופן דינמי ולפי הקשר בממשק המשתמש.';
 
   @override
   String get demoChoiceChipTitle => 'צ\'יפ של בחירה';
 
   @override
-  String get demoChoiceChipDescription => 'צ\'יפים של בחירה מייצגים בחירה יחידה מתוך קבוצה. צ\'יפים של בחירה מכילים קטגוריות או טקסט תיאורי קשורים.';
+  String get demoChoiceChipDescription =>
+      'צ\'יפים של בחירה מייצגים בחירה יחידה מתוך קבוצה. צ\'יפים של בחירה מכילים קטגוריות או טקסט תיאורי קשורים.';
 
   @override
   String get demoFilterChipTitle => 'סמל מסנן';
 
   @override
-  String get demoFilterChipDescription => 'צ\'יפים של סינון משתמשים בתגים או במילות תיאור כדרך לסינון תוכן.';
+  String get demoFilterChipDescription =>
+      'צ\'יפים של סינון משתמשים בתגים או במילות תיאור כדרך לסינון תוכן.';
 
   @override
   String get demoInputChipTitle => 'צ\'יפ קלט';
 
   @override
-  String get demoInputChipDescription => 'צ\'יפים של קלט מייצגים פרט חשוב, כמו ישות (אדם, מקום או דבר) או טקסט דיבורי, בפורמט קומפקטי.';
+  String get demoInputChipDescription =>
+      'צ\'יפים של קלט מייצגים פרט חשוב, כמו ישות (אדם, מקום או דבר) או טקסט דיבורי, בפורמט קומפקטי.';
 
   @override
   String get demoDataTableTitle => 'טבלאות נתונים';
@@ -564,7 +591,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'שורות ועמודות של מידע';
 
   @override
-  String get demoDataTableDescription => 'טבלאות נתונים מציגות מידע בפורמט דמוי-רשת, הכולל שורות ועמודות. המידע מאורגן בהן כך שקל לסרוק אותו, ומשתמשים יכולים למצוא דפוסים ולקבל תובנות.';
+  String get demoDataTableDescription =>
+      'טבלאות נתונים מציגות מידע בפורמט דמוי-רשת, הכולל שורות ועמודות. המידע מאורגן בהן כך שקל לסרוק אותו, ומשתמשים יכולים למצוא דפוסים ולקבל תובנות.';
 
   @override
   String get dataTableHeader => 'תזונה';
@@ -643,7 +671,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'התראה';
 
   @override
-  String get demoAlertDialogDescription => 'תיבת דו-שיח של התראה נועדה ליידע את המשתמש לגבי מצבים שדורשים אישור. לתיבת דו-שיח של התראה יש כותרת אופציונלית ורשימה אופציונלית של פעולות.';
+  String get demoAlertDialogDescription =>
+      'תיבת דו-שיח של התראה נועדה ליידע את המשתמש לגבי מצבים שדורשים אישור. לתיבת דו-שיח של התראה יש כותרת אופציונלית ורשימה אופציונלית של פעולות.';
 
   @override
   String get demoAlertTitleDialogTitle => 'התראה עם כותרת';
@@ -652,16 +681,19 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'פשוטה';
 
   @override
-  String get demoSimpleDialogDescription => 'תיבת דו-שיח פשוטה מציעה למשתמש בחירה מבין מספר אפשרויות. לתיבת דו-שיח יש כותרת אופציונלית שמוצגת מעל אפשרויות הבחירה.';
+  String get demoSimpleDialogDescription =>
+      'תיבת דו-שיח פשוטה מציעה למשתמש בחירה מבין מספר אפשרויות. לתיבת דו-שיח יש כותרת אופציונלית שמוצגת מעל אפשרויות הבחירה.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -673,7 +705,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'פריסת שורות ועמודות';
 
   @override
-  String get demoGridListsDescription => 'רשימות רשתות הכי מתאימות להצגת נתונים הומוגניים, בדרך כלל אלה תמונות. כל פריט ברשימת רשתות נקרא אריח.';
+  String get demoGridListsDescription =>
+      'רשימות רשתות הכי מתאימות להצגת נתונים הומוגניים, בדרך כלל אלה תמונות. כל פריט ברשימת רשתות נקרא אריח.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'תמונה בלבד';
@@ -691,31 +724,37 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoSlidersSubtitle => 'ווידג\'טים לבחירת ערך על ידי החלקה';
 
   @override
-  String get demoSlidersDescription => 'מחוונים מייצגים טווח ערכים לאורך סרגל, שהמשתמשים יכולים לבחור ערך מתוכו. הם אידיאליים להתאמת הגדרות כמו עוצמת קול, בהירות או להחלת מסנני תמונות.';
+  String get demoSlidersDescription =>
+      'מחוונים מייצגים טווח ערכים לאורך סרגל, שהמשתמשים יכולים לבחור ערך מתוכו. הם אידיאליים להתאמת הגדרות כמו עוצמת קול, בהירות או להחלת מסנני תמונות.';
 
   @override
   String get demoRangeSlidersTitle => 'מחווני טווח';
 
   @override
-  String get demoRangeSlidersDescription => 'מחוונים מייצגים טווח ערכים לאורך סרגל. אפשר להוסיף להם סמלים בשני צדי הסרגל שמייצגים טווח ערכים. הם אידיאליים להתאמת הגדרות כמו עוצמת קול, בהירות או להחלת מסנני תמונות.';
+  String get demoRangeSlidersDescription =>
+      'מחוונים מייצגים טווח ערכים לאורך סרגל. אפשר להוסיף להם סמלים בשני צדי הסרגל שמייצגים טווח ערכים. הם אידיאליים להתאמת הגדרות כמו עוצמת קול, בהירות או להחלת מסנני תמונות.';
 
   @override
   String get demoCustomSlidersTitle => 'מחוונים מותאמים אישית';
 
   @override
-  String get demoCustomSlidersDescription => 'מחוונים מייצגים טווח ערכים לאורך סרגל, שהמשתמשים יכולים לבחור ערך יחיד או טווח ערכים מתוכו. ניתן לעצב מחוונים ולהתאים אותם אישית.';
+  String get demoCustomSlidersDescription =>
+      'מחוונים מייצגים טווח ערכים לאורך סרגל, שהמשתמשים יכולים לבחור ערך יחיד או טווח ערכים מתוכו. ניתן לעצב מחוונים ולהתאים אותם אישית.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'רציף עם ערך מספרי שניתן לעריכה';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'רציף עם ערך מספרי שניתן לעריכה';
 
   @override
   String get demoSlidersDiscrete => 'דיסקרטי';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'מחוון דיסקרטי עם עיצוב מותאם אישי';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'מחוון דיסקרטי עם עיצוב מותאם אישי';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'מחוון טווח רציף עם עיצוב מותאם אישי';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'מחוון טווח רציף עם עיצוב מותאם אישי';
 
   @override
   String get demoSlidersContinuous => 'רציף';
@@ -742,7 +781,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoMenuSubtitle => 'לחצני תפריטים ותפריטים פשוטים';
 
   @override
-  String get demoMenuDescription => 'בתפריט מוצגת רשימת אפשרויות לבחירה על משטח זמני. הן מופיעות כשמשתמשים מבצעים אינטראקציה עם לחצן, פעולה או פקד אחר.';
+  String get demoMenuDescription =>
+      'בתפריט מוצגת רשימת אפשרויות לבחירה על משטח זמני. הן מופיעות כשמשתמשים מבצעים אינטראקציה עם לחצן, פעולה או פקד אחר.';
 
   @override
   String get demoMenuItemValueOne => 'אפשרות ראשונה בתפריט';
@@ -809,7 +849,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoNavigationDrawerSubtitle => 'הצגת חלונית הזזה בסרגל אפליקציה';
 
   @override
-  String get demoNavigationDrawerDescription => 'פאנל של Material Design שמוסטת אופקית מקצה המסך ומציגה קישורי ניווט באפליקציה.';
+  String get demoNavigationDrawerDescription =>
+      'פאנל של Material Design שמוסטת אופקית מקצה המסך ומציגה קישורי ניווט באפליקציה.';
 
   @override
   String get demoNavigationDrawerUserName => 'שם משתמש';
@@ -824,7 +865,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'פריט שני';
 
   @override
-  String get demoNavigationDrawerText => 'יש להחליק מהקצה או להקיש על הסמל שבצד ימין למעלה כדי לראות את החלונית';
+  String get demoNavigationDrawerText =>
+      'יש להחליק מהקצה או להקיש על הסמל שבצד ימין למעלה כדי לראות את החלונית';
 
   @override
   String get demoNavigationRailTitle => 'פס ניווט';
@@ -833,7 +875,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoNavigationRailSubtitle => 'הצגת פס ניווט באפליקציה';
 
   @override
-  String get demoNavigationRailDescription => 'ווידג\'ט פיזי שאמור להיות מוצג בצד שמאל או בצד ימין של אפליקציה כדי לנווט בין מספר קטן של תצוגות, בדרך כלל בין שלוש לחמש.';
+  String get demoNavigationRailDescription =>
+      'ווידג\'ט פיזי שאמור להיות מוצג בצד שמאל או בצד ימין של אפליקציה כדי לנווט בין מספר קטן של תצוגות, בדרך כלל בין שלוש לחמש.';
 
   @override
   String get demoNavigationRailFirst => 'הראשון';
@@ -848,22 +891,26 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoMenuAnItemWithASimpleMenu => 'פריט עם תפריט פשוט';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'פריט עם תפריט של רשימת משימות';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'פריט עם תפריט של רשימת משימות';
 
   @override
   String get demoFullscreenDialogTitle => 'מסך מלא';
 
   @override
-  String get demoFullscreenDialogDescription => 'המאפיין fullscreenDialog מציין אם הדף המתקבל הוא תיבת דו-שיח מודאלית במסך מלא';
+  String get demoFullscreenDialogDescription =>
+      'המאפיין fullscreenDialog מציין אם הדף המתקבל הוא תיבת דו-שיח מודאלית במסך מלא';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'אינדיקטור של פעילות';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'אינדיקטורים של פעילות בסגנון iOS';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'אינדיקטורים של פעילות בסגנון iOS';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'אינדיקטור של פעילות בסגנון iOS שמסתובב בכיוון השעון.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'אינדיקטור של פעילות בסגנון iOS שמסתובב בכיוון השעון.';
 
   @override
   String get demoCupertinoButtonsTitle => 'לחצנים';
@@ -872,7 +919,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'לחצנים בסגנון iOS';
 
   @override
-  String get demoCupertinoButtonsDescription => 'לחצן בסגנון iOS. הוא מקבל טקסט ו/או סמל שמתעמעמים ומתחדדים בעת נגיעה בלחצן. יכול להיות לו גם רקע.';
+  String get demoCupertinoButtonsDescription =>
+      'לחצן בסגנון iOS. הוא מקבל טקסט ו/או סמל שמתעמעמים ומתחדדים בעת נגיעה בלחצן. יכול להיות לו גם רקע.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -881,7 +929,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -890,7 +939,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'התראות';
@@ -902,7 +952,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => 'התראה';
 
   @override
-  String get demoCupertinoAlertDescription => 'תיבת דו-שיח של התראה נועדה ליידע את המשתמש לגבי מצבים שדורשים אישור. לתיבת דו-שיח של התראה יש כותרת ותוכן אופציונליים ורשימה אופציונלית של פעולות. הכותרת מוצגת מעל התוכן, והפעולות מוצגות מתחת לתוכן.';
+  String get demoCupertinoAlertDescription =>
+      'תיבת דו-שיח של התראה נועדה ליידע את המשתמש לגבי מצבים שדורשים אישור. לתיבת דו-שיח של התראה יש כותרת ותוכן אופציונליים ורשימה אופציונלית של פעולות. הכותרת מוצגת מעל התוכן, והפעולות מוצגות מתחת לתוכן.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'התראה עם כותרת';
@@ -917,7 +968,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'גיליון פעולות';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'גיליון פעולות הוא סגנון ספציפי של התראה, שבה מוצגות למשתמש שתי אפשרויות או יותר בהקשר הנוכחי. גיליון פעולות יכול לכלול כותרת, הודעה נוספת ורשימת פעולות.';
+  String get demoCupertinoActionSheetDescription =>
+      'גיליון פעולות הוא סגנון ספציפי של התראה, שבה מוצגות למשתמש שתי אפשרויות או יותר בהקשר הנוכחי. גיליון פעולות יכול לכלול כותרת, הודעה נוספת ורשימת פעולות.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'סרגל ניווט';
@@ -926,7 +978,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoCupertinoNavigationBarSubtitle => 'סרגל ניווט בסגנון iOS';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'סרגל ניווט בסגנון iOS. סרגל הניווט הוא סרגל כלים שכולל כותרת דף מינימלית במרכז סרגל הכלים.';
+  String get demoCupertinoNavigationBarDescription =>
+      'סרגל ניווט בסגנון iOS. סרגל הניווט הוא סרגל כלים שכולל כותרת דף מינימלית במרכז סרגל הכלים.';
 
   @override
   String get demoCupertinoPickerTitle => 'בוררים';
@@ -935,7 +988,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoCupertinoPickerSubtitle => 'בוררים לשעה ולתאריך בסגנון iOS';
 
   @override
-  String get demoCupertinoPickerDescription => 'ווידג\'ט בורר בסגנון iOS שיכול לשמש לבחירת תאריכים, שעות או שני הערכים (תאריך ושעה).';
+  String get demoCupertinoPickerDescription =>
+      'ווידג\'ט בורר בסגנון iOS שיכול לשמש לבחירת תאריכים, שעות או שני הערכים (תאריך ושעה).';
 
   @override
   String get demoCupertinoPickerTimer => 'טיימר';
@@ -953,10 +1007,12 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'משיכה לרענון';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'פקד משיכה לרענון בסגנון iOS';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'פקד משיכה לרענון בסגנון iOS';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'ווידג\'ט שמיישם את פקד התוכן של משיכה לרענון בסגנון iOS';
+  String get demoCupertinoPullToRefreshDescription =>
+      'ווידג\'ט שמיישם את פקד התוכן של משיכה לרענון בסגנון iOS';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'בקרה מחולקת';
@@ -965,7 +1021,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoCupertinoSegmentedControlSubtitle => 'בקרה מחולקת בסגנון iOS';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'משמשת לבחירה באפשרות אחת בלבד מתוך מספר אפשרויות. לאחר הבחירה באפשרות אחת בבקרה המחולקת, תתבטל הבחירה בשאר האפשרויות בבקרה המחולקת.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'משמשת לבחירה באפשרות אחת בלבד מתוך מספר אפשרויות. לאחר הבחירה באפשרות אחת בבקרה המחולקת, תתבטל הבחירה בשאר האפשרויות בבקרה המחולקת.';
 
   @override
   String get demoCupertinoSliderTitle => 'מחוון';
@@ -974,7 +1031,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'מחוון בסגנון iOS';
 
   @override
-  String get demoCupertinoSliderDescription => 'ניתן להשתמש במחוון כדי לבחור מתוך קבוצת ערכים רציפים או בדידים.';
+  String get demoCupertinoSliderDescription =>
+      'ניתן להשתמש במחוון כדי לבחור מתוך קבוצת ערכים רציפים או בדידים.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -990,7 +1048,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'מתג בסגנון iOS';
 
   @override
-  String get demoCupertinoSwitchDescription => 'מתג שמשמש להחלפת מצב בין הפעלה לכיבוי של הגדרה בודדת.';
+  String get demoCupertinoSwitchDescription =>
+      'מתג שמשמש להחלפת מצב בין הפעלה לכיבוי של הגדרה בודדת.';
 
   @override
   String get demoCupertinoTabBarTitle => 'שורת כרטיסיות';
@@ -999,7 +1058,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'שורת כרטיסיות תחתונה בסגנון iOS';
 
   @override
-  String get demoCupertinoTabBarDescription => 'שורת כרטיסיות תחתונה לניווט בסגנון iOS. מציגה כרטיסיות מרובות כשכרטיסייה אחת פעילה, הכרטיסייה הראשונה כברירת מחדל.';
+  String get demoCupertinoTabBarDescription =>
+      'שורת כרטיסיות תחתונה לניווט בסגנון iOS. מציגה כרטיסיות מרובות כשכרטיסייה אחת פעילה, הכרטיסייה הראשונה כברירת מחדל.';
 
   @override
   String get cupertinoTabBarHomeTab => 'כרטיסיית הבית';
@@ -1017,7 +1077,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'שדות טקסט בסגנון iOS';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'שדה טקסט מאפשר למשתמש להזין טקסט באמצעות מקלדת חומרה או מקלדת במסך.';
+  String get demoCupertinoTextFieldDescription =>
+      'שדה טקסט מאפשר למשתמש להזין טקסט באמצעות מקלדת חומרה או מקלדת במסך.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'קוד אימות';
@@ -1029,7 +1090,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoMotionSubtitle => 'כל דפוסי המעבר המוגדרים מראש';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'כרטיסים, רשימות ולחצני FAB';
+  String get demoContainerTransformDemoInstructions =>
+      'כרטיסים, רשימות ולחצני FAB';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'לחצני הבא והקודם';
@@ -1050,10 +1112,12 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'טרנספורמציה של קונטיינר';
 
   @override
-  String get demoContainerTransformDescription => 'דפוס הטרנספורמציה של הקונטיינר תוכנן למעברים בין רכיבי ממשק משתמש שמכילים קונטיינר. דפוס זה יוצר חיבור גלוי בין שני רכיבי ממשק משתמש';
+  String get demoContainerTransformDescription =>
+      'דפוס הטרנספורמציה של הקונטיינר תוכנן למעברים בין רכיבי ממשק משתמש שמכילים קונטיינר. דפוס זה יוצר חיבור גלוי בין שני רכיבי ממשק משתמש';
 
   @override
-  String get demoContainerTransformModalBottomSheetTitle => 'מצב \'להפוך לשקוף בהדרגה\'';
+  String get demoContainerTransformModalBottomSheetTitle =>
+      'מצב \'להפוך לשקוף בהדרגה\'';
 
   @override
   String get demoContainerTransformTypeFade => 'להפוך לשקוף בהדרגה';
@@ -1077,7 +1141,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'פריט ברשימה';
 
   @override
-  String get demoSharedAxisDescription => 'דפוס הציר המשותף משמש למעברים בין רכיבי ממשק משתמש עם קשר מרחבי או קשרי ניווט. דפוס זה משתמש בטרנספורמציה משותפת בציר x, ‏y או z כדי לשפר את הקשר בין הרכיבים.';
+  String get demoSharedAxisDescription =>
+      'דפוס הציר המשותף משמש למעברים בין רכיבי ממשק משתמש עם קשר מרחבי או קשרי ניווט. דפוס זה משתמש בטרנספורמציה משותפת בציר x, ‏y או z כדי לשפר את הקשר בין הרכיבים.';
 
   @override
   String get demoSharedXAxisTitle => 'ציר x משותף';
@@ -1092,7 +1157,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'לפשט את הקורסים שלכם';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'קטגוריות מקובצות מופיעות כקבוצות בפיד שלכם. אפשר תמיד לשנות את ההגדרה הזו בעתיד.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'קטגוריות מקובצות מופיעות כקבוצות בפיד שלכם. אפשר תמיד לשנות את ההגדרה הזו בעתיד.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'יצירה ומלאכה';
@@ -1119,7 +1185,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoSharedXAxisSignInWelcomeText => 'שלום David Park';
 
   @override
-  String get demoSharedXAxisSignInSubtitleText => 'יש להיכנס באמצעות החשבון שלך';
+  String get demoSharedXAxisSignInSubtitleText =>
+      'יש להיכנס באמצעות החשבון שלך';
 
   @override
   String get demoSharedXAxisSignInTextFieldLabel => 'אימייל או מספר טלפון';
@@ -1179,7 +1246,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'חסילון';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'מתכון לצלחת חסילונים';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'מתכון לצלחת חסילונים';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'סרטן';
@@ -1191,7 +1259,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'סנדוויץ\' בקר';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'מתכון לסנדוויץ\' בקר';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'מתכון לסנדוויץ\' בקר';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'מתכונים שמורים';
@@ -1212,7 +1281,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'להפוך לשקוף בהדרגה';
 
   @override
-  String get demoFadeThroughDescription => 'הדפוס \'להפוך לשקוף בהדרגה\' משמש למעברים בין רכיבי ממשק משתמש שאין ביניהם קשר חזק.';
+  String get demoFadeThroughDescription =>
+      'הדפוס \'להפוך לשקוף בהדרגה\' משמש למעברים בין רכיבי ממשק משתמש שאין ביניהם קשר חזק.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'אלבומים';
@@ -1230,7 +1300,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'להפוך לשקוף בהדרגה';
 
   @override
-  String get demoFadeScaleDescription => 'הדפוס \'להפוך לשקוף בהדרגה\' משמש לרכיבי ממשק משתמש שנכנסים ממסגרת גבולות המסך או נכנסים אליהם, למשל תיבת דו-שיח שמתעמעמת במרכז המסך.';
+  String get demoFadeScaleDescription =>
+      'הדפוס \'להפוך לשקוף בהדרגה\' משמש לרכיבי ממשק משתמש שנכנסים ממסגרת גבולות המסך או נכנסים אליהם, למשל תיבת דו-שיח שמתעמעמת במרכז המסך.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'הצגת מודאל';
@@ -1257,7 +1328,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoColorsSubtitle => 'כל הצבעים שמוגדרים מראש';
 
   @override
-  String get demoColorsDescription => 'קבועים של דוגמיות צבע וצבעים שמייצגים את לוח הצבעים של עיצוב חדשני תלת-ממדי.';
+  String get demoColorsDescription =>
+      'קבועים של דוגמיות צבע וצבעים שמייצגים את לוח הצבעים של עיצוב חדשני תלת-ממדי.';
 
   @override
   String get demoTypographyTitle => 'טיפוגרפיה';
@@ -1266,7 +1338,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoTypographySubtitle => 'כל סגנונות הטקסט שהוגדרו מראש';
 
   @override
-  String get demoTypographyDescription => 'הגדרות לסגנונות הטיפוגרפיים השונים שבעיצוב חדשני תלת-ממדי.';
+  String get demoTypographyDescription =>
+      'הגדרות לסגנונות הטיפוגרפיים השונים שבעיצוב חדשני תלת-ממדי.';
 
   @override
   String get demo2dTransformationsTitle => 'טרנספורמציות דו-ממדיות';
@@ -1275,7 +1348,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'הזזה, שינוי מרחק התצוגה, סיבוב';
 
   @override
-  String get demo2dTransformationsDescription => 'יש להקיש כדי לערוך אריחים, ויש להשתמש בתנועות כדי לנוע בסביבה. יש לגרור כדי להזיז, לעשות תנועת צביטה כדי לשנות את מרחק התצוגה, לסובב עם שתי אצבעות. יש ללחוץ על לחצן האיפוס כדי לחזור לכיוון ההתחלתי.';
+  String get demo2dTransformationsDescription =>
+      'יש להקיש כדי לערוך אריחים, ויש להשתמש בתנועות כדי לנוע בסביבה. יש לגרור כדי להזיז, לעשות תנועת צביטה כדי לשנות את מרחק התצוגה, לסובב עם שתי אצבעות. יש ללחוץ על לחצן האיפוס כדי לחזור לכיוון ההתחלתי.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'איפוס הטרנספורמציות';
@@ -1296,13 +1370,15 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'גיליון תחתון קבוע';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'גיליון תחתון קבוע מציג מידע שמשלים את התוכן הראשי באפליקציה. גיליון תחתון קבוע נשאר גלוי גם כשהמשתמש מבצע אינטראקציה עם חלקים אחרים באפליקציה.';
+  String get demoBottomSheetPersistentDescription =>
+      'גיליון תחתון קבוע מציג מידע שמשלים את התוכן הראשי באפליקציה. גיליון תחתון קבוע נשאר גלוי גם כשהמשתמש מבצע אינטראקציה עם חלקים אחרים באפליקציה.';
 
   @override
   String get demoBottomSheetModalTitle => 'גיליון תחתון מודלי';
 
   @override
-  String get demoBottomSheetModalDescription => 'גיליון תחתון מודלי הוא חלופה לתפריט או לתיבת דו-שיח, והוא מונע מהמשתמש לבצע אינטראקציה עם שאר האפליקציה.';
+  String get demoBottomSheetModalDescription =>
+      'גיליון תחתון מודלי הוא חלופה לתפריט או לתיבת דו-שיח, והוא מונע מהמשתמש לבצע אינטראקציה עם שאר האפליקציה.';
 
   @override
   String get demoBottomSheetAddLabel => 'הוספה';
@@ -1325,7 +1401,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoListsSubtitle => 'פריסות של רשימת גלילה';
 
   @override
-  String get demoListsDescription => 'שורה יחידה בגובה קבוע, שלרוב מכילה טקסט כלשהו וכן סמל בתחילתה או בסופה.';
+  String get demoListsDescription =>
+      'שורה יחידה בגובה קבוע, שלרוב מכילה טקסט כלשהו וכן סמל בתחילתה או בסופה.';
 
   @override
   String get demoOneLineListsTitle => 'שורה אחת';
@@ -1343,16 +1420,20 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoProgressIndicatorSubtitle => 'ליניארי, מעגלי, ביניים';
 
   @override
-  String get demoCircularProgressIndicatorTitle => 'אינדיקטור של התקדמות מעגלית';
+  String get demoCircularProgressIndicatorTitle =>
+      'אינדיקטור של התקדמות מעגלית';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'אינדיקטור של התקדמות מעגלית בעיצוב חדשני תלת-ממדי, שמסתובב כדי לציין שהאפליקציה עסוקה.';
+  String get demoCircularProgressIndicatorDescription =>
+      'אינדיקטור של התקדמות מעגלית בעיצוב חדשני תלת-ממדי, שמסתובב כדי לציין שהאפליקציה עסוקה.';
 
   @override
-  String get demoLinearProgressIndicatorTitle => 'אינדיקטור של התקדמות ליניארית';
+  String get demoLinearProgressIndicatorTitle =>
+      'אינדיקטור של התקדמות ליניארית';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'אינדיקטור של התקדמות ליניארית בעיצוב חדשני תלת-ממדי, שנקרא גם סרגל התקדמות.';
+  String get demoLinearProgressIndicatorDescription =>
+      'אינדיקטור של התקדמות ליניארית בעיצוב חדשני תלת-ממדי, שנקרא גם סרגל התקדמות.';
 
   @override
   String get demoPickersTitle => 'בוררים';
@@ -1364,19 +1445,22 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoDatePickerTitle => 'בורר תאריך';
 
   @override
-  String get demoDatePickerDescription => 'מציג דיאלוג שמכיל בורר תאריך בעיצוב חדשני תלת-ממדי.';
+  String get demoDatePickerDescription =>
+      'מציג דיאלוג שמכיל בורר תאריך בעיצוב חדשני תלת-ממדי.';
 
   @override
   String get demoTimePickerTitle => 'בורר שעה';
 
   @override
-  String get demoTimePickerDescription => 'מציג דיאלוג שמכיל בורר שעה בעיצוב חדשני תלת-ממדי.';
+  String get demoTimePickerDescription =>
+      'מציג דיאלוג שמכיל בורר שעה בעיצוב חדשני תלת-ממדי.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'להצגת הבורר';
@@ -1394,16 +1478,19 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoTabsSubtitle => 'כרטיסיות עם תצוגות שניתן לגלול בהן בנפרד';
 
   @override
-  String get demoTabsDescription => 'כרטיסיות שמארגנות תוכן במספר מסכים נפרדים, קבוצות נתונים שונות ואינטראקציות נוספות.';
+  String get demoTabsDescription =>
+      'כרטיסיות שמארגנות תוכן במספר מסכים נפרדים, קבוצות נתונים שונות ואינטראקציות נוספות.';
 
   @override
   String get demoSnackbarsTitle => 'סרגלים אינטראקטיביים';
 
   @override
-  String get demoSnackbarsSubtitle => 'סרגלים אינטראקטיביים מציגים הודעות בתחתית המסך';
+  String get demoSnackbarsSubtitle =>
+      'סרגלים אינטראקטיביים מציגים הודעות בתחתית המסך';
 
   @override
-  String get demoSnackbarsDescription => 'סרגלים אינטראקטיביים מיידעים את המשתמשים לגבי תהליך שאפליקציה מבצעת או עומדת לבצע. הם מוצגים באופן זמני, בקרבת החלק התחתון של המסך. הם לא אמורים להפריע לחוויית המשתמש ולא נדרש מהמשתמש להזין קלט כלשהו כדי שהם ייעלמו.';
+  String get demoSnackbarsDescription =>
+      'סרגלים אינטראקטיביים מיידעים את המשתמשים לגבי תהליך שאפליקציה מבצעת או עומדת לבצע. הם מוצגים באופן זמני, בקרבת החלק התחתון של המסך. הם לא אמורים להפריע לחוויית המשתמש ולא נדרש מהמשתמש להזין קלט כלשהו כדי שהם ייעלמו.';
 
   @override
   String get demoSnackbarsButtonLabel => 'הצגת סרגל אינטראקטיבי';
@@ -1427,19 +1514,22 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoSelectionControlsCheckboxTitle => 'תיבת סימון';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'תיבות סימון מאפשרות למשתמש לבחור אפשרויות מרובות מתוך מבחר אפשרויות. ערך רגיל של תיבת סימון הוא \'נכון\' או \'לא נכון\' וערך שלישי בתיבת סימון יכול להיות גם \'חסר תוקף\'.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'תיבות סימון מאפשרות למשתמש לבחור אפשרויות מרובות מתוך מבחר אפשרויות. ערך רגיל של תיבת סימון הוא \'נכון\' או \'לא נכון\' וערך שלישי בתיבת סימון יכול להיות גם \'חסר תוקף\'.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'לחצני בחירה';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'לחצני בחירה מאפשרים למשתמש לבחור אפשרות אחת מתוך מבחר אפשרויות. יש להשתמש בלחצני בחירה לצורך בחירה בלעדית אם לדעתך המשתמש צריך לראות את כל האפשרויות הזמינות זו לצד זו.';
+  String get demoSelectionControlsRadioDescription =>
+      'לחצני בחירה מאפשרים למשתמש לבחור אפשרות אחת מתוך מבחר אפשרויות. יש להשתמש בלחצני בחירה לצורך בחירה בלעדית אם לדעתך המשתמש צריך לראות את כל האפשרויות הזמינות זו לצד זו.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'מתגים';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'מתגי הפעלה וכיבוי מחליפים את המצב של אפשרות הגדרות אחת. האפשרות שהמתג שולט בה, וגם המצב שבו הוא נמצא, אמורים להיות ברורים מהתווית המתאימה שבתוך השורה.';
+  String get demoSelectionControlsSwitchDescription =>
+      'מתגי הפעלה וכיבוי מחליפים את המצב של אפשרות הגדרות אחת. האפשרות שהמתג שולט בה, וגם המצב שבו הוא נמצא, אמורים להיות ברורים מהתווית המתאימה שבתוך השורה.';
 
   @override
   String get demoBottomTextFieldsTitle => 'שדות טקסט';
@@ -1451,7 +1541,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoTextFieldSubtitle => 'שורה יחידה של מספרים וטקסט שניתן לערוך';
 
   @override
-  String get demoTextFieldDescription => 'שדות טקסט מאפשרים למשתמשים להזין טקסט לממשק משתמש. לרוב הם מופיעים בטפסים ובתיבות דו-שיח.';
+  String get demoTextFieldDescription =>
+      'שדות טקסט מאפשרים למשתמשים להזין טקסט לממשק משתמש. לרוב הם מופיעים בטפסים ובתיבות דו-שיח.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'הצגת סיסמה';
@@ -1466,10 +1557,12 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoTextFieldNameRequired => 'יש להזין שם.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'יש להזין רק תווים אלפביתיים.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'יש להזין רק תווים אלפביתיים.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - יש להזין מספר טלפון בארה\"ב.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - יש להזין מספר טלפון בארה\"ב.';
 
   @override
   String get demoTextFieldEnterPassword => 'יש להזין סיסמה.';
@@ -1496,7 +1589,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoTextFieldEmail => 'אימייל';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'יש לספר על עצמך (לדוגמה: עליך לכתוב מה המקצוע שלך או מה התחביבים שלך)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'יש לספר על עצמך (לדוגמה: עליך לכתוב מה המקצוע שלך או מה התחביבים שלך)';
 
   @override
   String get demoTextFieldKeepItShort => 'הטקסט צריך להיות קצר, זו רק הדגמה.';
@@ -1534,13 +1628,16 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get demoTooltipTitle => 'הסברים קצרים';
 
   @override
-  String get demoTooltipSubtitle => 'הודעה קצרה שמוצגת בלחיצה ארוכה או העברת העכבר מעל פריט';
+  String get demoTooltipSubtitle =>
+      'הודעה קצרה שמוצגת בלחיצה ארוכה או העברת העכבר מעל פריט';
 
   @override
-  String get demoTooltipDescription => 'הסברים קצרים מספקים תוויות טקסט עם הסברים לגבי פעולת לחצן או פעולה אחרת בממשק המשתמש. הסברים קצרים מציגים טקסט אינפורמטיבי כשמשתמשים מעבירים את העכבר מעל אלמנט, מתמקדים עליו או לוחצים עליו לחיצה ארוכה.';
+  String get demoTooltipDescription =>
+      'הסברים קצרים מספקים תוויות טקסט עם הסברים לגבי פעולת לחצן או פעולה אחרת בממשק המשתמש. הסברים קצרים מציגים טקסט אינפורמטיבי כשמשתמשים מעבירים את העכבר מעל אלמנט, מתמקדים עליו או לוחצים עליו לחיצה ארוכה.';
 
   @override
-  String get demoTooltipInstructions => 'יש ללחוץ לחיצה ארוכה או להעביר את העכבר מעל הפריט כדי להציג את ההסבר הקצר.';
+  String get demoTooltipInstructions =>
+      'יש ללחוץ לחיצה ארוכה או להעביר את העכבר מעל הפריט כדי להציג את ההסבר הקצר.';
 
   @override
   String get bottomNavigationCommentsTab => 'תגובות';
@@ -1601,7 +1698,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get dialogLocationTitle => 'האם להשתמש בשירות המיקום של Google?';
 
   @override
-  String get dialogLocationDescription => 'Google תוכל לעזור לאפליקציות לזהות מיקום: כלומר, נתוני מיקום אנונימיים נשלחים אל Google, גם כאשר לא פועלות אפליקציות.';
+  String get dialogLocationDescription =>
+      'Google תוכל לעזור לאפליקציות לזהות מיקום: כלומר, נתוני מיקום אנונימיים נשלחים אל Google, גם כאשר לא פועלות אפליקציות.';
 
   @override
   String get dialogCancel => 'ביטול';
@@ -1646,10 +1744,12 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'סגירה';
 
   @override
-  String get cupertinoAlertLocationTitle => 'האם לתת למפות Google גישה למיקום שלך בעת שימוש באפליקציה?';
+  String get cupertinoAlertLocationTitle =>
+      'האם לתת למפות Google גישה למיקום שלך בעת שימוש באפליקציה?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'המיקום הנוכחי שלך יוצג במפה וישמש להצגת מסלול, תוצאות חיפוש למקומות בסביבה וזמני נסיעות משוערים.';
+  String get cupertinoAlertLocationDescription =>
+      'המיקום הנוכחי שלך יוצג במפה וישמש להצגת מסלול, תוצאות חיפוש למקומות בסביבה וזמני נסיעות משוערים.';
 
   @override
   String get cupertinoAlertAllow => 'אישור';
@@ -1661,7 +1761,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'בחירת הקינוח המועדף';
 
   @override
-  String get cupertinoAlertDessertDescription => 'יש לבחור את סוג הקינוח המועדף עליך מהרשימה שלמטה. בחירתך תשמש להתאמה אישית של רשימת המסעדות המוצעת באזור שלך.';
+  String get cupertinoAlertDessertDescription =>
+      'יש לבחור את סוג הקינוח המועדף עליך מהרשימה שלמטה. בחירתך תשמש להתאמה אישית של רשימת המסעדות המוצעת באזור שלך.';
 
   @override
   String get cupertinoAlertCheesecake => 'עוגת גבינה';
@@ -2269,7 +2370,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get craneFly5SemanticLabel => 'מלון לחוף אגם על רקע הרים';
 
   @override
-  String get craneFly6SemanticLabel => 'נוף ממבט אווירי של ארמון האומנויות היפות';
+  String get craneFly6SemanticLabel =>
+      'נוף ממבט אווירי של ארמון האומנויות היפות';
 
   @override
   String get craneFly7SemanticLabel => 'הר ראשמור';
@@ -2317,7 +2419,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get craneSleep7SemanticLabel => 'דירות צבעוניות בכיכר ריברה';
 
   @override
-  String get craneSleep8SemanticLabel => 'הריסות מבנים של בני המאיה על צוק מעל חוף ים';
+  String get craneSleep8SemanticLabel =>
+      'הריסות מבנים של בני המאיה על צוק מעל חוף ים';
 
   @override
   String get craneSleep9SemanticLabel => 'מגדלור שבנוי מלבנים בים';
@@ -2410,7 +2513,8 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'העדכונים האחרונים';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'המהפכה השקטה והחזקה בשירותי הבריאות';
+  String get fortnightlyHeadlineHealthcare =>
+      'המהפכה השקטה והחזקה בשירותי הבריאות';
 
   @override
   String get fortnightlyHeadlineWar => 'החיים החצויים של אמריקאים במהלך המלחמה';
@@ -2422,10 +2526,12 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'הרפורמה ב\"צבא הירוק\" מתחילה מבפנים';
 
   @override
-  String get fortnightlyHeadlineStocks => 'אין שינוי בערכי המניות, ורבים מעדיפים לבדוק השקעות במטבע';
+  String get fortnightlyHeadlineStocks =>
+      'אין שינוי בערכי המניות, ורבים מעדיפים לבדוק השקעות במטבע';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'מעצבים יוצרים בדים עתידניים באמצעות טכנולוגיה';
+  String get fortnightlyHeadlineFabrics =>
+      'מעצבים יוצרים בדים עתידניים באמצעות טכנולוגיה';
 
   @override
   String get fortnightlyHeadlineFeminists => 'פמיניזם ותמיכה במפלגות';

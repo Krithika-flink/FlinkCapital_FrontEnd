@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get signIn => 'ورود به سیستم';
 
   @override
-  String get bannerDemoText => 'گذرواژه‌تان در دستگاه دیگر به‌روزرسانی شد. لطفاً دوباره به سیستم وارد شوید.';
+  String get bannerDemoText =>
+      'گذرواژه‌تان در دستگاه دیگر به‌روزرسانی شد. لطفاً دوباره به سیستم وارد شوید.';
 
   @override
   String get bannerDemoResetText => 'بازنشانی برنما';
@@ -60,7 +60,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => '۱۰ شهر برتر برای بازدید در تامیل نادو';
+  String get cardsDemoTravelDestinationTitle1 =>
+      '۱۰ شهر برتر برای بازدید در تامیل نادو';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'شماره ۱۰';
@@ -120,7 +121,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'تعطیلات';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'درصد سالانه بازگشت سرمایه';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'درصد سالانه بازگشت سرمایه';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'نرخ بهره';
@@ -129,7 +131,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'بهره از ابتدای امسال تاکنون';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'سود پرداخت‌شده در سال گذشته';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'سود پرداخت‌شده در سال گذشته';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'بخش بعدی';
@@ -285,8 +288,10 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'کاهش مالیات احتمالی را افزایش دهید! دسته‌ها را به ۱ تراکنش اختصاص‌داده‌نشده اختصاص دهید.',
-      other: 'کاهش مالیات احتمالی را افزایش دهید! دسته‌ها را به ${count} تراکنش اختصاص‌داده‌نشده اختصاص دهید.',
+      one:
+          'کاهش مالیات احتمالی را افزایش دهید! دسته‌ها را به ۱ تراکنش اختصاص‌داده‌نشده اختصاص دهید.',
+      other:
+          'کاهش مالیات احتمالی را افزایش دهید! دسته‌ها را به ${count} تراکنش اختصاص‌داده‌نشده اختصاص دهید.',
     );
   }
 
@@ -300,7 +305,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'دیدن کل بودجه';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'حساب ${accountName} به شماره ${accountNumber} با موجودی ${amount}.';
   }
 
@@ -310,7 +316,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'بودجه ${budgetName} با مبلغ کلی ${amountTotal} که ${amountUsed} از آن مصرف‌شده و ${amountLeft} باقی‌مانده است';
   }
 
@@ -353,7 +360,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'مشاهده گزینه‌ها';
 
   @override
-  String get demoOptionsFeatureDescription => 'برای مشاهده گزینه‌های در دسترس برای این نسخه نمایشی، اینجا ضربه بزنید.';
+  String get demoOptionsFeatureDescription =>
+      'برای مشاهده گزینه‌های در دسترس برای این نسخه نمایشی، اینجا ضربه بزنید.';
 
   @override
   String get settingsTitle => 'تنظیمات';
@@ -425,19 +433,23 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'نوار برنامه پایین صفحه';
 
   @override
-  String get demoBottomAppBarSubtitle => 'پیمایش و کنش‌ها را در پایین صفحه نمایش می‌دهد';
+  String get demoBottomAppBarSubtitle =>
+      'پیمایش و کنش‌ها را در پایین صفحه نمایش می‌دهد';
 
   @override
-  String get demoBottomAppBarDescription => 'نوارهای برنامه پایین صفحه دسترسی به کشوی پیمایش پایین صفحه و تا چهار کنش (ازجمله دکمه عمل شناور) را امکان‌پذیر می‌کنند.';
+  String get demoBottomAppBarDescription =>
+      'نوارهای برنامه پایین صفحه دسترسی به کشوی پیمایش پایین صفحه و تا چهار کنش (ازجمله دکمه عمل شناور) را امکان‌پذیر می‌کنند.';
 
   @override
   String get bottomAppBarNotch => 'حاشیه بالای نمایشگر';
@@ -464,13 +476,15 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoBannerSubtitle => 'نمایش برنما در فهرست';
 
   @override
-  String get demoBannerDescription => 'برنما پیامی مهم و مختصر را نمایش می‌دهد و کنش‌هایی را برای انجام دادن دراختیار کاربران قرار می‌دهد (همچنین کاربران می‌توانند برنما را رد کنند). برای رد کردن برنما، کاربر باید کنشی انجام دهد.';
+  String get demoBannerDescription =>
+      'برنما پیامی مهم و مختصر را نمایش می‌دهد و کنش‌هایی را برای انجام دادن دراختیار کاربران قرار می‌دهد (همچنین کاربران می‌توانند برنما را رد کنند). برای رد کردن برنما، کاربر باید کنشی انجام دهد.';
 
   @override
   String get demoBottomNavigationTitle => 'پیمایش پایین صفحه';
 
   @override
-  String get demoBottomNavigationSubtitle => 'پیمایش پایانی با نماهای محوشونده از حاشیه';
+  String get demoBottomNavigationSubtitle =>
+      'پیمایش پایانی با نماهای محوشونده از حاشیه';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'برچسب‌های پایدار';
@@ -479,7 +493,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'برچسب انتخاب شد';
 
   @override
-  String get demoBottomNavigationDescription => 'نوارهای پیمایش پایینی، سه تا پنج مقصد را در پایین صفحه‌نمایش نشان می‌دهند. هر مقصد با یک نماد و یک برچسب نوشتاری اختیاری نمایش داده می شود. هنگامی که روی نماد پیمایش پایانی ضربه می‌زنید، کاربر به مقصد پیمایش سطح بالایی که با آن نماد مرتبط است منتقل می‌شود.';
+  String get demoBottomNavigationDescription =>
+      'نوارهای پیمایش پایینی، سه تا پنج مقصد را در پایین صفحه‌نمایش نشان می‌دهند. هر مقصد با یک نماد و یک برچسب نوشتاری اختیاری نمایش داده می شود. هنگامی که روی نماد پیمایش پایانی ضربه می‌زنید، کاربر به مقصد پیمایش سطح بالایی که با آن نماد مرتبط است منتقل می‌شود.';
 
   @override
   String get demoButtonTitle => 'دکمه‌ها';
@@ -491,31 +506,36 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoTextButtonTitle => 'دکمه نوشتاری';
 
   @override
-  String get demoTextButtonDescription => 'دکمه‌ای نوشتاری که با فشار دادن، پاشیدن جوهر را نمایش می‌دهد، اما بالا نمی‌رود. از دکمه‌های نوشتاری در نوارابزار، کادر گفتگو، و به‌صورت درون‌خطی در کنار فاصله‌گذاری استفاده کنید';
+  String get demoTextButtonDescription =>
+      'دکمه‌ای نوشتاری که با فشار دادن، پاشیدن جوهر را نمایش می‌دهد، اما بالا نمی‌رود. از دکمه‌های نوشتاری در نوارابزار، کادر گفتگو، و به‌صورت درون‌خطی در کنار فاصله‌گذاری استفاده کنید';
 
   @override
   String get demoElevatedButtonTitle => 'دکمه برجسته';
 
   @override
-  String get demoElevatedButtonDescription => 'دکمه‌های برجسته به طرح‌بندی‌هایی که تا حد زیادی مسطح هستند بُعد می‌دهد. این دکمه‌ها در فضاهای پهن یا شلوغ، عملکردها را برجسته می‌کنند.';
+  String get demoElevatedButtonDescription =>
+      'دکمه‌های برجسته به طرح‌بندی‌هایی که تا حد زیادی مسطح هستند بُعد می‌دهد. این دکمه‌ها در فضاهای پهن یا شلوغ، عملکردها را برجسته می‌کنند.';
 
   @override
   String get demoOutlinedButtonTitle => 'دکمه برون‌نما';
 
   @override
-  String get demoOutlinedButtonDescription => 'دکمه‌های برون‌نما هنگام فشار دادن مات می‌شوند و بالا می‌آیند. این دکمه‌ها معمولاً با دکمه‌های برجسته مرتبط می‌شوند تا کنشی فرعی و جایگزین را نشان دهند.';
+  String get demoOutlinedButtonDescription =>
+      'دکمه‌های برون‌نما هنگام فشار دادن مات می‌شوند و بالا می‌آیند. این دکمه‌ها معمولاً با دکمه‌های برجسته مرتبط می‌شوند تا کنشی فرعی و جایگزین را نشان دهند.';
 
   @override
   String get demoToggleButtonTitle => 'دکمه‌های تغییر وضعیت';
 
   @override
-  String get demoToggleButtonDescription => 'از دکمه‌های تغییر وضعیت می‌توان برای گروه‌بندی گزینه‌های مرتبط استفاده کرد. برای برجسته کردن گروه‌هایی از دکمه‌های تغییر وضعیت مرتبط، گروهی باید محتوی مشترکی را هم‌رسانی کند';
+  String get demoToggleButtonDescription =>
+      'از دکمه‌های تغییر وضعیت می‌توان برای گروه‌بندی گزینه‌های مرتبط استفاده کرد. برای برجسته کردن گروه‌هایی از دکمه‌های تغییر وضعیت مرتبط، گروهی باید محتوی مشترکی را هم‌رسانی کند';
 
   @override
   String get demoFloatingButtonTitle => 'دکمه عمل شناور';
 
   @override
-  String get demoFloatingButtonDescription => 'دکمه عمل شناور، دکمه نمادی مدور است که روی محتوا نگه‌داشته می‌شود تا کنش ابتدایی را در برنامه موردنظر ارتقا دهد.';
+  String get demoFloatingButtonDescription =>
+      'دکمه عمل شناور، دکمه نمادی مدور است که روی محتوا نگه‌داشته می‌شود تا کنش ابتدایی را در برنامه موردنظر ارتقا دهد.';
 
   @override
   String get demoCardTitle => 'کارت‌ها';
@@ -527,34 +547,40 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoChipTitle => 'تراشه‌ها';
 
   @override
-  String get demoCardDescription => 'کارت، برگه‌ای حاوی «مطالب» است که برای ارائه برخی اطلاعات مرتبط (مثل جزئیات مخاطب، آلبوم، مکان جغرافیایی، وعده غذایی و غیره) استفاده می‌شود.';
+  String get demoCardDescription =>
+      'کارت، برگه‌ای حاوی «مطالب» است که برای ارائه برخی اطلاعات مرتبط (مثل جزئیات مخاطب، آلبوم، مکان جغرافیایی، وعده غذایی و غیره) استفاده می‌شود.';
 
   @override
-  String get demoChipSubtitle => 'عناصر فشرده که ورودی، ویژگی، یا کنشی را نمایش می‌دهد';
+  String get demoChipSubtitle =>
+      'عناصر فشرده که ورودی، ویژگی، یا کنشی را نمایش می‌دهد';
 
   @override
   String get demoActionChipTitle => 'تراشه کنش';
 
   @override
-  String get demoActionChipDescription => 'تراشه‌های کنش مجموعه‌ای از گزینه‌ها هستند که کنشی مرتبط با محتوای اصلی را راه‌اندازی می‌کنند. تراشه‌های کنش باید به‌صورت پویا و مرتبط با محتوا در رابط کاربری نشان داده شوند.';
+  String get demoActionChipDescription =>
+      'تراشه‌های کنش مجموعه‌ای از گزینه‌ها هستند که کنشی مرتبط با محتوای اصلی را راه‌اندازی می‌کنند. تراشه‌های کنش باید به‌صورت پویا و مرتبط با محتوا در رابط کاربری نشان داده شوند.';
 
   @override
   String get demoChoiceChipTitle => 'انتخاب تراشه';
 
   @override
-  String get demoChoiceChipDescription => 'تراشه‌های انتخاب، تک انتخابی از یک مجموعه را نمایش می‌دهند. تراشه‌های انتخاب، نوشتار توصیفی یا دسته‌بندی‌های مرتبط را شامل می‌شوند.';
+  String get demoChoiceChipDescription =>
+      'تراشه‌های انتخاب، تک انتخابی از یک مجموعه را نمایش می‌دهند. تراشه‌های انتخاب، نوشتار توصیفی یا دسته‌بندی‌های مرتبط را شامل می‌شوند.';
 
   @override
   String get demoFilterChipTitle => 'تراشه فیلتر';
 
   @override
-  String get demoFilterChipDescription => 'تراشه‌های فیلتر از برچسب‌ها یا واژه‌های توصیفی برای فیلتر کردن محتوا استفاده می‌کنند.';
+  String get demoFilterChipDescription =>
+      'تراشه‌های فیلتر از برچسب‌ها یا واژه‌های توصیفی برای فیلتر کردن محتوا استفاده می‌کنند.';
 
   @override
   String get demoInputChipTitle => 'تراشه ورودی';
 
   @override
-  String get demoInputChipDescription => 'تراشه‌های ورودی پاره‌ای از اطلاعات پیچیده مانند نهاد (شخص، مکان، یا شیء) یا متن مکالمه‌ای را به‌صورت فشرده نمایش می‌هند.';
+  String get demoInputChipDescription =>
+      'تراشه‌های ورودی پاره‌ای از اطلاعات پیچیده مانند نهاد (شخص، مکان، یا شیء) یا متن مکالمه‌ای را به‌صورت فشرده نمایش می‌هند.';
 
   @override
   String get demoDataTableTitle => 'جدول‌های داده';
@@ -563,7 +589,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'ردیف‌ها و ستون‌های اطلاعات';
 
   @override
-  String get demoDataTableDescription => 'جدول‌های داده، اطلاعات را در قالبی شبکه مانند از ردیف‌ها و ستون‌ها نمایش می‌دهند. این جدول‌ها اطلاعات را به روشی آسان برای اسکن سازماندهی می‌کنند تا کاربران بتوانند الگوها و اطلاعات آماری را پیدا کنند.';
+  String get demoDataTableDescription =>
+      'جدول‌های داده، اطلاعات را در قالبی شبکه مانند از ردیف‌ها و ستون‌ها نمایش می‌دهند. این جدول‌ها اطلاعات را به روشی آسان برای اسکن سازماندهی می‌کنند تا کاربران بتوانند الگوها و اطلاعات آماری را پیدا کنند.';
 
   @override
   String get dataTableHeader => 'تغذیه';
@@ -642,7 +669,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'هشدار';
 
   @override
-  String get demoAlertDialogDescription => 'کادر گفتگوی هشدار، کاربر را از موقعیت‌هایی که نیاز به تصدیق دارند مطلع می‌کند. کادر گفتگوی هشدار، عنوانی اختیاری و فهرستی اختیاری از کنش‌ها دارد.';
+  String get demoAlertDialogDescription =>
+      'کادر گفتگوی هشدار، کاربر را از موقعیت‌هایی که نیاز به تصدیق دارند مطلع می‌کند. کادر گفتگوی هشدار، عنوانی اختیاری و فهرستی اختیاری از کنش‌ها دارد.';
 
   @override
   String get demoAlertTitleDialogTitle => 'هشدار دارای عنوان';
@@ -651,16 +679,19 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'ساده';
 
   @override
-  String get demoSimpleDialogDescription => 'کادر گفتگو ساده، انتخاب بین گزینه‌های متفاوت را به کاربر ارائه می‌دهد. کادر گفتگو ساده، عنوانی اختیاری دارد که در بالای گزینه‌ها نمایش داده می‌شود.';
+  String get demoSimpleDialogDescription =>
+      'کادر گفتگو ساده، انتخاب بین گزینه‌های متفاوت را به کاربر ارائه می‌دهد. کادر گفتگو ساده، عنوانی اختیاری دارد که در بالای گزینه‌ها نمایش داده می‌شود.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +703,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'طرح‌بندی ردیفی و ستونی';
 
   @override
-  String get demoGridListsDescription => '«فهرست‌های جدولی» برای ارائه داده‌های همگن (معمولاً تصاویر) بسیار مناسب هستند. هر مورد در فهرست جدولی، کاشی نامیده می‌شود.';
+  String get demoGridListsDescription =>
+      '«فهرست‌های جدولی» برای ارائه داده‌های همگن (معمولاً تصاویر) بسیار مناسب هستند. هر مورد در فهرست جدولی، کاشی نامیده می‌شود.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'فقط تصویر';
@@ -687,34 +719,41 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoSlidersTitle => 'لغزنده';
 
   @override
-  String get demoSlidersSubtitle => 'ابزارک‌هایی برای انتخاب مقدار با تند کشیدن صفحه';
+  String get demoSlidersSubtitle =>
+      'ابزارک‌هایی برای انتخاب مقدار با تند کشیدن صفحه';
 
   @override
-  String get demoSlidersDescription => 'لغزنده‌ها گستره‌ای از مقادیر را در امتداد نواری نشان می‌دهند که کاربران می‌توانند یک مقدار را در آن انتخاب کنند. لغزنده‌ها برای تغییر تنظیماتی مثل صدا، روشنایی یا اعمال فیلتر روی تصاویر ایده‌آل هستند.';
+  String get demoSlidersDescription =>
+      'لغزنده‌ها گستره‌ای از مقادیر را در امتداد نواری نشان می‌دهند که کاربران می‌توانند یک مقدار را در آن انتخاب کنند. لغزنده‌ها برای تغییر تنظیماتی مثل صدا، روشنایی یا اعمال فیلتر روی تصاویر ایده‌آل هستند.';
 
   @override
   String get demoRangeSlidersTitle => 'لغزنده گستره‌ای';
 
   @override
-  String get demoRangeSlidersDescription => 'لغزنده‌ها گستره‌ای از مقادیر را در امتداد نواری نشان می‌دهند. آن‌ها ممکن است در هر دو سر نوار نمادی داشته باشند که گستره‌ای از مقادیر را نشان دهد. لغزنده‌ها برای تغییر تنظیماتی مثل صدا، روشنایی یا اعمال فیلتر روی تصاویر ایده‌آل هستند.';
+  String get demoRangeSlidersDescription =>
+      'لغزنده‌ها گستره‌ای از مقادیر را در امتداد نواری نشان می‌دهند. آن‌ها ممکن است در هر دو سر نوار نمادی داشته باشند که گستره‌ای از مقادیر را نشان دهد. لغزنده‌ها برای تغییر تنظیماتی مثل صدا، روشنایی یا اعمال فیلتر روی تصاویر ایده‌آل هستند.';
 
   @override
   String get demoCustomSlidersTitle => 'لغزنده سفارشی';
 
   @override
-  String get demoCustomSlidersDescription => 'لغزنده‌ها گستره‌ای از مقادیر را در امتداد نواری نشان می‌دهند که کاربران می‌توانند یک مقدار یا گستره‌ای از مقادیر را از آن انتخاب کنند. لغزنده‌ها می‌توانند طرح زمینه داشته باشند یا سفارشی شوند.';
+  String get demoCustomSlidersDescription =>
+      'لغزنده‌ها گستره‌ای از مقادیر را در امتداد نواری نشان می‌دهند که کاربران می‌توانند یک مقدار یا گستره‌ای از مقادیر را از آن انتخاب کنند. لغزنده‌ها می‌توانند طرح زمینه داشته باشند یا سفارشی شوند.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'پیوسته با مقدار عددی قابل ویرایش';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'پیوسته با مقدار عددی قابل ویرایش';
 
   @override
   String get demoSlidersDiscrete => 'گسسته';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'لغزنده گسسته با طرح زمینه سفارشی';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'لغزنده گسسته با طرح زمینه سفارشی';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'لغزنده گستره‌ای پیوسته با طرح زمینه سفارشی';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'لغزنده گستره‌ای پیوسته با طرح زمینه سفارشی';
 
   @override
   String get demoSlidersContinuous => 'پیوسته';
@@ -741,7 +780,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoMenuSubtitle => 'دکمه‌های منو و منوهای ساده';
 
   @override
-  String get demoMenuDescription => 'منو، فهرستی از چند انتخاب را در نمایی موقت نمایش می‌دهد. وقتی کاربران با دکمه، کنش، یا کنترل دیگری تعامل داشته باشند، منو ظاهر می‌شود.';
+  String get demoMenuDescription =>
+      'منو، فهرستی از چند انتخاب را در نمایی موقت نمایش می‌دهد. وقتی کاربران با دکمه، کنش، یا کنترل دیگری تعامل داشته باشند، منو ظاهر می‌شود.';
 
   @override
   String get demoMenuItemValueOne => 'گزینه یک منو';
@@ -805,10 +845,12 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoNavigationDrawerTitle => 'کشوی پیمایش';
 
   @override
-  String get demoNavigationDrawerSubtitle => 'کشویی در نوار برنامه نمایش می‌دهد';
+  String get demoNavigationDrawerSubtitle =>
+      'کشویی در نوار برنامه نمایش می‌دهد';
 
   @override
-  String get demoNavigationDrawerDescription => 'پانل «طراحی مواد» که از لبهٔ صفحه به‌صورت افقی به‌داخل می‌لغزد و پیوندهای پیمایش را در برنامه نشان می‌دهد.';
+  String get demoNavigationDrawerDescription =>
+      'پانل «طراحی مواد» که از لبهٔ صفحه به‌صورت افقی به‌داخل می‌لغزد و پیوندهای پیمایش را در برنامه نشان می‌دهد.';
 
   @override
   String get demoNavigationDrawerUserName => 'نام کاربر';
@@ -823,16 +865,19 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'مورد دو';
 
   @override
-  String get demoNavigationDrawerText => 'برای دیدن کشو، از لبهٔ صفحه به‌سمت داخل بکشید یا روی نماد در بالا سمت راست ضربه بزنید';
+  String get demoNavigationDrawerText =>
+      'برای دیدن کشو، از لبهٔ صفحه به‌سمت داخل بکشید یا روی نماد در بالا سمت راست ضربه بزنید';
 
   @override
   String get demoNavigationRailTitle => 'ریل پیمایش';
 
   @override
-  String get demoNavigationRailSubtitle => '«ریل پیمایش» را در برنامه نمایش می‌دهد';
+  String get demoNavigationRailSubtitle =>
+      '«ریل پیمایش» را در برنامه نمایش می‌دهد';
 
   @override
-  String get demoNavigationRailDescription => 'ابزارک طراحی مواد که برای نمایش در سمت راست یا چپ برنامه و پیمایش بین تعداد محدودی نما (معمولاً سه تا پنج نما) درنظر گرفته شده است.';
+  String get demoNavigationRailDescription =>
+      'ابزارک طراحی مواد که برای نمایش در سمت راست یا چپ برنامه و پیمایش بین تعداد محدودی نما (معمولاً سه تا پنج نما) درنظر گرفته شده است.';
 
   @override
   String get demoNavigationRailFirst => 'اولین';
@@ -853,7 +898,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoFullscreenDialogTitle => 'تمام‌صفحه';
 
   @override
-  String get demoFullscreenDialogDescription => 'ویژگی fullscreenDialog مشخص می‌کند آیا صفحه ورودی، کادر گفتگوی مودال تمام‌صفحه است یا نه.';
+  String get demoFullscreenDialogDescription =>
+      'ویژگی fullscreenDialog مشخص می‌کند آیا صفحه ورودی، کادر گفتگوی مودال تمام‌صفحه است یا نه.';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'نشانگر فعالیت';
@@ -862,7 +908,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoCupertinoActivityIndicatorSubtitle => 'نشانگر فعالیت سبک iOS';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'نشانگر فعالیت سبک iOS که ساعت‌گرد می‌چرخد.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'نشانگر فعالیت سبک iOS که ساعت‌گرد می‌چرخد.';
 
   @override
   String get demoCupertinoButtonsTitle => 'دکمه‌ها';
@@ -871,7 +918,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'دکمه‌های سبک iOS';
 
   @override
-  String get demoCupertinoButtonsDescription => 'دکمه‌ای به سبک iOS. نوشتار و/یا نمادی را دربر می‌گیرد که با لمس کردن ظاهر یا محو می‌شود. ممکن است به‌صورت اختیاری پس‌زمینه داشته باشد.';
+  String get demoCupertinoButtonsDescription =>
+      'دکمه‌ای به سبک iOS. نوشتار و/یا نمادی را دربر می‌گیرد که با لمس کردن ظاهر یا محو می‌شود. ممکن است به‌صورت اختیاری پس‌زمینه داشته باشد.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +928,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,7 +938,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'هشدارها';
@@ -901,7 +951,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => 'هشدار';
 
   @override
-  String get demoCupertinoAlertDescription => 'کادر گفتگوی هشدار، کاربر را از موقعیت‌هایی که نیاز به تصدیق دارند مطلع می‌کند. کادر گفتگوی هشدار دارای عنوان، محتوا، و فهرست کنش‌های اختیاری است. عنوان موردنظر در بالای محتوا و کنش‌ها در زیر محتوا نمایش داده می‌شوند.';
+  String get demoCupertinoAlertDescription =>
+      'کادر گفتگوی هشدار، کاربر را از موقعیت‌هایی که نیاز به تصدیق دارند مطلع می‌کند. کادر گفتگوی هشدار دارای عنوان، محتوا، و فهرست کنش‌های اختیاری است. عنوان موردنظر در بالای محتوا و کنش‌ها در زیر محتوا نمایش داده می‌شوند.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'هشدار دارای عنوان';
@@ -916,7 +967,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'برگ کنش';
 
   @override
-  String get demoCupertinoActionSheetDescription => '«برگ کنش»، سبک خاصی از هشدار است که مجموعه‌ای از دو یا چند انتخاب مرتبط با محتوای کنونی را به کاربر ارائه می‌دهد. «برگ کنش» می‌تواند عنوان، پیامی اضافی، و فهرستی از کنش‌ها را داشته باشد.';
+  String get demoCupertinoActionSheetDescription =>
+      '«برگ کنش»، سبک خاصی از هشدار است که مجموعه‌ای از دو یا چند انتخاب مرتبط با محتوای کنونی را به کاربر ارائه می‌دهد. «برگ کنش» می‌تواند عنوان، پیامی اضافی، و فهرستی از کنش‌ها را داشته باشد.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'نوار پیمایش';
@@ -925,7 +977,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoCupertinoNavigationBarSubtitle => 'نوار پیمایش سبک iOS';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'نوار پیمایش سبک iOS نوار پیمایش، نوارابزاری است که به‌صورتی ساده حاوی عنوان صفحه در وسط نوارابزار است.';
+  String get demoCupertinoNavigationBarDescription =>
+      'نوار پیمایش سبک iOS نوار پیمایش، نوارابزاری است که به‌صورتی ساده حاوی عنوان صفحه در وسط نوارابزار است.';
 
   @override
   String get demoCupertinoPickerTitle => 'انتخابگر';
@@ -934,7 +987,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoCupertinoPickerSubtitle => 'انتخابگر تاریخ و زمان سبک iOS';
 
   @override
-  String get demoCupertinoPickerDescription => 'ابزارک انتخابگر سبک iOS که می‌توان برای انتخاب تاریخ، زمان، یا هردو استفاده کرد.';
+  String get demoCupertinoPickerDescription =>
+      'ابزارک انتخابگر سبک iOS که می‌توان برای انتخاب تاریخ، زمان، یا هردو استفاده کرد.';
 
   @override
   String get demoCupertinoPickerTimer => 'تایمر';
@@ -952,19 +1006,23 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'کشیدن برای بازخوانی';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'کنترل «کشیدن برای بازخوانی» به سبک iOS';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'کنترل «کشیدن برای بازخوانی» به سبک iOS';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'ابزارکی که از کنترل محتوای «کشیدن برای بازخوانی» به سبک iOS استفاده می‌کند';
+  String get demoCupertinoPullToRefreshDescription =>
+      'ابزارکی که از کنترل محتوای «کشیدن برای بازخوانی» به سبک iOS استفاده می‌کند';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'کنترل تقسیم‌بندی‌شده';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'کنترل تقسیم‌بندی‌شده سبک iOS';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'کنترل تقسیم‌بندی‌شده سبک iOS';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'برای انتخاب بین تعدادی از گزینه‌های انحصاری دوطرفه استفاده شد. وقتی یک گزینه در کنترل تقسیم‌بندی‌شده انتخاب می‌شود، گزینه‌های دیگر در کنترل تقسیم‌بندی‌شده لغو انتخاب می‌شود.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'برای انتخاب بین تعدادی از گزینه‌های انحصاری دوطرفه استفاده شد. وقتی یک گزینه در کنترل تقسیم‌بندی‌شده انتخاب می‌شود، گزینه‌های دیگر در کنترل تقسیم‌بندی‌شده لغو انتخاب می‌شود.';
 
   @override
   String get demoCupertinoSliderTitle => 'لغزنده';
@@ -973,7 +1031,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'لغزنده سبک iOS';
 
   @override
-  String get demoCupertinoSliderDescription => 'از لغزنده می‌توان برای انتخاب مجموعه‌ای از مقادیر پیوسته یا گسسته استفاده کرد.';
+  String get demoCupertinoSliderDescription =>
+      'از لغزنده می‌توان برای انتخاب مجموعه‌ای از مقادیر پیوسته یا گسسته استفاده کرد.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,7 +1048,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'کلید سبک iOS';
 
   @override
-  String get demoCupertinoSwitchDescription => 'از کلید برای تغییر وضعیت خاموش/روشن یک تنظیم استفاده می‌شود.';
+  String get demoCupertinoSwitchDescription =>
+      'از کلید برای تغییر وضعیت خاموش/روشن یک تنظیم استفاده می‌شود.';
 
   @override
   String get demoCupertinoTabBarTitle => 'نوار برگه';
@@ -998,7 +1058,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'نوار برگه پایین سبک iOS';
 
   @override
-  String get demoCupertinoTabBarDescription => 'نوار برگه پیمایش پایین سبک iOS این نوار برگه چندین برگه را نمایش می‌دهد که یک برگه از آن (نوار اول به‌طور پیش‌فرض) فعال خواهد بود.';
+  String get demoCupertinoTabBarDescription =>
+      'نوار برگه پیمایش پایین سبک iOS این نوار برگه چندین برگه را نمایش می‌دهد که یک برگه از آن (نوار اول به‌طور پیش‌فرض) فعال خواهد بود.';
 
   @override
   String get cupertinoTabBarHomeTab => 'صفحه اصلی';
@@ -1016,7 +1077,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'فیلدهای نوشتاری سبک iOS';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'فیلد نوشتاری به کاربر اجازه می‌دهد نوشتار را (با صفحه‌کلید سخت‌افزار یا با صفحه‌کلید مجازی) وارد کند.';
+  String get demoCupertinoTextFieldDescription =>
+      'فیلد نوشتاری به کاربر اجازه می‌دهد نوشتار را (با صفحه‌کلید سخت‌افزار یا با صفحه‌کلید مجازی) وارد کند.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'پین';
@@ -1028,13 +1090,15 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoMotionSubtitle => 'همه الگوهای انتقال از پیش تعریف‌شده';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'کارت‌ها، فهرست‌ها، و دکمه کنش شناور';
+  String get demoContainerTransformDemoInstructions =>
+      'کارت‌ها، فهرست‌ها، و دکمه کنش شناور';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'دکمه‌های بعدی و قبلی';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'مرتب‌سازی براساس «پخش‌شده‌های اخیر»';
+  String get demoSharedYAxisDemoInstructions =>
+      'مرتب‌سازی براساس «پخش‌شده‌های اخیر»';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'دکمه نماد تنظیمات';
@@ -1049,7 +1113,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'تبدیل محتوی';
 
   @override
-  String get demoContainerTransformDescription => 'الگوی تبدیل محتوی برای انتقال بین عناصر رابط کاربری طراحی شده است که حاوی محتوی است. این الگو اتصالی نمایان بین دو عنصر رابط کاربری ایجاد می‌کند';
+  String get demoContainerTransformDescription =>
+      'الگوی تبدیل محتوی برای انتقال بین عناصر رابط کاربری طراحی شده است که حاوی محتوی است. این الگو اتصالی نمایان بین دو عنصر رابط کاربری ایجاد می‌کند';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'حالت محو کردن';
@@ -1076,7 +1141,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'مورد فهرست';
 
   @override
-  String get demoSharedAxisDescription => 'الگوی محور مشترک برای انتقال بین عناصر رابط کاربری‌ای استفاده می‌شود که رابطه‌ای فضایی یا پیمایشی دارند. این الگو از تبدیل مشترک در محور x،‏ y، یا z استفاده می‌کند تا رابطه بین عناصر را تقویت کند.';
+  String get demoSharedAxisDescription =>
+      'الگوی محور مشترک برای انتقال بین عناصر رابط کاربری‌ای استفاده می‌شود که رابطه‌ای فضایی یا پیمایشی دارند. این الگو از تبدیل مشترک در محور x،‏ y، یا z استفاده می‌کند تا رابطه بین عناصر را تقویت کند.';
 
   @override
   String get demoSharedXAxisTitle => 'محور x مشترک';
@@ -1091,7 +1157,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'خط جریان دوره‌ها';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'دسته‌های مجموعه‌ای به‌صورت گروه‌هایی در فیدتان نشان داده می‌شوند. هرزمان بخواهید می‌توانید این مورد را در فرصتی دیگر تغییر دهید.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'دسته‌های مجموعه‌ای به‌صورت گروه‌هایی در فیدتان نشان داده می‌شوند. هرزمان بخواهید می‌توانید این مورد را در فرصتی دیگر تغییر دهید.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'هنر و صنایع‌دستی';
@@ -1124,7 +1191,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoSharedXAxisSignInTextFieldLabel => 'ایمیل یا شماره تلفن';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'ایمیلتان را فراموش کرده‌اید؟';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'ایمیلتان را فراموش کرده‌اید؟';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'ایجاد حساب';
@@ -1178,19 +1246,22 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'میگو';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'دستور پخت بشقاب میگو';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'دستور پخت بشقاب میگو';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'خرچنگ';
 
   @override
-  String get demoSharedZAxisCrabPlateRecipeDescription => 'دستور پخت بشقاب خرچنگ';
+  String get demoSharedZAxisCrabPlateRecipeDescription =>
+      'دستور پخت بشقاب خرچنگ';
 
   @override
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'ساندویچ گوشت گاو';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'دستور پخت ساندویچ گوشت گاو';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'دستور پخت ساندویچ گوشت گاو';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'دستورهای پخت ذخیره‌شده';
@@ -1211,7 +1282,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'محو کردن گسترده';
 
   @override
-  String get demoFadeThroughDescription => 'الگوی محو کردن گسترده برای انتقال بین عناصر رابط کاربری‌ای استفاده می‌شود که ارتباطی قوی با یکدیگر ندارند.';
+  String get demoFadeThroughDescription =>
+      'الگوی محو کردن گسترده برای انتقال بین عناصر رابط کاربری‌ای استفاده می‌شود که ارتباطی قوی با یکدیگر ندارند.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'آلبوم‌ها';
@@ -1229,7 +1301,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'محو کردن';
 
   @override
-  String get demoFadeScaleDescription => 'الگوی محو کردن برای عناصر رابط کاربری‌ای استفاده می‌شود که در محدوده صفحه‌نمایش وارد یا از آن خارج می‌شوند، مثل کادر گفتگویی که در مرکز صفحه محو می‌شود.';
+  String get demoFadeScaleDescription =>
+      'الگوی محو کردن برای عناصر رابط کاربری‌ای استفاده می‌شود که در محدوده صفحه‌نمایش وارد یا از آن خارج می‌شوند، مثل کادر گفتگویی که در مرکز صفحه محو می‌شود.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'نمایش مودال';
@@ -1256,7 +1329,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoColorsSubtitle => 'همه رنگ‌های ازپیش تعیین‌شده';
 
   @override
-  String get demoColorsDescription => 'ثابت‌های رنگ و تغییر رنگ که پالت رنگ «طراحی مواد» را نمایش می‌دهند.';
+  String get demoColorsDescription =>
+      'ثابت‌های رنگ و تغییر رنگ که پالت رنگ «طراحی مواد» را نمایش می‌دهند.';
 
   @override
   String get demoTypographyTitle => 'تایپوگرافی';
@@ -1265,16 +1339,19 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoTypographySubtitle => 'همه سبک‌های نوشتاری ازپیش‌تعریف‌شده';
 
   @override
-  String get demoTypographyDescription => 'تعریف‌هایی برای سبک‌های تایپوگرافی مختلف در «طراحی مواد» یافت شد.';
+  String get demoTypographyDescription =>
+      'تعریف‌هایی برای سبک‌های تایپوگرافی مختلف در «طراحی مواد» یافت شد.';
 
   @override
   String get demo2dTransformationsTitle => 'تبدیل دوبعدی';
 
   @override
-  String get demo2dTransformationsSubtitle => 'حرکت دادن، بزرگ‌نمایی کردن، چرخاندن';
+  String get demo2dTransformationsSubtitle =>
+      'حرکت دادن، بزرگ‌نمایی کردن، چرخاندن';
 
   @override
-  String get demo2dTransformationsDescription => 'برای ویرایش کاشی‌ها ضربه بزنید و از اشاره‌ها برای حرکت کردن در صحنه استفاده کنید. برای حرکت دادن بکشید، برای بزرگ‌نمایی انگشتان را نزدیک یا دور کنید، و با دو انگشت بچرخانید. برای برگشتن به جهت ابتدایی، دکمه بازنشانی را فشار دهید.';
+  String get demo2dTransformationsDescription =>
+      'برای ویرایش کاشی‌ها ضربه بزنید و از اشاره‌ها برای حرکت کردن در صحنه استفاده کنید. برای حرکت دادن بکشید، برای بزرگ‌نمایی انگشتان را نزدیک یا دور کنید، و با دو انگشت بچرخانید. برای برگشتن به جهت ابتدایی، دکمه بازنشانی را فشار دهید.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'بازنشانی تبدیل';
@@ -1295,13 +1372,15 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'برگه پایانی پایدار';
 
   @override
-  String get demoBottomSheetPersistentDescription => '«برگه پایانی پایدار»، اطلاعاتی را نشان می‌دهد که محتوای اولیه برنامه را تکمیل می‌کند. حتی اگر کاربر با قسمت‌های دیگر برنامه کار کند، این برگه همچنان قابل‌مشاهده خواهد بود.';
+  String get demoBottomSheetPersistentDescription =>
+      '«برگه پایانی پایدار»، اطلاعاتی را نشان می‌دهد که محتوای اولیه برنامه را تکمیل می‌کند. حتی اگر کاربر با قسمت‌های دیگر برنامه کار کند، این برگه همچنان قابل‌مشاهده خواهد بود.';
 
   @override
   String get demoBottomSheetModalTitle => 'برگه پایانی مودال';
 
   @override
-  String get demoBottomSheetModalDescription => '«برگه پایانی مودال»، جایگزینی برای منو یا کادرگفتگو است و مانع تعامل کاربر با قسمت‌های دیگر برنامه می‌شود.';
+  String get demoBottomSheetModalDescription =>
+      '«برگه پایانی مودال»، جایگزینی برای منو یا کادرگفتگو است و مانع تعامل کاربر با قسمت‌های دیگر برنامه می‌شود.';
 
   @override
   String get demoBottomSheetAddLabel => 'افزودن';
@@ -1324,7 +1403,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoListsSubtitle => 'طرح‌بندی‌های فهرست پیمایشی';
 
   @override
-  String get demoListsDescription => 'یک ردیف واحد با ارتفاع ثابت که معمولاً حاوی مقداری نوشتار و نمادی در ابتدا یا انتها است.';
+  String get demoListsDescription =>
+      'یک ردیف واحد با ارتفاع ثابت که معمولاً حاوی مقداری نوشتار و نمادی در ابتدا یا انتها است.';
 
   @override
   String get demoOneLineListsTitle => 'یک خط';
@@ -1345,13 +1425,15 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoCircularProgressIndicatorTitle => 'نشانگر پیشرفت مدور';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'نشانگر پیشرفت مدور با «طراحی مواد» که می‌چرخد تا نشان دهد که برنامه مشغول است.';
+  String get demoCircularProgressIndicatorDescription =>
+      'نشانگر پیشرفت مدور با «طراحی مواد» که می‌چرخد تا نشان دهد که برنامه مشغول است.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'نشانگر پیشرفت خطی';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'نشانگر پیشرفت خطی با «طراحی مواد» که با عنوان نوار پیشرفت نیز شناخته شده است.';
+  String get demoLinearProgressIndicatorDescription =>
+      'نشانگر پیشرفت خطی با «طراحی مواد» که با عنوان نوار پیشرفت نیز شناخته شده است.';
 
   @override
   String get demoPickersTitle => 'انتخابگر';
@@ -1363,19 +1445,22 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoDatePickerTitle => 'انتخابگر تاریخ';
 
   @override
-  String get demoDatePickerDescription => 'کادر گفتگویی حاوی انتخابگر تاریخ «طراحی مواد» را نمایش می‌دهد.';
+  String get demoDatePickerDescription =>
+      'کادر گفتگویی حاوی انتخابگر تاریخ «طراحی مواد» را نمایش می‌دهد.';
 
   @override
   String get demoTimePickerTitle => 'انتخابگر زمان';
 
   @override
-  String get demoTimePickerDescription => 'کادر گفتگویی حاوی انتخابگر زمان «طراحی مواد» را نمایش می‌دهد.';
+  String get demoTimePickerDescription =>
+      'کادر گفتگویی حاوی انتخابگر زمان «طراحی مواد» را نمایش می‌دهد.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'نمایش انتخابگر';
@@ -1393,16 +1478,19 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoTabsSubtitle => 'برگه‌هایی با نماهای قابل‌پیمایش مستقل';
 
   @override
-  String get demoTabsDescription => 'برگه‌ها محتوا در صفحه‌نمایش‌ها، مجموعه‌های داده و تراکنش‌های دیگر سازماندهی می‌کنند.';
+  String get demoTabsDescription =>
+      'برگه‌ها محتوا در صفحه‌نمایش‌ها، مجموعه‌های داده و تراکنش‌های دیگر سازماندهی می‌کنند.';
 
   @override
   String get demoSnackbarsTitle => 'نوارهای توضیحات';
 
   @override
-  String get demoSnackbarsSubtitle => 'نوارهای توضیحات پیام‌ها را در پایین صفحه نمایش می‌دهند';
+  String get demoSnackbarsSubtitle =>
+      'نوارهای توضیحات پیام‌ها را در پایین صفحه نمایش می‌دهند';
 
   @override
-  String get demoSnackbarsDescription => 'نوارهای توضیحات فرایندی را که یک برنامه انجام داده است یا انجام خواهد داد، به کاربران اعلام می‌کنند. این نوارها در پایین صفحه موقتاً ظاهر می‌شوند. این نوارها نباید تجربه کاربر را مختل کنند و برای ناپدید شدن نیازی به ورودی کاربر ندارند.';
+  String get demoSnackbarsDescription =>
+      'نوارهای توضیحات فرایندی را که یک برنامه انجام داده است یا انجام خواهد داد، به کاربران اعلام می‌کنند. این نوارها در پایین صفحه موقتاً ظاهر می‌شوند. این نوارها نباید تجربه کاربر را مختل کنند و برای ناپدید شدن نیازی به ورودی کاربر ندارند.';
 
   @override
   String get demoSnackbarsButtonLabel => 'نمایش نوار توضیحات';
@@ -1420,25 +1508,29 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoSelectionControlsTitle => 'کنترل‌های انتخاب';
 
   @override
-  String get demoSelectionControlsSubtitle => 'کادرهای تأیید، دکمه‌های رادیو، و کلیدها';
+  String get demoSelectionControlsSubtitle =>
+      'کادرهای تأیید، دکمه‌های رادیو، و کلیدها';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'کادر تأیید';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'کادر تأیید به کاربر اجازه می‌دهد چندین گزینه را از یک مجموعه انتخاب کند. ارزش عادی کادر تأیید درست یا نادرست است و ممکن است کادر تأیید سه‌حالته فاقد ارزش باشد.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'کادر تأیید به کاربر اجازه می‌دهد چندین گزینه را از یک مجموعه انتخاب کند. ارزش عادی کادر تأیید درست یا نادرست است و ممکن است کادر تأیید سه‌حالته فاقد ارزش باشد.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'رادیو';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'دکمه رادیو به کاربر اجازه می‌دهد یک گزینه‌ از یک مجموعه را انتخاب کند. اگر فکر می‌کنید کاربر نیاز دارد همه گزینه‌های دردسترس را پهلو‌به‌پهلو ببیند، از دکمه رادیو برای انتخاب منحصربه‌فرد استفاده کنید.';
+  String get demoSelectionControlsRadioDescription =>
+      'دکمه رادیو به کاربر اجازه می‌دهد یک گزینه‌ از یک مجموعه را انتخاب کند. اگر فکر می‌کنید کاربر نیاز دارد همه گزینه‌های دردسترس را پهلو‌به‌پهلو ببیند، از دکمه رادیو برای انتخاب منحصربه‌فرد استفاده کنید.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'کلید';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'کلیدهای روشن/خاموش وضعیت یک گزینه تنظیمات را تغییر می‌دهد گزینه‌ای که کلید کنترل می‌کند و وضعیتی که در آن است باید از‌طریق برچسب متغیر مربوطه معلوم شود.';
+  String get demoSelectionControlsSwitchDescription =>
+      'کلیدهای روشن/خاموش وضعیت یک گزینه تنظیمات را تغییر می‌دهد گزینه‌ای که کلید کنترل می‌کند و وضعیتی که در آن است باید از‌طریق برچسب متغیر مربوطه معلوم شود.';
 
   @override
   String get demoBottomTextFieldsTitle => 'فیلدهای نوشتاری';
@@ -1450,7 +1542,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoTextFieldSubtitle => 'یک خط نوشتار و ارقام قابل‌ویرایش';
 
   @override
-  String get demoTextFieldDescription => 'فیلدهای نوشتاری به کاربران امکان می‌دهد نوشتار را در رابط کاربری وارد کنند. معمولاً به‌صورت فرم‌ها و کادرهای گفتگو ظاهر می‌شوند.';
+  String get demoTextFieldDescription =>
+      'فیلدهای نوشتاری به کاربران امکان می‌دهد نوشتار را در رابط کاربری وارد کنند. معمولاً به‌صورت فرم‌ها و کادرهای گفتگو ظاهر می‌شوند.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'نمایش گذرواژه';
@@ -1459,16 +1552,19 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'پنهان کردن گذرواژه';
 
   @override
-  String get demoTextFieldFormErrors => 'لطفاً خطاهای قرمزرنگ را قبل از ارسال برطرف کنید.';
+  String get demoTextFieldFormErrors =>
+      'لطفاً خطاهای قرمزرنگ را قبل از ارسال برطرف کنید.';
 
   @override
   String get demoTextFieldNameRequired => 'نام لازم است.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'لطفاً فقط نویسه‌های الفبایی را وارد کنید.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'لطفاً فقط نویسه‌های الفبایی را وارد کنید.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - شماره‌ای مربوط به ایالات متحده وارد کنید.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - شماره‌ای مربوط به ایالات متحده وارد کنید.';
 
   @override
   String get demoTextFieldEnterPassword => 'گذرواژه‌ای وارد کنید.';
@@ -1483,7 +1579,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoTextFieldNameField => 'نام*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'از کجا می‌توانیم به شما دسترسی داشته‌باشیم؟';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'از کجا می‌توانیم به شما دسترسی داشته‌باشیم؟';
 
   @override
   String get demoTextFieldPhoneNumber => 'شماره تلفن*';
@@ -1495,10 +1592,12 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoTextFieldEmail => 'ایمیل';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'درباره خودتان بگویید (مثلاً بنویسید چکار می‌کنید یا سرگرمی‌های موردعلاقه‌تان چیست)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'درباره خودتان بگویید (مثلاً بنویسید چکار می‌کنید یا سرگرمی‌های موردعلاقه‌تان چیست)';
 
   @override
-  String get demoTextFieldKeepItShort => 'خلاصه‌اش کنید، این فقط یک نسخه نمایشی است.';
+  String get demoTextFieldKeepItShort =>
+      'خلاصه‌اش کنید، این فقط یک نسخه نمایشی است.';
 
   @override
   String get demoTextFieldLifeStory => 'داستان زندگی';
@@ -1533,13 +1632,16 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get demoTooltipTitle => 'نکته‌ابزارها';
 
   @override
-  String get demoTooltipSubtitle => 'پیام کوتاهی که هنگام فشار طولانی یا نگه داشتن نشانگر نمایش داده می‌شود';
+  String get demoTooltipSubtitle =>
+      'پیام کوتاهی که هنگام فشار طولانی یا نگه داشتن نشانگر نمایش داده می‌شود';
 
   @override
-  String get demoTooltipDescription => 'نکته‌ابزارها برچسبی نوشتاری نشان می‌دهد که عملکرد دکمه‌ها یا کنش‌های دیگر رابط کاربری را توضیح می‌دهد. وقتی کاربران نشانگر را روی عنصری نگه می‌دارند، روی آن تمرکز می‌کنند، یا فشار طولانی می‌دهند، نکته‌ابزار نوشتار مفیدی نمایش می‌دهد.';
+  String get demoTooltipDescription =>
+      'نکته‌ابزارها برچسبی نوشتاری نشان می‌دهد که عملکرد دکمه‌ها یا کنش‌های دیگر رابط کاربری را توضیح می‌دهد. وقتی کاربران نشانگر را روی عنصری نگه می‌دارند، روی آن تمرکز می‌کنند، یا فشار طولانی می‌دهند، نکته‌ابزار نوشتار مفیدی نمایش می‌دهد.';
 
   @override
-  String get demoTooltipInstructions => 'برای نمایش نکته‌ابزار، فشار طولانی دهید یا نشانگر را روی آن نگه دارید.';
+  String get demoTooltipInstructions =>
+      'برای نمایش نکته‌ابزار، فشار طولانی دهید یا نشانگر را روی آن نگه دارید.';
 
   @override
   String get bottomNavigationCommentsTab => 'نظرات';
@@ -1600,7 +1702,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get dialogLocationTitle => 'از «خدمات مکان Google» استفاده شود؟';
 
   @override
-  String get dialogLocationDescription => 'به Google اجازه دهید به برنامه‌ها کمک کند مکان را تعیین کنند. با این کار، داده‌های مکانی به‌صورت ناشناس به Google ارسال می‌شوند، حتی وقتی هیچ برنامه‌ای اجرا نمی‌شود.';
+  String get dialogLocationDescription =>
+      'به Google اجازه دهید به برنامه‌ها کمک کند مکان را تعیین کنند. با این کار، داده‌های مکانی به‌صورت ناشناس به Google ارسال می‌شوند، حتی وقتی هیچ برنامه‌ای اجرا نمی‌شود.';
 
   @override
   String get dialogCancel => 'لغو';
@@ -1645,10 +1748,12 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'صرف‌نظر کردن';
 
   @override
-  String get cupertinoAlertLocationTitle => 'به «Maps» اجازه داده شود هنگامی که از برنامه موردنظر استفاده می‌کنید به مکان شما دسترسی پیدا کند؟';
+  String get cupertinoAlertLocationTitle =>
+      'به «Maps» اجازه داده شود هنگامی که از برنامه موردنظر استفاده می‌کنید به مکان شما دسترسی پیدا کند؟';
 
   @override
-  String get cupertinoAlertLocationDescription => 'مکان فعلی‌تان روی نقشه نشان داده می‌شود و از آن برای تعیین مسیرها، نتایج جستجوی اطراف، و زمان‌های سفر تخمینی استفاده می‌شود.';
+  String get cupertinoAlertLocationDescription =>
+      'مکان فعلی‌تان روی نقشه نشان داده می‌شود و از آن برای تعیین مسیرها، نتایج جستجوی اطراف، و زمان‌های سفر تخمینی استفاده می‌شود.';
 
   @override
   String get cupertinoAlertAllow => 'مجاز';
@@ -1660,7 +1765,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'انتخاب دسر موردعلاقه';
 
   @override
-  String get cupertinoAlertDessertDescription => 'لطفاً نوع دسر موردعلاقه‌تان را از فهرست زیر انتخاب کنید. از انتخاب شما برای سفارشی کردن فهرست پیشنهادی رستوران‌های منطقه‌تان استفاده می‌شود.';
+  String get cupertinoAlertDessertDescription =>
+      'لطفاً نوع دسر موردعلاقه‌تان را از فهرست زیر انتخاب کنید. از انتخاب شما برای سفارشی کردن فهرست پیشنهادی رستوران‌های منطقه‌تان استفاده می‌شود.';
 
   @override
   String get cupertinoAlertCheesecake => 'کیک پنیر';
@@ -2243,7 +2349,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get craneEat10 => 'لیسبون، پرتغال';
 
   @override
-  String get craneFly0SemanticLabel => 'کلبه‌ای در منظره برفی با درختان همیشه‌سبز';
+  String get craneFly0SemanticLabel =>
+      'کلبه‌ای در منظره برفی با درختان همیشه‌سبز';
 
   @override
   String get craneFly1SemanticLabel => 'چادری در مزرعه';
@@ -2288,7 +2395,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get craneSleep0SemanticLabel => 'خانه‌های ییلاقی روی آب';
 
   @override
-  String get craneSleep1SemanticLabel => 'کلبه‌ای در منظره برفی با درختان همیشه‌سبز';
+  String get craneSleep1SemanticLabel =>
+      'کلبه‌ای در منظره برفی با درختان همیشه‌سبز';
 
   @override
   String get craneSleep2SemanticLabel => 'قلعه ماچو پیچو';
@@ -2309,7 +2417,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get craneSleep7SemanticLabel => 'آپارتمان‌های رنگی در میدان ریبریا';
 
   @override
-  String get craneSleep8SemanticLabel => 'خرابه‌های تمدن مایا بر صخره‌ای بالای ساحل';
+  String get craneSleep8SemanticLabel =>
+      'خرابه‌های تمدن مایا بر صخره‌ای بالای ساحل';
 
   @override
   String get craneSleep9SemanticLabel => 'فانوس دریایی آجری کنار دریا';
@@ -2351,7 +2460,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get craneEat9SemanticLabel => 'پیشخوان قهوه و شیرینی';
 
   @override
-  String get craneEat10SemanticLabel => 'زن ساندویچ بزرگ گوشت دودی را در دست گرفته است';
+  String get craneEat10SemanticLabel =>
+      'زن ساندویچ بزرگ گوشت دودی را در دست گرفته است';
 
   @override
   String get fortnightlyMenuFrontPage => 'صفحه اول';
@@ -2402,7 +2512,8 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'جدیدترین به‌روزرسانی‌ها';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'انقلاب بی‌صدا، اما قدرتمند خدمات درمانی';
+  String get fortnightlyHeadlineHealthcare =>
+      'انقلاب بی‌صدا، اما قدرتمند خدمات درمانی';
 
   @override
   String get fortnightlyHeadlineWar => 'زندگی آمریکایی‌های جداافتاده درطول جنگ';
@@ -2414,16 +2525,20 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'اصلاح ارتش سبز از درون';
 
   @override
-  String get fortnightlyHeadlineStocks => 'با راکد شدن سهام، اکثر نگاه‌ها متوجه ارز است';
+  String get fortnightlyHeadlineStocks =>
+      'با راکد شدن سهام، اکثر نگاه‌ها متوجه ارز است';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'طراحان برای تولید پارچه‌های نسل آینده از فناوری بهره می‌برند';
+  String get fortnightlyHeadlineFabrics =>
+      'طراحان برای تولید پارچه‌های نسل آینده از فناوری بهره می‌برند';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'فمینیست‌ها طرفداری سیاسی را به مبارزه طلبیدند';
+  String get fortnightlyHeadlineFeminists =>
+      'فمینیست‌ها طرفداری سیاسی را به مبارزه طلبیدند';
 
   @override
-  String get fortnightlyHeadlineBees => 'زنبورهای پرورشی با کمبود مواد غذایی روبرو هستند';
+  String get fortnightlyHeadlineBees =>
+      'زنبورهای پرورشی با کمبود مواد غذایی روبرو هستند';
 
   @override
   String get replyInboxLabel => 'صندوق ورودی';

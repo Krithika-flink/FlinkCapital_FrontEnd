@@ -51,11 +51,11 @@ extension GalleryDemoExtension on GalleryDemoCategory {
   String displayTitle(GalleryLocalizations localizations) {
     switch (this) {
       case GalleryDemoCategory.material:
-        return 'MATERIAL';
+        return 'HOW IT WORKS';
       case GalleryDemoCategory.cupertino:
-        return 'CUPERTINO';
+        return 'FAQ';
       case GalleryDemoCategory.other:
-        return localizations.homeCategoryReference;
+        return 'SUBSCRIPTIONS & OTHERS';
       case GalleryDemoCategory.study:
     }
     return null;
@@ -126,11 +126,11 @@ Map<String, GalleryDemo> studies(GalleryLocalizations localizations) {
       category: GalleryDemoCategory.study,
       studyId: 'shrine',
     ),
-    'rally': GalleryDemo(
-      title: 'Rally',
+    'BiggBott': GalleryDemo(
+      title: '',
       subtitle: localizations.rallyDescription,
       category: GalleryDemoCategory.study,
-      studyId: 'rally',
+      studyId: 'BiggBott',
     ),
     'crane': GalleryDemo(
       title: 'Crane',

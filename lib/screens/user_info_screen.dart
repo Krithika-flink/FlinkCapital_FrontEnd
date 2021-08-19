@@ -4,6 +4,7 @@ import 'package:gallery/res/custom_colors.dart';
 import 'package:gallery/screens/sign_in_screen.dart';
 import 'package:gallery/utils/authentication.dart';
 import 'package:gallery/widgets/app_bar_title.dart';
+import 'package:gallery/studies/rally/routes.dart' as rally_route;
 
 class UserInfoScreen extends StatefulWidget {
   const UserInfoScreen({Key key, User user})
@@ -147,7 +148,7 @@ class _UserInfoScreenState extends State<UserInfoScreen> {
                           _isSigningOut = false;
                         });
                         Navigator.of(context)
-                            .pushReplacement(_routeToSignInScreen());
+                            .restorablePushNamed(rally_route.loginRoute);
                       },
                       child: Padding(
                         padding: EdgeInsets.only(top: 8.0, bottom: 8.0),

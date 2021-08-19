@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get signIn => 'LOGI SISSE';
 
   @override
-  String get bannerDemoText => 'Parooli värskendati teie muus seadmes. Logige uuesti sisse.';
+  String get bannerDemoText =>
+      'Parooli värskendati teie muus seadmes. Logige uuesti sisse.';
 
   @override
   String get bannerDemoResetText => 'Lähtesta bänner';
@@ -60,7 +60,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => '10 populaarseimat linna, mida Tamil Nadus külastada';
+  String get cardsDemoTravelDestinationTitle1 =>
+      '10 populaarseimat linna, mida Tamil Nadus külastada';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Number 10';
@@ -72,7 +73,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get cardsDemoTravelDestinationLocation1 => 'Thanjavur, Tamil Nadu';
 
   @override
-  String get cardsDemoTravelDestinationTitle2 => 'Lõuna-India kunstkäsitöölised';
+  String get cardsDemoTravelDestinationTitle2 =>
+      'Lõuna-India kunstkäsitöölised';
 
   @override
   String get cardsDemoTravelDestinationDescription2 => 'Siidiketrajad';
@@ -120,16 +122,19 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Puhkusekonto';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Aastane tuluprotsent';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Aastane tuluprotsent';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Intressimäär';
 
   @override
-  String get rallyAccountDetailDataInterestYtd => 'Aastane intress tänase kuupäevani';
+  String get rallyAccountDetailDataInterestYtd =>
+      'Aastane intress tänase kuupäevani';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Eelmisel aastal makstud intress';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Eelmisel aastal makstud intress';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Järgmine väljavõte';
@@ -285,8 +290,10 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Suurendage oma potentsiaalset maksuvabastust! Määrake kategooriad 1 määramata tehingule.',
-      other: 'Suurendage oma potentsiaalset maksuvabastust! Määrake kategooriad ${count} määramata tehingule.',
+      one:
+          'Suurendage oma potentsiaalset maksuvabastust! Määrake kategooriad 1 määramata tehingule.',
+      other:
+          'Suurendage oma potentsiaalset maksuvabastust! Määrake kategooriad ${count} määramata tehingule.',
     );
   }
 
@@ -300,7 +307,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Kuva kõik eelarved';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'Konto ${accountName} (${accountNumber}) – ${amount}.';
   }
 
@@ -310,7 +318,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'Eelarve ${budgetName} summast ${amountTotal} on kasutatud ${amountUsed}, järel on ${amountLeft}';
   }
 
@@ -342,7 +351,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoCodeViewerCopyAll => 'KOPEERI KÕIK';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'Kopeeritud lõikelauale.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'Kopeeritud lõikelauale.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -353,7 +363,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Valikute kuvamine';
 
   @override
-  String get demoOptionsFeatureDescription => 'Puudutage siin, et vaadata selles demos saadaolevaid valikuid.';
+  String get demoOptionsFeatureDescription =>
+      'Puudutage siin, et vaadata selles demos saadaolevaid valikuid.';
 
   @override
   String get settingsTitle => 'Seaded';
@@ -425,19 +436,23 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Alumine rakenduseriba';
 
   @override
-  String get demoBottomAppBarSubtitle => 'Kuvab navigeerimise ja toimingud allosas';
+  String get demoBottomAppBarSubtitle =>
+      'Kuvab navigeerimise ja toimingud allosas';
 
   @override
-  String get demoBottomAppBarDescription => 'Alumised rakenduseribad võimaldavad juurdepääsu alumisele navigeerimissahtlile ja kuni neljale toimingule, sealhulgas hõljuvale toimingunupule.';
+  String get demoBottomAppBarDescription =>
+      'Alumised rakenduseribad võimaldavad juurdepääsu alumisele navigeerimissahtlile ja kuni neljale toimingule, sealhulgas hõljuvale toimingunupule.';
 
   @override
   String get bottomAppBarNotch => 'Sälk';
@@ -464,13 +479,15 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Kuvatud on loendis olev bänner';
 
   @override
-  String get demoBannerDescription => 'Bänneril kuvatakse oluline ja lakooniline sõnum ning pakutakse kasutajatele toiminguid probleemi lahendamiseks (või bännerist loobumiseks). Bännerist loobumiseks on nõutav kasutaja toiming.';
+  String get demoBannerDescription =>
+      'Bänneril kuvatakse oluline ja lakooniline sõnum ning pakutakse kasutajatele toiminguid probleemi lahendamiseks (või bännerist loobumiseks). Bännerist loobumiseks on nõutav kasutaja toiming.';
 
   @override
   String get demoBottomNavigationTitle => 'Alla liikumine';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Allossa navigeerimine tuhmuvate kuvadega';
+  String get demoBottomNavigationSubtitle =>
+      'Allossa navigeerimine tuhmuvate kuvadega';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Püsivad sildid';
@@ -479,43 +496,50 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Valitud silt';
 
   @override
-  String get demoBottomNavigationDescription => 'Alumisel navigeerimisribal kuvatakse ekraanikuva allservas 3–5 sihtkohta. Iga sihtkohta esindab ikoon ja valikuline tekstisilt. Alumise navigeerimisikooni puudutamisel suunatakse kasutaja selle ikooniga seotud ülatasemel navigeerimise sihtkohta.';
+  String get demoBottomNavigationDescription =>
+      'Alumisel navigeerimisribal kuvatakse ekraanikuva allservas 3–5 sihtkohta. Iga sihtkohta esindab ikoon ja valikuline tekstisilt. Alumise navigeerimisikooni puudutamisel suunatakse kasutaja selle ikooniga seotud ülatasemel navigeerimise sihtkohta.';
 
   @override
   String get demoButtonTitle => 'Nupud';
 
   @override
-  String get demoButtonSubtitle => 'Teksti-, tõstetud ja mitmetasandilised nupud ning muu';
+  String get demoButtonSubtitle =>
+      'Teksti-, tõstetud ja mitmetasandilised nupud ning muu';
 
   @override
   String get demoTextButtonTitle => 'Tekstinupp';
 
   @override
-  String get demoTextButtonDescription => 'Tekstinupp kuvab vajutamisel tindipleki, kuid ei tõuse ülespoole. Kasutage tekstinuppe tööriistaribadel, dialoogides ja tekstisiseselt koos täidisega';
+  String get demoTextButtonDescription =>
+      'Tekstinupp kuvab vajutamisel tindipleki, kuid ei tõuse ülespoole. Kasutage tekstinuppe tööriistaribadel, dialoogides ja tekstisiseselt koos täidisega';
 
   @override
   String get demoElevatedButtonTitle => 'Tõstetud nupud';
 
   @override
-  String get demoElevatedButtonDescription => 'Tõstetud nupud pakuvad peamiselt ühetasandiliste nuppude kõrval lisamõõdet. Need tõstavad tihedalt täidetud või suurtel aladel esile funktsioone.';
+  String get demoElevatedButtonDescription =>
+      'Tõstetud nupud pakuvad peamiselt ühetasandiliste nuppude kõrval lisamõõdet. Need tõstavad tihedalt täidetud või suurtel aladel esile funktsioone.';
 
   @override
   String get demoOutlinedButtonTitle => 'Mitmetasandiline nupp';
 
   @override
-  String get demoOutlinedButtonDescription => 'Mitmetasandilised nupud muutuvad vajutamisel läbipaistvaks ja tõusevad ülespoole. Need seotakse sageli tõstetud nuppudega, et pakkuda alternatiivset (teisest) toimingut.';
+  String get demoOutlinedButtonDescription =>
+      'Mitmetasandilised nupud muutuvad vajutamisel läbipaistvaks ja tõusevad ülespoole. Need seotakse sageli tõstetud nuppudega, et pakkuda alternatiivset (teisest) toimingut.';
 
   @override
   String get demoToggleButtonTitle => 'Lülitusnupp';
 
   @override
-  String get demoToggleButtonDescription => 'Lülitusnuppe saab kasutada seotud valikute grupeerimiseks. Seotud lülitusnuppude gruppide esiletõstmiseks peab grupp jagama ühist konteinerit';
+  String get demoToggleButtonDescription =>
+      'Lülitusnuppe saab kasutada seotud valikute grupeerimiseks. Seotud lülitusnuppude gruppide esiletõstmiseks peab grupp jagama ühist konteinerit';
 
   @override
   String get demoFloatingButtonTitle => 'Hõljuv toimingunupp';
 
   @override
-  String get demoFloatingButtonDescription => 'Hõljuv toimingunupp on ümmargune ikooninupp, mis hõljub sisu kohal, et pakkuda rakenduses peamist toimingut.';
+  String get demoFloatingButtonDescription =>
+      'Hõljuv toimingunupp on ümmargune ikooninupp, mis hõljub sisu kohal, et pakkuda rakenduses peamist toimingut.';
 
   @override
   String get demoCardTitle => 'Kaardid';
@@ -527,34 +551,40 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoChipTitle => 'Kiibid';
 
   @override
-  String get demoCardDescription => 'Kaart on materjali leht, mida kasutatakse mingi seotud teabe (nt albumi, geograafilise asukoha, eine, kontaktandmete jm) esitamiseks.';
+  String get demoCardDescription =>
+      'Kaart on materjali leht, mida kasutatakse mingi seotud teabe (nt albumi, geograafilise asukoha, eine, kontaktandmete jm) esitamiseks.';
 
   @override
-  String get demoChipSubtitle => 'Kompaktsed elemendid, mis tähistavad sisendit, atribuuti või toimingut';
+  String get demoChipSubtitle =>
+      'Kompaktsed elemendid, mis tähistavad sisendit, atribuuti või toimingut';
 
   @override
   String get demoActionChipTitle => 'Toimingukiip';
 
   @override
-  String get demoActionChipDescription => 'Toimingukiibid on valikukomplekt, mis käivitab primaarse sisuga seotud toimingu. Toimingukiibid peaksid kasutajaliideses ilmuma dünaamiliselt ja kontekstiliselt.';
+  String get demoActionChipDescription =>
+      'Toimingukiibid on valikukomplekt, mis käivitab primaarse sisuga seotud toimingu. Toimingukiibid peaksid kasutajaliideses ilmuma dünaamiliselt ja kontekstiliselt.';
 
   @override
   String get demoChoiceChipTitle => 'Valikukiip';
 
   @override
-  String get demoChoiceChipDescription => 'Valikukiibid tähistavad komplektist ühte valikut. Valikukiibid sisaldavad seotud kirjeldavat teksti või kategooriaid.';
+  String get demoChoiceChipDescription =>
+      'Valikukiibid tähistavad komplektist ühte valikut. Valikukiibid sisaldavad seotud kirjeldavat teksti või kategooriaid.';
 
   @override
   String get demoFilterChipTitle => 'Filtrikiip';
 
   @override
-  String get demoFilterChipDescription => 'Filtreerimiskiibid kasutavad sisu filtreerimiseks märgendeid või kirjeldavaid sõnu.';
+  String get demoFilterChipDescription =>
+      'Filtreerimiskiibid kasutavad sisu filtreerimiseks märgendeid või kirjeldavaid sõnu.';
 
   @override
   String get demoInputChipTitle => 'Sisendkiip';
 
   @override
-  String get demoInputChipDescription => 'Sisendkiibid tähistavad kompaktsel kujul keerulist teavet, näiteks üksust (isik, koht või asi) või meilivestluse teksti.';
+  String get demoInputChipDescription =>
+      'Sisendkiibid tähistavad kompaktsel kujul keerulist teavet, näiteks üksust (isik, koht või asi) või meilivestluse teksti.';
 
   @override
   String get demoDataTableTitle => 'Andmetabelid';
@@ -563,7 +593,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'Teabe read ja veerud';
 
   @override
-  String get demoDataTableDescription => 'Andmetabelites kuvatakse teave ridade ja veergudena ruudustiku vormingus. Need korraldavad teabe nii, et seda oleks lihtne otsida, et kasutajad saaksid otsida mustreid ja statistikat.';
+  String get demoDataTableDescription =>
+      'Andmetabelites kuvatakse teave ridade ja veergudena ruudustiku vormingus. Need korraldavad teabe nii, et seda oleks lihtne otsida, et kasutajad saaksid otsida mustreid ja statistikat.';
 
   @override
   String get dataTableHeader => 'Toitumine';
@@ -642,7 +673,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'Hoiatus';
 
   @override
-  String get demoAlertDialogDescription => 'Hoiatusdialoog teavitab kasutajat olukordadest, mis nõuavad tähelepanu. Hoiatusdialoogil on valikuline pealkiri ja valikuline toimingute loend.';
+  String get demoAlertDialogDescription =>
+      'Hoiatusdialoog teavitab kasutajat olukordadest, mis nõuavad tähelepanu. Hoiatusdialoogil on valikuline pealkiri ja valikuline toimingute loend.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Hoiatus koos pealkirjaga';
@@ -651,16 +683,19 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Lihtne';
 
   @override
-  String get demoSimpleDialogDescription => 'Lihtne dialoog pakub kasutajale valikut mitme võimaluse vahel. Lihtsal dialoogil on valikuline pealkiri, mis kuvatakse valikute kohal.';
+  String get demoSimpleDialogDescription =>
+      'Lihtne dialoog pakub kasutajale valikut mitme võimaluse vahel. Lihtsal dialoogil on valikuline pealkiri, mis kuvatakse valikute kohal.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +707,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Ridade ja veergudega paigutus';
 
   @override
-  String get demoGridListsDescription => 'Ruudustikloendid sobivad kõige paremini homogeensete andmete (nt piltide) esitamiseks. Iga ruudustikloendis olevat üksust nimetatakse paaniks.';
+  String get demoGridListsDescription =>
+      'Ruudustikloendid sobivad kõige paremini homogeensete andmete (nt piltide) esitamiseks. Iga ruudustikloendis olevat üksust nimetatakse paaniks.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Ainult pilt';
@@ -690,31 +726,37 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoSlidersSubtitle => 'Vidinad, millega valida väärtus pühkides';
 
   @override
-  String get demoSlidersDescription => 'Liugurid kajastavad väärtuste vahemikku ribal, millest kasutajad saavad valida ühe väärtuse. Need sobivad hästi selliste seadete kohandamiseks nagu helitugevus, heledus või pildifiltrite rakendamine.';
+  String get demoSlidersDescription =>
+      'Liugurid kajastavad väärtuste vahemikku ribal, millest kasutajad saavad valida ühe väärtuse. Need sobivad hästi selliste seadete kohandamiseks nagu helitugevus, heledus või pildifiltrite rakendamine.';
 
   @override
   String get demoRangeSlidersTitle => 'Vahemiku liugurid';
 
   @override
-  String get demoRangeSlidersDescription => 'Liugurid kajastavad väärtuste vahemikku ribal. Nende mõlemas otsas võivad olla ikoonid, mis kajastavad väärtuste vahemikku. Need sobivad hästi selliste seadete kohandamiseks nagu helitugevus, heledus või pildifiltrite rakendamine.';
+  String get demoRangeSlidersDescription =>
+      'Liugurid kajastavad väärtuste vahemikku ribal. Nende mõlemas otsas võivad olla ikoonid, mis kajastavad väärtuste vahemikku. Need sobivad hästi selliste seadete kohandamiseks nagu helitugevus, heledus või pildifiltrite rakendamine.';
 
   @override
   String get demoCustomSlidersTitle => 'Kohandatud liugurid';
 
   @override
-  String get demoCustomSlidersDescription => 'Liugurid kajastavad väärtuste vahemikku ribal, millest kasutajad saavad valida ühe väärtuse või väärtuste vahemiku. Liuguritele saab teemasid määrata ja neid kohandada.';
+  String get demoCustomSlidersDescription =>
+      'Liugurid kajastavad väärtuste vahemikku ribal, millest kasutajad saavad valida ühe väärtuse või väärtuste vahemiku. Liuguritele saab teemasid määrata ja neid kohandada.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Pidev muudetav arvväärtus';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Pidev muudetav arvväärtus';
 
   @override
   String get demoSlidersDiscrete => 'Diskreetne';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Diskreetse vahemiku kohandatud teemaga liugur';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Diskreetse vahemiku kohandatud teemaga liugur';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Pideva vahemiku kohandatud teemaga liugur';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Pideva vahemiku kohandatud teemaga liugur';
 
   @override
   String get demoSlidersContinuous => 'Pidev';
@@ -741,7 +783,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Menüünupud ja lihtsad menüüd';
 
   @override
-  String get demoMenuDescription => 'Menüü kuvab ajutisel pinnal valikute loendi. Need kuvatakse siis, kui kasutajad nuppe, toiminguid või muid juhtelemente kasutavad.';
+  String get demoMenuDescription =>
+      'Menüü kuvab ajutisel pinnal valikute loendi. Need kuvatakse siis, kui kasutajad nuppe, toiminguid või muid juhtelemente kasutavad.';
 
   @override
   String get demoMenuItemValueOne => 'Menüü-üksus 1';
@@ -808,7 +851,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoNavigationDrawerSubtitle => 'Sahtli kuvamine rakenduste ribal';
 
   @override
-  String get demoNavigationDrawerDescription => 'Materiaalse disaini paneel, mis libiseb horisontaalselt välja ekraani servast ja näitab rakenduse navigeerimislinke.';
+  String get demoNavigationDrawerDescription =>
+      'Materiaalse disaini paneel, mis libiseb horisontaalselt välja ekraani servast ja näitab rakenduse navigeerimislinke.';
 
   @override
   String get demoNavigationDrawerUserName => 'Kasutaja nimi';
@@ -823,16 +867,19 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Teine üksus';
 
   @override
-  String get demoNavigationDrawerText => 'Sahtli nägemiseks pühkige servast või puudutage ülal vasakul olevat ikooni';
+  String get demoNavigationDrawerText =>
+      'Sahtli nägemiseks pühkige servast või puudutage ülal vasakul olevat ikooni';
 
   @override
   String get demoNavigationRailTitle => 'Navigeerimisrada';
 
   @override
-  String get demoNavigationRailSubtitle => 'Navigeerimisraja kuvamine rakenduses';
+  String get demoNavigationRailSubtitle =>
+      'Navigeerimisraja kuvamine rakenduses';
 
   @override
-  String get demoNavigationRailDescription => 'Materiaalse disaini vidin, mida kuvatakse rakenduse vasakul või paremal küljel, et navigeerida väikese arvu vaadete vahel, tavaliselt kolme kuni viie.';
+  String get demoNavigationRailDescription =>
+      'Materiaalse disaini vidin, mida kuvatakse rakenduse vasakul või paremal küljel, et navigeerida väikese arvu vaadete vahel, tavaliselt kolme kuni viie.';
 
   @override
   String get demoNavigationRailFirst => 'Esimene';
@@ -847,22 +894,26 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoMenuAnItemWithASimpleMenu => 'Lihtsa menüüga üksus';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Kontroll-loendi menüüga üksus';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Kontroll-loendi menüüga üksus';
 
   @override
   String get demoFullscreenDialogTitle => 'Täisekraan';
 
   @override
-  String get demoFullscreenDialogDescription => 'Atribuut fullscreenDialog määrab, kas sissetulev leht on täisekraanil kuvatud modaaldialoog';
+  String get demoFullscreenDialogDescription =>
+      'Atribuut fullscreenDialog määrab, kas sissetulev leht on täisekraanil kuvatud modaaldialoog';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Tegevuste näidik';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'iOS-i stiilis tegevuste näidikud';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'iOS-i stiilis tegevuste näidikud';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'iOS-i stiilis päripäeva liikuv tegevuste näidik.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'iOS-i stiilis päripäeva liikuv tegevuste näidik.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Nupud';
@@ -871,7 +922,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'iOS-i stiilis nupud';
 
   @override
-  String get demoCupertinoButtonsDescription => 'iOS-i stiilis nupp. See tõmbab sisse teksti ja/või ikooni, mis liigub puudutamisel välja ja sisse. Võib hõlmata ka tausta.';
+  String get demoCupertinoButtonsDescription =>
+      'iOS-i stiilis nupp. See tõmbab sisse teksti ja/või ikooni, mis liigub puudutamisel välja ja sisse. Võib hõlmata ka tausta.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +932,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,7 +942,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Hoiatused';
@@ -901,7 +955,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => 'Märguanne';
 
   @override
-  String get demoCupertinoAlertDescription => 'Hoiatusdialoog teavitab kasutajat olukordadest, mis nõuavad tähelepanu. Hoiatusdialoogil on valikuline pealkiri, valikuline sisu ja valikuline toimingute loend. Pealkiri kuvatakse sisu kohal ja toimingud sisu all.';
+  String get demoCupertinoAlertDescription =>
+      'Hoiatusdialoog teavitab kasutajat olukordadest, mis nõuavad tähelepanu. Hoiatusdialoogil on valikuline pealkiri, valikuline sisu ja valikuline toimingute loend. Pealkiri kuvatakse sisu kohal ja toimingud sisu all.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Hoiatus koos pealkirjaga';
@@ -916,25 +971,30 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'Toiminguleht';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Toiminguleht on teatud tüüpi hoiatus, mis pakub kasutajale vähemalt kahte valikut, mis on seotud praeguse kontekstiga. Toimingulehel võib olla pealkiri, lisasõnum ja toimingute loend.';
+  String get demoCupertinoActionSheetDescription =>
+      'Toiminguleht on teatud tüüpi hoiatus, mis pakub kasutajale vähemalt kahte valikut, mis on seotud praeguse kontekstiga. Toimingulehel võib olla pealkiri, lisasõnum ja toimingute loend.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Navigeerimisriba';
 
   @override
-  String get demoCupertinoNavigationBarSubtitle => 'iOS-i stiilis navigeerimisriba';
+  String get demoCupertinoNavigationBarSubtitle =>
+      'iOS-i stiilis navigeerimisriba';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'iOS-i stiilis navigeerimisriba. Navigeerimisriba on tööriistariba, mis koosneb vähemalt lehe pealkirjast ja asub tööriistariba keskel.';
+  String get demoCupertinoNavigationBarDescription =>
+      'iOS-i stiilis navigeerimisriba. Navigeerimisriba on tööriistariba, mis koosneb vähemalt lehe pealkirjast ja asub tööriistariba keskel.';
 
   @override
   String get demoCupertinoPickerTitle => 'Valijad';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'iOS-stiilis kuupäeva ja kellaaja valijad';
+  String get demoCupertinoPickerSubtitle =>
+      'iOS-stiilis kuupäeva ja kellaaja valijad';
 
   @override
-  String get demoCupertinoPickerDescription => 'iOS-stiilis valikuvidin, mida saab kasutada kuupäevade, kellaaegade või mõlema valimiseks.';
+  String get demoCupertinoPickerDescription =>
+      'iOS-stiilis valikuvidin, mida saab kasutada kuupäevade, kellaaegade või mõlema valimiseks.';
 
   @override
   String get demoCupertinoPickerTimer => 'Taimer';
@@ -952,19 +1012,23 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'Värskendamiseks allatõmbamine';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'Värskendamiseks allatõmbamise iOS-i stiilis juhtelement';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'Värskendamiseks allatõmbamise iOS-i stiilis juhtelement';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Vidin, mis juurutab värskendamiseks allatõmbamise iOS-i stiilis juhtelemendi.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Vidin, mis juurutab värskendamiseks allatõmbamise iOS-i stiilis juhtelemendi.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Segmenditud juhtimine';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'iOS-i stiilis segmenditud juhtimine';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'iOS-i stiilis segmenditud juhtimine';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Kasutatakse mitme üksteist välistava valiku vahel valimiseks. Kui segmenditud juhtimises on üks valik tehtud, siis teisi valikuid segmenditud juhtimises teha ei saa.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Kasutatakse mitme üksteist välistava valiku vahel valimiseks. Kui segmenditud juhtimises on üks valik tehtud, siis teisi valikuid segmenditud juhtimises teha ei saa.';
 
   @override
   String get demoCupertinoSliderTitle => 'Liugur';
@@ -973,7 +1037,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'iOS-i stiilis liugur';
 
   @override
-  String get demoCupertinoSliderDescription => 'Liugurit saab kasutada nii pidevate kui ka diskreetsete väärtuste valimiseks.';
+  String get demoCupertinoSliderDescription =>
+      'Liugurit saab kasutada nii pidevate kui ka diskreetsete väärtuste valimiseks.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,16 +1054,19 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'iOS-i stiilis lüliti';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Lülitit kasutatakse ühe konkreetse seade sisse-/väljalülitatud oleku määramiseks.';
+  String get demoCupertinoSwitchDescription =>
+      'Lülitit kasutatakse ühe konkreetse seade sisse-/väljalülitatud oleku määramiseks.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Vaheleheriba';
 
   @override
-  String get demoCupertinoTabBarSubtitle => 'iOS-i stiilis alumine vahekaardiriba';
+  String get demoCupertinoTabBarSubtitle =>
+      'iOS-i stiilis alumine vahekaardiriba';
 
   @override
-  String get demoCupertinoTabBarDescription => 'iOS-i stiilis alumine vahekaartide navigeerimisriba. Kuvab mitu vahekaarti, millest üks on aktiivne (vaikimisi esimene vahekaart).';
+  String get demoCupertinoTabBarDescription =>
+      'iOS-i stiilis alumine vahekaartide navigeerimisriba. Kuvab mitu vahekaarti, millest üks on aktiivne (vaikimisi esimene vahekaart).';
 
   @override
   String get cupertinoTabBarHomeTab => 'Avaleht';
@@ -1016,7 +1084,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'iOS-stiilis tekstiväljad';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'Tekstiväli võimaldab kasutajal füüsilise või ekraanil kuvatava klaviatuuriga teksti sisestada.';
+  String get demoCupertinoTextFieldDescription =>
+      'Tekstiväli võimaldab kasutajal füüsilise või ekraanil kuvatava klaviatuuriga teksti sisestada.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN-kood';
@@ -1028,13 +1097,16 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoMotionSubtitle => 'Kõik eelmääratud üleminekumustrid';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'Kaardid, loendid ja hõljuv toimingunupp';
+  String get demoContainerTransformDemoInstructions =>
+      'Kaardid, loendid ja hõljuv toimingunupp';
 
   @override
-  String get demoSharedXAxisDemoInstructions => 'Edasi- ja tagasiliikumise nupud';
+  String get demoSharedXAxisDemoInstructions =>
+      'Edasi- ja tagasiliikumise nupud';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'Sortimisalus „Hiljuti esitatud”';
+  String get demoSharedYAxisDemoInstructions =>
+      'Sortimisalus „Hiljuti esitatud”';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'Seadete ikooninupp';
@@ -1043,13 +1115,15 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoFadeThroughDemoInstructions => 'Alumine navigeerimine';
 
   @override
-  String get demoFadeScaleDemoInstructions => 'Modaalleht ja hõljuv toimingunupp';
+  String get demoFadeScaleDemoInstructions =>
+      'Modaalleht ja hõljuv toimingunupp';
 
   @override
   String get demoContainerTransformTitle => 'Konteineri üleminek';
 
   @override
-  String get demoContainerTransformDescription => 'Konteineri ülemineku muster on loodud konteinerit sisaldavate kasutajaliidese elementide vaheliste üleminekute jaoks. Muster loob kahe kasutajaliidese elemendi vahel nähtava sideme';
+  String get demoContainerTransformDescription =>
+      'Konteineri ülemineku muster on loodud konteinerit sisaldavate kasutajaliidese elementide vaheliste üleminekute jaoks. Muster loob kahe kasutajaliidese elemendi vahel nähtava sideme';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'Hajutusrežiim';
@@ -1076,7 +1150,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Loendiüksus';
 
   @override
-  String get demoSharedAxisDescription => 'Jagatud telje mustrit kasutatakse ruumilise või navigeerimissuhtega kasutajaliidese elementide vaheliste üleminekute jaoks. Muster kasutab X-, Y- või Z-teljel jagatud üleminekut, et elementidevahelist suhet esile tõsta.';
+  String get demoSharedAxisDescription =>
+      'Jagatud telje mustrit kasutatakse ruumilise või navigeerimissuhtega kasutajaliidese elementide vaheliste üleminekute jaoks. Muster kasutab X-, Y- või Z-teljel jagatud üleminekut, et elementidevahelist suhet esile tõsta.';
 
   @override
   String get demoSharedXAxisTitle => 'Jagatud X-telg';
@@ -1091,7 +1166,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'Muutke kursused sujuvamaks';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Kogumis olevad kategooriad kuvatakse teie voos gruppidena. Seda saab alati hiljem muuta.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Kogumis olevad kategooriad kuvatakse teie voos gruppidena. Seda saab alati hiljem muuta.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Kunst ja käsitöö';
@@ -1124,7 +1200,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoSharedXAxisSignInTextFieldLabel => 'E-post või telefoninumber';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'KAS UNUSTASITE E-POSTI AADRESSI?';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'KAS UNUSTASITE E-POSTI AADRESSI?';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'LOO KONTO';
@@ -1178,19 +1255,22 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Krevetid';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Krevetitaldriku retsept';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Krevetitaldriku retsept';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Krabi';
 
   @override
-  String get demoSharedZAxisCrabPlateRecipeDescription => 'Krabitaldriku retsept';
+  String get demoSharedZAxisCrabPlateRecipeDescription =>
+      'Krabitaldriku retsept';
 
   @override
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Veiselihavõileib';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Veiselihavõileiva retsept';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Veiselihavõileiva retsept';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Salvestatud retseptid';
@@ -1211,7 +1291,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Läbihajutus';
 
   @override
-  String get demoFadeThroughDescription => 'Läbihajutuse mustrit kasutatakse üleminekuna kasutajaliidese elementide puhul, millel ei ole teineteisega tugevat seost.';
+  String get demoFadeThroughDescription =>
+      'Läbihajutuse mustrit kasutatakse üleminekuna kasutajaliidese elementide puhul, millel ei ole teineteisega tugevat seost.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Albumid';
@@ -1229,7 +1310,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Hajutus';
 
   @override
-  String get demoFadeScaleDescription => 'Hajutusmustrit kasutatakse kasutajaliidese elementide puhul, mis ilmuvad või kaovad ekraanikuva piires, nagu dialoog, mis hajub ekraanikuva keskosas sisse.';
+  String get demoFadeScaleDescription =>
+      'Hajutusmustrit kasutatakse kasutajaliidese elementide puhul, mis ilmuvad või kaovad ekraanikuva piires, nagu dialoog, mis hajub ekraanikuva keskosas sisse.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'KUVA MODAALNE';
@@ -1256,7 +1338,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Kõik eelmääratud värvid';
 
   @override
-  String get demoColorsDescription => 'Värvide ja värvipaletti püsiväärtused, mis esindavad materiaalse disaini värvipaletti.';
+  String get demoColorsDescription =>
+      'Värvide ja värvipaletti püsiväärtused, mis esindavad materiaalse disaini värvipaletti.';
 
   @override
   String get demoTypographyTitle => 'Tüpograafia';
@@ -1265,7 +1348,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoTypographySubtitle => 'Kõik eelmääratud tekstistiilid';
 
   @override
-  String get demoTypographyDescription => 'Materiaalses disainil leiduvate eri tüpograafiliste stiilide definitsioonid.';
+  String get demoTypographyDescription =>
+      'Materiaalses disainil leiduvate eri tüpograafiliste stiilide definitsioonid.';
 
   @override
   String get demo2dTransformationsTitle => '2D-teisendamised';
@@ -1274,7 +1358,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'Paanimine, suumimine, pööramine';
 
   @override
-  String get demo2dTransformationsDescription => 'Puudutage paanide muutmiseks ja kasutage stseenis liikumiseks liigutusi. Lohistage paanimiseks, liigutage sõrmi suumimiseks kokku-lahku, pöörake kahe sõrmega. Algsesse suunda naasmiseks vajutage lähtestusnuppu.';
+  String get demo2dTransformationsDescription =>
+      'Puudutage paanide muutmiseks ja kasutage stseenis liikumiseks liigutusi. Lohistage paanimiseks, liigutage sõrmi suumimiseks kokku-lahku, pöörake kahe sõrmega. Algsesse suunda naasmiseks vajutage lähtestusnuppu.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Teisendamiste lähtestamine';
@@ -1295,13 +1380,15 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'Püsiv alumine leht';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Püsival alumisel lehel kuvatakse teave, mis täiendab rakenduse peamist sisu. Püsiv alumine leht jääb nähtavale ka siis, kui kasutaja suhtleb rakenduse muu osaga.';
+  String get demoBottomSheetPersistentDescription =>
+      'Püsival alumisel lehel kuvatakse teave, mis täiendab rakenduse peamist sisu. Püsiv alumine leht jääb nähtavale ka siis, kui kasutaja suhtleb rakenduse muu osaga.';
 
   @override
   String get demoBottomSheetModalTitle => 'Modaalne alumine leht';
 
   @override
-  String get demoBottomSheetModalDescription => 'Modaalne alumine leht on alternatiiv menüüle või dialoogile ja takistab kasutajal ülejäänud rakendusega suhelda.';
+  String get demoBottomSheetModalDescription =>
+      'Modaalne alumine leht on alternatiiv menüüle või dialoogile ja takistab kasutajal ülejäänud rakendusega suhelda.';
 
   @override
   String get demoBottomSheetAddLabel => 'Lisa';
@@ -1324,7 +1411,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoListsSubtitle => 'Loendi paigutuste kerimine';
 
   @override
-  String get demoListsDescription => 'Üks fikseeritud kõrgusega rida, mis sisaldab tavaliselt teksti ja ikooni rea alguses või lõpus.';
+  String get demoListsDescription =>
+      'Üks fikseeritud kõrgusega rida, mis sisaldab tavaliselt teksti ja ikooni rea alguses või lõpus.';
 
   @override
   String get demoOneLineListsTitle => 'Üks rida';
@@ -1339,19 +1427,23 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoProgressIndicatorTitle => 'Edenemisnäidikud';
 
   @override
-  String get demoProgressIndicatorSubtitle => 'Lineaarne, ringikujuline, määramatu';
+  String get demoProgressIndicatorSubtitle =>
+      'Lineaarne, ringikujuline, määramatu';
 
   @override
-  String get demoCircularProgressIndicatorTitle => 'Ringikujuline edenemisnäidik';
+  String get demoCircularProgressIndicatorTitle =>
+      'Ringikujuline edenemisnäidik';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Materiaalse disainiga ringikujuline edenemisnäidik, mille keerlemine näitab, et rakendus on hõivatud.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Materiaalse disainiga ringikujuline edenemisnäidik, mille keerlemine näitab, et rakendus on hõivatud.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'Lineaarne edenemisnäidik';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Materiaalse disainiga lineaarne edenemisnäidik, mida nimetatakse ka edenemisribaks.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Materiaalse disainiga lineaarne edenemisnäidik, mida nimetatakse ka edenemisribaks.';
 
   @override
   String get demoPickersTitle => 'Valijad';
@@ -1363,19 +1455,22 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Kuupäevavalija';
 
   @override
-  String get demoDatePickerDescription => 'Kuvatakse dialoog, mis sisaldab materiaalse disaini kuupäevavalijat.';
+  String get demoDatePickerDescription =>
+      'Kuvatakse dialoog, mis sisaldab materiaalse disaini kuupäevavalijat.';
 
   @override
   String get demoTimePickerTitle => 'Kellaajavalija';
 
   @override
-  String get demoTimePickerDescription => 'Kuvatakse dialoog, mis sisaldab materiaalse disaini kellaajavalijat.';
+  String get demoTimePickerDescription =>
+      'Kuvatakse dialoog, mis sisaldab materiaalse disaini kellaajavalijat.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'KUVA VALIJA';
@@ -1393,16 +1488,19 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoTabsSubtitle => 'Eraldi keritavate kuvadega vahekaardid';
 
   @override
-  String get demoTabsDescription => 'Vahekaartidega saab korrastada eri kuvadel, andkekogumites ja muudes interaktiivsetes asukohtades olevat sisu.';
+  String get demoTabsDescription =>
+      'Vahekaartidega saab korrastada eri kuvadel, andkekogumites ja muudes interaktiivsetes asukohtades olevat sisu.';
 
   @override
   String get demoSnackbarsTitle => 'Teaberibad';
 
   @override
-  String get demoSnackbarsSubtitle => 'Teaberibad kuvavad ekraani alaosas sõnumeid';
+  String get demoSnackbarsSubtitle =>
+      'Teaberibad kuvavad ekraani alaosas sõnumeid';
 
   @override
-  String get demoSnackbarsDescription => 'Teaberibad teavitavad protsessi kasutajaid rakenduse praegustest või tulevastest toimingutest. Need kuvatakse ajutiselt ekraani alaosas. Need ei tohiks kasutuskogemust häirida ja kasutaja ei pea nende eemaldamiseks sekkuma.';
+  String get demoSnackbarsDescription =>
+      'Teaberibad teavitavad protsessi kasutajaid rakenduse praegustest või tulevastest toimingutest. Need kuvatakse ajutiselt ekraani alaosas. Need ei tohiks kasutuskogemust häirida ja kasutaja ei pea nende eemaldamiseks sekkuma.';
 
   @override
   String get demoSnackbarsButtonLabel => 'KUVA TEABERIBA';
@@ -1420,25 +1518,29 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoSelectionControlsTitle => 'Valiku juhtelemendid';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Märkeruudud, raadionupud ja lülitid';
+  String get demoSelectionControlsSubtitle =>
+      'Märkeruudud, raadionupud ja lülitid';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Märkeruut';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Märkeruudud võimaldavad kasutajal teha komplektis mitu valikut. Tavapärane märkeruudu väärtus on Tõene või Väär. Kolme valikuga märkeruudu üks väärtustest võib olla ka Null.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Märkeruudud võimaldavad kasutajal teha komplektis mitu valikut. Tavapärane märkeruudu väärtus on Tõene või Väär. Kolme valikuga märkeruudu üks väärtustest võib olla ka Null.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Raadio';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Raadionupud võimaldavad kasutajal teha komplektis ühe valiku. Kasutage raadionuppe eksklusiivse valiku pakkumiseks, kui arvate, et kasutaja peab nägema kõiki saadaolevaid valikuid kõrvuti.';
+  String get demoSelectionControlsRadioDescription =>
+      'Raadionupud võimaldavad kasutajal teha komplektis ühe valiku. Kasutage raadionuppe eksklusiivse valiku pakkumiseks, kui arvate, et kasutaja peab nägema kõiki saadaolevaid valikuid kõrvuti.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Lüliti';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Sees-/väljas-lülititega saab reguleerida konkreetse seade olekut. Valik, mida lülitiga juhitakse, ja ka selle olek, tuleb vastava tekstisisese sildiga sõnaselgelt ära märkida.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Sees-/väljas-lülititega saab reguleerida konkreetse seade olekut. Valik, mida lülitiga juhitakse, ja ka selle olek, tuleb vastava tekstisisese sildiga sõnaselgelt ära märkida.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Tekstiväljad';
@@ -1450,7 +1552,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoTextFieldSubtitle => 'Üks rida muudetavat teksti ja numbreid';
 
   @override
-  String get demoTextFieldDescription => 'Tekstiväljad võimaldavad kasutajatel kasutajaliideses teksti sisestada. Need kuvatakse tavaliselt vormides ja dialoogides.';
+  String get demoTextFieldDescription =>
+      'Tekstiväljad võimaldavad kasutajatel kasutajaliideses teksti sisestada. Need kuvatakse tavaliselt vormides ja dialoogides.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Kuva parool';
@@ -1459,16 +1562,19 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Peida parool';
 
   @override
-  String get demoTextFieldFormErrors => 'Enne esitamist parandage punasega märgitud vead.';
+  String get demoTextFieldFormErrors =>
+      'Enne esitamist parandage punasega märgitud vead.';
 
   @override
   String get demoTextFieldNameRequired => 'Nimi on nõutav.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'Sisestage ainult tähestikutähti.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'Sisestage ainult tähestikutähti.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ### #### – sisestage USA telefoninumber.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ### #### – sisestage USA telefoninumber.';
 
   @override
   String get demoTextFieldEnterPassword => 'Sisestage parool.';
@@ -1477,13 +1583,15 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoTextFieldPasswordsDoNotMatch => 'Paroolid ei ühti';
 
   @override
-  String get demoTextFieldWhatDoPeopleCallYou => 'Kuidas inimesed teid kutsuvad?';
+  String get demoTextFieldWhatDoPeopleCallYou =>
+      'Kuidas inimesed teid kutsuvad?';
 
   @override
   String get demoTextFieldNameField => 'Nimi*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'Kuidas saame teiega ühendust võtta?';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'Kuidas saame teiega ühendust võtta?';
 
   @override
   String get demoTextFieldPhoneNumber => 'Telefoninumber*';
@@ -1495,10 +1603,12 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoTextFieldEmail => 'E-post';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Rääkige meile endast (nt kirjutage oma tegevustest või hobidest)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Rääkige meile endast (nt kirjutage oma tegevustest või hobidest)';
 
   @override
-  String get demoTextFieldKeepItShort => 'Ärge pikalt kirjutage, see on vaid demo.';
+  String get demoTextFieldKeepItShort =>
+      'Ärge pikalt kirjutage, see on vaid demo.';
 
   @override
   String get demoTextFieldLifeStory => 'Elulugu';
@@ -1533,13 +1643,16 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get demoTooltipTitle => 'Kohtspikrid';
 
   @override
-  String get demoTooltipSubtitle => 'Lühike sõnum, mis kuvatakse pika vajutuse või kursori hõljutamise korral';
+  String get demoTooltipSubtitle =>
+      'Lühike sõnum, mis kuvatakse pika vajutuse või kursori hõljutamise korral';
 
   @override
-  String get demoTooltipDescription => 'Kohtspikrid kuvavad tekstisildid, mis aitavad selgitada nupu või muud kasutajaliidese toimingu funktsiooni. Kohtspikrid kuvavad informatiivse teksti, kui kasutaja kursorit elemendil hõljutab, sellele fokuseerib või seda pikalt vajutab.';
+  String get demoTooltipDescription =>
+      'Kohtspikrid kuvavad tekstisildid, mis aitavad selgitada nupu või muud kasutajaliidese toimingu funktsiooni. Kohtspikrid kuvavad informatiivse teksti, kui kasutaja kursorit elemendil hõljutab, sellele fokuseerib või seda pikalt vajutab.';
 
   @override
-  String get demoTooltipInstructions => 'Pika vajutuse või kursori hõljutamise korral kuvatakse kohtspikker.';
+  String get demoTooltipInstructions =>
+      'Pika vajutuse või kursori hõljutamise korral kuvatakse kohtspikker.';
 
   @override
   String get bottomNavigationCommentsTab => 'Kommentaarid';
@@ -1600,7 +1713,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get dialogLocationTitle => 'Kas kasutada Google\'i asukohateenuseid?';
 
   @override
-  String get dialogLocationDescription => 'Lubage Google\'il rakendusi asukoha tuvastamisel aidata. See tähendab, et Google\'ile saadetakse anonüümseid asukohaandmeid isegi siis, kui ükski rakendus ei tööta.';
+  String get dialogLocationDescription =>
+      'Lubage Google\'il rakendusi asukoha tuvastamisel aidata. See tähendab, et Google\'ile saadetakse anonüümseid asukohaandmeid isegi siis, kui ükski rakendus ei tööta.';
 
   @override
   String get dialogCancel => 'TÜHISTA';
@@ -1630,7 +1744,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get dialogFullscreenSave => 'SALVESTA';
 
   @override
-  String get dialogFullscreenDescription => 'Täisekraanil kuvatud dialoogi demo';
+  String get dialogFullscreenDescription =>
+      'Täisekraanil kuvatud dialoogi demo';
 
   @override
   String get cupertinoButton => 'Nupp';
@@ -1645,10 +1760,12 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Loobu';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Kas anda rakendusele „Maps\" juurdepääs teie asukohale, kui rakendust kasutate?';
+  String get cupertinoAlertLocationTitle =>
+      'Kas anda rakendusele „Maps\" juurdepääs teie asukohale, kui rakendust kasutate?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Teie praegune asukoht kuvatakse kaardil ja seda kasutatakse juhiste, läheduses leiduvate otsingutulemuste ning hinnanguliste reisiaegade pakkumiseks.';
+  String get cupertinoAlertLocationDescription =>
+      'Teie praegune asukoht kuvatakse kaardil ja seda kasutatakse juhiste, läheduses leiduvate otsingutulemuste ning hinnanguliste reisiaegade pakkumiseks.';
 
   @override
   String get cupertinoAlertAllow => 'Luba';
@@ -1660,7 +1777,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Valige lemmikmagustoit';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Valige allolevast loendist oma lemmikmagustoit. Teie valikut kasutatakse teie piirkonnas soovitatud toidukohtade loendi kohandamiseks.';
+  String get cupertinoAlertDessertDescription =>
+      'Valige allolevast loendist oma lemmikmagustoit. Teie valikut kasutatakse teie piirkonnas soovitatud toidukohtade loendi kohandamiseks.';
 
   @override
   String get cupertinoAlertCheesecake => 'Juustukook';
@@ -1780,7 +1898,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get starterAppTitle => 'Stardirakendus';
 
   @override
-  String get starterAppDescription => 'Automaatselt kohanduva stardirakenduse paigutus';
+  String get starterAppDescription =>
+      'Automaatselt kohanduva stardirakenduse paigutus';
 
   @override
   String get starterAppGenericButton => 'NUPP';
@@ -2243,7 +2362,8 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get craneEat10 => 'Lissabon, Portugal';
 
   @override
-  String get craneFly0SemanticLabel => 'Mägimajake lumisel maastikul koos igihaljaste puudega';
+  String get craneFly0SemanticLabel =>
+      'Mägimajake lumisel maastikul koos igihaljaste puudega';
 
   @override
   String get craneFly1SemanticLabel => 'Telk väljal';
@@ -2270,10 +2390,12 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'Supertree Grove';
 
   @override
-  String get craneFly9SemanticLabel => 'Mees nõjatub vanaaegsele sinisele autole';
+  String get craneFly9SemanticLabel =>
+      'Mees nõjatub vanaaegsele sinisele autole';
 
   @override
-  String get craneFly10SemanticLabel => 'Al-Azhari mošee tornid päikeseloojangus';
+  String get craneFly10SemanticLabel =>
+      'Al-Azhari mošee tornid päikeseloojangus';
 
   @override
   String get craneFly11SemanticLabel => 'Kivimajakas merel';
@@ -2288,13 +2410,15 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get craneSleep0SemanticLabel => 'Veepeal olevad bangalod';
 
   @override
-  String get craneSleep1SemanticLabel => 'Mägimajake lumisel maastikul koos igihaljaste puudega';
+  String get craneSleep1SemanticLabel =>
+      'Mägimajake lumisel maastikul koos igihaljaste puudega';
 
   @override
   String get craneSleep2SemanticLabel => 'Machu Picchu kadunud linn';
 
   @override
-  String get craneSleep3SemanticLabel => 'Mees nõjatub vanaaegsele sinisele autole';
+  String get craneSleep3SemanticLabel =>
+      'Mees nõjatub vanaaegsele sinisele autole';
 
   @override
   String get craneSleep4SemanticLabel => 'Mägihotell järve kaldal';
@@ -2306,16 +2430,19 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get craneSleep6SemanticLabel => 'Bassein ja palmid';
 
   @override
-  String get craneSleep7SemanticLabel => 'Värvikirevad korterid Riberia väljakul';
+  String get craneSleep7SemanticLabel =>
+      'Värvikirevad korterid Riberia väljakul';
 
   @override
-  String get craneSleep8SemanticLabel => 'Maiade ehitiste varemed kaljuserval ranna kohal';
+  String get craneSleep8SemanticLabel =>
+      'Maiade ehitiste varemed kaljuserval ranna kohal';
 
   @override
   String get craneSleep9SemanticLabel => 'Kivimajakas merel';
 
   @override
-  String get craneSleep10SemanticLabel => 'Al-Azhari mošee tornid päikeseloojangus';
+  String get craneSleep10SemanticLabel =>
+      'Al-Azhari mošee tornid päikeseloojangus';
 
   @override
   String get craneSleep11SemanticLabel => 'Taipei 101 pilvelõhkuja';
@@ -2402,10 +2529,12 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Viimased värskendused';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Vaikne, kuid võimas tervishoiurevolutsioon';
+  String get fortnightlyHeadlineHealthcare =>
+      'Vaikne, kuid võimas tervishoiurevolutsioon';
 
   @override
-  String get fortnightlyHeadlineWar => 'Ameeriklaste elud, mis sõja tõttu rikuti';
+  String get fortnightlyHeadlineWar =>
+      'Ameeriklaste elud, mis sõja tõttu rikuti';
 
   @override
   String get fortnightlyHeadlineGasoline => 'Bensiini tulevik';
@@ -2414,13 +2543,16 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'Rohelise armee reformimine seestpoolt';
 
   @override
-  String get fortnightlyHeadlineStocks => 'Aktsiate stagneerumise tõttu investeerivad paljud valuutasse';
+  String get fortnightlyHeadlineStocks =>
+      'Aktsiate stagneerumise tõttu investeerivad paljud valuutasse';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Disainerid loovad tehnoloogia abil futuristlikke kangaid';
+  String get fortnightlyHeadlineFabrics =>
+      'Disainerid loovad tehnoloogia abil futuristlikke kangaid';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'Feministid astuvad partisanluse vastu';
+  String get fortnightlyHeadlineFeminists =>
+      'Feministid astuvad partisanluse vastu';
 
   @override
   String get fortnightlyHeadlineBees => 'Mesilasi on põllumaadel vähe';

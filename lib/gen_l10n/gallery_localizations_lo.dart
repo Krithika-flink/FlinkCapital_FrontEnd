@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get signIn => 'ເຂົ້າສູ່ລະບົບ';
 
   @override
-  String get bannerDemoText => 'ລະຫັດຜ່ານຂອງທ່ານຖືກອັບເດດຢູ່ອຸປະກອນອື່ນແລ້ວ. ກະລຸນາເຂົ້າສູ່ລະບົບອີກເທື່ອໜຶ່ງ.';
+  String get bannerDemoText =>
+      'ລະຫັດຜ່ານຂອງທ່ານຖືກອັບເດດຢູ່ອຸປະກອນອື່ນແລ້ວ. ກະລຸນາເຂົ້າສູ່ລະບົບອີກເທື່ອໜຶ່ງ.';
 
   @override
   String get bannerDemoResetText => 'ຣີເຊັດແບນເນີ';
@@ -60,7 +60,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => '10 ເມືອງຕິດອັນດັບໃຫ້ໄປທ່ອງທ່ຽວໃນທະມິນນາດູ';
+  String get cardsDemoTravelDestinationTitle1 =>
+      '10 ເມືອງຕິດອັນດັບໃຫ້ໄປທ່ອງທ່ຽວໃນທະມິນນາດູ';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'ໝາຍເລກ 10';
@@ -120,19 +121,23 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'ມື້ພັກ';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'ຜົນຕອບແທນລາຍປີເປັນເປີເຊັນ';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'ຜົນຕອບແທນລາຍປີເປັນເປີເຊັນ';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'ອັດຕາດອກເບ້ຍ';
 
   @override
-  String get rallyAccountDetailDataInterestYtd => 'ດອກເບ້ຍຕັ້ງແຕ່ຕົ້ນປີຮອດປັດຈຸບັນ';
+  String get rallyAccountDetailDataInterestYtd =>
+      'ດອກເບ້ຍຕັ້ງແຕ່ຕົ້ນປີຮອດປັດຈຸບັນ';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'ດອກເບ້ຍທີ່ຈ່າຍປີກາຍ';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'ດອກເບ້ຍທີ່ຈ່າຍປີກາຍ';
 
   @override
-  String get rallyAccountDetailDataNextStatement => 'ລາຍການເຄື່ອນໄຫວຂອງບັນຊີຮອບຕໍ່ໄປ';
+  String get rallyAccountDetailDataNextStatement =>
+      'ລາຍການເຄື່ອນໄຫວຂອງບັນຊີຮອບຕໍ່ໄປ';
 
   @override
   String get rallyAccountDetailDataAccountOwner => 'ເຈົ້າຂອງບັນຊີ';
@@ -183,7 +188,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get rallySettingsPersonalInformation => 'ຂໍ້ມູນສ່ວນຕົວ';
 
   @override
-  String get rallySettingsPaperlessSettings => 'ການຕັ້ງຄ່າສຳລັບເອກະສານທີ່ບໍ່ໃຊ້ເຈ້ຍ';
+  String get rallySettingsPaperlessSettings =>
+      'ການຕັ້ງຄ່າສຳລັບເອກະສານທີ່ບໍ່ໃຊ້ເຈ້ຍ';
 
   @override
   String get rallySettingsFindAtms => 'ຊອກຫາຕູ້ ATM';
@@ -285,8 +291,10 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'ເພີ່ມການຫຼຸດພາສີທີ່ເປັນໄປໄດ້ຂອງທ່ານ! ມອບໝາຍໝວດໝູ່ໃຫ້ 1 ທຸລະກຳທີ່ຍັງບໍ່ໄດ້ຮັບມອບໝາຍເທື່ອ.',
-      other: 'ເພີ່ມການຫຼຸດພາສີທີ່ເປັນໄປໄດ້ຂອງທ່ານ! ມອບໝາຍໝວດໝູ່ໃຫ້ ${count} ທຸລະກຳທີ່ຍັງບໍ່ໄດ້ຮັບມອບໝາຍເທື່ອ.',
+      one:
+          'ເພີ່ມການຫຼຸດພາສີທີ່ເປັນໄປໄດ້ຂອງທ່ານ! ມອບໝາຍໝວດໝູ່ໃຫ້ 1 ທຸລະກຳທີ່ຍັງບໍ່ໄດ້ຮັບມອບໝາຍເທື່ອ.',
+      other:
+          'ເພີ່ມການຫຼຸດພາສີທີ່ເປັນໄປໄດ້ຂອງທ່ານ! ມອບໝາຍໝວດໝູ່ໃຫ້ ${count} ທຸລະກຳທີ່ຍັງບໍ່ໄດ້ຮັບມອບໝາຍເທື່ອ.',
     );
   }
 
@@ -300,7 +308,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'ເບິ່ງງົບປະມານທັງໝົດ';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'ບັນຊີ ${accountName} ໝາຍເລກ ${accountNumber} ຈຳນວນ ${amount}.';
   }
 
@@ -310,7 +319,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'ງົບປະມານ ${budgetName} ໃຊ້ໄປແລ້ວ ${amountUsed} ຈາກຈຳນວນ ${amountTotal}, ເຫຼືອ ${amountLeft}';
   }
 
@@ -353,7 +363,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'ເບິ່ງຕົວເລືອກ';
 
   @override
-  String get demoOptionsFeatureDescription => 'ແຕະບ່ອນນີ້ເພື່ອເບິ່ງຕົວເລືອກທີ່ສາມາດໃຊ້ໄດ້ສຳລັບການສາທິດນີ້.';
+  String get demoOptionsFeatureDescription =>
+      'ແຕະບ່ອນນີ້ເພື່ອເບິ່ງຕົວເລືອກທີ່ສາມາດໃຊ້ໄດ້ສຳລັບການສາທິດນີ້.';
 
   @override
   String get settingsTitle => 'ການຕັ້ງຄ່າ';
@@ -425,10 +436,12 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'ແຖບແອັບທາງລຸ່ມ';
@@ -437,7 +450,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoBottomAppBarSubtitle => 'ສະແດງການນຳທາງ ແລະ ຄຳສັ່ງຢູ່ລຸ່ມສຸດ';
 
   @override
-  String get demoBottomAppBarDescription => 'ແຖບແອັບທາງລຸ່ມຈະເຮັດໃຫ້ສາມາດເຂົ້າເຖິງແຖບນຳທາງ ແລະ ຄຳສັ່ງຕ່າງໆໄດ້ສູງສຸດ 4 ຄຳສັ່ງ, ຮວມທັງປຸ່ມຄຳສັ່ງທີ່ລອຍຢູ່ໄດ້ນຳ.';
+  String get demoBottomAppBarDescription =>
+      'ແຖບແອັບທາງລຸ່ມຈະເຮັດໃຫ້ສາມາດເຂົ້າເຖິງແຖບນຳທາງ ແລະ ຄຳສັ່ງຕ່າງໆໄດ້ສູງສຸດ 4 ຄຳສັ່ງ, ຮວມທັງປຸ່ມຄຳສັ່ງທີ່ລອຍຢູ່ໄດ້ນຳ.';
 
   @override
   String get bottomAppBarNotch => 'ຮອຍບາກ';
@@ -464,13 +478,15 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoBannerSubtitle => 'ກຳລັງສະແດງແບນເນີພາຍໃນລາຍຊື່';
 
   @override
-  String get demoBannerDescription => 'ແບນເນີຈະສະແດງຂໍ້ຄວາມສຳຄັນສັ້ນໆ ແລະ ສະໜອງຄຳສັ່ງເພື່ອໃຫ້ຜູ້ໃຊ້ຈັດການ (ຫຼື ປິດແບນເນີ). ຜູ້ໃຊ້ຈະຕ້ອງດຳເນີນການໃດໜຶ່ງເພື່ອປິດມັນ.';
+  String get demoBannerDescription =>
+      'ແບນເນີຈະສະແດງຂໍ້ຄວາມສຳຄັນສັ້ນໆ ແລະ ສະໜອງຄຳສັ່ງເພື່ອໃຫ້ຜູ້ໃຊ້ຈັດການ (ຫຼື ປິດແບນເນີ). ຜູ້ໃຊ້ຈະຕ້ອງດຳເນີນການໃດໜຶ່ງເພື່ອປິດມັນ.';
 
   @override
   String get demoBottomNavigationTitle => 'ການນຳທາງລຸ່ມສຸດ';
 
   @override
-  String get demoBottomNavigationSubtitle => 'ການນຳທາງທາງລຸ່ມທີ່ມີມຸມມອງແບບຄ່ອຍໆປາກົດ';
+  String get demoBottomNavigationSubtitle =>
+      'ການນຳທາງທາງລຸ່ມທີ່ມີມຸມມອງແບບຄ່ອຍໆປາກົດ';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'ປ້າຍກຳກັບທີ່ສະແດງຕະຫຼອດ';
@@ -479,7 +495,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'ປ້າຍກຳກັບທີ່ເລືອກ';
 
   @override
-  String get demoBottomNavigationDescription => 'ແຖບນຳທາງທາງລຸ່ມສະແດງປາຍທາງ 3-5 ບ່ອນຢູ່ລຸ່ມຂອງໜ້າຈໍ. ປາຍທາງແຕ່ລະບ່ອນຈະສະແດງດ້ວຍໄອຄອນ ແລະ ປ້າຍກຳກັບແບບຂໍ້ຄວາມທີ່ບໍ່ບັງຄັບ. ເມື່ອຜູ້ໃຊ້ແຕະໃສ່ໄອຄອນນຳທາງທາງລຸ່ມແລ້ວ, ລະບົບຈະພາໄປຫາປາຍທາງຂອງການນຳທາງລະດັບເທິງສຸດທີ່ເຊື່ອມໂຍງກັບໄອຄອນນັ້ນ.';
+  String get demoBottomNavigationDescription =>
+      'ແຖບນຳທາງທາງລຸ່ມສະແດງປາຍທາງ 3-5 ບ່ອນຢູ່ລຸ່ມຂອງໜ້າຈໍ. ປາຍທາງແຕ່ລະບ່ອນຈະສະແດງດ້ວຍໄອຄອນ ແລະ ປ້າຍກຳກັບແບບຂໍ້ຄວາມທີ່ບໍ່ບັງຄັບ. ເມື່ອຜູ້ໃຊ້ແຕະໃສ່ໄອຄອນນຳທາງທາງລຸ່ມແລ້ວ, ລະບົບຈະພາໄປຫາປາຍທາງຂອງການນຳທາງລະດັບເທິງສຸດທີ່ເຊື່ອມໂຍງກັບໄອຄອນນັ້ນ.';
 
   @override
   String get demoButtonTitle => 'ປຸ່ມ';
@@ -491,31 +508,36 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoTextButtonTitle => 'ປຸ່ມຂໍ້ຄວາມ';
 
   @override
-  String get demoTextButtonDescription => 'ປຸ່ມຂໍ້ຄວາມຈະສະແດງຮອຍແຕ້ມໝຶກເມື່ອກົດແຕ່ຈະບໍ່ຍົກຂຶ້ນ. ໃຊ້ປຸ່ມຂໍ້ຄວາມຢູ່ແຖບເຄື່ອງມື, ໃນກ່ອງໂຕ້ຕອບ ແລະ ໃນແຖວທີ່ມີໄລຍະຫ່າງຈາກຂອບ.';
+  String get demoTextButtonDescription =>
+      'ປຸ່ມຂໍ້ຄວາມຈະສະແດງຮອຍແຕ້ມໝຶກເມື່ອກົດແຕ່ຈະບໍ່ຍົກຂຶ້ນ. ໃຊ້ປຸ່ມຂໍ້ຄວາມຢູ່ແຖບເຄື່ອງມື, ໃນກ່ອງໂຕ້ຕອບ ແລະ ໃນແຖວທີ່ມີໄລຍະຫ່າງຈາກຂອບ.';
 
   @override
   String get demoElevatedButtonTitle => 'ປຸ່ມຍົກຂຶ້ນ';
 
   @override
-  String get demoElevatedButtonDescription => 'ປຸ່ມຍົກຂຶ້ນຈະເພີ່ມມິຕິໃຫ້ກັບໂຄງຮ່າງທີ່ສ່ວນໃຫຍ່ຮາບພຽງ. ພວກມັນຈະເນັ້ນຟັງຊັນຕ່າງໆທີ່ສຳຄັນໃນພື້ນທີ່ກວ້າງ ຫຼື ມີການໃຊ້ວຽກຫຼາຍ.';
+  String get demoElevatedButtonDescription =>
+      'ປຸ່ມຍົກຂຶ້ນຈະເພີ່ມມິຕິໃຫ້ກັບໂຄງຮ່າງທີ່ສ່ວນໃຫຍ່ຮາບພຽງ. ພວກມັນຈະເນັ້ນຟັງຊັນຕ່າງໆທີ່ສຳຄັນໃນພື້ນທີ່ກວ້າງ ຫຼື ມີການໃຊ້ວຽກຫຼາຍ.';
 
   @override
   String get demoOutlinedButtonTitle => 'ປຸ່ມມີຂອບ';
 
   @override
-  String get demoOutlinedButtonDescription => 'ປຸ່ມມີຂອບຈະເປັນສີທຶບ ແລະ ຍົກຂຶ້ນເມື່ອກົດໃສ່. ມັກຈະຈັບຄູ່ກັບປຸ່ມແບບຍົກຂຶ້ນເພື່ອລະບຸວ່າມີການດຳເນີນການສຳຮອງຢ່າງອື່ນ.';
+  String get demoOutlinedButtonDescription =>
+      'ປຸ່ມມີຂອບຈະເປັນສີທຶບ ແລະ ຍົກຂຶ້ນເມື່ອກົດໃສ່. ມັກຈະຈັບຄູ່ກັບປຸ່ມແບບຍົກຂຶ້ນເພື່ອລະບຸວ່າມີການດຳເນີນການສຳຮອງຢ່າງອື່ນ.';
 
   @override
   String get demoToggleButtonTitle => 'ປຸ່ມເປີດ/ປິດ';
 
   @override
-  String get demoToggleButtonDescription => 'ປຸ່ມເປີດ/ປິດອາດໃຊ້ເພື່ອຈັດກຸ່ມຕົວເລືອກທີ່ກ່ຽວຂ້ອງກັນ. ກຸ່ມຂອງປຸ່ມເປີດ/ປິດທີ່ກ່ຽວຂ້ອງກັນຄວນໃຊ້ຄອນເທນເນີຮ່ວມກັນເພື່ອເປັນການເນັ້ນກຸ່ມເຫຼົ່ານັ້ນ';
+  String get demoToggleButtonDescription =>
+      'ປຸ່ມເປີດ/ປິດອາດໃຊ້ເພື່ອຈັດກຸ່ມຕົວເລືອກທີ່ກ່ຽວຂ້ອງກັນ. ກຸ່ມຂອງປຸ່ມເປີດ/ປິດທີ່ກ່ຽວຂ້ອງກັນຄວນໃຊ້ຄອນເທນເນີຮ່ວມກັນເພື່ອເປັນການເນັ້ນກຸ່ມເຫຼົ່ານັ້ນ';
 
   @override
   String get demoFloatingButtonTitle => 'ປຸ່ມຄຳສັ່ງແບບລອຍ';
 
   @override
-  String get demoFloatingButtonDescription => 'ປຸ່ມການເຮັດວຽກແບບລອຍເປັນປຸ່ມໄອຄອນຮູບວົງມົນທີ່ລອຍຢູ່ເທິງເນື້ອຫາເພື່ອໂປຣໂໝດການດຳເນີນການຫຼັກໃນແອັບພລິເຄຊັນ.';
+  String get demoFloatingButtonDescription =>
+      'ປຸ່ມການເຮັດວຽກແບບລອຍເປັນປຸ່ມໄອຄອນຮູບວົງມົນທີ່ລອຍຢູ່ເທິງເນື້ອຫາເພື່ອໂປຣໂໝດການດຳເນີນການຫຼັກໃນແອັບພລິເຄຊັນ.';
 
   @override
   String get demoCardTitle => 'ບັດ';
@@ -527,34 +549,40 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoChipTitle => 'ຊິບ';
 
   @override
-  String get demoCardDescription => 'ບັດແມ່ນແຜ່ນເອກະສານທີ່ໃຊ້ສະແດງຂໍ້ມູນທີ່ກ່ຽວຂ້ອງ ເຊັ່ນ: ອະລະບ້ຳ, ສະຖານທີ່ຕັ້ງທາງພູມສາດ, ຄາບເຂົ້າ, ຂໍ້ມູນການຕິດຕໍ່ ແລະ ອື່ນໆ.';
+  String get demoCardDescription =>
+      'ບັດແມ່ນແຜ່ນເອກະສານທີ່ໃຊ້ສະແດງຂໍ້ມູນທີ່ກ່ຽວຂ້ອງ ເຊັ່ນ: ອະລະບ້ຳ, ສະຖານທີ່ຕັ້ງທາງພູມສາດ, ຄາບເຂົ້າ, ຂໍ້ມູນການຕິດຕໍ່ ແລະ ອື່ນໆ.';
 
   @override
-  String get demoChipSubtitle => 'ອົງປະກອບກະທັດຮັດທີ່ການປ້ອນຂໍ້ມູນ, ຄຸນສົມບັດ ຫຼື ຄຳສັ່ງໃດໜຶ່ງ';
+  String get demoChipSubtitle =>
+      'ອົງປະກອບກະທັດຮັດທີ່ການປ້ອນຂໍ້ມູນ, ຄຸນສົມບັດ ຫຼື ຄຳສັ່ງໃດໜຶ່ງ';
 
   @override
   String get demoActionChipTitle => 'ຊິບຄຳສັ່ງ';
 
   @override
-  String get demoActionChipDescription => 'ຊິບຄຳສັ່ງເປັນຊຸດຕົວເລືອກທີ່ຈະເອີ້ນຄຳສັ່ງວຽກທີ່ກ່ຽວກັບເນື້ອຫາຫຼັກ. ຊິບຄຳສັ່ງຄວນຈະສະແດງແບບໄດນາມິກ ແລະ ຕາມບໍລິບົດໃນສ່ວນຕິດຕໍ່ຜູ້ໃຊ້.';
+  String get demoActionChipDescription =>
+      'ຊິບຄຳສັ່ງເປັນຊຸດຕົວເລືອກທີ່ຈະເອີ້ນຄຳສັ່ງວຽກທີ່ກ່ຽວກັບເນື້ອຫາຫຼັກ. ຊິບຄຳສັ່ງຄວນຈະສະແດງແບບໄດນາມິກ ແລະ ຕາມບໍລິບົດໃນສ່ວນຕິດຕໍ່ຜູ້ໃຊ້.';
 
   @override
   String get demoChoiceChipTitle => 'ຊິບຕົວເລືອກ';
 
   @override
-  String get demoChoiceChipDescription => 'ຊິບຕົວເລືອກຈະສະແດງຕົວເລືອກດ່ຽວຈາກຊຸດໃດໜຶ່ງ. ຊິບຕົວເລືອກມີຂໍ້ຄວາມຄຳອະທິບາຍ ຫຼື ການຈັດໝວດໝູ່ທີ່ກ່ຽວຂ້ອງ.';
+  String get demoChoiceChipDescription =>
+      'ຊິບຕົວເລືອກຈະສະແດງຕົວເລືອກດ່ຽວຈາກຊຸດໃດໜຶ່ງ. ຊິບຕົວເລືອກມີຂໍ້ຄວາມຄຳອະທິບາຍ ຫຼື ການຈັດໝວດໝູ່ທີ່ກ່ຽວຂ້ອງ.';
 
   @override
   String get demoFilterChipTitle => 'ຊິບຕົວກັ່ນຕອງ';
 
   @override
-  String get demoFilterChipDescription => 'ຊິບຕົວກັ່ນຕອງໃຊ້ແທັກ ຫຼື ຄຳອະທິບາຍລາຍລະອຽດເປັນວິທີກັ່ນຕອງເນື້ອຫາ.';
+  String get demoFilterChipDescription =>
+      'ຊິບຕົວກັ່ນຕອງໃຊ້ແທັກ ຫຼື ຄຳອະທິບາຍລາຍລະອຽດເປັນວິທີກັ່ນຕອງເນື້ອຫາ.';
 
   @override
   String get demoInputChipTitle => 'ຊິບອິນພຸດ';
 
   @override
-  String get demoInputChipDescription => 'ຊິບອິນພຸດທີ່ສະແດງຂໍ້ມູນທີ່ຊັບຊ້ອນໃນຮູບແບບກະທັດຮັດ ເຊັ່ນ: ຂໍ້ມູນເອນທິທີ (ບຸກຄົນ, ສະຖານທີ່ ຫຼື ສິ່ງຂອງ) ຫຼື ຂໍ້ຄວາມຂອງການສົນທະນາ.';
+  String get demoInputChipDescription =>
+      'ຊິບອິນພຸດທີ່ສະແດງຂໍ້ມູນທີ່ຊັບຊ້ອນໃນຮູບແບບກະທັດຮັດ ເຊັ່ນ: ຂໍ້ມູນເອນທິທີ (ບຸກຄົນ, ສະຖານທີ່ ຫຼື ສິ່ງຂອງ) ຫຼື ຂໍ້ຄວາມຂອງການສົນທະນາ.';
 
   @override
   String get demoDataTableTitle => 'ຕາຕະລາງຂໍ້ມູນ';
@@ -563,7 +591,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'ແຖວ ແລະ ຖັນຂໍ້ມູນ';
 
   @override
-  String get demoDataTableDescription => 'ຕາຕະລາງຂໍ້ມູນຈະສະແດງຂໍ້ມູນໃນຮູບແບບຊ່ອງທີ່ປະກອບດ້ວຍແຖວ ແລະ ຖັນ. ພວກມັນຈະຈັດລະບຽບຂໍ້ມູນໃນແບບທີ່ສາມາດສະແກນໄດ້ງ່າຍ, ເພື່ອໃຫ້ຜູ້ໃຊ້ສາມາດຊອກຫາຮູບແບບ ແລະ ຂໍ້ມູນເຈາະເລິກໄດ້.';
+  String get demoDataTableDescription =>
+      'ຕາຕະລາງຂໍ້ມູນຈະສະແດງຂໍ້ມູນໃນຮູບແບບຊ່ອງທີ່ປະກອບດ້ວຍແຖວ ແລະ ຖັນ. ພວກມັນຈະຈັດລະບຽບຂໍ້ມູນໃນແບບທີ່ສາມາດສະແກນໄດ້ງ່າຍ, ເພື່ອໃຫ້ຜູ້ໃຊ້ສາມາດຊອກຫາຮູບແບບ ແລະ ຂໍ້ມູນເຈາະເລິກໄດ້.';
 
   @override
   String get dataTableHeader => 'ໂພຊະນາການ';
@@ -642,7 +671,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'ການແຈ້ງເຕືອນ';
 
   @override
-  String get demoAlertDialogDescription => 'ກ່ອງໂຕ້ຕອບການແຈ້ງເຕືອນເພື່ອບອກໃຫ້ຜູ້ໃຊ້ຮູ້ກ່ຽວກັບສະຖານະການທີ່ຕ້ອງຮັບຮູ້. ກ່ອງໂຕ້ຕອບການແຈ້ງເຕືອນທີ່ມີຊື່ ແລະ ລາຍຊື່ຄຳສັ່ງແບບບໍ່ບັງຄັບ.';
+  String get demoAlertDialogDescription =>
+      'ກ່ອງໂຕ້ຕອບການແຈ້ງເຕືອນເພື່ອບອກໃຫ້ຜູ້ໃຊ້ຮູ້ກ່ຽວກັບສະຖານະການທີ່ຕ້ອງຮັບຮູ້. ກ່ອງໂຕ້ຕອບການແຈ້ງເຕືອນທີ່ມີຊື່ ແລະ ລາຍຊື່ຄຳສັ່ງແບບບໍ່ບັງຄັບ.';
 
   @override
   String get demoAlertTitleDialogTitle => 'ການແຈ້ງເຕືອນທີ່ມີຊື່';
@@ -651,16 +681,19 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'ງ່າຍໆ';
 
   @override
-  String get demoSimpleDialogDescription => 'ກ່ອງໂຕ້ຕອບງ່າຍໆທີ່ສະເໜີຕົວເລືອກໃຫ້ຜູ້ໃຊ້ລະຫວ່າງຫຼາຍໆຕົວເລືອກ. ກ່ອງໂຕ້ຕອບແບບງ່າຍໆຈະມີຊື່ແບບບໍ່ບັງຄັບທີ່ສະແດງທາງເທິງຕົວເລືອກ.';
+  String get demoSimpleDialogDescription =>
+      'ກ່ອງໂຕ້ຕອບງ່າຍໆທີ່ສະເໜີຕົວເລືອກໃຫ້ຜູ້ໃຊ້ລະຫວ່າງຫຼາຍໆຕົວເລືອກ. ກ່ອງໂຕ້ຕອບແບບງ່າຍໆຈະມີຊື່ແບບບໍ່ບັງຄັບທີ່ສະແດງທາງເທິງຕົວເລືອກ.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +705,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'ໂຄງຮ່າງແຖວ ແລະ ຖັນ';
 
   @override
-  String get demoGridListsDescription => 'ລາຍຊື່ຕາຕະລາງແມ່ນດີທີ່ສຸດສຳລັບການນຳສະເໜີຂໍ້ມູນທີ່ມີຄຸນລັກສະນະຄ້າຍກັນ, ໂດຍທົ່ວໄປແມ່ນຮູບພາບຕ່າງໆ. ແຕ່ລະລາຍການໃນລາຍຊື່ຕາຕະລາງແມ່ນເອີ້ນວ່າແຜ່ນ.';
+  String get demoGridListsDescription =>
+      'ລາຍຊື່ຕາຕະລາງແມ່ນດີທີ່ສຸດສຳລັບການນຳສະເໜີຂໍ້ມູນທີ່ມີຄຸນລັກສະນະຄ້າຍກັນ, ໂດຍທົ່ວໄປແມ່ນຮູບພາບຕ່າງໆ. ແຕ່ລະລາຍການໃນລາຍຊື່ຕາຕະລາງແມ່ນເອີ້ນວ່າແຜ່ນ.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'ຮູບພາບເທົ່ານັ້ນ';
@@ -690,31 +724,37 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoSlidersSubtitle => 'ວິດເຈັດສຳລັບການເລືອກຄ່າໂດຍການປັດ';
 
   @override
-  String get demoSlidersDescription => 'ຕົວເລື່ອນຈະມີໄລຍະຂອງຄ່າໄປຕາມແຖບໃດໜຶ່ງ, ເຊິ່ງຜູ້ໃຊ້ສາມາດເລືອກຄ່າດຽວໄດ້. ພວກມັນເໝາະສຳລັບການປັບແຕ່ງການຕັ້ງຄ່າຕ່າງໆ ເຊັ່ນ: ລະດັບສຽງ, ຄວາມສະຫວ່າງ ຫຼື ການນຳໃຊ້ຟິວເຕີຮູບພາບ.';
+  String get demoSlidersDescription =>
+      'ຕົວເລື່ອນຈະມີໄລຍະຂອງຄ່າໄປຕາມແຖບໃດໜຶ່ງ, ເຊິ່ງຜູ້ໃຊ້ສາມາດເລືອກຄ່າດຽວໄດ້. ພວກມັນເໝາະສຳລັບການປັບແຕ່ງການຕັ້ງຄ່າຕ່າງໆ ເຊັ່ນ: ລະດັບສຽງ, ຄວາມສະຫວ່າງ ຫຼື ການນຳໃຊ້ຟິວເຕີຮູບພາບ.';
 
   @override
   String get demoRangeSlidersTitle => 'ຕົວເລື່ອນໄລຍ';
 
   @override
-  String get demoRangeSlidersDescription => 'ຕົວເລື່ອນຈະມີໄລຍະຂອງຄ່າໄປຕາມແຖບໃດໜຶ່ງ. ພວກມັນສາມາດມີໄອຄອນຢູ່ປາຍທັງສອງຂອງແຖບທີ່ມີໄລຍະຂອງຄ່າຕ່າງໆໄດ້. ພວກມັນເໝາະສຳລັບການປັບແຕ່ງການຕັ້ງຄ່າຕ່າງໆ ເຊັ່ນ: ລະດັບສຽງ, ຄວາມສະຫວ່າງ ຫຼື ການນຳໃຊ້ຟິວເຕີຮູບພາບ.';
+  String get demoRangeSlidersDescription =>
+      'ຕົວເລື່ອນຈະມີໄລຍະຂອງຄ່າໄປຕາມແຖບໃດໜຶ່ງ. ພວກມັນສາມາດມີໄອຄອນຢູ່ປາຍທັງສອງຂອງແຖບທີ່ມີໄລຍະຂອງຄ່າຕ່າງໆໄດ້. ພວກມັນເໝາະສຳລັບການປັບແຕ່ງການຕັ້ງຄ່າຕ່າງໆ ເຊັ່ນ: ລະດັບສຽງ, ຄວາມສະຫວ່າງ ຫຼື ການນຳໃຊ້ຟິວເຕີຮູບພາບ.';
 
   @override
   String get demoCustomSlidersTitle => 'ຕົວເລື່ອນແບບກຳນົດເອງ';
 
   @override
-  String get demoCustomSlidersDescription => 'ຕົວເລື່ອນຈະມີໄລຍະຂອງຄ່າໄປຕາມແຖບໃດໜຶ່ງ, ເຊິ່ງຜູ້ໃຊ້ສາມາດເລືອກຄ່າດຽວ ຫຼື ໄລຍະຂອງຄ່າຕ່າງໆໄດ້. ຕົວເລື່ອນສາມາດໃຊ້ຮູບແບບສີສັນ ແລະ ປັບແຕ່ງໄດ້.';
+  String get demoCustomSlidersDescription =>
+      'ຕົວເລື່ອນຈະມີໄລຍະຂອງຄ່າໄປຕາມແຖບໃດໜຶ່ງ, ເຊິ່ງຜູ້ໃຊ້ສາມາດເລືອກຄ່າດຽວ ຫຼື ໄລຍະຂອງຄ່າຕ່າງໆໄດ້. ຕົວເລື່ອນສາມາດໃຊ້ຮູບແບບສີສັນ ແລະ ປັບແຕ່ງໄດ້.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'ຕໍ່ເນື່ອງກັບຄ່າຕົວເລກທີ່ແກ້ໄຂໄດ້';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'ຕໍ່ເນື່ອງກັບຄ່າຕົວເລກທີ່ແກ້ໄຂໄດ້';
 
   @override
   String get demoSlidersDiscrete => 'ແຍກຈາກກັນ';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'ຕົວເລື່ອນແບບແຍກຈາກກັນໂດຍມີຮູບແບບສີສັນກຳນົດເອງ';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'ຕົວເລື່ອນແບບແຍກຈາກກັນໂດຍມີຮູບແບບສີສັນກຳນົດເອງ';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'ຕົວເລື່ອນໄລຍະແບບຕໍ່ເນື່ອງໂດຍມີຮູບແບບສີສັນກຳນົດເອງ';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'ຕົວເລື່ອນໄລຍະແບບຕໍ່ເນື່ອງໂດຍມີຮູບແບບສີສັນກຳນົດເອງ';
 
   @override
   String get demoSlidersContinuous => 'ຕໍ່ເນື່ອງ';
@@ -741,7 +781,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoMenuSubtitle => 'ປຸ່ມເມນູ ແລະ ເມນູແບບງ່າຍໆ';
 
   @override
-  String get demoMenuDescription => 'ເມນູຈະສະແດງລາຍຊື່ຂອງຕົວເລືອກຢູ່ພື້ນຜິວຊົ່ວຄາວ. ພວກມັນຈະປາກົດເມື່ອຜູ້ໃຊ້ໂຕ້ຕອບກັບປຸ່ມ, ຄຳສັ່ງ ຫຼື ການຄວບຄຸມອື່ນໆ.';
+  String get demoMenuDescription =>
+      'ເມນູຈະສະແດງລາຍຊື່ຂອງຕົວເລືອກຢູ່ພື້ນຜິວຊົ່ວຄາວ. ພວກມັນຈະປາກົດເມື່ອຜູ້ໃຊ້ໂຕ້ຕອບກັບປຸ່ມ, ຄຳສັ່ງ ຫຼື ການຄວບຄຸມອື່ນໆ.';
 
   @override
   String get demoMenuItemValueOne => 'ລາຍການເມນູໜຶ່ງ';
@@ -808,7 +849,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoNavigationDrawerSubtitle => 'ການສະແດງລິ້ນຊັກພາຍໃນແຖບແອັບ';
 
   @override
-  String get demoNavigationDrawerDescription => 'ແຜງ Material Design ທີ່ເລື່ອນເຂົ້າມາທາງລວງນອນຈາກຂອບຈໍເພື່ອສະແດງລິ້ງການນຳທາງໃນແອັບພລິເຄຊັນໃດໜຶ່ງ.';
+  String get demoNavigationDrawerDescription =>
+      'ແຜງ Material Design ທີ່ເລື່ອນເຂົ້າມາທາງລວງນອນຈາກຂອບຈໍເພື່ອສະແດງລິ້ງການນຳທາງໃນແອັບພລິເຄຊັນໃດໜຶ່ງ.';
 
   @override
   String get demoNavigationDrawerUserName => 'ຊື່ຜູ້ໃຊ້';
@@ -823,7 +865,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'ລາຍການສອງ';
 
   @override
-  String get demoNavigationDrawerText => 'ປັດຈາກຂອບ ຫຼື ແຕະໃສ່ໄອຄອນຂວາເທິງເພື່ອເບິ່ງລິ້ນຊັກ';
+  String get demoNavigationDrawerText =>
+      'ປັດຈາກຂອບ ຫຼື ແຕະໃສ່ໄອຄອນຂວາເທິງເພື່ອເບິ່ງລິ້ນຊັກ';
 
   @override
   String get demoNavigationRailTitle => 'ລາງການນຳທາງ';
@@ -832,7 +875,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoNavigationRailSubtitle => 'ການສະແດງລາງການນຳທາງພາຍໃນແອັບໃດໜຶ່ງ';
 
   @override
-  String get demoNavigationRailDescription => 'ວິດເຈັດ material ແມ່ນໃຊ້ເພື່ອສະແດງຢູ່ທາງຊ້າຍ ຫຼື ຂວາຂອງແອັບໃດໜຶ່ງເພື່ອເລື່ອນໄປມາລະຫວ່າງມຸມມອງຈຳນວນໜຶ່ງ, ໂດຍປົກກະຕິແລ້ວແມ່ນສອງຫາສາມມຸມມອງ.';
+  String get demoNavigationRailDescription =>
+      'ວິດເຈັດ material ແມ່ນໃຊ້ເພື່ອສະແດງຢູ່ທາງຊ້າຍ ຫຼື ຂວາຂອງແອັບໃດໜຶ່ງເພື່ອເລື່ອນໄປມາລະຫວ່າງມຸມມອງຈຳນວນໜຶ່ງ, ໂດຍປົກກະຕິແລ້ວແມ່ນສອງຫາສາມມຸມມອງ.';
 
   @override
   String get demoNavigationRailFirst => 'ໜຶ່ງ';
@@ -853,16 +897,19 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoFullscreenDialogTitle => 'ເຕັມຈໍ';
 
   @override
-  String get demoFullscreenDialogDescription => 'ຄຸນສົມບັດ fullscreenDialog ກຳນົດວ່າຈະໃຫ້ໜ້າທີ່ສົ່ງເຂົ້າມານັ້ນເປັນກ່ອງໂຕ້ຕອບແບບເຕັມຈໍຫຼືບໍ່';
+  String get demoFullscreenDialogDescription =>
+      'ຄຸນສົມບັດ fullscreenDialog ກຳນົດວ່າຈະໃຫ້ໜ້າທີ່ສົ່ງເຂົ້າມານັ້ນເປັນກ່ອງໂຕ້ຕອບແບບເຕັມຈໍຫຼືບໍ່';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'ຕົວຊີ້ບອກການເຄື່ອນໄຫວ';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'ຕົວຊີ້ບອກການເຄື່ອນໄຫວແບບ iOS';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'ຕົວຊີ້ບອກການເຄື່ອນໄຫວແບບ iOS';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'ຕົວຊີ້ບອກການເຄື່ອນໄຫວແບບ iOS ທີ່ມຸນຕາມເຂັມໂມງ';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'ຕົວຊີ້ບອກການເຄື່ອນໄຫວແບບ iOS ທີ່ມຸນຕາມເຂັມໂມງ';
 
   @override
   String get demoCupertinoButtonsTitle => 'ປຸ່ມ';
@@ -871,7 +918,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'ປຸ່ມແບບ iOS';
 
   @override
-  String get demoCupertinoButtonsDescription => 'ປຸ່ມແບບ iOS. ມັນຈະໃສ່ຂໍ້ຄວາມ ແລະ/ຫຼື ໄອຄອນທີ່ຄ່ອຍໆປາກົດຂຶ້ນ ແລະ ຄ່ອຍໆຈາງລົງເມື່ອແຕະໃສ່. ອາດມີ ຫຼື ບໍ່ມີພື້ນຫຼັງກໍໄດ້.';
+  String get demoCupertinoButtonsDescription =>
+      'ປຸ່ມແບບ iOS. ມັນຈະໃສ່ຂໍ້ຄວາມ ແລະ/ຫຼື ໄອຄອນທີ່ຄ່ອຍໆປາກົດຂຶ້ນ ແລະ ຄ່ອຍໆຈາງລົງເມື່ອແຕະໃສ່. ອາດມີ ຫຼື ບໍ່ມີພື້ນຫຼັງກໍໄດ້.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +928,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,7 +938,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'ການແຈ້ງເຕືອນ';
@@ -901,7 +951,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => 'ການເຕືອນ';
 
   @override
-  String get demoCupertinoAlertDescription => 'ກ່ອງໂຕ້ຕອບການແຈ້ງເຕືອນເພື່ອບອກໃຫ້ຜູ້ໃຊ້ຮູ້ກ່ຽວກັບສະຖານະການທີ່ຕ້ອງຮັບຮູ້. ກ່ອງໂຕ້ຕອບການແຈ້ງເຕືອນທີ່ມີຊື່, ເນື້ອຫາ ແລະ ລາຍຊື່ຄຳສັ່ງແບບບໍ່ບັງຄັບ. ຊື່ຈະສະແດງຢູ່ທາງເທິງຂອງເນື້ອຫາ ແລະ ຄຳສັ່ງແມ່ນຈະສະແດງຢູ່ທາງລຸ່ມຂອງເນື້ອຫາ.';
+  String get demoCupertinoAlertDescription =>
+      'ກ່ອງໂຕ້ຕອບການແຈ້ງເຕືອນເພື່ອບອກໃຫ້ຜູ້ໃຊ້ຮູ້ກ່ຽວກັບສະຖານະການທີ່ຕ້ອງຮັບຮູ້. ກ່ອງໂຕ້ຕອບການແຈ້ງເຕືອນທີ່ມີຊື່, ເນື້ອຫາ ແລະ ລາຍຊື່ຄຳສັ່ງແບບບໍ່ບັງຄັບ. ຊື່ຈະສະແດງຢູ່ທາງເທິງຂອງເນື້ອຫາ ແລະ ຄຳສັ່ງແມ່ນຈະສະແດງຢູ່ທາງລຸ່ມຂອງເນື້ອຫາ.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'ການແຈ້ງເຕືອນທີ່ມີຊື່';
@@ -916,7 +967,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'ຊີດຄຳສັ່ງ';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'ຊີດຄຳສັ່ງເປັນຮູບແບບການແຈ້ງເຕືອນທີ່ເຈາະຈົງເຊິ່ງນຳສະເໜີຊຸດຕົວເລືອກຢ່າງໜ້ອຍສອງຢ່າງທີ່ກ່ຽວຂ້ອງກັບບໍລິບົດປັດຈຸບັນໃຫ້ກັບຜູ້ໃຊ້. ຊີດຄຳສັ່ງສາມາດມີຊື່, ຂໍ້ຄວາມເພີ່ມເຕີມ ແລະ ລາຍຊື່ຄຳສັ່ງໄດ້.';
+  String get demoCupertinoActionSheetDescription =>
+      'ຊີດຄຳສັ່ງເປັນຮູບແບບການແຈ້ງເຕືອນທີ່ເຈາະຈົງເຊິ່ງນຳສະເໜີຊຸດຕົວເລືອກຢ່າງໜ້ອຍສອງຢ່າງທີ່ກ່ຽວຂ້ອງກັບບໍລິບົດປັດຈຸບັນໃຫ້ກັບຜູ້ໃຊ້. ຊີດຄຳສັ່ງສາມາດມີຊື່, ຂໍ້ຄວາມເພີ່ມເຕີມ ແລະ ລາຍຊື່ຄຳສັ່ງໄດ້.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'ແຖບການນຳທາງ';
@@ -925,7 +977,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoCupertinoNavigationBarSubtitle => 'ແຖບການນຳທາງແບບ iOS';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'ແຖບການນຳທາງແບບ iOS. ແຖບການນຳທາງແມ່ນແຖບເຄື່ອງມືທີ່ຢ່າງໜ້ອຍທີ່ສຸດຈະປະກອບມີຊື່ໜ້າ, ໃນທາງກາງຂອງແຖບເຄື່ອງມື.';
+  String get demoCupertinoNavigationBarDescription =>
+      'ແຖບການນຳທາງແບບ iOS. ແຖບການນຳທາງແມ່ນແຖບເຄື່ອງມືທີ່ຢ່າງໜ້ອຍທີ່ສຸດຈະປະກອບມີຊື່ໜ້າ, ໃນທາງກາງຂອງແຖບເຄື່ອງມື.';
 
   @override
   String get demoCupertinoPickerTitle => 'ຕົວເລືອກ';
@@ -934,7 +987,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoCupertinoPickerSubtitle => 'ຕົວເລືອກວັນທີ ແລະ ເວລາແບບ iOS';
 
   @override
-  String get demoCupertinoPickerDescription => 'ວິດເຈັດຕົວເລືອກຮູບແບບ iOS ທີ່ສາມາດໃຊ້ເພື່ອເລືອກວັນທີ, ເວລາ ຫຼື ທັງສອງໄດ້.';
+  String get demoCupertinoPickerDescription =>
+      'ວິດເຈັດຕົວເລືອກຮູບແບບ iOS ທີ່ສາມາດໃຊ້ເພື່ອເລືອກວັນທີ, ເວລາ ຫຼື ທັງສອງໄດ້.';
 
   @override
   String get demoCupertinoPickerTimer => 'ໂມງຈັບເວລາ';
@@ -952,10 +1006,12 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'ດຶງເພື່ອໂຫຼດຂໍ້ມູນຄືນໃໝ່';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'ການຄວບຄຸມການດຶງເພື່ອໂຫຼດຂໍ້ມູນຄືນໃໝ່ iOS';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'ການຄວບຄຸມການດຶງເພື່ອໂຫຼດຂໍ້ມູນຄືນໃໝ່ iOS';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'ວິດເຈັດທີ່ນຳໃຊ້ການຄວບຄຸມເນື້ອຫາການໂຫຼດຂໍ້ມູນຄືນໃໝ່ແບບ iOS.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'ວິດເຈັດທີ່ນຳໃຊ້ການຄວບຄຸມເນື້ອຫາການໂຫຼດຂໍ້ມູນຄືນໃໝ່ແບບ iOS.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'ການຄວບຄຸມແບບແຍກສ່ວນ';
@@ -964,7 +1020,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoCupertinoSegmentedControlSubtitle => 'ການຄວບຄຸມແຍກສ່ວນແບບ iOS';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'ໃຊ້ເພື່ອເລືອກລະຫວ່າງຕົວເລືອກທີ່ສະເພາະຕົວຄືກັນ. ການເລືອກຕົວເລືອກໜຶ່ງໃນສ່ວນຄວບຄຸມທີ່ແບ່ງບກຸ່ມຈະເປັນການຍົກເລີກການເລືອກຕົວເລືອກອື່ນໆໃນສ່ວນຄວບຄຸມທີ່ແບ່ງກຸ່ມນັ້ນ.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'ໃຊ້ເພື່ອເລືອກລະຫວ່າງຕົວເລືອກທີ່ສະເພາະຕົວຄືກັນ. ການເລືອກຕົວເລືອກໜຶ່ງໃນສ່ວນຄວບຄຸມທີ່ແບ່ງບກຸ່ມຈະເປັນການຍົກເລີກການເລືອກຕົວເລືອກອື່ນໆໃນສ່ວນຄວບຄຸມທີ່ແບ່ງກຸ່ມນັ້ນ.';
 
   @override
   String get demoCupertinoSliderTitle => 'ແຖບເລື່ອນ';
@@ -973,7 +1030,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'ແຖບເລື່ອນແບບ iOS';
 
   @override
-  String get demoCupertinoSliderDescription => 'ແຖບເລື່ອນສາມາດໃຊ້ເພື່ອເລືອກຈາກຊຸດຄ່າຕໍ່ເນື່ອງ ຫຼື ບໍ່ຕໍ່ເນື່ອງໄດ້';
+  String get demoCupertinoSliderDescription =>
+      'ແຖບເລື່ອນສາມາດໃຊ້ເພື່ອເລືອກຈາກຊຸດຄ່າຕໍ່ເນື່ອງ ຫຼື ບໍ່ຕໍ່ເນື່ອງໄດ້';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,7 +1047,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'ປຸ່ມກົດແບບ iOS';
 
   @override
-  String get demoCupertinoSwitchDescription => 'ປຸ່ມກົດແມ່ນໃຊ້ເພື່ອສະຫຼັບສະຖານະ ເປີດ/ປິດ ຂອງການຕັ້ງຄ່າດ່ຽວໃດໜຶ່ງ.';
+  String get demoCupertinoSwitchDescription =>
+      'ປຸ່ມກົດແມ່ນໃຊ້ເພື່ອສະຫຼັບສະຖານະ ເປີດ/ປິດ ຂອງການຕັ້ງຄ່າດ່ຽວໃດໜຶ່ງ.';
 
   @override
   String get demoCupertinoTabBarTitle => 'ແຖບ';
@@ -998,7 +1057,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'ແຖບລຸ່ມສຸດແບບ iOS';
 
   @override
-  String get demoCupertinoTabBarDescription => 'ແຖບການນຳທາງລຸ່ມສຸດແບບ iOS. ສະແດງຫຼາຍແຖບທີ່ມີແຖບນຳໃຊ້ຢູ່ແຖບດຽວ, ແຖບທຳອິດເປັນຄ່າເລີ່ມຕົ້ນ.';
+  String get demoCupertinoTabBarDescription =>
+      'ແຖບການນຳທາງລຸ່ມສຸດແບບ iOS. ສະແດງຫຼາຍແຖບທີ່ມີແຖບນຳໃຊ້ຢູ່ແຖບດຽວ, ແຖບທຳອິດເປັນຄ່າເລີ່ມຕົ້ນ.';
 
   @override
   String get cupertinoTabBarHomeTab => 'ໜ້າຫຼັກ';
@@ -1016,7 +1076,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'ຊ່ອງຂໍ້ຄວາມຮູບແບບ iOS';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'ຊ່ອງຂໍ້ຄວາມທີ່ໃຫ້ຜູ້ໃຊ້ພິມຂໍ້ຄວາມຈາກແປ້ນພິມຮາດແວ ຫຼື ແປ້ນພິມຢູ່ໜ້າຈໍໄດ້.';
+  String get demoCupertinoTextFieldDescription =>
+      'ຊ່ອງຂໍ້ຄວາມທີ່ໃຫ້ຜູ້ໃຊ້ພິມຂໍ້ຄວາມຈາກແປ້ນພິມຮາດແວ ຫຼື ແປ້ນພິມຢູ່ໜ້າຈໍໄດ້.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN';
@@ -1049,7 +1110,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'ການປ່ຽນກ່ອງບັນຈຸ';
 
   @override
-  String get demoContainerTransformDescription => 'ຮູບແບບການປ່ຽນຕົວບັນຈຸແມ່ນອອກແບບມາສຳລັບການປ່ຽນລະຫວ່າງອົງປະກອບສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ທີ່ມີກ່ອງບັນຈຸໃດໜຶ່ງ. ຮູບແບບນີ້ຈະສ້າງການເຊື່ອມຕໍ່ທີ່ເບິ່ງເຫັນໄດ້ລະຫວ່າງອົງປະກອບສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ສອງອັນ';
+  String get demoContainerTransformDescription =>
+      'ຮູບແບບການປ່ຽນຕົວບັນຈຸແມ່ນອອກແບບມາສຳລັບການປ່ຽນລະຫວ່າງອົງປະກອບສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ທີ່ມີກ່ອງບັນຈຸໃດໜຶ່ງ. ຮູບແບບນີ້ຈະສ້າງການເຊື່ອມຕໍ່ທີ່ເບິ່ງເຫັນໄດ້ລະຫວ່າງອົງປະກອບສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ສອງອັນ';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'ໂໝດຈາງ';
@@ -1076,7 +1138,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'ລາຍການລາຍຊື່';
 
   @override
-  String get demoSharedAxisDescription => 'ຮູບແບບແກນທີ່ແບ່ງປັນແມ່ນຖືກໃຊ້ສຳລັບການປ່ຽນລະຫວ່າງອົງປະກອບສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ທີ່ມີຄວາມສຳພັນກ່ຽວກັບການນຳທາງ ຫຼື ຕຳແໜ່ງ. ຮູບແບບນີ້ໃຊ້ຂໍ້ມູນທີ່ແບ່ງປັນຢູ່ແກນ x, y ຫຼື z ເພື່ອສະໜັບສະໜຸນຄວາມສຳພັນລະຫວ່າງອົງປະກອບຕ່າງໆ.';
+  String get demoSharedAxisDescription =>
+      'ຮູບແບບແກນທີ່ແບ່ງປັນແມ່ນຖືກໃຊ້ສຳລັບການປ່ຽນລະຫວ່າງອົງປະກອບສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ທີ່ມີຄວາມສຳພັນກ່ຽວກັບການນຳທາງ ຫຼື ຕຳແໜ່ງ. ຮູບແບບນີ້ໃຊ້ຂໍ້ມູນທີ່ແບ່ງປັນຢູ່ແກນ x, y ຫຼື z ເພື່ອສະໜັບສະໜຸນຄວາມສຳພັນລະຫວ່າງອົງປະກອບຕ່າງໆ.';
 
   @override
   String get demoSharedXAxisTitle => 'ແກນ x ທີ່ແບ່ງປັນ';
@@ -1091,7 +1154,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'ເພີ່ມປະສິດທິພາບຫຼັກສູດຂອງທ່ານ';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'ໝວດໝູ່ທີ່ຮວມຈະປາກົດເປັນກຸ່ມໃນຟີດຂອງທ່ານ. ທ່ານສາມາດປ່ຽນຕົວເລືອກນີ້ໄດ້ທຸກເມື່ອໃນພາຍຫຼັງ.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'ໝວດໝູ່ທີ່ຮວມຈະປາກົດເປັນກຸ່ມໃນຟີດຂອງທ່ານ. ທ່ານສາມາດປ່ຽນຕົວເລືອກນີ້ໄດ້ທຸກເມື່ອໃນພາຍຫຼັງ.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'ສິນລະປະ ແລະ ງານສີມື';
@@ -1211,7 +1275,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'ຈາງຫາຍ';
 
   @override
-  String get demoFadeThroughDescription => 'ຮູບແບບຈາງຫາຍແມ່ນໃຊ້ສຳລັບການປ່ຽນລະຫວ່າງອົງປະກອບສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ທີ່ບໍ່ມີຄວາມສຳພັນໜັກແນ້ນຕໍ່ກັນແລະກັນ.';
+  String get demoFadeThroughDescription =>
+      'ຮູບແບບຈາງຫາຍແມ່ນໃຊ້ສຳລັບການປ່ຽນລະຫວ່າງອົງປະກອບສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ທີ່ບໍ່ມີຄວາມສຳພັນໜັກແນ້ນຕໍ່ກັນແລະກັນ.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'ອະລະບ້ຳ';
@@ -1229,7 +1294,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'ຈາງ';
 
   @override
-  String get demoFadeScaleDescription => 'ຮູບແບບຈາງແມ່ນໃຊ້ສຳລັບອົງປະກອບສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ທີ່ເຂົ້າ ຫຼື ອອກພາຍໃນຂອບຂອງໜ້າຈໍ ເຊັ່ນ: ກ່ອງໂຕ້ຕອບທີ່ຈາງເຂົ້າໄປທາງກາງຂອງຈໍ.';
+  String get demoFadeScaleDescription =>
+      'ຮູບແບບຈາງແມ່ນໃຊ້ສຳລັບອົງປະກອບສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ທີ່ເຂົ້າ ຫຼື ອອກພາຍໃນຂອບຂອງໜ້າຈໍ ເຊັ່ນ: ກ່ອງໂຕ້ຕອບທີ່ຈາງເຂົ້າໄປທາງກາງຂອງຈໍ.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'ສະແດງ';
@@ -1256,7 +1322,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoColorsSubtitle => 'ສີທີ່ລະບຸໄວ້ລ່ວງໜ້າທັງໝົດ';
 
   @override
-  String get demoColorsDescription => 'ສີ ຫຼື ແຜງສີຄົງທີ່ເຊິ່ງເປັນຕົວແທນຊຸດສີຂອງ Material Design.';
+  String get demoColorsDescription =>
+      'ສີ ຫຼື ແຜງສີຄົງທີ່ເຊິ່ງເປັນຕົວແທນຊຸດສີຂອງ Material Design.';
 
   @override
   String get demoTypographyTitle => 'ການພິມ';
@@ -1265,7 +1332,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoTypographySubtitle => 'ຮູບແບບຂໍ້ຄວາມທັງໝົດທີ່ກຳນົດໄວ້ລ່ວງໜ້າ';
 
   @override
-  String get demoTypographyDescription => 'ຄຳຈຳກັດຄວາມຂອງຕົວອັກສອນຮູບແບບຕ່າງໆທີ່ພົບໃນ Material Design.';
+  String get demoTypographyDescription =>
+      'ຄຳຈຳກັດຄວາມຂອງຕົວອັກສອນຮູບແບບຕ່າງໆທີ່ພົບໃນ Material Design.';
 
   @override
   String get demo2dTransformationsTitle => 'ການປັບປ່ຽນ 2 ມິຕິ';
@@ -1274,7 +1342,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'ເລື່ອນ, ຊູມ, ໝຸນ';
 
   @override
-  String get demo2dTransformationsDescription => 'ແຕະເພື່ອແກ້ໄຂແຜ່ນ ແລະ ໃຊ້ທ່າທາງເພື່ອຍ້າຍໄປມາໃນສາກ. ລາກເພື່ອເລື່ອນ, ຖ່າງເພື່ອຊູມ, ໝຸນດ້ວຍສອງນິ້ວ. ກົດປຸ່ມຣີເຊັດເພື່ອກັບໄປຫາທິດທາງການເລີ່ມຕົ້ນ.';
+  String get demo2dTransformationsDescription =>
+      'ແຕະເພື່ອແກ້ໄຂແຜ່ນ ແລະ ໃຊ້ທ່າທາງເພື່ອຍ້າຍໄປມາໃນສາກ. ລາກເພື່ອເລື່ອນ, ຖ່າງເພື່ອຊູມ, ໝຸນດ້ວຍສອງນິ້ວ. ກົດປຸ່ມຣີເຊັດເພື່ອກັບໄປຫາທິດທາງການເລີ່ມຕົ້ນ.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'ຣີເຊັດການປັບປ່ຽນ';
@@ -1295,13 +1364,15 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'Persistent bottom sheet';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Persistent bottom sheet ຈະສະແດງຂໍ້ມູນທີ່ເສີມເນື້ອຫາຫຼັກຂອງແອັບ. ຜູ້ໃຊ້ຈະຍັງສາມາດເບິ່ງເຫັນອົງປະກອບນີ້ໄດ້ເຖິງແມ່ນວ່າຈະໂຕ້ຕອບກັບສ່ວນອື່ນໆຂອງແອັບຢູ່ກໍຕາມ.';
+  String get demoBottomSheetPersistentDescription =>
+      'Persistent bottom sheet ຈະສະແດງຂໍ້ມູນທີ່ເສີມເນື້ອຫາຫຼັກຂອງແອັບ. ຜູ້ໃຊ້ຈະຍັງສາມາດເບິ່ງເຫັນອົງປະກອບນີ້ໄດ້ເຖິງແມ່ນວ່າຈະໂຕ້ຕອບກັບສ່ວນອື່ນໆຂອງແອັບຢູ່ກໍຕາມ.';
 
   @override
   String get demoBottomSheetModalTitle => 'Modal bottom sheet';
 
   @override
-  String get demoBottomSheetModalDescription => 'Modal bottom sheet ເປັນທາງເລືອກທີ່ໃຊ້ແທນເມນູ ຫຼື ກ່ອງໂຕ້ຕອບ ແລະ ປ້ອງກັນບໍ່ໃຫ້ຜູ້ໃຊ້ໂຕ້ຕອບກັບສ່ວນທີ່ເຫຼືອຂອງແອັບ.';
+  String get demoBottomSheetModalDescription =>
+      'Modal bottom sheet ເປັນທາງເລືອກທີ່ໃຊ້ແທນເມນູ ຫຼື ກ່ອງໂຕ້ຕອບ ແລະ ປ້ອງກັນບໍ່ໃຫ້ຜູ້ໃຊ້ໂຕ້ຕອບກັບສ່ວນທີ່ເຫຼືອຂອງແອັບ.';
 
   @override
   String get demoBottomSheetAddLabel => 'ເພີ່ມ';
@@ -1324,7 +1395,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoListsSubtitle => 'ໂຄງຮ່າງລາຍຊື່ແບບເລື່ອນໄດ້';
 
   @override
-  String get demoListsDescription => 'ແຖບທີ່ມີຄວາມສູງແບບຕາຍຕົວແຖວດ່ຽວທີ່ປົກກະຕິຈະມີຂໍ້ຄວາມຈຳນວນໜຶ່ງຮວມທັງໄອຄອນນຳໜ້າ ຫຼື ຕໍ່ທ້າຍ';
+  String get demoListsDescription =>
+      'ແຖບທີ່ມີຄວາມສູງແບບຕາຍຕົວແຖວດ່ຽວທີ່ປົກກະຕິຈະມີຂໍ້ຄວາມຈຳນວນໜຶ່ງຮວມທັງໄອຄອນນຳໜ້າ ຫຼື ຕໍ່ທ້າຍ';
 
   @override
   String get demoOneLineListsTitle => 'ແຖວດຽວ';
@@ -1345,13 +1417,15 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoCircularProgressIndicatorTitle => 'ຕົວຊີ້ບອກສະຖານະແບບວົງມົນ';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'ຕົວຊີ້ບອກສະຖານະແບບວົງມົນ Material Design, ເຊິ່ງຈະໝຸນເພື່ອບອກວ່າແອັບພລິເຄຊັນກຳລັງເຮັດວຽກຢູ່.';
+  String get demoCircularProgressIndicatorDescription =>
+      'ຕົວຊີ້ບອກສະຖານະແບບວົງມົນ Material Design, ເຊິ່ງຈະໝຸນເພື່ອບອກວ່າແອັບພລິເຄຊັນກຳລັງເຮັດວຽກຢູ່.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'ຕົວຊີ້ບອກສະຖານະແບບເສັ້ນຊື່';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'ຕົວຊີ້ບອກສະຖານະແບບເສັ້ນຊື່ Material Design, ເອີ້ນອີກຢ່າງໜຶ່ງວ່າແຖບສະຖານະ.';
+  String get demoLinearProgressIndicatorDescription =>
+      'ຕົວຊີ້ບອກສະຖານະແບບເສັ້ນຊື່ Material Design, ເອີ້ນອີກຢ່າງໜຶ່ງວ່າແຖບສະຖານະ.';
 
   @override
   String get demoPickersTitle => 'ຕົວເລືອກ';
@@ -1363,19 +1437,22 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoDatePickerTitle => 'ຕົວເລືອກວັນທີ';
 
   @override
-  String get demoDatePickerDescription => 'ສະແດງກ່ອງໂຕ້ຕອບທີ່ມີຕົວເລືອກວັນທີແບບ Material Design.';
+  String get demoDatePickerDescription =>
+      'ສະແດງກ່ອງໂຕ້ຕອບທີ່ມີຕົວເລືອກວັນທີແບບ Material Design.';
 
   @override
   String get demoTimePickerTitle => 'ຕົວເລືອກເວລາ';
 
   @override
-  String get demoTimePickerDescription => 'ສະແດງກ່ອງໂຕ້ຕອບທີ່ມີຕົວເລືອກເວລາແບບ Material Design.';
+  String get demoTimePickerDescription =>
+      'ສະແດງກ່ອງໂຕ້ຕອບທີ່ມີຕົວເລືອກເວລາແບບ Material Design.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'ສະແດງຕົວເລືອກ';
@@ -1393,16 +1470,19 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoTabsSubtitle => 'ແຖບຕ່າງໆທີ່ມີມຸມມອງແບບເລື່ອນໄດ້ຂອງຕົນເອງ';
 
   @override
-  String get demoTabsDescription => 'ແຖບຕ່າງໆຈະເປັນການຈັດລະບຽບເນື້ອຫາໃນແຕ່ລະໜ້າຈໍ, ຊຸດຂໍ້ມູນ ແລະ ການໂຕ້ຕອບອື່ນໆ.';
+  String get demoTabsDescription =>
+      'ແຖບຕ່າງໆຈະເປັນການຈັດລະບຽບເນື້ອຫາໃນແຕ່ລະໜ້າຈໍ, ຊຸດຂໍ້ມູນ ແລະ ການໂຕ້ຕອບອື່ນໆ.';
 
   @override
   String get demoSnackbarsTitle => 'ແຖບສະແດງຂໍ້ຄວາມ';
 
   @override
-  String get demoSnackbarsSubtitle => 'ແຖບສະແດງຂໍ້ຄວາມຈະສະແດງຂໍ້ຄວາມຢູ່ລຸ່ມສຸດຂອງໜ້າຈໍ';
+  String get demoSnackbarsSubtitle =>
+      'ແຖບສະແດງຂໍ້ຄວາມຈະສະແດງຂໍ້ຄວາມຢູ່ລຸ່ມສຸດຂອງໜ້າຈໍ';
 
   @override
-  String get demoSnackbarsDescription => 'ແຖບສະແດງຂໍ້ຄວາມຈະແຈ້ງເຕືອນຜູ້ໃຊ້ກ່ຽວກັບຂັ້ນຕອນທີ່ແອັບໃດໜຶ່ງດຳເນີນໄປແລ້ວ ຫຼື ຈະດຳເນີນການ. ພວກມັນຈະປາກົດຊົ່ວຄາວ, ຢູ່ລຸ່ມສຸດຂອງໜ້າຈໍ. ພວກມັນຈະບໍ່ລົບກວນປະສົບການຂອງຜູ້ໃຊ້ ແລະ ຜູ້ໃຊ້ບໍ່ຈຳເປັນຕ້ອງກົດເພື່ອໃຫ້ຫາຍໄປ.';
+  String get demoSnackbarsDescription =>
+      'ແຖບສະແດງຂໍ້ຄວາມຈະແຈ້ງເຕືອນຜູ້ໃຊ້ກ່ຽວກັບຂັ້ນຕອນທີ່ແອັບໃດໜຶ່ງດຳເນີນໄປແລ້ວ ຫຼື ຈະດຳເນີນການ. ພວກມັນຈະປາກົດຊົ່ວຄາວ, ຢູ່ລຸ່ມສຸດຂອງໜ້າຈໍ. ພວກມັນຈະບໍ່ລົບກວນປະສົບການຂອງຜູ້ໃຊ້ ແລະ ຜູ້ໃຊ້ບໍ່ຈຳເປັນຕ້ອງກົດເພື່ອໃຫ້ຫາຍໄປ.';
 
   @override
   String get demoSnackbarsButtonLabel => 'ສະແດງແຖບສະແດງຂໍ້ຄວາມ';
@@ -1420,25 +1500,29 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoSelectionControlsTitle => 'ການຄວບຄຸມການເລືອກ';
 
   @override
-  String get demoSelectionControlsSubtitle => 'ກ່ອງໝາຍ, ປຸ່ມຕົວເລືອກ ແລະ ປຸ່ມເປີດປິດຕ່າງໆ';
+  String get demoSelectionControlsSubtitle =>
+      'ກ່ອງໝາຍ, ປຸ່ມຕົວເລືອກ ແລະ ປຸ່ມເປີດປິດຕ່າງໆ';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'ກ່ອງໝາຍ';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'ກ່ອງໝາຍຈະເຮັດໃຫ້ຜູ້ໃຊ້ສາມາດເລືອກຫຼາຍຕົວເລືອກຈາກຊຸດໃດໜຶ່ງໄດ້. ຄ່າຂອງກ່ອງໝາຍປົກກະຕິທີ່ເປັນ true ຫຼື false ແລະ ຄ່າຂອງກ່ອງໝາຍທີ່ມີສາມຄ່າສາມາດເປັນຄ່າ null ໄດ້ນຳ.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'ກ່ອງໝາຍຈະເຮັດໃຫ້ຜູ້ໃຊ້ສາມາດເລືອກຫຼາຍຕົວເລືອກຈາກຊຸດໃດໜຶ່ງໄດ້. ຄ່າຂອງກ່ອງໝາຍປົກກະຕິທີ່ເປັນ true ຫຼື false ແລະ ຄ່າຂອງກ່ອງໝາຍທີ່ມີສາມຄ່າສາມາດເປັນຄ່າ null ໄດ້ນຳ.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'ປຸ່ມຕົວເລືອກ';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'ປຸ່ມຕົວເລືອກທີ່ເຮັດໃຫ້ຜູ້ໃຊ້ສາມາດເລືອກຕົວເລືອກຈາກຊຸດໃດໜຶ່ງໄດ້. ໃຊ້ປຸ່ມຕົວເລືອກສຳລັບການເລືອກສະເພາະຫາກທ່ານຄິດວ່າຜູ້ໃຊ້ຕ້ອງການເບິ່ງຕົວເລືອກທັງໝົດທີ່ມີຂ້າງໆກັນ.';
+  String get demoSelectionControlsRadioDescription =>
+      'ປຸ່ມຕົວເລືອກທີ່ເຮັດໃຫ້ຜູ້ໃຊ້ສາມາດເລືອກຕົວເລືອກຈາກຊຸດໃດໜຶ່ງໄດ້. ໃຊ້ປຸ່ມຕົວເລືອກສຳລັບການເລືອກສະເພາະຫາກທ່ານຄິດວ່າຜູ້ໃຊ້ຕ້ອງການເບິ່ງຕົວເລືອກທັງໝົດທີ່ມີຂ້າງໆກັນ.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'ປຸ່ມ';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'ປຸ່ມເປີດ/ປິດທີ່ຈະສະຫຼັບຕົວເລືອກການຕັ້ງຄ່າໃດໜຶ່ງ. ຕົວເລືອກທີ່ສະຫຼັບການຄວບຄຸມ, ຮວມທັງສະຖານະທີ່ມັນເປັນຢູ່, ຄວນເຮັດໃຫ້ຈະແຈ້ງຈາກປ້າຍກຳກັບໃນແຖວທີ່ສອດຄ່ອງກັນ.';
+  String get demoSelectionControlsSwitchDescription =>
+      'ປຸ່ມເປີດ/ປິດທີ່ຈະສະຫຼັບຕົວເລືອກການຕັ້ງຄ່າໃດໜຶ່ງ. ຕົວເລືອກທີ່ສະຫຼັບການຄວບຄຸມ, ຮວມທັງສະຖານະທີ່ມັນເປັນຢູ່, ຄວນເຮັດໃຫ້ຈະແຈ້ງຈາກປ້າຍກຳກັບໃນແຖວທີ່ສອດຄ່ອງກັນ.';
 
   @override
   String get demoBottomTextFieldsTitle => 'ຊ່ອງຂໍ້ຄວາມ';
@@ -1450,7 +1534,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoTextFieldSubtitle => 'ຂໍ້ຄວາມ ແລະ ຕົວເລກທີ່ແກ້ໄຂໄດ້ແຖວດຽວ';
 
   @override
-  String get demoTextFieldDescription => 'ຊ່ອງຂໍ້ຄວາມຈະເຮັດໃຫ້ຜູ້ໃຊ້ສາມາດພິມຂໍ້ຄວາມໄປໃສ່ສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ໄດ້. ປົກກະຕິພວກມັນຈະປາກົດໃນແບບຟອມ ແລະ ກ່ອງໂຕ້ຕອບຕ່າງໆ.';
+  String get demoTextFieldDescription =>
+      'ຊ່ອງຂໍ້ຄວາມຈະເຮັດໃຫ້ຜູ້ໃຊ້ສາມາດພິມຂໍ້ຄວາມໄປໃສ່ສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ໄດ້. ປົກກະຕິພວກມັນຈະປາກົດໃນແບບຟອມ ແລະ ກ່ອງໂຕ້ຕອບຕ່າງໆ.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'ສະແດງລະຫັດຜ່ານ';
@@ -1459,16 +1544,19 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'ເຊື່ອງລະຫັດຜ່ານ';
 
   @override
-  String get demoTextFieldFormErrors => 'ກະລຸນາແກ້ໄຂຂໍ້ຜິດພາດສີແດງກ່ອນການສົ່ງຂໍ້ມູນ.';
+  String get demoTextFieldFormErrors =>
+      'ກະລຸນາແກ້ໄຂຂໍ້ຜິດພາດສີແດງກ່ອນການສົ່ງຂໍ້ມູນ.';
 
   @override
   String get demoTextFieldNameRequired => 'ຕ້ອງລະບຸຊື່.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'ກະລຸນາປ້ອນຕົວອັກສອນພະຍັນຊະນະເທົ່ານັ້ນ.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'ກະລຸນາປ້ອນຕົວອັກສອນພະຍັນຊະນະເທົ່ານັ້ນ.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - ໃສ່ເບີໂທສະຫະລັດ.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - ໃສ່ເບີໂທສະຫະລັດ.';
 
   @override
   String get demoTextFieldEnterPassword => 'ກະລຸນາປ້ອນລະຫັດຜ່ານ.';
@@ -1483,7 +1571,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoTextFieldNameField => 'ຊື່*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'ພວກເຮົາຈະຕິດຕໍ່ຫາທ່ານຢູ່ເບີໃດ?';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'ພວກເຮົາຈະຕິດຕໍ່ຫາທ່ານຢູ່ເບີໃດ?';
 
   @override
   String get demoTextFieldPhoneNumber => 'ເບີໂທລະສັບ*';
@@ -1495,7 +1584,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoTextFieldEmail => 'ອີເມວ';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'ບອກພວກເຮົາກ່ຽວກັບຕົວທ່ານ (ຕົວຢ່າງ: ໃຫ້ຈົດສິ່ງທີ່ທ່ານເຮັດ ຫຼື ວຽກຍາມຫວ່າງຂອງທ່ານ)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'ບອກພວກເຮົາກ່ຽວກັບຕົວທ່ານ (ຕົວຢ່າງ: ໃຫ້ຈົດສິ່ງທີ່ທ່ານເຮັດ ຫຼື ວຽກຍາມຫວ່າງຂອງທ່ານ)';
 
   @override
   String get demoTextFieldKeepItShort => 'ຂຽນສັ້ນໆເພາະນີ້ເປັນພຽງການສາທິດ.';
@@ -1533,13 +1623,16 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get demoTooltipTitle => 'ຄຳແນະນຳ';
 
   @override
-  String get demoTooltipSubtitle => 'ຂໍ້ຄວາມສັ້ນໆທີ່ສະແດງເມື່ອກົດຄ້າງໄວ້ ຫຼື ເມື່ອເລື່ອນໄປໃສ່';
+  String get demoTooltipSubtitle =>
+      'ຂໍ້ຄວາມສັ້ນໆທີ່ສະແດງເມື່ອກົດຄ້າງໄວ້ ຫຼື ເມື່ອເລື່ອນໄປໃສ່';
 
   @override
-  String get demoTooltipDescription => 'ຄຳແນະນຳຈະສະໜອງປ້າຍກຳກັບແບບຂໍ້ຄວາມເພື່ອຊ່ວຍອະທິບາຍຟັງຊັນຂອງປຸ່ມ ຫຼື ຄຳສັ່ງສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ອື່ນໆ. ຄຳແນະນຳຈະສະແດງຂໍ້ຄວາມທີ່ເປັນຂໍ້ມູນເມື່ອຜູ້ໃຊ້ເລື່ອນໄປໃສ່, ເລືອກໃສ່ ຫຼື ກົດຄ້າງໃສ່ອົງປະກອບໃດໜຶ່ງ.';
+  String get demoTooltipDescription =>
+      'ຄຳແນະນຳຈະສະໜອງປ້າຍກຳກັບແບບຂໍ້ຄວາມເພື່ອຊ່ວຍອະທິບາຍຟັງຊັນຂອງປຸ່ມ ຫຼື ຄຳສັ່ງສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ອື່ນໆ. ຄຳແນະນຳຈະສະແດງຂໍ້ຄວາມທີ່ເປັນຂໍ້ມູນເມື່ອຜູ້ໃຊ້ເລື່ອນໄປໃສ່, ເລືອກໃສ່ ຫຼື ກົດຄ້າງໃສ່ອົງປະກອບໃດໜຶ່ງ.';
 
   @override
-  String get demoTooltipInstructions => 'ກົດຄ້າງໄວ້ ຫຼື ເລື່ອນໄປໃສ່ເພື່ອສະແດງຄຳແນະນຳ.';
+  String get demoTooltipInstructions =>
+      'ກົດຄ້າງໄວ້ ຫຼື ເລື່ອນໄປໃສ່ເພື່ອສະແດງຄຳແນະນຳ.';
 
   @override
   String get bottomNavigationCommentsTab => 'ຄຳເຫັນ';
@@ -1600,7 +1693,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get dialogLocationTitle => 'ໃຊ້ບໍລິການສະຖານທີ່ຂອງ Google ບໍ?';
 
   @override
-  String get dialogLocationDescription => 'ໃຫ້ Google ຊ່ວຍລະບຸສະຖານທີ່. ນີ້ໝາຍເຖິງການສົ່ງຂໍ້ມູນສະຖານທີ່ທີ່ບໍ່ລະບຸຕົວຕົນໄປໃຫ້ Google, ເຖິງແມ່ນວ່າຈະບໍ່ມີແອັບເປີດໃຊ້ຢູ່ກໍຕາມ.';
+  String get dialogLocationDescription =>
+      'ໃຫ້ Google ຊ່ວຍລະບຸສະຖານທີ່. ນີ້ໝາຍເຖິງການສົ່ງຂໍ້ມູນສະຖານທີ່ທີ່ບໍ່ລະບຸຕົວຕົນໄປໃຫ້ Google, ເຖິງແມ່ນວ່າຈະບໍ່ມີແອັບເປີດໃຊ້ຢູ່ກໍຕາມ.';
 
   @override
   String get dialogCancel => 'ຍົກເລີກ';
@@ -1645,10 +1739,12 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'ຍົກເລີກ';
 
   @override
-  String get cupertinoAlertLocationTitle => 'ອະນຸຍາດໃຫ້ \"ແຜນທີ່\" ເຂົ້າເຖິງສະຖານທີ່ຂອງທ່ານໄດ້ໃນຂະນະທີ່ທ່ານກຳລັງໃຊ້ແອັບບໍ?';
+  String get cupertinoAlertLocationTitle =>
+      'ອະນຸຍາດໃຫ້ \"ແຜນທີ່\" ເຂົ້າເຖິງສະຖານທີ່ຂອງທ່ານໄດ້ໃນຂະນະທີ່ທ່ານກຳລັງໃຊ້ແອັບບໍ?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'ສະຖານທີ່ປັດຈຸບັນຂອງທ່ານຈະຖືກສະແດງຢູ່ແຜນທີ່ ແລະ ຖືກໃຊ້ເພື່ອເສັ້ນທາງ, ຜົນການຊອກຫາທີ່ຢູ່ໃກ້ຄຽງ ແລະ ເວລາເດີນທາງໂດຍປະມານ.';
+  String get cupertinoAlertLocationDescription =>
+      'ສະຖານທີ່ປັດຈຸບັນຂອງທ່ານຈະຖືກສະແດງຢູ່ແຜນທີ່ ແລະ ຖືກໃຊ້ເພື່ອເສັ້ນທາງ, ຜົນການຊອກຫາທີ່ຢູ່ໃກ້ຄຽງ ແລະ ເວລາເດີນທາງໂດຍປະມານ.';
 
   @override
   String get cupertinoAlertAllow => 'ອະນຸຍາດ';
@@ -1660,7 +1756,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'ເລືອກຂອງຫວານທີ່ມັກ';
 
   @override
-  String get cupertinoAlertDessertDescription => 'ກະລຸນາເລືອກປະເພດຂອງຫວານທີ່ທ່ານມັກຈາກລາຍຊື່ທາງລຸ່ມ. ການເລືອກຂອງທ່ານຈະຖືກໃຊ້ເພື່ອປັບແຕ່ງລາຍຊື່ຮ້ານອາຫານທີ່ແນະນຳໃນພື້ນທີ່ຂອງທ່ານ.';
+  String get cupertinoAlertDessertDescription =>
+      'ກະລຸນາເລືອກປະເພດຂອງຫວານທີ່ທ່ານມັກຈາກລາຍຊື່ທາງລຸ່ມ. ການເລືອກຂອງທ່ານຈະຖືກໃຊ້ເພື່ອປັບແຕ່ງລາຍຊື່ຮ້ານອາຫານທີ່ແນະນຳໃນພື້ນທີ່ຂອງທ່ານ.';
 
   @override
   String get cupertinoAlertCheesecake => 'ຊີສເຄັກ';
@@ -2243,7 +2340,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get craneEat10 => 'ລິສບອນ, ປໍຕູກອລ';
 
   @override
-  String get craneFly0SemanticLabel => 'ກະຕູບຫຼັງນ້ອຍຢູ່ກາງທິວທັດທີ່ມີຫິມະ ແລະ ຕົ້ນໄມ້ຂຽວ';
+  String get craneFly0SemanticLabel =>
+      'ກະຕູບຫຼັງນ້ອຍຢູ່ກາງທິວທັດທີ່ມີຫິມະ ແລະ ຕົ້ນໄມ້ຂຽວ';
 
   @override
   String get craneFly1SemanticLabel => 'ເຕັ້ນພັກແຮມໃນທົ່ງ';
@@ -2261,7 +2359,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get craneFly5SemanticLabel => 'ໂຮງແຮມຮິມທະເລສາບທີ່ຢູ່ໜ້າພູ';
 
   @override
-  String get craneFly6SemanticLabel => 'ພາບຖ່າຍທາງອາກາດຂອງພະລາດຊະວັງ Palacio de Bellas Artes';
+  String get craneFly6SemanticLabel =>
+      'ພາບຖ່າຍທາງອາກາດຂອງພະລາດຊະວັງ Palacio de Bellas Artes';
 
   @override
   String get craneFly7SemanticLabel => 'ພູຣັຊມໍ';
@@ -2288,7 +2387,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get craneSleep0SemanticLabel => 'ບັງກະໂລເໜືອນ້ຳ';
 
   @override
-  String get craneSleep1SemanticLabel => 'ກະຕູບຫຼັງນ້ອຍຢູ່ກາງທິວທັດທີ່ມີຫິມະ ແລະ ຕົ້ນໄມ້ຂຽວ';
+  String get craneSleep1SemanticLabel =>
+      'ກະຕູບຫຼັງນ້ອຍຢູ່ກາງທິວທັດທີ່ມີຫິມະ ແລະ ຕົ້ນໄມ້ຂຽວ';
 
   @override
   String get craneSleep2SemanticLabel => 'ປ້ອມມາຊູປິກຊູ';
@@ -2306,10 +2406,12 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get craneSleep6SemanticLabel => 'ສະລອຍນ້ຳທີ່ມີຕົ້ນປາມ';
 
   @override
-  String get craneSleep7SemanticLabel => 'ຫ້ອງພັກທີ່ມີສີສັນສົດໃສຢູ່ຈະຕຸລັດ Ribeira';
+  String get craneSleep7SemanticLabel =>
+      'ຫ້ອງພັກທີ່ມີສີສັນສົດໃສຢູ່ຈະຕຸລັດ Ribeira';
 
   @override
-  String get craneSleep8SemanticLabel => 'ຊາກເປ່ເພຂອງສິ່ງກໍ່ສ້າງຊາວມາຢັນຢູ່ໜ້າຜາເໜືອຫາດຊາຍ';
+  String get craneSleep8SemanticLabel =>
+      'ຊາກເປ່ເພຂອງສິ່ງກໍ່ສ້າງຊາວມາຢັນຢູ່ໜ້າຜາເໜືອຫາດຊາຍ';
 
   @override
   String get craneSleep9SemanticLabel => 'ປະພາຄານດິນຈີ່ກາງທະເລ';
@@ -2324,7 +2426,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get craneEat0SemanticLabel => 'ພິດຊ່າໃນເຕົາອົບຟືນ';
 
   @override
-  String get craneEat1SemanticLabel => 'ບາທີ່ບໍ່ມີລູກຄ້າເຊິ່ງມີຕັ່ງນັ່ງແບບສູງແຕ່ບໍ່ມີພະນັກ';
+  String get craneEat1SemanticLabel =>
+      'ບາທີ່ບໍ່ມີລູກຄ້າເຊິ່ງມີຕັ່ງນັ່ງແບບສູງແຕ່ບໍ່ມີພະນັກ';
 
   @override
   String get craneEat2SemanticLabel => 'ເບີເກີ';
@@ -2348,7 +2451,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get craneEat8SemanticLabel => 'ຈານໃສ່ກຸ້ງນ້ຳຈືດ';
 
   @override
-  String get craneEat9SemanticLabel => 'ເຄົາເຕີໃນຄາເຟ່ທີ່ມີເຂົ້າໜົມອົບຊະນິດຕ່າງໆ';
+  String get craneEat9SemanticLabel =>
+      'ເຄົາເຕີໃນຄາເຟ່ທີ່ມີເຂົ້າໜົມອົບຊະນິດຕ່າງໆ';
 
   @override
   String get craneEat10SemanticLabel => 'ຜູ້ຍິງຖືແຊນວິດພາສທຣາມີໃຫຍ່';
@@ -2402,7 +2506,8 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'ອັບເດດຫຼ້າສຸດ';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'ວິວັດທະນາການທີ່ງຽບແຕ່ຊົງພະລັງດ້ານສຸຂະພາບ';
+  String get fortnightlyHeadlineHealthcare =>
+      'ວິວັດທະນາການທີ່ງຽບແຕ່ຊົງພະລັງດ້ານສຸຂະພາບ';
 
   @override
   String get fortnightlyHeadlineWar => 'ຊາວອະເມຣິກັນທີ່ຖືກແບ່ງແຍກໃນຊ່ວງສົງຄາມ';
@@ -2414,10 +2519,12 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'ການປະຕິຮູບກອງທັບຂຽວຈາກພາຍໃນ';
 
   @override
-  String get fortnightlyHeadlineStocks => 'ເມື່ອຮຸ້ນຊົບເຊົາ, ຫຼາຍຄົນກໍສົນໃຈສະກຸນເງິນ';
+  String get fortnightlyHeadlineStocks =>
+      'ເມື່ອຮຸ້ນຊົບເຊົາ, ຫຼາຍຄົນກໍສົນໃຈສະກຸນເງິນ';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'ນັກອອກແບບໃຊ້ເທັກໂນໂລຢີໃນການສ້າງຜ້າແຫ່ງອະນາຄົດ';
+  String get fortnightlyHeadlineFabrics =>
+      'ນັກອອກແບບໃຊ້ເທັກໂນໂລຢີໃນການສ້າງຜ້າແຫ່ງອະນາຄົດ';
 
   @override
   String get fortnightlyHeadlineFeminists => 'ຄວາມເຫັນແມ່ຍິງຕໍ່ການແບ່ງແຍກ';

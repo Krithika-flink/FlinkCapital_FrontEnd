@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -300,7 +299,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get rallySeeAllBudgets => '予算をすべて表示';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${accountName}、口座番号 ${accountNumber}、残高 ${amount}。';
   }
 
@@ -310,7 +310,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return '${budgetName}、使用済み予算 ${amountUsed}、総予算 ${amountTotal}、予算残高 ${amountLeft}';
   }
 
@@ -353,7 +354,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'オプションの表示';
 
   @override
-  String get demoOptionsFeatureDescription => 'ここをタップすると、このデモの利用可能なオプションが表示されます。';
+  String get demoOptionsFeatureDescription =>
+      'ここをタップすると、このデモの利用可能なオプションが表示されます。';
 
   @override
   String get settingsTitle => '設定';
@@ -425,10 +427,12 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'ボトム アプリバー';
@@ -437,7 +441,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoBottomAppBarSubtitle => '下部にナビゲーションとアクションが表示されます';
 
   @override
-  String get demoBottomAppBarDescription => 'ボトム アプリバーでは、ボトム ナビゲーション ドロワーと、フローティング アクション ボタンなど最大 4 つのアクションにアクセスできます。';
+  String get demoBottomAppBarDescription =>
+      'ボトム アプリバーでは、ボトム ナビゲーション ドロワーと、フローティング アクション ボタンなど最大 4 つのアクションにアクセスできます。';
 
   @override
   String get bottomAppBarNotch => 'ノッチ';
@@ -464,7 +469,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoBannerSubtitle => 'リスト内にバナーを表示します';
 
   @override
-  String get demoBannerDescription => 'バナーでは、重要なメッセージを簡潔に表示し、ユーザーが対応する（またはバナーを閉じる）アクションを提供します。バナーを閉じるには、ユーザーのアクションが必要です。';
+  String get demoBannerDescription =>
+      'バナーでは、重要なメッセージを簡潔に表示し、ユーザーが対応する（またはバナーを閉じる）アクションを提供します。バナーを閉じるには、ユーザーのアクションが必要です。';
 
   @override
   String get demoBottomNavigationTitle => 'ボトム ナビゲーション';
@@ -479,7 +485,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => '選択済みのラベル';
 
   @override
-  String get demoBottomNavigationDescription => '画面の下部には、ボトム ナビゲーション バーに 3～5 件の移動先が表示されます。各移動先はアイコンとテキストラベル（省略可）で表されます。ボトム ナビゲーション アイコンをタップすると、そのアイコンに関連付けられた移動先のトップレベルに移動します。';
+  String get demoBottomNavigationDescription =>
+      '画面の下部には、ボトム ナビゲーション バーに 3～5 件の移動先が表示されます。各移動先はアイコンとテキストラベル（省略可）で表されます。ボトム ナビゲーション アイコンをタップすると、そのアイコンに関連付けられた移動先のトップレベルに移動します。';
 
   @override
   String get demoButtonTitle => 'ボタン';
@@ -491,31 +498,36 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoTextButtonTitle => 'テキストボタン';
 
   @override
-  String get demoTextButtonDescription => 'テキストボタンを押すと、インク スプラッシュが表示されますが、このボタンは浮き上がりません。ツールバー、ダイアログのほか、パディング入りインラインで使用されます';
+  String get demoTextButtonDescription =>
+      'テキストボタンを押すと、インク スプラッシュが表示されますが、このボタンは浮き上がりません。ツールバー、ダイアログのほか、パディング入りインラインで使用されます';
 
   @override
   String get demoElevatedButtonTitle => '浮き上がりボタン';
 
   @override
-  String get demoElevatedButtonDescription => '浮き上がりボタンを使うと、ほぼ平面のレイアウトに立体感が出ます。スペースに余裕がある場所でもない場所でも、機能が強調されます。';
+  String get demoElevatedButtonDescription =>
+      '浮き上がりボタンを使うと、ほぼ平面のレイアウトに立体感が出ます。スペースに余裕がある場所でもない場所でも、機能が強調されます。';
 
   @override
   String get demoOutlinedButtonTitle => 'アウトライン ボタン';
 
   @override
-  String get demoOutlinedButtonDescription => 'アウトライン ボタンは、押すと不透明になり、浮き上がります。通常は、浮き出しボタンと組み合わせて、代替のサブアクションを提示します。';
+  String get demoOutlinedButtonDescription =>
+      'アウトライン ボタンは、押すと不透明になり、浮き上がります。通常は、浮き出しボタンと組み合わせて、代替のサブアクションを提示します。';
 
   @override
   String get demoToggleButtonTitle => '切り替えボタン';
 
   @override
-  String get demoToggleButtonDescription => '切り替えボタンでは、関連するオプションを 1 つのグループにまとめることができます。関連する切り替えボタンのグループを強調するには、グループが共通コンテナを共有する必要があります';
+  String get demoToggleButtonDescription =>
+      '切り替えボタンでは、関連するオプションを 1 つのグループにまとめることができます。関連する切り替えボタンのグループを強調するには、グループが共通コンテナを共有する必要があります';
 
   @override
   String get demoFloatingButtonTitle => 'フローティング アクションボタン';
 
   @override
-  String get demoFloatingButtonDescription => 'フローティング アクション ボタンは円形のアイコンボタンで、コンテンツにカーソルを合わせると、アプリのメイン アクションが表示されます。';
+  String get demoFloatingButtonDescription =>
+      'フローティング アクション ボタンは円形のアイコンボタンで、コンテンツにカーソルを合わせると、アプリのメイン アクションが表示されます。';
 
   @override
   String get demoCardTitle => 'カード';
@@ -527,7 +539,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoChipTitle => 'チップ';
 
   @override
-  String get demoCardDescription => 'カードは、アルバム、地理的位置、食事、連絡先の詳細など、いくつかの関連する情報を表す場合に使用するマテリアルのシートです。';
+  String get demoCardDescription =>
+      'カードは、アルバム、地理的位置、食事、連絡先の詳細など、いくつかの関連する情報を表す場合に使用するマテリアルのシートです。';
 
   @override
   String get demoChipSubtitle => '入力、属性、アクションを表すコンパクトな要素';
@@ -536,25 +549,29 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoActionChipTitle => 'アクション チップ';
 
   @override
-  String get demoActionChipDescription => 'アクション チップは、メイン コンテンツに関連するアクションをトリガーするオプションの集合です。アクション チップは UI にコンテキストに基づいて動的に表示されます。';
+  String get demoActionChipDescription =>
+      'アクション チップは、メイン コンテンツに関連するアクションをトリガーするオプションの集合です。アクション チップは UI にコンテキストに基づいて動的に表示されます。';
 
   @override
   String get demoChoiceChipTitle => '選択チップ';
 
   @override
-  String get demoChoiceChipDescription => '選択チップは、集合からの 1 つの選択肢を表すものです。選択チップには、関連する説明テキストまたはカテゴリが含まれます。';
+  String get demoChoiceChipDescription =>
+      '選択チップは、集合からの 1 つの選択肢を表すものです。選択チップには、関連する説明テキストまたはカテゴリが含まれます。';
 
   @override
   String get demoFilterChipTitle => 'フィルタチップ';
 
   @override
-  String get demoFilterChipDescription => 'フィルタチップは、コンテンツをフィルタする方法としてタグやキーワードを使用します。';
+  String get demoFilterChipDescription =>
+      'フィルタチップは、コンテンツをフィルタする方法としてタグやキーワードを使用します。';
 
   @override
   String get demoInputChipTitle => '入力チップ';
 
   @override
-  String get demoInputChipDescription => '入力チップは、エンティティ（人、場所、アイテムなど）や会話テキストなどの複雑な情報をコンパクトな形式で表すものです。';
+  String get demoInputChipDescription =>
+      '入力チップは、エンティティ（人、場所、アイテムなど）や会話テキストなどの複雑な情報をコンパクトな形式で表すものです。';
 
   @override
   String get demoDataTableTitle => 'データテーブル';
@@ -563,7 +580,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoDataTableSubtitle => '情報の行と列';
 
   @override
-  String get demoDataTableDescription => 'データテーブルには、行と列のグリッドのような形式で情報が表示されます。スキャンしやすいように情報が編成されているため、ユーザーはパターンやインサイトを探すことができます。';
+  String get demoDataTableDescription =>
+      'データテーブルには、行と列のグリッドのような形式で情報が表示されます。スキャンしやすいように情報が編成されているため、ユーザーはパターンやインサイトを探すことができます。';
 
   @override
   String get dataTableHeader => '栄養';
@@ -642,7 +660,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'アラート';
 
   @override
-  String get demoAlertDialogDescription => 'アラート ダイアログでは、確認を要する状況をユーザーに伝えることができます。必要に応じて、タイトルとアクション リストを設定できます。';
+  String get demoAlertDialogDescription =>
+      'アラート ダイアログでは、確認を要する状況をユーザーに伝えることができます。必要に応じて、タイトルとアクション リストを設定できます。';
 
   @override
   String get demoAlertTitleDialogTitle => 'タイトル付きアラート';
@@ -651,16 +670,19 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'シンプル';
 
   @override
-  String get demoSimpleDialogDescription => 'シンプル ダイアログでは、ユーザーに複数の選択肢を提示できます。必要に応じて、選択肢の上に表示するタイトルを設定できます。';
+  String get demoSimpleDialogDescription =>
+      'シンプル ダイアログでは、ユーザーに複数の選択肢を提示できます。必要に応じて、選択肢の上に表示するタイトルを設定できます。';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +694,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoGridListsSubtitle => '行と列のレイアウト';
 
   @override
-  String get demoGridListsDescription => 'グリッドリストは、同種のデータ（一般的には画像）を表す場合に最適です。グリッドリスト内の各項目をタイルと言います。';
+  String get demoGridListsDescription =>
+      'グリッドリストは、同種のデータ（一般的には画像）を表す場合に最適です。グリッドリスト内の各項目をタイルと言います。';
 
   @override
   String get demoGridListsImageOnlyTitle => '画像のみ';
@@ -690,19 +713,22 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoSlidersSubtitle => 'スワイプで値を選択するためのウィジェット';
 
   @override
-  String get demoSlidersDescription => 'スライダーはバー上の値の範囲を表すもので、ユーザーはスライダーから 1 つの値を選択できます。音量、明るさなどの設定を調整したり、画像フィルタを適用したりするのに最適です。';
+  String get demoSlidersDescription =>
+      'スライダーはバー上の値の範囲を表すもので、ユーザーはスライダーから 1 つの値を選択できます。音量、明るさなどの設定を調整したり、画像フィルタを適用したりするのに最適です。';
 
   @override
   String get demoRangeSlidersTitle => '範囲スライダー';
 
   @override
-  String get demoRangeSlidersDescription => 'スライダーはバー上の値の範囲を表すものです。スライダーには、バーの両端に値の範囲を表すアイコンを付けることができます。音量、明るさなどの設定を調整したり、画像フィルタを適用したりするのに最適です。';
+  String get demoRangeSlidersDescription =>
+      'スライダーはバー上の値の範囲を表すものです。スライダーには、バーの両端に値の範囲を表すアイコンを付けることができます。音量、明るさなどの設定を調整したり、画像フィルタを適用したりするのに最適です。';
 
   @override
   String get demoCustomSlidersTitle => 'カスタム スライダー';
 
   @override
-  String get demoCustomSlidersDescription => 'スライダーはバー上の値の範囲を表すもので、ユーザーはスライダーから 1 つの値または値の範囲を選択できます。テーマを設定したりカスタマイズしたりできます。';
+  String get demoCustomSlidersDescription =>
+      'スライダーはバー上の値の範囲を表すもので、ユーザーはスライダーから 1 つの値または値の範囲を選択できます。テーマを設定したりカスタマイズしたりできます。';
 
   @override
   String get demoSlidersContinuousWithEditableNumericalValue => '編集可能な数値の連続';
@@ -711,10 +737,12 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoSlidersDiscrete => '非連続';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'カスタムテーマが設定された非連続スライダー';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'カスタムテーマが設定された非連続スライダー';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'カスタムテーマが設定された連続範囲スライダー';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'カスタムテーマが設定された連続範囲スライダー';
 
   @override
   String get demoSlidersContinuous => '連続';
@@ -741,7 +769,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoMenuSubtitle => 'メニューボタンとシンプル メニュー';
 
   @override
-  String get demoMenuDescription => 'メニューでは、一時的なサーフェス上に選択肢の一覧が表示されます。ユーザーがボタン、アクション、その他のコントロールを操作すると表示されます。';
+  String get demoMenuDescription =>
+      'メニューでは、一時的なサーフェス上に選択肢の一覧が表示されます。ユーザーがボタン、アクション、その他のコントロールを操作すると表示されます。';
 
   @override
   String get demoMenuItemValueOne => 'メニュー項目 1';
@@ -808,7 +837,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoNavigationDrawerSubtitle => 'アプリバー内にドロワーを表示する';
 
   @override
-  String get demoNavigationDrawerDescription => '画面の端から横方向にスライドしてアプリのナビゲーション リンクを表示するマテリアル デザイン パネル。';
+  String get demoNavigationDrawerDescription =>
+      '画面の端から横方向にスライドしてアプリのナビゲーション リンクを表示するマテリアル デザイン パネル。';
 
   @override
   String get demoNavigationDrawerUserName => 'ユーザー名';
@@ -823,7 +853,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => '項目 2';
 
   @override
-  String get demoNavigationDrawerText => 'ドロワーを表示するには、画面の端からスワイプするか、左上のアイコンをタップします';
+  String get demoNavigationDrawerText =>
+      'ドロワーを表示するには、画面の端からスワイプするか、左上のアイコンをタップします';
 
   @override
   String get demoNavigationRailTitle => 'ナビゲーション レール';
@@ -832,7 +863,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoNavigationRailSubtitle => 'アプリ内にナビゲーション レールを表示する';
 
   @override
-  String get demoNavigationRailDescription => '少数（通常は 3～5 個）のビュー間を移動するためにアプリの左または右に表示することを目的としたマテリアル ウィジェット。';
+  String get demoNavigationRailDescription =>
+      '少数（通常は 3～5 個）のビュー間を移動するためにアプリの左または右に表示することを目的としたマテリアル ウィジェット。';
 
   @override
   String get demoNavigationRailFirst => '1 つ目';
@@ -853,16 +885,19 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoFullscreenDialogTitle => '全画面表示';
 
   @override
-  String get demoFullscreenDialogDescription => 'fullscreenDialog プロパティで、着信ページが全画面モード ダイアログかどうかを指定します';
+  String get demoFullscreenDialogDescription =>
+      'fullscreenDialog プロパティで、着信ページが全画面モード ダイアログかどうかを指定します';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'アクティビティ インジケーター';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'iOS スタイルのアクティビティ インジケーター';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'iOS スタイルのアクティビティ インジケーター';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => '時計回りにくるくる回る iOS スタイルのアクティビティ インジケーター。';
+  String get demoCupertinoActivityIndicatorDescription =>
+      '時計回りにくるくる回る iOS スタイルのアクティビティ インジケーター。';
 
   @override
   String get demoCupertinoButtonsTitle => 'ボタン';
@@ -871,7 +906,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'iOS スタイルのボタン';
 
   @override
-  String get demoCupertinoButtonsDescription => 'iOS スタイルのボタンです。テキスト / アイコン形式のボタンで、タップでフェードアウトとフェードインが切り替わります。必要に応じて、背景を設定することもできます。';
+  String get demoCupertinoButtonsDescription =>
+      'iOS スタイルのボタンです。テキスト / アイコン形式のボタンで、タップでフェードアウトとフェードインが切り替わります。必要に応じて、背景を設定することもできます。';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +916,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,7 +926,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'アラート';
@@ -901,7 +939,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => 'アラート';
 
   @override
-  String get demoCupertinoAlertDescription => 'アラート ダイアログでは、確認を要する状況をユーザーに伝えることができます。必要に応じて、タイトル、コンテンツ、アクション リストを設定できます。コンテンツの上にタイトル、コンテンツの下にアクションが表示されます。';
+  String get demoCupertinoAlertDescription =>
+      'アラート ダイアログでは、確認を要する状況をユーザーに伝えることができます。必要に応じて、タイトル、コンテンツ、アクション リストを設定できます。コンテンツの上にタイトル、コンテンツの下にアクションが表示されます。';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'タイトル付きアラート';
@@ -916,7 +955,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'アクション シート';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'アクション シートは、現在のコンテキストに関連する 2 つ以上の選択肢の集合をユーザーに提示する特定のスタイルのアラートです。タイトル、追加メッセージ、アクション リストを設定できます。';
+  String get demoCupertinoActionSheetDescription =>
+      'アクション シートは、現在のコンテキストに関連する 2 つ以上の選択肢の集合をユーザーに提示する特定のスタイルのアラートです。タイトル、追加メッセージ、アクション リストを設定できます。';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'ナビゲーション バー';
@@ -925,7 +965,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoCupertinoNavigationBarSubtitle => 'iOS スタイルのナビゲーション バー';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'iOS スタイルのナビゲーション バーです。ナビゲーション バーは、ページタイトルを最小限含むツールバーです（ページタイトルはツールバーの中央に表示されます）。';
+  String get demoCupertinoNavigationBarDescription =>
+      'iOS スタイルのナビゲーション バーです。ナビゲーション バーは、ページタイトルを最小限含むツールバーです（ページタイトルはツールバーの中央に表示されます）。';
 
   @override
   String get demoCupertinoPickerTitle => '選択ツール';
@@ -934,7 +975,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoCupertinoPickerSubtitle => 'iOS スタイルの日付と時刻の選択ツール';
 
   @override
-  String get demoCupertinoPickerDescription => '日付、時刻、または日付と時刻の両方を選択する場合に使用できる、iOS スタイルの選択ツール ウィジェットです。';
+  String get demoCupertinoPickerDescription =>
+      '日付、時刻、または日付と時刻の両方を選択する場合に使用できる、iOS スタイルの選択ツール ウィジェットです。';
 
   @override
   String get demoCupertinoPickerTimer => 'タイマー';
@@ -952,10 +994,12 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => '下方向にスワイプして更新';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'iOS スタイルの「下にスワイプして更新」コントロール';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'iOS スタイルの「下にスワイプして更新」コントロール';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'iOS スタイルの「下にスワイプしてコンテンツを更新」コントロールを実装するウィジェットです。';
+  String get demoCupertinoPullToRefreshDescription =>
+      'iOS スタイルの「下にスワイプしてコンテンツを更新」コントロールを実装するウィジェットです。';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'セグメンテッド コントロール';
@@ -964,7 +1008,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoCupertinoSegmentedControlSubtitle => 'iOS スタイルのセグメンテッド コントロール';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => '相互に排他的な複数のオプションから選択する場合に使用します。セグメンテッド コントロール内の 1 つのオプションが選択されると、そのセグメンテッド コントロール内の他のオプションは選択されなくなります。';
+  String get demoCupertinoSegmentedControlDescription =>
+      '相互に排他的な複数のオプションから選択する場合に使用します。セグメンテッド コントロール内の 1 つのオプションが選択されると、そのセグメンテッド コントロール内の他のオプションは選択されなくなります。';
 
   @override
   String get demoCupertinoSliderTitle => 'スライダー';
@@ -973,7 +1018,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'iOS スタイルのスライダー';
 
   @override
-  String get demoCupertinoSliderDescription => 'スライダーでは、連続する値の集合または不連続な値の集合から値を選択できます。';
+  String get demoCupertinoSliderDescription =>
+      'スライダーでは、連続する値の集合または不連続な値の集合から値を選択できます。';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,7 +1035,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'iOS スタイルのスイッチ';
 
   @override
-  String get demoCupertinoSwitchDescription => 'スイッチでは、1 つの設定のオン / オフ状態を切り替えることができます。';
+  String get demoCupertinoSwitchDescription =>
+      'スイッチでは、1 つの設定のオン / オフ状態を切り替えることができます。';
 
   @override
   String get demoCupertinoTabBarTitle => 'タブバー';
@@ -998,7 +1045,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'iOS スタイルのボトムタブバー';
 
   @override
-  String get demoCupertinoTabBarDescription => 'iOS スタイルのボトム ナビゲーション タブバーには複数のタブが表示され、そのうちの 1 つのタブ（デフォルトでは最初のタブ）がアクティブになります。';
+  String get demoCupertinoTabBarDescription =>
+      'iOS スタイルのボトム ナビゲーション タブバーには複数のタブが表示され、そのうちの 1 つのタブ（デフォルトでは最初のタブ）がアクティブになります。';
 
   @override
   String get cupertinoTabBarHomeTab => 'ホーム';
@@ -1016,7 +1064,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'iOS スタイルのテキスト項目';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'テキスト項目では、ハードウェアのキーボードまたは画面上のキーボードのいずれかを使って、ユーザーがテキストを入力できます。';
+  String get demoCupertinoTextFieldDescription =>
+      'テキスト項目では、ハードウェアのキーボードまたは画面上のキーボードのいずれかを使って、ユーザーがテキストを入力できます。';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN';
@@ -1028,7 +1077,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoMotionSubtitle => '事前定義のすべての移行パターン';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'カード、リスト、フローティング操作ボタン（FAB）';
+  String get demoContainerTransformDemoInstructions =>
+      'カード、リスト、フローティング操作ボタン（FAB）';
 
   @override
   String get demoSharedXAxisDemoInstructions => '次へボタン、戻るボタン';
@@ -1049,7 +1099,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'コンテナ変換';
 
   @override
-  String get demoContainerTransformDescription => 'コンテナ変換パターンは、コンテナを含む UI 要素間の移行に使用することを目的としています。このパターンでは、2 つの UI 要素間に表示可能な接続が作成されます。';
+  String get demoContainerTransformDescription =>
+      'コンテナ変換パターンは、コンテナを含む UI 要素間の移行に使用することを目的としています。このパターンでは、2 つの UI 要素間に表示可能な接続が作成されます。';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'フェードモード';
@@ -1076,7 +1127,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'リストアイテム';
 
   @override
-  String get demoSharedAxisDescription => '軸共有パターンは、空間関係またはナビゲーション関係がある UI 要素間の変換に使用します。このパターンは、x 軸、y 軸、z 軸で共有変換を使用して要素間の関係を強化します。';
+  String get demoSharedAxisDescription =>
+      '軸共有パターンは、空間関係またはナビゲーション関係がある UI 要素間の変換に使用します。このパターンは、x 軸、y 軸、z 軸で共有変換を使用して要素間の関係を強化します。';
 
   @override
   String get demoSharedXAxisTitle => 'x 軸共有';
@@ -1091,7 +1143,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'コースの合理化';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'カテゴリがまとめられて、フィードにグループとして表示されます。この設定は後からいつでも変更できます。';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'カテゴリがまとめられて、フィードにグループとして表示されます。この設定は後からいつでも変更できます。';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => '美術工芸';
@@ -1211,7 +1264,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'フェードスルー';
 
   @override
-  String get demoFadeThroughDescription => 'フェードスルー パターンは、相互に強力な関係がない UI 要素間の移行に使用します。';
+  String get demoFadeThroughDescription =>
+      'フェードスルー パターンは、相互に強力な関係がない UI 要素間の移行に使用します。';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'アルバム';
@@ -1229,7 +1283,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'フェード';
 
   @override
-  String get demoFadeScaleDescription => 'フェード パターンは、画面の中央でフェードするダイアログなど、画面の境界内で出入りする UI 要素に使用します。';
+  String get demoFadeScaleDescription =>
+      'フェード パターンは、画面の中央でフェードするダイアログなど、画面の境界内で出入りする UI 要素に使用します。';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'モーダルを表示';
@@ -1256,7 +1311,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoColorsSubtitle => '定義済みのすべてのカラー';
 
   @override
-  String get demoColorsDescription => 'マテリアル デザインのカラーパレットを表す、カラーとカラー スウォッチの定数です。';
+  String get demoColorsDescription =>
+      'マテリアル デザインのカラーパレットを表す、カラーとカラー スウォッチの定数です。';
 
   @override
   String get demoTypographyTitle => 'タイポグラフィ';
@@ -1274,7 +1330,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'パン、ズーム、回転';
 
   @override
-  String get demo2dTransformationsDescription => 'タイルを編集するにはタップし、シーンを移動するにはジェスチャーを使用します。パン、ピンチ操作、ズーム、回転するには、2 本の指でドラッグします。最初の向きに戻すには、リセットボタンを押します。';
+  String get demo2dTransformationsDescription =>
+      'タイルを編集するにはタップし、シーンを移動するにはジェスチャーを使用します。パン、ピンチ操作、ズーム、回転するには、2 本の指でドラッグします。最初の向きに戻すには、リセットボタンを押します。';
 
   @override
   String get demo2dTransformationsResetTooltip => '変換をリセット';
@@ -1295,13 +1352,15 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => '永続ボトムシート';
 
   @override
-  String get demoBottomSheetPersistentDescription => '永続ボトムシートには、アプリのメイン コンテンツを補う情報が表示されます。永続ボトムシートは、ユーザーがアプリの他の部分を操作している場合も表示されたままとなります。';
+  String get demoBottomSheetPersistentDescription =>
+      '永続ボトムシートには、アプリのメイン コンテンツを補う情報が表示されます。永続ボトムシートは、ユーザーがアプリの他の部分を操作している場合も表示されたままとなります。';
 
   @override
   String get demoBottomSheetModalTitle => 'モーダル ボトムシート';
 
   @override
-  String get demoBottomSheetModalDescription => 'モーダル ボトムシートとは、メニューまたはダイアログの代わりになるもので、これが表示されている場合、ユーザーはアプリの他の部分を操作できません。';
+  String get demoBottomSheetModalDescription =>
+      'モーダル ボトムシートとは、メニューまたはダイアログの代わりになるもので、これが表示されている場合、ユーザーはアプリの他の部分を操作できません。';
 
   @override
   String get demoBottomSheetAddLabel => '追加';
@@ -1345,13 +1404,15 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoCircularProgressIndicatorTitle => '円形進行状況インジケーター';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'くるくる回ることでアプリがビジー状態であることを示す、マテリアル デザインの円形進行状況インジケーター。';
+  String get demoCircularProgressIndicatorDescription =>
+      'くるくる回ることでアプリがビジー状態であることを示す、マテリアル デザインの円形進行状況インジケーター。';
 
   @override
   String get demoLinearProgressIndicatorTitle => '線形進行状況インジケーター';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'マテリアル デザインの線形進行状況インジケーター。進行状況バーとも呼ばれます。';
+  String get demoLinearProgressIndicatorDescription =>
+      'マテリアル デザインの線形進行状況インジケーター。進行状況バーとも呼ばれます。';
 
   @override
   String get demoPickersTitle => '選択ツール';
@@ -1375,7 +1436,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => '選択ツールを表示';
@@ -1393,7 +1455,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoTabsSubtitle => '個別にスクロール可能なビューを含むタブ';
 
   @override
-  String get demoTabsDescription => 'タブを使うことで、さまざまな画面、データセットや、その他のインタラクションにまたがるコンテンツを整理できます。';
+  String get demoTabsDescription =>
+      'タブを使うことで、さまざまな画面、データセットや、その他のインタラクションにまたがるコンテンツを整理できます。';
 
   @override
   String get demoSnackbarsTitle => 'スナックバー';
@@ -1402,7 +1465,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoSnackbarsSubtitle => 'スナックバーでは、画面の下部にメッセージが表示されます';
 
   @override
-  String get demoSnackbarsDescription => 'スナックバーを使用して、アプリが実行したまたはこれから実行するプロセスをユーザーに伝えます。スナックバーは画面の下部に一時的に表示されるため、ユーザーの操作性を妨げることがありません。また、削除するためのユーザーの入力操作も必要ありません。';
+  String get demoSnackbarsDescription =>
+      'スナックバーを使用して、アプリが実行したまたはこれから実行するプロセスをユーザーに伝えます。スナックバーは画面の下部に一時的に表示されるため、ユーザーの操作性を妨げることがありません。また、削除するためのユーザーの入力操作も必要ありません。';
 
   @override
   String get demoSnackbarsButtonLabel => 'スナックバーを表示';
@@ -1426,19 +1490,22 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoSelectionControlsCheckboxTitle => 'チェックボックス';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'チェックボックスでは、ユーザーが選択肢のセットから複数の項目を選択できます。通常のチェックボックスの値は True または False で、3 状態のチェックボックスの値は Null になることもあります。';
+  String get demoSelectionControlsCheckboxDescription =>
+      'チェックボックスでは、ユーザーが選択肢のセットから複数の項目を選択できます。通常のチェックボックスの値は True または False で、3 状態のチェックボックスの値は Null になることもあります。';
 
   @override
   String get demoSelectionControlsRadioTitle => 'ラジオ';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'ラジオボタンでは、ユーザーが選択肢のセットから 1 つ選択できます。すべての選択肢を並べて、その中からユーザーが 1 つだけ選べるようにする場合は、ラジオボタンを使用します。';
+  String get demoSelectionControlsRadioDescription =>
+      'ラジオボタンでは、ユーザーが選択肢のセットから 1 つ選択できます。すべての選択肢を並べて、その中からユーザーが 1 つだけ選べるようにする場合は、ラジオボタンを使用します。';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'スイッチ';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'オンとオフのスイッチでは、1 つの設定の状態を切り替えることができます。スイッチでコントロールする設定とその状態は、対応するインライン ラベルと明確に区別する必要があります。';
+  String get demoSelectionControlsSwitchDescription =>
+      'オンとオフのスイッチでは、1 つの設定の状態を切り替えることができます。スイッチでコントロールする設定とその状態は、対応するインライン ラベルと明確に区別する必要があります。';
 
   @override
   String get demoBottomTextFieldsTitle => 'テキスト欄';
@@ -1450,7 +1517,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoTextFieldSubtitle => '1 行（編集可能な文字と数字）';
 
   @override
-  String get demoTextFieldDescription => 'テキスト欄では、ユーザーが UI にテキストを入力できます。一般にフォームやダイアログで表示されます。';
+  String get demoTextFieldDescription =>
+      'テキスト欄では、ユーザーが UI にテキストを入力できます。一般にフォームやダイアログで表示されます。';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'パスワードを表示';
@@ -1468,7 +1536,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoTextFieldOnlyAlphabeticalChars => '使用できるのは英字のみです。';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '（###）###-#### - 米国の電話番号を入力してください。';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '（###）###-#### - 米国の電話番号を入力してください。';
 
   @override
   String get demoTextFieldEnterPassword => 'パスワードを入力してください。';
@@ -1536,7 +1605,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get demoTooltipSubtitle => '長押しするかカーソルを合わせると表示される短いメッセージ';
 
   @override
-  String get demoTooltipDescription => 'ツールチップでは、ボタンやその他のユーザー インターフェース アクションの機能を紹介するテキストラベルが提供されます。ユーザーが要素にカーソルを合わせたり、フォーカスを置いたり、要素を長押ししたりすると、ツールチップに情報メッセージが表示されます。';
+  String get demoTooltipDescription =>
+      'ツールチップでは、ボタンやその他のユーザー インターフェース アクションの機能を紹介するテキストラベルが提供されます。ユーザーが要素にカーソルを合わせたり、フォーカスを置いたり、要素を長押ししたりすると、ツールチップに情報メッセージが表示されます。';
 
   @override
   String get demoTooltipInstructions => '長押しするかカーソルを合わせると、ツールチップが表示されます。';
@@ -1600,7 +1670,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get dialogLocationTitle => 'Google の位置情報サービスを使用しますか？';
 
   @override
-  String get dialogLocationDescription => 'Google を利用してアプリが位置情報を特定できるようにします。この場合、アプリが起動していなくても匿名の位置情報が Google に送信されます。';
+  String get dialogLocationDescription =>
+      'Google を利用してアプリが位置情報を特定できるようにします。この場合、アプリが起動していなくても匿名の位置情報が Google に送信されます。';
 
   @override
   String get dialogCancel => 'キャンセル';
@@ -1645,10 +1716,12 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get cupertinoAlertDiscard => '破棄';
 
   @override
-  String get cupertinoAlertLocationTitle => 'マップアプリの使用中に「マップ」に位置情報にアクセスすることを許可しますか？';
+  String get cupertinoAlertLocationTitle =>
+      'マップアプリの使用中に「マップ」に位置情報にアクセスすることを許可しますか？';
 
   @override
-  String get cupertinoAlertLocationDescription => '現在の位置情報が地図に表示され、経路、近くの検索結果、予想所要時間に使用されます。';
+  String get cupertinoAlertLocationDescription =>
+      '現在の位置情報が地図に表示され、経路、近くの検索結果、予想所要時間に使用されます。';
 
   @override
   String get cupertinoAlertAllow => '許可';
@@ -1660,7 +1733,8 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'お気に入りのデザートの選択';
 
   @override
-  String get cupertinoAlertDessertDescription => '以下のリストからお気に入りのデザートの種類を選択してください。選択項目に基づいて、地域にあるおすすめのフードショップのリストがカスタマイズされます。';
+  String get cupertinoAlertDessertDescription =>
+      '以下のリストからお気に入りのデザートの種類を選択してください。選択項目に基づいて、地域にあるおすすめのフードショップのリストがカスタマイズされます。';
 
   @override
   String get cupertinoAlertCheesecake => 'チーズケーキ';

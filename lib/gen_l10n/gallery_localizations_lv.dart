@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get signIn => 'PIERAKSTĪTIES';
 
   @override
-  String get bannerDemoText => 'Jūsu parole tika atjaunināta citā jūsu ierīcē. Lūdzu, pierakstieties vēlreiz.';
+  String get bannerDemoText =>
+      'Jūsu parole tika atjaunināta citā jūsu ierīcē. Lūdzu, pierakstieties vēlreiz.';
 
   @override
   String get bannerDemoResetText => 'Atiestatīt joslu';
@@ -60,7 +60,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => '10 populārākās pilsētas, ko apmeklēt Tamilnādā';
+  String get cardsDemoTravelDestinationTitle1 =>
+      '10 populārākās pilsētas, ko apmeklēt Tamilnādā';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Nr. 10';
@@ -120,7 +121,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Atvaļinājums';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Gada peļņa procentos';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Gada peļņa procentos';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Procentu likme';
@@ -129,7 +131,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'Procenti YTD';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Procenti, kas samaksāti pagājušajā gadā';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Procenti, kas samaksāti pagājušajā gadā';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Nākamais izraksts';
@@ -285,8 +288,10 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Palieliniet nodokļu atmaksas iespējas! Pievienojiet kategorijas 1 darījumam, kuram vēl nav pievienota kategorija.',
-      other: 'Palieliniet nodokļu atmaksas iespējas! Pievienojiet kategorijas ${count} darījumiem, kuriem vēl nav pievienotas kategorijas.',
+      one:
+          'Palieliniet nodokļu atmaksas iespējas! Pievienojiet kategorijas 1 darījumam, kuram vēl nav pievienota kategorija.',
+      other:
+          'Palieliniet nodokļu atmaksas iespējas! Pievienojiet kategorijas ${count} darījumiem, kuriem vēl nav pievienotas kategorijas.',
     );
   }
 
@@ -300,7 +305,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Skatīt visus budžetus';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'Kontā (${accountName}; numurs: ${accountNumber}) ir šāda summa: ${amount}.';
   }
 
@@ -310,7 +316,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'Budžets ${budgetName} ar iztērētu summu ${amountUsed} no ${amountTotal}, atlikusī summa: ${amountLeft}';
   }
 
@@ -353,7 +360,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Skatīšanas opcijas';
 
   @override
-  String get demoOptionsFeatureDescription => 'Pieskarieties šeit, lai skatītu šai demonstrācijai pieejamās opcijas.';
+  String get demoOptionsFeatureDescription =>
+      'Pieskarieties šeit, lai skatītu šai demonstrācijai pieejamās opcijas.';
 
   @override
   String get settingsTitle => 'Iestatījumi';
@@ -425,19 +433,23 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Apakšējā lietotņu josla';
 
   @override
-  String get demoBottomAppBarSubtitle => 'Apakšdaļā tiek rādītas navigācijas iespējas un pieejamās darbības';
+  String get demoBottomAppBarSubtitle =>
+      'Apakšdaļā tiek rādītas navigācijas iespējas un pieejamās darbības';
 
   @override
-  String get demoBottomAppBarDescription => 'Apakšējās lietotņu joslas ļauj piekļūt apakšdaļā esošajai navigācijas atvilktnei un ne vairāk kā četrām darbībām, tostarp peldošajai darbības pogai.';
+  String get demoBottomAppBarDescription =>
+      'Apakšējās lietotņu joslas ļauj piekļūt apakšdaļā esošajai navigācijas atvilktnei un ne vairāk kā četrām darbībām, tostarp peldošajai darbības pogai.';
 
   @override
   String get bottomAppBarNotch => 'Izgriezums';
@@ -464,13 +476,15 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Joslas rādīšana sarakstā';
 
   @override
-  String get demoBannerDescription => 'Joslā tiek rādīta īsa un svarīga informācija, kā arī sniegti norādījumi lietotājam (vai iespēja paslēpt joslu). Lai joslu varētu paslēpt, ir nepieciešama lietotāja darbība.';
+  String get demoBannerDescription =>
+      'Joslā tiek rādīta īsa un svarīga informācija, kā arī sniegti norādījumi lietotājam (vai iespēja paslēpt joslu). Lai joslu varētu paslēpt, ir nepieciešama lietotāja darbība.';
 
   @override
   String get demoBottomNavigationTitle => 'Navigācija apakšā';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Navigācija apakšā ar vairākiem skatiem, kas kļūst neskaidri';
+  String get demoBottomNavigationSubtitle =>
+      'Navigācija apakšā ar vairākiem skatiem, kas kļūst neskaidri';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Pastāvīgas iezīmes';
@@ -479,43 +493,50 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Atlasīta iezīme';
 
   @override
-  String get demoBottomNavigationDescription => 'Apakšējās navigācijas joslās ekrāna apakšdaļā tiek rādīti 3–5 galamērķi. Katrs galamērķis ir attēlots ar ikonu un papildu teksta iezīmi. Pieskaroties apakšējai navigācijas ikonai, lietotājs tiek novirzīts uz augšējā līmeņa navigācijas galamērķi, kas ir saistīts ar attiecīgo ikonu.';
+  String get demoBottomNavigationDescription =>
+      'Apakšējās navigācijas joslās ekrāna apakšdaļā tiek rādīti 3–5 galamērķi. Katrs galamērķis ir attēlots ar ikonu un papildu teksta iezīmi. Pieskaroties apakšējai navigācijas ikonai, lietotājs tiek novirzīts uz augšējā līmeņa navigācijas galamērķi, kas ir saistīts ar attiecīgo ikonu.';
 
   @override
   String get demoButtonTitle => 'Pogas';
 
   @override
-  String get demoButtonSubtitle => 'Teksta pogas, paaugstinātas, konturētas un citādas pogas';
+  String get demoButtonSubtitle =>
+      'Teksta pogas, paaugstinātas, konturētas un citādas pogas';
 
   @override
   String get demoTextButtonTitle => 'Teksta poga';
 
   @override
-  String get demoTextButtonDescription => 'Teksta poga piespiežot attēlo tintes traipu, taču nepaceļas. Teksta pogas izmantojamas rīkjoslās, dialoglodziņos un iekļautas ar iekšējo atkāpi.';
+  String get demoTextButtonDescription =>
+      'Teksta poga piespiežot attēlo tintes traipu, taču nepaceļas. Teksta pogas izmantojamas rīkjoslās, dialoglodziņos un iekļautas ar iekšējo atkāpi.';
 
   @override
   String get demoElevatedButtonTitle => 'Paaugstināta poga';
 
   @override
-  String get demoElevatedButtonDescription => 'Paaugstinātas pogas piešķir plakaniem izkārtojumiem apjomu. Tās uzsver funkcijas pieblīvētās vai platās vietās.';
+  String get demoElevatedButtonDescription =>
+      'Paaugstinātas pogas piešķir plakaniem izkārtojumiem apjomu. Tās uzsver funkcijas pieblīvētās vai platās vietās.';
 
   @override
   String get demoOutlinedButtonTitle => 'Konturēta poga';
 
   @override
-  String get demoOutlinedButtonDescription => 'Konturētas pogas nospiežot kļūst necaurspīdīgas un paceļas. Tās bieži tiek lietotas kopā ar paaugstinātām pogām, lai norādītu alternatīvu, sekundāru darbību.';
+  String get demoOutlinedButtonDescription =>
+      'Konturētas pogas nospiežot kļūst necaurspīdīgas un paceļas. Tās bieži tiek lietotas kopā ar paaugstinātām pogām, lai norādītu alternatīvu, sekundāru darbību.';
 
   @override
   String get demoToggleButtonTitle => 'Pārslēgšanas pogas';
 
   @override
-  String get demoToggleButtonDescription => 'Pārslēgšanas pogas var izmantot saistītu opciju grupēšanai. Lai uzsvērtu saistītu pārslēgšanas pogu grupas, grupai ir jābūt kopīgam konteineram.';
+  String get demoToggleButtonDescription =>
+      'Pārslēgšanas pogas var izmantot saistītu opciju grupēšanai. Lai uzsvērtu saistītu pārslēgšanas pogu grupas, grupai ir jābūt kopīgam konteineram.';
 
   @override
   String get demoFloatingButtonTitle => 'Peldoša darbības poga';
 
   @override
-  String get demoFloatingButtonDescription => 'Peldoša darbības poga ir apaļa ikonas poga, kas norāda uz saturu, lai veicinātu primāru darbību lietojumprogrammā.';
+  String get demoFloatingButtonDescription =>
+      'Peldoša darbības poga ir apaļa ikonas poga, kas norāda uz saturu, lai veicinātu primāru darbību lietojumprogrammā.';
 
   @override
   String get demoCardTitle => 'Kartītes';
@@ -527,34 +548,40 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoChipTitle => 'Žetoni';
 
   @override
-  String get demoCardDescription => 'Kartīte ir lapas materiāls, kas tiek izmantots saistītas informācijas attēlošanai, piemēram, albumam, ģeogrāfiskajai atrašanās vietai, maltītei, kontaktinformācijai un citam saturam.';
+  String get demoCardDescription =>
+      'Kartīte ir lapas materiāls, kas tiek izmantots saistītas informācijas attēlošanai, piemēram, albumam, ģeogrāfiskajai atrašanās vietai, maltītei, kontaktinformācijai un citam saturam.';
 
   @override
-  String get demoChipSubtitle => 'Kompakti elementi, kas apzīmē ievadi, atribūtu vai darbību';
+  String get demoChipSubtitle =>
+      'Kompakti elementi, kas apzīmē ievadi, atribūtu vai darbību';
 
   @override
   String get demoActionChipTitle => 'Darbības žetons';
 
   @override
-  String get demoActionChipDescription => 'Darbību žetoni ir tādu opciju kopa, kas aktivizē ar primāro saturu saistītu darbību. Darbību žetoniem lietotāja saskarnē jābūt redzamiem dinamiski un atbilstoši kontekstam.';
+  String get demoActionChipDescription =>
+      'Darbību žetoni ir tādu opciju kopa, kas aktivizē ar primāro saturu saistītu darbību. Darbību žetoniem lietotāja saskarnē jābūt redzamiem dinamiski un atbilstoši kontekstam.';
 
   @override
   String get demoChoiceChipTitle => 'Izvēles žetons';
 
   @override
-  String get demoChoiceChipDescription => 'Izvēles žetons apzīmē vienu izvēli no kopas. Izvēles žetoni satur saistītu aprakstošo tekstu vai kategorijas.';
+  String get demoChoiceChipDescription =>
+      'Izvēles žetons apzīmē vienu izvēli no kopas. Izvēles žetoni satur saistītu aprakstošo tekstu vai kategorijas.';
 
   @override
   String get demoFilterChipTitle => 'Filtra žetons';
 
   @override
-  String get demoFilterChipDescription => 'Filtra žetoni satura filtrēšanai izmanto atzīmes vai aprakstošos vārdus.';
+  String get demoFilterChipDescription =>
+      'Filtra žetoni satura filtrēšanai izmanto atzīmes vai aprakstošos vārdus.';
 
   @override
   String get demoInputChipTitle => 'Ievades žetons';
 
   @override
-  String get demoInputChipDescription => 'Ievades žetons ir kompaktā veidā atveidota komplicēta informācijas daļa, piemēram, vienība (persona, vieta vai lieta) vai sarunas teksts.';
+  String get demoInputChipDescription =>
+      'Ievades žetons ir kompaktā veidā atveidota komplicēta informācijas daļa, piemēram, vienība (persona, vieta vai lieta) vai sarunas teksts.';
 
   @override
   String get demoDataTableTitle => 'Datu tabulas';
@@ -563,7 +590,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'Informācijas rindas un kolonnas';
 
   @override
-  String get demoDataTableDescription => 'Datu tabulās režģa formātā ir attēlota rindu un kolonnu informācija. Informācija šajās tabulās ir attēlota ērti pārmeklējamā veidā, lai lietotāji varētu meklēt tendences un gūt ieskatu.';
+  String get demoDataTableDescription =>
+      'Datu tabulās režģa formātā ir attēlota rindu un kolonnu informācija. Informācija šajās tabulās ir attēlota ērti pārmeklējamā veidā, lai lietotāji varētu meklēt tendences un gūt ieskatu.';
 
   @override
   String get dataTableHeader => 'Uzturs';
@@ -636,13 +664,15 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoDialogTitle => 'Dialoglodziņi';
 
   @override
-  String get demoDialogSubtitle => 'Vienkārši, brīdinājuma un pilnekrāna režīma';
+  String get demoDialogSubtitle =>
+      'Vienkārši, brīdinājuma un pilnekrāna režīma';
 
   @override
   String get demoAlertDialogTitle => 'Brīdinājums';
 
   @override
-  String get demoAlertDialogDescription => 'Brīdinājumu dialoglodziņš informē lietotāju par situācijām, kam nepieciešams pievērst uzmanību. Brīdinājumu dialoglodziņam ir neobligāts nosaukums un neobligātu darbību saraksts.';
+  String get demoAlertDialogDescription =>
+      'Brīdinājumu dialoglodziņš informē lietotāju par situācijām, kam nepieciešams pievērst uzmanību. Brīdinājumu dialoglodziņam ir neobligāts nosaukums un neobligātu darbību saraksts.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Brīdinājums ar nosaukumu';
@@ -651,16 +681,19 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Vienkāršs';
 
   @override
-  String get demoSimpleDialogDescription => 'Vienkāršā dialoglodziņā lietotājam tiek piedāvāts izvēlēties starp vairākām opcijām. Vienkāršam dialoglodziņam ir neobligāts virsraksts, kas tiek attēlots virs izvēlēm.';
+  String get demoSimpleDialogDescription =>
+      'Vienkāršā dialoglodziņā lietotājam tiek piedāvāts izvēlēties starp vairākām opcijām. Vienkāršam dialoglodziņam ir neobligāts virsraksts, kas tiek attēlots virs izvēlēm.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +705,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Rindu un kolonnu izkārtojums';
 
   @override
-  String get demoGridListsDescription => 'Režģa saraksti ir piemērotāki homogēnu datu (parasti — attēlu) parādīšanai. Režģa saraksta vienumus dēvē par elementiem.';
+  String get demoGridListsDescription =>
+      'Režģa saraksti ir piemērotāki homogēnu datu (parasti — attēlu) parādīšanai. Režģa saraksta vienumus dēvē par elementiem.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Tikai attēli';
@@ -690,37 +724,44 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoSlidersSubtitle => 'Logrīki vērtības atlasīšanai velkot';
 
   @override
-  String get demoSlidersDescription => 'Slīdņi atspoguļo vērtību diapazonu joslā, kurā lietotāji var atlasīt atsevišķu vērtību. Slīdņi ir lieliski piemēroti dažādu iestatījumu, piemēram, skaļuma vai spilgtuma, pielāgošanai vai attēlu filtru lietošanai.';
+  String get demoSlidersDescription =>
+      'Slīdņi atspoguļo vērtību diapazonu joslā, kurā lietotāji var atlasīt atsevišķu vērtību. Slīdņi ir lieliski piemēroti dažādu iestatījumu, piemēram, skaļuma vai spilgtuma, pielāgošanai vai attēlu filtru lietošanai.';
 
   @override
   String get demoRangeSlidersTitle => 'Diapazona slīdņi';
 
   @override
-  String get demoRangeSlidersDescription => 'Slīdņi atspoguļo vērtību diapazonu joslā. Abos slīdņu joslas galos var būt ikonas, kas atspoguļo vērtību diapazonu. Slīdņi ir lieliski piemēroti dažādu iestatījumu, piemēram, skaļuma vai spilgtuma, pielāgošanai vai attēlu filtru lietošanai.';
+  String get demoRangeSlidersDescription =>
+      'Slīdņi atspoguļo vērtību diapazonu joslā. Abos slīdņu joslas galos var būt ikonas, kas atspoguļo vērtību diapazonu. Slīdņi ir lieliski piemēroti dažādu iestatījumu, piemēram, skaļuma vai spilgtuma, pielāgošanai vai attēlu filtru lietošanai.';
 
   @override
   String get demoCustomSlidersTitle => 'Pielāgoti slīdņi';
 
   @override
-  String get demoCustomSlidersDescription => 'Slīdņi atspoguļo vērtību diapazonu joslā, kurā lietotāji var atlasīt atsevišķu vērtību vai vērtību diapazonu. Slīdņiem var atlasīt tēmu, un tos var pielāgot.';
+  String get demoCustomSlidersDescription =>
+      'Slīdņi atspoguļo vērtību diapazonu joslā, kurā lietotāji var atlasīt atsevišķu vērtību vai vērtību diapazonu. Slīdņiem var atlasīt tēmu, un tos var pielāgot.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Nepārtraukts slīdnis ar rediģējamu skaitlisko vērtību';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Nepārtraukts slīdnis ar rediģējamu skaitlisko vērtību';
 
   @override
   String get demoSlidersDiscrete => 'Slīdnis ar atsevišķām vērtībām';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Slīdnis ar atsevišķām vērtībām un pielāgotu motīvu';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Slīdnis ar atsevišķām vērtībām un pielāgotu motīvu';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Slīdnis ar nepārtrauktu vērtību diapazonu un pielāgotu motīvu';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Slīdnis ar nepārtrauktu vērtību diapazonu un pielāgotu motīvu';
 
   @override
   String get demoSlidersContinuous => 'Nepārtraukts';
 
   @override
-  String get demoSlidersEditableNumericalValue => 'Rediģējama skaitliskā vērtība';
+  String get demoSlidersEditableNumericalValue =>
+      'Rediģējama skaitliskā vērtība';
 
   @override
   String get demoMenuTitle => 'Izvēlne';
@@ -741,7 +782,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Izvēlnes pogas un vienkāršas izvēlnes';
 
   @override
-  String get demoMenuDescription => 'Izvēlne īslaicīgajā saskarnē attēlo pieejamo opciju sarakstu. Tās tiek parādītas, kad lietotājs mijiedarbojas ar pogu vai vadīklu vai veic darbību.';
+  String get demoMenuDescription =>
+      'Izvēlne īslaicīgajā saskarnē attēlo pieejamo opciju sarakstu. Tās tiek parādītas, kad lietotājs mijiedarbojas ar pogu vai vadīklu vai veic darbību.';
 
   @override
   String get demoMenuItemValueOne => 'Pirmais izvēlnes vienums';
@@ -765,7 +807,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoMenuFour => 'Četri';
 
   @override
-  String get demoMenuAnItemWithAContextMenuButton => 'Vienums ar kontekstizvēlni';
+  String get demoMenuAnItemWithAContextMenuButton =>
+      'Vienums ar kontekstizvēlni';
 
   @override
   String get demoMenuContextMenuItemOne => 'Kontekstizvēlnes pirmais vienums';
@@ -777,7 +820,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoMenuContextMenuItemThree => 'Kontekstizvēlnes trešais vienums';
 
   @override
-  String get demoMenuAnItemWithASectionedMenu => 'Vienums ar izvēlni, kurai ir sadaļas';
+  String get demoMenuAnItemWithASectionedMenu =>
+      'Vienums ar izvēlni, kurai ir sadaļas';
 
   @override
   String get demoMenuPreview => 'Priekšskatīt';
@@ -805,10 +849,12 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoNavigationDrawerTitle => 'Navigācijas atvilktne';
 
   @override
-  String get demoNavigationDrawerSubtitle => 'Atvilktnes rādīšana lietotņu joslā';
+  String get demoNavigationDrawerSubtitle =>
+      'Atvilktnes rādīšana lietotņu joslā';
 
   @override
-  String get demoNavigationDrawerDescription => 'Šis materiāla dizaina panelis horizontāli ieslīd no ekrāna malas, lai parādītu lietojumprogrammas navigācijas saites.';
+  String get demoNavigationDrawerDescription =>
+      'Šis materiāla dizaina panelis horizontāli ieslīd no ekrāna malas, lai parādītu lietojumprogrammas navigācijas saites.';
 
   @override
   String get demoNavigationDrawerUserName => 'Lietotāja vārds';
@@ -823,16 +869,19 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Otrais vienums';
 
   @override
-  String get demoNavigationDrawerText => 'Lai skatītu atvilktni, velciet no malas vai pieskarieties augšējā kreisajā stūrī esošajai ikonai';
+  String get demoNavigationDrawerText =>
+      'Lai skatītu atvilktni, velciet no malas vai pieskarieties augšējā kreisajā stūrī esošajai ikonai';
 
   @override
   String get demoNavigationRailTitle => 'Navigācijas josla';
 
   @override
-  String get demoNavigationRailSubtitle => 'Navigācijas joslas rādīšana lietotnē';
+  String get demoNavigationRailSubtitle =>
+      'Navigācijas joslas rādīšana lietotnē';
 
   @override
-  String get demoNavigationRailDescription => 'Šo materiāla dizaina logrīku ir paredzēts rādīt lietotnes kreisajā vai labajā malā, lai varētu pāriet starp nedaudziem skatiem — parasti no trim līdz pieciem.';
+  String get demoNavigationRailDescription =>
+      'Šo materiāla dizaina logrīku ir paredzēts rādīt lietotnes kreisajā vai labajā malā, lai varētu pāriet starp nedaudziem skatiem — parasti no trim līdz pieciem.';
 
   @override
   String get demoNavigationRailFirst => 'Pirmais galamērķis';
@@ -847,22 +896,26 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoMenuAnItemWithASimpleMenu => 'Vienums ar vienkāršu izvēlni';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Vienums ar kontrolsaraksta izvēlni';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Vienums ar kontrolsaraksta izvēlni';
 
   @override
   String get demoFullscreenDialogTitle => 'Pilnekrāna režīms';
 
   @override
-  String get demoFullscreenDialogDescription => 'Rekvizīts fullscreenDialog nosaka, vai ienākošā lapa ir pilnekrāna režīma modālais dialoglodziņš.';
+  String get demoFullscreenDialogDescription =>
+      'Rekvizīts fullscreenDialog nosaka, vai ienākošā lapa ir pilnekrāna režīma modālais dialoglodziņš.';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Aktivitātes indikators';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'iOS stila aktivitātes indikators';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'iOS stila aktivitātes indikators';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'iOS stila aktivitātes indikators, kas griežas pulksteņrādītāja kustības virzienā.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'iOS stila aktivitātes indikators, kas griežas pulksteņrādītāja kustības virzienā.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Pogas';
@@ -871,7 +924,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'iOS stila pogas';
 
   @override
-  String get demoCupertinoButtonsDescription => 'iOS stila poga. Pogā var ievietot tekstu un/vai ikonu, kas pieskaroties pakāpeniski parādās un izzūd. Pogai pēc izvēles var būt fons.';
+  String get demoCupertinoButtonsDescription =>
+      'iOS stila poga. Pogā var ievietot tekstu un/vai ikonu, kas pieskaroties pakāpeniski parādās un izzūd. Pogai pēc izvēles var būt fons.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +934,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,19 +944,22 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Brīdinājumi';
 
   @override
-  String get demoCupertinoAlertsSubtitle => 'iOS stila brīdinājuma dialoglodziņi';
+  String get demoCupertinoAlertsSubtitle =>
+      'iOS stila brīdinājuma dialoglodziņi';
 
   @override
   String get demoCupertinoAlertTitle => 'Brīdinājums';
 
   @override
-  String get demoCupertinoAlertDescription => 'Brīdinājumu dialoglodziņš informē lietotāju par situācijām, kam nepieciešams pievērst uzmanību. Brīdinājumu dialoglodziņam ir neobligāts virsraksts, neobligāts saturs un neobligātu darbību saraksts. Virsraksts tiek parādīts virs satura, un darbības tiek parādītas zem satura.';
+  String get demoCupertinoAlertDescription =>
+      'Brīdinājumu dialoglodziņš informē lietotāju par situācijām, kam nepieciešams pievērst uzmanību. Brīdinājumu dialoglodziņam ir neobligāts virsraksts, neobligāts saturs un neobligātu darbību saraksts. Virsraksts tiek parādīts virs satura, un darbības tiek parādītas zem satura.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Brīdinājums ar nosaukumu';
@@ -916,25 +974,30 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'Darbību izklājlapa';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Darbību izklājlapa ir konkrēta stila brīdinājums, kas parāda lietotājam ar konkrēto kontekstu saistītu divu vai vairāku izvēļu kopumu. Darbību izklājlapai var būt virsraksts, papildu ziņa, kā arī darbību saraksts.';
+  String get demoCupertinoActionSheetDescription =>
+      'Darbību izklājlapa ir konkrēta stila brīdinājums, kas parāda lietotājam ar konkrēto kontekstu saistītu divu vai vairāku izvēļu kopumu. Darbību izklājlapai var būt virsraksts, papildu ziņa, kā arī darbību saraksts.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Navigācijas josla';
 
   @override
-  String get demoCupertinoNavigationBarSubtitle => 'iOS stila navigācijas josla';
+  String get demoCupertinoNavigationBarSubtitle =>
+      'iOS stila navigācijas josla';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'iOS stila navigācijas josla. Navigācijas josla ir rīkjosla, kas ietver vismaz lapas nosaukumu (rīkjoslas vidū).';
+  String get demoCupertinoNavigationBarDescription =>
+      'iOS stila navigācijas josla. Navigācijas josla ir rīkjosla, kas ietver vismaz lapas nosaukumu (rīkjoslas vidū).';
 
   @override
   String get demoCupertinoPickerTitle => 'Atlasītāji';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'iOS stila datuma un laika atlasītāji';
+  String get demoCupertinoPickerSubtitle =>
+      'iOS stila datuma un laika atlasītāji';
 
   @override
-  String get demoCupertinoPickerDescription => 'iOS stila atlasītāja logrīks, ko var izmantot datuma un/vai laika atlasīšanai.';
+  String get demoCupertinoPickerDescription =>
+      'iOS stila atlasītāja logrīks, ko var izmantot datuma un/vai laika atlasīšanai.';
 
   @override
   String get demoCupertinoPickerTimer => 'Taimeris';
@@ -952,19 +1015,23 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'Vilkšana, lai atsvaidzinātu';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'iOS stila vadīkla “Vilkt, lai atsvaidzinātu”';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'iOS stila vadīkla “Vilkt, lai atsvaidzinātu”';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Logrīks iOS stila satura vadīklas “Vilkt, lai atsvaidzinātu” ievietošanai.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Logrīks iOS stila satura vadīklas “Vilkt, lai atsvaidzinātu” ievietošanai.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Segmentēta pārvaldība';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'iOS stila segmentēta pārvaldība';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'iOS stila segmentēta pārvaldība';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Izmanto, lai atlasītu kādu no savstarpēji izslēdzošām iespējām. Kad ir atlasīta iespēja segmentētajā pārvaldībā, citas iespējas tajā vairs netiek atlasītas.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Izmanto, lai atlasītu kādu no savstarpēji izslēdzošām iespējām. Kad ir atlasīta iespēja segmentētajā pārvaldībā, citas iespējas tajā vairs netiek atlasītas.';
 
   @override
   String get demoCupertinoSliderTitle => 'Slīdnis';
@@ -973,7 +1040,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'iOS stila slīdnis';
 
   @override
-  String get demoCupertinoSliderDescription => 'Izmantojot slīdni, var atlasīt vērtību no nepārtraukta diapazona vai atsevišķu vērtību kopas.';
+  String get demoCupertinoSliderDescription =>
+      'Izmantojot slīdni, var atlasīt vērtību no nepārtraukta diapazona vai atsevišķu vērtību kopas.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,7 +1057,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'iOS stila slēdzis';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Izmantojot slēdzi, var pārslēgt vienu iestatījumu no ieslēgta stāvokļa uz izslēgtu vai otrādi.';
+  String get demoCupertinoSwitchDescription =>
+      'Izmantojot slēdzi, var pārslēgt vienu iestatījumu no ieslēgta stāvokļa uz izslēgtu vai otrādi.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Ciļņu josla';
@@ -998,7 +1067,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'iOS stila apakšējā ciļņu josla';
 
   @override
-  String get demoCupertinoTabBarDescription => 'iOS stila apakšējā navigācijas ciļņu josla Šeit tiek rādītas vairākas cilnes, un viena no tām ir aktīva. Pēc noklusējuma aktīva ir pirmā cilne.';
+  String get demoCupertinoTabBarDescription =>
+      'iOS stila apakšējā navigācijas ciļņu josla Šeit tiek rādītas vairākas cilnes, un viena no tām ir aktīva. Pēc noklusējuma aktīva ir pirmā cilne.';
 
   @override
   String get cupertinoTabBarHomeTab => 'Sākums';
@@ -1016,7 +1086,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'iOS stila teksta lauki';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'Teksta lauks, kurā lietotājs var ievadīt tekstu, izmantojot aparatūras tastatūru vai ekrāna tastatūru.';
+  String get demoCupertinoTextFieldDescription =>
+      'Teksta lauks, kurā lietotājs var ievadīt tekstu, izmantojot aparatūras tastatūru vai ekrāna tastatūru.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN';
@@ -1028,19 +1099,22 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoMotionSubtitle => 'Visas iepriekš definētās pārejas formas';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'Kartītes, saraksti un PDP';
+  String get demoContainerTransformDemoInstructions =>
+      'Kartītes, saraksti un PDP';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'Pogas “Nākamā” un “Atpakaļ”';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'Kārtot pēc tā, cik nesen atskaņots';
+  String get demoSharedYAxisDemoInstructions =>
+      'Kārtot pēc tā, cik nesen atskaņots';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'Iestatījumu ikonas poga';
 
   @override
-  String get demoFadeThroughDemoInstructions => 'Apakšējās navigācijas vadīklas';
+  String get demoFadeThroughDemoInstructions =>
+      'Apakšējās navigācijas vadīklas';
 
   @override
   String get demoFadeScaleDemoInstructions => 'Modālais lodziņš un PDP';
@@ -1049,16 +1123,20 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'Konteinera pārveidošana';
 
   @override
-  String get demoContainerTransformDescription => 'Konteinera pārveidošana ir forma, kas paredzēta pārejai starp lietotāja saskarnes elementiem, kuros ir ietverti konteineri. Izmantojot šo pārejas formu, tiek izveidota redzama saikne starp diviem lietotāja saskarnes elementiem.';
+  String get demoContainerTransformDescription =>
+      'Konteinera pārveidošana ir forma, kas paredzēta pārejai starp lietotāja saskarnes elementiem, kuros ir ietverti konteineri. Izmantojot šo pārejas formu, tiek izveidota redzama saikne starp diviem lietotāja saskarnes elementiem.';
 
   @override
-  String get demoContainerTransformModalBottomSheetTitle => 'Pakāpeniskas parādīšanās/izzušanas režīms';
+  String get demoContainerTransformModalBottomSheetTitle =>
+      'Pakāpeniskas parādīšanās/izzušanas režīms';
 
   @override
-  String get demoContainerTransformTypeFade => 'PAKĀPENISKA PARĀDĪŠANĀS/IZZUŠANA';
+  String get demoContainerTransformTypeFade =>
+      'PAKĀPENISKA PARĀDĪŠANĀS/IZZUŠANA';
 
   @override
-  String get demoContainerTransformTypeFadeThrough => 'PAKĀPENISKA IZZUŠANA UN PARĀDĪŠANĀS';
+  String get demoContainerTransformTypeFadeThrough =>
+      'PAKĀPENISKA IZZUŠANA UN PARĀDĪŠANĀS';
 
   @override
   String get demoMotionPlaceholderTitle => 'Virsraksts';
@@ -1076,7 +1154,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Saraksta vienums';
 
   @override
-  String get demoSharedAxisDescription => 'Kopīgās ass formu izmanto pārejām starp lietotāja saskarnes elementiem, kas ir savstarpēji saistīti telpiskās vai navigācijas attiecībās. Šai pārejas formai tiek izmantota kopīga pārveidošana pa x, y vai z asi, lai uzsvērtu attiecības starp elementiem.';
+  String get demoSharedAxisDescription =>
+      'Kopīgās ass formu izmanto pārejām starp lietotāja saskarnes elementiem, kas ir savstarpēji saistīti telpiskās vai navigācijas attiecībās. Šai pārejas formai tiek izmantota kopīga pārveidošana pa x, y vai z asi, lai uzsvērtu attiecības starp elementiem.';
 
   @override
   String get demoSharedXAxisTitle => 'Kopīga x ass';
@@ -1091,7 +1170,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'Kursu efektivitātes uzlabošana';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Kategorijas, kas iekļautas komplektos, plūsmā tiek rādītas pa grupām. To jebkurā laikā varēsiet mainīt.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Kategorijas, kas iekļautas komplektos, plūsmā tiek rādītas pa grupām. To jebkurā laikā varēsiet mainīt.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Māksla un amatniecība';
@@ -1121,10 +1201,12 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoSharedXAxisSignInSubtitleText => 'Pierakstīties kontā';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'E-pasta adrese vai tālruņa numurs';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'E-pasta adrese vai tālruņa numurs';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'VAI AIZMIRSĀT E-PASTA ADRESI?';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'VAI AIZMIRSĀT E-PASTA ADRESI?';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'IZVEIDOT KONTU';
@@ -1178,19 +1260,23 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Garneles';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Garneļu plates recepte';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Garneļu plates recepte';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Krabji';
 
   @override
-  String get demoSharedZAxisCrabPlateRecipeDescription => 'Krabju plates recepte';
+  String get demoSharedZAxisCrabPlateRecipeDescription =>
+      'Krabju plates recepte';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeTitle => 'Sviestmaize ar liellopu gaļu';
+  String get demoSharedZAxisBeefSandwichRecipeTitle =>
+      'Sviestmaize ar liellopu gaļu';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Liellopu gaļas sviestmaizes recepte';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Liellopu gaļas sviestmaizes recepte';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Saglabātās receptes';
@@ -1211,7 +1297,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Pakāpeniska izzušana un parādīšanās';
 
   @override
-  String get demoFadeThroughDescription => 'Pakāpeniskas izzušanas un parādīšanās formu izmanto pārejām starp lietotāja saskarnes elementiem, kas nav cieši savstarpēji saistīti.';
+  String get demoFadeThroughDescription =>
+      'Pakāpeniskas izzušanas un parādīšanās formu izmanto pārejām starp lietotāja saskarnes elementiem, kas nav cieši savstarpēji saistīti.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Albumi';
@@ -1229,7 +1316,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Pakāpeniska parādīšanās/izzušana';
 
   @override
-  String get demoFadeScaleDescription => 'Pakāpeniskas parādīšanās/izzušanas formu izmanto lietotāja saskarnes elementiem, kas parādās vai pazūd ekrāna robežās, piemēram, dialoglodziņam, kas pakāpeniski parādās ekrāna vidū.';
+  String get demoFadeScaleDescription =>
+      'Pakāpeniskas parādīšanās/izzušanas formu izmanto lietotāja saskarnes elementiem, kas parādās vai pazūd ekrāna robežās, piemēram, dialoglodziņam, kas pakāpeniski parādās ekrāna vidū.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'RĀDĪT MODĀLO LODZIŅU';
@@ -1256,7 +1344,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Visas iepriekš definētās krāsas';
 
   @override
-  String get demoColorsDescription => 'Krāsas un krāsas izvēles konstantes, kas atspoguļo materiālu dizaina krāsu paleti.';
+  String get demoColorsDescription =>
+      'Krāsas un krāsas izvēles konstantes, kas atspoguļo materiālu dizaina krāsu paleti.';
 
   @override
   String get demoTypographyTitle => 'Tipogrāfija';
@@ -1265,16 +1354,19 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoTypographySubtitle => 'Visi iepriekš definētie teksta stili';
 
   @override
-  String get demoTypographyDescription => 'Definīcijas dažādiem tipogrāfijas stiliem, kas atrasti materiāla dizaina ceļvedī.';
+  String get demoTypographyDescription =>
+      'Definīcijas dažādiem tipogrāfijas stiliem, kas atrasti materiāla dizaina ceļvedī.';
 
   @override
   String get demo2dTransformationsTitle => '2D pārveidošana';
 
   @override
-  String get demo2dTransformationsSubtitle => 'Pārvietošana, tālummaiņa, pagriešana';
+  String get demo2dTransformationsSubtitle =>
+      'Pārvietošana, tālummaiņa, pagriešana';
 
   @override
-  String get demo2dTransformationsDescription => 'Pieskarieties, lai rediģētu elementus, un izmantojiet žestus, lai pārvietotos. Velciet, lai izmantotu pārvietošanu; savelciet pirkstus, lai izmantotu tālummaiņu; veiciet pagriešanu ar diviem pirkstiem. Nospiediet atiestatīšanas pogu, lai atgrieztos pie sākotnējā virziena.';
+  String get demo2dTransformationsDescription =>
+      'Pieskarieties, lai rediģētu elementus, un izmantojiet žestus, lai pārvietotos. Velciet, lai izmantotu pārvietošanu; savelciet pirkstus, lai izmantotu tālummaiņu; veiciet pagriešanu ar diviem pirkstiem. Nospiediet atiestatīšanas pogu, lai atgrieztos pie sākotnējā virziena.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Atiestatīt pārveidošanu';
@@ -1292,16 +1384,19 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoBottomSheetSubtitle => 'Pastāvīgā un modālā ekrāna apakšdaļa';
 
   @override
-  String get demoBottomSheetPersistentTitle => 'Pastāvīgā ekrāna apakšdaļas izklājlapa';
+  String get demoBottomSheetPersistentTitle =>
+      'Pastāvīgā ekrāna apakšdaļas izklājlapa';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Pastāvīgajā ekrāna apakšdaļā tiek rādīta informācija, kas papildina primāro lietotnes saturu. Pastāvīgā ekrāna apakšdaļa paliek redzama arī tad, kad lietotājs mijiedarbojas ar citām lietotnes daļām.';
+  String get demoBottomSheetPersistentDescription =>
+      'Pastāvīgajā ekrāna apakšdaļā tiek rādīta informācija, kas papildina primāro lietotnes saturu. Pastāvīgā ekrāna apakšdaļa paliek redzama arī tad, kad lietotājs mijiedarbojas ar citām lietotnes daļām.';
 
   @override
   String get demoBottomSheetModalTitle => 'Modālā ekrāna apakšdaļa';
 
   @override
-  String get demoBottomSheetModalDescription => 'Modālā ekrāna apakšdaļa ir izvēlnes vai dialoglodziņa alternatīva, kuru izmantojot, lietotājam nav nepieciešams mijiedarboties ar pārējo lietotni.';
+  String get demoBottomSheetModalDescription =>
+      'Modālā ekrāna apakšdaļa ir izvēlnes vai dialoglodziņa alternatīva, kuru izmantojot, lietotājam nav nepieciešams mijiedarboties ar pārējo lietotni.';
 
   @override
   String get demoBottomSheetAddLabel => 'Pievienot';
@@ -1324,7 +1419,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoListsSubtitle => 'Ritināmo sarakstu izkārtojumi';
 
   @override
-  String get demoListsDescription => 'Viena fiksēta augstuma rindiņa, kas parasti ietver tekstu, kā arī ikonu pirms vai pēc teksta.';
+  String get demoListsDescription =>
+      'Viena fiksēta augstuma rindiņa, kas parasti ietver tekstu, kā arī ikonu pirms vai pēc teksta.';
 
   @override
   String get demoOneLineListsTitle => 'Viena rindiņa';
@@ -1342,16 +1438,19 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoProgressIndicatorSubtitle => 'Lineārs, cirkulārs, nenoteikts';
 
   @override
-  String get demoCircularProgressIndicatorTitle => 'Cirkulārs norises indikators';
+  String get demoCircularProgressIndicatorTitle =>
+      'Cirkulārs norises indikators';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Cirkulārs materiāla dizaina norises indikators, kas griežas, lai norādītu, ka lietojumprogramma ir aizņemta.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Cirkulārs materiāla dizaina norises indikators, kas griežas, lai norādītu, ka lietojumprogramma ir aizņemta.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'Lineārs norises indikators';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Lineārs materiāla dizaina norises indikators, zināms arī kā norises josla.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Lineārs materiāla dizaina norises indikators, zināms arī kā norises josla.';
 
   @override
   String get demoPickersTitle => 'Atlasītāji';
@@ -1363,19 +1462,22 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Datuma atlasītājs';
 
   @override
-  String get demoDatePickerDescription => 'Tiek rādīts dialoglodziņš ar materiāla dizaina datuma atlasītāju.';
+  String get demoDatePickerDescription =>
+      'Tiek rādīts dialoglodziņš ar materiāla dizaina datuma atlasītāju.';
 
   @override
   String get demoTimePickerTitle => 'Laika atlasītājs';
 
   @override
-  String get demoTimePickerDescription => 'Tiek rādīts dialoglodziņš, kurā ir materiāla dizaina laika atlasītājs.';
+  String get demoTimePickerDescription =>
+      'Tiek rādīts dialoglodziņš, kurā ir materiāla dizaina laika atlasītājs.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'RĀDĪT ATLASĪTĀJU';
@@ -1393,16 +1495,19 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoTabsSubtitle => 'Cilnes ar neatkarīgi ritināmiem skatiem';
 
   @override
-  String get demoTabsDescription => 'Cilnēs saturs ir sakārtots vairākos ekrānos, datu kopās un citos mijiedarbības veidos.';
+  String get demoTabsDescription =>
+      'Cilnēs saturs ir sakārtots vairākos ekrānos, datu kopās un citos mijiedarbības veidos.';
 
   @override
   String get demoSnackbarsTitle => 'Paziņojumu joslas';
 
   @override
-  String get demoSnackbarsSubtitle => 'Paziņojumu joslās ekrāna apakšā tiek rādīti ziņojumi';
+  String get demoSnackbarsSubtitle =>
+      'Paziņojumu joslās ekrāna apakšā tiek rādīti ziņojumi';
 
   @override
-  String get demoSnackbarsDescription => 'Paziņojumu joslās tiek rādīta informācija par procesiem, ko lietotnes ir veikušas vai drīz veiks. Paziņojumu joslas tiek īslaicīgi rādītas ekrāna apakšā. Tās nedrīkst traucēt lietošanu, un nav nepieciešama lietotāja ievade, lai tās pazustu.';
+  String get demoSnackbarsDescription =>
+      'Paziņojumu joslās tiek rādīta informācija par procesiem, ko lietotnes ir veikušas vai drīz veiks. Paziņojumu joslas tiek īslaicīgi rādītas ekrāna apakšā. Tās nedrīkst traucēt lietošanu, un nav nepieciešama lietotāja ievade, lai tās pazustu.';
 
   @override
   String get demoSnackbarsButtonLabel => 'RĀDĪT PAZIŅOJUMU JOSLU';
@@ -1414,31 +1519,36 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoSnackbarsActionButtonLabel => 'DARBĪBA';
 
   @override
-  String get demoSnackbarsAction => 'Jūs nospiedāt paziņojumu joslas darbības pogu.';
+  String get demoSnackbarsAction =>
+      'Jūs nospiedāt paziņojumu joslas darbības pogu.';
 
   @override
   String get demoSelectionControlsTitle => 'Atlasīšanas vadīklas';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Izvēles rūtiņas, pogas un slēdži';
+  String get demoSelectionControlsSubtitle =>
+      'Izvēles rūtiņas, pogas un slēdži';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Izvēles rūtiņa';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Izmantojot izvēles rūtiņas, lietotājs var atlasīt vairākas opcijas grupā. Parastas izvēles rūtiņas vērtība ir “true” vai “false”. Triju statusu izvēles rūtiņas vērtība var būt arī “null”.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Izmantojot izvēles rūtiņas, lietotājs var atlasīt vairākas opcijas grupā. Parastas izvēles rūtiņas vērtība ir “true” vai “false”. Triju statusu izvēles rūtiņas vērtība var būt arī “null”.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Poga';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Izmantojot pogas, lietotājs var atlasīt vienu opciju grupā. Izmantojiet pogas vienas opcijas atlasei, ja uzskatāt, ka lietotājam ir jāredz visas pieejamās opcijas līdzās.';
+  String get demoSelectionControlsRadioDescription =>
+      'Izmantojot pogas, lietotājs var atlasīt vienu opciju grupā. Izmantojiet pogas vienas opcijas atlasei, ja uzskatāt, ka lietotājam ir jāredz visas pieejamās opcijas līdzās.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Slēdzis';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Izmantojot ieslēgšanas/izslēgšanas slēdzi, var mainīt vienas iestatījumu opcijas statusu. Atbilstošajā iekļautajā iezīmē ir jābūt skaidri norādītam, kuru opciju var pārslēgt, izmantojot slēdzi, un kādā statusā tā ir pašlaik.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Izmantojot ieslēgšanas/izslēgšanas slēdzi, var mainīt vienas iestatījumu opcijas statusu. Atbilstošajā iekļautajā iezīmē ir jābūt skaidri norādītam, kuru opciju var pārslēgt, izmantojot slēdzi, un kādā statusā tā ir pašlaik.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Teksta lauki';
@@ -1447,10 +1557,12 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoTextFieldTitle => 'Teksta lauki';
 
   @override
-  String get demoTextFieldSubtitle => 'Viena rinda teksta un ciparu rediģēšanai';
+  String get demoTextFieldSubtitle =>
+      'Viena rinda teksta un ciparu rediģēšanai';
 
   @override
-  String get demoTextFieldDescription => 'Izmantojot teksta laukus, lietotāji var ievadīt lietotāja saskarnē tekstu. Parasti tie tiek rādīti veidlapās vai dialoglodziņos.';
+  String get demoTextFieldDescription =>
+      'Izmantojot teksta laukus, lietotāji var ievadīt lietotāja saskarnē tekstu. Parasti tie tiek rādīti veidlapās vai dialoglodziņos.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Rādīt paroli';
@@ -1459,16 +1571,19 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Slēpt paroli';
 
   @override
-  String get demoTextFieldFormErrors => 'Pirms iesniegšanas, lūdzu, labojiet kļūdas sarkanā krāsā.';
+  String get demoTextFieldFormErrors =>
+      'Pirms iesniegšanas, lūdzu, labojiet kļūdas sarkanā krāsā.';
 
   @override
   String get demoTextFieldNameRequired => 'Ir jāievada vārds.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'Lūdzu, ievadiet tikai alfabēta rakstzīmes.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'Lūdzu, ievadiet tikai alfabēta rakstzīmes.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### — ievadiet pareizu tālruņa numuru.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### — ievadiet pareizu tālruņa numuru.';
 
   @override
   String get demoTextFieldEnterPassword => 'Lūdzu, ievadiet paroli.';
@@ -1495,10 +1610,12 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoTextFieldEmail => 'E-pasta adrese';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Pastāstiet par sevi (piem., uzrakstiet, ar ko jūs nodarbojaties vai kādi ir jūsu vaļasprieki)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Pastāstiet par sevi (piem., uzrakstiet, ar ko jūs nodarbojaties vai kādi ir jūsu vaļasprieki)';
 
   @override
-  String get demoTextFieldKeepItShort => 'Veidojiet to īsu, šī ir tikai demonstrācijas versija.';
+  String get demoTextFieldKeepItShort =>
+      'Veidojiet to īsu, šī ir tikai demonstrācijas versija.';
 
   @override
   String get demoTextFieldLifeStory => 'Biogrāfija';
@@ -1533,13 +1650,16 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get demoTooltipTitle => 'Rīka padomi';
 
   @override
-  String get demoTooltipSubtitle => 'Īss ziņojums, kas tiek parādīts, kad lietotājs nospiež elementu un to tur vai virza kursoru virs elementa.';
+  String get demoTooltipSubtitle =>
+      'Īss ziņojums, kas tiek parādīts, kad lietotājs nospiež elementu un to tur vai virza kursoru virs elementa.';
 
   @override
-  String get demoTooltipDescription => 'Rīka padomi ietver teksta iezīmes, kas paskaidro pogas vai citas lietotāja saskarnes darbības funkciju. Rīka padomi attēlo informatīvu tekstu, kad lietotāji virs kāda elementa virza kursoru, izceļ elementu vai to nospiež un tur.';
+  String get demoTooltipDescription =>
+      'Rīka padomi ietver teksta iezīmes, kas paskaidro pogas vai citas lietotāja saskarnes darbības funkciju. Rīka padomi attēlo informatīvu tekstu, kad lietotāji virs kāda elementa virza kursoru, izceļ elementu vai to nospiež un tur.';
 
   @override
-  String get demoTooltipInstructions => 'Lai parādītu rīka padomu, nospiediet elementu un turiet to vai virziet virs tā kursoru.';
+  String get demoTooltipInstructions =>
+      'Lai parādītu rīka padomu, nospiediet elementu un turiet to vai virziet virs tā kursoru.';
 
   @override
   String get bottomNavigationCommentsTab => 'Komentāri';
@@ -1597,10 +1717,12 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get dialogDiscardTitle => 'Vai atmest melnrakstu?';
 
   @override
-  String get dialogLocationTitle => 'Vai izmantot Google atrašanās vietas pakalpojumu?';
+  String get dialogLocationTitle =>
+      'Vai izmantot Google atrašanās vietas pakalpojumu?';
 
   @override
-  String get dialogLocationDescription => 'Google varēs palīdzēt lietotnēm noteikt atrašanās vietu. Tas nozīmē, ka uzņēmumam Google tiks nosūtīti anonīmi atrašanās vietas dati, pat ja neviena lietotne nedarbosies.';
+  String get dialogLocationDescription =>
+      'Google varēs palīdzēt lietotnēm noteikt atrašanās vietu. Tas nozīmē, ka uzņēmumam Google tiks nosūtīti anonīmi atrašanās vietas dati, pat ja neviena lietotne nedarbosies.';
 
   @override
   String get dialogCancel => 'ATCELT';
@@ -1630,7 +1752,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get dialogFullscreenSave => 'SAGLABĀT';
 
   @override
-  String get dialogFullscreenDescription => 'Pilnekrāna režīma dialoglodziņa demonstrācija';
+  String get dialogFullscreenDescription =>
+      'Pilnekrāna režīma dialoglodziņa demonstrācija';
 
   @override
   String get cupertinoButton => 'Poga';
@@ -1645,10 +1768,12 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Atmest';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Vai ļaut lietotnei “Maps” piekļūt jūsu atrašanās vietai, kad izmantojat šo lietotni?';
+  String get cupertinoAlertLocationTitle =>
+      'Vai ļaut lietotnei “Maps” piekļūt jūsu atrašanās vietai, kad izmantojat šo lietotni?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Kartē tiks attēlota jūsu pašreizējā atrašanās vieta, un tā tiks izmantota, lai sniegtu norādes, parādītu tuvumā esošus meklēšanas rezultātus un noteiktu aptuvenu ceļā pavadāmo laiku.';
+  String get cupertinoAlertLocationDescription =>
+      'Kartē tiks attēlota jūsu pašreizējā atrašanās vieta, un tā tiks izmantota, lai sniegtu norādes, parādītu tuvumā esošus meklēšanas rezultātus un noteiktu aptuvenu ceļā pavadāmo laiku.';
 
   @override
   String get cupertinoAlertAllow => 'Atļaut';
@@ -1660,7 +1785,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Atlasiet iecienītāko desertu';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Lūdzu, tālāk redzamajā sarakstā atlasiet savu iecienītāko desertu. Jūsu atlase tiks izmantota, lai pielāgotu jūsu apgabalā ieteikto restorānu sarakstu.';
+  String get cupertinoAlertDessertDescription =>
+      'Lūdzu, tālāk redzamajā sarakstā atlasiet savu iecienītāko desertu. Jūsu atlase tiks izmantota, lai pielāgotu jūsu apgabalā ieteikto restorānu sarakstu.';
 
   @override
   String get cupertinoAlertCheesecake => 'Siera kūka';
@@ -1917,7 +2043,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get shrineProductCopperWireRack => 'Vara stiepļu statīvs';
 
   @override
-  String get shrineProductSootheCeramicSet => 'Keramikas izstrādājumu komplekts';
+  String get shrineProductSootheCeramicSet =>
+      'Keramikas izstrādājumu komplekts';
 
   @override
   String get shrineProductHurrahsTeaSet => 'Hurrahs tējas komplekts';
@@ -2243,13 +2370,15 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get craneEat10 => 'Lisabona, Portugāle';
 
   @override
-  String get craneFly0SemanticLabel => 'Kotedža sniegotā ainavā ar mūžzaļiem kokiem';
+  String get craneFly0SemanticLabel =>
+      'Kotedža sniegotā ainavā ar mūžzaļiem kokiem';
 
   @override
   String get craneFly1SemanticLabel => 'Telts laukā';
 
   @override
-  String get craneFly2SemanticLabel => 'Lūgšanu karodziņi uz sniegota kalna fona';
+  String get craneFly2SemanticLabel =>
+      'Lūgšanu karodziņi uz sniegota kalna fona';
 
   @override
   String get craneFly3SemanticLabel => 'Maču Pikču citadele';
@@ -2261,7 +2390,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get craneFly5SemanticLabel => 'Viesnīca pie kalnu ezera';
 
   @override
-  String get craneFly6SemanticLabel => 'Skats no putna lidojuma uz Dekoratīvās mākslas pili';
+  String get craneFly6SemanticLabel =>
+      'Skats no putna lidojuma uz Dekoratīvās mākslas pili';
 
   @override
   String get craneFly7SemanticLabel => 'Rašmora kalns';
@@ -2270,7 +2400,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'Supertree Grove';
 
   @override
-  String get craneFly9SemanticLabel => 'Vīrietis atspiedies pret senu, zilu automašīnu';
+  String get craneFly9SemanticLabel =>
+      'Vīrietis atspiedies pret senu, zilu automašīnu';
 
   @override
   String get craneFly10SemanticLabel => 'Al-Azhara mošejas minareti saulrietā';
@@ -2288,13 +2419,15 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get craneSleep0SemanticLabel => 'Bungalo virs ūdens';
 
   @override
-  String get craneSleep1SemanticLabel => 'Kotedža sniegotā ainavā ar mūžzaļiem kokiem';
+  String get craneSleep1SemanticLabel =>
+      'Kotedža sniegotā ainavā ar mūžzaļiem kokiem';
 
   @override
   String get craneSleep2SemanticLabel => 'Maču Pikču citadele';
 
   @override
-  String get craneSleep3SemanticLabel => 'Vīrietis atspiedies pret senu, zilu automašīnu';
+  String get craneSleep3SemanticLabel =>
+      'Vīrietis atspiedies pret senu, zilu automašīnu';
 
   @override
   String get craneSleep4SemanticLabel => 'Viesnīca pie kalnu ezera';
@@ -2309,13 +2442,15 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get craneSleep7SemanticLabel => 'Krāsainas mājas Ribeiras laukumā';
 
   @override
-  String get craneSleep8SemanticLabel => 'Maiju celtņu drupas uz klints virs pludmales';
+  String get craneSleep8SemanticLabel =>
+      'Maiju celtņu drupas uz klints virs pludmales';
 
   @override
   String get craneSleep9SemanticLabel => 'Ķieģeļu bāka jūrā';
 
   @override
-  String get craneSleep10SemanticLabel => 'Al-Azhara mošejas minareti saulrietā';
+  String get craneSleep10SemanticLabel =>
+      'Al-Azhara mošejas minareti saulrietā';
 
   @override
   String get craneSleep11SemanticLabel => 'Debesskrāpis Taipei 101';
@@ -2348,7 +2483,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get craneEat8SemanticLabel => 'Šķīvis ar vēžiem';
 
   @override
-  String get craneEat9SemanticLabel => 'Kafejnīcas lete ar konditorejas izstrādājumiem';
+  String get craneEat9SemanticLabel =>
+      'Kafejnīcas lete ar konditorejas izstrādājumiem';
 
   @override
   String get craneEat10SemanticLabel => 'Sieviete tur lielu pastrami sendviču';
@@ -2402,7 +2538,8 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Pēdējie jaunumi';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Kluss, bet iespaidīgs apvērsums veselības aprūpes jomā';
+  String get fortnightlyHeadlineHealthcare =>
+      'Kluss, bet iespaidīgs apvērsums veselības aprūpes jomā';
 
   @override
   String get fortnightlyHeadlineWar => 'Kara dēļ sadalītās amerikāņu dzīves';
@@ -2414,10 +2551,12 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'Zaļās armijas reforma no iekšpuses';
 
   @override
-  String get fortnightlyHeadlineStocks => 'Akciju vērtības stagnācijas dēļ daudzi vēlas izmantot valūtu';
+  String get fortnightlyHeadlineStocks =>
+      'Akciju vērtības stagnācijas dēļ daudzi vēlas izmantot valūtu';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Dizaineri izmanto tehnoloģijas, lai radītu futūristiskus audumus';
+  String get fortnightlyHeadlineFabrics =>
+      'Dizaineri izmanto tehnoloģijas, lai radītu futūristiskus audumus';
 
   @override
   String get fortnightlyHeadlineFeminists => 'Feministes kļūst par partizānēm';

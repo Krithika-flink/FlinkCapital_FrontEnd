@@ -4,7 +4,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
+import 'package:flutter_auth_buttons/flutter_auth_buttons.dart';
+import 'package:gallery/auth_service.dart';
 import 'package:gallery/data/gallery_options.dart';
 import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 import 'package:gallery/layout/adaptive.dart';
@@ -14,9 +15,16 @@ import 'package:gallery/studies/rally/app.dart';
 import 'package:gallery/studies/rally/colors.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:gallery/res/custom_colors.dart';
-import 'package:gallery/widgets/google_sign_in_button.dart';
+import 'package:gallery/utils/authentication.dart';
+import 'package:gallery/widgets/google_sign_in_button.dart' as google;
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-const padding = 25.0;
+import '../registration_page.dart';
+// import 'package:flutter_auth_buttons/flutter_auth_buttons.dart';
+
+const padding = 30.0;
 
 class LoginPage extends StatefulWidget {
   const LoginPage();
@@ -30,6 +38,8 @@ class _LoginPageState extends State<LoginPage> with RestorationMixin {
       RestorableTextEditingController();
   final RestorableTextEditingController _passwordController =
       RestorableTextEditingController();
+  final FirebaseAuth auth = FirebaseAuth.instance;
+  //FirebaseAuth auth = FirebaseAuth.instance;
 
   @override
   String get restorationId => 'login_page';
@@ -63,8 +73,9 @@ class _LoginPageState extends State<LoginPage> with RestorationMixin {
   }
 }
 
+// ignore: must_be_immutable
 class _MainView extends StatelessWidget {
-  const _MainView({
+  _MainView({
     Key key,
     this.usernameController,
     this.passwordController,
@@ -72,9 +83,10 @@ class _MainView extends StatelessWidget {
 
   final TextEditingController usernameController;
   final TextEditingController passwordController;
-
+  final GlobalKey<FormState> _formStateKey = GlobalKey<FormState>();
+  String successMessage = '';
   void _login(BuildContext context) {
-    Navigator.of(context).restorablePushNamed(RallyApp.homeRoute);
+    // Navigator.of(context).restorablePushNamed(RallyApp.homeRoute);
   }
 
   @override
@@ -85,7 +97,7 @@ class _MainView extends StatelessWidget {
     if (isDesktop) {
       final desktopMaxWidth = 400.0 + 100.0 * (cappedTextScale(context) - 1);
       listViewChildren = [
-        /* _UsernameInput(
+        _UsernameInput(
           maxWidth: desktopMaxWidth,
           usernameController: usernameController,
         ),
@@ -93,24 +105,40 @@ class _MainView extends StatelessWidget {
         _PasswordInput(
           maxWidth: desktopMaxWidth,
           passwordController: passwordController,
-        ), */
-        _LoginButton(
-          maxWidth: desktopMaxWidth,
-          onTap: () {
-            _login(context);
-          },
         ),
+        _LoginButton(
+            maxWidth: desktopMaxWidth,
+            onTap: () {
+              //_login(context);
+              // if (_formStateKey.currentState.validate()) {
+              // _formStateKey.currentState.save();
+              signIn(usernameController.text, passwordController.text)
+                  .then((user) {
+                if (user != null) {
+                  print('Logged in successfully.');
+                  // setState(() {
+                  // successMessage =
+                  //   'Logged in successfully.\nYou can now navigate to Home Page.';
+                  // });
+                  Navigator.of(context).restorablePushNamed(RallyApp.homeRoute);
+                } else {
+                  print('Error while Login.');
+                }
+              });
+            }
+            //}
+            ),
       ];
     } else {
       listViewChildren = [
         const _SmallLogo(),
-        /* _UsernameInput(
+        _UsernameInput(
           usernameController: usernameController,
         ),
         const SizedBox(height: 12),
         _PasswordInput(
           passwordController: passwordController,
-        ), */
+        ),
         /*  _ThumbButton(
           onTap: () {
             _login(context);
@@ -119,7 +147,23 @@ class _MainView extends StatelessWidget {
         _LoginButton(
           //maxWidth: desktopMaxWidth,
           onTap: () {
-            _login(context);
+            //_login(context);
+            //    if (_formStateKey.currentState.validate()) {
+            //    _formStateKey.currentState.save();
+            signIn(usernameController.text, passwordController.text)
+                .then((user) {
+              if (user != null) {
+                print('Logged in successfully.');
+                // setState(() {
+                // successMessage =
+                //   'Logged in successfully.\nYou can now navigate to Home Page.';
+                // });
+                Navigator.of(context).restorablePushNamed(RallyApp.homeRoute);
+              } else {
+                print('Error while Login.');
+              }
+            });
+            //}
           },
         ),
       ];
@@ -186,7 +230,7 @@ class _TopBar extends StatelessWidget {
               ),
             ],
           ),
-          /*  Row(
+          Row(
             mainAxisSize: MainAxisSize.min,
             children: [
               Text(
@@ -198,7 +242,7 @@ class _TopBar extends StatelessWidget {
                 text: GalleryLocalizations.of(context).rallyLoginSignUp,
               ),
             ],
-          ), */
+          ),
         ],
       ),
     );
@@ -221,62 +265,6 @@ class _SmallLogo extends StatelessWidget {
             image: AssetImage('assets/logo.png'),
             placeholder: SizedBox.shrink(),
           ),
-        ),
-      ),
-    );
-  }
-}
-
-class _UsernameInput extends StatelessWidget {
-  const _UsernameInput({
-    Key key,
-    this.maxWidth,
-    this.usernameController,
-  }) : super(key: key);
-
-  final double maxWidth;
-  final TextEditingController usernameController;
-
-  @override
-  Widget build(BuildContext context) {
-    return Align(
-      alignment: Alignment.center,
-      child: Container(
-        constraints: BoxConstraints(maxWidth: maxWidth ?? double.infinity),
-        child: TextField(
-          textInputAction: TextInputAction.next,
-          controller: usernameController,
-          decoration: InputDecoration(
-            labelText: GalleryLocalizations.of(context).rallyLoginUsername,
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class _PasswordInput extends StatelessWidget {
-  const _PasswordInput({
-    Key key,
-    this.maxWidth,
-    this.passwordController,
-  }) : super(key: key);
-
-  final double maxWidth;
-  final TextEditingController passwordController;
-
-  @override
-  Widget build(BuildContext context) {
-    return Align(
-      alignment: Alignment.center,
-      child: Container(
-        constraints: BoxConstraints(maxWidth: maxWidth ?? double.infinity),
-        child: TextField(
-          controller: passwordController,
-          decoration: InputDecoration(
-            labelText: GalleryLocalizations.of(context).rallyLoginPassword,
-          ),
-          obscureText: true,
         ),
       ),
     );
@@ -357,67 +345,193 @@ class _LoginButton extends StatelessWidget {
 
   final double maxWidth;
   final VoidCallback onTap;
+  final bool _isSigningIn = false;
 
   @override
   Widget build(BuildContext context) {
     return Align(
-      alignment: Alignment.center,
-      child: Container(
-        constraints: BoxConstraints(maxWidth: maxWidth ?? double.infinity),
-        padding: const EdgeInsets.symmetric(vertical: 30),
-        /* child: Row( 
-          children: [
-            const Icon(Icons.check_circle_outline,
-                color: RallyColors.buttonColor),
-            const SizedBox(width: 12),
-            Text(GalleryLocalizations.of(context).rallyLoginRememberMe),
-             const Expanded(child: SizedBox.shrink()), */
-        /*  _FilledButton(
-              text: GalleryLocalizations.of(context).rallyLoginButtonLogin,
-              onTap: onTap,
-            ), */
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: <Widget>[
-            Column(
-              children: <Widget>[
-                FutureBuilder(
-                  //future: Authentication.initializeFirebase(context: context),
-                  future: Firebase.initializeApp(),
-                  builder: (context, snapshot) {
-                    if (snapshot.hasError) {
-                      return Text('Error initializing Firebase');
-                    } else if (snapshot.connectionState ==
-                        ConnectionState.done) {
-                      return GoogleSignInButton();
-                    }
-                    return CircularProgressIndicator(
-                      valueColor: AlwaysStoppedAnimation<Color>(
-                        CustomColors.firebaseOrange,
-                      ),
-                    );
-                  },
-                ),
-                /* const SizedBox(height: padding),
-                AppleSignInButton(
-                    onPressed: () {}, style: AppleButtonStyle.black),
-                const SizedBox(height: padding),
-                GoogleSignInButton(onPressed: () {}, darkMode: true),
-                const SizedBox(height: padding),
-                FacebookSignInButton(onPressed: () {}),
-                const SizedBox(height: padding),
-                TwitterSignInButton(onPressed: () {}),
-                const SizedBox(height: padding),
-                MicrosoftSignInButton(onPressed: () {}, darkMode: true), */
-              ],
+        alignment: Alignment.center,
+        child: Container(
+            constraints: BoxConstraints(maxWidth: maxWidth ?? double.infinity),
+            padding: const EdgeInsets.symmetric(vertical: 30),
+            /* decoration: BoxDecoration(
+            border: Border.all(
+              color: Colors.white.withOpacity(0.5),
+              width: 2,
             ),
-          ],
-        ),
-      ),
-    );
+          ), */
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                  //const Icon(Icons.check_circle_outline,
+                  //  color: RallyColors.buttonColor),
+                  //const SizedBox(width: 200),
+                  //Text(GalleryLocalizations.of(context).rallyLoginRememberMe),
+                  //const Expanded(child: SizedBox.),
+                  _FilledButton(
+                    text:
+                        GalleryLocalizations.of(context).rallyLoginButtonLogin,
+                    onTap: onTap,
+                  ),
+                ]),
+                const SizedBox(height: padding),
+                Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                  Text("or",
+                      style: Theme.of(context).textTheme.bodyText1.copyWith(
+                          fontSize: 20 / reducedTextScale(context),
+                          fontWeight: FontWeight.w600)),
+                ]),
+                const SizedBox(height: padding),
+                Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                  Column(
+                    children: <Widget>[
+                      Column(
+                        children: <Widget>[
+                          FutureBuilder(
+                            future: Authentication.initializeFirebase(
+                                context: context),
+                            //future: Firebase.initializeApp(),
+                            builder: (context, snapshot) {
+                              if (snapshot.hasError) {
+                                return Text('Error initializing Firebase');
+                              } else if (snapshot.connectionState ==
+                                  ConnectionState.done) {
+                                return google.GoogleSignInButton();
+                                //signInWithGoogle();
+                              }
+                              return CircularProgressIndicator(
+                                valueColor: AlwaysStoppedAnimation<Color>(
+                                  CustomColors.firebaseOrange,
+                                ),
+                              );
+                            },
+                          ),
+                          const SizedBox(width: 20),
+                          AppleSignInButton(
+                              onPressed: () {
+                                _signInWithApple(context);
+                              },
+                              style: AppleButtonStyle.whiteOutline),
+                          /* const SizedBox(height: padding),
+                    GoogleSignInButton(
+                      onPressed: () async {
+                        /* setState(() {
+                        _isSigningIn = true;
+                      }); */
+                        User user = await Authentication.signInWithGoogle(
+                            context: context);
+
+                        /* setState(() {
+                        _isSigningIn = false;
+                      }); */
+
+                        if (user != null) {
+                          var firebaseUser = FirebaseAuth.instance.currentUser;
+                          Database.userUid = firebaseUser.uid;
+                          const url =
+                              'https://ant.aliceblueonline.com/oauth2/auth?response_type=code&state=test_state&client_id=DkF5uRWtRB';
+                          if (await canLaunch(url)) {
+                            await launch(url, forceWebView: true);
+                            Navigator.of(context)
+                                .restorablePushNamed(RallyApp.homeRoute);
+                          } else {
+                            throw 'Could not launch $url';
+                          }
+                        }
+                      },
+                      borderRadius: 20,
+                      splashColor: Colors.white,
+                      //text: 'Login with Google',
+                      textStyle: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w600,
+                          fontFamily: "Roboto",
+                          color: Colors.white),
+                      darkMode: true,
+                    ), */
+                          /* const SizedBox(height: padding),
+                    Text("Or",
+                        style: Theme.of(context).textTheme.bodyText1.copyWith(
+                            fontSize: 20 / reducedTextScale(context),
+                            fontWeight: FontWeight.w600)),
+                    const SizedBox(height: padding),
+                    FacebookSignInButton(
+                        onPressed: () async {
+                          /* setState(() {
+                        _isSigningIn = true;
+                      }); */
+                          User user1 = await Authentication.signInWithFacebook(
+                              context: context); */
+                          /* setState(() {
+                        _isSigningIn = false;
+                      }); */
+                          /* if (user1 != null) {
+                            var firebaseUser =
+                                FirebaseAuth.instance.currentUser;
+                            Database.userUid = firebaseUser.uid;
+                            const url =
+                                'https://ant.aliceblueonline.com/oauth2/auth?response_type=code&state=test_state&client_id=DkF5uRWtRB';
+                            if (await canLaunch(url)) {
+                              await launch(url, forceWebView: true);
+                              Navigator.of(context)
+                                  .restorablePushNamed(RallyApp.homeRoute);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          }
+                        },
+                        borderRadius: 20,
+                        text: 'Sign in with Facebook',
+                        splashColor: Colors.white,
+                        textStyle: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.w600,
+                            fontFamily: "Roboto",
+                            color: Colors.white),
+                        centered: true),
+                    const SizedBox(height: padding),
+                    Text("Or",
+                        style: Theme.of(context).textTheme.bodyText1.copyWith(
+                            fontSize: 20 / reducedTextScale(context),
+                            fontWeight: FontWeight.w600)), */
+                          /* const SizedBox(height: padding),
+                    TwitterSignInButton(
+                        onPressed: () {},
+                        borderRadius: 20,
+                        // text: 'Login with Facebook',
+                        splashColor: Colors.white,
+                        textStyle: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.w600,
+                            fontFamily: "Roboto"),
+                        centered: true), */
+                          /* const SizedBox(height: padding),
+                MicrosoftSignInButton(onPressed: () {}, darkMode: true), */
+                        ],
+                      ),
+                    ],
+                  ),
+                ])
+              ],
+            )));
   }
 }
 
+/* Future<UserCredential> signInWithGoogle() async {
+  // Create a new provider
+  var googleProvider = GoogleAuthProvider();
+
+  //googleProvider.addScope('https://www.googleapis.com/auth/contacts.readonly');
+  //googleProvider.setCustomParameters({'login_hint': 'user@example.com'});
+
+  // Once signed in, return the UserCredential
+  return await FirebaseAuth.instance.signInWithPopup(googleProvider);
+
+  // Or use signInWithRedirect
+  // return await FirebaseAuth.instance.signInWithRedirect(googleProvider);
+} */
 class _BorderButton extends StatelessWidget {
   const _BorderButton({Key key, @required this.text}) : super(key: key);
 
@@ -435,7 +549,13 @@ class _BorderButton extends StatelessWidget {
         ),
       ),
       onPressed: () {
-        Navigator.of(context).restorablePushNamed(RallyApp.homeRoute);
+        //Navigator.of(context).restorablePushNamed(RallyApp.homeRoute);
+        Navigator.pushReplacement(
+          context,
+          new MaterialPageRoute(
+            builder: (context) => RegistrationPage(),
+          ),
+        );
       },
       child: Text(text),
     );
@@ -469,5 +589,103 @@ class _FilledButton extends StatelessWidget {
         ],
       ),
     );
+  }
+}
+
+class _UsernameInput extends StatelessWidget {
+  const _UsernameInput({
+    Key key,
+    this.maxWidth,
+    this.usernameController,
+  }) : super(key: key);
+
+  final double maxWidth;
+  final TextEditingController usernameController;
+
+  @override
+  Widget build(BuildContext context) {
+    return Align(
+      alignment: Alignment.center,
+      child: Container(
+        constraints: BoxConstraints(maxWidth: maxWidth ?? double.infinity),
+        child: TextField(
+          textInputAction: TextInputAction.next,
+          controller: usernameController,
+          decoration: InputDecoration(
+            labelText: GalleryLocalizations.of(context).rallyLoginUsername,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _PasswordInput extends StatelessWidget {
+  const _PasswordInput({
+    Key key,
+    this.maxWidth,
+    this.passwordController,
+  }) : super(key: key);
+
+  final double maxWidth;
+  final TextEditingController passwordController;
+
+  @override
+  Widget build(BuildContext context) {
+    return Align(
+      alignment: Alignment.center,
+      child: Container(
+        constraints: BoxConstraints(maxWidth: maxWidth ?? double.infinity),
+        child: TextField(
+          controller: passwordController,
+          decoration: InputDecoration(
+            labelText: GalleryLocalizations.of(context).rallyLoginPassword,
+          ),
+          obscureText: true,
+        ),
+      ),
+    );
+  }
+}
+
+Future<User> signIn(String email, String password) async {
+  try {
+    final auth = FirebaseAuth.instance;
+    UserCredential usercred = (await auth.signInWithEmailAndPassword(
+        email: email, password: password));
+
+    assert(usercred.user != null);
+    assert(await usercred.user.getIdToken() != null);
+
+    // ignore: await_only_futures
+    //final User currentUser = await auth.currentUser();
+    // assert(user.uid == currentUser.uid);
+    return usercred.user;
+  } catch (error) {
+    print(error);
+    switch (error.toString()) {
+      case 'ERROR_USER_NOT_FOUND':
+        //setState(() {
+        print('User Not Found!!!');
+        // });
+        break;
+      case 'ERROR_WRONG_PASSWORD':
+        //setState(() {
+        print('Wrong Password!!!');
+        //});
+        break;
+    }
+    return null;
+  }
+}
+
+Future<void> _signInWithApple(BuildContext context) async {
+  try {
+    final authService = Provider.of<AuthService>(context, listen: false);
+    final user = await authService.signInWithApple();
+    print('uid: ${user.uid}');
+  } catch (e) {
+    // TODO: Show alert here
+    print(e);
   }
 }

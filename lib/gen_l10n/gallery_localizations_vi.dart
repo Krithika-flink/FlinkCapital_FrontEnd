@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get signIn => 'ĐĂNG NHẬP';
 
   @override
-  String get bannerDemoText => 'Mật khẩu của bạn đã được cập nhật trên thiết bị kia. Vui lòng đăng nhập lại.';
+  String get bannerDemoText =>
+      'Mật khẩu của bạn đã được cập nhật trên thiết bị kia. Vui lòng đăng nhập lại.';
 
   @override
   String get bannerDemoResetText => 'Đặt lại biểu ngữ';
@@ -60,7 +60,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => '10 thành phố hàng đầu phải ghé thăm ở Tamil Nadu';
+  String get cardsDemoTravelDestinationTitle1 =>
+      '10 thành phố hàng đầu phải ghé thăm ở Tamil Nadu';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Số 10';
@@ -99,7 +100,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get shrineDescription => 'Ứng dụng bán lẻ thời thượng';
 
   @override
-  String get fortnightlyDescription => 'Ứng dụng tin tức dành cho những nội dung đặc sắc';
+  String get fortnightlyDescription =>
+      'Ứng dụng tin tức dành cho những nội dung đặc sắc';
 
   @override
   String get rallyDescription => 'Một ứng dụng tài chính cá nhân';
@@ -120,7 +122,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Kỳ nghỉ';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Phần trăm lợi nhuận hằng năm';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Phần trăm lợi nhuận hằng năm';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Lãi suất';
@@ -129,7 +132,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'Lãi suất từ đầu năm đến nay';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Lãi suất đã thanh toán năm ngoái';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Lãi suất đã thanh toán năm ngoái';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Bảng kê khai tiếp theo';
@@ -285,8 +289,10 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Tăng khoản khấu trừ thuế bạn có thể được hưởng! Gán danh mục cho 1 giao dịch chưa chỉ định.',
-      other: 'Tăng khoản khấu trừ thuế bạn có thể được hưởng! Gán danh mục cho ${count} giao dịch chưa chỉ định.',
+      one:
+          'Tăng khoản khấu trừ thuế bạn có thể được hưởng! Gán danh mục cho 1 giao dịch chưa chỉ định.',
+      other:
+          'Tăng khoản khấu trừ thuế bạn có thể được hưởng! Gán danh mục cho ${count} giao dịch chưa chỉ định.',
     );
   }
 
@@ -300,7 +306,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Xem tất cả ngân sách';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'Số dư tài khoản ${accountName} ${accountNumber} là ${amount}.';
   }
 
@@ -310,7 +317,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'Đã dùng hết ${amountUsed}/${amountTotal} ngân sách ${budgetName}, số tiền còn lại là ${amountLeft}';
   }
 
@@ -318,7 +326,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get craneDescription => 'Một ứng dụng du lịch cá nhân';
 
   @override
-  String get homeCategoryReference => 'BẢN MINH HỌA KIỂU VÀ CÁC BẢN MINH HỌA KHÁC';
+  String get homeCategoryReference =>
+      'BẢN MINH HỌA KIỂU VÀ CÁC BẢN MINH HỌA KHÁC';
 
   @override
   String get demoInvalidURL => 'Không thể hiển thị URL:';
@@ -342,7 +351,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoCodeViewerCopyAll => 'SAO CHÉP TOÀN BỘ';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'Đã sao chép vào khay nhớ tạm.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'Đã sao chép vào khay nhớ tạm.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -353,7 +363,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Xem các tùy chọn';
 
   @override
-  String get demoOptionsFeatureDescription => 'Nhấn vào đây để xem các tùy chọn có sẵn cho bản minh họa này.';
+  String get demoOptionsFeatureDescription =>
+      'Nhấn vào đây để xem các tùy chọn có sẵn cho bản minh họa này.';
 
   @override
   String get settingsTitle => 'Cài đặt';
@@ -425,19 +436,23 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Thanh ứng dụng ở dưới cùng';
 
   @override
-  String get demoBottomAppBarSubtitle => 'Hiển thị ngăn điều hướng và các hành động ở dưới cùng';
+  String get demoBottomAppBarSubtitle =>
+      'Hiển thị ngăn điều hướng và các hành động ở dưới cùng';
 
   @override
-  String get demoBottomAppBarDescription => 'Với thanh ứng dụng ở dưới cùng, bạn có thể truy cập vào ngăn điều hướng ở dưới cùng và tối đa 4 hành động, bao gồm cả nút hành động nổi.';
+  String get demoBottomAppBarDescription =>
+      'Với thanh ứng dụng ở dưới cùng, bạn có thể truy cập vào ngăn điều hướng ở dưới cùng và tối đa 4 hành động, bao gồm cả nút hành động nổi.';
 
   @override
   String get bottomAppBarNotch => 'Vết cắt';
@@ -464,13 +479,15 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Hiển thị một biểu ngữ trong danh sách';
 
   @override
-  String get demoBannerDescription => 'Một biểu ngữ hiển thị thông điệp quan trọng, súc tích và đưa ra các hành động để người dùng xử lý (hoặc bỏ qua biểu ngữ). Cần có hành động của người dùng để bỏ qua biểu ngữ.';
+  String get demoBannerDescription =>
+      'Một biểu ngữ hiển thị thông điệp quan trọng, súc tích và đưa ra các hành động để người dùng xử lý (hoặc bỏ qua biểu ngữ). Cần có hành động của người dùng để bỏ qua biểu ngữ.';
 
   @override
   String get demoBottomNavigationTitle => 'Thanh điều hướng dưới cùng';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Thanh điều hướng dưới cùng có chế độ xem mờ chéo';
+  String get demoBottomNavigationSubtitle =>
+      'Thanh điều hướng dưới cùng có chế độ xem mờ chéo';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Nhãn cố định';
@@ -479,43 +496,50 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Nhãn đã chọn';
 
   @override
-  String get demoBottomNavigationDescription => 'Thanh điều hướng dưới cùng hiển thị từ 3 đến 5 điểm đến ở cuối màn hình. Mỗi điểm đến được biểu thị bằng một biểu tượng và nhãn văn bản tùy chọn. Khi nhấn vào biểu tượng trên thanh điều hướng dưới cùng, người dùng sẽ được chuyển tới điểm đến phần điều hướng cấp cao nhất liên kết với biểu tượng đó.';
+  String get demoBottomNavigationDescription =>
+      'Thanh điều hướng dưới cùng hiển thị từ 3 đến 5 điểm đến ở cuối màn hình. Mỗi điểm đến được biểu thị bằng một biểu tượng và nhãn văn bản tùy chọn. Khi nhấn vào biểu tượng trên thanh điều hướng dưới cùng, người dùng sẽ được chuyển tới điểm đến phần điều hướng cấp cao nhất liên kết với biểu tượng đó.';
 
   @override
   String get demoButtonTitle => 'Nút';
 
   @override
-  String get demoButtonSubtitle => 'Nút văn bản, nút lồi, nút có đường viền và nhiều nút khác';
+  String get demoButtonSubtitle =>
+      'Nút văn bản, nút lồi, nút có đường viền và nhiều nút khác';
 
   @override
   String get demoTextButtonTitle => 'Nút văn bản';
 
   @override
-  String get demoTextButtonDescription => 'Nút văn bản hiển thị hình ảnh giọt mực bắn tung tóe khi nhấn giữ. Dùng nút văn bản trên thanh công cụ, hộp thoại và cùng dòng với khoảng đệm';
+  String get demoTextButtonDescription =>
+      'Nút văn bản hiển thị hình ảnh giọt mực bắn tung tóe khi nhấn giữ. Dùng nút văn bản trên thanh công cụ, hộp thoại và cùng dòng với khoảng đệm';
 
   @override
   String get demoElevatedButtonTitle => 'Nút lồi';
 
   @override
-  String get demoElevatedButtonDescription => 'Các nút lồi sẽ làm gia tăng kích thước đối với hầu hết các bố cục phẳng. Các nút này làm nổi bật những chức năng trên không gian rộng hoặc có mật độ dày đặc.';
+  String get demoElevatedButtonDescription =>
+      'Các nút lồi sẽ làm gia tăng kích thước đối với hầu hết các bố cục phẳng. Các nút này làm nổi bật những chức năng trên không gian rộng hoặc có mật độ dày đặc.';
 
   @override
   String get demoOutlinedButtonTitle => 'Nút có đường viền';
 
   @override
-  String get demoOutlinedButtonDescription => 'Các nút có đường viền sẽ mờ đi rồi hiện rõ lên khi nhấn. Các nút này thường xuất hiện cùng các nút lồi để biểu thị hành động phụ, thay thế.';
+  String get demoOutlinedButtonDescription =>
+      'Các nút có đường viền sẽ mờ đi rồi hiện rõ lên khi nhấn. Các nút này thường xuất hiện cùng các nút lồi để biểu thị hành động phụ, thay thế.';
 
   @override
   String get demoToggleButtonTitle => 'Nút chuyển đổi';
 
   @override
-  String get demoToggleButtonDescription => 'Bạn có thể dùng các nút chuyển đổi để nhóm những tùy chọn có liên quan lại với nhau. To emphasize groups of related toggle buttons, a group should share a common container';
+  String get demoToggleButtonDescription =>
+      'Bạn có thể dùng các nút chuyển đổi để nhóm những tùy chọn có liên quan lại với nhau. To emphasize groups of related toggle buttons, a group should share a common container';
 
   @override
   String get demoFloatingButtonTitle => 'Nút hành động nổi';
 
   @override
-  String get demoFloatingButtonDescription => 'A floating action button is a circular icon button that hovers over content to promote a primary action in the application.';
+  String get demoFloatingButtonDescription =>
+      'A floating action button is a circular icon button that hovers over content to promote a primary action in the application.';
 
   @override
   String get demoCardTitle => 'Thẻ';
@@ -527,34 +551,40 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoChipTitle => 'Thẻ';
 
   @override
-  String get demoCardDescription => 'Thẻ là một tờ Vật liệu dùng để trình bày một số thông tin có liên quan, ví dụ như album, vị trí địa lý, một bữa ăn, chi tiết liên hệ, v.v.';
+  String get demoCardDescription =>
+      'Thẻ là một tờ Vật liệu dùng để trình bày một số thông tin có liên quan, ví dụ như album, vị trí địa lý, một bữa ăn, chi tiết liên hệ, v.v.';
 
   @override
-  String get demoChipSubtitle => 'Các thành phần rút gọn biểu thị thông tin đầu vào, thuộc tính hoặc hành động';
+  String get demoChipSubtitle =>
+      'Các thành phần rút gọn biểu thị thông tin đầu vào, thuộc tính hoặc hành động';
 
   @override
   String get demoActionChipTitle => 'Thẻ hành động';
 
   @override
-  String get demoActionChipDescription => 'Thẻ hành động là một tập hợp các tùy chọn kích hoạt hành động liên quan đến nội dung chính. Thẻ này sẽ hiển thị linh hoạt và theo ngữ cảnh trong giao diện người dùng.';
+  String get demoActionChipDescription =>
+      'Thẻ hành động là một tập hợp các tùy chọn kích hoạt hành động liên quan đến nội dung chính. Thẻ này sẽ hiển thị linh hoạt và theo ngữ cảnh trong giao diện người dùng.';
 
   @override
   String get demoChoiceChipTitle => 'Khối lựa chọn';
 
   @override
-  String get demoChoiceChipDescription => 'Thẻ lựa chọn biểu thị một lựa chọn trong nhóm. Thẻ này chứa văn bản mô tả hoặc danh mục có liên quan.';
+  String get demoChoiceChipDescription =>
+      'Thẻ lựa chọn biểu thị một lựa chọn trong nhóm. Thẻ này chứa văn bản mô tả hoặc danh mục có liên quan.';
 
   @override
   String get demoFilterChipTitle => 'Thẻ bộ lọc';
 
   @override
-  String get demoFilterChipDescription => 'Thẻ bộ lọc sử dụng thẻ hoặc từ ngữ mô tả để lọc nội dung.';
+  String get demoFilterChipDescription =>
+      'Thẻ bộ lọc sử dụng thẻ hoặc từ ngữ mô tả để lọc nội dung.';
 
   @override
   String get demoInputChipTitle => 'Thẻ thông tin đầu vào';
 
   @override
-  String get demoInputChipDescription => 'Thẻ thông tin đầu vào biểu thị một phần thông tin phức tạp dưới dạng rút gọn, chẳng hạn như thực thể (người, đồ vật hoặc địa điểm) hoặc nội dung hội thoại.';
+  String get demoInputChipDescription =>
+      'Thẻ thông tin đầu vào biểu thị một phần thông tin phức tạp dưới dạng rút gọn, chẳng hạn như thực thể (người, đồ vật hoặc địa điểm) hoặc nội dung hội thoại.';
 
   @override
   String get demoDataTableTitle => 'Bảng dữ liệu';
@@ -563,7 +593,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'Hàng và cột thông tin';
 
   @override
-  String get demoDataTableDescription => 'Bảng dữ liệu hiển thị thông tin ở định dạng lưới gồm hàng và cột. Những bảng này sắp xếp thông tin theo cách dễ quét để người dùng có thể tìm mẫu và thông tin chi tiết.';
+  String get demoDataTableDescription =>
+      'Bảng dữ liệu hiển thị thông tin ở định dạng lưới gồm hàng và cột. Những bảng này sắp xếp thông tin theo cách dễ quét để người dùng có thể tìm mẫu và thông tin chi tiết.';
 
   @override
   String get dataTableHeader => 'Dinh dưỡng';
@@ -636,13 +667,15 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoDialogTitle => 'Hộp thoại';
 
   @override
-  String get demoDialogSubtitle => 'Hộp thoại đơn giản, cảnh báo và toàn màn hình';
+  String get demoDialogSubtitle =>
+      'Hộp thoại đơn giản, cảnh báo và toàn màn hình';
 
   @override
   String get demoAlertDialogTitle => 'Cảnh báo';
 
   @override
-  String get demoAlertDialogDescription => 'Hộp thoại cảnh báo thông báo cho người dùng về các tình huống cần xác nhận. Hộp thoại cảnh báo không nhất thiết phải có tiêu đề cũng như danh sách các hành động.';
+  String get demoAlertDialogDescription =>
+      'Hộp thoại cảnh báo thông báo cho người dùng về các tình huống cần xác nhận. Hộp thoại cảnh báo không nhất thiết phải có tiêu đề cũng như danh sách các hành động.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Cảnh báo có tiêu đề';
@@ -651,16 +684,19 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Hộp thoại đơn giản';
 
   @override
-  String get demoSimpleDialogDescription => 'Hộp thoại đơn giản đưa ra cho người dùng một lựa chọn trong số nhiều tùy chọn. Hộp thoại đơn giản không nhất thiết phải có tiêu đề ở phía trên các lựa chọn.';
+  String get demoSimpleDialogDescription =>
+      'Hộp thoại đơn giản đưa ra cho người dùng một lựa chọn trong số nhiều tùy chọn. Hộp thoại đơn giản không nhất thiết phải có tiêu đề ở phía trên các lựa chọn.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +708,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Bố cục hàng và cột';
 
   @override
-  String get demoGridListsDescription => 'Danh sách dạng lưới là hình thức phù hợp nhất để trình bày dữ liệu có tính chất đồng nhất, cụ thể là hình ảnh. Mỗi mục trong danh sách dạng lưới được gọi là một ô.';
+  String get demoGridListsDescription =>
+      'Danh sách dạng lưới là hình thức phù hợp nhất để trình bày dữ liệu có tính chất đồng nhất, cụ thể là hình ảnh. Mỗi mục trong danh sách dạng lưới được gọi là một ô.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Chỉ hình ảnh';
@@ -690,31 +727,37 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoSlidersSubtitle => 'Tiện ích để chọn giá trị bằng cách vuốt';
 
   @override
-  String get demoSlidersDescription => 'Thanh trượt biểu thị khoảng giá trị dọc theo một thanh mà người dùng có thể chọn một giá trị từ đó. Thanh trượt là lựa chọn lý tưởng để điều chỉnh các tùy chọn cài đặt như âm lượng, độ sáng hoặc áp dụng bộ lọc hình ảnh.';
+  String get demoSlidersDescription =>
+      'Thanh trượt biểu thị khoảng giá trị dọc theo một thanh mà người dùng có thể chọn một giá trị từ đó. Thanh trượt là lựa chọn lý tưởng để điều chỉnh các tùy chọn cài đặt như âm lượng, độ sáng hoặc áp dụng bộ lọc hình ảnh.';
 
   @override
   String get demoRangeSlidersTitle => 'Thanh trượt khoảng';
 
   @override
-  String get demoRangeSlidersDescription => 'Thanh trượt biểu thị khoảng giá trị dọc theo một thanh. Thanh trượt có thể có các biểu tượng ở cả hai đầu thanh biểu thị khoảng giá trị. Thanh trượt là lựa chọn lý tưởng để điều chỉnh các tùy chọn cài đặt như âm lượng, độ sáng hoặc áp dụng bộ lọc hình ảnh.';
+  String get demoRangeSlidersDescription =>
+      'Thanh trượt biểu thị khoảng giá trị dọc theo một thanh. Thanh trượt có thể có các biểu tượng ở cả hai đầu thanh biểu thị khoảng giá trị. Thanh trượt là lựa chọn lý tưởng để điều chỉnh các tùy chọn cài đặt như âm lượng, độ sáng hoặc áp dụng bộ lọc hình ảnh.';
 
   @override
   String get demoCustomSlidersTitle => 'Thanh trượt tùy chỉnh';
 
   @override
-  String get demoCustomSlidersDescription => 'Thanh trượt biểu thị khoảng giá trị dọc theo một thanh mà người dùng có thể chọn một giá trị hoặc khoảng giá trị từ đó. Bạn có thể tùy chỉnh và tạo giao diện cho thanh trượt.';
+  String get demoCustomSlidersDescription =>
+      'Thanh trượt biểu thị khoảng giá trị dọc theo một thanh mà người dùng có thể chọn một giá trị hoặc khoảng giá trị từ đó. Bạn có thể tùy chỉnh và tạo giao diện cho thanh trượt.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Liên tục với giá trị số có thể chỉnh sửa';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Liên tục với giá trị số có thể chỉnh sửa';
 
   @override
   String get demoSlidersDiscrete => 'Rời rạc';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Thanh trượt rời rạc có chủ đề tùy chỉnh';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Thanh trượt rời rạc có chủ đề tùy chỉnh';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Thanh trượt khoảng liên tục có chủ đề tùy chỉnh';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Thanh trượt khoảng liên tục có chủ đề tùy chỉnh';
 
   @override
   String get demoSlidersContinuous => 'Liên tục';
@@ -741,7 +784,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Nút trình đơn và trình đơn đơn giản';
 
   @override
-  String get demoMenuDescription => 'Trình đơn sẽ hiển thị một danh sách các lựa chọn trên giao diện tạm thời. Các lựa chọn sẽ xuất hiện khi người dùng tương tác với một nút, hành động hoặc tùy chọn kiểm soát khác.';
+  String get demoMenuDescription =>
+      'Trình đơn sẽ hiển thị một danh sách các lựa chọn trên giao diện tạm thời. Các lựa chọn sẽ xuất hiện khi người dùng tương tác với một nút, hành động hoặc tùy chọn kiểm soát khác.';
 
   @override
   String get demoMenuItemValueOne => 'Mục đầu tiên trong trình đơn';
@@ -765,16 +809,20 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoMenuFour => 'Bốn';
 
   @override
-  String get demoMenuAnItemWithAContextMenuButton => 'Mục có trình đơn ngữ cảnh';
+  String get demoMenuAnItemWithAContextMenuButton =>
+      'Mục có trình đơn ngữ cảnh';
 
   @override
-  String get demoMenuContextMenuItemOne => 'Mục đầu tiên trong trình đơn ngữ cảnh';
+  String get demoMenuContextMenuItemOne =>
+      'Mục đầu tiên trong trình đơn ngữ cảnh';
 
   @override
-  String get demoMenuADisabledMenuItem => 'Mục có trình đơn ở trạng thái vô hiệu hóa';
+  String get demoMenuADisabledMenuItem =>
+      'Mục có trình đơn ở trạng thái vô hiệu hóa';
 
   @override
-  String get demoMenuContextMenuItemThree => 'Mục thứ ba trong trình đơn ngữ cảnh';
+  String get demoMenuContextMenuItemThree =>
+      'Mục thứ ba trong trình đơn ngữ cảnh';
 
   @override
   String get demoMenuAnItemWithASectionedMenu => 'Mục có trình đơn theo phần';
@@ -805,10 +853,12 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoNavigationDrawerTitle => 'Ngăn điều hướng';
 
   @override
-  String get demoNavigationDrawerSubtitle => 'Hiển thị một ngăn trong thanh ứng dụng';
+  String get demoNavigationDrawerSubtitle =>
+      'Hiển thị một ngăn trong thanh ứng dụng';
 
   @override
-  String get demoNavigationDrawerDescription => 'Bảng điều khiển Material Design trượt theo chiều ngang từ cạnh màn hình để hiển thị đường liên kết điều hướng trong một ứng dụng.';
+  String get demoNavigationDrawerDescription =>
+      'Bảng điều khiển Material Design trượt theo chiều ngang từ cạnh màn hình để hiển thị đường liên kết điều hướng trong một ứng dụng.';
 
   @override
   String get demoNavigationDrawerUserName => 'Tên người dùng';
@@ -823,16 +873,19 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Mục hai';
 
   @override
-  String get demoNavigationDrawerText => 'Vuốt từ cạnh màn hình hoặc nhấn vào biểu tượng ở phía trên bên trái để xem ngăn';
+  String get demoNavigationDrawerText =>
+      'Vuốt từ cạnh màn hình hoặc nhấn vào biểu tượng ở phía trên bên trái để xem ngăn';
 
   @override
   String get demoNavigationRailTitle => 'Dải điều hướng';
 
   @override
-  String get demoNavigationRailSubtitle => 'Hiển thị dải điều hướng trong một ứng dụng';
+  String get demoNavigationRailSubtitle =>
+      'Hiển thị dải điều hướng trong một ứng dụng';
 
   @override
-  String get demoNavigationRailDescription => 'Tiện ích của Material Design được hiển thị ở bên trái hoặc bên phải của một ứng dụng để di chuyển giữa một số ít lượt xem, thông thường là từ 3 đến 5 lượt.';
+  String get demoNavigationRailDescription =>
+      'Tiện ích của Material Design được hiển thị ở bên trái hoặc bên phải của một ứng dụng để di chuyển giữa một số ít lượt xem, thông thường là từ 3 đến 5 lượt.';
 
   @override
   String get demoNavigationRailFirst => 'Thứ nhất';
@@ -847,22 +900,26 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoMenuAnItemWithASimpleMenu => 'Mục có trình đơn đơn giản';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Mục có trình đơn danh sách kiểm tra';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Mục có trình đơn danh sách kiểm tra';
 
   @override
   String get demoFullscreenDialogTitle => 'Toàn màn hình';
 
   @override
-  String get demoFullscreenDialogDescription => 'Thuộc tính fullscreenDialog cho biết liệu trang sắp tới có phải là một hộp thoại ở chế độ toàn màn hình hay không';
+  String get demoFullscreenDialogDescription =>
+      'Thuộc tính fullscreenDialog cho biết liệu trang sắp tới có phải là một hộp thoại ở chế độ toàn màn hình hay không';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Chỉ báo hoạt động';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'Chỉ báo hoạt động theo kiểu iOS';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'Chỉ báo hoạt động theo kiểu iOS';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'Chỉ báo hoạt động theo kiểu iOS quay theo chiều kim đồng hồ.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'Chỉ báo hoạt động theo kiểu iOS quay theo chiều kim đồng hồ.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Nút';
@@ -871,7 +928,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'Nút theo kiểu iOS';
 
   @override
-  String get demoCupertinoButtonsDescription => 'Đây là một nút theo kiểu iOS. Nút này có chứa văn bản và/hoặc một biểu tượng mờ đi rồi rõ dần lên khi chạm vào. Ngoài ra, nút cũng có thể có nền (không bắt buộc).';
+  String get demoCupertinoButtonsDescription =>
+      'Đây là một nút theo kiểu iOS. Nút này có chứa văn bản và/hoặc một biểu tượng mờ đi rồi rõ dần lên khi chạm vào. Ngoài ra, nút cũng có thể có nền (không bắt buộc).';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +938,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,7 +948,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Cảnh báo';
@@ -901,7 +961,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => 'Cảnh báo';
 
   @override
-  String get demoCupertinoAlertDescription => 'Hộp thoại cảnh báo thông báo cho người dùng về các tình huống cần xác nhận. Hộp thoại cảnh báo không nhất thiết phải có tiêu đề, nội dung cũng như danh sách các hành động. Bạn sẽ thấy tiêu đề ở phía trên nội dung còn các hành động thì ở phía dưới.';
+  String get demoCupertinoAlertDescription =>
+      'Hộp thoại cảnh báo thông báo cho người dùng về các tình huống cần xác nhận. Hộp thoại cảnh báo không nhất thiết phải có tiêu đề, nội dung cũng như danh sách các hành động. Bạn sẽ thấy tiêu đề ở phía trên nội dung còn các hành động thì ở phía dưới.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Cảnh báo có tiêu đề';
@@ -916,16 +977,19 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'Trang tính hành động';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Trang tính hành động là một kiểu cảnh báo cụ thể cung cấp cho người dùng 2 hoặc nhiều lựa chọn liên quan đến ngữ cảnh hiện tại. Trang tính hành động có thể có một tiêu đề, thông báo bổ sung và danh sách các hành động.';
+  String get demoCupertinoActionSheetDescription =>
+      'Trang tính hành động là một kiểu cảnh báo cụ thể cung cấp cho người dùng 2 hoặc nhiều lựa chọn liên quan đến ngữ cảnh hiện tại. Trang tính hành động có thể có một tiêu đề, thông báo bổ sung và danh sách các hành động.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Thanh điều hướng';
 
   @override
-  String get demoCupertinoNavigationBarSubtitle => 'Thanh điều hướng theo kiểu iOS';
+  String get demoCupertinoNavigationBarSubtitle =>
+      'Thanh điều hướng theo kiểu iOS';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'Một thanh điều hướng theo kiểu iOS. Thanh điều hướng là thanh công cụ có tối thiểu một tiêu đề trang ở giữa.';
+  String get demoCupertinoNavigationBarDescription =>
+      'Một thanh điều hướng theo kiểu iOS. Thanh điều hướng là thanh công cụ có tối thiểu một tiêu đề trang ở giữa.';
 
   @override
   String get demoCupertinoPickerTitle => 'Bộ chọn';
@@ -934,7 +998,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoCupertinoPickerSubtitle => 'Bộ chọn ngày và giờ kiểu iOS';
 
   @override
-  String get demoCupertinoPickerDescription => 'Có thể dùng bộ chọn kiểu iOS để chọn ngày, giờ hoặc cả ngày và giờ.';
+  String get demoCupertinoPickerDescription =>
+      'Có thể dùng bộ chọn kiểu iOS để chọn ngày, giờ hoặc cả ngày và giờ.';
 
   @override
   String get demoCupertinoPickerTimer => 'Hẹn giờ';
@@ -952,19 +1017,24 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'Kéo để làm mới';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'Tùy chọn kiểm soát kéo để làm mới theo kiểu iOS';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'Tùy chọn kiểm soát kéo để làm mới theo kiểu iOS';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Một tiện ích giúp kiểm soát thao tác kéo để làm mới nội dung theo kiểu iOS.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Một tiện ích giúp kiểm soát thao tác kéo để làm mới nội dung theo kiểu iOS.';
 
   @override
-  String get demoCupertinoSegmentedControlTitle => 'Chế độ kiểm soát được phân đoạn';
+  String get demoCupertinoSegmentedControlTitle =>
+      'Chế độ kiểm soát được phân đoạn';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'Chế độ kiểm soát được phân đoạn theo kiểu iOS';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'Chế độ kiểm soát được phân đoạn theo kiểu iOS';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Dùng để chọn trong một số các tùy chọn loại trừ tương hỗ. Khi chọn 1 tùy chọn trong chế độ kiểm soát được phân đoạn, bạn sẽ không thể chọn các tùy chọn khác trong chế độ đó.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Dùng để chọn trong một số các tùy chọn loại trừ tương hỗ. Khi chọn 1 tùy chọn trong chế độ kiểm soát được phân đoạn, bạn sẽ không thể chọn các tùy chọn khác trong chế độ đó.';
 
   @override
   String get demoCupertinoSliderTitle => 'Thanh trượt';
@@ -973,7 +1043,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'Thanh trượt theo kiểu iOS';
 
   @override
-  String get demoCupertinoSliderDescription => 'Bạn có thể dùng thanh trượt để chọn trong một tập hợp các giá trị liên tục hoặc rời rạc.';
+  String get demoCupertinoSliderDescription =>
+      'Bạn có thể dùng thanh trượt để chọn trong một tập hợp các giá trị liên tục hoặc rời rạc.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,7 +1060,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'Nút chuyển theo kiểu iOS';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Bạn có thể dùng nút chuyển để chuyển đổi trạng thái bật/tắt của một tùy chọn cài đặt.';
+  String get demoCupertinoSwitchDescription =>
+      'Bạn có thể dùng nút chuyển để chuyển đổi trạng thái bật/tắt của một tùy chọn cài đặt.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Thanh thẻ';
@@ -998,7 +1070,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'Thanh tab dưới cùng theo kiểu iOS';
 
   @override
-  String get demoCupertinoTabBarDescription => 'Thanh tab điều hướng dưới cùng theo kiểu iOS. Hiển thị nhiều tab khi đang mở một tab, tab đầu tiên hiển thị theo mặc định.';
+  String get demoCupertinoTabBarDescription =>
+      'Thanh tab điều hướng dưới cùng theo kiểu iOS. Hiển thị nhiều tab khi đang mở một tab, tab đầu tiên hiển thị theo mặc định.';
 
   @override
   String get cupertinoTabBarHomeTab => 'Trang chủ';
@@ -1016,7 +1089,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'Trường văn bản kiểu iOS';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'Trường văn bản để người dùng nhập văn bản bằng bàn phím thực hoặc bàn phím ảo.';
+  String get demoCupertinoTextFieldDescription =>
+      'Trường văn bản để người dùng nhập văn bản bằng bàn phím thực hoặc bàn phím ảo.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'Mã PIN';
@@ -1049,7 +1123,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'Biến đổi vùng chứa';
 
   @override
-  String get demoContainerTransformDescription => 'Mẫu biến đổi vùng chứa được thiết kế cho quá trình chuyển đổi giữa các thành phần giao diện người dùng có vùng chứa. Mẫu này tạo ra sự kết nối dễ thấy giữa 2 thành phần giao diện người dùng';
+  String get demoContainerTransformDescription =>
+      'Mẫu biến đổi vùng chứa được thiết kế cho quá trình chuyển đổi giữa các thành phần giao diện người dùng có vùng chứa. Mẫu này tạo ra sự kết nối dễ thấy giữa 2 thành phần giao diện người dùng';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'Chế độ làm mờ';
@@ -1076,7 +1151,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Mục danh sách';
 
   @override
-  String get demoSharedAxisDescription => 'Mẫu trục chung được dùng cho quá trình chuyển đổi giữa các thành phần giao diện người dùng có mối quan hệ về hướng hoặc không gian. Mẫu này dùng sự biến đổi chung trên trục x, y hoặc z để củng cố mối quan hệ giữa các thành phần.';
+  String get demoSharedAxisDescription =>
+      'Mẫu trục chung được dùng cho quá trình chuyển đổi giữa các thành phần giao diện người dùng có mối quan hệ về hướng hoặc không gian. Mẫu này dùng sự biến đổi chung trên trục x, y hoặc z để củng cố mối quan hệ giữa các thành phần.';
 
   @override
   String get demoSharedXAxisTitle => 'Trục x chung';
@@ -1091,7 +1167,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'Tinh giản các khóa học';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Các danh mục theo gói sẽ xuất hiện ở dạng nhóm trong nguồn cấp dữ liệu của bạn. Bạn luôn có thể thay đổi tùy chọn này vào lúc khác.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Các danh mục theo gói sẽ xuất hiện ở dạng nhóm trong nguồn cấp dữ liệu của bạn. Bạn luôn có thể thay đổi tùy chọn này vào lúc khác.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Thủ công và mỹ nghệ';
@@ -1118,7 +1195,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoSharedXAxisSignInWelcomeText => 'Xin chào David Park';
 
   @override
-  String get demoSharedXAxisSignInSubtitleText => 'Đăng nhập bằng tài khoản của bạn';
+  String get demoSharedXAxisSignInSubtitleText =>
+      'Đăng nhập bằng tài khoản của bạn';
 
   @override
   String get demoSharedXAxisSignInTextFieldLabel => 'Email hoặc số điện thoại';
@@ -1160,37 +1238,43 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoSharedZAxisBurgerRecipeTitle => 'Bánh mì kẹp';
 
   @override
-  String get demoSharedZAxisBurgerRecipeDescription => 'Công thức làm bánh mì kẹp';
+  String get demoSharedZAxisBurgerRecipeDescription =>
+      'Công thức làm bánh mì kẹp';
 
   @override
   String get demoSharedZAxisSandwichRecipeTitle => 'Bánh sandwich';
 
   @override
-  String get demoSharedZAxisSandwichRecipeDescription => 'Công thức làm bánh sandwich';
+  String get demoSharedZAxisSandwichRecipeDescription =>
+      'Công thức làm bánh sandwich';
 
   @override
   String get demoSharedZAxisDessertRecipeTitle => 'Món tráng miệng';
 
   @override
-  String get demoSharedZAxisDessertRecipeDescription => 'Công thức làm món tráng miệng';
+  String get demoSharedZAxisDessertRecipeDescription =>
+      'Công thức làm món tráng miệng';
 
   @override
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Tôm';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Công thức làm món tôm';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Công thức làm món tôm';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Cua';
 
   @override
-  String get demoSharedZAxisCrabPlateRecipeDescription => 'Công thức làm món cua';
+  String get demoSharedZAxisCrabPlateRecipeDescription =>
+      'Công thức làm món cua';
 
   @override
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Bánh sandwich bò';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Công thức làm bánh sandwich bò';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Công thức làm bánh sandwich bò';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Công thức nấu ăn đã lưu';
@@ -1211,7 +1295,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Chuyển mờ';
 
   @override
-  String get demoFadeThroughDescription => 'Mẫu chuyển mờ được dùng cho quá trình chuyển đổi giữa các thành phần giao diện người dùng không có mối quan hệ chặt chẽ với nhau.';
+  String get demoFadeThroughDescription =>
+      'Mẫu chuyển mờ được dùng cho quá trình chuyển đổi giữa các thành phần giao diện người dùng không có mối quan hệ chặt chẽ với nhau.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Album';
@@ -1229,7 +1314,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Làm mờ';
 
   @override
-  String get demoFadeScaleDescription => 'Mẫu làm mờ được dùng cho các thành phần giao diện người dùng đi vào hoặc thoát ra trong phạm vi màn hình, chẳng hạn như một hộp thoại mờ dần ở giữa màn hình.';
+  String get demoFadeScaleDescription =>
+      'Mẫu làm mờ được dùng cho các thành phần giao diện người dùng đi vào hoặc thoát ra trong phạm vi màn hình, chẳng hạn như một hộp thoại mờ dần ở giữa màn hình.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'HIỆN HỘP THOẠI';
@@ -1256,7 +1342,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Tất cả các màu xác định trước';
 
   @override
-  String get demoColorsDescription => 'Color and color swatch constants which represent Material design\'s color palette.';
+  String get demoColorsDescription =>
+      'Color and color swatch constants which represent Material design\'s color palette.';
 
   @override
   String get demoTypographyTitle => 'Nghệ thuật chữ';
@@ -1265,7 +1352,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoTypographySubtitle => 'Tất cả các kiểu chữ định sẵn';
 
   @override
-  String get demoTypographyDescription => 'Định nghĩa của nhiều kiểu nghệ thuật chữ có trong Material Design.';
+  String get demoTypographyDescription =>
+      'Định nghĩa của nhiều kiểu nghệ thuật chữ có trong Material Design.';
 
   @override
   String get demo2dTransformationsTitle => 'Phép biến đổi 2D';
@@ -1274,7 +1362,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'Dịch chuyển, thu phóng, xoay';
 
   @override
-  String get demo2dTransformationsDescription => 'Nhấn để chỉnh sửa thẻ thông tin rồi dùng cử chỉ để di chuyển xung quanh cảnh. Kéo để di chuyển, chụm để thu phóng, xoay bằng 2 ngón tay. Nhấn nút đặt lại để trở về hướng bắt đầu.';
+  String get demo2dTransformationsDescription =>
+      'Nhấn để chỉnh sửa thẻ thông tin rồi dùng cử chỉ để di chuyển xung quanh cảnh. Kéo để di chuyển, chụm để thu phóng, xoay bằng 2 ngón tay. Nhấn nút đặt lại để trở về hướng bắt đầu.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Đặt lại phép biến đổi';
@@ -1289,19 +1378,22 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoBottomSheetTitle => 'Bảng dưới cùng';
 
   @override
-  String get demoBottomSheetSubtitle => 'Bảng cách điệu và bảng cố định dưới cùng';
+  String get demoBottomSheetSubtitle =>
+      'Bảng cách điệu và bảng cố định dưới cùng';
 
   @override
   String get demoBottomSheetPersistentTitle => 'Bảng cố định dưới cùng';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Bảng cố định dưới cùng hiển thị thông tin bổ sung cho nội dung chính của ứng dụng. Ngay cả khi người dùng tương tác với các phần khác của ứng dụng thì bảng cố định dưới cùng sẽ vẫn hiển thị.';
+  String get demoBottomSheetPersistentDescription =>
+      'Bảng cố định dưới cùng hiển thị thông tin bổ sung cho nội dung chính của ứng dụng. Ngay cả khi người dùng tương tác với các phần khác của ứng dụng thì bảng cố định dưới cùng sẽ vẫn hiển thị.';
 
   @override
   String get demoBottomSheetModalTitle => 'Bảng dưới cùng cách điệu';
 
   @override
-  String get demoBottomSheetModalDescription => 'Bảng cách điệu dưới cùng là một dạng thay thế cho trình đơn hoặc hộp thoại để ngăn người dùng tương tác với phần còn lại của ứng dụng.';
+  String get demoBottomSheetModalDescription =>
+      'Bảng cách điệu dưới cùng là một dạng thay thế cho trình đơn hoặc hộp thoại để ngăn người dùng tương tác với phần còn lại của ứng dụng.';
 
   @override
   String get demoBottomSheetAddLabel => 'Thêm';
@@ -1324,7 +1416,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoListsSubtitle => 'Bố cục của danh sách cuộn';
 
   @override
-  String get demoListsDescription => 'Một hàng có chiều cao cố định thường chứa một số văn bản cũng như biểu tượng ở đầu hoặc ở cuối.';
+  String get demoListsDescription =>
+      'Một hàng có chiều cao cố định thường chứa một số văn bản cũng như biểu tượng ở đầu hoặc ở cuối.';
 
   @override
   String get demoOneLineListsTitle => '1 dòng';
@@ -1339,19 +1432,24 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoProgressIndicatorTitle => 'Chỉ báo tiến trình';
 
   @override
-  String get demoProgressIndicatorSubtitle => 'Tuyến tính, vòng tròn, không xác định';
+  String get demoProgressIndicatorSubtitle =>
+      'Tuyến tính, vòng tròn, không xác định';
 
   @override
-  String get demoCircularProgressIndicatorTitle => 'Chỉ báo tiến trình vòng tròn';
+  String get demoCircularProgressIndicatorTitle =>
+      'Chỉ báo tiến trình vòng tròn';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Chỉ báo tiến trình vòng tròn trong Material Design, quay vòng để chỉ ra rằng ứng dụng đang bận.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Chỉ báo tiến trình vòng tròn trong Material Design, quay vòng để chỉ ra rằng ứng dụng đang bận.';
 
   @override
-  String get demoLinearProgressIndicatorTitle => 'Chỉ báo tiến trình tuyến tính';
+  String get demoLinearProgressIndicatorTitle =>
+      'Chỉ báo tiến trình tuyến tính';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Chỉ báo tiến trình tuyến tính trong Material Design, còn được gọi là thanh tiến trình.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Chỉ báo tiến trình tuyến tính trong Material Design, còn được gọi là thanh tiến trình.';
 
   @override
   String get demoPickersTitle => 'Bộ chọn';
@@ -1363,19 +1461,22 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Bộ chọn ngày';
 
   @override
-  String get demoDatePickerDescription => 'Hiển thị hộp thoại chứa bộ chọn ngày Material Design.';
+  String get demoDatePickerDescription =>
+      'Hiển thị hộp thoại chứa bộ chọn ngày Material Design.';
 
   @override
   String get demoTimePickerTitle => 'Bộ chọn giờ';
 
   @override
-  String get demoTimePickerDescription => 'Hiển thị hộp thoại chứa bộ chọn giờ Material Design.';
+  String get demoTimePickerDescription =>
+      'Hiển thị hộp thoại chứa bộ chọn giờ Material Design.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'HIỂN THỊ BỘ CHỌN';
@@ -1390,19 +1491,23 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoTabsNonScrollingTitle => 'Không cuộn';
 
   @override
-  String get demoTabsSubtitle => 'Các tab có chế độ xem có thể di chuyển độc lập';
+  String get demoTabsSubtitle =>
+      'Các tab có chế độ xem có thể di chuyển độc lập';
 
   @override
-  String get demoTabsDescription => 'Các tab sắp xếp nội dung trên nhiều màn hình, tập dữ liệu và hoạt động tương tác khác.';
+  String get demoTabsDescription =>
+      'Các tab sắp xếp nội dung trên nhiều màn hình, tập dữ liệu và hoạt động tương tác khác.';
 
   @override
   String get demoSnackbarsTitle => 'Thanh thông báo nhanh';
 
   @override
-  String get demoSnackbarsSubtitle => 'Thanh thông báo nhanh hiển thị các thông báo ở cuối màn hình';
+  String get demoSnackbarsSubtitle =>
+      'Thanh thông báo nhanh hiển thị các thông báo ở cuối màn hình';
 
   @override
-  String get demoSnackbarsDescription => 'Thanh thông báo nhanh cho người dùng biết về quá trình mà một ứng dụng đã hoặc sẽ thực hiện. Các thanh thông báo này xuất hiện tạm thời ở phía cuối màn hình. Các thanh thông báo này không làm gián đoạn trải nghiệm người dùng cũng như không yêu cầu ẩn nội dung người dùng nhập vào.';
+  String get demoSnackbarsDescription =>
+      'Thanh thông báo nhanh cho người dùng biết về quá trình mà một ứng dụng đã hoặc sẽ thực hiện. Các thanh thông báo này xuất hiện tạm thời ở phía cuối màn hình. Các thanh thông báo này không làm gián đoạn trải nghiệm người dùng cũng như không yêu cầu ẩn nội dung người dùng nhập vào.';
 
   @override
   String get demoSnackbarsButtonLabel => 'HIỂN THỊ THANH THÔNG BÁO NHANH';
@@ -1414,31 +1519,36 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoSnackbarsActionButtonLabel => 'HÀNH ĐỘNG';
 
   @override
-  String get demoSnackbarsAction => 'Bạn đã nhấn vào một hành động trên thanh thông báo nhanh.';
+  String get demoSnackbarsAction =>
+      'Bạn đã nhấn vào một hành động trên thanh thông báo nhanh.';
 
   @override
   String get demoSelectionControlsTitle => 'Các chức năng điều khiển lựa chọn';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Các hộp kiểm, nút radio và công tắc';
+  String get demoSelectionControlsSubtitle =>
+      'Các hộp kiểm, nút radio và công tắc';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Hộp kiểm';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Các hộp kiểm cho phép người dùng chọn nhiều tùy chọn trong một tập hợp. Giá trị thông thường của hộp kiểm là true hoặc false và giá trị 3 trạng thái của hộp kiểm cũng có thể là null.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Các hộp kiểm cho phép người dùng chọn nhiều tùy chọn trong một tập hợp. Giá trị thông thường của hộp kiểm là true hoặc false và giá trị 3 trạng thái của hộp kiểm cũng có thể là null.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Nút radio';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Các nút radio cho phép người dùng chọn một tùy chọn trong một tập hợp. Hãy dùng nút radio để lựa chọn riêng nếu bạn cho rằng người dùng cần xem song song tất cả các tùy chọn có sẵn.';
+  String get demoSelectionControlsRadioDescription =>
+      'Các nút radio cho phép người dùng chọn một tùy chọn trong một tập hợp. Hãy dùng nút radio để lựa chọn riêng nếu bạn cho rằng người dùng cần xem song song tất cả các tùy chọn có sẵn.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Công tắc';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Các công tắc bật/tắt chuyển đổi trạng thái của một tùy chọn cài đặt. Tùy chọn mà công tắc điều khiển, cũng như trạng thái của tùy chọn, phải được hiện rõ bằng nhãn nội tuyến tương ứng.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Các công tắc bật/tắt chuyển đổi trạng thái của một tùy chọn cài đặt. Tùy chọn mà công tắc điều khiển, cũng như trạng thái của tùy chọn, phải được hiện rõ bằng nhãn nội tuyến tương ứng.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Trường văn bản';
@@ -1450,7 +1560,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoTextFieldSubtitle => 'Một dòng gồm chữ và số chỉnh sửa được';
 
   @override
-  String get demoTextFieldDescription => 'Các trường văn bản cho phép người dùng nhập văn bản vào giao diện người dùng. Những trường này thường xuất hiện trong các biểu mẫu và hộp thoại.';
+  String get demoTextFieldDescription =>
+      'Các trường văn bản cho phép người dùng nhập văn bản vào giao diện người dùng. Những trường này thường xuất hiện trong các biểu mẫu và hộp thoại.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Hiển thị mật khẩu';
@@ -1459,7 +1570,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Ẩn mật khẩu';
 
   @override
-  String get demoTextFieldFormErrors => 'Vui lòng sửa các trường hiển thị lỗi màu đỏ trước khi gửi.';
+  String get demoTextFieldFormErrors =>
+      'Vui lòng sửa các trường hiển thị lỗi màu đỏ trước khi gửi.';
 
   @override
   String get demoTextFieldNameRequired => 'Bạn phải nhập tên.';
@@ -1468,13 +1580,15 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoTextFieldOnlyAlphabeticalChars => 'Vui lòng chỉ nhập chữ cái.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### – Nhập một số điện thoại của Hoa Kỳ.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### – Nhập một số điện thoại của Hoa Kỳ.';
 
   @override
   String get demoTextFieldEnterPassword => 'Hãy nhập mật khẩu.';
 
   @override
-  String get demoTextFieldPasswordsDoNotMatch => 'Các mật khẩu không trùng khớp';
+  String get demoTextFieldPasswordsDoNotMatch =>
+      'Các mật khẩu không trùng khớp';
 
   @override
   String get demoTextFieldWhatDoPeopleCallYou => 'Bạn tên là gì?';
@@ -1483,7 +1597,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoTextFieldNameField => 'Tên*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'Số điện thoại liên hệ của bạn?';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'Số điện thoại liên hệ của bạn?';
 
   @override
   String get demoTextFieldPhoneNumber => 'Số điện thoại*';
@@ -1495,10 +1610,12 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoTextFieldEmail => 'Email';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Giới thiệu về bản thân (ví dụ: ghi rõ nghề nghiệp hoặc sở thích của bạn)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Giới thiệu về bản thân (ví dụ: ghi rõ nghề nghiệp hoặc sở thích của bạn)';
 
   @override
-  String get demoTextFieldKeepItShort => 'Hãy nhập nội dung thật ngắn gọn, đây chỉ là phiên bản dùng thử.';
+  String get demoTextFieldKeepItShort =>
+      'Hãy nhập nội dung thật ngắn gọn, đây chỉ là phiên bản dùng thử.';
 
   @override
   String get demoTextFieldLifeStory => 'Tiểu sử';
@@ -1533,13 +1650,16 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get demoTooltipTitle => 'Chú giải công cụ';
 
   @override
-  String get demoTooltipSubtitle => 'Hiển thị thông báo ngắn khi nhấn và giữ hoặc di chuột';
+  String get demoTooltipSubtitle =>
+      'Hiển thị thông báo ngắn khi nhấn và giữ hoặc di chuột';
 
   @override
-  String get demoTooltipDescription => 'Chú giải công cụ cung cấp nhãn văn bản làm rõ chức năng của nút hoặc hành động khác trong giao diện người dùng. Chú giải công cụ hiển thị văn bản cung cấp thông tin khi người dùng di chuột qua, trỏ vào hoặc nhấn và giữ một phần tử.';
+  String get demoTooltipDescription =>
+      'Chú giải công cụ cung cấp nhãn văn bản làm rõ chức năng của nút hoặc hành động khác trong giao diện người dùng. Chú giải công cụ hiển thị văn bản cung cấp thông tin khi người dùng di chuột qua, trỏ vào hoặc nhấn và giữ một phần tử.';
 
   @override
-  String get demoTooltipInstructions => 'Nhấn và giữ hoặc di chuột để hiển thị chú giải công cụ.';
+  String get demoTooltipInstructions =>
+      'Nhấn và giữ hoặc di chuột để hiển thị chú giải công cụ.';
 
   @override
   String get bottomNavigationCommentsTab => 'Bình luận';
@@ -1600,7 +1720,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get dialogLocationTitle => 'Sử dụng dịch vụ vị trí của Google?';
 
   @override
-  String get dialogLocationDescription => 'Cho phép Google giúp ứng dụng xác định vị trí. Điều này có nghĩa là gửi dữ liệu vị trí ẩn danh cho Google, ngay cả khi không chạy ứng dụng nào.';
+  String get dialogLocationDescription =>
+      'Cho phép Google giúp ứng dụng xác định vị trí. Điều này có nghĩa là gửi dữ liệu vị trí ẩn danh cho Google, ngay cả khi không chạy ứng dụng nào.';
 
   @override
   String get dialogCancel => 'HỦY';
@@ -1645,10 +1766,12 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Hủy';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Cho phép \"Maps\" sử dụng thông tin vị trí của bạn khi bạn đang dùng ứng dụng?';
+  String get cupertinoAlertLocationTitle =>
+      'Cho phép \"Maps\" sử dụng thông tin vị trí của bạn khi bạn đang dùng ứng dụng?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Vị trí hiện tại của bạn sẽ hiển thị trên bản đồ và dùng để xác định đường đi, kết quả tìm kiếm ở gần và thời gian đi lại ước đoán.';
+  String get cupertinoAlertLocationDescription =>
+      'Vị trí hiện tại của bạn sẽ hiển thị trên bản đồ và dùng để xác định đường đi, kết quả tìm kiếm ở gần và thời gian đi lại ước đoán.';
 
   @override
   String get cupertinoAlertAllow => 'Cho phép';
@@ -1660,7 +1783,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Chọn món tráng miệng yêu thích';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Vui lòng chọn món tráng miệng yêu thích từ danh sách bên dưới. Món tráng miệng bạn chọn sẽ dùng để tùy chỉnh danh sách các quán ăn đề xuất trong khu vực của bạn.';
+  String get cupertinoAlertDessertDescription =>
+      'Vui lòng chọn món tráng miệng yêu thích từ danh sách bên dưới. Món tráng miệng bạn chọn sẽ dùng để tùy chỉnh danh sách các quán ăn đề xuất trong khu vực của bạn.';
 
   @override
   String get cupertinoAlertCheesecake => 'Bánh phô mai';
@@ -1980,7 +2104,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get shrineProductClassicWhiteCollar => 'Áo sơ mi cổ trắng cổ điển';
 
   @override
-  String get shrineProductCeriseScallopTee => 'Áo thun viền cổ dạng vỏ sò màu đỏ hồng';
+  String get shrineProductCeriseScallopTee =>
+      'Áo thun viền cổ dạng vỏ sò màu đỏ hồng';
 
   @override
   String get shrineProductShoulderRollsTee => 'Áo thun xắn tay';
@@ -2243,13 +2368,15 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get craneEat10 => 'Lisbon, Bồ Đào Nha';
 
   @override
-  String get craneFly0SemanticLabel => 'Căn nhà gỗ trong khung cảnh đầy tuyết với cây thường xanh xung quanh';
+  String get craneFly0SemanticLabel =>
+      'Căn nhà gỗ trong khung cảnh đầy tuyết với cây thường xanh xung quanh';
 
   @override
   String get craneFly1SemanticLabel => 'Chiếc lều giữa cánh đồng';
 
   @override
-  String get craneFly2SemanticLabel => 'Những lá cờ cầu nguyện phía trước ngọn núi đầy tuyết';
+  String get craneFly2SemanticLabel =>
+      'Những lá cờ cầu nguyện phía trước ngọn núi đầy tuyết';
 
   @override
   String get craneFly3SemanticLabel => 'Thành cổ Machu Picchu';
@@ -2258,10 +2385,12 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get craneFly4SemanticLabel => 'Nhà gỗ một tầng trên mặt nước';
 
   @override
-  String get craneFly5SemanticLabel => 'Khách sạn bên hồ phía trước những ngọn núi';
+  String get craneFly5SemanticLabel =>
+      'Khách sạn bên hồ phía trước những ngọn núi';
 
   @override
-  String get craneFly6SemanticLabel => 'Quang cảnh Palacio de Bellas Artes nhìn từ trên không';
+  String get craneFly6SemanticLabel =>
+      'Quang cảnh Palacio de Bellas Artes nhìn từ trên không';
 
   @override
   String get craneFly7SemanticLabel => 'Núi Rushmore';
@@ -2270,7 +2399,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'Supertree Grove';
 
   @override
-  String get craneFly9SemanticLabel => 'Người đàn ông tựa vào chiếc xe ô tô cổ màu xanh dương';
+  String get craneFly9SemanticLabel =>
+      'Người đàn ông tựa vào chiếc xe ô tô cổ màu xanh dương';
 
   @override
   String get craneFly10SemanticLabel => 'Tháp Al-Azhar Mosque lúc hoàng hôn';
@@ -2282,22 +2412,26 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get craneFly12SemanticLabel => 'Bể bơi xung quanh là những cây cọ';
 
   @override
-  String get craneFly13SemanticLabel => 'Bể bơi ven biển xung quanh là những cây cọ';
+  String get craneFly13SemanticLabel =>
+      'Bể bơi ven biển xung quanh là những cây cọ';
 
   @override
   String get craneSleep0SemanticLabel => 'Nhà gỗ một tầng trên mặt nước';
 
   @override
-  String get craneSleep1SemanticLabel => 'Căn nhà gỗ trong khung cảnh đầy tuyết với cây thường xanh xung quanh';
+  String get craneSleep1SemanticLabel =>
+      'Căn nhà gỗ trong khung cảnh đầy tuyết với cây thường xanh xung quanh';
 
   @override
   String get craneSleep2SemanticLabel => 'Thành cổ Machu Picchu';
 
   @override
-  String get craneSleep3SemanticLabel => 'Người đàn ông tựa vào chiếc xe ô tô cổ màu xanh dương';
+  String get craneSleep3SemanticLabel =>
+      'Người đàn ông tựa vào chiếc xe ô tô cổ màu xanh dương';
 
   @override
-  String get craneSleep4SemanticLabel => 'Khách sạn bên hồ phía trước những ngọn núi';
+  String get craneSleep4SemanticLabel =>
+      'Khách sạn bên hồ phía trước những ngọn núi';
 
   @override
   String get craneSleep5SemanticLabel => 'Chiếc lều giữa cánh đồng';
@@ -2306,13 +2440,16 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get craneSleep6SemanticLabel => 'Bể bơi xung quanh là những cây cọ';
 
   @override
-  String get craneSleep7SemanticLabel => 'Những ngôi nhà rực rỡ sắc màu tại Quảng trường Riberia';
+  String get craneSleep7SemanticLabel =>
+      'Những ngôi nhà rực rỡ sắc màu tại Quảng trường Riberia';
 
   @override
-  String get craneSleep8SemanticLabel => 'Những vết tích của nền văn minh Maya ở một vách đá phía trên bãi biển';
+  String get craneSleep8SemanticLabel =>
+      'Những vết tích của nền văn minh Maya ở một vách đá phía trên bãi biển';
 
   @override
-  String get craneSleep9SemanticLabel => 'Ngọn hải đăng xây bằng gạch trên biển';
+  String get craneSleep9SemanticLabel =>
+      'Ngọn hải đăng xây bằng gạch trên biển';
 
   @override
   String get craneSleep10SemanticLabel => 'Tháp Al-Azhar Mosque lúc hoàng hôn';
@@ -2324,7 +2461,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get craneEat0SemanticLabel => 'Bánh pizza trong một lò nướng bằng củi';
 
   @override
-  String get craneEat1SemanticLabel => 'Quầy bar không người với những chiếc ghế đẩu chuyên dùng trong bar';
+  String get craneEat1SemanticLabel =>
+      'Quầy bar không người với những chiếc ghế đẩu chuyên dùng trong bar';
 
   @override
   String get craneEat2SemanticLabel => 'Bánh mì kẹp';
@@ -2336,7 +2474,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get craneEat4SemanticLabel => 'Món tráng miệng làm từ sô-cô-la';
 
   @override
-  String get craneEat5SemanticLabel => 'Khu vực ghế ngồi đậm chất nghệ thuật tại nhà hàng';
+  String get craneEat5SemanticLabel =>
+      'Khu vực ghế ngồi đậm chất nghệ thuật tại nhà hàng';
 
   @override
   String get craneEat6SemanticLabel => 'Món ăn làm từ tôm';
@@ -2351,7 +2490,8 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get craneEat9SemanticLabel => 'Quầy cà phê bày những chiếc bánh ngọt';
 
   @override
-  String get craneEat10SemanticLabel => 'Người phụ nữ cầm chiếc bánh sandwich kẹp thịt bò hun khói siêu to';
+  String get craneEat10SemanticLabel =>
+      'Người phụ nữ cầm chiếc bánh sandwich kẹp thịt bò hun khói siêu to';
 
   @override
   String get fortnightlyMenuFrontPage => 'Trang đầu';
@@ -2402,10 +2542,12 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Thông tin cập nhật mới nhất';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Cuộc cải cách y tế âm thầm mà bền bỉ';
+  String get fortnightlyHeadlineHealthcare =>
+      'Cuộc cải cách y tế âm thầm mà bền bỉ';
 
   @override
-  String get fortnightlyHeadlineWar => 'Những người Mỹ phải chia ly trong thời chiến';
+  String get fortnightlyHeadlineWar =>
+      'Những người Mỹ phải chia ly trong thời chiến';
 
   @override
   String get fortnightlyHeadlineGasoline => 'Tương lai của xăng dầu';
@@ -2414,13 +2556,16 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'Cải cách Green Army từ bên trong';
 
   @override
-  String get fortnightlyHeadlineStocks => 'Khi cổ phiếu chứng khoán đình trệ, nhiều người chuyển sang dự trữ tiền tệ';
+  String get fortnightlyHeadlineStocks =>
+      'Khi cổ phiếu chứng khoán đình trệ, nhiều người chuyển sang dự trữ tiền tệ';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Nhiều nhà thiết kế dùng công nghệ để tạo ra loại vải thế hệ mới';
+  String get fortnightlyHeadlineFabrics =>
+      'Nhiều nhà thiết kế dùng công nghệ để tạo ra loại vải thế hệ mới';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'Chủ nghĩa nữ quyền thách thức các đảng chính trị';
+  String get fortnightlyHeadlineFeminists =>
+      'Chủ nghĩa nữ quyền thách thức các đảng chính trị';
 
   @override
   String get fortnightlyHeadlineBees => 'Thiếu hụt nguồn cung ong nuôi';

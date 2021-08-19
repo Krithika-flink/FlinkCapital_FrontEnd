@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get signIn => 'УВІЙТИ';
 
   @override
-  String get bannerDemoText => 'Пароль було оновлено на іншому пристрої. Увійдіть знову.';
+  String get bannerDemoText =>
+      'Пароль було оновлено на іншому пристрої. Увійдіть знову.';
 
   @override
   String get bannerDemoResetText => 'Скинути банер';
@@ -60,7 +60,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => '10 найпопулярніших міст штату Тамілнад';
+  String get cardsDemoTravelDestinationTitle1 =>
+      '10 найпопулярніших міст штату Тамілнад';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Номер 10';
@@ -120,16 +121,19 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Відпустка';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Річний дохід у відсотках';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Річний дохід у відсотках';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Процентна ставка';
 
   @override
-  String get rallyAccountDetailDataInterestYtd => 'Проценти від початку року до сьогодні';
+  String get rallyAccountDetailDataInterestYtd =>
+      'Проценти від початку року до сьогодні';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Проценти, виплачені минулого року';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Проценти, виплачені минулого року';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Наступна виписка';
@@ -285,10 +289,14 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Збільште можливу податкову пільгу! Призначте категорії 1 трансакції.',
-      few: 'Збільште можливу податкову пільгу! Призначте категорії ${count} трансакціям.',
-      many: 'Збільште можливу податкову пільгу! Призначте категорії ${count} трансакціям.',
-      other: 'Збільште можливу податкову пільгу! Призначте категорії ${count} трансакції.',
+      one:
+          'Збільште можливу податкову пільгу! Призначте категорії 1 трансакції.',
+      few:
+          'Збільште можливу податкову пільгу! Призначте категорії ${count} трансакціям.',
+      many:
+          'Збільште можливу податкову пільгу! Призначте категорії ${count} трансакціям.',
+      other:
+          'Збільште можливу податкову пільгу! Призначте категорії ${count} трансакції.',
     );
   }
 
@@ -302,7 +310,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Переглянути всі бюджети';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'Рахунок \"${accountName}\" (${accountNumber}), на якому зберігається ${amount}.';
   }
 
@@ -312,7 +321,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'З бюджету \"${budgetName}\" (${amountTotal}) використано ${amountUsed}, залишок – ${amountLeft}';
   }
 
@@ -344,7 +354,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoCodeViewerCopyAll => 'КОПІЮВАТИ ВСЕ';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'Скопійовано в буфер обміну.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'Скопійовано в буфер обміну.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -355,7 +366,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Параметри перегляду';
 
   @override
-  String get demoOptionsFeatureDescription => 'Натисніть, щоб переглянути параметри для цієї демо-версії.';
+  String get demoOptionsFeatureDescription =>
+      'Натисніть, щоб переглянути параметри для цієї демо-версії.';
 
   @override
   String get settingsTitle => 'Налаштування';
@@ -427,19 +439,23 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Нижня панель додатків';
 
   @override
-  String get demoBottomAppBarSubtitle => 'Показує кнопки навігації та командні кнопки внизу екрана';
+  String get demoBottomAppBarSubtitle =>
+      'Показує кнопки навігації та командні кнопки внизу екрана';
 
   @override
-  String get demoBottomAppBarDescription => 'Нижня панель додатків надає доступ до нижньої панелі навігації та до щонайбільше чотирьох командних кнопок, зокрема плаваючої.';
+  String get demoBottomAppBarDescription =>
+      'Нижня панель додатків надає доступ до нижньої панелі навігації та до щонайбільше чотирьох командних кнопок, зокрема плаваючої.';
 
   @override
   String get bottomAppBarNotch => 'Виріз екрана';
@@ -466,13 +482,15 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Показ банера в списку';
 
   @override
-  String get demoBannerDescription => 'Банер показує важливе коротке повідомлення та пропонує користувачу виконати певні дії (або закрити банер). Щоб закрити банер, користувач має виконати дію.';
+  String get demoBannerDescription =>
+      'Банер показує важливе коротке повідомлення та пропонує користувачу виконати певні дії (або закрити банер). Щоб закрити банер, користувач має виконати дію.';
 
   @override
   String get demoBottomNavigationTitle => 'Навігація в нижній частині екрана';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Нижня панель навігації зі зникаючими вікнами перегляду';
+  String get demoBottomNavigationSubtitle =>
+      'Нижня панель навігації зі зникаючими вікнами перегляду';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Постійні мітки';
@@ -481,7 +499,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Вибрана мітка';
 
   @override
-  String get demoBottomNavigationDescription => 'На нижній панелі навігації відображається від трьох до п\'яти розділів у нижній частині екрана. Кожен розділ має значок і текстові мітку (необов\'язково). Коли користувач натискає значок на нижній панелі навігації, він переходить на вищий рівень розділу навігації, зв\'язаний із цим значком.';
+  String get demoBottomNavigationDescription =>
+      'На нижній панелі навігації відображається від трьох до п\'яти розділів у нижній частині екрана. Кожен розділ має значок і текстові мітку (необов\'язково). Коли користувач натискає значок на нижній панелі навігації, він переходить на вищий рівень розділу навігації, зв\'язаний із цим значком.';
 
   @override
   String get demoButtonTitle => 'Кнопки';
@@ -493,31 +512,36 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoTextButtonTitle => 'Текстова кнопка';
 
   @override
-  String get demoTextButtonDescription => 'За натискання текстової кнопки по ній проходить кольоровий спалах, і кнопка не піднімається. Використовуйте текстові кнопки на панелях інструментів, у діалогових вікнах і вбудованих елементах із відступами.';
+  String get demoTextButtonDescription =>
+      'За натискання текстової кнопки по ній проходить кольоровий спалах, і кнопка не піднімається. Використовуйте текстові кнопки на панелях інструментів, у діалогових вікнах і вбудованих елементах із відступами.';
 
   @override
   String get demoElevatedButtonTitle => 'Опукла кнопка';
 
   @override
-  String get demoElevatedButtonDescription => 'Опуклі кнопки роблять пласкі макети помітнішими. Вони привертають увагу до функцій на заповнених або пустих місцях.';
+  String get demoElevatedButtonDescription =>
+      'Опуклі кнопки роблять пласкі макети помітнішими. Вони привертають увагу до функцій на заповнених або пустих місцях.';
 
   @override
   String get demoOutlinedButtonTitle => 'Кнопка з контуром';
 
   @override
-  String get demoOutlinedButtonDescription => 'Кнопки з контуром стають прозорими й піднімаються, якщо їх натиснути. Зазвичай їх використовують з опуклими кнопками для позначення альтернативних і другорядних дій.';
+  String get demoOutlinedButtonDescription =>
+      'Кнопки з контуром стають прозорими й піднімаються, якщо їх натиснути. Зазвичай їх використовують з опуклими кнопками для позначення альтернативних і другорядних дій.';
 
   @override
   String get demoToggleButtonTitle => 'Перемикачі';
 
   @override
-  String get demoToggleButtonDescription => 'Перемикач можна використовувати для групування пов\'язаних параметрів. Щоб виділити групу пов\'язаних перемикачів, вона повинна мати спільний контейнер';
+  String get demoToggleButtonDescription =>
+      'Перемикач можна використовувати для групування пов\'язаних параметрів. Щоб виділити групу пов\'язаних перемикачів, вона повинна мати спільний контейнер';
 
   @override
   String get demoFloatingButtonTitle => 'Плаваюча командна кнопка';
 
   @override
-  String get demoFloatingButtonDescription => 'Плаваюча командна кнопка – це круглий значок, який накладається на контент, щоб привернути увагу до основних дій у додатку.';
+  String get demoFloatingButtonDescription =>
+      'Плаваюча командна кнопка – це круглий значок, який накладається на контент, щоб привернути увагу до основних дій у додатку.';
 
   @override
   String get demoCardTitle => 'Картки';
@@ -529,34 +553,40 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoChipTitle => 'Інтерактивні елементи';
 
   @override
-  String get demoCardDescription => 'Картка – це аркуш із матеріальним дизайном, який використовується для представлення деякої пов\'язаної інформації (наприклад, альбому, географічного розташування, інформації про їжу, контактних даних тощо).';
+  String get demoCardDescription =>
+      'Картка – це аркуш із матеріальним дизайном, який використовується для представлення деякої пов\'язаної інформації (наприклад, альбому, географічного розташування, інформації про їжу, контактних даних тощо).';
 
   @override
-  String get demoChipSubtitle => 'Компактні елементи, які представляють введений текст, атрибут або дію';
+  String get demoChipSubtitle =>
+      'Компактні елементи, які представляють введений текст, атрибут або дію';
 
   @override
   String get demoActionChipTitle => 'Інтерактивний елемент дії';
 
   @override
-  String get demoActionChipDescription => 'Інтерактивні елементи дій – це набір параметрів, які активують дії, пов\'язані з основним контентом. Вони мають з\'являтися динамічно й доповнювати інтерфейс.';
+  String get demoActionChipDescription =>
+      'Інтерактивні елементи дій – це набір параметрів, які активують дії, пов\'язані з основним контентом. Вони мають з\'являтися динамічно й доповнювати інтерфейс.';
 
   @override
   String get demoChoiceChipTitle => 'Інтерактивний елемент вибору';
 
   @override
-  String get demoChoiceChipDescription => 'Інтерактивні елементи вибору представляють один варіант із кількох доступних. Вони містять пов\'язаний описовий текст або категорії.';
+  String get demoChoiceChipDescription =>
+      'Інтерактивні елементи вибору представляють один варіант із кількох доступних. Вони містять пов\'язаний описовий текст або категорії.';
 
   @override
   String get demoFilterChipTitle => 'Інтерактивний елемент фільтра';
 
   @override
-  String get demoFilterChipDescription => 'Інтерактивні елементи фільтрів використовують теги або описові слова для фільтрування контенту.';
+  String get demoFilterChipDescription =>
+      'Інтерактивні елементи фільтрів використовують теги або описові слова для фільтрування контенту.';
 
   @override
   String get demoInputChipTitle => 'Інтерактивний елемент введення';
 
   @override
-  String get demoInputChipDescription => 'Інтерактивні елементи введення надають складну інформацію в спрощеній формі (наприклад, про людину, місце, річ, фрагмент розмовного тексту тощо).';
+  String get demoInputChipDescription =>
+      'Інтерактивні елементи введення надають складну інформацію в спрощеній формі (наприклад, про людину, місце, річ, фрагмент розмовного тексту тощо).';
 
   @override
   String get demoDataTableTitle => 'Таблиці даних';
@@ -565,7 +595,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'Рядки та стовпці інформації';
 
   @override
-  String get demoDataTableDescription => 'У таблицях даних інформацію представлено в рядках і стовпцях – у форматі сітки. Інформація в них упорядковується так, щоб її було легко проглядати, а користувачі могли шукати шаблони та статистику.';
+  String get demoDataTableDescription =>
+      'У таблицях даних інформацію представлено в рядках і стовпцях – у форматі сітки. Інформація в них упорядковується так, щоб її було легко проглядати, а користувачі могли шукати шаблони та статистику.';
 
   @override
   String get dataTableHeader => 'Харчування';
@@ -644,7 +675,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'Сповіщення';
 
   @override
-  String get demoAlertDialogDescription => 'Діалогове вікно сповіщення повідомляє користувачів про ситуації, про які вони мають знати. Воно може мати назву та список дій (необов\'язково).';
+  String get demoAlertDialogDescription =>
+      'Діалогове вікно сповіщення повідомляє користувачів про ситуації, про які вони мають знати. Воно може мати назву та список дій (необов\'язково).';
 
   @override
   String get demoAlertTitleDialogTitle => 'Сповіщення з назвою';
@@ -653,16 +685,19 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Простий';
 
   @override
-  String get demoSimpleDialogDescription => 'Просте діалогове вікно дає користувачу змогу обрати один із кількох варіантів. Воно може мати назву, яка відображається над варіантами (необов\'язково).';
+  String get demoSimpleDialogDescription =>
+      'Просте діалогове вікно дає користувачу змогу обрати один із кількох варіантів. Воно може мати назву, яка відображається над варіантами (необов\'язково).';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -674,7 +709,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Макет рядків і стовпців';
 
   @override
-  String get demoGridListsDescription => 'Списки-сітки найкраще підходять для представлення однотипних даних, зокрема зображень. Елементи в такому списку називається плитками.';
+  String get demoGridListsDescription =>
+      'Списки-сітки найкраще підходять для представлення однотипних даних, зокрема зображень. Елементи в такому списку називається плитками.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Лише зображення';
@@ -689,34 +725,41 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoSlidersTitle => 'Повзунки';
 
   @override
-  String get demoSlidersSubtitle => 'Віджети для вибору значення проведенням пальця';
+  String get demoSlidersSubtitle =>
+      'Віджети для вибору значення проведенням пальця';
 
   @override
-  String get demoSlidersDescription => 'За допомогою повзунків можна вибирати одне значення з діапазону, показаного вздовж панелі. Вони найкраще підходять для налаштування таких параметрів, як звук і яскравість, або застосування фільтрів зображень.';
+  String get demoSlidersDescription =>
+      'За допомогою повзунків можна вибирати одне значення з діапазону, показаного вздовж панелі. Вони найкраще підходять для налаштування таких параметрів, як звук і яскравість, або застосування фільтрів зображень.';
 
   @override
   String get demoRangeSlidersTitle => 'Повзунки з діапазонами';
 
   @override
-  String get demoRangeSlidersDescription => 'Повзунки показують діапазон значень уздовж панелі та можуть мати на обох кінцях значки, які показують цей діапазон. Вони найкраще підходять для налаштування таких параметрів, як звук і яскравість, або застосування фільтрів зображень.';
+  String get demoRangeSlidersDescription =>
+      'Повзунки показують діапазон значень уздовж панелі та можуть мати на обох кінцях значки, які показують цей діапазон. Вони найкраще підходять для налаштування таких параметрів, як звук і яскравість, або застосування фільтрів зображень.';
 
   @override
   String get demoCustomSlidersTitle => 'Власні повзунки';
 
   @override
-  String get demoCustomSlidersDescription => 'За допомогою повзунків можна вибирати різні значення з діапазону. Їх тема та вигляд можуть бути різними.';
+  String get demoCustomSlidersDescription =>
+      'За допомогою повзунків можна вибирати різні значення з діапазону. Їх тема та вигляд можуть бути різними.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Безперервні числові значення, які можна змінювати';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Безперервні числові значення, які можна змінювати';
 
   @override
   String get demoSlidersDiscrete => 'Дискретний';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Повзунок із дискретним діапазоном значень і власною темою';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Повзунок із дискретним діапазоном значень і власною темою';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Повзунок із безперервним діапазоном значень і власною темою';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Повзунок із безперервним діапазоном значень і власною темою';
 
   @override
   String get demoSlidersContinuous => 'Безперервний';
@@ -743,7 +786,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Кнопки меню та прості меню';
 
   @override
-  String get demoMenuDescription => 'У меню показано список варіантів, які з\'являються під час взаємодії користувачів із кнопкою, дією чи іншим елементом керування.';
+  String get demoMenuDescription =>
+      'У меню показано список варіантів, які з\'являються під час взаємодії користувачів із кнопкою, дією чи іншим елементом керування.';
 
   @override
   String get demoMenuItemValueOne => 'Перший пункт меню';
@@ -767,7 +811,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoMenuFour => 'Чотири';
 
   @override
-  String get demoMenuAnItemWithAContextMenuButton => 'Елемент із контекстним меню';
+  String get demoMenuAnItemWithAContextMenuButton =>
+      'Елемент із контекстним меню';
 
   @override
   String get demoMenuContextMenuItemOne => 'Перший пункт контекстного меню';
@@ -779,7 +824,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoMenuContextMenuItemThree => 'Третій пункт контекстного меню';
 
   @override
-  String get demoMenuAnItemWithASectionedMenu => 'Елемент, що відкриває меню з розділами';
+  String get demoMenuAnItemWithASectionedMenu =>
+      'Елемент, що відкриває меню з розділами';
 
   @override
   String get demoMenuPreview => 'Переглянути';
@@ -807,10 +853,12 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoNavigationDrawerTitle => 'Панель навігації';
 
   @override
-  String get demoNavigationDrawerSubtitle => 'Показується панель навігації в додатку';
+  String get demoNavigationDrawerSubtitle =>
+      'Показується панель навігації в додатку';
 
   @override
-  String get demoNavigationDrawerDescription => 'Панель матеріального дизайну, яка висувається горизонтально від краю екрана й показує навігаційні посилання в додатку.';
+  String get demoNavigationDrawerDescription =>
+      'Панель матеріального дизайну, яка висувається горизонтально від краю екрана й показує навігаційні посилання в додатку.';
 
   @override
   String get demoNavigationDrawerUserName => 'Ім\'я користувача';
@@ -825,16 +873,19 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Другий пункт';
 
   @override
-  String get demoNavigationDrawerText => 'Проведіть пальцем від краю екрана або натисніть значок угорі ліворуч, щоб відкрити панель';
+  String get demoNavigationDrawerText =>
+      'Проведіть пальцем від краю екрана або натисніть значок угорі ліворуч, щоб відкрити панель';
 
   @override
   String get demoNavigationRailTitle => 'Стрічка навігації';
 
   @override
-  String get demoNavigationRailSubtitle => 'Показується стрічка навігації в додатку';
+  String get demoNavigationRailSubtitle =>
+      'Показується стрічка навігації в додатку';
 
   @override
-  String get demoNavigationRailDescription => 'Віджет матеріального дизайну, який показується ліворуч або праворуч на екрані додатка й містить невелику кількість значків (зазвичай від трьох до п\'яти).';
+  String get demoNavigationRailDescription =>
+      'Віджет матеріального дизайну, який показується ліворуч або праворуч на екрані додатка й містить невелику кількість значків (зазвичай від трьох до п\'яти).';
 
   @override
   String get demoNavigationRailFirst => 'Перший елемент';
@@ -849,22 +900,26 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoMenuAnItemWithASimpleMenu => 'Елемент із простим меню';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Елемент із меню у вигляді контрольного списку';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Елемент із меню у вигляді контрольного списку';
 
   @override
   String get demoFullscreenDialogTitle => 'На весь екран';
 
   @override
-  String get demoFullscreenDialogDescription => 'Параметр fullscreenDialog визначає, чи є сторінка, що з\'явиться, діалоговим вікном на весь екран';
+  String get demoFullscreenDialogDescription =>
+      'Параметр fullscreenDialog визначає, чи є сторінка, що з\'явиться, діалоговим вікном на весь екран';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Індикатор активності';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'Індикатори активності в стилі iOS';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'Індикатори активності в стилі iOS';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'Індикатор активності в стилі iOS, який обертається за годинниковою стрілкою.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'Індикатор активності в стилі iOS, який обертається за годинниковою стрілкою.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Кнопки';
@@ -873,7 +928,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'Кнопки в стилі iOS';
 
   @override
-  String get demoCupertinoButtonsDescription => 'Кнопка в стилі iOS. Якщо натиснути на неї, з\'явиться текст та/або значок, який світлішає й темнішає. Може мати фон (необов\'язково).';
+  String get demoCupertinoButtonsDescription =>
+      'Кнопка в стилі iOS. Якщо натиснути на неї, з\'явиться текст та/або значок, який світлішає й темнішає. Може мати фон (необов\'язково).';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -882,7 +938,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -891,19 +948,22 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Сповіщення';
 
   @override
-  String get demoCupertinoAlertsSubtitle => 'Діалогове вікно зі сповіщенням у стилі iOS';
+  String get demoCupertinoAlertsSubtitle =>
+      'Діалогове вікно зі сповіщенням у стилі iOS';
 
   @override
   String get demoCupertinoAlertTitle => 'Сповіщення';
 
   @override
-  String get demoCupertinoAlertDescription => 'Діалогове вікно сповіщення повідомляє користувачів про ситуації, про які вони мають знати. Воно може мати назву, вміст і список дій (необов\'язково). Назва відображається над вмістом, а список дій – під ним.';
+  String get demoCupertinoAlertDescription =>
+      'Діалогове вікно сповіщення повідомляє користувачів про ситуації, про які вони мають знати. Воно може мати назву, вміст і список дій (необов\'язково). Назва відображається над вмістом, а список дій – під ним.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Сповіщення з назвою';
@@ -918,25 +978,30 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'Аркуш дій';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Аркуш дій – це особливий вид сповіщення, який показує користувачу набір із двох або більше варіантів вибору, пов\'язаних із поточною ситуацією. Він може мати назву, додаткове повідомлення та список дій.';
+  String get demoCupertinoActionSheetDescription =>
+      'Аркуш дій – це особливий вид сповіщення, який показує користувачу набір із двох або більше варіантів вибору, пов\'язаних із поточною ситуацією. Він може мати назву, додаткове повідомлення та список дій.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Панель навігації';
 
   @override
-  String get demoCupertinoNavigationBarSubtitle => 'Панель навігації в стилі iOS';
+  String get demoCupertinoNavigationBarSubtitle =>
+      'Панель навігації в стилі iOS';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'Панель навігації в стилі iOS. Панель навігації – це панель інструментів, основною складовою якої є розміщена посередині назва сторінки.';
+  String get demoCupertinoNavigationBarDescription =>
+      'Панель навігації в стилі iOS. Панель навігації – це панель інструментів, основною складовою якої є розміщена посередині назва сторінки.';
 
   @override
   String get demoCupertinoPickerTitle => 'Засоби вибору';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'Засоби вибору дати й часу в стилі iOS';
+  String get demoCupertinoPickerSubtitle =>
+      'Засоби вибору дати й часу в стилі iOS';
 
   @override
-  String get demoCupertinoPickerDescription => 'Віджет засобу вибору в стилі iOS, який можна використовувати для вибору дат, часу або дати й часу одночасно.';
+  String get demoCupertinoPickerDescription =>
+      'Віджет засобу вибору в стилі iOS, який можна використовувати для вибору дат, часу або дати й часу одночасно.';
 
   @override
   String get demoCupertinoPickerTimer => 'Таймер';
@@ -954,19 +1019,23 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'Потягніть, щоб оновити';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'Елемент керування в стилі iOS \"Потягнути, щоб оновити\"';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'Елемент керування в стилі iOS \"Потягнути, щоб оновити\"';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Віджет, що реалізує елемент керування в стилі iOS, який дає змогу потягнути, щоб оновити контент.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Віджет, що реалізує елемент керування в стилі iOS, який дає змогу потягнути, щоб оновити контент.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Сегментований контроль';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'Сегментований контроль у стилі iOS';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'Сегментований контроль у стилі iOS';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Використовується для вибору одного із взаємовиключних варіантів. Якщо вибрано один варіант у сегментованому контролі, вибір іншого варіанта буде скасовано.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Використовується для вибору одного із взаємовиключних варіантів. Якщо вибрано один варіант у сегментованому контролі, вибір іншого варіанта буде скасовано.';
 
   @override
   String get demoCupertinoSliderTitle => 'Повзунок';
@@ -975,7 +1044,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'Повзунок у стилі iOS';
 
   @override
-  String get demoCupertinoSliderDescription => 'Повзунок можна використовувати для вибору з безперервного або дискретного набору значень.';
+  String get demoCupertinoSliderDescription =>
+      'Повзунок можна використовувати для вибору з безперервного або дискретного набору значень.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -991,7 +1061,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'Перемикач у стилі iOS';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Перемикач використовують, щоб вмикати й вимикати окремі налаштування.';
+  String get demoCupertinoSwitchDescription =>
+      'Перемикач використовують, щоб вмикати й вимикати окремі налаштування.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Панель вкладок';
@@ -1000,7 +1071,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'Нижня панель вкладок у стилі iOS';
 
   @override
-  String get demoCupertinoTabBarDescription => 'Нижня панель навігації з вкладками в стилі iOS містить кілька вкладок, з яких одна активна (за умовчанням – перша).';
+  String get demoCupertinoTabBarDescription =>
+      'Нижня панель навігації з вкладками в стилі iOS містить кілька вкладок, з яких одна активна (за умовчанням – перша).';
 
   @override
   String get cupertinoTabBarHomeTab => 'Головна';
@@ -1018,7 +1090,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'Текстові поля в стилі iOS';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'У текстові поля можна вводити текст з апаратної або екранної клавіатури.';
+  String get demoCupertinoTextFieldDescription =>
+      'У текстові поля можна вводити текст з апаратної або екранної клавіатури.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN-код';
@@ -1030,31 +1103,37 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoMotionSubtitle => 'Усі стандартні стилі переходів';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'Картки, списки й плаваючі командні кнопки';
+  String get demoContainerTransformDemoInstructions =>
+      'Картки, списки й плаваючі командні кнопки';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'Кнопки \"Назад\" і \"Далі\"';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'Параметр сортування \"Нещодавно відтворене\"';
+  String get demoSharedYAxisDemoInstructions =>
+      'Параметр сортування \"Нещодавно відтворене\"';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'Значок налаштувань';
 
   @override
-  String get demoFadeThroughDemoInstructions => 'Навігація в нижній частині екрана';
+  String get demoFadeThroughDemoInstructions =>
+      'Навігація в нижній частині екрана';
 
   @override
-  String get demoFadeScaleDemoInstructions => 'Вікно та плаваюча командна кнопка';
+  String get demoFadeScaleDemoInstructions =>
+      'Вікно та плаваюча командна кнопка';
 
   @override
   String get demoContainerTransformTitle => 'Перетворення контейнера';
 
   @override
-  String get demoContainerTransformDescription => 'Стиль \"Перетворення контейнера\" призначений для переходів між елементами інтерфейсу, які містять контейнер. Такий перехід створює візуальний зв\'язок між двома елементами інтерфейсу.';
+  String get demoContainerTransformDescription =>
+      'Стиль \"Перетворення контейнера\" призначений для переходів між елементами інтерфейсу, які містять контейнер. Такий перехід створює візуальний зв\'язок між двома елементами інтерфейсу.';
 
   @override
-  String get demoContainerTransformModalBottomSheetTitle => 'Режим появи та зникнення';
+  String get demoContainerTransformModalBottomSheetTitle =>
+      'Режим появи та зникнення';
 
   @override
   String get demoContainerTransformTypeFade => 'ПОЯВА ТА ЗНИКНЕННЯ';
@@ -1078,7 +1157,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Пункт списку';
 
   @override
-  String get demoSharedAxisDescription => 'Стиль \"Спільна вісь\" призначений для переходів між елементами інтерфейсу, які знаходяться поруч або між якими виконується навігація. Цей стиль використовує спільне перетворення за осями X, Y і Z, щоб чітко пов\'язати елементи.';
+  String get demoSharedAxisDescription =>
+      'Стиль \"Спільна вісь\" призначений для переходів між елементами інтерфейсу, які знаходяться поруч або між якими виконується навігація. Цей стиль використовує спільне перетворення за осями X, Y і Z, щоб чітко пов\'язати елементи.';
 
   @override
   String get demoSharedXAxisTitle => 'Спільна вісь X';
@@ -1093,7 +1173,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'Оптимізуйте свої курси';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Згруповані категорії показуються у фіді як групи. Це можна будь-коли змінити.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Згруповані категорії показуються у фіді як групи. Це можна будь-коли змінити.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Мистецтво та ремесла';
@@ -1120,16 +1201,20 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoSharedXAxisSignInWelcomeText => 'Вітаємо, David Park!';
 
   @override
-  String get demoSharedXAxisSignInSubtitleText => 'Увійдіть, використовуючи дані облікового запису';
+  String get demoSharedXAxisSignInSubtitleText =>
+      'Увійдіть, використовуючи дані облікового запису';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'Електронна адреса чи номер телефону';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'Електронна адреса чи номер телефону';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'ЗАБУЛИ ЕЛЕКТРОННУ АДРЕСУ?';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'ЗАБУЛИ ЕЛЕКТРОННУ АДРЕСУ?';
 
   @override
-  String get demoSharedXAxisCreateAccountButtonText => 'СТВОРИТИ ОБЛІКОВИЙ ЗАПИС';
+  String get demoSharedXAxisCreateAccountButtonText =>
+      'СТВОРИТИ ОБЛІКОВИЙ ЗАПИС';
 
   @override
   String get demoSharedYAxisTitle => 'Спільна вісь Y';
@@ -1180,19 +1265,22 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Креветка';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Рецепт страви з креветками';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Рецепт страви з креветками';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Краб';
 
   @override
-  String get demoSharedZAxisCrabPlateRecipeDescription => 'Рецепт страви з крабами';
+  String get demoSharedZAxisCrabPlateRecipeDescription =>
+      'Рецепт страви з крабами';
 
   @override
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Сендвіч із яловичиною';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Рецепт сендвіча з яловичиною';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Рецепт сендвіча з яловичиною';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Збережені рецепти';
@@ -1213,7 +1301,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Перехід зі зникненням';
 
   @override
-  String get demoFadeThroughDescription => 'Стиль \"Перехід зі зникненням\" призначений для переходів між елементами інтерфейсу, які безпосередньо не пов\'язані між собою.';
+  String get demoFadeThroughDescription =>
+      'Стиль \"Перехід зі зникненням\" призначений для переходів між елементами інтерфейсу, які безпосередньо не пов\'язані між собою.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Альбоми';
@@ -1231,7 +1320,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Поява та зникнення';
 
   @override
-  String get demoFadeScaleDescription => 'Стиль \"Поява та зникнення\" призначений для елементів інтерфейсу, які з\'являються або зникають у межах екрана (наприклад, для діалогового вікна, яке з\'являється в центрі екрана).';
+  String get demoFadeScaleDescription =>
+      'Стиль \"Поява та зникнення\" призначений для елементів інтерфейсу, які з\'являються або зникають у межах екрана (наприклад, для діалогового вікна, яке з\'являється в центрі екрана).';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'ПОКАЗАТИ МОДАЛЬНЕ ВІКНО';
@@ -1258,7 +1348,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Усі стандартні кольори';
 
   @override
-  String get demoColorsDescription => 'Колір і зразок кольору, які представляють палітру кольорів матеріального дизайну.';
+  String get demoColorsDescription =>
+      'Колір і зразок кольору, які представляють палітру кольорів матеріального дизайну.';
 
   @override
   String get demoTypographyTitle => 'Оформлення';
@@ -1267,16 +1358,19 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoTypographySubtitle => 'Усі стандартні стилі тексту';
 
   @override
-  String get demoTypographyDescription => 'Визначення різних друкарських стилів із каталогу матеріального дизайну.';
+  String get demoTypographyDescription =>
+      'Визначення різних друкарських стилів із каталогу матеріального дизайну.';
 
   @override
   String get demo2dTransformationsTitle => 'Двовимірні трансформації';
 
   @override
-  String get demo2dTransformationsSubtitle => 'Панорамування, масштаб, обертання';
+  String get demo2dTransformationsSubtitle =>
+      'Панорамування, масштаб, обертання';
 
   @override
-  String get demo2dTransformationsDescription => 'Натисніть, щоб змінити мозаїки, і використовуйте жести, щоб рухати кадр. Потягніть, щоб панорамувати, стисніть пальці, щоб змінити масштаб, обертайте двома пальцями. Щоб повернути початкову орієнтацію, натисніть кнопку \"Скинути\".';
+  String get demo2dTransformationsDescription =>
+      'Натисніть, щоб змінити мозаїки, і використовуйте жести, щоб рухати кадр. Потягніть, щоб панорамувати, стисніть пальці, щоб змінити масштаб, обертайте двома пальцями. Щоб повернути початкову орієнтацію, натисніть кнопку \"Скинути\".';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Скинути трансформації';
@@ -1291,25 +1385,31 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoBottomSheetTitle => 'Сторінка, що розгортається знизу';
 
   @override
-  String get demoBottomSheetSubtitle => 'Постійна й модальна сторінки, що розгортаються знизу';
+  String get demoBottomSheetSubtitle =>
+      'Постійна й модальна сторінки, що розгортаються знизу';
 
   @override
-  String get demoBottomSheetPersistentTitle => 'Постійна сторінка, що розгортається знизу';
+  String get demoBottomSheetPersistentTitle =>
+      'Постійна сторінка, що розгортається знизу';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'На постійній сторінці, що розгортається знизу, міститься супровідна інформація для основного контенту додатка. Ця сторінка відображається, навіть коли користувач взаємодіє з іншими частинами додатка.';
+  String get demoBottomSheetPersistentDescription =>
+      'На постійній сторінці, що розгортається знизу, міститься супровідна інформація для основного контенту додатка. Ця сторінка відображається, навіть коли користувач взаємодіє з іншими частинами додатка.';
 
   @override
-  String get demoBottomSheetModalTitle => 'Модальна сторінка, що розгортається знизу';
+  String get demoBottomSheetModalTitle =>
+      'Модальна сторінка, що розгортається знизу';
 
   @override
-  String get demoBottomSheetModalDescription => 'Модальна сторінка, що розгортається знизу, замінює меню або діалогове вікно й не дає користувачеві взаємодіяти з іншими частинами додатка.';
+  String get demoBottomSheetModalDescription =>
+      'Модальна сторінка, що розгортається знизу, замінює меню або діалогове вікно й не дає користувачеві взаємодіяти з іншими частинами додатка.';
 
   @override
   String get demoBottomSheetAddLabel => 'Додати';
 
   @override
-  String get demoBottomSheetButtonText => 'ПОКАЗАТИ СТОРІНКУ, ЩО РОЗГОРТАЄТЬСЯ ЗНИЗУ';
+  String get demoBottomSheetButtonText =>
+      'ПОКАЗАТИ СТОРІНКУ, ЩО РОЗГОРТАЄТЬСЯ ЗНИЗУ';
 
   @override
   String get demoBottomSheetHeader => 'Заголовок';
@@ -1326,7 +1426,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoListsSubtitle => 'Макети списків із прокруткою';
 
   @override
-  String get demoListsDescription => 'Один рядок фіксованої висоти, який зазвичай містить текст і значок на початку або в кінці.';
+  String get demoListsDescription =>
+      'Один рядок фіксованої висоти, який зазвичай містить текст і значок на початку або в кінці.';
 
   @override
   String get demoOneLineListsTitle => 'Один рядок';
@@ -1341,19 +1442,23 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoProgressIndicatorTitle => 'Індикатори перебігу';
 
   @override
-  String get demoProgressIndicatorSubtitle => 'Лінійний, циклічний, невизначений';
+  String get demoProgressIndicatorSubtitle =>
+      'Лінійний, циклічний, невизначений';
 
   @override
-  String get demoCircularProgressIndicatorTitle => 'Індикатор циклічного перебігу';
+  String get demoCircularProgressIndicatorTitle =>
+      'Індикатор циклічного перебігу';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Індикатор циклічного перебігу з матеріальним дизайном обертається, вказуючи на роботу додатка.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Індикатор циклічного перебігу з матеріальним дизайном обертається, вказуючи на роботу додатка.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'Індикатор лінійного перебігу';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Індикатор лінійного перебігу з матеріальним дизайном також називають панеллю перебігу.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Індикатор лінійного перебігу з матеріальним дизайном також називають панеллю перебігу.';
 
   @override
   String get demoPickersTitle => 'Засоби вибору';
@@ -1365,19 +1470,22 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Засіб вибору дати';
 
   @override
-  String get demoDatePickerDescription => 'Показує вікно з інструментом вибору дати з матеріальним дизайном.';
+  String get demoDatePickerDescription =>
+      'Показує вікно з інструментом вибору дати з матеріальним дизайном.';
 
   @override
   String get demoTimePickerTitle => 'Засіб вибору часу';
 
   @override
-  String get demoTimePickerDescription => 'Показує вікно з інструментом вибору часу з матеріальним дизайном.';
+  String get demoTimePickerDescription =>
+      'Показує вікно з інструментом вибору часу з матеріальним дизайном.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'ПОКАЗАТИ ЗАСІБ ВИБОРУ';
@@ -1395,16 +1503,19 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoTabsSubtitle => 'Вкладки з окремим прокручуванням';
 
   @override
-  String get demoTabsDescription => 'На вкладках наведено контент із різних екранів, набори даних та іншу інформацію про взаємодії.';
+  String get demoTabsDescription =>
+      'На вкладках наведено контент із різних екранів, набори даних та іншу інформацію про взаємодії.';
 
   @override
   String get demoSnackbarsTitle => 'Панель підказок';
 
   @override
-  String get demoSnackbarsSubtitle => 'Панель підказок показує повідомлення внизу екрана';
+  String get demoSnackbarsSubtitle =>
+      'Панель підказок показує повідомлення внизу екрана';
 
   @override
-  String get demoSnackbarsDescription => 'Панель підказок інформує користувачів про процеси в додатках. Такі повідомлення ненадовго з\'являються й автоматично зникають унизу екрана, тому вони не заважатимуть роботі користувача.';
+  String get demoSnackbarsDescription =>
+      'Панель підказок інформує користувачів про процеси в додатках. Такі повідомлення ненадовго з\'являються й автоматично зникають унизу екрана, тому вони не заважатимуть роботі користувача.';
 
   @override
   String get demoSnackbarsButtonLabel => 'ПОКАЗАТИ ПАНЕЛЬ ПІДКАЗОК';
@@ -1422,25 +1533,29 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoSelectionControlsTitle => 'Елементи керування вибором';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Прапорці, радіокнопки й перемикачі';
+  String get demoSelectionControlsSubtitle =>
+      'Прапорці, радіокнопки й перемикачі';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Прапорець';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Прапорці дають користувачам змогу вибирати кілька параметрів із набору. Звичайний прапорець обмежується значеннями true або false, тоді як трьохпозиційний також може мати значення null.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Прапорці дають користувачам змогу вибирати кілька параметрів із набору. Звичайний прапорець обмежується значеннями true або false, тоді як трьохпозиційний також може мати значення null.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Радіокнопка';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Радіокнопки дають користувачам змогу вибирати один параметр із набору. Використовуйте радіокнопки, коли потрібно, щоб користувач бачив усі доступні варіанти, а вибирав лише один.';
+  String get demoSelectionControlsRadioDescription =>
+      'Радіокнопки дають користувачам змогу вибирати один параметр із набору. Використовуйте радіокнопки, коли потрібно, щоб користувач бачив усі доступні варіанти, а вибирав лише один.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Перемикач';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Перемикачі \"Увімкнути/вимкнути\" вмикають або вимикають окремі налаштування. Налаштування, яким керує перемикач, і його стан має бути чітко описано в тексті мітки.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Перемикачі \"Увімкнути/вимкнути\" вмикають або вимикають окремі налаштування. Налаштування, яким керує перемикач, і його стан має бути чітко описано в тексті мітки.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Текстові поля';
@@ -1449,10 +1564,12 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoTextFieldTitle => 'Текстові поля';
 
   @override
-  String get demoTextFieldSubtitle => 'Один рядок тексту й цифр, які можна змінити';
+  String get demoTextFieldSubtitle =>
+      'Один рядок тексту й цифр, які можна змінити';
 
   @override
-  String get demoTextFieldDescription => 'Користувачі можуть вводити текст у текстові поля. Зазвичай вони з\'являються у формах і вікнах.';
+  String get demoTextFieldDescription =>
+      'Користувачі можуть вводити текст у текстові поля. Зазвичай вони з\'являються у формах і вікнах.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Показати пароль';
@@ -1461,16 +1578,19 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Сховати пароль';
 
   @override
-  String get demoTextFieldFormErrors => 'Перш ніж надсилати, виправте помилки, позначені червоним кольором.';
+  String get demoTextFieldFormErrors =>
+      'Перш ніж надсилати, виправте помилки, позначені червоним кольором.';
 
   @override
   String get demoTextFieldNameRequired => 'Укажіть своє ім\'я.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'Можна вводити лише буквенні символи.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'Можна вводити лише буквенні символи.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### – введіть номер телефону в США.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### – введіть номер телефону в США.';
 
   @override
   String get demoTextFieldEnterPassword => 'Введіть пароль.';
@@ -1497,7 +1617,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoTextFieldEmail => 'Електронна адреса';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Розкажіть про себе (наприклад, ким ви працюєте або які у вас хобі)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Розкажіть про себе (наприклад, ким ви працюєте або які у вас хобі)';
 
   @override
   String get demoTextFieldKeepItShort => 'Біографія має бути стислою.';
@@ -1535,13 +1656,16 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get demoTooltipTitle => 'Спливаючі підказки';
 
   @override
-  String get demoTooltipSubtitle => 'Коротке повідомлення, що з\'являється під час утримування елемента або наведення на нього курсора';
+  String get demoTooltipSubtitle =>
+      'Коротке повідомлення, що з\'являється під час утримування елемента або наведення на нього курсора';
 
   @override
-  String get demoTooltipDescription => 'Спливаючі підказки містять текст, що допомагає пояснити функцію кнопки чи іншої дії інтерфейсу користувача. Цей текст з\'являється, коли користувач утримує елемент або наводить на нього курсор.';
+  String get demoTooltipDescription =>
+      'Спливаючі підказки містять текст, що допомагає пояснити функцію кнопки чи іншої дії інтерфейсу користувача. Цей текст з\'являється, коли користувач утримує елемент або наводить на нього курсор.';
 
   @override
-  String get demoTooltipInstructions => 'Щоб підказка з\'явилася, утримуйте елемент або наведіть на нього курсор.';
+  String get demoTooltipInstructions =>
+      'Щоб підказка з\'явилася, утримуйте елемент або наведіть на нього курсор.';
 
   @override
   String get bottomNavigationCommentsTab => 'Коментарі';
@@ -1602,7 +1726,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get dialogLocationTitle => 'Використовувати Служби локації Google?';
 
   @override
-  String get dialogLocationDescription => 'Дозвольте Google допомагати додаткам визначати місцезнаходження. Це означає, що в Google надсилатимуться анонімні геодані, навіть коли на пристрої взагалі не запущено додатків.';
+  String get dialogLocationDescription =>
+      'Дозвольте Google допомагати додаткам визначати місцезнаходження. Це означає, що в Google надсилатимуться анонімні геодані, навіть коли на пристрої взагалі не запущено додатків.';
 
   @override
   String get dialogCancel => 'СКАСУВАТИ';
@@ -1632,7 +1757,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get dialogFullscreenSave => 'ЗБЕРЕГТИ';
 
   @override
-  String get dialogFullscreenDescription => 'Демо-версія діалогового вікна на весь екран';
+  String get dialogFullscreenDescription =>
+      'Демо-версія діалогового вікна на весь екран';
 
   @override
   String get cupertinoButton => 'Кнопка';
@@ -1647,10 +1773,12 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Відхилити';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Надавати Картам доступ до геоданих, коли ви використовуєте додаток?';
+  String get cupertinoAlertLocationTitle =>
+      'Надавати Картам доступ до геоданих, коли ви використовуєте додаток?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Ваше поточне місцезнаходження відображатиметься на карті й використовуватиметься для прокладання маршрутів, пошуку закладів поблизу та прогнозування часу на дорогу.';
+  String get cupertinoAlertLocationDescription =>
+      'Ваше поточне місцезнаходження відображатиметься на карті й використовуватиметься для прокладання маршрутів, пошуку закладів поблизу та прогнозування часу на дорогу.';
 
   @override
   String get cupertinoAlertAllow => 'Дозволити';
@@ -1662,7 +1790,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Виберіть улюблений десерт';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Виберіть свій улюблений десерт зі списку нижче. Ваш вибір буде використано для створення списку рекомендованих кафе у вашому районі.';
+  String get cupertinoAlertDessertDescription =>
+      'Виберіть свій улюблений десерт зі списку нижче. Ваш вибір буде використано для створення списку рекомендованих кафе у вашому районі.';
 
   @override
   String get cupertinoAlertCheesecake => 'Чізкейк';
@@ -1984,7 +2113,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get shrineProductClassicWhiteCollar => 'Класичний білий комірець';
 
   @override
-  String get shrineProductCeriseScallopTee => 'Футболка вишневого кольору з хвилястим комірцем';
+  String get shrineProductCeriseScallopTee =>
+      'Футболка вишневого кольору з хвилястим комірцем';
 
   @override
   String get shrineProductShoulderRollsTee => 'Футболка з манжетами на рукавах';
@@ -2103,7 +2233,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get craneFlySubhead => 'Огляд авіарейсів за пунктом призначення';
 
   @override
-  String get craneSleepSubhead => 'Огляд готелів чи житла за пунктом призначення';
+  String get craneSleepSubhead =>
+      'Огляд готелів чи житла за пунктом призначення';
 
   @override
   String get craneEatSubhead => 'Огляд ресторанів за пунктом призначення';
@@ -2259,7 +2390,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get craneEat10 => 'Лісабон, Португалія';
 
   @override
-  String get craneFly0SemanticLabel => 'Шале на сніжному тлі в оточенні хвойних дерев';
+  String get craneFly0SemanticLabel =>
+      'Шале на сніжному тлі в оточенні хвойних дерев';
 
   @override
   String get craneFly1SemanticLabel => 'Намет у полі';
@@ -2277,7 +2409,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get craneFly5SemanticLabel => 'Готель біля озера на гірському тлі';
 
   @override
-  String get craneFly6SemanticLabel => 'Загальний вигляд Палацу образотворчих мистецтв';
+  String get craneFly6SemanticLabel =>
+      'Загальний вигляд Палацу образотворчих мистецтв';
 
   @override
   String get craneFly7SemanticLabel => 'Гора Рашмор';
@@ -2286,7 +2419,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'Сади біля затоки';
 
   @override
-  String get craneFly9SemanticLabel => 'Чоловік, який спирається на раритетний синій автомобіль';
+  String get craneFly9SemanticLabel =>
+      'Чоловік, який спирається на раритетний синій автомобіль';
 
   @override
   String get craneFly10SemanticLabel => 'Мечеть аль-Азхар під час заходу сонця';
@@ -2304,13 +2438,15 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get craneSleep0SemanticLabel => 'Бунгало над водою';
 
   @override
-  String get craneSleep1SemanticLabel => 'Шале на сніжному тлі в оточенні хвойних дерев';
+  String get craneSleep1SemanticLabel =>
+      'Шале на сніжному тлі в оточенні хвойних дерев';
 
   @override
   String get craneSleep2SemanticLabel => 'Цитадель Мачу-Пікчу';
 
   @override
-  String get craneSleep3SemanticLabel => 'Чоловік, який спирається на раритетний синій автомобіль';
+  String get craneSleep3SemanticLabel =>
+      'Чоловік, який спирається на раритетний синій автомобіль';
 
   @override
   String get craneSleep4SemanticLabel => 'Готель біля озера на гірському тлі';
@@ -2331,7 +2467,8 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get craneSleep9SemanticLabel => 'Цегляний маяк біля моря';
 
   @override
-  String get craneSleep10SemanticLabel => 'Мечеть аль-Азхар під час заходу сонця';
+  String get craneSleep10SemanticLabel =>
+      'Мечеть аль-Азхар під час заходу сонця';
 
   @override
   String get craneSleep11SemanticLabel => 'Хмарочос Тайбей 101';
@@ -2364,10 +2501,12 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get craneEat8SemanticLabel => 'Тарілка раків';
 
   @override
-  String get craneEat9SemanticLabel => 'Прилавок кафе з кондитерськими виробами';
+  String get craneEat9SemanticLabel =>
+      'Прилавок кафе з кондитерськими виробами';
 
   @override
-  String get craneEat10SemanticLabel => 'Жінка, яка тримає величезний сендвіч із пастромою';
+  String get craneEat10SemanticLabel =>
+      'Жінка, яка тримає величезний сендвіч із пастромою';
 
   @override
   String get fortnightlyMenuFrontPage => 'Перша сторінка';
@@ -2418,10 +2557,12 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Останні новини';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Тиха але потужна революція в області охорони здоров\'я';
+  String get fortnightlyHeadlineHealthcare =>
+      'Тиха але потужна революція в області охорони здоров\'я';
 
   @override
-  String get fortnightlyHeadlineWar => 'Розділене життя американців під час війни';
+  String get fortnightlyHeadlineWar =>
+      'Розділене життя американців під час війни';
 
   @override
   String get fortnightlyHeadlineGasoline => 'Майбутнє бензину';
@@ -2433,13 +2574,15 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
   String get fortnightlyHeadlineStocks => 'Застій акцій зміщує фокус на валюту';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Завдяки технологіям з\'являється тканини майбутнього';
+  String get fortnightlyHeadlineFabrics =>
+      'Завдяки технологіям з\'являється тканини майбутнього';
 
   @override
   String get fortnightlyHeadlineFeminists => 'Партійність феміністок';
 
   @override
-  String get fortnightlyHeadlineBees => 'Нестача бджіл у сільському господарстві';
+  String get fortnightlyHeadlineBees =>
+      'Нестача бджіл у сільському господарстві';
 
   @override
   String get replyInboxLabel => 'Вхідні';

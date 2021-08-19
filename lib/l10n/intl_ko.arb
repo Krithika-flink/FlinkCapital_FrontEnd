@@ -693,7 +693,7 @@
   "settingsSlowMotion": "슬로 모션",
   "settingsAbout": "Flutter Gallery 정보",
   "settingsFeedback": "의견 보내기",
-  "settingsAttribution": "Designed by TOASTER in London",
+  "settingsAttribution": "",
   "demoButtonTitle": "버튼",
   "demoButtonSubtitle": "텍스트 버튼, 돌출 버튼, 윤곽 버튼 등",
   "demoFlatButtonTitle": "평면 버튼",

@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -60,7 +59,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'በታሚል ናዱ ውጽጥ የሚጎበኙ ከፍተኛዎቹ 10 ከተማዎች';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'በታሚል ናዱ ውጽጥ የሚጎበኙ ከፍተኛዎቹ 10 ከተማዎች';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => '10 ቁጥር';
@@ -129,7 +129,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'የወለድ ዓመት እስከ ቀን';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'ወለድ ባለፈው ዓመት ተከፍሎበታል';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'ወለድ ባለፈው ዓመት ተከፍሎበታል';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'ቀጣይ መግለጫ';
@@ -300,7 +301,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'ሁሉንም በጀቶች ይመልከቱ';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${accountName} መለያ ${accountNumber} በ ${amount}።';
   }
 
@@ -310,7 +312,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return '${budgetName} በጀት ${amountUsed} ከ${amountTotal} ጥቅም ላይ ውሏል፣ ${amountLeft} ይቀራል';
   }
 
@@ -353,7 +356,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'አማራጮችን ይመልከቱ';
 
   @override
-  String get demoOptionsFeatureDescription => 'ለዚህ ተግባራዊ ማሳያ ሊገኙ የሚችሉ አማራጮችን ለማየት እዚህ ላይ መታ ያድርጉ።';
+  String get demoOptionsFeatureDescription =>
+      'ለዚህ ተግባራዊ ማሳያ ሊገኙ የሚችሉ አማራጮችን ለማየት እዚህ ላይ መታ ያድርጉ።';
 
   @override
   String get settingsTitle => 'ቅንብሮች';
@@ -425,10 +429,12 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'የግርጌ መተግበሪያ አሞሌ';
@@ -437,7 +443,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoBottomAppBarSubtitle => 'ዳሰሳን እና እርምጃዎችን በግርጌው ላይ ያሳያል';
 
   @override
-  String get demoBottomAppBarDescription => 'የግርጌ መተግበሪያ አሞሌዎች ለግርጌ ዳሰሳ መሳቢያ እና እስከ አራት ለሚደርሱ እርምጃዎች ለተንሳፋፊ የእርምጃ አዝራር ጨምሮ መዳረሻን ያቀርባሉ።';
+  String get demoBottomAppBarDescription =>
+      'የግርጌ መተግበሪያ አሞሌዎች ለግርጌ ዳሰሳ መሳቢያ እና እስከ አራት ለሚደርሱ እርምጃዎች ለተንሳፋፊ የእርምጃ አዝራር ጨምሮ መዳረሻን ያቀርባሉ።';
 
   @override
   String get bottomAppBarNotch => 'ስርጉድ';
@@ -464,7 +471,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoBannerSubtitle => 'በአንድ ዝርዝር ውስጥ ሰንደቅን ማሳየት';
 
   @override
-  String get demoBannerDescription => 'አንድ ሰንደቅ አስፈላጊና እጥር ምጥን ያለ መልዕክት ያሳያል፣ እና ተጠቃሚዎች የሆነ ነገር የሚያደርጓቸውን እርምጃዎች ያቀርብላቸዋል (ወይም ሰንደቁን ያሰናብታል)። እሱን ለማሰናበት የተጠቃሚ እርምጃ ያስፈልጋል።';
+  String get demoBannerDescription =>
+      'አንድ ሰንደቅ አስፈላጊና እጥር ምጥን ያለ መልዕክት ያሳያል፣ እና ተጠቃሚዎች የሆነ ነገር የሚያደርጓቸውን እርምጃዎች ያቀርብላቸዋል (ወይም ሰንደቁን ያሰናብታል)። እሱን ለማሰናበት የተጠቃሚ እርምጃ ያስፈልጋል።';
 
   @override
   String get demoBottomNavigationTitle => 'የታች ዳሰሳ';
@@ -479,7 +487,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'መሰየሚያ ተመርጧል';
 
   @override
-  String get demoBottomNavigationDescription => 'የግርጌ ዳሰሳ አሞሌዎች በአንድ ማያ ግርጌ ላይ ከሶስት እስከ አምስት መድረሻዎች ድረስ ያሳያሉ። እያንዳንዱ መድረሻ በአዶ እና በአማራጭ የጽሑፍ መሰየሚያ ይወከላል። የግርጌ ዳሰሳ አዶ መታ ሲደረግ ተጠቃሚው ከዚያ አዶ ጋር የተጎዳኘ የከፍተኛ ደረጃ የዳሰሳ መድረሻ ይወሰዳል።';
+  String get demoBottomNavigationDescription =>
+      'የግርጌ ዳሰሳ አሞሌዎች በአንድ ማያ ግርጌ ላይ ከሶስት እስከ አምስት መድረሻዎች ድረስ ያሳያሉ። እያንዳንዱ መድረሻ በአዶ እና በአማራጭ የጽሑፍ መሰየሚያ ይወከላል። የግርጌ ዳሰሳ አዶ መታ ሲደረግ ተጠቃሚው ከዚያ አዶ ጋር የተጎዳኘ የከፍተኛ ደረጃ የዳሰሳ መድረሻ ይወሰዳል።';
 
   @override
   String get demoButtonTitle => 'አዝራሮች';
@@ -491,31 +500,36 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoTextButtonTitle => 'የጽሑፍ አዝራር';
 
   @override
-  String get demoTextButtonDescription => 'በመጫን ጊዜ የጽሑፍ አዝራር የቀለም ርጭትን ያሳያል ነገር ግን አያነሳም። የጽሑፍ አዝራሮችን በመሳሪያ አሞሌዎች ላይ፣ በንግግሮች እና በመስመር ውስጥ ከድብዳብ ጋር ይጠቀሙ።';
+  String get demoTextButtonDescription =>
+      'በመጫን ጊዜ የጽሑፍ አዝራር የቀለም ርጭትን ያሳያል ነገር ግን አያነሳም። የጽሑፍ አዝራሮችን በመሳሪያ አሞሌዎች ላይ፣ በንግግሮች እና በመስመር ውስጥ ከድብዳብ ጋር ይጠቀሙ።';
 
   @override
   String get demoElevatedButtonTitle => 'ከፍ ያለ አዝራር';
 
   @override
-  String get demoElevatedButtonDescription => 'ከፍ ያሉ አዝራሮች በአብዛኛው ዝርግ ለሆኑ አቀማመጦች ልኬት ያክላሉ። በባተሌ ወይም ሰፊ ቦታዎች ላይ ተግባራት ላይ አጽዕኖት ይሰጣሉ።';
+  String get demoElevatedButtonDescription =>
+      'ከፍ ያሉ አዝራሮች በአብዛኛው ዝርግ ለሆኑ አቀማመጦች ልኬት ያክላሉ። በባተሌ ወይም ሰፊ ቦታዎች ላይ ተግባራት ላይ አጽዕኖት ይሰጣሉ።';
 
   @override
   String get demoOutlinedButtonTitle => 'ባለቢጋር አዝራር';
 
   @override
-  String get demoOutlinedButtonDescription => 'የቢጋር አዝራሮች የማያሳዩ ይሆኑና በሚጫኑበት ጊዜ ከፍ ይላሉ። አማራጭን፣ ሁለተኛ እርምጃን ለመጠቆም ብዙውን ጊዜ ከፍ ካሉ አዝራሮች ጋር ይጣመራሉ።';
+  String get demoOutlinedButtonDescription =>
+      'የቢጋር አዝራሮች የማያሳዩ ይሆኑና በሚጫኑበት ጊዜ ከፍ ይላሉ። አማራጭን፣ ሁለተኛ እርምጃን ለመጠቆም ብዙውን ጊዜ ከፍ ካሉ አዝራሮች ጋር ይጣመራሉ።';
 
   @override
   String get demoToggleButtonTitle => 'መቀያየሪያ አዝራሮች';
 
   @override
-  String get demoToggleButtonDescription => 'ተዛማጅ አማራጮችን ለመቦደን የቀያይር አዝራሮች ጥቅም ላይ ሊውሉ ይችላሉ። ተዛማጅነት ያላቸው መቀያየሪያ አዝራሮችን ቡድኖች አጽዕኖት ለመስጠት፣ ቡድን የጋራ መያዣን ማጋራት አለበት።';
+  String get demoToggleButtonDescription =>
+      'ተዛማጅ አማራጮችን ለመቦደን የቀያይር አዝራሮች ጥቅም ላይ ሊውሉ ይችላሉ። ተዛማጅነት ያላቸው መቀያየሪያ አዝራሮችን ቡድኖች አጽዕኖት ለመስጠት፣ ቡድን የጋራ መያዣን ማጋራት አለበት።';
 
   @override
   String get demoFloatingButtonTitle => 'የተንሳፋፊ እርምጃ አዝራር';
 
   @override
-  String get demoFloatingButtonDescription => 'ተንሳፋፊ የድርጊት አዝራር በመተግበሪያው ላይ ተቀዳሚ ድርጊትን ለማበረታታት በይዘት ላይ የሚያንዣብብ ክብ አዶ አዝራር ነው።';
+  String get demoFloatingButtonDescription =>
+      'ተንሳፋፊ የድርጊት አዝራር በመተግበሪያው ላይ ተቀዳሚ ድርጊትን ለማበረታታት በይዘት ላይ የሚያንዣብብ ክብ አዶ አዝራር ነው።';
 
   @override
   String get demoCardTitle => 'ካርዶች';
@@ -527,7 +541,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoChipTitle => 'ቺፖች';
 
   @override
-  String get demoCardDescription => 'ካርድ ማለት አንዳንድ ተዛማጅ መረጃን ለመወከል ስራ ላይ የሚውል የቁሳዊ ሉህ ነው፣ ለምሳሌ፣ አልበም፣ ጂዮግራፊያዊ አካባቢ፣ ምግብ፣ የእውቂያ ዝርዝሮች፣ ወዘተ።';
+  String get demoCardDescription =>
+      'ካርድ ማለት አንዳንድ ተዛማጅ መረጃን ለመወከል ስራ ላይ የሚውል የቁሳዊ ሉህ ነው፣ ለምሳሌ፣ አልበም፣ ጂዮግራፊያዊ አካባቢ፣ ምግብ፣ የእውቂያ ዝርዝሮች፣ ወዘተ።';
 
   @override
   String get demoChipSubtitle => 'አንድ ግቤት፣ አይነት ወይም እርምጃ የሚወክሉ እምቅ ክፍለ-አባላት';
@@ -536,25 +551,29 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoActionChipTitle => 'የእርምጃ ቺፕ';
 
   @override
-  String get demoActionChipDescription => 'የእርምጃ ቺፖች ከዋና ይዘት ጋር በተገናኘት አንድ እርምጃን የሚቀሰቅሱ የአማራጮች ስብስብ ናቸው። የእርምጃ ቺፖች በአንድ ዩአይ ላይ በተለዋዋጭ እና አውዳዊ በሆነ መልኩ መታየት አለባቸው።';
+  String get demoActionChipDescription =>
+      'የእርምጃ ቺፖች ከዋና ይዘት ጋር በተገናኘት አንድ እርምጃን የሚቀሰቅሱ የአማራጮች ስብስብ ናቸው። የእርምጃ ቺፖች በአንድ ዩአይ ላይ በተለዋዋጭ እና አውዳዊ በሆነ መልኩ መታየት አለባቸው።';
 
   @override
   String get demoChoiceChipTitle => 'የምርጫ ቺፕ';
 
   @override
-  String get demoChoiceChipDescription => 'የምርጫ ቺፖች ከአንድ ስብስብ ውስጥ አንድ ነጠላ ምርጫን ይወክላሉ። የምርጫ ቺፖች ገላጭ ጽሑፍ ወይም ምድቦችን ይይዛሉ።';
+  String get demoChoiceChipDescription =>
+      'የምርጫ ቺፖች ከአንድ ስብስብ ውስጥ አንድ ነጠላ ምርጫን ይወክላሉ። የምርጫ ቺፖች ገላጭ ጽሑፍ ወይም ምድቦችን ይይዛሉ።';
 
   @override
   String get demoFilterChipTitle => 'የማጣሪያ ቺፕ';
 
   @override
-  String get demoFilterChipDescription => 'የማጣሪያ ቺፖች መለያዎችን ወይም ገላጭ ቃላት እንደ ይዘት የሚያጣሩበት መንገድ ይጠቀሙባቸዋል።';
+  String get demoFilterChipDescription =>
+      'የማጣሪያ ቺፖች መለያዎችን ወይም ገላጭ ቃላት እንደ ይዘት የሚያጣሩበት መንገድ ይጠቀሙባቸዋል።';
 
   @override
   String get demoInputChipTitle => 'የግቤት ቺፕ';
 
   @override
-  String get demoInputChipDescription => 'የግቤት ቺፖች እንደ ህጋዊ አካል (ሰው፣ ቦታ ወይም ነገር) ውስብስብ ወይም የውይይት ጽሑፍ ያለ በእምቅ መልኩ ያለ ውስብስብ የመረጃ ክፍልን ይወክላሉ።';
+  String get demoInputChipDescription =>
+      'የግቤት ቺፖች እንደ ህጋዊ አካል (ሰው፣ ቦታ ወይም ነገር) ውስብስብ ወይም የውይይት ጽሑፍ ያለ በእምቅ መልኩ ያለ ውስብስብ የመረጃ ክፍልን ይወክላሉ።';
 
   @override
   String get demoDataTableTitle => 'የውሂብ ሠንጠረዦች';
@@ -563,7 +582,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'የመረጃ ረድፎች እና አምዶች';
 
   @override
-  String get demoDataTableDescription => 'የውሂብ ሠንጠረዦች መረጃን የፍርግርግ አይነት በሆነ የረድፎች እና አምዶች ቅርጸት ያሳያል። መረጃን ለመቃኘት ቀላል በሆነ መልኩ ያደራጃል፣ በዚህንም ተጠቃሚዎች ስርዓተ-ጥለቶችን እና ግንዛቤዎችን መፈለግ ይችላሉ።';
+  String get demoDataTableDescription =>
+      'የውሂብ ሠንጠረዦች መረጃን የፍርግርግ አይነት በሆነ የረድፎች እና አምዶች ቅርጸት ያሳያል። መረጃን ለመቃኘት ቀላል በሆነ መልኩ ያደራጃል፣ በዚህንም ተጠቃሚዎች ስርዓተ-ጥለቶችን እና ግንዛቤዎችን መፈለግ ይችላሉ።';
 
   @override
   String get dataTableHeader => 'ስነ ምግብ';
@@ -642,7 +662,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'ማንቂያ';
 
   @override
-  String get demoAlertDialogDescription => 'የማንቂያ ንግግር ተጠቃሚውን ስለ ዕውቅና መስጠት የሚያስፈልጋቸው ሁኔታዎች በተመለከተ መረጃ ይሰጣል። የማንቂያ ንግግር አማራጭ አርዕስት እና የድርጊቶች አማራጭ ዝርዝር አለው።';
+  String get demoAlertDialogDescription =>
+      'የማንቂያ ንግግር ተጠቃሚውን ስለ ዕውቅና መስጠት የሚያስፈልጋቸው ሁኔታዎች በተመለከተ መረጃ ይሰጣል። የማንቂያ ንግግር አማራጭ አርዕስት እና የድርጊቶች አማራጭ ዝርዝር አለው።';
 
   @override
   String get demoAlertTitleDialogTitle => 'ከአርእስት ጋር ማስጠንቀቂያ ስጥ';
@@ -651,16 +672,19 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'ቀላል';
 
   @override
-  String get demoSimpleDialogDescription => 'ቀላል ንግግር ለተጠቃሚው በበርካታ አማራጮች መካከል ምርጫን ያቀርባል። ቀላል ንግግር ከምርጫዎ በላይ የሚታይ አማራጭ አርዕስት አለው።';
+  String get demoSimpleDialogDescription =>
+      'ቀላል ንግግር ለተጠቃሚው በበርካታ አማራጮች መካከል ምርጫን ያቀርባል። ቀላል ንግግር ከምርጫዎ በላይ የሚታይ አማራጭ አርዕስት አለው።';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +696,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'የረድፍ እና የዓምድ አቀማመጥ';
 
   @override
-  String get demoGridListsDescription => 'ፍርግርግ ዝርዝሮች ተመሳሳይነት ያለውን ውሂብ በተለይ ደግሞ ምስሎች ለማቅረብ በጣም የተሻሉ አማራጮች ናቸው። በፍርግርግ ዝርዝር ውስጥ ያለው እያንዳንዱ ንጥል ስድር ይባላል።';
+  String get demoGridListsDescription =>
+      'ፍርግርግ ዝርዝሮች ተመሳሳይነት ያለውን ውሂብ በተለይ ደግሞ ምስሎች ለማቅረብ በጣም የተሻሉ አማራጮች ናቸው። በፍርግርግ ዝርዝር ውስጥ ያለው እያንዳንዱ ንጥል ስድር ይባላል።';
 
   @override
   String get demoGridListsImageOnlyTitle => 'ምስል ብቻ';
@@ -690,31 +715,37 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoSlidersSubtitle => 'በጣት ጠረግ በማድረግ እሴት ለመምረጥ የሚሆኑ ምግብሮች';
 
   @override
-  String get demoSlidersDescription => 'ተጠቃሚዎች አንድን ነጠላ እሴት ሊመርጡ የሚችሉበት አሞሌ ላይ ያሉትን የእሴቶች ክልል ተንሸራታቾች ያንጸባርቃሉ። እንደ ድምፅ፣ ብሩህነት የመሳሰሉ ቅንብሮችን ለማስተካከል ወይም የምስል ማጣሪያዎችን ተፈጻሚ ለማድረግ ተመራጭ ናቸው።';
+  String get demoSlidersDescription =>
+      'ተጠቃሚዎች አንድን ነጠላ እሴት ሊመርጡ የሚችሉበት አሞሌ ላይ ያሉትን የእሴቶች ክልል ተንሸራታቾች ያንጸባርቃሉ። እንደ ድምፅ፣ ብሩህነት የመሳሰሉ ቅንብሮችን ለማስተካከል ወይም የምስል ማጣሪያዎችን ተፈጻሚ ለማድረግ ተመራጭ ናቸው።';
 
   @override
   String get demoRangeSlidersTitle => 'የክልል ተንሸራታቾች';
 
   @override
-  String get demoRangeSlidersDescription => 'ተንሸራታቾች ከአሞሌ ጋር የእሴቶችን ክልል ያንጸባርቃሉ። የእሴቶችን ክልል በሚያንጸባርቀው አሞሌ ሁለቱም ማብቂያዎች ላይ አዶዎች ሊኖራቸው ይችላል። እንደ ድምፅ፣ ብሩህነት የመሳሰሉ ቅንብሮችን ለማስተካከል ወይም የምስል ማጣሪያዎችን ተፈጻሚ ለማድረግ ተመራጭ ናቸው።';
+  String get demoRangeSlidersDescription =>
+      'ተንሸራታቾች ከአሞሌ ጋር የእሴቶችን ክልል ያንጸባርቃሉ። የእሴቶችን ክልል በሚያንጸባርቀው አሞሌ ሁለቱም ማብቂያዎች ላይ አዶዎች ሊኖራቸው ይችላል። እንደ ድምፅ፣ ብሩህነት የመሳሰሉ ቅንብሮችን ለማስተካከል ወይም የምስል ማጣሪያዎችን ተፈጻሚ ለማድረግ ተመራጭ ናቸው።';
 
   @override
   String get demoCustomSlidersTitle => 'ብጁ ተንሸራታቾች';
 
   @override
-  String get demoCustomSlidersDescription => 'ተጠቃሚዎች አንድን ነጠላ እሴት ወይም የእሴቶች ክልል ሊመርጡ የሚችሉበት አሞሌ ላይ ያሉትን የእሴቶች ክልል ተንሸራታቾች ያንጸባርቃሉ። ተንሸራታቾቹ ገጽታ ሊኖራቸው እና ብጁ ሊደረጉ ይችላሉ።';
+  String get demoCustomSlidersDescription =>
+      'ተጠቃሚዎች አንድን ነጠላ እሴት ወይም የእሴቶች ክልል ሊመርጡ የሚችሉበት አሞሌ ላይ ያሉትን የእሴቶች ክልል ተንሸራታቾች ያንጸባርቃሉ። ተንሸራታቾቹ ገጽታ ሊኖራቸው እና ብጁ ሊደረጉ ይችላሉ።';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'አርትዕ ሊደረግ ከሚችል አሃዛዊ እሴት ጋር ቀጣይ';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'አርትዕ ሊደረግ ከሚችል አሃዛዊ እሴት ጋር ቀጣይ';
 
   @override
   String get demoSlidersDiscrete => 'ውሱን';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'ውሱን ተንሸራታች ከብጁ ገጽታ ጋር';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'ውሱን ተንሸራታች ከብጁ ገጽታ ጋር';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'ቀጣይ የክልል ተንሸራታች ከብጁ ገጽታ ጋር';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'ቀጣይ የክልል ተንሸራታች ከብጁ ገጽታ ጋር';
 
   @override
   String get demoSlidersContinuous => 'ተከታታይ';
@@ -741,7 +772,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoMenuSubtitle => 'የምናሌ አዝራሮች እና ቀላል ምናሌዎች';
 
   @override
-  String get demoMenuDescription => 'ምናሌ በጊዜያዊ ቦታ ላይ የምርጫዎችን ዝርዝር ያሳያል። ተጠቃሚዎች ከአዝራር፣ ከድርጊት ወይም ሌላ መቆጣጠሪያ ጋር መስተጋብር ሲፈጽሙ ብቅ ይላሉ።';
+  String get demoMenuDescription =>
+      'ምናሌ በጊዜያዊ ቦታ ላይ የምርጫዎችን ዝርዝር ያሳያል። ተጠቃሚዎች ከአዝራር፣ ከድርጊት ወይም ሌላ መቆጣጠሪያ ጋር መስተጋብር ሲፈጽሙ ብቅ ይላሉ።';
 
   @override
   String get demoMenuItemValueOne => 'ምናሌ ንጥል አንድ';
@@ -808,7 +840,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoNavigationDrawerSubtitle => 'በመተግበሪያ አሞሌ ውስጥ መሳቢያ በማሳየት ላይ';
 
   @override
-  String get demoNavigationDrawerDescription => 'በመተግበሪያው ውስጥ የአሰሳ አገናኞችን ለማሳየት ከማያ ገጹ ጠርዝ ላይ በአግድም የሚንሸራተት የቁሳዊ ንድፍ ፓነል።';
+  String get demoNavigationDrawerDescription =>
+      'በመተግበሪያው ውስጥ የአሰሳ አገናኞችን ለማሳየት ከማያ ገጹ ጠርዝ ላይ በአግድም የሚንሸራተት የቁሳዊ ንድፍ ፓነል።';
 
   @override
   String get demoNavigationDrawerUserName => 'የተጠቃሚ ስም';
@@ -823,7 +856,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'ንጥል ሁለት';
 
   @override
-  String get demoNavigationDrawerText => 'መሳቢያውን ለማየት ከጠርዙ ላይ ያንሸራትቱ ወይም የላይኛውን ግራ አዶ መታ ያድርጉ';
+  String get demoNavigationDrawerText =>
+      'መሳቢያውን ለማየት ከጠርዙ ላይ ያንሸራትቱ ወይም የላይኛውን ግራ አዶ መታ ያድርጉ';
 
   @override
   String get demoNavigationRailTitle => 'የአሰሳ ሐዲድ';
@@ -832,7 +866,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoNavigationRailSubtitle => 'የአሰሳ ሐዲድን በመተግበሪያ ውስጥ በማሳየት ላይ';
 
   @override
-  String get demoNavigationRailDescription => 'በአይነተኛነት በሶስት እና አምስት መካከል የሆነ ትንሽ የዕይታዎች ቁጥር መካከል ለመዳሰስ በመተግበሪያው ግራ ወይም ቀኝ እንዲታይ የታሰበ የቁስ መግብር።';
+  String get demoNavigationRailDescription =>
+      'በአይነተኛነት በሶስት እና አምስት መካከል የሆነ ትንሽ የዕይታዎች ቁጥር መካከል ለመዳሰስ በመተግበሪያው ግራ ወይም ቀኝ እንዲታይ የታሰበ የቁስ መግብር።';
 
   @override
   String get demoNavigationRailFirst => 'መጀመሪያ';
@@ -853,7 +888,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoFullscreenDialogTitle => 'ሙሉ ማያ ገጽ';
 
   @override
-  String get demoFullscreenDialogDescription => 'የ fullscreenDialog ባህሪ መጪው ገጽ ባለ ሙሉ ማያ ገጽ ሞዳል ንግግር መሆን አለመሆኑን ይጠቅሳል';
+  String get demoFullscreenDialogDescription =>
+      'የ fullscreenDialog ባህሪ መጪው ገጽ ባለ ሙሉ ማያ ገጽ ሞዳል ንግግር መሆን አለመሆኑን ይጠቅሳል';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'የእንቅስቃሴ ጠቋሚ';
@@ -862,7 +898,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoCupertinoActivityIndicatorSubtitle => 'iOS-ቅጥ እንቅስቃሴ ጠቋሚዎች';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'በሰዓት አቅጣጫ የሚሽከረከር የiOS-ቅጥ እንቅስቃሴ ጠቋሚ';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'በሰዓት አቅጣጫ የሚሽከረከር የiOS-ቅጥ እንቅስቃሴ ጠቋሚ';
 
   @override
   String get demoCupertinoButtonsTitle => 'አዝራሮች';
@@ -871,7 +908,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'iOS-ቅጥ አዝራሮች';
 
   @override
-  String get demoCupertinoButtonsDescription => 'የ iOS-ቅጥ አዝራር። ሲነካ የሚደበዝዝ እና የሚደምቅ የጽሑፍ ውስጥ እና/ወይም አዶ ይወስዳል። በአማራጭነት በስተጀርባ ሊኖረው ይችል ይሆናል።';
+  String get demoCupertinoButtonsDescription =>
+      'የ iOS-ቅጥ አዝራር። ሲነካ የሚደበዝዝ እና የሚደምቅ የጽሑፍ ውስጥ እና/ወይም አዶ ይወስዳል። በአማራጭነት በስተጀርባ ሊኖረው ይችል ይሆናል።';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +918,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,7 +928,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'ማንቂያዎች';
@@ -901,7 +941,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => 'ማንቂያ';
 
   @override
-  String get demoCupertinoAlertDescription => 'የማንቂያ ንግግር ተጠቃሚውን ስለ ዕውቅና መስጠት የሚያስፈልጋቸው ሁኔታዎች በተመለከተ መረጃ ይሰጣል። የማንቂያ ንግግር አማራጭ አርዕስት፣ አማራጭ ይዘት እና የድርጊቶች አማራጭ ዝርዝር አለው። አርእስቱ ከይዘቱ በላይ ይታያል እና እርምጃዎቹ ከይዘቱ ሥር ይታያሉ።';
+  String get demoCupertinoAlertDescription =>
+      'የማንቂያ ንግግር ተጠቃሚውን ስለ ዕውቅና መስጠት የሚያስፈልጋቸው ሁኔታዎች በተመለከተ መረጃ ይሰጣል። የማንቂያ ንግግር አማራጭ አርዕስት፣ አማራጭ ይዘት እና የድርጊቶች አማራጭ ዝርዝር አለው። አርእስቱ ከይዘቱ በላይ ይታያል እና እርምጃዎቹ ከይዘቱ ሥር ይታያሉ።';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'ከርዕስ ጋር ማንቂያ';
@@ -916,7 +957,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'የእርምጃ ሉህ';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'የእርምጃ ሉህ ከሁለት ወይም ከዚያ በላይ አሁን ካለው ዓውድ ጋር ግንኙነት ያላቸው ምርጫዎች ጋር የምርጫ ስብስብ ለተጠቃሚው የሚያቀርብ የተወሰነ የማንቂያ ቅጥ ነው። የእርምጃ ሉህ አርዕስት፣ ተጨማሪ መልዕክት፣ እና የእርምጃዎች ዝርዝር ሊኖረው ይችላል።';
+  String get demoCupertinoActionSheetDescription =>
+      'የእርምጃ ሉህ ከሁለት ወይም ከዚያ በላይ አሁን ካለው ዓውድ ጋር ግንኙነት ያላቸው ምርጫዎች ጋር የምርጫ ስብስብ ለተጠቃሚው የሚያቀርብ የተወሰነ የማንቂያ ቅጥ ነው። የእርምጃ ሉህ አርዕስት፣ ተጨማሪ መልዕክት፣ እና የእርምጃዎች ዝርዝር ሊኖረው ይችላል።';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'የአሰሳ አሞሌ';
@@ -925,7 +967,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoCupertinoNavigationBarSubtitle => 'iOS-ቅጥ የአሰሳ ምናሌ';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'የiOS-ቅጥ አሰሳ ምናሌ። የአሰሳ ምናሌ በመሣሪያ አሞሌ መሃል የገጽ አርዕስትን በውስጡ ቢያንስ የያዘ የመሣሪያ አሞሌ ነው።';
+  String get demoCupertinoNavigationBarDescription =>
+      'የiOS-ቅጥ አሰሳ ምናሌ። የአሰሳ ምናሌ በመሣሪያ አሞሌ መሃል የገጽ አርዕስትን በውስጡ ቢያንስ የያዘ የመሣሪያ አሞሌ ነው።';
 
   @override
   String get demoCupertinoPickerTitle => 'መራጮች';
@@ -934,7 +977,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoCupertinoPickerSubtitle => 'የiOS-ቅጥ ቀን እና ሰዓት መራጮች';
 
   @override
-  String get demoCupertinoPickerDescription => 'የiOS-ቅጥ ያለው መራጭ ምግብር ቀኖችን፣ ሰዓቶችን ወይም ሁለቱም ቀን እና ሰዓት ለመምረጥ ስራ ላይ መዋል ይችላሉ።';
+  String get demoCupertinoPickerDescription =>
+      'የiOS-ቅጥ ያለው መራጭ ምግብር ቀኖችን፣ ሰዓቶችን ወይም ሁለቱም ቀን እና ሰዓት ለመምረጥ ስራ ላይ መዋል ይችላሉ።';
 
   @override
   String get demoCupertinoPickerTimer => 'ሰዓት ቆጣሪ';
@@ -955,7 +999,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshSubtitle => 'መቆጣጠሪያን ለማደስ የiOS-ቅጥ መጎተት';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'የይዘት መቆጣጠሪያን ለማደስ የiOS-ቅጥ መጎተትን ተግባራዊ የሚያደርግ ምግብር።';
+  String get demoCupertinoPullToRefreshDescription =>
+      'የይዘት መቆጣጠሪያን ለማደስ የiOS-ቅጥ መጎተትን ተግባራዊ የሚያደርግ ምግብር።';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'የተከፋፈለ መቆጣጠሪያ';
@@ -964,7 +1009,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoCupertinoSegmentedControlSubtitle => 'በiOS-ቅጥ የተከፋፈለ መቆጣጠሪያ';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'በአንድ ላይ በልዩ ሁኔታ ከሚታዩ አማራጮች ቁጥር መካከል ለመምረጥ ጥቅም ላይ ይውላል። በተከፋፈለው መቆጣጠሪያ ውስጥ አንድ አማራጭ ሲመረጥ፣ በተከፋፈለው መቆጣጠሪያ ውስጥ ያሉት ሌሎች አማራጮች መመረጥ ያቆማሉ።';
+  String get demoCupertinoSegmentedControlDescription =>
+      'በአንድ ላይ በልዩ ሁኔታ ከሚታዩ አማራጮች ቁጥር መካከል ለመምረጥ ጥቅም ላይ ይውላል። በተከፋፈለው መቆጣጠሪያ ውስጥ አንድ አማራጭ ሲመረጥ፣ በተከፋፈለው መቆጣጠሪያ ውስጥ ያሉት ሌሎች አማራጮች መመረጥ ያቆማሉ።';
 
   @override
   String get demoCupertinoSliderTitle => 'ተንሸራታች';
@@ -973,7 +1019,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'የiOS-ቅጥ ተንሸራታች';
 
   @override
-  String get demoCupertinoSliderDescription => 'ተንሸራታች ተጠቅመው ወይም ቀጣይነት ካለው ወይም ከውሱን የእሴቶች ስብስብ አንዱን መምረጥ ይቻላል።';
+  String get demoCupertinoSliderDescription =>
+      'ተንሸራታች ተጠቅመው ወይም ቀጣይነት ካለው ወይም ከውሱን የእሴቶች ስብስብ አንዱን መምረጥ ይቻላል።';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,7 +1036,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'iOS-ቅጥ ማብሪያ/ማጥፊያ';
 
   @override
-  String get demoCupertinoSwitchDescription => 'ማብሪያ/ማጥፊያ አንድ ነጠላ ቅንብርን ለማብራት/ለማጥፋት ስራ ላይ ይውላል።';
+  String get demoCupertinoSwitchDescription =>
+      'ማብሪያ/ማጥፊያ አንድ ነጠላ ቅንብርን ለማብራት/ለማጥፋት ስራ ላይ ይውላል።';
 
   @override
   String get demoCupertinoTabBarTitle => 'የትር አሞሌ';
@@ -998,7 +1046,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'የiOS-ቅጥ የታች ትር አሞሌ';
 
   @override
-  String get demoCupertinoTabBarDescription => 'የiOS-ቅጥ የታች ዳሰሳ ትር አሞሌ። አንድ ትር ገቢር ሆኖ፣ በነባሪነት የመጀመሪያው ትር፣ በርካታ ትሮችን ያሳያል።';
+  String get demoCupertinoTabBarDescription =>
+      'የiOS-ቅጥ የታች ዳሰሳ ትር አሞሌ። አንድ ትር ገቢር ሆኖ፣ በነባሪነት የመጀመሪያው ትር፣ በርካታ ትሮችን ያሳያል።';
 
   @override
   String get cupertinoTabBarHomeTab => 'መነሻ';
@@ -1016,7 +1065,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'የiOS-ቅጥ የጽሑፍ መስኮች';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'የጽሑፍ መስክ ተጠቃሚው በሃርድዌር ቁልፍ ሰሌዳ ወይም በማያ ገጽ ላይ ቁልፍ ሰሌዳ ጽሑፍ እንዲያስገቡ ያስችላቸዋል።';
+  String get demoCupertinoTextFieldDescription =>
+      'የጽሑፍ መስክ ተጠቃሚው በሃርድዌር ቁልፍ ሰሌዳ ወይም በማያ ገጽ ላይ ቁልፍ ሰሌዳ ጽሑፍ እንዲያስገቡ ያስችላቸዋል።';
 
   @override
   String get demoCupertinoTextFieldPIN => 'ፒን';
@@ -1049,7 +1099,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'መያዣን መቀየር';
 
   @override
-  String get demoContainerTransformDescription => 'የመያዣው መቀየር ስርዓተ-ጥለት መያዣን በሚያካትቱ ዩአይ አካላት መካከል ላሉት ሽግግሮች የተነደፈ ነው። ይህ ስርዓተ-ጥለት በሁለት ዩአይ አካላት መካከል የሚታይ ግንኙነትን ይፈጥራል';
+  String get demoContainerTransformDescription =>
+      'የመያዣው መቀየር ስርዓተ-ጥለት መያዣን በሚያካትቱ ዩአይ አካላት መካከል ላሉት ሽግግሮች የተነደፈ ነው። ይህ ስርዓተ-ጥለት በሁለት ዩአይ አካላት መካከል የሚታይ ግንኙነትን ይፈጥራል';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'የአደብዝዝ ሁነታ';
@@ -1076,7 +1127,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'የዝርዝር ንጥል';
 
   @override
-  String get demoSharedAxisDescription => 'የተጋራ የዘንግ ስርዓተ-ጥለት የቦታ ወይም የዳሰሳ ግንኙነት ባላቸው ዩአይ ክፍለ-አካላት መካከል ላሉት ሽግግሮች ያገለግላል። በክፍለ-አካላት መካከል ያለውን ግንኙነት ለማጠናከር ይህ ስርዓተ-ጥለት በ x፣ y ወይም z ዘንግ ላይ የጋራ ሽግግርን ይጠቀማል።';
+  String get demoSharedAxisDescription =>
+      'የተጋራ የዘንግ ስርዓተ-ጥለት የቦታ ወይም የዳሰሳ ግንኙነት ባላቸው ዩአይ ክፍለ-አካላት መካከል ላሉት ሽግግሮች ያገለግላል። በክፍለ-አካላት መካከል ያለውን ግንኙነት ለማጠናከር ይህ ስርዓተ-ጥለት በ x፣ y ወይም z ዘንግ ላይ የጋራ ሽግግርን ይጠቀማል።';
 
   @override
   String get demoSharedXAxisTitle => 'የተጋራ x-ዘንግ';
@@ -1091,7 +1143,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'ትምህርቶችዎን ያሳልጡ';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'የተጠቃለሉ ምድቦች በምግብዎ ላይ እንደ ቡድን ሆነው ይታያሉ። ይህን በኋላ ላይ በማንኛውም ጊዜ መቀየር ይችላሉ።';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'የተጠቃለሉ ምድቦች በምግብዎ ላይ እንደ ቡድን ሆነው ይታያሉ። ይህን በኋላ ላይ በማንኛውም ጊዜ መቀየር ይችላሉ።';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'ስነ ጥበባት እና ዕደ ጥበባት';
@@ -1190,7 +1243,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'የበሬ ስጋ ሳንድዊች';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'የበሬ ስጋ ሳንድዊች አሰራር';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'የበሬ ስጋ ሳንድዊች አሰራር';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'የተቀመጡ የምግብ አሰራሮች';
@@ -1211,7 +1265,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'በዚህ በኩል አደብዝዝ፦';
 
   @override
-  String get demoFadeThroughDescription => 'በስርዓተ-ጥለት በኩል አደብዝዝ እርስ ከራሳቸው ጠንካራ ግንኙነት በሌላቸው የዩአይ ክፍለ-አካላት መካከል ላለ ሽግግር ስራ ላይ ይውላል።';
+  String get demoFadeThroughDescription =>
+      'በስርዓተ-ጥለት በኩል አደብዝዝ እርስ ከራሳቸው ጠንካራ ግንኙነት በሌላቸው የዩአይ ክፍለ-አካላት መካከል ላለ ሽግግር ስራ ላይ ይውላል።';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'አልበሞች';
@@ -1229,7 +1284,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'አደብዝዝ';
 
   @override
-  String get demoFadeScaleDescription => 'የአደብዝዝ ስርዓተ-ጥለት እንደ ወደ የማያ ገጹ መሃል የሚደበዝዝ መገናኛ ላሉ በማያ ገጹ ወሰን ውስጥ ለሚገቡ ወይም ለሚወጡት ዩአይ ክፍለ-አካላት ያገለግላል።';
+  String get demoFadeScaleDescription =>
+      'የአደብዝዝ ስርዓተ-ጥለት እንደ ወደ የማያ ገጹ መሃል የሚደበዝዝ መገናኛ ላሉ በማያ ገጹ ወሰን ውስጥ ለሚገቡ ወይም ለሚወጡት ዩአይ ክፍለ-አካላት ያገለግላል።';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'ሞዳል አሳይ';
@@ -1256,7 +1312,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoColorsSubtitle => 'ሁሉም አስቀድመው የተገለጹ ቀለማት';
 
   @override
-  String get demoColorsDescription => 'የቁስ ንድፍ ቀለም ቤተ ሥዕልን የሚወክሉ የቀለም እና የቀለም መደብ ቋሚዎች።';
+  String get demoColorsDescription =>
+      'የቁስ ንድፍ ቀለም ቤተ ሥዕልን የሚወክሉ የቀለም እና የቀለም መደብ ቋሚዎች።';
 
   @override
   String get demoTypographyTitle => 'ታይፖግራፊ';
@@ -1265,7 +1322,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoTypographySubtitle => 'ሁሉም ቅድሚያ የተገለጹ የጽሑፍ ቅጦች';
 
   @override
-  String get demoTypographyDescription => 'በቁሳዊ ንድፍ ላይ የሚገኙ የተለያዩ ታይፖግራፊያዊ ቅጦች ፍቺዎች።';
+  String get demoTypographyDescription =>
+      'በቁሳዊ ንድፍ ላይ የሚገኙ የተለያዩ ታይፖግራፊያዊ ቅጦች ፍቺዎች።';
 
   @override
   String get demo2dTransformationsTitle => '2ል ቅየራዎች';
@@ -1274,7 +1332,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'ማንፏቀቅ፣ ማጉላት፣ ማሽከርከር';
 
   @override
-  String get demo2dTransformationsDescription => 'ስድሮችን አርትዕ ለማድረግ መታ ያድርጉ እና በትዕይንቱ አካባቢ ለማንቀሳቀስ የእጅ ውዝዋዜዎችን ይጠቀሙ። ለማንፏቀቅ ይጎትቱ፣ ለማጉላት ይቆንጥጡ፣ በሁለት ጣቶች ያሽከርክሩ። ወደ ማስጀመሪያው አቀማመጥ ለመመለስ የዳግም አቀናብር አዝራሩን ይጫኑ።';
+  String get demo2dTransformationsDescription =>
+      'ስድሮችን አርትዕ ለማድረግ መታ ያድርጉ እና በትዕይንቱ አካባቢ ለማንቀሳቀስ የእጅ ውዝዋዜዎችን ይጠቀሙ። ለማንፏቀቅ ይጎትቱ፣ ለማጉላት ይቆንጥጡ፣ በሁለት ጣቶች ያሽከርክሩ። ወደ ማስጀመሪያው አቀማመጥ ለመመለስ የዳግም አቀናብር አዝራሩን ይጫኑ።';
 
   @override
   String get demo2dTransformationsResetTooltip => 'ቅየራዎችን ዳግም ያቀናብሩ';
@@ -1295,13 +1354,15 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'ጽኑ የግርጌ ሉህ';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'ጽኑ የሆነ የግርጌ ሉህ የመተግበሪያውን ዋና ይዘት የሚያሟላ መረጃ ያሳያል። ጽኑ የግርጌ ሉህ ተጠቃሚው የመተግበሪያው ሌሎች ክፍሎች ጋር መስተጋብር ቢፈጥርም እንኳ የሚታይ እንደሆነ ይቆያል።';
+  String get demoBottomSheetPersistentDescription =>
+      'ጽኑ የሆነ የግርጌ ሉህ የመተግበሪያውን ዋና ይዘት የሚያሟላ መረጃ ያሳያል። ጽኑ የግርጌ ሉህ ተጠቃሚው የመተግበሪያው ሌሎች ክፍሎች ጋር መስተጋብር ቢፈጥርም እንኳ የሚታይ እንደሆነ ይቆያል።';
 
   @override
   String get demoBottomSheetModalTitle => 'የሞዳል አዝራር ሉህ';
 
   @override
-  String get demoBottomSheetModalDescription => 'የሞዳል ግርጌ ሉህ ለአንድ ምናሌ ወይም መገናኛ ተለዋጭ ሲሆን ተጠቃሚው ከተቀረው መተግበሪያ ጋር መስተጋብር እንዳይፈጥር ይከለክላል።';
+  String get demoBottomSheetModalDescription =>
+      'የሞዳል ግርጌ ሉህ ለአንድ ምናሌ ወይም መገናኛ ተለዋጭ ሲሆን ተጠቃሚው ከተቀረው መተግበሪያ ጋር መስተጋብር እንዳይፈጥር ይከለክላል።';
 
   @override
   String get demoBottomSheetAddLabel => 'አክል';
@@ -1324,7 +1385,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoListsSubtitle => 'የዝርዝር አቀማመጦችን በመሸብለል ላይ';
 
   @override
-  String get demoListsDescription => 'በተለምዶ የተወሰነ ጽሑፍና እንዲሁም መሪ ወይም ተከታይ አዶ የያዘ አንድ ባለነጠላ ቋሚ ረድፍ።';
+  String get demoListsDescription =>
+      'በተለምዶ የተወሰነ ጽሑፍና እንዲሁም መሪ ወይም ተከታይ አዶ የያዘ አንድ ባለነጠላ ቋሚ ረድፍ።';
 
   @override
   String get demoOneLineListsTitle => 'አንድ መስመር';
@@ -1345,13 +1407,15 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoCircularProgressIndicatorTitle => 'ክበባዊ የግስጋሴ ጠቋሚ';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'መተግበሪያው ባተሌ እንደሆነ ለመጠቆም የሚሽከረከር የቁስ ንድፍ ክበባዊ ግስጋሴ ጠቋሚ።';
+  String get demoCircularProgressIndicatorDescription =>
+      'መተግበሪያው ባተሌ እንደሆነ ለመጠቆም የሚሽከረከር የቁስ ንድፍ ክበባዊ ግስጋሴ ጠቋሚ።';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'የቀጥታ መስመር የግስጋሴ ጠቋሚ';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'የቁስ ንድፍ የቀጥታ መስመር የግስጋሴ ጠቋሚ፣ በተጨማሪ የግስጋሴ አሞሌ በመባል የሚታወቅ';
+  String get demoLinearProgressIndicatorDescription =>
+      'የቁስ ንድፍ የቀጥታ መስመር የግስጋሴ ጠቋሚ፣ በተጨማሪ የግስጋሴ አሞሌ በመባል የሚታወቅ';
 
   @override
   String get demoPickersTitle => 'መራጮች';
@@ -1375,7 +1439,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'መራጭን አሳይ';
@@ -1393,7 +1458,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoTabsSubtitle => 'ትሮች ራሳቸውን ከቻሉ ተሸብላይ ዕይታዎች ጋር';
 
   @override
-  String get demoTabsDescription => 'ትሮች በተለያዩ ማያ ገጾች፣ የውሂብ ስብስቦች እና ሌሎች መስተጋብሮች ዙሪያ ይዘትን ያደራጃል';
+  String get demoTabsDescription =>
+      'ትሮች በተለያዩ ማያ ገጾች፣ የውሂብ ስብስቦች እና ሌሎች መስተጋብሮች ዙሪያ ይዘትን ያደራጃል';
 
   @override
   String get demoSnackbarsTitle => 'ቁርስ ቤት';
@@ -1402,7 +1468,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoSnackbarsSubtitle => 'ቁርስ ቤት በማያ ገጹ ግርጌ ላይ መልዕክቶችን ያሳያል';
 
   @override
-  String get demoSnackbarsDescription => 'ቁርስ ቤት አንድ መተግበሪያ ስለ ያከናወነው ወይም የሚያከናውነው ሂደት ለተጠቃሚዎች ያሳውቃል። ለጊዜው ይታያሉ፣ በማያ ገጹ ግርጌ አካባቢ ላይ። የተጠቃሚ ተሞክሮውን መረበሽ የለባቸውም፣ እና ለመጥፋት የተጠቃሚው ግቤት አያስፈልጋቸውም።';
+  String get demoSnackbarsDescription =>
+      'ቁርስ ቤት አንድ መተግበሪያ ስለ ያከናወነው ወይም የሚያከናውነው ሂደት ለተጠቃሚዎች ያሳውቃል። ለጊዜው ይታያሉ፣ በማያ ገጹ ግርጌ አካባቢ ላይ። የተጠቃሚ ተሞክሮውን መረበሽ የለባቸውም፣ እና ለመጥፋት የተጠቃሚው ግቤት አያስፈልጋቸውም።';
 
   @override
   String get demoSnackbarsButtonLabel => 'ቁርስ ቤት አሳይ';
@@ -1420,25 +1487,29 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoSelectionControlsTitle => 'የምርጫ መቆጣጠሪያዎች';
 
   @override
-  String get demoSelectionControlsSubtitle => 'አመልካች ሳጥኖች፣ የሬዲዮ አዝራሮች እና መቀያየሪያዎች';
+  String get demoSelectionControlsSubtitle =>
+      'አመልካች ሳጥኖች፣ የሬዲዮ አዝራሮች እና መቀያየሪያዎች';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'አመልካች ሳጥን';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'አመልካች ሳጥኖች ተጠቃሚው ከአንድ ስብስብ በርካታ አማራጮችን እንዲሰበስብ ያስችለዋል። የአንድ መደበኛ አመልካች ሳጥኑ እሴት እውነት ወይም ሐሰት ነው፣ እና የአንድ ባለሶስት-ሁኔታ እሴት እንዲሁም አልቦ መሆን ይችላል።';
+  String get demoSelectionControlsCheckboxDescription =>
+      'አመልካች ሳጥኖች ተጠቃሚው ከአንድ ስብስብ በርካታ አማራጮችን እንዲሰበስብ ያስችለዋል። የአንድ መደበኛ አመልካች ሳጥኑ እሴት እውነት ወይም ሐሰት ነው፣ እና የአንድ ባለሶስት-ሁኔታ እሴት እንዲሁም አልቦ መሆን ይችላል።';
 
   @override
   String get demoSelectionControlsRadioTitle => 'ሬዲዮ';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'የሬዲዮ ዝራሮች ተጠቃሚው ከአንድ ስብስብ ውስጥ አንድ አማራጭ እንዲፈጥር ያስችለዋል። ተጠቃሚው ሁሉንም የሚገኙ አማራጮች ጎን ለጎን ማየት አለበት ብለው የሚያስቡ ከሆነ የሬዲዮ አዝራሮችን የሚመለከተውን ብቻ ለመምረጥ ይጠቀሙባቸው።';
+  String get demoSelectionControlsRadioDescription =>
+      'የሬዲዮ ዝራሮች ተጠቃሚው ከአንድ ስብስብ ውስጥ አንድ አማራጭ እንዲፈጥር ያስችለዋል። ተጠቃሚው ሁሉንም የሚገኙ አማራጮች ጎን ለጎን ማየት አለበት ብለው የሚያስቡ ከሆነ የሬዲዮ አዝራሮችን የሚመለከተውን ብቻ ለመምረጥ ይጠቀሙባቸው።';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'ቀይር';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'የማብሪያ/ማጥፊያ መቀያየሪያዎች የነጠላ ቅንብሮች አማራጭ ሁኔታን ይቀያይራሉ። መቀያየሪያውን የሚቆጣጠረው አማራጭና እንዲሁም ያለበት ሁኔታ ከተጓዳኙ የውስጠ-መስመር የመሰየሚያው ግልጽ መሆን አለበት።';
+  String get demoSelectionControlsSwitchDescription =>
+      'የማብሪያ/ማጥፊያ መቀያየሪያዎች የነጠላ ቅንብሮች አማራጭ ሁኔታን ይቀያይራሉ። መቀያየሪያውን የሚቆጣጠረው አማራጭና እንዲሁም ያለበት ሁኔታ ከተጓዳኙ የውስጠ-መስመር የመሰየሚያው ግልጽ መሆን አለበት።';
 
   @override
   String get demoBottomTextFieldsTitle => 'የጽሑፍ መስኮች';
@@ -1447,10 +1518,12 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoTextFieldTitle => 'የጽሑፍ መስኮች';
 
   @override
-  String get demoTextFieldSubtitle => 'አርትዖት ሊደረግባቸው የሚችሉ የጽሑፍ እና ቁጥሮች ነጠላ መስመር';
+  String get demoTextFieldSubtitle =>
+      'አርትዖት ሊደረግባቸው የሚችሉ የጽሑፍ እና ቁጥሮች ነጠላ መስመር';
 
   @override
-  String get demoTextFieldDescription => 'የጽሑፍ መስኮች ተጠቃሚዎች ቃላትን ወደ ዩአይ እንዲያስገቡ ያስችላቸዋል። በተለምዶ በቅጾች እና በመገናኛዎች ውስጥ ይታያሉ።';
+  String get demoTextFieldDescription =>
+      'የጽሑፍ መስኮች ተጠቃሚዎች ቃላትን ወደ ዩአይ እንዲያስገቡ ያስችላቸዋል። በተለምዶ በቅጾች እና በመገናኛዎች ውስጥ ይታያሉ።';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'የይለፍ ቃል አሳይ';
@@ -1459,16 +1532,19 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'የይለፍ ቃል ደብቅ';
 
   @override
-  String get demoTextFieldFormErrors => 'ከማስገባትዎ በፊት እባክዎ በቀይ ያሉትን ስህተቶች ያስተካክሉ።';
+  String get demoTextFieldFormErrors =>
+      'ከማስገባትዎ በፊት እባክዎ በቀይ ያሉትን ስህተቶች ያስተካክሉ።';
 
   @override
   String get demoTextFieldNameRequired => 'ስም ያስፈልጋል።';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'እባክዎ ፊደል-ቁጥራዊ ቁምፊዎችን ብቻ ያስገቡ።';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'እባክዎ ፊደል-ቁጥራዊ ቁምፊዎችን ብቻ ያስገቡ።';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - የአሜሪካ ስልክ ቁጥር ያስገቡ።';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - የአሜሪካ ስልክ ቁጥር ያስገቡ።';
 
   @override
   String get demoTextFieldEnterPassword => 'እባክዎ የይለፍ ቃል ያስገቡ።';
@@ -1495,7 +1571,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoTextFieldEmail => 'ኢሜይል';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'ስለራስዎ ይንገሩን (ለምሳሌ፡0 ምን እንደሚያደርጉ ወይም ምን ዝንባሌዎች እንዳለዎት)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'ስለራስዎ ይንገሩን (ለምሳሌ፡0 ምን እንደሚያደርጉ ወይም ምን ዝንባሌዎች እንዳለዎት)';
 
   @override
   String get demoTextFieldKeepItShort => 'ያሳጥሩት፣ ይህ ማሳያ ብቻ ነው።';
@@ -1536,7 +1613,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get demoTooltipSubtitle => 'በረዥም መጫን ወይም ማንዣበብ ላይ የሚታይ አጭር መልዕክት';
 
   @override
-  String get demoTooltipDescription => 'የመሣሪያ ጥቆማዎች የአዝራርን ወይም ሌላ የተጠቃሚ በይነገጽ እርምጃ ለማብራራት የሚያግዙ የጽሑፍ መሰየሚያዎችን ያቀርባሉ። የመሣሪያ ጥቆማዎች ተጠቃሚዎች አንድ አባለ ነገር ላይ ሲያንዣብቡ፣ ሲያተኩሩ ወይም በረዥም ሲጫኑ መረጃ ሰጪ ጽሑፍን ያሳያል።';
+  String get demoTooltipDescription =>
+      'የመሣሪያ ጥቆማዎች የአዝራርን ወይም ሌላ የተጠቃሚ በይነገጽ እርምጃ ለማብራራት የሚያግዙ የጽሑፍ መሰየሚያዎችን ያቀርባሉ። የመሣሪያ ጥቆማዎች ተጠቃሚዎች አንድ አባለ ነገር ላይ ሲያንዣብቡ፣ ሲያተኩሩ ወይም በረዥም ሲጫኑ መረጃ ሰጪ ጽሑፍን ያሳያል።';
 
   @override
   String get demoTooltipInstructions => 'የመሣሪያ ጥቆማን ለማሳየት ረዥም ይጫኑ ወይም ያንዣብቡ።';
@@ -1600,7 +1678,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get dialogLocationTitle => 'የGoogle አካባቢ አገልግሎትን ይጠቀም?';
 
   @override
-  String get dialogLocationDescription => 'መተግበሪያዎች አካባቢ እንዲያውቁ Google ያግዛቸው። ይሄ ማለት ስም-አልባ የአካባቢ ውሂብ ለGoogle መላክ ማለት ነው፣ ምንም እያሄዱ ያሉ መተግበሪያዎች ባይኖሩም እንኳ።';
+  String get dialogLocationDescription =>
+      'መተግበሪያዎች አካባቢ እንዲያውቁ Google ያግዛቸው። ይሄ ማለት ስም-አልባ የአካባቢ ውሂብ ለGoogle መላክ ማለት ነው፣ ምንም እያሄዱ ያሉ መተግበሪያዎች ባይኖሩም እንኳ።';
 
   @override
   String get dialogCancel => 'ተወው';
@@ -1645,10 +1724,12 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'አስወግድ';
 
   @override
-  String get cupertinoAlertLocationTitle => 'የእርስዎ መገኛ አካባቢ እርስዎ መተግበሪያውን እየተጠቀሙ እንዳሉ እንዲደርስበት ለ \"ካርታዎች\" ይፈቀድ?';
+  String get cupertinoAlertLocationTitle =>
+      'የእርስዎ መገኛ አካባቢ እርስዎ መተግበሪያውን እየተጠቀሙ እንዳሉ እንዲደርስበት ለ \"ካርታዎች\" ይፈቀድ?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'የእርስዎ አሁን ያሉበት መገኛ አካባቢ በካርታው ላይ ይታያል እንዲሁም ለአቅጣጫዎች፣ በአቅራቢያ ያሉ ፍለጋ ውጤቶች እና የሚገመቱ የጉዞ ጊዜያት ጥቅም ላይ ይውላል።';
+  String get cupertinoAlertLocationDescription =>
+      'የእርስዎ አሁን ያሉበት መገኛ አካባቢ በካርታው ላይ ይታያል እንዲሁም ለአቅጣጫዎች፣ በአቅራቢያ ያሉ ፍለጋ ውጤቶች እና የሚገመቱ የጉዞ ጊዜያት ጥቅም ላይ ይውላል።';
 
   @override
   String get cupertinoAlertAllow => 'ፍቀድ';
@@ -1660,7 +1741,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'ተወዳጅ ጣፋጭ ምግብን ይምረጡ';
 
   @override
-  String get cupertinoAlertDessertDescription => 'ከዚህ በታች ካለው ዝርዝር እባክዎ የእርስዎን ተወዳጅ ጣፋጭ ምግብ ዓይነት ይምረጡ። የእርስዎ ምርጫ በእርስዎ አካባቢ ያሉትን የሚጠቆሙ መመገቢያ ቦታዎችን ዝርዝር ብጁ ለማድረግ ጥቅም ላይ ሊውል ይችላል።';
+  String get cupertinoAlertDessertDescription =>
+      'ከዚህ በታች ካለው ዝርዝር እባክዎ የእርስዎን ተወዳጅ ጣፋጭ ምግብ ዓይነት ይምረጡ። የእርስዎ ምርጫ በእርስዎ አካባቢ ያሉትን የሚጠቆሙ መመገቢያ ቦታዎችን ዝርዝር ብጁ ለማድረግ ጥቅም ላይ ሊውል ይችላል።';
 
   @override
   String get cupertinoAlertCheesecake => 'ቺዝ ኬክ';
@@ -2288,7 +2370,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get craneSleep0SemanticLabel => 'የውሃ ላይ ባንግሎው ቤት';
 
   @override
-  String get craneSleep1SemanticLabel => 'ሁሌ ለምለም ዛፎች ባሉት በረዷሟ መሬት ላይ ያለ ሻሌት ቤት';
+  String get craneSleep1SemanticLabel =>
+      'ሁሌ ለምለም ዛፎች ባሉት በረዷሟ መሬት ላይ ያለ ሻሌት ቤት';
 
   @override
   String get craneSleep2SemanticLabel => 'የማቹ ፒቹ ምሽግ';
@@ -2309,7 +2392,8 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get craneSleep7SemanticLabel => 'በሪቤሪያ አደባባይ ላይ ያሉ ባለቀለም አፓርታማዎች';
 
   @override
-  String get craneSleep8SemanticLabel => 'ከባህር ዳርቻ በላይ ባለ አምባ ላይ ያሉ የማያውያን ፍርስራሾች';
+  String get craneSleep8SemanticLabel =>
+      'ከባህር ዳርቻ በላይ ባለ አምባ ላይ ያሉ የማያውያን ፍርስራሾች';
 
   @override
   String get craneSleep9SemanticLabel => 'ባህር ላይ ያለ ባለጡብ ፋኖ ቤት';
@@ -2417,10 +2501,12 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
   String get fortnightlyHeadlineStocks => 'አክሲዮኖች ባሉበት ሲቆሙ ብዙዎች ምንዛሬን ያያሉ';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'የወደፊት ጨርቆችን ለማምረት ነዳፊዎች ቴክኖሎጂን ይጠቀማሉ';
+  String get fortnightlyHeadlineFabrics =>
+      'የወደፊት ጨርቆችን ለማምረት ነዳፊዎች ቴክኖሎጂን ይጠቀማሉ';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'የሴት መብት ተሟጋቾች ወገንተኝነት ላይ ያላቸው አቋም';
+  String get fortnightlyHeadlineFeminists =>
+      'የሴት መብት ተሟጋቾች ወገንተኝነት ላይ ያላቸው አቋም';
 
   @override
   String get fortnightlyHeadlineBees => 'የእርሻ መሬት ንቦች እጥረት አለ';

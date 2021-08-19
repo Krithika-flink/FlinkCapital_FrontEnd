@@ -504,7 +504,7 @@
   <string
     name="settingsAbout"
     description="Title for information button."
-    >About Flutter Gallery</string>
+    >About Flink Capital</string>
   <string
     name="settingsFeedback"
     description="Title for feedback button."
@@ -512,7 +512,7 @@
   <string
     name="settingsAttribution"
     description="Title for attribution (TOASTER is a proper name and should remain in English)."
-    >Designed by TOASTER in London</string>
+    ></string>
   <string
     name="demoAppBarTitle"
     description="Title for the material App bar component demo."

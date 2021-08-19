@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get signIn => 'SKRÁ INN';
 
   @override
-  String get bannerDemoText => 'Aðgangsorðið þitt var uppfært í hinu tækinu. Skráðu þig inn aftur.';
+  String get bannerDemoText =>
+      'Aðgangsorðið þitt var uppfært í hinu tækinu. Skráðu þig inn aftur.';
 
   @override
   String get bannerDemoResetText => 'Endurstilla borða';
@@ -60,7 +60,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => '10 vinsælustu borgirnar í Tamil Nadu';
+  String get cardsDemoTravelDestinationTitle1 =>
+      '10 vinsælustu borgirnar í Tamil Nadu';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Númer 10';
@@ -120,7 +121,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Frí';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Ársávöxtun í prósentum';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Ársávöxtun í prósentum';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Vextir';
@@ -129,7 +131,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'Vextir á árinu';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Greiddir vextir á síðasta ári';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Greiddir vextir á síðasta ári';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Næsta yfirlit';
@@ -285,8 +288,10 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Auktu hugsanlegan frádrátt frá skatti! Úthluta flokkum á 1 óúthlutaða færslu.',
-      other: 'Auktu hugsanlegan frádrátt frá skatti! Úthluta flokkum á ${count} óúthlutaðar færslur.',
+      one:
+          'Auktu hugsanlegan frádrátt frá skatti! Úthluta flokkum á 1 óúthlutaða færslu.',
+      other:
+          'Auktu hugsanlegan frádrátt frá skatti! Úthluta flokkum á ${count} óúthlutaðar færslur.',
     );
   }
 
@@ -300,7 +305,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Sjá allt kostnaðarhámark';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${accountName}, reikningur ${accountNumber}, að upphæð ${amount}.';
   }
 
@@ -310,7 +316,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return '${budgetName} kostnaðarhámark þar sem ${amountUsed} er notað af ${amountTotal} og ${amountLeft} er eftir';
   }
 
@@ -353,7 +360,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Skoða valkosti';
 
   @override
-  String get demoOptionsFeatureDescription => 'Ýttu hér til að sjá valkosti í boði fyrir þessa kynningu.';
+  String get demoOptionsFeatureDescription =>
+      'Ýttu hér til að sjá valkosti í boði fyrir þessa kynningu.';
 
   @override
   String get settingsTitle => 'Stillingar';
@@ -425,19 +433,23 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Forritastika neðst';
 
   @override
-  String get demoBottomAppBarSubtitle => 'Birtir yfirlit og aðgerðir neðst á skjánum';
+  String get demoBottomAppBarSubtitle =>
+      'Birtir yfirlit og aðgerðir neðst á skjánum';
 
   @override
-  String get demoBottomAppBarDescription => 'Forritastika neðst veitir aðgang að yfirlitsskúffu neðst ásamt allt að fjórum aðgerðum, þ.m.t. fljótandi aðgerðahnappi.';
+  String get demoBottomAppBarDescription =>
+      'Forritastika neðst veitir aðgang að yfirlitsskúffu neðst ásamt allt að fjórum aðgerðum, þ.m.t. fljótandi aðgerðahnappi.';
 
   @override
   String get bottomAppBarNotch => 'Hak';
@@ -464,13 +476,15 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Birtir borða innan lista';
 
   @override
-  String get demoBannerDescription => 'Borðar sýna mikilvæg og hnitmiðuð skilaboð og sýna notendum aðgerðir sem þeir geta valið (eða að hunsa borðann). Notandi þarf að velja að hunsa hann.';
+  String get demoBannerDescription =>
+      'Borðar sýna mikilvæg og hnitmiðuð skilaboð og sýna notendum aðgerðir sem þeir geta valið (eða að hunsa borðann). Notandi þarf að velja að hunsa hann.';
 
   @override
   String get demoBottomNavigationTitle => 'Yfirlit neðst';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Yfirlitssvæði neðst með víxldofnandi yfirliti';
+  String get demoBottomNavigationSubtitle =>
+      'Yfirlitssvæði neðst með víxldofnandi yfirliti';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Föst merki';
@@ -479,7 +493,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Valið merki';
 
   @override
-  String get demoBottomNavigationDescription => 'Yfirlitsstikur neðst birta þrjá til fimm áfangastaði neðst á skjánum. Hver áfangastaður er auðkenndur með tákni og valfrjálsu textamerki. Þegar ýtt er á yfirlitstákn neðst fer notandinn á efstu staðsetninguna sem tengist tákninu.';
+  String get demoBottomNavigationDescription =>
+      'Yfirlitsstikur neðst birta þrjá til fimm áfangastaði neðst á skjánum. Hver áfangastaður er auðkenndur með tákni og valfrjálsu textamerki. Þegar ýtt er á yfirlitstákn neðst fer notandinn á efstu staðsetninguna sem tengist tákninu.';
 
   @override
   String get demoButtonTitle => 'Hnappar';
@@ -491,31 +506,36 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoTextButtonTitle => 'Textahnappur';
 
   @override
-  String get demoTextButtonDescription => 'Textahnappur birtir blekslettu þegar ýtt er á hann en lyftist ekki. Notaðu textahnappa í tækjastikum, gluggum og í línum með fyllingu';
+  String get demoTextButtonDescription =>
+      'Textahnappur birtir blekslettu þegar ýtt er á hann en lyftist ekki. Notaðu textahnappa í tækjastikum, gluggum og í línum með fyllingu';
 
   @override
   String get demoElevatedButtonTitle => 'Upphleyptur hnappur';
 
   @override
-  String get demoElevatedButtonDescription => 'Upphleyptir hnappar gefa flatri uppsetningu aukna vídd. Þeir undirstrika aðgerðir á stórum svæðum eða þar sem mikið er um að vera.';
+  String get demoElevatedButtonDescription =>
+      'Upphleyptir hnappar gefa flatri uppsetningu aukna vídd. Þeir undirstrika aðgerðir á stórum svæðum eða þar sem mikið er um að vera.';
 
   @override
   String get demoOutlinedButtonTitle => 'Hnappur með útlínu';
 
   @override
-  String get demoOutlinedButtonDescription => 'Hnappar með útlínum verða ógagnsæir og lyftast upp þegar ýtt er á þá. Þeir fylgja oft upphleyptum hnöppum til að gefa til kynna aukaaðgerð.';
+  String get demoOutlinedButtonDescription =>
+      'Hnappar með útlínum verða ógagnsæir og lyftast upp þegar ýtt er á þá. Þeir fylgja oft upphleyptum hnöppum til að gefa til kynna aukaaðgerð.';
 
   @override
   String get demoToggleButtonTitle => 'Hnappar til að slökkva og kveikja';
 
   @override
-  String get demoToggleButtonDescription => 'Hægt er að nota hnappa til að slökkva og kveikja á flokkun tengdra valkosta. Til að leggja áherslu á flokka tengdra hnappa til að slökkva og kveikja ætti flokkur að vera með sameiginlegan geymi';
+  String get demoToggleButtonDescription =>
+      'Hægt er að nota hnappa til að slökkva og kveikja á flokkun tengdra valkosta. Til að leggja áherslu á flokka tengdra hnappa til að slökkva og kveikja ætti flokkur að vera með sameiginlegan geymi';
 
   @override
   String get demoFloatingButtonTitle => 'Fljótandi aðgerðahnappur';
 
   @override
-  String get demoFloatingButtonDescription => 'Fljótandi aðgerðahnappur er hringlaga táknhnappur sem birtist yfir efni til að kynna aðalaðgerð forritsins.';
+  String get demoFloatingButtonDescription =>
+      'Fljótandi aðgerðahnappur er hringlaga táknhnappur sem birtist yfir efni til að kynna aðalaðgerð forritsins.';
 
   @override
   String get demoCardTitle => 'Kort';
@@ -527,34 +547,40 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoChipTitle => 'Kubbar';
 
   @override
-  String get demoCardDescription => 'Kort er efnissvæði þar sem tengdar upplýsingar birtast. Þær upplýsingar geta t.d. verið plata, staðsetning, máltíð, samskiptaupplýsingar o.s.frv.';
+  String get demoCardDescription =>
+      'Kort er efnissvæði þar sem tengdar upplýsingar birtast. Þær upplýsingar geta t.d. verið plata, staðsetning, máltíð, samskiptaupplýsingar o.s.frv.';
 
   @override
-  String get demoChipSubtitle => 'Þjappaðar einingar sem tákna inntak, eigind eða aðgerð';
+  String get demoChipSubtitle =>
+      'Þjappaðar einingar sem tákna inntak, eigind eða aðgerð';
 
   @override
   String get demoActionChipTitle => 'Aðgerðarkubbur';
 
   @override
-  String get demoActionChipDescription => 'Aðgerðarkubbar eru hópur valkosta sem ræsa aðgerð sem tengist upprunaefni. Birting aðgerðarkubba ætti að vera kvik og í samhengi í notandaviðmóti.';
+  String get demoActionChipDescription =>
+      'Aðgerðarkubbar eru hópur valkosta sem ræsa aðgerð sem tengist upprunaefni. Birting aðgerðarkubba ætti að vera kvik og í samhengi í notandaviðmóti.';
 
   @override
   String get demoChoiceChipTitle => 'Valkubbur';
 
   @override
-  String get demoChoiceChipDescription => 'Valkubbar tákna eitt val úr mengi. Valkubbar innihalda tengdan lýsandi texta eða flokka.';
+  String get demoChoiceChipDescription =>
+      'Valkubbar tákna eitt val úr mengi. Valkubbar innihalda tengdan lýsandi texta eða flokka.';
 
   @override
   String get demoFilterChipTitle => 'Síuflaga';
 
   @override
-  String get demoFilterChipDescription => 'Síukubbar nota merki eða lýsandi orð til að sía efni.';
+  String get demoFilterChipDescription =>
+      'Síukubbar nota merki eða lýsandi orð til að sía efni.';
 
   @override
   String get demoInputChipTitle => 'Innsláttarkubbur';
 
   @override
-  String get demoInputChipDescription => 'Innsláttarkubbar tákna flóknar upplýsingar á borð við einingar (einstakling, stað eða hlut) eða samtalstexta á þjöppuðu sniði.';
+  String get demoInputChipDescription =>
+      'Innsláttarkubbar tákna flóknar upplýsingar á borð við einingar (einstakling, stað eða hlut) eða samtalstexta á þjöppuðu sniði.';
 
   @override
   String get demoDataTableTitle => 'Gagnatöflur';
@@ -563,7 +589,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'Línur og dálkar með upplýsingum';
 
   @override
-  String get demoDataTableDescription => 'Gagnatöflur birta upplýsingar í línum og dálkum sem helst líkjast hnitaneti. Þær skipuleggja upplýsingar á þann hátt að auðvelt er að finna þær og notendur sjá auðveldlega mynstur upplýsinganna.';
+  String get demoDataTableDescription =>
+      'Gagnatöflur birta upplýsingar í línum og dálkum sem helst líkjast hnitaneti. Þær skipuleggja upplýsingar á þann hátt að auðvelt er að finna þær og notendur sjá auðveldlega mynstur upplýsinganna.';
 
   @override
   String get dataTableHeader => 'Næring';
@@ -642,7 +669,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'Viðvörun';
 
   @override
-  String get demoAlertDialogDescription => 'Viðvörunargluggi upplýsir notanda um aðstæður sem krefjast staðfestingar. Viðvörunargluggi getur haft titil og lista yfir aðgerðir.';
+  String get demoAlertDialogDescription =>
+      'Viðvörunargluggi upplýsir notanda um aðstæður sem krefjast staðfestingar. Viðvörunargluggi getur haft titil og lista yfir aðgerðir.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Viðvörun með titli';
@@ -651,16 +679,19 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Einfalt';
 
   @override
-  String get demoSimpleDialogDescription => 'Einfaldur gluggi býður notanda að velja á milli nokkurra valkosta. Einfaldur gluggi getur haft titil sem birtist fyrir ofan valkostina.';
+  String get demoSimpleDialogDescription =>
+      'Einfaldur gluggi býður notanda að velja á milli nokkurra valkosta. Einfaldur gluggi getur haft titil sem birtist fyrir ofan valkostina.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +703,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Útlit lína og dálka';
 
   @override
-  String get demoGridListsDescription => 'Töfluyfirlit henta best fyrir einsleit gögn, yfirleitt myndir. Hvert atriði í töfluyfirlitinu kallast reitur.';
+  String get demoGridListsDescription =>
+      'Töfluyfirlit henta best fyrir einsleit gögn, yfirleitt myndir. Hvert atriði í töfluyfirlitinu kallast reitur.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Aðeins myndir';
@@ -690,31 +722,37 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoSlidersSubtitle => 'Græjur til að velja gildi með stroku';
 
   @override
-  String get demoSlidersDescription => 'Sleðar endurspegla gildissvið á stiku þar sem notendur geta valið eitt gildi. Þeir eru hentugir til að breyta stillingum á borð við hljóðstyrk eða birtu eða til að nota myndasíur.';
+  String get demoSlidersDescription =>
+      'Sleðar endurspegla gildissvið á stiku þar sem notendur geta valið eitt gildi. Þeir eru hentugir til að breyta stillingum á borð við hljóðstyrk eða birtu eða til að nota myndasíur.';
 
   @override
   String get demoRangeSlidersTitle => 'Sviðssleðar';
 
   @override
-  String get demoRangeSlidersDescription => 'Sleðar endurspegla svið gilda á stiku. Þeir kunna að hafa tákn á sitt hvorum endanum sem gefa til kynna gildissvið. Þeir eru hentugir til að breyta stillingum á borð við hljóðstyrk eða birtu eða til að nota myndasíur.';
+  String get demoRangeSlidersDescription =>
+      'Sleðar endurspegla svið gilda á stiku. Þeir kunna að hafa tákn á sitt hvorum endanum sem gefa til kynna gildissvið. Þeir eru hentugir til að breyta stillingum á borð við hljóðstyrk eða birtu eða til að nota myndasíur.';
 
   @override
   String get demoCustomSlidersTitle => 'Sérsniðnir sleðar';
 
   @override
-  String get demoCustomSlidersDescription => 'Sleðar endurspegla gildissvið á stiku þar sem notendur geta valið eitt gildi eða gildissvið. Hægt er að breyta og sérstilla sleðana.';
+  String get demoCustomSlidersDescription =>
+      'Sleðar endurspegla gildissvið á stiku þar sem notendur geta valið eitt gildi eða gildissvið. Hægt er að breyta og sérstilla sleðana.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Samfelldur með breytanlegu númeragildi';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Samfelldur með breytanlegu númeragildi';
 
   @override
   String get demoSlidersDiscrete => 'Stakrænn';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Stakrænn sleði með sérstilltu þema';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Stakrænn sleði með sérstilltu þema';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Samfelldur gildissleði með sérstilltu þema';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Samfelldur gildissleði með sérstilltu þema';
 
   @override
   String get demoSlidersContinuous => 'Samfelldur';
@@ -741,7 +779,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Valmyndarhnappar og einfaldar valmyndir';
 
   @override
-  String get demoMenuDescription => 'Valmynd birtir vallista á yfirborði sem svo hverfur. Listar hverfa þegar notandi velur hnapp, aðgerð eða aðrar stýringar.';
+  String get demoMenuDescription =>
+      'Valmynd birtir vallista á yfirborði sem svo hverfur. Listar hverfa þegar notandi velur hnapp, aðgerð eða aðrar stýringar.';
 
   @override
   String get demoMenuItemValueOne => 'Valmyndaratriði eitt';
@@ -808,7 +847,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoNavigationDrawerSubtitle => 'Birtir skúffu á forritastiku';
 
   @override
-  String get demoNavigationDrawerDescription => 'Svæði nýju útlitshönnunarinnar sem rennur lárétt frá brún skjásins til að birta yfirlitstengla í forriti.';
+  String get demoNavigationDrawerDescription =>
+      'Svæði nýju útlitshönnunarinnar sem rennur lárétt frá brún skjásins til að birta yfirlitstengla í forriti.';
 
   @override
   String get demoNavigationDrawerUserName => 'Notandanafn';
@@ -823,7 +863,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Atriði tvö';
 
   @override
-  String get demoNavigationDrawerText => 'Strjúktu frá brúninni eða ýttu á táknið efst til vinstri til að sjá skúffuna';
+  String get demoNavigationDrawerText =>
+      'Strjúktu frá brúninni eða ýttu á táknið efst til vinstri til að sjá skúffuna';
 
   @override
   String get demoNavigationRailTitle => 'Yfirlitsstika';
@@ -832,7 +873,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoNavigationRailSubtitle => 'Birtir yfirlitsstiku í forriti';
 
   @override
-  String get demoNavigationRailDescription => 'Útlitshönnunargræjan sem á að birtast hægra eða vinstra megin við forrit til að fá yfirlit yfir fá atriði, yfirleitt þrjú til fimm.';
+  String get demoNavigationRailDescription =>
+      'Útlitshönnunargræjan sem á að birtast hægra eða vinstra megin við forrit til að fá yfirlit yfir fá atriði, yfirleitt þrjú til fimm.';
 
   @override
   String get demoNavigationRailFirst => 'Fyrsta';
@@ -853,16 +895,19 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoFullscreenDialogTitle => 'Allur skjárinn';
 
   @override
-  String get demoFullscreenDialogDescription => 'Eiginleikinn fullscreenDialog tilgreinir hvort móttekin síða er gluggi sem birtist á öllum skjánum';
+  String get demoFullscreenDialogDescription =>
+      'Eiginleikinn fullscreenDialog tilgreinir hvort móttekin síða er gluggi sem birtist á öllum skjánum';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Virknivísir';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'Virknivísar með iOS-stíl';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'Virknivísar með iOS-stíl';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'Virknivísir með iOS-stíl sem snýst réttsælis.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'Virknivísir með iOS-stíl sem snýst réttsælis.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Hnappar';
@@ -871,7 +916,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'Hnappar með iOS-stíl';
 
   @override
-  String get demoCupertinoButtonsDescription => 'Hnappur í iOS-stíl. Hann tekur með sér texta og/eða tákn sem dofnar og verður sterkara þegar hnappurinn er snertur. Getur verið með bakgrunn.';
+  String get demoCupertinoButtonsDescription =>
+      'Hnappur í iOS-stíl. Hann tekur með sér texta og/eða tákn sem dofnar og verður sterkara þegar hnappurinn er snertur. Getur verið með bakgrunn.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +926,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,7 +936,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Viðvaranir';
@@ -901,7 +949,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => 'Tilkynning';
 
   @override
-  String get demoCupertinoAlertDescription => 'Viðvörunargluggi upplýsir notanda um aðstæður sem krefjast staðfestingar. Viðvörunargluggi getur haft titil, efni og lista yfir aðgerðir. Titillinn birtist fyrir ofan efnið og aðgerðirnar birtast fyrir neðan efnið.';
+  String get demoCupertinoAlertDescription =>
+      'Viðvörunargluggi upplýsir notanda um aðstæður sem krefjast staðfestingar. Viðvörunargluggi getur haft titil, efni og lista yfir aðgerðir. Titillinn birtist fyrir ofan efnið og aðgerðirnar birtast fyrir neðan efnið.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Tilkynning með titli';
@@ -916,7 +965,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'Aðgerðablað';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Aðgerðablað er sérstök gerð af viðvörun sem býður notandanum upp á tvo eða fleiri valkosti sem tengjast núverandi samhengi. Aðgerðablað getur haft titil, viðbótarskilaboð og lista yfir aðgerðir.';
+  String get demoCupertinoActionSheetDescription =>
+      'Aðgerðablað er sérstök gerð af viðvörun sem býður notandanum upp á tvo eða fleiri valkosti sem tengjast núverandi samhengi. Aðgerðablað getur haft titil, viðbótarskilaboð og lista yfir aðgerðir.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Yfirlitsstika';
@@ -925,7 +975,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoCupertinoNavigationBarSubtitle => 'Yfirlitsstika með iOS-stíl';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'Yfirlitsstika í iOS-stíl. Yfirlitsstikan er tækjastika sem samanstendur að lágmarki af síðutitli í miðju tækjastikunnar.';
+  String get demoCupertinoNavigationBarDescription =>
+      'Yfirlitsstika í iOS-stíl. Yfirlitsstikan er tækjastika sem samanstendur að lágmarki af síðutitli í miðju tækjastikunnar.';
 
   @override
   String get demoCupertinoPickerTitle => 'Val';
@@ -934,7 +985,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoCupertinoPickerSubtitle => 'Dags- og tímaval með iOS-stíl';
 
   @override
-  String get demoCupertinoPickerDescription => 'Valgræja með iOS-stíl sem hægt er að nota til að velja dagsetningu eða tíma eða bæði dagsetningu og tíma.';
+  String get demoCupertinoPickerDescription =>
+      'Valgræja með iOS-stíl sem hægt er að nota til að velja dagsetningu eða tíma eða bæði dagsetningu og tíma.';
 
   @override
   String get demoCupertinoPickerTimer => 'Teljari';
@@ -952,10 +1004,12 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'Dragðu til að endurnýja';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'Stýring með iOS-stíl fyrir valkostinn að draga til að endurnýja';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'Stýring með iOS-stíl fyrir valkostinn að draga til að endurnýja';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Græja sem veitir stýringu með iOS-stíl fyrir valkostinn að draga til að endurnýja efni.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Græja sem veitir stýringu með iOS-stíl fyrir valkostinn að draga til að endurnýja efni.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Hlutaval';
@@ -964,7 +1018,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoCupertinoSegmentedControlSubtitle => 'Hlutaval með iOS-stíl';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Notað til að velja á milli valkosta sem útiloka hvern annan. Þegar einn valkostur í hlutavali er valinn er ekki lengur hægt að velja hina valkostina.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Notað til að velja á milli valkosta sem útiloka hvern annan. Þegar einn valkostur í hlutavali er valinn er ekki lengur hægt að velja hina valkostina.';
 
   @override
   String get demoCupertinoSliderTitle => 'Sleði';
@@ -973,7 +1028,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'Sleði með iOS-stíl';
 
   @override
-  String get demoCupertinoSliderDescription => 'Hægt er að nota sleða til að velja úr samfelldum gildum eða samsettum gildum.';
+  String get demoCupertinoSliderDescription =>
+      'Hægt er að nota sleða til að velja úr samfelldum gildum eða samsettum gildum.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,7 +1045,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'Rofi með iOS-stíl';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Rofi er notaður til að skipta á milli þess að slökkt sé á einni stillingu eða kveikt sé á henni.';
+  String get demoCupertinoSwitchDescription =>
+      'Rofi er notaður til að skipta á milli þess að slökkt sé á einni stillingu eða kveikt sé á henni.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Flipastika';
@@ -998,7 +1055,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'Neðri flipastika með OS-stíl';
 
   @override
-  String get demoCupertinoTabBarDescription => 'Neðri flettiflipastika með OS-stíl. Sýnir marga flipa þar sem einn er virkur, sem er sjálfkrafa fyrsti flipinn.';
+  String get demoCupertinoTabBarDescription =>
+      'Neðri flettiflipastika með OS-stíl. Sýnir marga flipa þar sem einn er virkur, sem er sjálfkrafa fyrsti flipinn.';
 
   @override
   String get cupertinoTabBarHomeTab => 'Heim';
@@ -1016,7 +1074,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'Textareitir með iOS-stíl';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'Textareitir gera notendum kleift að slá inn texta, annaðhvort með tengdu lyklaborði eða skjályklaborði.';
+  String get demoCupertinoTextFieldDescription =>
+      'Textareitir gera notendum kleift að slá inn texta, annaðhvort með tengdu lyklaborði eða skjályklaborði.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN';
@@ -1028,10 +1087,12 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoMotionSubtitle => 'Öll forstillt umbreytingarmynstur';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'Spjöld, listar og fljótandi aðgerðahnappar';
+  String get demoContainerTransformDemoInstructions =>
+      'Spjöld, listar og fljótandi aðgerðahnappar';
 
   @override
-  String get demoSharedXAxisDemoInstructions => 'Hnappar til að fara áfram og til baka';
+  String get demoSharedXAxisDemoInstructions =>
+      'Hnappar til að fara áfram og til baka';
 
   @override
   String get demoSharedYAxisDemoInstructions => 'Flokka eftir „Nýlega spilað“';
@@ -1043,13 +1104,15 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoFadeThroughDemoInstructions => 'Yfirlit neðst';
 
   @override
-  String get demoFadeScaleDemoInstructions => 'Gluggar og fljótandi aðgerðahnappar';
+  String get demoFadeScaleDemoInstructions =>
+      'Gluggar og fljótandi aðgerðahnappar';
 
   @override
   String get demoContainerTransformTitle => 'Rammaumbreyting';
 
   @override
-  String get demoContainerTransformDescription => 'Rammaumbreytingarmynstur er hannað fyrir umbreytingu notendaviðmótseininga sem innihalda ramma. Þetta mynstur býr til sýnilega tengingu milli tveggja notendaviðmótseininga';
+  String get demoContainerTransformDescription =>
+      'Rammaumbreytingarmynstur er hannað fyrir umbreytingu notendaviðmótseininga sem innihalda ramma. Þetta mynstur býr til sýnilega tengingu milli tveggja notendaviðmótseininga';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'Dofnunarstilling';
@@ -1076,7 +1139,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Listaatriði';
 
   @override
-  String get demoSharedAxisDescription => 'Sameiginlegt mynstur um ás er notað fyrir umbreytingu milli notendaviðmótseininga sem eru með rúmfræðileg tengsl eða flettingartengsl. Þetta mynstur notar sameiginlega umbreytingu á x, y eða z ás til að styrkja tengslin milli eininga.';
+  String get demoSharedAxisDescription =>
+      'Sameiginlegt mynstur um ás er notað fyrir umbreytingu milli notendaviðmótseininga sem eru með rúmfræðileg tengsl eða flettingartengsl. Þetta mynstur notar sameiginlega umbreytingu á x, y eða z ás til að styrkja tengslin milli eininga.';
 
   @override
   String get demoSharedXAxisTitle => 'Deildur x-ás';
@@ -1088,10 +1152,12 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoSharedXAxisNextButtonText => 'ÁFRAM';
 
   @override
-  String get demoSharedXAxisCoursePageTitle => 'Straumlínulagaðu námskeiðin þín';
+  String get demoSharedXAxisCoursePageTitle =>
+      'Straumlínulagaðu námskeiðin þín';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Flokkar í pakka birtast sem hópar í straumnum þínum. Þú getur alltaf breytt þessu síðar.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Flokkar í pakka birtast sem hópar í straumnum þínum. Þú getur alltaf breytt þessu síðar.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'List og handverk';
@@ -1118,7 +1184,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoSharedXAxisSignInWelcomeText => 'Hæ David Park';
 
   @override
-  String get demoSharedXAxisSignInSubtitleText => 'Skráðu þig inn með reikningnum þínum';
+  String get demoSharedXAxisSignInSubtitleText =>
+      'Skráðu þig inn með reikningnum þínum';
 
   @override
   String get demoSharedXAxisSignInTextFieldLabel => 'Netfang eða símanúmer';
@@ -1178,19 +1245,22 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Rækja';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Uppskrift að rækjurétti';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Uppskrift að rækjurétti';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Krabbi';
 
   @override
-  String get demoSharedZAxisCrabPlateRecipeDescription => 'Uppskrift að krabbarétti';
+  String get demoSharedZAxisCrabPlateRecipeDescription =>
+      'Uppskrift að krabbarétti';
 
   @override
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Kjötsamloka';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Kjötsamlokuuppskrift';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Kjötsamlokuuppskrift';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Vistaðar uppskriftir';
@@ -1211,7 +1281,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Dofnun í gegn';
 
   @override
-  String get demoFadeThroughDescription => 'Mynstur með dofnun í gegn er notað fyrir umbreytingu milli notendaviðmótseininga sem hafa ekki sterk tengsl hvor við aðra.';
+  String get demoFadeThroughDescription =>
+      'Mynstur með dofnun í gegn er notað fyrir umbreytingu milli notendaviðmótseininga sem hafa ekki sterk tengsl hvor við aðra.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Plötur';
@@ -1229,7 +1300,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Dofna';
 
   @override
-  String get demoFadeScaleDescription => 'Dofnunarmynstur er notað fyrir notandaviðmótseiningar sem opnast eða lokast innan skjásins, t.d. gluggi sem dofnar á miðju skjásins.';
+  String get demoFadeScaleDescription =>
+      'Dofnunarmynstur er notað fyrir notandaviðmótseiningar sem opnast eða lokast innan skjásins, t.d. gluggi sem dofnar á miðju skjásins.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'SÝNA VIÐVÖRUNARGLUGGA';
@@ -1256,16 +1328,19 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Allir fyrirfram skilgreindu litirnir';
 
   @override
-  String get demoColorsDescription => 'Fastar fyrir liti og litaprufur sem standa fyrir litaspjald nýju útlitshönnunarinnar.';
+  String get demoColorsDescription =>
+      'Fastar fyrir liti og litaprufur sem standa fyrir litaspjald nýju útlitshönnunarinnar.';
 
   @override
   String get demoTypographyTitle => 'Leturgerð';
 
   @override
-  String get demoTypographySubtitle => 'Allir fyrirframskilgreindir textastílar';
+  String get demoTypographySubtitle =>
+      'Allir fyrirframskilgreindir textastílar';
 
   @override
-  String get demoTypographyDescription => 'Skilgreiningar mismunandi leturstíla sem finna má í nýju útlitshönnuninni.';
+  String get demoTypographyDescription =>
+      'Skilgreiningar mismunandi leturstíla sem finna má í nýju útlitshönnuninni.';
 
   @override
   String get demo2dTransformationsTitle => 'Umbreytingar í tvívídd';
@@ -1274,7 +1349,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'Hliðrun, aðdráttur, snúningur';
 
   @override
-  String get demo2dTransformationsDescription => 'Ýttu til að breyta flísum og notaðu bendingar til að færa þig til í umhverfinu. Dragðu til að skima, færðu fingur saman til að nota aðdrátt og snúðu með tveimur fingrum. Ýttu á endurstillingarhnappinn til að fara aftur í upphaflega stefnu.';
+  String get demo2dTransformationsDescription =>
+      'Ýttu til að breyta flísum og notaðu bendingar til að færa þig til í umhverfinu. Dragðu til að skima, færðu fingur saman til að nota aðdrátt og snúðu með tveimur fingrum. Ýttu á endurstillingarhnappinn til að fara aftur í upphaflega stefnu.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Endurstilla umbreytingar';
@@ -1295,13 +1371,15 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'Fast blað neðst';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Fast blað neðst birtir upplýsingar til viðbótar við aðalefni forritsins. Fast blað neðst er sýnilegt þótt notandinn noti aðra hluta forritsins.';
+  String get demoBottomSheetPersistentDescription =>
+      'Fast blað neðst birtir upplýsingar til viðbótar við aðalefni forritsins. Fast blað neðst er sýnilegt þótt notandinn noti aðra hluta forritsins.';
 
   @override
   String get demoBottomSheetModalTitle => 'Gluggablað neðst';
 
   @override
-  String get demoBottomSheetModalDescription => 'Gluggablað neðst kemur í stað valmyndar eða glugga og kemur í veg fyrir að notandinn noti aðra hluta forritsins.';
+  String get demoBottomSheetModalDescription =>
+      'Gluggablað neðst kemur í stað valmyndar eða glugga og kemur í veg fyrir að notandinn noti aðra hluta forritsins.';
 
   @override
   String get demoBottomSheetAddLabel => 'Bæta við';
@@ -1324,7 +1402,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoListsSubtitle => 'Útlit lista sem flettist';
 
   @override
-  String get demoListsDescription => 'Ein lína í fastri hæð sem yfirleitt inniheldur texta og tákn á undan eða á eftir.';
+  String get demoListsDescription =>
+      'Ein lína í fastri hæð sem yfirleitt inniheldur texta og tákn á undan eða á eftir.';
 
   @override
   String get demoOneLineListsTitle => 'Ein lína';
@@ -1345,13 +1424,15 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoCircularProgressIndicatorTitle => 'Hringlaga stöðuvísir';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Hringlaga stöðuvísir, sem snýst til að tákna að forritið sé upptekið.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Hringlaga stöðuvísir, sem snýst til að tákna að forritið sé upptekið.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'Línulegur stöðuvísir';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Línulegur stöðuvísir, einnig þekktur sem framvindustika.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Línulegur stöðuvísir, einnig þekktur sem framvindustika.';
 
   @override
   String get demoPickersTitle => 'Val';
@@ -1363,19 +1444,22 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Dagsetningarval';
 
   @override
-  String get demoDatePickerDescription => 'Sýnir svarglugga sem inniheldur dagsval með nýrri útlitshönnun.';
+  String get demoDatePickerDescription =>
+      'Sýnir svarglugga sem inniheldur dagsval með nýrri útlitshönnun.';
 
   @override
   String get demoTimePickerTitle => 'Tímaval';
 
   @override
-  String get demoTimePickerDescription => 'Sýnir svarglugga sem inniheldur tímaval með nýrri útlitshönnun.';
+  String get demoTimePickerDescription =>
+      'Sýnir svarglugga sem inniheldur tímaval með nýrri útlitshönnun.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'SÝNA VAL';
@@ -1390,19 +1474,23 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoTabsNonScrollingTitle => 'Flettir ekki';
 
   @override
-  String get demoTabsSubtitle => 'Flipar með sjálfstæðu yfirliti sem hægt er að fletta um';
+  String get demoTabsSubtitle =>
+      'Flipar með sjálfstæðu yfirliti sem hægt er að fletta um';
 
   @override
-  String get demoTabsDescription => 'Flipar raða efni á mismunandi skjái, mismunandi gagnasöfn og önnur samskipti.';
+  String get demoTabsDescription =>
+      'Flipar raða efni á mismunandi skjái, mismunandi gagnasöfn og önnur samskipti.';
 
   @override
   String get demoSnackbarsTitle => 'Snarlbarir';
 
   @override
-  String get demoSnackbarsSubtitle => 'Snarlbarir sýna skilaboð neðst á skjánum';
+  String get demoSnackbarsSubtitle =>
+      'Snarlbarir sýna skilaboð neðst á skjánum';
 
   @override
-  String get demoSnackbarsDescription => 'Snarlbarir gefa notendum upplýsingar um aðgerðir sem eru í gangi í forriti eða sem munu fara í gang. Þeir birtast tímabundið neðarlega á skjánum. Þeir ættu ekki að hafa áhrif á upplifun notandans og hann þarf ekki að bregðast við þeim til að þeir hverfi.';
+  String get demoSnackbarsDescription =>
+      'Snarlbarir gefa notendum upplýsingar um aðgerðir sem eru í gangi í forriti eða sem munu fara í gang. Þeir birtast tímabundið neðarlega á skjánum. Þeir ættu ekki að hafa áhrif á upplifun notandans og hann þarf ekki að bregðast við þeim til að þeir hverfi.';
 
   @override
   String get demoSnackbarsButtonLabel => 'SÝNA SNARLBAR';
@@ -1426,19 +1514,22 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoSelectionControlsCheckboxTitle => 'Gátreitur';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Gátreitir gera notanda kleift að velja marga valkosti úr mengi. Gildi venjulegs gátreits er rétt eða rangt og eitt af gildum gátreits með þrjú gildi getur einnig verið núll.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Gátreitir gera notanda kleift að velja marga valkosti úr mengi. Gildi venjulegs gátreits er rétt eða rangt og eitt af gildum gátreits með þrjú gildi getur einnig verið núll.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Val';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Valhnappar sem gera notandanum kleift að velja einn valkost af nokkrum. Nota ætti valhnappa fyrir einkvæmt val ef þörf er talin á að notandinn þurfi að sjá alla valkosti í einu.';
+  String get demoSelectionControlsRadioDescription =>
+      'Valhnappar sem gera notandanum kleift að velja einn valkost af nokkrum. Nota ætti valhnappa fyrir einkvæmt val ef þörf er talin á að notandinn þurfi að sjá alla valkosti í einu.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Rofi';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Rofar til að kveikja/slökkva skipta á milli tveggja stillinga. Gera ætti valkostinn sem rofinn stjórnar, sem og stöðu hans, skýran í samsvarandi innskotsmerki.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Rofar til að kveikja/slökkva skipta á milli tveggja stillinga. Gera ætti valkostinn sem rofinn stjórnar, sem og stöðu hans, skýran í samsvarandi innskotsmerki.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Textareitir';
@@ -1447,10 +1538,12 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoTextFieldTitle => 'Textareitir';
 
   @override
-  String get demoTextFieldSubtitle => 'Ein lína með texta og tölum sem hægt er að breyta';
+  String get demoTextFieldSubtitle =>
+      'Ein lína með texta og tölum sem hægt er að breyta';
 
   @override
-  String get demoTextFieldDescription => 'Textareitir gera notendum kleift að slá texta inn í notendaviðmót. Þeir eru yfirleitt á eyðublöðum og í gluggum.';
+  String get demoTextFieldDescription =>
+      'Textareitir gera notendum kleift að slá texta inn í notendaviðmót. Þeir eru yfirleitt á eyðublöðum og í gluggum.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Sýna aðgangsorð';
@@ -1459,7 +1552,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Fela aðgangsorð';
 
   @override
-  String get demoTextFieldFormErrors => 'Lagaðu rauðar villur með áður en þú sendir.';
+  String get demoTextFieldFormErrors =>
+      'Lagaðu rauðar villur með áður en þú sendir.';
 
   @override
   String get demoTextFieldNameRequired => 'Nafn er áskilið.';
@@ -1468,13 +1562,15 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoTextFieldOnlyAlphabeticalChars => 'Sláðu aðeins inn bókstafi.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### – sláðu inn bandarískt símanúmer.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### – sláðu inn bandarískt símanúmer.';
 
   @override
   String get demoTextFieldEnterPassword => 'Sláðu inn aðgangsorð.';
 
   @override
-  String get demoTextFieldPasswordsDoNotMatch => 'Aðgangsorðin passa ekki saman';
+  String get demoTextFieldPasswordsDoNotMatch =>
+      'Aðgangsorðin passa ekki saman';
 
   @override
   String get demoTextFieldWhatDoPeopleCallYou => 'Hvað kallar fólk þig?';
@@ -1495,10 +1591,12 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoTextFieldEmail => 'Netfang';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Segðu okkur frá þér (skrifaðu til dæmis hvað þú vinnur við eða hver áhugmál þín eru)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Segðu okkur frá þér (skrifaðu til dæmis hvað þú vinnur við eða hver áhugmál þín eru)';
 
   @override
-  String get demoTextFieldKeepItShort => 'Hafðu þetta stutt, þetta er einungis sýniútgáfa.';
+  String get demoTextFieldKeepItShort =>
+      'Hafðu þetta stutt, þetta er einungis sýniútgáfa.';
 
   @override
   String get demoTextFieldLifeStory => 'Æviskeið';
@@ -1533,13 +1631,16 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get demoTooltipTitle => 'Ábendingar';
 
   @override
-  String get demoTooltipSubtitle => 'Stutt skilaboð sem birtast þegar takka er haldið inni eða bendli yfir';
+  String get demoTooltipSubtitle =>
+      'Stutt skilaboð sem birtast þegar takka er haldið inni eða bendli yfir';
 
   @override
-  String get demoTooltipDescription => 'Ábendingar veita textamerki sem hjálpa til við að útskýra virkni hnapps eða annarrar aðgerðar í viðmóti. Ábendingar birta upplýsingatexta þegar notendur halda bendli yfir einingu, velja hana eða halda inni.';
+  String get demoTooltipDescription =>
+      'Ábendingar veita textamerki sem hjálpa til við að útskýra virkni hnapps eða annarrar aðgerðar í viðmóti. Ábendingar birta upplýsingatexta þegar notendur halda bendli yfir einingu, velja hana eða halda inni.';
 
   @override
-  String get demoTooltipInstructions => 'Halda inni eða halda bendli yfir til að birta ábendingu.';
+  String get demoTooltipInstructions =>
+      'Halda inni eða halda bendli yfir til að birta ábendingu.';
 
   @override
   String get bottomNavigationCommentsTab => 'Ummæli';
@@ -1600,7 +1701,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get dialogLocationTitle => 'Nota staðsetningarþjónustu Google?';
 
   @override
-  String get dialogLocationDescription => 'Leyfðu Google að hjálpa forritum að ákvarða staðsetningu. Í þessu felst að senda nafnlaus staðsetningargögn til Google, jafnvel þótt engin forrit séu í gangi.';
+  String get dialogLocationDescription =>
+      'Leyfðu Google að hjálpa forritum að ákvarða staðsetningu. Í þessu felst að senda nafnlaus staðsetningargögn til Google, jafnvel þótt engin forrit séu í gangi.';
 
   @override
   String get dialogCancel => 'HÆTTA VIÐ';
@@ -1645,10 +1747,12 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Fleygja';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Viltu leyfa „Kort“ að fá aðgang að staðsetningu þinni á meðan þú notar forritið?';
+  String get cupertinoAlertLocationTitle =>
+      'Viltu leyfa „Kort“ að fá aðgang að staðsetningu þinni á meðan þú notar forritið?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Núverandi staðsetning þín verður birt á kortinu og notuð fyrir leiðarlýsingu, leitarniðurstöður fyrir nágrennið og áætlaðan ferðatíma.';
+  String get cupertinoAlertLocationDescription =>
+      'Núverandi staðsetning þín verður birt á kortinu og notuð fyrir leiðarlýsingu, leitarniðurstöður fyrir nágrennið og áætlaðan ferðatíma.';
 
   @override
   String get cupertinoAlertAllow => 'Leyfa';
@@ -1660,7 +1764,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Velja uppáhaldseftirrétt';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Veldu uppáhaldseftirréttinn þinn af listanum hér að neðan. Það sem þú velur verður notað til að sérsníða tillögulista fyrir matsölustaði á þínu svæði.';
+  String get cupertinoAlertDessertDescription =>
+      'Veldu uppáhaldseftirréttinn þinn af listanum hér að neðan. Það sem þú velur verður notað til að sérsníða tillögulista fyrir matsölustaði á þínu svæði.';
 
   @override
   String get cupertinoAlertCheesecake => 'Ostakaka';
@@ -1980,7 +2085,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get shrineProductClassicWhiteCollar => 'Klassísk hvít skyrta';
 
   @override
-  String get shrineProductCeriseScallopTee => 'Rauðbleikur bolur með ávölum faldi';
+  String get shrineProductCeriseScallopTee =>
+      'Rauðbleikur bolur með ávölum faldi';
 
   @override
   String get shrineProductShoulderRollsTee => 'Bolur með uppbrettum ermum';
@@ -2243,7 +2349,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get craneEat10 => 'Lissabon, Portúgal';
 
   @override
-  String get craneFly0SemanticLabel => 'Kofi þakinn snjó í landslagi með sígrænum trjám';
+  String get craneFly0SemanticLabel =>
+      'Kofi þakinn snjó í landslagi með sígrænum trjám';
 
   @override
   String get craneFly1SemanticLabel => 'Tjald á akri';
@@ -2270,10 +2377,12 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'Supertree Grove';
 
   @override
-  String get craneFly9SemanticLabel => 'Maður sem hallar sér upp að bláum antíkbíl';
+  String get craneFly9SemanticLabel =>
+      'Maður sem hallar sér upp að bláum antíkbíl';
 
   @override
-  String get craneFly10SemanticLabel => 'Turnar Al-Azhar moskunnar við sólarlag';
+  String get craneFly10SemanticLabel =>
+      'Turnar Al-Azhar moskunnar við sólarlag';
 
   @override
   String get craneFly11SemanticLabel => 'Múrsteinsviti við sjó';
@@ -2288,13 +2397,15 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get craneSleep0SemanticLabel => 'Bústaðir yfir vatni';
 
   @override
-  String get craneSleep1SemanticLabel => 'Kofi þakinn snjó í landslagi með sígrænum trjám';
+  String get craneSleep1SemanticLabel =>
+      'Kofi þakinn snjó í landslagi með sígrænum trjám';
 
   @override
   String get craneSleep2SemanticLabel => 'Machu Picchu rústirnar';
 
   @override
-  String get craneSleep3SemanticLabel => 'Maður sem hallar sér upp að bláum antíkbíl';
+  String get craneSleep3SemanticLabel =>
+      'Maður sem hallar sér upp að bláum antíkbíl';
 
   @override
   String get craneSleep4SemanticLabel => 'Hótel við vatn með fjallasýn';
@@ -2309,13 +2420,15 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get craneSleep7SemanticLabel => 'Litrík hús við Ribeira-torgið';
 
   @override
-  String get craneSleep8SemanticLabel => 'Maya-rústir á klettavegg fyrir ofan strönd';
+  String get craneSleep8SemanticLabel =>
+      'Maya-rústir á klettavegg fyrir ofan strönd';
 
   @override
   String get craneSleep9SemanticLabel => 'Múrsteinsviti við sjó';
 
   @override
-  String get craneSleep10SemanticLabel => 'Turnar Al-Azhar moskunnar við sólarlag';
+  String get craneSleep10SemanticLabel =>
+      'Turnar Al-Azhar moskunnar við sólarlag';
 
   @override
   String get craneSleep11SemanticLabel => 'Taipei 101 skýjakljúfur';
@@ -2351,7 +2464,8 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get craneEat9SemanticLabel => 'Kökur á kaffihúsi';
 
   @override
-  String get craneEat10SemanticLabel => 'Kona sem heldur á stórri nautakjötssamloku';
+  String get craneEat10SemanticLabel =>
+      'Kona sem heldur á stórri nautakjötssamloku';
 
   @override
   String get fortnightlyMenuFrontPage => 'Forsíða';
@@ -2402,22 +2516,27 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Nýjustu uppfærslur';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Hljóð en öflug endurskoðun heilbrigðiskerfisins';
+  String get fortnightlyHeadlineHealthcare =>
+      'Hljóð en öflug endurskoðun heilbrigðiskerfisins';
 
   @override
-  String get fortnightlyHeadlineWar => 'Aðskildi bandaríkjamenn meðan stríðið stóð';
+  String get fortnightlyHeadlineWar =>
+      'Aðskildi bandaríkjamenn meðan stríðið stóð';
 
   @override
   String get fortnightlyHeadlineGasoline => 'Framtíð eldsneytis';
 
   @override
-  String get fortnightlyHeadlineArmy => 'Endurhæfing grænu byltingarinnar innan frá';
+  String get fortnightlyHeadlineArmy =>
+      'Endurhæfing grænu byltingarinnar innan frá';
 
   @override
-  String get fortnightlyHeadlineStocks => 'Margir líta til gjaldmiðla nú þegar hlutabréfamarkaðurinn hreyfist lítið';
+  String get fortnightlyHeadlineStocks =>
+      'Margir líta til gjaldmiðla nú þegar hlutabréfamarkaðurinn hreyfist lítið';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Hönnuðir nýta sér tæknina til framleiðslu á nýmóðins efni';
+  String get fortnightlyHeadlineFabrics =>
+      'Hönnuðir nýta sér tæknina til framleiðslu á nýmóðins efni';
 
   @override
   String get fortnightlyHeadlineFeminists => 'Femínistar á móti flokkshollustu';

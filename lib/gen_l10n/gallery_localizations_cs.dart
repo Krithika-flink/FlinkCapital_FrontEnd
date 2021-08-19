@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get signIn => 'PŘIHLÁSIT SE';
 
   @override
-  String get bannerDemoText => 'Ve druhém zařízení bylo aktualizováno heslo. Přihlaste se znovu.';
+  String get bannerDemoText =>
+      'Ve druhém zařízení bylo aktualizováno heslo. Přihlaste se znovu.';
 
   @override
   String get bannerDemoResetText => 'Resetovat banner';
@@ -60,7 +60,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => '10 nejčastěji navštěvovaných měst v Tamilnádu';
+  String get cardsDemoTravelDestinationTitle1 =>
+      '10 nejčastěji navštěvovaných měst v Tamilnádu';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Číslo 10';
@@ -99,7 +100,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get shrineDescription => 'Elegantní maloobchodní aplikace';
 
   @override
-  String get fortnightlyDescription => 'Zpravodajská aplikace zaměřená na kvalitní obsah';
+  String get fortnightlyDescription =>
+      'Zpravodajská aplikace zaměřená na kvalitní obsah';
 
   @override
   String get rallyDescription => 'Aplikace pro osobní finance';
@@ -120,16 +122,19 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Dovolená';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Roční procentuální výtěžek';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Roční procentuální výtěžek';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Úroková sazba';
 
   @override
-  String get rallyAccountDetailDataInterestYtd => 'Úrok od začátku roku do dnes';
+  String get rallyAccountDetailDataInterestYtd =>
+      'Úrok od začátku roku do dnes';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Úrok zaplacený minulý rok';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Úrok zaplacený minulý rok';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Další výpis';
@@ -183,7 +188,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get rallySettingsPersonalInformation => 'Osobní údaje';
 
   @override
-  String get rallySettingsPaperlessSettings => 'Nastavení bezpapírového přístupu';
+  String get rallySettingsPaperlessSettings =>
+      'Nastavení bezpapírového přístupu';
 
   @override
   String get rallySettingsFindAtms => 'Najít bankomaty';
@@ -285,10 +291,14 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Zvyšte potenciální odečet z daní! Přiřaďte k 1 nezařazené transakci kategorie.',
-      few: 'Zvyšte potenciální odečet z daní! Přiřaďte ke ${count} nezařazeným transakcím kategorie.',
-      many: 'Zvyšte potenciální odečet z daní! Přiřaďte k ${count} nezařazené transakce kategorie.',
-      other: 'Zvyšte potenciální odečet z daní! Přiřaďte k ${count} nezařazeným transakcím kategorie.',
+      one:
+          'Zvyšte potenciální odečet z daní! Přiřaďte k 1 nezařazené transakci kategorie.',
+      few:
+          'Zvyšte potenciální odečet z daní! Přiřaďte ke ${count} nezařazeným transakcím kategorie.',
+      many:
+          'Zvyšte potenciální odečet z daní! Přiřaďte k ${count} nezařazené transakce kategorie.',
+      other:
+          'Zvyšte potenciální odečet z daní! Přiřaďte k ${count} nezařazeným transakcím kategorie.',
     );
   }
 
@@ -302,7 +312,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Zobrazit všechny rozpočty';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'Účet ${accountName} č. ${accountNumber} s částkou ${amount}.';
   }
 
@@ -312,7 +323,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'Rozpočet ${budgetName}: využito ${amountUsed} z ${amountTotal}, zbývá ${amountLeft}';
   }
 
@@ -344,7 +356,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoCodeViewerCopyAll => 'KOPÍROVAT VŠE';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'Zkopírováno do schránky.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'Zkopírováno do schránky.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -355,7 +368,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Zobrazit možnosti';
 
   @override
-  String get demoOptionsFeatureDescription => 'Klepnutím sem zobrazíte dostupné možnosti pro tuto ukázku.';
+  String get demoOptionsFeatureDescription =>
+      'Klepnutím sem zobrazíte dostupné možnosti pro tuto ukázku.';
 
   @override
   String get settingsTitle => 'Nastavení';
@@ -427,19 +441,23 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Dolní panel aplikace';
 
   @override
-  String get demoBottomAppBarSubtitle => 'Zobrazuje navigační prvky a akce dole';
+  String get demoBottomAppBarSubtitle =>
+      'Zobrazuje navigační prvky a akce dole';
 
   @override
-  String get demoBottomAppBarDescription => 'Dolní panely aplikací poskytují přístup k dolnímu vysouvacímu panelu navigace a až čtyřem akcím včetně plovoucího tlačítka akce.';
+  String get demoBottomAppBarDescription =>
+      'Dolní panely aplikací poskytují přístup k dolnímu vysouvacímu panelu navigace a až čtyřem akcím včetně plovoucího tlačítka akce.';
 
   @override
   String get bottomAppBarNotch => 'S výřezem';
@@ -466,13 +484,15 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Zobrazení banneru se seznamem';
 
   @override
-  String get demoBannerDescription => 'Banner zobrazuje důležité, stručné informace a umožňuje uživatelům provádět akce (nebo banner zavřít). K zavření je zapotřebí akce uživatele.';
+  String get demoBannerDescription =>
+      'Banner zobrazuje důležité, stručné informace a umožňuje uživatelům provádět akce (nebo banner zavřít). K zavření je zapotřebí akce uživatele.';
 
   @override
   String get demoBottomNavigationTitle => 'Spodní navigace';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Spodní navigace s prolínajícím zobrazením';
+  String get demoBottomNavigationSubtitle =>
+      'Spodní navigace s prolínajícím zobrazením';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Trvale zobrazené štítky';
@@ -481,43 +501,50 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Vybraný štítek';
 
   @override
-  String get demoBottomNavigationDescription => 'Spodní navigační panely zobrazují ve spodní části obrazovky tři až pět cílů. Každý cíl zastupuje ikona a volitelný textový štítek. Po klepnutí na spodní navigační ikonu je uživatel přenesen na nejvyšší úroveň cíle navigace, který je k dané ikoně přidružen.';
+  String get demoBottomNavigationDescription =>
+      'Spodní navigační panely zobrazují ve spodní části obrazovky tři až pět cílů. Každý cíl zastupuje ikona a volitelný textový štítek. Po klepnutí na spodní navigační ikonu je uživatel přenesen na nejvyšší úroveň cíle navigace, který je k dané ikoně přidružen.';
 
   @override
   String get demoButtonTitle => 'Tlačítka';
 
   @override
-  String get demoButtonSubtitle => 'Textová, zvýšená, obrysová a další tlačítka';
+  String get demoButtonSubtitle =>
+      'Textová, zvýšená, obrysová a další tlačítka';
 
   @override
   String get demoTextButtonTitle => 'Textové tlačítko';
 
   @override
-  String get demoTextButtonDescription => 'Textové tlačítko při stisknutí zobrazí inkoustovou kaňku, ale nezvedne se. Textová tlačítka používejte na lištách, v dialogových oknech a v textu s odsazením';
+  String get demoTextButtonDescription =>
+      'Textové tlačítko při stisknutí zobrazí inkoustovou kaňku, ale nezvedne se. Textová tlačítka používejte na lištách, v dialogových oknech a v textu s odsazením';
 
   @override
   String get demoElevatedButtonTitle => 'Zvýšené tlačítko';
 
   @override
-  String get demoElevatedButtonDescription => 'Zvýšená tlačítka vnášejí rozměr do převážně plochých rozvržení. Upozorňují na funkce v místech, která jsou hodně navštěvovaná nebo rozsáhlá.';
+  String get demoElevatedButtonDescription =>
+      'Zvýšená tlačítka vnášejí rozměr do převážně plochých rozvržení. Upozorňují na funkce v místech, která jsou hodně navštěvovaná nebo rozsáhlá.';
 
   @override
   String get demoOutlinedButtonTitle => 'Obrysové tlačítko';
 
   @override
-  String get demoOutlinedButtonDescription => 'Obrysová tlačítka se při stisknutí zdvihnou a zneprůhlední. Obvykle se vyskytují v páru se zvýšenými tlačítky za účelem označení alternativní, sekundární akce.';
+  String get demoOutlinedButtonDescription =>
+      'Obrysová tlačítka se při stisknutí zdvihnou a zneprůhlední. Obvykle se vyskytují v páru se zvýšenými tlačítky za účelem označení alternativní, sekundární akce.';
 
   @override
   String get demoToggleButtonTitle => 'Přepínače';
 
   @override
-  String get demoToggleButtonDescription => 'Přepínače lze použít k seskupení souvisejících možností. Chcete-li zvýraznit skupiny souvisejících přepínačů, umístěte skupinu do stejného kontejneru';
+  String get demoToggleButtonDescription =>
+      'Přepínače lze použít k seskupení souvisejících možností. Chcete-li zvýraznit skupiny souvisejících přepínačů, umístěte skupinu do stejného kontejneru';
 
   @override
   String get demoFloatingButtonTitle => 'Plovoucí tlačítko akce';
 
   @override
-  String get demoFloatingButtonDescription => 'Plovoucí tlačítko akce je kruhové tlačítko akce, které se vznáší nad obsahem za účelem upozornění na hlavní akci v aplikaci.';
+  String get demoFloatingButtonDescription =>
+      'Plovoucí tlačítko akce je kruhové tlačítko akce, které se vznáší nad obsahem za účelem upozornění na hlavní akci v aplikaci.';
 
   @override
   String get demoCardTitle => 'Karty';
@@ -529,34 +556,40 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoChipTitle => 'Prvky';
 
   @override
-  String get demoCardDescription => 'Karta je list ve vzhledu Material, který slouží k uvedení souvisejících informací, jako je album, zeměpisná poloha, pokrm, kontaktní údaje apod.';
+  String get demoCardDescription =>
+      'Karta je list ve vzhledu Material, který slouží k uvedení souvisejících informací, jako je album, zeměpisná poloha, pokrm, kontaktní údaje apod.';
 
   @override
-  String get demoChipSubtitle => 'Kompaktní prvky představující vstup, atribut nebo akci';
+  String get demoChipSubtitle =>
+      'Kompaktní prvky představující vstup, atribut nebo akci';
 
   @override
   String get demoActionChipTitle => 'Prvek akce';
 
   @override
-  String get demoActionChipDescription => 'Prvky akce jsou sada možností, které spustí akci související s primárním obsahem. Měly by se objevovat dynamicky a kontextově v uživatelském rozhraní.';
+  String get demoActionChipDescription =>
+      'Prvky akce jsou sada možností, které spustí akci související s primárním obsahem. Měly by se objevovat dynamicky a kontextově v uživatelském rozhraní.';
 
   @override
   String get demoChoiceChipTitle => 'Prvek volby';
 
   @override
-  String get demoChoiceChipDescription => 'Prvky volby představují jednu volbu ze sady. Obsahují související popisný text nebo kategorie.';
+  String get demoChoiceChipDescription =>
+      'Prvky volby představují jednu volbu ze sady. Obsahují související popisný text nebo kategorie.';
 
   @override
   String get demoFilterChipTitle => 'Prvek filtru';
 
   @override
-  String get demoFilterChipDescription => 'Prvky filtru filtrují obsah pomocí značek nebo popisných slov.';
+  String get demoFilterChipDescription =>
+      'Prvky filtru filtrují obsah pomocí značek nebo popisných slov.';
 
   @override
   String get demoInputChipTitle => 'Prvek vstupu';
 
   @override
-  String get demoInputChipDescription => 'Prvky vstupu představují komplexní informaci v kompaktní podobě, např. entitu (osobu, místo či věc) nebo text konverzace.';
+  String get demoInputChipDescription =>
+      'Prvky vstupu představují komplexní informaci v kompaktní podobě, např. entitu (osobu, místo či věc) nebo text konverzace.';
 
   @override
   String get demoDataTableTitle => 'Tabulky údajů';
@@ -565,7 +598,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'Řádky a sloupce s informacemi';
 
   @override
-  String get demoDataTableDescription => 'Tabulky údajů zobrazují informace ve formátu mřížky tvořené řádky a sloupci. Informace jsou v nich uspořádány tak, aby byly snadno dohledatelné a uživatelé mohli hledat určité vzorce nebo statistiky.';
+  String get demoDataTableDescription =>
+      'Tabulky údajů zobrazují informace ve formátu mřížky tvořené řádky a sloupci. Informace jsou v nich uspořádány tak, aby byly snadno dohledatelné a uživatelé mohli hledat určité vzorce nebo statistiky.';
 
   @override
   String get dataTableHeader => 'Výživa';
@@ -638,13 +672,15 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoDialogTitle => 'Dialogová okna';
 
   @override
-  String get demoDialogSubtitle => 'Jednoduché, s upozorněním a na celou obrazovku';
+  String get demoDialogSubtitle =>
+      'Jednoduché, s upozorněním a na celou obrazovku';
 
   @override
   String get demoAlertDialogTitle => 'Upozornění';
 
   @override
-  String get demoAlertDialogDescription => 'Dialogové okno s upozorněním uživatele informuje o situacích, které vyžadují pozornost. Dialogové okno s upozorněním má volitelný název a volitelný seznam akcí.';
+  String get demoAlertDialogDescription =>
+      'Dialogové okno s upozorněním uživatele informuje o situacích, které vyžadují pozornost. Dialogové okno s upozorněním má volitelný název a volitelný seznam akcí.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Upozornění s názvem';
@@ -653,16 +689,19 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Jednoduché';
 
   @override
-  String get demoSimpleDialogDescription => 'Jednoduché dialogové okno nabízí uživateli na výběr mezi několika možnostmi. Jednoduché dialogové okno má volitelný název, který je zobrazen nad možnostmi.';
+  String get demoSimpleDialogDescription =>
+      'Jednoduché dialogové okno nabízí uživateli na výběr mezi několika možnostmi. Jednoduché dialogové okno má volitelný název, který je zobrazen nad možnostmi.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -674,7 +713,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Rozvržení řádků a sloupců';
 
   @override
-  String get demoGridListsDescription => 'Mřížkové seznamy se hodí především pro prezentaci homogenních dat, jako jsou obrázky. Jednotlivé položky mřížkového seznamu se označují jako dlaždice.';
+  String get demoGridListsDescription =>
+      'Mřížkové seznamy se hodí především pro prezentaci homogenních dat, jako jsou obrázky. Jednotlivé položky mřížkového seznamu se označují jako dlaždice.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Pouze obrázky';
@@ -692,31 +732,37 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoSlidersSubtitle => 'Widgety pro výběr hodnoty přejetím prstem';
 
   @override
-  String get demoSlidersDescription => 'Posuvníky představují rozsah hodnot podél panelu, ze kterých může uživatel zvolit jednu hodnotu. Jsou ideální pro úpravu nastavení jako hlasitost nebo jas nebo pro aplikování filtrů na obrázky.';
+  String get demoSlidersDescription =>
+      'Posuvníky představují rozsah hodnot podél panelu, ze kterých může uživatel zvolit jednu hodnotu. Jsou ideální pro úpravu nastavení jako hlasitost nebo jas nebo pro aplikování filtrů na obrázky.';
 
   @override
   String get demoRangeSlidersTitle => 'Posuvníky s rozsahem';
 
   @override
-  String get demoRangeSlidersDescription => 'Posuvníky představují rozsah hodnot podél panelu. Mohou mít na obou koncích panelu ikony, které představují rozsah hodnot. Jsou ideální pro úpravu nastavení jako hlasitost nebo jas nebo pro aplikování filtrů na obrázky.';
+  String get demoRangeSlidersDescription =>
+      'Posuvníky představují rozsah hodnot podél panelu. Mohou mít na obou koncích panelu ikony, které představují rozsah hodnot. Jsou ideální pro úpravu nastavení jako hlasitost nebo jas nebo pro aplikování filtrů na obrázky.';
 
   @override
   String get demoCustomSlidersTitle => 'Vlastní posuvníky';
 
   @override
-  String get demoCustomSlidersDescription => 'Posuvníky představují rozsah hodnot podél panelu, ze kterých může uživatel zvolit jednu hodnotu nebo rozsah hodnot. Posuvníkům lze přidělit motiv a lze je přizpůsobit.';
+  String get demoCustomSlidersDescription =>
+      'Posuvníky představují rozsah hodnot podél panelu, ze kterých může uživatel zvolit jednu hodnotu nebo rozsah hodnot. Posuvníkům lze přidělit motiv a lze je přizpůsobit.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Spojitý s upravitelnou číselnou hodnotou';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Spojitý s upravitelnou číselnou hodnotou';
 
   @override
   String get demoSlidersDiscrete => 'Diskrétní';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Diskrétní posuvník s vlastním motivem';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Diskrétní posuvník s vlastním motivem';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Posuvník se spojitým rozsahem s vlastním motivem';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Posuvník se spojitým rozsahem s vlastním motivem';
 
   @override
   String get demoSlidersContinuous => 'Spojitý';
@@ -743,7 +789,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Tlačítka nabídek a jednoduché nabídky';
 
   @override
-  String get demoMenuDescription => 'Nabídka obsahuje seznam voleb na dočasné ploše. Zobrazí se, když uživatel interaguje s tlačítkem, příkazem nebo jiným ovládacím prvkem.';
+  String get demoMenuDescription =>
+      'Nabídka obsahuje seznam voleb na dočasné ploše. Zobrazí se, když uživatel interaguje s tlačítkem, příkazem nebo jiným ovládacím prvkem.';
 
   @override
   String get demoMenuItemValueOne => '1. položka nabídky';
@@ -767,7 +814,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoMenuFour => 'Čtyři';
 
   @override
-  String get demoMenuAnItemWithAContextMenuButton => 'Položka s kontextovou nabídkou';
+  String get demoMenuAnItemWithAContextMenuButton =>
+      'Položka s kontextovou nabídkou';
 
   @override
   String get demoMenuContextMenuItemOne => '1. položka kontextové nabídky';
@@ -807,10 +855,12 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoNavigationDrawerTitle => 'Vysouvací panel navigace';
 
   @override
-  String get demoNavigationDrawerSubtitle => 'Zobrazí vysouvací panel na panelu aplikace';
+  String get demoNavigationDrawerSubtitle =>
+      'Zobrazí vysouvací panel na panelu aplikace';
 
   @override
-  String get demoNavigationDrawerDescription => 'Panel Material Design, který se posouvá horizontálně od okraje obrazovky a obsahuje navigační odkazy v aplikaci.';
+  String get demoNavigationDrawerDescription =>
+      'Panel Material Design, který se posouvá horizontálně od okraje obrazovky a obsahuje navigační odkazy v aplikaci.';
 
   @override
   String get demoNavigationDrawerUserName => 'Uživatelské jméno';
@@ -825,16 +875,19 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Položka číslo dva';
 
   @override
-  String get demoNavigationDrawerText => 'Zobrazte panel přejetím prstem od okraje nebo klepněte na ikonu vlevo nahoře';
+  String get demoNavigationDrawerText =>
+      'Zobrazte panel přejetím prstem od okraje nebo klepněte na ikonu vlevo nahoře';
 
   @override
   String get demoNavigationRailTitle => 'Navigační sloupec';
 
   @override
-  String get demoNavigationRailSubtitle => 'Zobrazí navigační sloupec v aplikaci';
+  String get demoNavigationRailSubtitle =>
+      'Zobrazí navigační sloupec v aplikaci';
 
   @override
-  String get demoNavigationRailDescription => 'Widget Material Design, který by se měl zobrazovat na levé nebo pravé straně aplikace a slouží k navigaci mezi několika zobrazeními (obvykle 3–5).';
+  String get demoNavigationRailDescription =>
+      'Widget Material Design, který by se měl zobrazovat na levé nebo pravé straně aplikace a slouží k navigaci mezi několika zobrazeními (obvykle 3–5).';
 
   @override
   String get demoNavigationRailFirst => '1.';
@@ -849,22 +902,26 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoMenuAnItemWithASimpleMenu => 'Položka s jednoduchou nabídkou';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Položka s nabídkou se zaškrtávacími položkami';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Položka s nabídkou se zaškrtávacími položkami';
 
   @override
   String get demoFullscreenDialogTitle => 'Celá obrazovka';
 
   @override
-  String get demoFullscreenDialogDescription => 'Hodnota fullscreenDialog určuje, zda následující stránka bude mít podobu modálního dialogového okna na celou obrazovku';
+  String get demoFullscreenDialogDescription =>
+      'Hodnota fullscreenDialog určuje, zda následující stránka bude mít podobu modálního dialogového okna na celou obrazovku';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Indikátor aktivity';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'Indikátory aktivity ve stylu iOS';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'Indikátory aktivity ve stylu iOS';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'Indikátor aktivity ve stylu iOS, který rotuje ve směru hodinových ručiček.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'Indikátor aktivity ve stylu iOS, který rotuje ve směru hodinových ručiček.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Tlačítka';
@@ -873,7 +930,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'Tlačítka ve stylu iOS';
 
   @override
-  String get demoCupertinoButtonsDescription => 'Tlačítko ve stylu systému iOS. Jedná se o text nebo ikonu, která při dotyku postupně zmizí nebo se objeví. Volitelně může mít i pozadí.';
+  String get demoCupertinoButtonsDescription =>
+      'Tlačítko ve stylu systému iOS. Jedná se o text nebo ikonu, která při dotyku postupně zmizí nebo se objeví. Volitelně může mít i pozadí.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -882,7 +940,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -891,19 +950,22 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Upozornění';
 
   @override
-  String get demoCupertinoAlertsSubtitle => 'Dialogová okna s upozorněním ve stylu iOS';
+  String get demoCupertinoAlertsSubtitle =>
+      'Dialogová okna s upozorněním ve stylu iOS';
 
   @override
   String get demoCupertinoAlertTitle => 'Upozornění';
 
   @override
-  String get demoCupertinoAlertDescription => 'Dialogové okno s upozorněním uživatele informuje o situacích, které vyžadují pozornost. Dialogové okno s upozorněním má volitelný název, volitelný obsah a volitelný seznam akcí. Název je zobrazen nad obsahem a akce jsou zobrazeny pod obsahem.';
+  String get demoCupertinoAlertDescription =>
+      'Dialogové okno s upozorněním uživatele informuje o situacích, které vyžadují pozornost. Dialogové okno s upozorněním má volitelný název, volitelný obsah a volitelný seznam akcí. Název je zobrazen nad obsahem a akce jsou zobrazeny pod obsahem.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Upozornění s názvem';
@@ -912,22 +974,26 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoCupertinoAlertButtonsTitle => 'Upozornění s tlačítky';
 
   @override
-  String get demoCupertinoAlertButtonsOnlyTitle => 'Pouze tlačítka s upozorněním';
+  String get demoCupertinoAlertButtonsOnlyTitle =>
+      'Pouze tlačítka s upozorněním';
 
   @override
   String get demoCupertinoActionSheetTitle => 'List akcí';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'List akcí je zvláštní typ upozornění, které uživateli předkládá sadu dvou či více možností souvisejících se stávající situací. List akcí může obsahovat název, další zprávu a seznam akcí.';
+  String get demoCupertinoActionSheetDescription =>
+      'List akcí je zvláštní typ upozornění, které uživateli předkládá sadu dvou či více možností souvisejících se stávající situací. List akcí může obsahovat název, další zprávu a seznam akcí.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Navigační panel';
 
   @override
-  String get demoCupertinoNavigationBarSubtitle => 'Navigační panel ve stylu iOS';
+  String get demoCupertinoNavigationBarSubtitle =>
+      'Navigační panel ve stylu iOS';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'Navigační panel ve stylu iOS. Navigační panel je nástroj, který má uprostřed název stránky (i kdyby už neměl žádné další prvky).';
+  String get demoCupertinoNavigationBarDescription =>
+      'Navigační panel ve stylu iOS. Navigační panel je nástroj, který má uprostřed název stránky (i kdyby už neměl žádné další prvky).';
 
   @override
   String get demoCupertinoPickerTitle => 'Výběry';
@@ -936,7 +1002,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoCupertinoPickerSubtitle => 'Výběry data a času ve stylu iOS';
 
   @override
-  String get demoCupertinoPickerDescription => 'Widget výběru ve stylu iOS, pomocí kterého lze vybírat datum, čas, nebo datum i čas.';
+  String get demoCupertinoPickerDescription =>
+      'Widget výběru ve stylu iOS, pomocí kterého lze vybírat datum, čas, nebo datum i čas.';
 
   @override
   String get demoCupertinoPickerTimer => 'Časovač';
@@ -951,22 +1018,27 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoCupertinoPickerDateTime => 'Datum a čas';
 
   @override
-  String get demoCupertinoPullToRefreshTitle => 'Potažením dolů aktualizujete obsah';
+  String get demoCupertinoPullToRefreshTitle =>
+      'Potažením dolů aktualizujete obsah';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'Ovládací prvek ve stylu iOS, v němž potažením dolů aktualizujete obsah';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'Ovládací prvek ve stylu iOS, v němž potažením dolů aktualizujete obsah';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Widget ve stylu iOS, jehož obsah aktualizujete potažením dolů.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Widget ve stylu iOS, jehož obsah aktualizujete potažením dolů.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Segmentová kontrola';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'Segmentová kontrola ve stylu iOS';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'Segmentová kontrola ve stylu iOS';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Slouží k výběru mezi možnostmi, které se vzájemně vylučují. Výběrem jedné možnosti segmentové kontroly zrušíte výběr ostatních možností.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Slouží k výběru mezi možnostmi, které se vzájemně vylučují. Výběrem jedné možnosti segmentové kontroly zrušíte výběr ostatních možností.';
 
   @override
   String get demoCupertinoSliderTitle => 'Posuvník';
@@ -975,7 +1047,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'Posuvník ve stylu iOS';
 
   @override
-  String get demoCupertinoSliderDescription => 'Pomocí posuvníku lze vybírat ze spojité nebo diskrétní množiny hodnot.';
+  String get demoCupertinoSliderDescription =>
+      'Pomocí posuvníku lze vybírat ze spojité nebo diskrétní množiny hodnot.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -991,7 +1064,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'Přepínač ve stylu iOS';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Přepínač slouží k zapnutí nebo vypnutí jednoho nastavení.';
+  String get demoCupertinoSwitchDescription =>
+      'Přepínač slouží k zapnutí nebo vypnutí jednoho nastavení.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Lišta karet';
@@ -1000,7 +1074,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'Dolní lišta karet ve stylu iOS';
 
   @override
-  String get demoCupertinoTabBarDescription => 'Dolní navigační lišta karet ve stylu iOS. Zobrazuje několik karet, přičemž jedna (ve výchozím nastavení první) karta je aktivní.';
+  String get demoCupertinoTabBarDescription =>
+      'Dolní navigační lišta karet ve stylu iOS. Zobrazuje několik karet, přičemž jedna (ve výchozím nastavení první) karta je aktivní.';
 
   @override
   String get cupertinoTabBarHomeTab => 'Domovská karta';
@@ -1018,7 +1093,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'Textová pole ve stylu iOS';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'Textová pole, do kterých mohou uživatelé zadat text pomocí hardwarové nebo softwarové klávesnice.';
+  String get demoCupertinoTextFieldDescription =>
+      'Textová pole, do kterých mohou uživatelé zadat text pomocí hardwarové nebo softwarové klávesnice.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN';
@@ -1030,7 +1106,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoMotionSubtitle => 'Všechny předdefinované modely pohybu';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'Karty, seznamy a plovoucí tlačítka akce';
+  String get demoContainerTransformDemoInstructions =>
+      'Karty, seznamy a plovoucí tlačítka akce';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'Tlačítka Další a zpět';
@@ -1045,13 +1122,15 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoFadeThroughDemoInstructions => 'Spodní navigace';
 
   @override
-  String get demoFadeScaleDemoInstructions => 'Modální okna a plovoucí tlačítka akce';
+  String get demoFadeScaleDemoInstructions =>
+      'Modální okna a plovoucí tlačítka akce';
 
   @override
   String get demoContainerTransformTitle => 'Transformace kontejneru';
 
   @override
-  String get demoContainerTransformDescription => 'Model transformace kontejneru je určen pro přechody mezi prvky uživatelského rozhraní, které obsahují kontejner. Tento model vytváří viditelnou spojitost mezi dvěma prvky uživatelského rozhraní.';
+  String get demoContainerTransformDescription =>
+      'Model transformace kontejneru je určen pro přechody mezi prvky uživatelského rozhraní, které obsahují kontejner. Tento model vytváří viditelnou spojitost mezi dvěma prvky uživatelského rozhraní.';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'Režim prolínání';
@@ -1078,7 +1157,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Položka seznamu';
 
   @override
-  String get demoSharedAxisDescription => 'Model sdílené osy slouží k přechodu mezi prvky uživatelského rozhraní, které spolu souvisí prostorově nebo z hlediska navigačních prvků. Tento model zvýrazňuje vztahy mezi prvky prostřednictvím sdílené transformace na ose x, y nebo z.';
+  String get demoSharedAxisDescription =>
+      'Model sdílené osy slouží k přechodu mezi prvky uživatelského rozhraní, které spolu souvisí prostorově nebo z hlediska navigačních prvků. Tento model zvýrazňuje vztahy mezi prvky prostřednictvím sdílené transformace na ose x, y nebo z.';
 
   @override
   String get demoSharedXAxisTitle => 'Sdílená osa x';
@@ -1093,7 +1173,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'Zjednodušení kurzů';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Seskupené kategorie se v informačním kanále zobrazují jako skupiny. Toto nastavení můžete později kdykoliv změnit.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Seskupené kategorie se v informačním kanále zobrazují jako skupiny. Toto nastavení můžete později kdykoliv změnit.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Umění a řemesla';
@@ -1114,7 +1195,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoSharedXAxisBundledCourseSubtitle => 'Seskupeno';
 
   @override
-  String get demoSharedXAxisIndividualCourseSubtitle => 'Zobrazováno samostatně';
+  String get demoSharedXAxisIndividualCourseSubtitle =>
+      'Zobrazováno samostatně';
 
   @override
   String get demoSharedXAxisSignInWelcomeText => 'Ahoj, uživateli David Park';
@@ -1123,10 +1205,12 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoSharedXAxisSignInSubtitleText => 'Přihlásit se k účtu';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'E-mail nebo telefonní číslo';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'E-mail nebo telefonní číslo';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'ZAPOMNĚLI JSTE SVŮJ E-MAIL?';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'ZAPOMNĚLI JSTE SVŮJ E-MAIL?';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'VYTVOŘIT ÚČET';
@@ -1180,7 +1264,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Krevety';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Recepty na krevety';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Recepty na krevety';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Krab';
@@ -1192,7 +1277,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Hovězí sendvič';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Recepty na hovězí sendvič';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Recepty na hovězí sendvič';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Uložené recepty';
@@ -1213,7 +1299,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Vyblednutí';
 
   @override
-  String get demoFadeThroughDescription => 'Model vyblednutí slouží k přechodu mezi prvky uživatelského rozhraní, které nemají zásadní vzájemnou souvislost.';
+  String get demoFadeThroughDescription =>
+      'Model vyblednutí slouží k přechodu mezi prvky uživatelského rozhraní, které nemají zásadní vzájemnou souvislost.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Alba';
@@ -1231,7 +1318,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Prolínání';
 
   @override
-  String get demoFadeScaleDescription => 'Model prolínání je určen pro prvky uživatelského rozhraní, které se zobrazí v prostoru obrazovky nebo odtud zmizí, jako například dialogové okno, které se prolnutím postupně zobrazí uprostřed obrazovky.';
+  String get demoFadeScaleDescription =>
+      'Model prolínání je určen pro prvky uživatelského rozhraní, které se zobrazí v prostoru obrazovky nebo odtud zmizí, jako například dialogové okno, které se prolnutím postupně zobrazí uprostřed obrazovky.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'ZOBRAZIT MODÁLNÍ OKNO';
@@ -1258,7 +1346,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Všechny předdefinované barvy';
 
   @override
-  String get demoColorsDescription => 'Konstanty barvy a vzorníku barev, které představují barevnou škálu vzhledu Material Design.';
+  String get demoColorsDescription =>
+      'Konstanty barvy a vzorníku barev, které představují barevnou škálu vzhledu Material Design.';
 
   @override
   String get demoTypographyTitle => 'Typografie';
@@ -1267,7 +1356,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoTypographySubtitle => 'Všechny předdefinované styly textu';
 
   @override
-  String get demoTypographyDescription => 'Definice různých typografických stylů, které se vyskytují ve vzhledu Material Design.';
+  String get demoTypographyDescription =>
+      'Definice různých typografických stylů, které se vyskytují ve vzhledu Material Design.';
 
   @override
   String get demo2dTransformationsTitle => '2D transformace';
@@ -1276,7 +1366,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'Posunutí, přiblížení, otočení';
 
   @override
-  String get demo2dTransformationsDescription => 'Klepnutím upravujte pole a pomocí gest se pohybujte po scéně. Přetažením posunete, stažením prstů přiblížíte, dvěma prsty otočíte. Pomocí tlačítka resetování obnovíte původní orientaci.';
+  String get demo2dTransformationsDescription =>
+      'Klepnutím upravujte pole a pomocí gest se pohybujte po scéně. Přetažením posunete, stažením prstů přiblížíte, dvěma prsty otočíte. Pomocí tlačítka resetování obnovíte původní orientaci.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Resetovat transformace';
@@ -1297,13 +1388,15 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'Trvalá spodní tabulka';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Stálá spodní tabulka zobrazuje informace, které doplňují primární obsah aplikace. Stálá spodní tabulka zůstává viditelná i při interakci uživatele s ostatními částmi aplikace.';
+  String get demoBottomSheetPersistentDescription =>
+      'Stálá spodní tabulka zobrazuje informace, které doplňují primární obsah aplikace. Stálá spodní tabulka zůstává viditelná i při interakci uživatele s ostatními částmi aplikace.';
 
   @override
   String get demoBottomSheetModalTitle => 'Modální spodní tabulka';
 
   @override
-  String get demoBottomSheetModalDescription => 'Modální spodní tabulka je alternativou k nabídce nebo dialogovému oknu a zabraňuje uživateli v interakci se zbytkem aplikace.';
+  String get demoBottomSheetModalDescription =>
+      'Modální spodní tabulka je alternativou k nabídce nebo dialogovému oknu a zabraňuje uživateli v interakci se zbytkem aplikace.';
 
   @override
   String get demoBottomSheetAddLabel => 'Přidat';
@@ -1326,7 +1419,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoListsSubtitle => 'Rozložení posouvacích seznamů';
 
   @override
-  String get demoListsDescription => 'Jeden řádek s pevnou výškou, který obvykle obsahuje text a ikonu na začátku nebo na konci.';
+  String get demoListsDescription =>
+      'Jeden řádek s pevnou výškou, který obvykle obsahuje text a ikonu na začátku nebo na konci.';
 
   @override
   String get demoOneLineListsTitle => 'Jeden řádek';
@@ -1347,13 +1441,15 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoCircularProgressIndicatorTitle => 'Kruhový ukazatel průběhu';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Kruhový ukazatel průběhu Material Design, který otáčením signalizuje, že aplikace je zaneprázdněná.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Kruhový ukazatel průběhu Material Design, který otáčením signalizuje, že aplikace je zaneprázdněná.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'Lineární ukazatel průběhu';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Lineární ukazatel průběhu Material Design.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Lineární ukazatel průběhu Material Design.';
 
   @override
   String get demoPickersTitle => 'Výběry';
@@ -1365,19 +1461,22 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Výběr data';
 
   @override
-  String get demoDatePickerDescription => 'Zobrazuje dialog s výběrem data ve vzhledu Material Design.';
+  String get demoDatePickerDescription =>
+      'Zobrazuje dialog s výběrem data ve vzhledu Material Design.';
 
   @override
   String get demoTimePickerTitle => 'Výběr času';
 
   @override
-  String get demoTimePickerDescription => 'Zobrazuje dialog s výběrem času ve vzhledu Material Design.';
+  String get demoTimePickerDescription =>
+      'Zobrazuje dialog s výběrem času ve vzhledu Material Design.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'ZOBRAZIT VÝBĚR';
@@ -1392,19 +1491,23 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoTabsNonScrollingTitle => 'Neposuvné';
 
   @override
-  String get demoTabsSubtitle => 'Karty se zobrazením, která lze nezávisle na sobě posouvat';
+  String get demoTabsSubtitle =>
+      'Karty se zobrazením, která lze nezávisle na sobě posouvat';
 
   @override
-  String get demoTabsDescription => 'Karty třídí obsah z různých obrazovek, datových sad a dalších interakcí.';
+  String get demoTabsDescription =>
+      'Karty třídí obsah z různých obrazovek, datových sad a dalších interakcí.';
 
   @override
   String get demoSnackbarsTitle => 'Dočasná oznámení';
 
   @override
-  String get demoSnackbarsSubtitle => 'Dočasná oznámení zobrazují zprávy v dolní části obrazovky';
+  String get demoSnackbarsSubtitle =>
+      'Dočasná oznámení zobrazují zprávy v dolní části obrazovky';
 
   @override
-  String get demoSnackbarsDescription => 'Dočasná oznámení informují uživatele o procesu, který aplikace provedla nebo provede. Zobrazují se dočasně v dolní části obrazovky. Neměla by rušit uživatelský dojem a k jejich zavření není potřeba interakce uživatele.';
+  String get demoSnackbarsDescription =>
+      'Dočasná oznámení informují uživatele o procesu, který aplikace provedla nebo provede. Zobrazují se dočasně v dolní části obrazovky. Neměla by rušit uživatelský dojem a k jejich zavření není potřeba interakce uživatele.';
 
   @override
   String get demoSnackbarsButtonLabel => 'ZOBRAZIT DOČASNÉ OZNÁMENÍ';
@@ -1422,25 +1525,29 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoSelectionControlsTitle => 'Ovládací prvky výběru';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Zaškrtávací tlačítka, tlačítkové přepínače a přepínače';
+  String get demoSelectionControlsSubtitle =>
+      'Zaškrtávací tlačítka, tlačítkové přepínače a přepínače';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Zaškrtávací políčko';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Zaškrtávací políčka umožňují uživatelům vybrat několik možností z celé sady. Běžná hodnota zaškrtávacího políčka je True nebo False, ale zaškrtávací políčko se třemi stavy může mít také hodnotu Null.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Zaškrtávací políčka umožňují uživatelům vybrat několik možností z celé sady. Běžná hodnota zaškrtávacího políčka je True nebo False, ale zaškrtávací políčko se třemi stavy může mít také hodnotu Null.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Tlačítkový přepínač';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Tlačítkové přepínače umožňují uživatelům vybrat jednu možnost z celé sady. Tlačítkové přepínače použijte pro výběr, pokud se domníváte, že uživatel potřebuje vidět všechny dostupné možnosti vedle sebe.';
+  String get demoSelectionControlsRadioDescription =>
+      'Tlačítkové přepínače umožňují uživatelům vybrat jednu možnost z celé sady. Tlačítkové přepínače použijte pro výběr, pokud se domníváte, že uživatel potřebuje vidět všechny dostupné možnosti vedle sebe.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Přepínač';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Přepínače mění stav jedné možnosti nastavení. Možnost, kterou přepínač ovládá, i stav, ve kterém se nachází, musejí být zřejmé z příslušného textového štítku.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Přepínače mění stav jedné možnosti nastavení. Možnost, kterou přepínač ovládá, i stav, ve kterém se nachází, musejí být zřejmé z příslušného textového štítku.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Textová pole';
@@ -1449,10 +1556,12 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoTextFieldTitle => 'Textová pole';
 
   @override
-  String get demoTextFieldSubtitle => 'Jeden řádek s upravitelným textem a čísly';
+  String get demoTextFieldSubtitle =>
+      'Jeden řádek s upravitelným textem a čísly';
 
   @override
-  String get demoTextFieldDescription => 'Textová pole uživatelům umožňují zadat do uživatelského rozhraní text. Obvykle se vyskytují ve formulářích a dialogových oknech.';
+  String get demoTextFieldDescription =>
+      'Textová pole uživatelům umožňují zadat do uživatelského rozhraní text. Obvykle se vyskytují ve formulářích a dialogových oknech.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Zobrazit heslo';
@@ -1461,16 +1570,19 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Skrýt heslo';
 
   @override
-  String get demoTextFieldFormErrors => 'Před odesláním formuláře opravte červeně zvýrazněné chyby.';
+  String get demoTextFieldFormErrors =>
+      'Před odesláním formuláře opravte červeně zvýrazněné chyby.';
 
   @override
   String get demoTextFieldNameRequired => 'Jméno je povinné.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'Zadejte jen písmena abecedy.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'Zadejte jen písmena abecedy.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### – Zadejte telefonní číslo do USA.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### – Zadejte telefonní číslo do USA.';
 
   @override
   String get demoTextFieldEnterPassword => 'Zadejte heslo.';
@@ -1497,7 +1609,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get demoTextFieldEmail => 'E-mail';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Řekněte nám něco o sobě (např. napište, co děláte nebo jaké máte koníčky)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Řekněte nám něco o sobě (např. napište, co děláte nebo jaké máte koníčky)';
 
   @override
   String get demoTextFieldKeepItShort => 'Buďte struční, je to jen ukázka.';
@@ -1529,19 +1642,23 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   }
 
   @override
-  String get demoTextFieldRequiredField => 'Hvězdička (*) označuje povinné pole';
+  String get demoTextFieldRequiredField =>
+      'Hvězdička (*) označuje povinné pole';
 
   @override
   String get demoTooltipTitle => 'Popisky';
 
   @override
-  String get demoTooltipSubtitle => 'Krátká zpráva, která se zobrazí při dlouhém stisknutí nebo umístění kurzoru';
+  String get demoTooltipSubtitle =>
+      'Krátká zpráva, která se zobrazí při dlouhém stisknutí nebo umístění kurzoru';
 
   @override
-  String get demoTooltipDescription => 'Popisky jsou textové štítky, které vysvětlují funkci tlačítka nebo jiného prvku uživatelského rozhraní. Informativní text popisku se zobrazí, když uživatel umístí na prvek kurzor, vybere ho nebo ho dlouze stiskne.';
+  String get demoTooltipDescription =>
+      'Popisky jsou textové štítky, které vysvětlují funkci tlačítka nebo jiného prvku uživatelského rozhraní. Informativní text popisku se zobrazí, když uživatel umístí na prvek kurzor, vybere ho nebo ho dlouze stiskne.';
 
   @override
-  String get demoTooltipInstructions => 'Dlouhým stisknutím nebo umístěním kurzoru zobrazíte popisek.';
+  String get demoTooltipInstructions =>
+      'Dlouhým stisknutím nebo umístěním kurzoru zobrazíte popisek.';
 
   @override
   String get bottomNavigationCommentsTab => 'Komentáře';
@@ -1599,10 +1716,12 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get dialogDiscardTitle => 'Zahodit koncept?';
 
   @override
-  String get dialogLocationTitle => 'Chcete používat službu určování polohy Google?';
+  String get dialogLocationTitle =>
+      'Chcete používat službu určování polohy Google?';
 
   @override
-  String get dialogLocationDescription => 'Povolte, aby Google mohl aplikacím pomáhat s určováním polohy. To znamená, že budete do Googlu odesílat anonymní údaje o poloze, i když nebudou spuštěny žádné aplikace.';
+  String get dialogLocationDescription =>
+      'Povolte, aby Google mohl aplikacím pomáhat s určováním polohy. To znamená, že budete do Googlu odesílat anonymní údaje o poloze, i když nebudou spuštěny žádné aplikace.';
 
   @override
   String get dialogCancel => 'ZRUŠIT';
@@ -1632,7 +1751,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get dialogFullscreenSave => 'ULOŽIT';
 
   @override
-  String get dialogFullscreenDescription => 'Ukázka dialogového okna na celou obrazovku';
+  String get dialogFullscreenDescription =>
+      'Ukázka dialogového okna na celou obrazovku';
 
   @override
   String get cupertinoButton => 'Tlačítko';
@@ -1647,10 +1767,12 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Zahodit';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Povolit Mapám přístup k poloze, když budete aplikaci používat?';
+  String get cupertinoAlertLocationTitle =>
+      'Povolit Mapám přístup k poloze, když budete aplikaci používat?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Vaše aktuální poloha se bude zobrazovat na mapě a bude sloužit k zobrazení tras, výsledků vyhledávání v okolí a odhadovaných časů cesty.';
+  String get cupertinoAlertLocationDescription =>
+      'Vaše aktuální poloha se bude zobrazovat na mapě a bude sloužit k zobrazení tras, výsledků vyhledávání v okolí a odhadovaných časů cesty.';
 
   @override
   String get cupertinoAlertAllow => 'Povolit';
@@ -1662,7 +1784,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Vyberte oblíbený zákusek';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Ze seznamu níže vyberte svůj oblíbený zákusek. Na základě výběru vám přizpůsobíme navrhovaný seznam stravovacích zařízení ve vašem okolí.';
+  String get cupertinoAlertDessertDescription =>
+      'Ze seznamu níže vyberte svůj oblíbený zákusek. Na základě výběru vám přizpůsobíme navrhovaný seznam stravovacích zařízení ve vašem okolí.';
 
   @override
   String get cupertinoAlertCheesecake => 'Cheesecake';
@@ -1954,7 +2077,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get shrineProductPlasterTunic => 'Tělová tunika';
 
   @override
-  String get shrineProductWhitePinstripeShirt => 'Košile s úzkým bílým proužkem';
+  String get shrineProductWhitePinstripeShirt =>
+      'Košile s úzkým bílým proužkem';
 
   @override
   String get shrineProductChambrayShirt => 'Košile Chambray';
@@ -1969,7 +2093,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get shrineProductNavyTrousers => 'Kalhoty barvy námořnické modři';
 
   @override
-  String get shrineProductWalterHenleyWhite => 'Triko s knoflíkovou légou Walter (bílé)';
+  String get shrineProductWalterHenleyWhite =>
+      'Triko s knoflíkovou légou Walter (bílé)';
 
   @override
   String get shrineProductSurfAndPerfShirt => 'Funkční triko na surfování';
@@ -1984,7 +2109,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get shrineProductClassicWhiteCollar => 'Klasický bílý límeček';
 
   @override
-  String get shrineProductCeriseScallopTee => 'Třešňové triko se zaobleným lemem';
+  String get shrineProductCeriseScallopTee =>
+      'Třešňové triko se zaobleným lemem';
 
   @override
   String get shrineProductShoulderRollsTee => 'Tričko s odhalenými rameny';
@@ -2259,13 +2385,15 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get craneEat10 => 'Lisabon, Portugalsko';
 
   @override
-  String get craneFly0SemanticLabel => 'Chata v zasněžené krajině se stálezelenými stromy';
+  String get craneFly0SemanticLabel =>
+      'Chata v zasněžené krajině se stálezelenými stromy';
 
   @override
   String get craneFly1SemanticLabel => 'Stan na poli';
 
   @override
-  String get craneFly2SemanticLabel => 'Modlitební praporky se zasněženou horou v pozadí';
+  String get craneFly2SemanticLabel =>
+      'Modlitební praporky se zasněženou horou v pozadí';
 
   @override
   String get craneFly3SemanticLabel => 'Pevnost Machu Picchu';
@@ -2289,7 +2417,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get craneFly9SemanticLabel => 'Muž opírající se o staré modré auto';
 
   @override
-  String get craneFly10SemanticLabel => 'Minarety mešity al-Azhar při západu slunce';
+  String get craneFly10SemanticLabel =>
+      'Minarety mešity al-Azhar při západu slunce';
 
   @override
   String get craneFly11SemanticLabel => 'Cihlový maják u moře';
@@ -2304,7 +2433,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get craneSleep0SemanticLabel => 'Bungalovy nad vodou';
 
   @override
-  String get craneSleep1SemanticLabel => 'Chata v zasněžené krajině se stálezelenými stromy';
+  String get craneSleep1SemanticLabel =>
+      'Chata v zasněžené krajině se stálezelenými stromy';
 
   @override
   String get craneSleep2SemanticLabel => 'Pevnost Machu Picchu';
@@ -2322,7 +2452,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get craneSleep6SemanticLabel => 'Bazén s palmami';
 
   @override
-  String get craneSleep7SemanticLabel => 'Pestrobarevné domy na náměstí Ribeira';
+  String get craneSleep7SemanticLabel =>
+      'Pestrobarevné domy na náměstí Ribeira';
 
   @override
   String get craneSleep8SemanticLabel => 'Mayské ruiny na útesu nad pláží';
@@ -2331,7 +2462,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get craneSleep9SemanticLabel => 'Cihlový maják u moře';
 
   @override
-  String get craneSleep10SemanticLabel => 'Minarety mešity al-Azhar při západu slunce';
+  String get craneSleep10SemanticLabel =>
+      'Minarety mešity al-Azhar při západu slunce';
 
   @override
   String get craneSleep11SemanticLabel => 'Mrakodrap Tchaj-pej 101';
@@ -2406,7 +2538,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get fortnightlyTrendingReform => 'Reforma';
 
   @override
-  String get fortnightlyTrendingHealthcareRevolution => 'Revoluce_ve_zdravotnictví';
+  String get fortnightlyTrendingHealthcareRevolution =>
+      'Revoluce_ve_zdravotnictví';
 
   @override
   String get fortnightlyTrendingGreenArmy => 'Zelená_armáda';
@@ -2418,7 +2551,8 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Novinky';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Nenápadná, zato však zásadní revoluce ve zdravotní péči';
+  String get fortnightlyHeadlineHealthcare =>
+      'Nenápadná, zato však zásadní revoluce ve zdravotní péči';
 
   @override
   String get fortnightlyHeadlineWar => 'Rozdělené životy Američanů za války';
@@ -2430,16 +2564,20 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'Reforma Zelené armády zevnitř';
 
   @override
-  String get fortnightlyHeadlineStocks => 'Akcie stagnují a mnozí se uchylují k hotovosti';
+  String get fortnightlyHeadlineStocks =>
+      'Akcie stagnují a mnozí se uchylují k hotovosti';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Designéři využívají technologie k vytváření látek budoucnosti';
+  String get fortnightlyHeadlineFabrics =>
+      'Designéři využívají technologie k vytváření látek budoucnosti';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'Feministky brojí proti předpojatosti';
+  String get fortnightlyHeadlineFeminists =>
+      'Feministky brojí proti předpojatosti';
 
   @override
-  String get fortnightlyHeadlineBees => 'Nízké stavy včelstev pro opylování zemědělských plodin';
+  String get fortnightlyHeadlineBees =>
+      'Nízké stavy včelstev pro opylování zemědělských plodin';
 
   @override
   String get replyInboxLabel => 'Doručené';

@@ -91,10 +91,10 @@ class GalleryLocalizationsEn extends GalleryLocalizations {
   String get cardsDemoTravelDestinationDescription3 => 'Temples';
 
   @override
-  String get homeHeaderGallery => 'Gallery';
+  String get homeHeaderGallery => 'Flink Capital Partners';
 
   @override
-  String get homeHeaderCategories => 'Categories';
+  String get homeHeaderCategories => '';
 
   @override
   String get shrineDescription => 'A fashionable retail app';
@@ -103,7 +103,7 @@ class GalleryLocalizationsEn extends GalleryLocalizations {
   String get fortnightlyDescription => 'A content-focused news app';
 
   @override
-  String get rallyDescription => 'A personal finance app';
+  String get rallyDescription => '';
 
   @override
   String get replyDescription => 'An efficient, focused email app';
@@ -420,13 +420,13 @@ class GalleryLocalizationsEn extends GalleryLocalizations {
   String get settingsSlowMotion => 'Slow motion';
 
   @override
-  String get settingsAbout => 'About Flutter Gallery';
+  String get settingsAbout => 'About Flink Capital';
 
   @override
   String get settingsFeedback => 'Send feedback';
 
   @override
-  String get settingsAttribution => 'Designed by TOASTER in London';
+  String get settingsAttribution => '';
 
   @override
   String get demoAppBarTitle => 'App bar';
@@ -2643,10 +2643,10 @@ class GalleryLocalizationsEnAu extends GalleryLocalizationsEn {
   String get cardsDemoTravelDestinationDescription3 => 'Temples';
 
   @override
-  String get homeHeaderGallery => 'Gallery';
+  String get homeHeaderGallery => 'Flink Capital Partners';
 
   @override
-  String get homeHeaderCategories => 'Categories';
+  String get homeHeaderCategories => '';
 
   @override
   String get shrineDescription => 'A fashionable retail app';
@@ -2655,7 +2655,7 @@ class GalleryLocalizationsEnAu extends GalleryLocalizationsEn {
   String get fortnightlyDescription => 'A content-focused news app';
 
   @override
-  String get rallyDescription => 'A personal finance app';
+  String get rallyDescription => '';
 
   @override
   String get replyDescription => 'An efficient, focused email app';
@@ -2773,7 +2773,7 @@ class GalleryLocalizationsEnAu extends GalleryLocalizationsEn {
   String get rallySeeAll => 'Subscribe';
 
   @override
-  String get rallyFinanceLeft => '';
+  String get rallyFinanceLeft => 'Profit/Loss';
 
   @override
   String get rallyTitleOverview => 'OVERVIEW';
@@ -2972,13 +2972,13 @@ class GalleryLocalizationsEnAu extends GalleryLocalizationsEn {
   String get settingsSlowMotion => 'Slow motion';
 
   @override
-  String get settingsAbout => 'About Flutter Gallery';
+  String get settingsAbout => 'About Flink Capital';
 
   @override
   String get settingsFeedback => 'Send feedback';
 
   @override
-  String get settingsAttribution => 'Designed by TOASTER in London';
+  String get settingsAttribution => '';
 
   @override
   String get demoBottomAppBarTitle => 'Bottom app bar';
@@ -5143,10 +5143,10 @@ class GalleryLocalizationsEnCa extends GalleryLocalizationsEn {
   String get cardsDemoTravelDestinationDescription3 => 'Temples';
 
   @override
-  String get homeHeaderGallery => 'Gallery';
+  String get homeHeaderGallery => 'Flink Capital Partners';
 
   @override
-  String get homeHeaderCategories => 'Categories';
+  String get homeHeaderCategories => '';
 
   @override
   String get shrineDescription => 'A fashionable retail app';
@@ -5155,7 +5155,7 @@ class GalleryLocalizationsEnCa extends GalleryLocalizationsEn {
   String get fortnightlyDescription => 'A content-focused news app';
 
   @override
-  String get rallyDescription => 'A personal finance app';
+  String get rallyDescription => '';
 
   @override
   String get replyDescription => 'An efficient, focused email app';
@@ -5273,7 +5273,7 @@ class GalleryLocalizationsEnCa extends GalleryLocalizationsEn {
   String get rallySeeAll => 'Subscribe';
 
   @override
-  String get rallyFinanceLeft => '';
+  String get rallyFinanceLeft => 'Profit/Loss';
 
   @override
   String get rallyTitleOverview => 'OVERVIEW';
@@ -5472,13 +5472,13 @@ class GalleryLocalizationsEnCa extends GalleryLocalizationsEn {
   String get settingsSlowMotion => 'Slow motion';
 
   @override
-  String get settingsAbout => 'About Flutter Gallery';
+  String get settingsAbout => 'About Flink Capital';
 
   @override
   String get settingsFeedback => 'Send feedback';
 
   @override
-  String get settingsAttribution => 'Designed by TOASTER in London';
+  String get settingsAttribution => '';
 
   @override
   String get demoBottomAppBarTitle => 'Bottom app bar';
@@ -7643,10 +7643,10 @@ class GalleryLocalizationsEnGb extends GalleryLocalizationsEn {
   String get cardsDemoTravelDestinationDescription3 => 'Temples';
 
   @override
-  String get homeHeaderGallery => 'Gallery';
+  String get homeHeaderGallery => 'Flink Capital Partners';
 
   @override
-  String get homeHeaderCategories => 'Categories';
+  String get homeHeaderCategories => '';
 
   @override
   String get shrineDescription => 'A fashionable retail app';
@@ -7655,7 +7655,7 @@ class GalleryLocalizationsEnGb extends GalleryLocalizationsEn {
   String get fortnightlyDescription => 'A content-focused news app';
 
   @override
-  String get rallyDescription => 'A personal finance app';
+  String get rallyDescription => '';
 
   @override
   String get replyDescription => 'An efficient, focused email app';
@@ -7773,7 +7773,7 @@ class GalleryLocalizationsEnGb extends GalleryLocalizationsEn {
   String get rallySeeAll => 'Subscribe';
 
   @override
-  String get rallyFinanceLeft => '';
+  String get rallyFinanceLeft => 'Profit/Loss';
 
   @override
   String get rallyTitleOverview => 'OVERVIEW';
@@ -7972,13 +7972,13 @@ class GalleryLocalizationsEnGb extends GalleryLocalizationsEn {
   String get settingsSlowMotion => 'Slow motion';
 
   @override
-  String get settingsAbout => 'About Flutter Gallery';
+  String get settingsAbout => 'About Flink Capital';
 
   @override
   String get settingsFeedback => 'Send feedback';
 
   @override
-  String get settingsAttribution => 'Designed by TOASTER in London';
+  String get settingsAttribution => '';
 
   @override
   String get demoBottomAppBarTitle => 'Bottom app bar';
@@ -8655,7 +8655,7 @@ class GalleryLocalizationsEnGb extends GalleryLocalizationsEn {
   String get demoSharedXAxisTitle => 'Shared x-axis';
 
   @override
-  String get demoSharedXAxisBackButtonText => 'BACK';
+  String get demoSharedXAxisButtonText => 'BACK';
 
   @override
   String get demoSharedXAxisNextButtonText => 'NEXT';
@@ -10143,10 +10143,10 @@ class GalleryLocalizationsEnIe extends GalleryLocalizationsEn {
   String get cardsDemoTravelDestinationDescription3 => 'Temples';
 
   @override
-  String get homeHeaderGallery => 'Gallery';
+  String get homeHeaderGallery => 'Flink Capital Partners';
 
   @override
-  String get homeHeaderCategories => 'Categories';
+  String get homeHeaderCategories => '';
 
   @override
   String get shrineDescription => 'A fashionable retail app';
@@ -10155,7 +10155,7 @@ class GalleryLocalizationsEnIe extends GalleryLocalizationsEn {
   String get fortnightlyDescription => 'A content-focused news app';
 
   @override
-  String get rallyDescription => 'A personal finance app';
+  String get rallyDescription => '';
 
   @override
   String get replyDescription => 'An efficient, focused email app';
@@ -10273,7 +10273,7 @@ class GalleryLocalizationsEnIe extends GalleryLocalizationsEn {
   String get rallySeeAll => 'Subscribe';
 
   @override
-  String get rallyFinanceLeft => '';
+  String get rallyFinanceLeft => 'Profit/Loss';
 
   @override
   String get rallyTitleOverview => 'OVERVIEW';
@@ -10472,13 +10472,13 @@ class GalleryLocalizationsEnIe extends GalleryLocalizationsEn {
   String get settingsSlowMotion => 'Slow motion';
 
   @override
-  String get settingsAbout => 'About Flutter Gallery';
+  String get settingsAbout => 'About Flink Capital';
 
   @override
   String get settingsFeedback => 'Send feedback';
 
   @override
-  String get settingsAttribution => 'Designed by TOASTER in London';
+  String get settingsAttribution => '';
 
   @override
   String get demoBottomAppBarTitle => 'Bottom app bar';
@@ -12643,10 +12643,10 @@ class GalleryLocalizationsEnIn extends GalleryLocalizationsEn {
   String get cardsDemoTravelDestinationDescription3 => 'Temples';
 
   @override
-  String get homeHeaderGallery => 'Gallery';
+  String get homeHeaderGallery => 'Flink Capital Partners';
 
   @override
-  String get homeHeaderCategories => 'Categories';
+  String get homeHeaderCategories => '';
 
   @override
   String get shrineDescription => 'A fashionable retail app';
@@ -12655,7 +12655,7 @@ class GalleryLocalizationsEnIn extends GalleryLocalizationsEn {
   String get fortnightlyDescription => 'A content-focused news app';
 
   @override
-  String get rallyDescription => 'A personal finance app';
+  String get rallyDescription => '';
 
   @override
   String get replyDescription => 'An efficient, focused email app';
@@ -12773,7 +12773,7 @@ class GalleryLocalizationsEnIn extends GalleryLocalizationsEn {
   String get rallySeeAll => 'Subscribe';
 
   @override
-  String get rallyFinanceLeft => '';
+  String get rallyFinanceLeft => 'Profit/Loss';
 
   @override
   String get rallyTitleOverview => 'OVERVIEW';
@@ -12972,13 +12972,13 @@ class GalleryLocalizationsEnIn extends GalleryLocalizationsEn {
   String get settingsSlowMotion => 'Slow motion';
 
   @override
-  String get settingsAbout => 'About Flutter Gallery';
+  String get settingsAbout => 'About Flink Capital';
 
   @override
   String get settingsFeedback => 'Send feedback';
 
   @override
-  String get settingsAttribution => 'Designed by TOASTER in London';
+  String get settingsAttribution => '';
 
   @override
   String get demoBottomAppBarTitle => 'Bottom app bar';
@@ -15143,10 +15143,10 @@ class GalleryLocalizationsEnNz extends GalleryLocalizationsEn {
   String get cardsDemoTravelDestinationDescription3 => 'Temples';
 
   @override
-  String get homeHeaderGallery => 'Gallery';
+  String get homeHeaderGallery => 'Flink Capital Partners';
 
   @override
-  String get homeHeaderCategories => 'Categories';
+  String get homeHeaderCategories => '';
 
   @override
   String get shrineDescription => 'A fashionable retail app';
@@ -15155,7 +15155,7 @@ class GalleryLocalizationsEnNz extends GalleryLocalizationsEn {
   String get fortnightlyDescription => 'A content-focused news app';
 
   @override
-  String get rallyDescription => 'A personal finance app';
+  String get rallyDescription => '';
 
   @override
   String get replyDescription => 'An efficient, focused email app';
@@ -15273,7 +15273,7 @@ class GalleryLocalizationsEnNz extends GalleryLocalizationsEn {
   String get rallySeeAll => 'Subscribe';
 
   @override
-  String get rallyFinanceLeft => '';
+  String get rallyFinanceLeft => 'Profit/Loss';
 
   @override
   String get rallyTitleOverview => 'OVERVIEW';
@@ -15472,13 +15472,13 @@ class GalleryLocalizationsEnNz extends GalleryLocalizationsEn {
   String get settingsSlowMotion => 'Slow motion';
 
   @override
-  String get settingsAbout => 'About Flutter Gallery';
+  String get settingsAbout => 'About Flink Capital';
 
   @override
   String get settingsFeedback => 'Send feedback';
 
   @override
-  String get settingsAttribution => 'Designed by TOASTER in London';
+  String get settingsAttribution => '';
 
   @override
   String get demoBottomAppBarTitle => 'Bottom app bar';
@@ -17643,10 +17643,10 @@ class GalleryLocalizationsEnSg extends GalleryLocalizationsEn {
   String get cardsDemoTravelDestinationDescription3 => 'Temples';
 
   @override
-  String get homeHeaderGallery => 'Gallery';
+  String get homeHeaderGallery => 'Flink Capital Partners';
 
   @override
-  String get homeHeaderCategories => 'Categories';
+  String get homeHeaderCategories => '';
 
   @override
   String get shrineDescription => 'A fashionable retail app';
@@ -17655,7 +17655,7 @@ class GalleryLocalizationsEnSg extends GalleryLocalizationsEn {
   String get fortnightlyDescription => 'A content-focused news app';
 
   @override
-  String get rallyDescription => 'A personal finance app';
+  String get rallyDescription => '';
 
   @override
   String get replyDescription => 'An efficient, focused email app';
@@ -17773,7 +17773,7 @@ class GalleryLocalizationsEnSg extends GalleryLocalizationsEn {
   String get rallySeeAll => 'Subscribe';
 
   @override
-  String get rallyFinanceLeft => '';
+  String get rallyFinanceLeft => 'Profit/Loss';
 
   @override
   String get rallyTitleOverview => 'OVERVIEW';
@@ -17972,13 +17972,13 @@ class GalleryLocalizationsEnSg extends GalleryLocalizationsEn {
   String get settingsSlowMotion => 'Slow motion';
 
   @override
-  String get settingsAbout => 'About Flutter Gallery';
+  String get settingsAbout => 'About Flink Capital';
 
   @override
   String get settingsFeedback => 'Send feedback';
 
   @override
-  String get settingsAttribution => 'Designed by TOASTER in London';
+  String get settingsAttribution => '';
 
   @override
   String get demoBottomAppBarTitle => 'Bottom app bar';
@@ -20143,10 +20143,10 @@ class GalleryLocalizationsEnZa extends GalleryLocalizationsEn {
   String get cardsDemoTravelDestinationDescription3 => 'Temples';
 
   @override
-  String get homeHeaderGallery => 'Gallery';
+  String get homeHeaderGallery => 'Flink Capital Partners';
 
   @override
-  String get homeHeaderCategories => 'Categories';
+  String get homeHeaderCategories => '';
 
   @override
   String get shrineDescription => 'A fashionable retail app';
@@ -20155,7 +20155,7 @@ class GalleryLocalizationsEnZa extends GalleryLocalizationsEn {
   String get fortnightlyDescription => 'A content-focused news app';
 
   @override
-  String get rallyDescription => 'A personal finance app';
+  String get rallyDescription => '';
 
   @override
   String get replyDescription => 'An efficient, focused email app';
@@ -20273,7 +20273,7 @@ class GalleryLocalizationsEnZa extends GalleryLocalizationsEn {
   String get rallySeeAll => 'Subscribe';
 
   @override
-  String get rallyFinanceLeft => '';
+  String get rallyFinanceLeft => 'Profit/Loss';
 
   @override
   String get rallyTitleOverview => 'OVERVIEW';
@@ -20472,13 +20472,13 @@ class GalleryLocalizationsEnZa extends GalleryLocalizationsEn {
   String get settingsSlowMotion => 'Slow motion';
 
   @override
-  String get settingsAbout => 'About Flutter Gallery';
+  String get settingsAbout => 'About Flink Capital';
 
   @override
   String get settingsFeedback => 'Send feedback';
 
   @override
-  String get settingsAttribution => 'Designed by TOASTER in London';
+  String get settingsAttribution => '';
 
   @override
   String get demoBottomAppBarTitle => 'Bottom app bar';

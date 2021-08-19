@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get signIn => 'HASI SAIOA';
 
   @override
-  String get bannerDemoText => 'Beste gailuan eguneratu da pasahitza. Hasi saioa berriro.';
+  String get bannerDemoText =>
+      'Beste gailuan eguneratu da pasahitza. Hasi saioa berriro.';
 
   @override
   String get bannerDemoResetText => 'Berrezarri banda';
@@ -60,7 +60,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'Tamil Nadun bisitatu beharreko hamar hiri nagusiak';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'Tamil Nadun bisitatu beharreko hamar hiri nagusiak';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => '10.';
@@ -72,7 +73,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get cardsDemoTravelDestinationLocation1 => 'Thanjavur, Tamil Nadu';
 
   @override
-  String get cardsDemoTravelDestinationTitle2 => 'Indiaren hegoaldeko artisauak';
+  String get cardsDemoTravelDestinationTitle2 =>
+      'Indiaren hegoaldeko artisauak';
 
   @override
   String get cardsDemoTravelDestinationDescription2 => 'Zeta-iruleak';
@@ -99,7 +101,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get shrineDescription => 'Moda-modako salmenta-aplikazioa';
 
   @override
-  String get fortnightlyDescription => 'Edukian oinarritutako albiste-aplikazioa';
+  String get fortnightlyDescription =>
+      'Edukian oinarritutako albiste-aplikazioa';
 
   @override
   String get rallyDescription => 'Finantza-aplikazio pertsonala';
@@ -120,16 +123,19 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Oporrak';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Urtean ordaindutako interesaren ehunekoa';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Urtean ordaindutako interesaren ehunekoa';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Interes-tasa';
 
   @override
-  String get rallyAccountDetailDataInterestYtd => 'Urte-hasieratik gaurdainoko interesak';
+  String get rallyAccountDetailDataInterestYtd =>
+      'Urte-hasieratik gaurdainoko interesak';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Joan den urtean ordaindutako interesa';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Joan den urtean ordaindutako interesa';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Hurrengo kontu-laburpena';
@@ -285,8 +291,10 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Zerga-kenkari potentzial handiagoa! Esleitu kategoriak esleitu gabeko transakzio bati.',
-      other: 'Zerga-kenkari potentzial handiagoa! Esleitu kategoriak esleitu gabeko ${count} transakziori.',
+      one:
+          'Zerga-kenkari potentzial handiagoa! Esleitu kategoriak esleitu gabeko transakzio bati.',
+      other:
+          'Zerga-kenkari potentzial handiagoa! Esleitu kategoriak esleitu gabeko ${count} transakziori.',
     );
   }
 
@@ -300,7 +308,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Ikusi aurrekontu guztiak';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${accountName} bankuko ${accountNumber} kontua (${amount}).';
   }
 
@@ -310,7 +319,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return '\"${budgetName}\" izeneko aurrekontua: ${amountUsed}/${amountTotal} erabilita; ${amountLeft} gelditzen da';
   }
 
@@ -353,7 +363,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Ikusi aukerak';
 
   @override
-  String get demoOptionsFeatureDescription => 'Sakatu hau demoaren aukerak ikusteko.';
+  String get demoOptionsFeatureDescription =>
+      'Sakatu hau demoaren aukerak ikusteko.';
 
   @override
   String get settingsTitle => 'Ezarpenak';
@@ -386,7 +397,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get settingsTextDirection => 'Testuaren noranzkoa';
 
   @override
-  String get settingsTextDirectionLocaleBased => 'Lurraldeko ezarpenetan oinarrituta';
+  String get settingsTextDirectionLocaleBased =>
+      'Lurraldeko ezarpenetan oinarrituta';
 
   @override
   String get settingsTextDirectionLTR => 'Ezkerretik eskuinera';
@@ -425,19 +437,23 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Aplikazioaren behealdeko barra';
 
   @override
-  String get demoBottomAppBarSubtitle => 'Nabigazio-aukerak eta erabilgarri dauden ekintzak bistaratzen ditu behealdean';
+  String get demoBottomAppBarSubtitle =>
+      'Nabigazio-aukerak eta erabilgarri dauden ekintzak bistaratzen ditu behealdean';
 
   @override
-  String get demoBottomAppBarDescription => 'Aplikazioaren behealdeko barrak nabigazio-panel lerrakor bat erakusten du, bai eta erabilgarri dauden ekintzak ere (gehienez, lau). Barra horretan agertzen da ekintza-botoi gainerakorra ere.';
+  String get demoBottomAppBarDescription =>
+      'Aplikazioaren behealdeko barrak nabigazio-panel lerrakor bat erakusten du, bai eta erabilgarri dauden ekintzak ere (gehienez, lau). Barra horretan agertzen da ekintza-botoi gainerakorra ere.';
 
   @override
   String get bottomAppBarNotch => 'Koska';
@@ -464,13 +480,15 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Zerrenda batean banda bat bistaratzea';
 
   @override
-  String get demoBannerDescription => 'Bandek mezu garrantzitsu eta laburrak bistaratzen dituzte, eta erabiltzaileek gauzatu beharreko ekintzak adierazten. Bandak baztertu egin daitezke; baina ez beren kabuz, erabiltzaileek hala adierazita baizik.';
+  String get demoBannerDescription =>
+      'Bandek mezu garrantzitsu eta laburrak bistaratzen dituzte, eta erabiltzaileek gauzatu beharreko ekintzak adierazten. Bandak baztertu egin daitezke; baina ez beren kabuz, erabiltzaileek hala adierazita baizik.';
 
   @override
   String get demoBottomNavigationTitle => 'Beheko nabigazioa';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Modu gurutzatuan lausotzen diren ikuspegiak dituen beheko nabigazioa';
+  String get demoBottomNavigationSubtitle =>
+      'Modu gurutzatuan lausotzen diren ikuspegiak dituen beheko nabigazioa';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Etiketa finkoak';
@@ -479,7 +497,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Hautatutako etiketa';
 
   @override
-  String get demoBottomNavigationDescription => 'Beheko nabigazioak hiru eta bost helmuga artean bistaratzen ditu pantailaren beheko aldean. Ikono eta aukerako testu-etiketa bana ageri dira helmuga bakoitzeko. Beheko nabigazioko ikono bat sakatzean, ikono horri loturiko nabigazio-helmuga nagusira eramango da erabiltzailea.';
+  String get demoBottomNavigationDescription =>
+      'Beheko nabigazioak hiru eta bost helmuga artean bistaratzen ditu pantailaren beheko aldean. Ikono eta aukerako testu-etiketa bana ageri dira helmuga bakoitzeko. Beheko nabigazioko ikono bat sakatzean, ikono horri loturiko nabigazio-helmuga nagusira eramango da erabiltzailea.';
 
   @override
   String get demoButtonTitle => 'Botoiak';
@@ -491,31 +510,36 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoTextButtonTitle => 'Botoi lauak';
 
   @override
-  String get demoTextButtonDescription => 'Botoi lauak kolorez aldatzen dira sakatzean, baina ez dira altxatzen. Erabili botoi lauak tresna-barretan, leihoetan eta betegarriak txertatzean.';
+  String get demoTextButtonDescription =>
+      'Botoi lauak kolorez aldatzen dira sakatzean, baina ez dira altxatzen. Erabili botoi lauak tresna-barretan, leihoetan eta betegarriak txertatzean.';
 
   @override
   String get demoElevatedButtonTitle => 'Botoi goratuak';
 
   @override
-  String get demoElevatedButtonDescription => 'Botoi goratuek dimentsioa ematen diete nagusiki lauak diren diseinuei. Funtzioak nabarmentzen dituzte espazio bete edo zabaletan.';
+  String get demoElevatedButtonDescription =>
+      'Botoi goratuek dimentsioa ematen diete nagusiki lauak diren diseinuei. Funtzioak nabarmentzen dituzte espazio bete edo zabaletan.';
 
   @override
   String get demoOutlinedButtonTitle => 'Botoi ingeradadunak';
 
   @override
-  String get demoOutlinedButtonDescription => 'Botoi ingeradadunak opaku bihurtu eta goratu egiten dira sakatzean. Botoi goratuekin batera agertu ohi dira, ekintza alternatibo edo sekundario bat dagoela adierazteko.';
+  String get demoOutlinedButtonDescription =>
+      'Botoi ingeradadunak opaku bihurtu eta goratu egiten dira sakatzean. Botoi goratuekin batera agertu ohi dira, ekintza alternatibo edo sekundario bat dagoela adierazteko.';
 
   @override
   String get demoToggleButtonTitle => 'Etengailuak';
 
   @override
-  String get demoToggleButtonDescription => 'Erlazionatutako aukerak taldekatzeko erabil daitezke etengailuak. Erlazionatutako etengailuen talde bat nabarmentzeko, taldeak edukiontzi bera partekatu beharko luke.';
+  String get demoToggleButtonDescription =>
+      'Erlazionatutako aukerak taldekatzeko erabil daitezke etengailuak. Erlazionatutako etengailuen talde bat nabarmentzeko, taldeak edukiontzi bera partekatu beharko luke.';
 
   @override
   String get demoFloatingButtonTitle => 'Ekintza-botoi gainerakorra';
 
   @override
-  String get demoFloatingButtonDescription => 'Aplikazioko edukiaren gainean ekintza nagusia sustatzeko agertzen diren botoi-itxurako ikono biribilak dira ekintza-botoi gainerakorrak.';
+  String get demoFloatingButtonDescription =>
+      'Aplikazioko edukiaren gainean ekintza nagusia sustatzeko agertzen diren botoi-itxurako ikono biribilak dira ekintza-botoi gainerakorrak.';
 
   @override
   String get demoCardTitle => 'Txartelak';
@@ -527,43 +551,51 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoChipTitle => 'Pilulak';
 
   @override
-  String get demoCardDescription => 'Material diseinuko orri bat da txartela. Haren bidez, erlazionatutako informazioa ematen da; adibidez, album bat, kokapen geografiko bat, janari bat, harremanetarako xehetasunak, etab.';
+  String get demoCardDescription =>
+      'Material diseinuko orri bat da txartela. Haren bidez, erlazionatutako informazioa ematen da; adibidez, album bat, kokapen geografiko bat, janari bat, harremanetarako xehetasunak, etab.';
 
   @override
-  String get demoChipSubtitle => 'Sarrera, atributu edo ekintza bat adierazten duten elementu trinkoak';
+  String get demoChipSubtitle =>
+      'Sarrera, atributu edo ekintza bat adierazten duten elementu trinkoak';
 
   @override
   String get demoActionChipTitle => 'Ekintza-pilula';
 
   @override
-  String get demoActionChipDescription => 'Ekintza-pilulak eduki nagusiarekin erlazionatutako ekintza bat abiarazten duten aukeren multzoa dira. Dinamikoki eta testuinguru egokian agertu behar dute.';
+  String get demoActionChipDescription =>
+      'Ekintza-pilulak eduki nagusiarekin erlazionatutako ekintza bat abiarazten duten aukeren multzoa dira. Dinamikoki eta testuinguru egokian agertu behar dute.';
 
   @override
   String get demoChoiceChipTitle => 'Aukera-pilula';
 
   @override
-  String get demoChoiceChipDescription => 'Aukera-pilulek multzo bateko aukera bakarra erakusten dute. Erlazionatutako testu deskribatzailea edo kategoriak ere badauzkate.';
+  String get demoChoiceChipDescription =>
+      'Aukera-pilulek multzo bateko aukera bakarra erakusten dute. Erlazionatutako testu deskribatzailea edo kategoriak ere badauzkate.';
 
   @override
   String get demoFilterChipTitle => 'Iragazteko pilula';
 
   @override
-  String get demoFilterChipDescription => 'Iragazteko pilulek etiketak edo hitz deskribatzaileak erabiltzen dituzte edukia iragazteko.';
+  String get demoFilterChipDescription =>
+      'Iragazteko pilulek etiketak edo hitz deskribatzaileak erabiltzen dituzte edukia iragazteko.';
 
   @override
   String get demoInputChipTitle => 'Sarrera-pilula';
 
   @override
-  String get demoInputChipDescription => 'Sarrera-pilulek informazio konplexua ematen dute modu trinkoan; adibidez, entitate bat (pertsona, toki edo gauza bat) edo elkarrizketa bateko testua.';
+  String get demoInputChipDescription =>
+      'Sarrera-pilulek informazio konplexua ematen dute modu trinkoan; adibidez, entitate bat (pertsona, toki edo gauza bat) edo elkarrizketa bateko testua.';
 
   @override
   String get demoDataTableTitle => 'Datu-taulak';
 
   @override
-  String get demoDataTableSubtitle => 'Informazioa duten errenkadak eta zutabeak';
+  String get demoDataTableSubtitle =>
+      'Informazioa duten errenkadak eta zutabeak';
 
   @override
-  String get demoDataTableDescription => 'Datu-taulek errenkada eta zutabetan bistaratzen dute informazioa, sareta gisa. Erraz aurkitzeko moduan dago antolatuta informazioa, erabiltzaileek ereduak eta estatistikak bila ditzaten.';
+  String get demoDataTableDescription =>
+      'Datu-taulek errenkada eta zutabetan bistaratzen dute informazioa, sareta gisa. Erraz aurkitzeko moduan dago antolatuta informazioa, erabiltzaileek ereduak eta estatistikak bila ditzaten.';
 
   @override
   String get dataTableHeader => 'Elikadura';
@@ -642,7 +674,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'Alerta';
 
   @override
-  String get demoAlertDialogDescription => 'Kontuan hartu beharreko egoeren berri ematen diote alerta-leihoek erabiltzaileari. Aukeran, izenburua eta ekintza-zerrendak izan ditzakete alerta-leihoek.';
+  String get demoAlertDialogDescription =>
+      'Kontuan hartu beharreko egoeren berri ematen diote alerta-leihoek erabiltzaileari. Aukeran, izenburua eta ekintza-zerrendak izan ditzakete alerta-leihoek.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Alerta izenburuduna';
@@ -651,16 +684,19 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Arrunta';
 
   @override
-  String get demoSimpleDialogDescription => 'Leiho arruntek hainbat aukera eskaintzen dizkiote erabiltzaileari, nahi duena aukera dezan. Aukeren gainean bistaratzen den izenburu bat izan dezakete leiho arruntek.';
+  String get demoSimpleDialogDescription =>
+      'Leiho arruntek hainbat aukera eskaintzen dizkiote erabiltzaileari, nahi duena aukera dezan. Aukeren gainean bistaratzen den izenburu bat izan dezakete leiho arruntek.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +708,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Errenkaden eta zutabeen diseinua';
 
   @override
-  String get demoGridListsDescription => 'Sareta itxurako zerrendak oso egokiak dira datu homogeneoak aurkezteko, batez ere irudiak. Sareta itxurako zerrendetan, lauza esaten zaio elementu bakoitzari.';
+  String get demoGridListsDescription =>
+      'Sareta itxurako zerrendak oso egokiak dira datu homogeneoak aurkezteko, batez ere irudiak. Sareta itxurako zerrendetan, lauza esaten zaio elementu bakoitzari.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Irudia soilik';
@@ -687,40 +724,49 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoSlidersTitle => 'Graduatzaileak';
 
   @override
-  String get demoSlidersSubtitle => 'Hatza pasatuta balio bat hautatzeko balio duten widgetak';
+  String get demoSlidersSubtitle =>
+      'Hatza pasatuta balio bat hautatzeko balio duten widgetak';
 
   @override
-  String get demoSlidersDescription => 'Graduatzaileek balioen barruti bat islatzen dute barra batean, eta erabiltzaileek barruti horretako balio bakarra hauta dezakete bertan. Oso erabilgarriak dira irudiei iragazkiak aplikatzeko edo, orokorrean, ezarpenak doitzeko; esaterako, distira edo bolumena.';
+  String get demoSlidersDescription =>
+      'Graduatzaileek balioen barruti bat islatzen dute barra batean, eta erabiltzaileek barruti horretako balio bakarra hauta dezakete bertan. Oso erabilgarriak dira irudiei iragazkiak aplikatzeko edo, orokorrean, ezarpenak doitzeko; esaterako, distira edo bolumena.';
 
   @override
   String get demoRangeSlidersTitle => 'Barruti zehatzeko graduatzaileak';
 
   @override
-  String get demoRangeSlidersDescription => 'Graduatzaileek balio barruti bat islatzen dute, barra batean. Ikono bana izan dezakete bi muturretan, balioen barrutia zein den erakusteko. Oso erabilgarriak dira irudiei iragazkiak aplikatzeko edo, orokorrean, ezarpenak doitzeko; esaterako, distira edo bolumena.';
+  String get demoRangeSlidersDescription =>
+      'Graduatzaileek balio barruti bat islatzen dute, barra batean. Ikono bana izan dezakete bi muturretan, balioen barrutia zein den erakusteko. Oso erabilgarriak dira irudiei iragazkiak aplikatzeko edo, orokorrean, ezarpenak doitzeko; esaterako, distira edo bolumena.';
 
   @override
   String get demoCustomSlidersTitle => 'Graduatzaile pertsonalizatuak';
 
   @override
-  String get demoCustomSlidersDescription => 'Graduatzaileek balioen barruti bat islatzen dute barra batean, eta erabiltzaileek barruti horretako balio bakarra edo azpi-barruti bat hauta dezakete bertan. Graduatzaileei gaiak ezar dakizkieke eta pertsonalizatu egin daitezke.';
+  String get demoCustomSlidersDescription =>
+      'Graduatzaileek balioen barruti bat islatzen dute barra batean, eta erabiltzaileek barruti horretako balio bakarra edo azpi-barruti bat hauta dezakete bertan. Graduatzaileei gaiak ezar dakizkieke eta pertsonalizatu egin daitezke.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Etengabea, zenbakizko balio editagarriarekin';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Etengabea, zenbakizko balio editagarriarekin';
 
   @override
-  String get demoSlidersDiscrete => 'Erabiltzaileak zehaztutako balioak dituen graduatzailea';
+  String get demoSlidersDiscrete =>
+      'Erabiltzaileak zehaztutako balioak dituen graduatzailea';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Erabiltzaileak zehaztutako balioak dituen graduatzailea gai pertsonalizatuarekin';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Erabiltzaileak zehaztutako balioak dituen graduatzailea gai pertsonalizatuarekin';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Barruti zehatzeko graduatzaile etengabea gai pertsonalizatuarekin';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Barruti zehatzeko graduatzaile etengabea gai pertsonalizatuarekin';
 
   @override
   String get demoSlidersContinuous => 'Etengabea';
 
   @override
-  String get demoSlidersEditableNumericalValue => 'Zenbakizko balio editagarria';
+  String get demoSlidersEditableNumericalValue =>
+      'Zenbakizko balio editagarria';
 
   @override
   String get demoMenuTitle => 'Menua';
@@ -741,7 +787,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Menuko botoiak eta menu sinpleak';
 
   @override
-  String get demoMenuDescription => 'Menuek aukera-zerrenda bat erakusten dute aldi batez. Erabiltzaileek botoi, ekintza edo bestelako kontrol-aukera batekin interakzioan jarduten dutenean agertzen dira menuak.';
+  String get demoMenuDescription =>
+      'Menuek aukera-zerrenda bat erakusten dute aldi batez. Erabiltzaileek botoi, ekintza edo bestelako kontrol-aukera batekin interakzioan jarduten dutenean agertzen dira menuak.';
 
   @override
   String get demoMenuItemValueOne => 'Menuko lehen aukera';
@@ -765,7 +812,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoMenuFour => 'Lau';
 
   @override
-  String get demoMenuAnItemWithAContextMenuButton => 'Laster-menu bat duen aukera bat';
+  String get demoMenuAnItemWithAContextMenuButton =>
+      'Laster-menu bat duen aukera bat';
 
   @override
   String get demoMenuContextMenuItemOne => 'Laster-menuko lehen aukera';
@@ -777,7 +825,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoMenuContextMenuItemThree => 'Laster-menuko hirugarren aukera';
 
   @override
-  String get demoMenuAnItemWithASectionedMenu => 'Menu sekziodun bat duen aukera bat';
+  String get demoMenuAnItemWithASectionedMenu =>
+      'Menu sekziodun bat duen aukera bat';
 
   @override
   String get demoMenuPreview => 'Aurreikusi';
@@ -805,10 +854,12 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoNavigationDrawerTitle => 'Nabigazio-panel lerrakorra';
 
   @override
-  String get demoNavigationDrawerSubtitle => 'Panel lerrakor bat bistaratzen du aplikazio-barraren barruan';
+  String get demoNavigationDrawerSubtitle =>
+      'Panel lerrakor bat bistaratzen du aplikazio-barraren barruan';
 
   @override
-  String get demoNavigationDrawerDescription => 'Aplikazio bateko nabigazio-estekak bistaratzeko pantailaren ertzetik horizontalean lerratzen den Material diseinudun panela.';
+  String get demoNavigationDrawerDescription =>
+      'Aplikazio bateko nabigazio-estekak bistaratzeko pantailaren ertzetik horizontalean lerratzen den Material diseinudun panela.';
 
   @override
   String get demoNavigationDrawerUserName => 'Erabiltzaile-izena';
@@ -823,16 +874,19 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Bigarren elementua';
 
   @override
-  String get demoNavigationDrawerText => 'Pasatu hatza ertzetik edo sakatu goian ezkerrean dagoen ikonoa panel lerrakorra ikusteko';
+  String get demoNavigationDrawerText =>
+      'Pasatu hatza ertzetik edo sakatu goian ezkerrean dagoen ikonoa panel lerrakorra ikusteko';
 
   @override
   String get demoNavigationRailTitle => 'Nabigazio-erraila';
 
   @override
-  String get demoNavigationRailSubtitle => 'Nabigazio-errail bat bistaratzen du aplikazioaren barruan';
+  String get demoNavigationRailSubtitle =>
+      'Nabigazio-errail bat bistaratzen du aplikazioaren barruan';
 
   @override
-  String get demoNavigationRailDescription => 'Aplikazio baten ezkerrean edo eskuinean bistaratuko den Material diseinudun widgeta, ikuspegi gutxi batzuen artean (hiru eta bost artean, normalean) nabigatzeko.';
+  String get demoNavigationRailDescription =>
+      'Aplikazio baten ezkerrean edo eskuinean bistaratuko den Material diseinudun widgeta, ikuspegi gutxi batzuen artean (hiru eta bost artean, normalean) nabigatzeko.';
 
   @override
   String get demoNavigationRailFirst => 'Lehena';
@@ -847,22 +901,26 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoMenuAnItemWithASimpleMenu => 'Menu sinple bat duen aukera bat';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Egiaztapen-zerrendaren menu bat duen aukera bat';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Egiaztapen-zerrendaren menu bat duen aukera bat';
 
   @override
   String get demoFullscreenDialogTitle => 'Pantaila osoa';
 
   @override
-  String get demoFullscreenDialogDescription => 'Sarrerako orria pantaila osoko leiho bat den zehazten du fullscreenDialog propietateak';
+  String get demoFullscreenDialogDescription =>
+      'Sarrerako orria pantaila osoko leiho bat den zehazten du fullscreenDialog propietateak';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Jardueren adierazlea';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'iOS estiloko jardueren adierazleak';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'iOS estiloko jardueren adierazleak';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'iOS estiloko jardueren adierazle bat, eskuinetara bira egiten duena.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'iOS estiloko jardueren adierazle bat, eskuinetara bira egiten duena.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Botoiak';
@@ -871,7 +929,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'iOS estiloko botoiak';
 
   @override
-  String get demoCupertinoButtonsDescription => 'iOS estiloko botoia. Ukitzean lausotzen eta berriro agertzen den testua edota ikono bat dauka barruan. Atzeko plano bat ere izan dezake.';
+  String get demoCupertinoButtonsDescription =>
+      'iOS estiloko botoia. Ukitzean lausotzen eta berriro agertzen den testua edota ikono bat dauka barruan. Atzeko plano bat ere izan dezake.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +939,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,7 +949,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Alertak';
@@ -901,7 +962,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => 'Alerta';
 
   @override
-  String get demoCupertinoAlertDescription => 'Kontuan hartu beharreko egoeren berri ematen diote alerta-leihoek erabiltzaileari. Aukeran, izenburua, edukia eta ekintza-zerrendak izan ditzakete alerta-leihoek. Izenburua edukiaren gainean bistaratuko da; ekintzak, berriz, edukiaren azpian.';
+  String get demoCupertinoAlertDescription =>
+      'Kontuan hartu beharreko egoeren berri ematen diote alerta-leihoek erabiltzaileari. Aukeran, izenburua, edukia eta ekintza-zerrendak izan ditzakete alerta-leihoek. Izenburua edukiaren gainean bistaratuko da; ekintzak, berriz, edukiaren azpian.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Alerta izenburuduna';
@@ -916,25 +978,30 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'Ekintza-orria';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Ekintza-orria alerta-estilo bat da, eta bi aukera edo gehiago ematen dizkio erabiltzaileari uneko testuingurua kontuan hartuta. Ekintza-orriek izenburu bat, mezu gehigarri bat eta ekintza-zerrenda bat izan ditzakete.';
+  String get demoCupertinoActionSheetDescription =>
+      'Ekintza-orria alerta-estilo bat da, eta bi aukera edo gehiago ematen dizkio erabiltzaileari uneko testuingurua kontuan hartuta. Ekintza-orriek izenburu bat, mezu gehigarri bat eta ekintza-zerrenda bat izan ditzakete.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Nabigazio-barra';
 
   @override
-  String get demoCupertinoNavigationBarSubtitle => 'iOS estiloko nabigazio-barra';
+  String get demoCupertinoNavigationBarSubtitle =>
+      'iOS estiloko nabigazio-barra';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'iOS estiloko nabigazio-barra bat. Nabigazio-barra tresna-barra bat da, tresna-barraren erdian orriaren izena daukana, besterik gabe.';
+  String get demoCupertinoNavigationBarDescription =>
+      'iOS estiloko nabigazio-barra bat. Nabigazio-barra tresna-barra bat da, tresna-barraren erdian orriaren izena daukana, besterik gabe.';
 
   @override
   String get demoCupertinoPickerTitle => 'Hautatzaileak';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'iOS estiloko data- eta ordu-hautatzaileak';
+  String get demoCupertinoPickerSubtitle =>
+      'iOS estiloko data- eta ordu-hautatzaileak';
 
   @override
-  String get demoCupertinoPickerDescription => 'iOS estiloko hautatzailearen widgeta, datak, orduak edo bi-biak hautatzeko.';
+  String get demoCupertinoPickerDescription =>
+      'iOS estiloko hautatzailearen widgeta, datak, orduak edo bi-biak hautatzeko.';
 
   @override
   String get demoCupertinoPickerTimer => 'Tenporizadorea';
@@ -952,19 +1019,23 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'Tiratu freskatzeko';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'Edukia kontrolatzeko iOS estiloko \"Tiratu freskatzeko\" motako aukera';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'Edukia kontrolatzeko iOS estiloko \"Tiratu freskatzeko\" motako aukera';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Edukia kontrolatzeko iOS estiloko \"Tiratu freskatzeko\" motako aukera inplementatzeko widget bat.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Edukia kontrolatzeko iOS estiloko \"Tiratu freskatzeko\" motako aukera inplementatzeko widget bat.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Segmentatutako kontrola';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'iOS estiloarekin segmentatutako kontrola';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'iOS estiloarekin segmentatutako kontrola';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Bata bestearen baztergarri diren zenbait aukeraren artean hautatzeko erabiltzen da. Segmentatutako kontroleko aukera bat hautatzen denean, segmentatutako kontroleko gainerako aukerak desautatu egiten dira.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Bata bestearen baztergarri diren zenbait aukeraren artean hautatzeko erabiltzen da. Segmentatutako kontroleko aukera bat hautatzen denean, segmentatutako kontroleko gainerako aukerak desautatu egiten dira.';
 
   @override
   String get demoCupertinoSliderTitle => 'Graduatzailea';
@@ -973,7 +1044,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'iOS estiloko graduatzailea';
 
   @override
-  String get demoCupertinoSliderDescription => 'Balio sorta jarraitu edo zehatz batetik hautatzeko balio du graduatzaileak.';
+  String get demoCupertinoSliderDescription =>
+      'Balio sorta jarraitu edo zehatz batetik hautatzeko balio du graduatzaileak.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,7 +1061,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'iOS estiloko etengailua';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Ezarpen bat aktibatu eta desaktibatzeko balio du etengailuak.';
+  String get demoCupertinoSwitchDescription =>
+      'Ezarpen bat aktibatu eta desaktibatzeko balio du etengailuak.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Fitxa-barra';
@@ -998,7 +1071,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'iOS estiloko beheko fitxa-barra';
 
   @override
-  String get demoCupertinoTabBarDescription => 'iOS estiloko beheko nabigazioko fitxa-barra bat. Hainbat fitxa bistaratzen ditu eta fitxa horietako bat (modu lehenetsian lehena) aktibatuta dago.';
+  String get demoCupertinoTabBarDescription =>
+      'iOS estiloko beheko nabigazioko fitxa-barra bat. Hainbat fitxa bistaratzen ditu eta fitxa horietako bat (modu lehenetsian lehena) aktibatuta dago.';
 
   @override
   String get cupertinoTabBarHomeTab => 'Orri nagusia';
@@ -1016,7 +1090,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'iOS estiloko testu-eremuak';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'Teklatu fisikoarekin edo pantailakoarekin testua idazteko eremua.';
+  String get demoCupertinoTextFieldDescription =>
+      'Teklatu fisikoarekin edo pantailakoarekin testua idazteko eremua.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN kodea';
@@ -1025,16 +1100,19 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoMotionTitle => 'Mugimendua';
 
   @override
-  String get demoMotionSubtitle => 'Aurrez zehaztutako trantsizio-eredu guztiak';
+  String get demoMotionSubtitle =>
+      'Aurrez zehaztutako trantsizio-eredu guztiak';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'Txartelak, zerrendak eta EBG';
+  String get demoContainerTransformDemoInstructions =>
+      'Txartelak, zerrendak eta EBG';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'Hurrengoa eta Atzera botoiak';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'Ordenatu \"Erreproduzitutako azkenak\" irizpidearen arabera';
+  String get demoSharedYAxisDemoInstructions =>
+      'Ordenatu \"Erreproduzitutako azkenak\" irizpidearen arabera';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'Ezarpenen ikonoaren botoia';
@@ -1049,16 +1127,19 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'Edukiontzien itxuraldaketa';
 
   @override
-  String get demoContainerTransformDescription => 'Edukiontzi bat daukaten erabiltzaile-interfazeen arteko trantsizioetarako diseinatuta dago edukiontzien itxuraldaketaren eredua. Ereduak ikusizko konexio bat sortzen du erabiltzaile-interfazeko bi elementuren artean.';
+  String get demoContainerTransformDescription =>
+      'Edukiontzi bat daukaten erabiltzaile-interfazeen arteko trantsizioetarako diseinatuta dago edukiontzien itxuraldaketaren eredua. Ereduak ikusizko konexio bat sortzen du erabiltzaile-interfazeko bi elementuren artean.';
 
   @override
-  String get demoContainerTransformModalBottomSheetTitle => 'Apurka desagertzearen modua';
+  String get demoContainerTransformModalBottomSheetTitle =>
+      'Apurka desagertzearen modua';
 
   @override
   String get demoContainerTransformTypeFade => 'APURKA DESAGERTZEA';
 
   @override
-  String get demoContainerTransformTypeFadeThrough => 'AGERTZEA ETA DESAGERTZEA';
+  String get demoContainerTransformTypeFadeThrough =>
+      'AGERTZEA ETA DESAGERTZEA';
 
   @override
   String get demoMotionPlaceholderTitle => 'Izena';
@@ -1076,7 +1157,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Zerrendako elementua';
 
   @override
-  String get demoSharedAxisDescription => 'Harreman espaziala edo nabigazionala daukaten erabiltzaile-interfazeko elementuen arteko trantsizioetarako erabiltzen da partekatutako ardatzaren eredua. Eredu horrek X, Y edo Z ardatzaren itxuraldaketa partekatua erabiltzen du elementuen arteko harremana sendotzeko.';
+  String get demoSharedAxisDescription =>
+      'Harreman espaziala edo nabigazionala daukaten erabiltzaile-interfazeko elementuen arteko trantsizioetarako erabiltzen da partekatutako ardatzaren eredua. Eredu horrek X, Y edo Z ardatzaren itxuraldaketa partekatua erabiltzen du elementuen arteko harremana sendotzeko.';
 
   @override
   String get demoSharedXAxisTitle => 'Partekatutako X ardatza';
@@ -1088,10 +1170,12 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoSharedXAxisNextButtonText => 'HURRENGOA';
 
   @override
-  String get demoSharedXAxisCoursePageTitle => 'Sinplifikatu ikastaroen zerrendak';
+  String get demoSharedXAxisCoursePageTitle =>
+      'Sinplifikatu ikastaroen zerrendak';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Multzokatutako kategoriak talde gisa agertzen dira jarioan. Gero alda dezakezu hori.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Multzokatutako kategoriak talde gisa agertzen dira jarioan. Gero alda dezakezu hori.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Eskulanak';
@@ -1112,7 +1196,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoSharedXAxisBundledCourseSubtitle => 'Multzokatuta';
 
   @override
-  String get demoSharedXAxisIndividualCourseSubtitle => 'Banaka erakutsiko dira';
+  String get demoSharedXAxisIndividualCourseSubtitle =>
+      'Banaka erakutsiko dira';
 
   @override
   String get demoSharedXAxisSignInWelcomeText => 'Kaixo, David Park';
@@ -1121,10 +1206,12 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoSharedXAxisSignInSubtitleText => 'Hasi saioa kontuarekin';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'Helbide elektronikoa edo telefono-zenbakia';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'Helbide elektronikoa edo telefono-zenbakia';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'HELBIDE ELEKTRONIKOA AHAZTU ZAIZU?';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'HELBIDE ELEKTRONIKOA AHAZTU ZAIZU?';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'SORTU KONTU BAT';
@@ -1160,13 +1247,15 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoSharedZAxisBurgerRecipeTitle => 'Hanburgesa';
 
   @override
-  String get demoSharedZAxisBurgerRecipeDescription => 'Hanburgesa baten errezeta';
+  String get demoSharedZAxisBurgerRecipeDescription =>
+      'Hanburgesa baten errezeta';
 
   @override
   String get demoSharedZAxisSandwichRecipeTitle => 'Ogitartekoa';
 
   @override
-  String get demoSharedZAxisSandwichRecipeDescription => 'Ogitarteko baten errezeta';
+  String get demoSharedZAxisSandwichRecipeDescription =>
+      'Ogitarteko baten errezeta';
 
   @override
   String get demoSharedZAxisDessertRecipeTitle => 'Postrea';
@@ -1178,19 +1267,22 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Izkira';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Izkira-plater baten errezeta';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Izkira-plater baten errezeta';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Karramarroa';
 
   @override
-  String get demoSharedZAxisCrabPlateRecipeDescription => 'Karramarro-plater baten errezeta';
+  String get demoSharedZAxisCrabPlateRecipeDescription =>
+      'Karramarro-plater baten errezeta';
 
   @override
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Behiki-ogitartekoa';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Behiki-ogitarteko baten errezeta';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Behiki-ogitarteko baten errezeta';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Gordetako errezetak';
@@ -1211,7 +1303,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Agertzea eta desagertzea';
 
   @override
-  String get demoFadeThroughDescription => 'Beren artean harreman handirik ez daukaten erabiltzaile-interfazeko elementuen arteko trantsizioetarako erabiltzen da agertzea eta desagertzearen eredua.';
+  String get demoFadeThroughDescription =>
+      'Beren artean harreman handirik ez daukaten erabiltzaile-interfazeko elementuen arteko trantsizioetarako erabiltzen da agertzea eta desagertzearen eredua.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Albumak';
@@ -1229,16 +1322,20 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Apurka desagertzea';
 
   @override
-  String get demoFadeScaleDescription => 'Pantailaren ertzean sartzen edo ertzetik ateratzen diren erabiltzaile-interfazeko elementuetarako erabiltzen da apurka desagertzearen eredua; adibidez, pantailaren erdialdean apurka desagertzen den leiho bat.';
+  String get demoFadeScaleDescription =>
+      'Pantailaren ertzean sartzen edo ertzetik ateratzen diren erabiltzaile-interfazeko elementuetarako erabiltzen da apurka desagertzearen eredua; adibidez, pantailaren erdialdean apurka desagertzen den leiho bat.';
 
   @override
-  String get demoFadeScaleShowAlertDialogButton => 'ERAKUTSI LEIHO GAINERAKORRA';
+  String get demoFadeScaleShowAlertDialogButton =>
+      'ERAKUTSI LEIHO GAINERAKORRA';
 
   @override
-  String get demoFadeScaleShowFabButton => 'ERAKUTSI EKINTZA-BOTOI GAINERAKORRA';
+  String get demoFadeScaleShowFabButton =>
+      'ERAKUTSI EKINTZA-BOTOI GAINERAKORRA';
 
   @override
-  String get demoFadeScaleHideFabButton => 'EZKUTATU EKINTZA-BOTOI GAINERAKORRA';
+  String get demoFadeScaleHideFabButton =>
+      'EZKUTATU EKINTZA-BOTOI GAINERAKORRA';
 
   @override
   String get demoFadeScaleAlertDialogHeader => 'Alerta-leihoa';
@@ -1256,7 +1353,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Kolore lehenetsi guztiak';
 
   @override
-  String get demoColorsDescription => 'Material izeneko diseinuaren kolore-paleta irudikatzen duten koloreen eta kolore-aldaketen konstanteak.';
+  String get demoColorsDescription =>
+      'Material izeneko diseinuaren kolore-paleta irudikatzen duten koloreen eta kolore-aldaketen konstanteak.';
 
   @override
   String get demoTypographyTitle => 'Tipografia';
@@ -1265,16 +1363,19 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoTypographySubtitle => 'Testu-estilo lehenetsi guztiak';
 
   @override
-  String get demoTypographyDescription => 'Material diseinuko estilo tipografikoen definizioak.';
+  String get demoTypographyDescription =>
+      'Material diseinuko estilo tipografikoen definizioak.';
 
   @override
   String get demo2dTransformationsTitle => '2D bihurketak';
 
   @override
-  String get demo2dTransformationsSubtitle => 'Mugitu, aplikatu zooma eta biratu';
+  String get demo2dTransformationsSubtitle =>
+      'Mugitu, aplikatu zooma eta biratu';
 
   @override
-  String get demo2dTransformationsDescription => 'Sakatu hau lauzak editatzeko eta erabili keinuak eszenaren barruan mugitzeko. Arrastatu mugitzeko, atximurkatu zooma aplikatzeko eta erabili bi hatz biratzeko. Hasierako orientaziora itzultzeko, sakatu berrezartzeko botoia.';
+  String get demo2dTransformationsDescription =>
+      'Sakatu hau lauzak editatzeko eta erabili keinuak eszenaren barruan mugitzeko. Arrastatu mugitzeko, atximurkatu zooma aplikatzeko eta erabili bi hatz biratzeko. Hasierako orientaziora itzultzeko, sakatu berrezartzeko botoia.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Berrezarri bihurketak';
@@ -1295,13 +1396,15 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'Beheko orri finkoa';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Aplikazioko eduki nagusia osatzea helburu duen informazioa erakusten du beheko orri finkoak. Beheko orri finkoa ikusgai dago beti, baita erabiltzailea aplikazioko beste elementu batzuk erabiltzen ari denean ere.';
+  String get demoBottomSheetPersistentDescription =>
+      'Aplikazioko eduki nagusia osatzea helburu duen informazioa erakusten du beheko orri finkoak. Beheko orri finkoa ikusgai dago beti, baita erabiltzailea aplikazioko beste elementu batzuk erabiltzen ari denean ere.';
 
   @override
   String get demoBottomSheetModalTitle => 'Beheko orri modala';
 
   @override
-  String get demoBottomSheetModalDescription => 'Menu edo leiho baten ordez erabil daiteke beheko orri modala; horren bidez, erabiltzaileak ezingo ditu erabili aplikazioaren gainerako elementuak.';
+  String get demoBottomSheetModalDescription =>
+      'Menu edo leiho baten ordez erabil daiteke beheko orri modala; horren bidez, erabiltzaileak ezingo ditu erabili aplikazioaren gainerako elementuak.';
 
   @override
   String get demoBottomSheetAddLabel => 'Gehitu';
@@ -1324,7 +1427,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoListsSubtitle => 'Zerrenda lerrakorren diseinuak';
 
   @override
-  String get demoListsDescription => 'Altuera finkoko lerro bakarra; testua eta haren atzean edo aurrean ikono bat izan ohi ditu.';
+  String get demoListsDescription =>
+      'Altuera finkoko lerro bakarra; testua eta haren atzean edo aurrean ikono bat izan ohi ditu.';
 
   @override
   String get demoOneLineListsTitle => 'Lerro bat';
@@ -1339,19 +1443,23 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoProgressIndicatorTitle => 'Garapen-adierazleak';
 
   @override
-  String get demoProgressIndicatorSubtitle => 'Lineala, zirkularra, zehaztugabea';
+  String get demoProgressIndicatorSubtitle =>
+      'Lineala, zirkularra, zehaztugabea';
 
   @override
-  String get demoCircularProgressIndicatorTitle => 'Garapen-adierazle zirkularra';
+  String get demoCircularProgressIndicatorTitle =>
+      'Garapen-adierazle zirkularra';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Material diseinuaren garapen-adierazle zirkular bat, zeinak bira egiten baitu aplikazioa lanpetuta dagoela adierazteko.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Material diseinuaren garapen-adierazle zirkular bat, zeinak bira egiten baitu aplikazioa lanpetuta dagoela adierazteko.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'Garapen-adierazle lineala';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Material diseinuaren garapen-adierazle lineal bat; garapen-barra ere baderitzo.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Material diseinuaren garapen-adierazle lineal bat; garapen-barra ere baderitzo.';
 
   @override
   String get demoPickersTitle => 'Hautatzaileak';
@@ -1363,19 +1471,22 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Data-hautatzailea';
 
   @override
-  String get demoDatePickerDescription => 'Material diseinuko data-hautatzailea duen leiho bat dago ikusgai.';
+  String get demoDatePickerDescription =>
+      'Material diseinuko data-hautatzailea duen leiho bat dago ikusgai.';
 
   @override
   String get demoTimePickerTitle => 'Ordu-hautatzailea';
 
   @override
-  String get demoTimePickerDescription => 'Material diseinuko ordu-hautatzailea duen leiho bat dago ikusgai.';
+  String get demoTimePickerDescription =>
+      'Material diseinuko ordu-hautatzailea duen leiho bat dago ikusgai.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'ERAKUTSI HAUTATZAILEA';
@@ -1390,19 +1501,23 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoTabsNonScrollingTitle => 'Korritzen ez dena';
 
   @override
-  String get demoTabsSubtitle => 'Independenteki gora eta behera mugi daitezkeen fitxak';
+  String get demoTabsSubtitle =>
+      'Independenteki gora eta behera mugi daitezkeen fitxak';
 
   @override
-  String get demoTabsDescription => 'Fitxei esker, edukia antolatuta dago pantailetan, datu multzoetan eta bestelako elkarrekintza sortetan.';
+  String get demoTabsDescription =>
+      'Fitxei esker, edukia antolatuta dago pantailetan, datu multzoetan eta bestelako elkarrekintza sortetan.';
 
   @override
   String get demoSnackbarsTitle => 'Snackbar-ak';
 
   @override
-  String get demoSnackbarsSubtitle => 'Pantailaren beheko aldean mezuak erakusten dituzte snackbar-ek';
+  String get demoSnackbarsSubtitle =>
+      'Pantailaren beheko aldean mezuak erakusten dituzte snackbar-ek';
 
   @override
-  String get demoSnackbarsDescription => 'Aplikazio batek egin duen edo egingo duen prozesu baten berri ematen diete snackbar-ek erabiltzaileei. Tarte batez agertzen dira pantailaren beheko aldean. Ez dute etengo erabiltzailea eta ezer egin gabe desagertuko dira.';
+  String get demoSnackbarsDescription =>
+      'Aplikazio batek egin duen edo egingo duen prozesu baten berri ematen diete snackbar-ek erabiltzaileei. Tarte batez agertzen dira pantailaren beheko aldean. Ez dute etengo erabiltzailea eta ezer egin gabe desagertuko dira.';
 
   @override
   String get demoSnackbarsButtonLabel => 'ERAKUTSI SNACKBAR BAT';
@@ -1420,25 +1535,29 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoSelectionControlsTitle => 'Hautapena kontrolatzeko aukerak';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Koadroak, aukera-botoiak eta etengailuak';
+  String get demoSelectionControlsSubtitle =>
+      'Koadroak, aukera-botoiak eta etengailuak';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Koadroa';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Koadroei esker, multzo bereko aukera bat baino gehiago hauta ditzake erabiltzaileak. Koadroek Egia eta Gezurra balioak izan ohi dituzte. Hiru aukerakoak badira, aldiz, balio nulua izan ohi dute bi horiez gain.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Koadroei esker, multzo bereko aukera bat baino gehiago hauta ditzake erabiltzaileak. Koadroek Egia eta Gezurra balioak izan ohi dituzte. Hiru aukerakoak badira, aldiz, balio nulua izan ohi dute bi horiez gain.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Aukera-botoia';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Aukera-botoiei esker, multzo bateko aukera bakarra hauta dezakete erabiltzaileek. Erabili aukera-botoiak erabiltzaileei aukera guztiak ondoz ondo erakutsi nahi badizkiezu, ondoren haietako bat hauta dezaten.';
+  String get demoSelectionControlsRadioDescription =>
+      'Aukera-botoiei esker, multzo bateko aukera bakarra hauta dezakete erabiltzaileek. Erabili aukera-botoiak erabiltzaileei aukera guztiak ondoz ondo erakutsi nahi badizkiezu, ondoren haietako bat hauta dezaten.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Etengailua';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Aktibatu eta desaktibatzeko etengailuak ezarpen-aukera bakarraren egoera aldatzen du. Etiketa txertatuek argi adierazi behar dute etengailuak zer aukera kontrolatzen duen eta hura zein egoeratan dagoen.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Aktibatu eta desaktibatzeko etengailuak ezarpen-aukera bakarraren egoera aldatzen du. Etiketa txertatuek argi adierazi behar dute etengailuak zer aukera kontrolatzen duen eta hura zein egoeratan dagoen.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Testu-eremuak';
@@ -1447,10 +1566,12 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoTextFieldTitle => 'Testu-eremuak';
 
   @override
-  String get demoTextFieldSubtitle => 'Testu eta zenbakien lerro editagarri bakarra';
+  String get demoTextFieldSubtitle =>
+      'Testu eta zenbakien lerro editagarri bakarra';
 
   @override
-  String get demoTextFieldDescription => 'Testu-eremuen bidez, erabiltzaileek testua idatz dezakete erabiltzaile-interfaze batean. Inprimaki eta leiho gisa agertu ohi dira.';
+  String get demoTextFieldDescription =>
+      'Testu-eremuen bidez, erabiltzaileek testua idatz dezakete erabiltzaile-interfaze batean. Inprimaki eta leiho gisa agertu ohi dira.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Erakutsi pasahitza';
@@ -1459,16 +1580,19 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Ezkutatu pasahitza';
 
   @override
-  String get demoTextFieldFormErrors => 'Bidali baino lehen, konpondu gorriz ageri diren erroreak.';
+  String get demoTextFieldFormErrors =>
+      'Bidali baino lehen, konpondu gorriz ageri diren erroreak.';
 
   @override
   String get demoTextFieldNameRequired => 'Izena behar da.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'Idatzi alfabetoko karaktereak soilik.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'Idatzi alfabetoko karaktereak soilik.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - Idatzi AEBko telefono-zenbaki bat.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - Idatzi AEBko telefono-zenbaki bat.';
 
   @override
   String get demoTextFieldEnterPassword => 'Idatzi pasahitza.';
@@ -1495,7 +1619,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get demoTextFieldEmail => 'Helbide elektronikoa';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Esan zerbait zuri buruz (adibidez, zertan egiten duzun lan edo zer zaletasun dituzun)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Esan zerbait zuri buruz (adibidez, zertan egiten duzun lan edo zer zaletasun dituzun)';
 
   @override
   String get demoTextFieldKeepItShort => 'Ez luzatu; demo bat baino ez da.';
@@ -1527,19 +1652,23 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   }
 
   @override
-  String get demoTextFieldRequiredField => '* ikurrak derrigorrezko eremua dela adierazten du';
+  String get demoTextFieldRequiredField =>
+      '* ikurrak derrigorrezko eremua dela adierazten du';
 
   @override
   String get demoTooltipTitle => 'Aholkuak';
 
   @override
-  String get demoTooltipSubtitle => 'Luze sakatzean edo gainetik pasatzean erakusten den mezu laburra';
+  String get demoTooltipSubtitle =>
+      'Luze sakatzean edo gainetik pasatzean erakusten den mezu laburra';
 
   @override
-  String get demoTooltipDescription => 'Aholkuak testu-etiketak dira, zeinek botoi baten edo erabiltzaile-interfazeko ekintza baten funtzioa azaltzen baitute. Aholkuek testu informatibo bat bistaratzen dute erabiltzaileak aukera baten gainetik pasatzen direnean, aukera baten gainean fokua jartzen dutenean edo aukera bat luze sakatzen dutenean.';
+  String get demoTooltipDescription =>
+      'Aholkuak testu-etiketak dira, zeinek botoi baten edo erabiltzaile-interfazeko ekintza baten funtzioa azaltzen baitute. Aholkuek testu informatibo bat bistaratzen dute erabiltzaileak aukera baten gainetik pasatzen direnean, aukera baten gainean fokua jartzen dutenean edo aukera bat luze sakatzen dutenean.';
 
   @override
-  String get demoTooltipInstructions => 'Aholkua bistaratzeko, sakatu luze edo pasatu gainetik.';
+  String get demoTooltipInstructions =>
+      'Aholkua bistaratzeko, sakatu luze edo pasatu gainetik.';
 
   @override
   String get bottomNavigationCommentsTab => 'Iruzkinak';
@@ -1597,10 +1726,12 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get dialogDiscardTitle => 'Zirriborroa baztertu nahi duzu?';
 
   @override
-  String get dialogLocationTitle => 'Google-ren kokapen-zerbitzua erabili nahi duzu?';
+  String get dialogLocationTitle =>
+      'Google-ren kokapen-zerbitzua erabili nahi duzu?';
 
   @override
-  String get dialogLocationDescription => 'Utzi Google-ri aplikazioei kokapena zehazten laguntzen. Horretarako, kokapen-datu anonimoak bidaliko zaizkio Google-ri, baita aplikazioak martxan ez daudenean ere.';
+  String get dialogLocationDescription =>
+      'Utzi Google-ri aplikazioei kokapena zehazten laguntzen. Horretarako, kokapen-datu anonimoak bidaliko zaizkio Google-ri, baita aplikazioak martxan ez daudenean ere.';
 
   @override
   String get dialogCancel => 'UTZI';
@@ -1645,10 +1776,12 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Baztertu';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Aplikazioa erabili bitartean kokapena atzitzeko baimena eman nahi diozu Maps-i?';
+  String get cupertinoAlertLocationTitle =>
+      'Aplikazioa erabili bitartean kokapena atzitzeko baimena eman nahi diozu Maps-i?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Uneko kokapena mapan bistaratuko da, eta jarraibideak, inguruko bilaketa-emaitzak eta bidaien gutxi gorabeherako iraupena emango dira.';
+  String get cupertinoAlertLocationDescription =>
+      'Uneko kokapena mapan bistaratuko da, eta jarraibideak, inguruko bilaketa-emaitzak eta bidaien gutxi gorabeherako iraupena emango dira.';
 
   @override
   String get cupertinoAlertAllow => 'Baimendu';
@@ -1660,7 +1793,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Aukeratu gogoko postrea';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Beheko zerrendan, aukeratu gehien gustatzen zaizun postrea. Inguruko jatetxeen iradokizunak pertsonalizatzeko erabiliko da hautapen hori.';
+  String get cupertinoAlertDessertDescription =>
+      'Beheko zerrendan, aukeratu gehien gustatzen zaizun postrea. Inguruko jatetxeen iradokizunak pertsonalizatzeko erabiliko da hautapen hori.';
 
   @override
   String get cupertinoAlertCheesecake => 'Gazta-tarta';
@@ -1932,7 +2066,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get shrineProductChambrayNapkins => 'Chambray estiloko ezpainzapiak';
 
   @override
-  String get shrineProductSucculentPlanters => 'Landare zukutsuetarako loreontziak';
+  String get shrineProductSucculentPlanters =>
+      'Landare zukutsuetarako loreontziak';
 
   @override
   String get shrineProductQuartetTable => 'Laurentzako mahaia';
@@ -1983,10 +2118,12 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get shrineProductCeriseScallopTee => 'Gerezi-koloreko elastikoa';
 
   @override
-  String get shrineProductShoulderRollsTee => 'Sorbalda estaltzen ez duen elastikoa';
+  String get shrineProductShoulderRollsTee =>
+      'Sorbalda estaltzen ez duen elastikoa';
 
   @override
-  String get shrineProductGreySlouchTank => 'Mahukarik gabeko elastiko gris zabala';
+  String get shrineProductGreySlouchTank =>
+      'Mahukarik gabeko elastiko gris zabala';
 
   @override
   String get shrineProductSunshirtDress => 'Udako soinekoa';
@@ -2243,13 +2380,15 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get craneEat10 => 'Lisboa (Portugal)';
 
   @override
-  String get craneFly0SemanticLabel => 'Txalet bat zuhaitz hostoiraunkorreko paisaia elurtuan';
+  String get craneFly0SemanticLabel =>
+      'Txalet bat zuhaitz hostoiraunkorreko paisaia elurtuan';
 
   @override
   String get craneFly1SemanticLabel => 'Denda bat zelai batean';
 
   @override
-  String get craneFly2SemanticLabel => 'Tibetar banderatxoak mendi elurtuen parean';
+  String get craneFly2SemanticLabel =>
+      'Tibetar banderatxoak mendi elurtuen parean';
 
   @override
   String get craneFly3SemanticLabel => 'Machu Picchuko hiria';
@@ -2258,10 +2397,12 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get craneFly4SemanticLabel => 'Itsasoko bungalow-ak';
 
   @override
-  String get craneFly5SemanticLabel => 'Mendialdeko hotel bat, laku baten ertzean';
+  String get craneFly5SemanticLabel =>
+      'Mendialdeko hotel bat, laku baten ertzean';
 
   @override
-  String get craneFly6SemanticLabel => 'Arte Ederren jauregiaren airetiko ikuspegia';
+  String get craneFly6SemanticLabel =>
+      'Arte Ederren jauregiaren airetiko ikuspegia';
 
   @override
   String get craneFly7SemanticLabel => 'Rushmore mendia';
@@ -2270,10 +2411,12 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'Supertree Grove';
 
   @override
-  String get craneFly9SemanticLabel => 'Gizon bat antzinako auto urdin baten aurrean makurtuta';
+  String get craneFly9SemanticLabel =>
+      'Gizon bat antzinako auto urdin baten aurrean makurtuta';
 
   @override
-  String get craneFly10SemanticLabel => 'Al-Azhar meskitaren dorreak ilunabarrean';
+  String get craneFly10SemanticLabel =>
+      'Al-Azhar meskitaren dorreak ilunabarrean';
 
   @override
   String get craneFly11SemanticLabel => 'Adreiluzko itsasargia';
@@ -2282,22 +2425,26 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get craneFly12SemanticLabel => 'Igerileku bat palmondoekin';
 
   @override
-  String get craneFly13SemanticLabel => 'Igerileku bat itsasertzean, palmondoekin';
+  String get craneFly13SemanticLabel =>
+      'Igerileku bat itsasertzean, palmondoekin';
 
   @override
   String get craneSleep0SemanticLabel => 'Itsasoko bungalow-ak';
 
   @override
-  String get craneSleep1SemanticLabel => 'Txalet bat zuhaitz hostoiraunkorreko paisaia elurtuan';
+  String get craneSleep1SemanticLabel =>
+      'Txalet bat zuhaitz hostoiraunkorreko paisaia elurtuan';
 
   @override
   String get craneSleep2SemanticLabel => 'Machu Picchuko hiria';
 
   @override
-  String get craneSleep3SemanticLabel => 'Gizon bat antzinako auto urdin baten aurrean makurtuta';
+  String get craneSleep3SemanticLabel =>
+      'Gizon bat antzinako auto urdin baten aurrean makurtuta';
 
   @override
-  String get craneSleep4SemanticLabel => 'Mendialdeko hotel bat, laku baten ertzean';
+  String get craneSleep4SemanticLabel =>
+      'Mendialdeko hotel bat, laku baten ertzean';
 
   @override
   String get craneSleep5SemanticLabel => 'Denda bat zelai batean';
@@ -2309,13 +2456,15 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get craneSleep7SemanticLabel => 'Eraikin koloretsuak Ribeira plazan';
 
   @override
-  String get craneSleep8SemanticLabel => 'Maiar hondarrak itsaslabar baten ertzean';
+  String get craneSleep8SemanticLabel =>
+      'Maiar hondarrak itsaslabar baten ertzean';
 
   @override
   String get craneSleep9SemanticLabel => 'Adreiluzko itsasargia';
 
   @override
-  String get craneSleep10SemanticLabel => 'Al-Azhar meskitaren dorreak ilunabarrean';
+  String get craneSleep10SemanticLabel =>
+      'Al-Azhar meskitaren dorreak ilunabarrean';
 
   @override
   String get craneSleep11SemanticLabel => 'Taipei 101 etxe-orratza';
@@ -2351,7 +2500,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get craneEat9SemanticLabel => 'Kafetegi bateko salmahaia, gozoekin';
 
   @override
-  String get craneEat10SemanticLabel => 'Emakume bat pastrami-sandwich bat eskuan duela';
+  String get craneEat10SemanticLabel =>
+      'Emakume bat pastrami-sandwich bat eskuan duela';
 
   @override
   String get fortnightlyMenuFrontPage => 'Orri nagusia';
@@ -2390,7 +2540,8 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get fortnightlyTrendingReform => 'Eraldaketa';
 
   @override
-  String get fortnightlyTrendingHealthcareRevolution => 'OsasunZerbitzuenIraultza';
+  String get fortnightlyTrendingHealthcareRevolution =>
+      'OsasunZerbitzuenIraultza';
 
   @override
   String get fortnightlyTrendingGreenArmy => 'ArmadaBerdea';
@@ -2402,10 +2553,12 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Informazio eguneratuena';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Osasun-zerbitzuen iraultza isil eta boteretsua';
+  String get fortnightlyHeadlineHealthcare =>
+      'Osasun-zerbitzuen iraultza isil eta boteretsua';
 
   @override
-  String get fortnightlyHeadlineWar => 'Estatubatuarren bizitza zatituak gerran zehar';
+  String get fortnightlyHeadlineWar =>
+      'Estatubatuarren bizitza zatituak gerran zehar';
 
   @override
   String get fortnightlyHeadlineGasoline => 'Gasolinaren etorkizuna';
@@ -2414,13 +2567,16 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'Armada Berdea barrualdetik eraldatzea';
 
   @override
-  String get fortnightlyHeadlineStocks => 'Akzioak igotzen ez direnez, dibisak dituzte askok ikusmiran';
+  String get fortnightlyHeadlineStocks =>
+      'Akzioak igotzen ez direnez, dibisak dituzte askok ikusmiran';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Diseinatzaileek teknologia erabiltzen dute ehun futuristak sortzeko';
+  String get fortnightlyHeadlineFabrics =>
+      'Diseinatzaileek teknologia erabiltzen dute ehun futuristak sortzeko';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'Feministak alderdi baten alde jarri dira';
+  String get fortnightlyHeadlineFeminists =>
+      'Feministak alderdi baten alde jarri dira';
 
   @override
   String get fortnightlyHeadlineBees => 'Soroetako erleak desagertzen ari dira';

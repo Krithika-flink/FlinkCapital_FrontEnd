@@ -17,7 +17,7 @@ import 'package:gallery/feature_discovery/feature_discovery.dart';
 import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 import 'package:gallery/layout/adaptive.dart';
 import 'package:gallery/pages/splash.dart';
-import 'package:gallery/themes/gallery_theme_data.dart';
+import 'package:gallery/themes/flink_theme_data.dart';
 import 'package:gallery/themes/material_demo_theme_data.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';

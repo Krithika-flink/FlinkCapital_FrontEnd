@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -300,7 +299,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get rallySeeAllBudgets => '查看所有预算';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '账号为 ${accountNumber} 的${accountName}账户中的存款金额为 ${amount}。';
   }
 
@@ -310,7 +310,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return '${budgetName}预算的总金额为 ${amountTotal}，已用 ${amountUsed}，剩余 ${amountLeft}';
   }
 
@@ -425,10 +426,12 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => '底部应用栏';
@@ -437,7 +440,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoBottomAppBarSubtitle => '在底部显示导航栏和几项操作';
 
   @override
-  String get demoBottomAppBarDescription => '底部应用栏包含底部抽屉式导航栏和最多 4 项操作（包括悬浮操作按钮在内）。';
+  String get demoBottomAppBarDescription =>
+      '底部应用栏包含底部抽屉式导航栏和最多 4 项操作（包括悬浮操作按钮在内）。';
 
   @override
   String get bottomAppBarNotch => '凹口';
@@ -464,7 +468,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoBannerSubtitle => '在列表内显示横幅';
 
   @override
-  String get demoBannerDescription => '横幅显示简明的重要信息，并提供相应操作供用户执行（或关闭横幅）。横幅需要用户手动关闭。';
+  String get demoBannerDescription =>
+      '横幅显示简明的重要信息，并提供相应操作供用户执行（或关闭横幅）。横幅需要用户手动关闭。';
 
   @override
   String get demoBottomNavigationTitle => '底部导航栏';
@@ -479,7 +484,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => '已选择标签';
 
   @override
-  String get demoBottomNavigationDescription => '底部导航栏会在屏幕底部显示三到五个目标位置。各个目标位置会显示为图标和文本标签（文本标签选择性显示）。用户点按底部导航栏中的图标后，系统会将用户转至与该图标关联的顶级导航目标位置。';
+  String get demoBottomNavigationDescription =>
+      '底部导航栏会在屏幕底部显示三到五个目标位置。各个目标位置会显示为图标和文本标签（文本标签选择性显示）。用户点按底部导航栏中的图标后，系统会将用户转至与该图标关联的顶级导航目标位置。';
 
   @override
   String get demoButtonTitle => '按钮';
@@ -491,31 +497,36 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoTextButtonTitle => '文本按钮';
 
   @override
-  String get demoTextButtonDescription => '文本按钮会在用户按下后出现墨水飞溅效果，但按钮本身没有升起效果。文本按钮适用于工具栏、对话框和设有内边距的内嵌元素';
+  String get demoTextButtonDescription =>
+      '文本按钮会在用户按下后出现墨水飞溅效果，但按钮本身没有升起效果。文本按钮适用于工具栏、对话框和设有内边距的内嵌元素';
 
   @override
   String get demoElevatedButtonTitle => '凸起按钮';
 
   @override
-  String get demoElevatedButtonDescription => '凸起按钮能为以平面内容为主的布局增添立体感。此类按钮可突出强调位于拥挤或宽阔空间中的功能。';
+  String get demoElevatedButtonDescription =>
+      '凸起按钮能为以平面内容为主的布局增添立体感。此类按钮可突出强调位于拥挤或宽阔空间中的功能。';
 
   @override
   String get demoOutlinedButtonTitle => '轮廓按钮';
 
   @override
-  String get demoOutlinedButtonDescription => '轮廓按钮会在用户按下后变为不透明并升起。此类按钮通常会与凸起按钮配对使用，用于指示其他的次要操作。';
+  String get demoOutlinedButtonDescription =>
+      '轮廓按钮会在用户按下后变为不透明并升起。此类按钮通常会与凸起按钮配对使用，用于指示其他的次要操作。';
 
   @override
   String get demoToggleButtonTitle => '切换按钮';
 
   @override
-  String get demoToggleButtonDescription => '切换按钮可用于对相关选项进行分组。为了凸显相关切换按钮的群组，一个群组应该共用一个常用容器';
+  String get demoToggleButtonDescription =>
+      '切换按钮可用于对相关选项进行分组。为了凸显相关切换按钮的群组，一个群组应该共用一个常用容器';
 
   @override
   String get demoFloatingButtonTitle => '悬浮操作按钮';
 
   @override
-  String get demoFloatingButtonDescription => '悬浮操作按钮是一种圆形图标按钮，它会悬停在内容上，可用来在应用中执行一项主要操作。';
+  String get demoFloatingButtonDescription =>
+      '悬浮操作按钮是一种圆形图标按钮，它会悬停在内容上，可用来在应用中执行一项主要操作。';
 
   @override
   String get demoCardTitle => '卡片';
@@ -527,7 +538,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoChipTitle => '信息块';
 
   @override
-  String get demoCardDescription => '卡片是一页用于表示某些相关信息（例如专辑、地理位置、一顿饭、详细联系信息等）的素材。';
+  String get demoCardDescription =>
+      '卡片是一页用于表示某些相关信息（例如专辑、地理位置、一顿饭、详细联系信息等）的素材。';
 
   @override
   String get demoChipSubtitle => '代表输入、属性或操作的精简元素';
@@ -536,7 +548,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoActionChipTitle => '操作信息块';
 
   @override
-  String get demoActionChipDescription => '操作信息块是一组选项，可触发与主要内容相关的操作。操作信息块应以动态和与上下文相关的形式显示在界面中。';
+  String get demoActionChipDescription =>
+      '操作信息块是一组选项，可触发与主要内容相关的操作。操作信息块应以动态和与上下文相关的形式显示在界面中。';
 
   @override
   String get demoChoiceChipTitle => '选择信息块';
@@ -554,7 +567,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoInputChipTitle => '输入信息块';
 
   @override
-  String get demoInputChipDescription => '输入信息块以精简的形式显示一段复杂的信息，例如实体（人物、地点或内容）或对话文字。';
+  String get demoInputChipDescription =>
+      '输入信息块以精简的形式显示一段复杂的信息，例如实体（人物、地点或内容）或对话文字。';
 
   @override
   String get demoDataTableTitle => '数据表格';
@@ -563,7 +577,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoDataTableSubtitle => '信息行和信息列';
 
   @override
-  String get demoDataTableDescription => '数据表格以类似网格的行和列的形式显示信息。这种信息组织方式非常直观，便于用户查看模式和数据分析结果。';
+  String get demoDataTableDescription =>
+      '数据表格以类似网格的行和列的形式显示信息。这种信息组织方式非常直观，便于用户查看模式和数据分析结果。';
 
   @override
   String get dataTableHeader => '营养成分';
@@ -642,7 +657,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoAlertDialogTitle => '提醒';
 
   @override
-  String get demoAlertDialogDescription => '提醒对话框会通知用户需要知悉的情况。您可以选择性地为提醒对话框提供标题和操作列表。';
+  String get demoAlertDialogDescription =>
+      '提醒对话框会通知用户需要知悉的情况。您可以选择性地为提醒对话框提供标题和操作列表。';
 
   @override
   String get demoAlertTitleDialogTitle => '带有标题的提醒';
@@ -651,16 +667,19 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoSimpleDialogTitle => '简洁';
 
   @override
-  String get demoSimpleDialogDescription => '简易对话框可以让用户在多个选项之间做选择。您可以选择性地为简易对话框提供标题（标题会显示在选项上方）。';
+  String get demoSimpleDialogDescription =>
+      '简易对话框可以让用户在多个选项之间做选择。您可以选择性地为简易对话框提供标题（标题会显示在选项上方）。';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +691,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoGridListsSubtitle => '行和列布局';
 
   @override
-  String get demoGridListsDescription => '网格列表最适合用于显示同类数据（通常为图片）。网格列表中的每一项称为一个图块。';
+  String get demoGridListsDescription =>
+      '网格列表最适合用于显示同类数据（通常为图片）。网格列表中的每一项称为一个图块。';
 
   @override
   String get demoGridListsImageOnlyTitle => '仅图片';
@@ -690,22 +710,26 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoSlidersSubtitle => '可让用户通过滑动来选择值的微件';
 
   @override
-  String get demoSlidersDescription => '滑块组件的滑动条表示一定范围的值，用户可使用滑块在滑动条上选择一个值。滑块组件非常适合用于调整音量、亮度等设置，或调节图像滤镜的效果。';
+  String get demoSlidersDescription =>
+      '滑块组件的滑动条表示一定范围的值，用户可使用滑块在滑动条上选择一个值。滑块组件非常适合用于调整音量、亮度等设置，或调节图像滤镜的效果。';
 
   @override
   String get demoRangeSlidersTitle => '范围滑块';
 
   @override
-  String get demoRangeSlidersDescription => '滑块组件的滑动条表示一定范围的值。滑动条两端可放置图标，图标指明值的范围。滑块组件非常适合用于调整音量、亮度等设置，或调节图像滤镜的效果。';
+  String get demoRangeSlidersDescription =>
+      '滑块组件的滑动条表示一定范围的值。滑动条两端可放置图标，图标指明值的范围。滑块组件非常适合用于调整音量、亮度等设置，或调节图像滤镜的效果。';
 
   @override
   String get demoCustomSlidersTitle => '自定义滑块';
 
   @override
-  String get demoCustomSlidersDescription => '滑块组件的滑动条表示一定范围的值，用户可使用滑块在滑动条上选择一个值或一定范围的值。可以更改滑块的主题背景，也可以对滑块执行其他自定义设置。';
+  String get demoCustomSlidersDescription =>
+      '滑块组件的滑动条表示一定范围的值，用户可使用滑块在滑动条上选择一个值或一定范围的值。可以更改滑块的主题背景，也可以对滑块执行其他自定义设置。';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => '带有可修改的数字值的连续滑块';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      '带有可修改的数字值的连续滑块';
 
   @override
   String get demoSlidersDiscrete => '间续滑块';
@@ -714,7 +738,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoSlidersDiscreteSliderWithCustomTheme => '采用自定义主题背景的间续滑块';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => '采用自定义主题背景的连续范围滑块';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      '采用自定义主题背景的连续范围滑块';
 
   @override
   String get demoSlidersContinuous => '连续滑块';
@@ -741,7 +766,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoMenuSubtitle => '菜单按钮和简单菜单';
 
   @override
-  String get demoMenuDescription => '在一个临时界面上显示选项列表的菜单。此类菜单会在用户与按钮、操作或其他控件互动时显示。';
+  String get demoMenuDescription =>
+      '在一个临时界面上显示选项列表的菜单。此类菜单会在用户与按钮、操作或其他控件互动时显示。';
 
   @override
   String get demoMenuItemValueOne => '菜单项 1';
@@ -808,7 +834,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoNavigationDrawerSubtitle => '在应用栏中显示抽屉式导航栏';
 
   @override
-  String get demoNavigationDrawerDescription => '从屏幕边缘水平滑入以在应用中显示导航链接的 Material Design 面板。';
+  String get demoNavigationDrawerDescription =>
+      '从屏幕边缘水平滑入以在应用中显示导航链接的 Material Design 面板。';
 
   @override
   String get demoNavigationDrawerUserName => '用户名';
@@ -832,7 +859,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoNavigationRailSubtitle => '在应用中显示导航栏';
 
   @override
-  String get demoNavigationRailDescription => '在应用左侧或右侧显示的 Material 微件，用于在少量视图（通常为 3 至 5 个）之间导航。';
+  String get demoNavigationRailDescription =>
+      '在应用左侧或右侧显示的 Material 微件，用于在少量视图（通常为 3 至 5 个）之间导航。';
 
   @override
   String get demoNavigationRailFirst => '第一个';
@@ -853,7 +881,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoFullscreenDialogTitle => '全屏';
 
   @override
-  String get demoFullscreenDialogDescription => '您可以利用 fullscreenDialog 属性指定接下来显示的页面是否为全屏模态对话框';
+  String get demoFullscreenDialogDescription =>
+      '您可以利用 fullscreenDialog 属性指定接下来显示的页面是否为全屏模态对话框';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => '活动指示器';
@@ -862,7 +891,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoCupertinoActivityIndicatorSubtitle => 'iOS 样式的活动指示器';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => '一种 iOS 样式的顺时针旋转的活动指示器';
+  String get demoCupertinoActivityIndicatorDescription =>
+      '一种 iOS 样式的顺时针旋转的活动指示器';
 
   @override
   String get demoCupertinoButtonsTitle => '按钮';
@@ -871,7 +901,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'iOS 样式的按钮';
 
   @override
-  String get demoCupertinoButtonsDescription => 'iOS 样式的按钮，这类按钮所采用的文本和/或图标会在用户轻触按钮时淡出和淡入，并可选择性地加入背景。';
+  String get demoCupertinoButtonsDescription =>
+      'iOS 样式的按钮，这类按钮所采用的文本和/或图标会在用户轻触按钮时淡出和淡入，并可选择性地加入背景。';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +911,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,7 +921,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => '提醒';
@@ -901,7 +934,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => '提醒';
 
   @override
-  String get demoCupertinoAlertDescription => '提醒对话框会通知用户需要知悉的情况。您可以选择性地为提醒对话框提供标题、内容和操作列表。标题会显示在内容上方，操作则会显示在内容下方。';
+  String get demoCupertinoAlertDescription =>
+      '提醒对话框会通知用户需要知悉的情况。您可以选择性地为提醒对话框提供标题、内容和操作列表。标题会显示在内容上方，操作则会显示在内容下方。';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => '带有标题的提醒';
@@ -916,7 +950,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => '操作表';
 
   @override
-  String get demoCupertinoActionSheetDescription => '操作表是一种特定样式的提醒，它会根据目前的使用情况向用户显示一组选项（最少两个选项）。操作表可有标题、附加消息和操作列表。';
+  String get demoCupertinoActionSheetDescription =>
+      '操作表是一种特定样式的提醒，它会根据目前的使用情况向用户显示一组选项（最少两个选项）。操作表可有标题、附加消息和操作列表。';
 
   @override
   String get demoCupertinoNavigationBarTitle => '导航栏';
@@ -925,7 +960,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoCupertinoNavigationBarSubtitle => 'iOS 样式的导航栏';
 
   @override
-  String get demoCupertinoNavigationBarDescription => '一种 iOS 样式的导航栏。该导航栏是一个工具栏，至少在工具栏的中间包含一个页面标题。';
+  String get demoCupertinoNavigationBarDescription =>
+      '一种 iOS 样式的导航栏。该导航栏是一个工具栏，至少在工具栏的中间包含一个页面标题。';
 
   @override
   String get demoCupertinoPickerTitle => '选择器';
@@ -964,7 +1000,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoCupertinoSegmentedControlSubtitle => 'iOS 样式的分段控件';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => '用于在多个互斥的选项之间做选择。分段控件中的任一选项被选中后，该控件中的其余选项便无法被选中。';
+  String get demoCupertinoSegmentedControlDescription =>
+      '用于在多个互斥的选项之间做选择。分段控件中的任一选项被选中后，该控件中的其余选项便无法被选中。';
 
   @override
   String get demoCupertinoSliderTitle => '滑块';
@@ -998,7 +1035,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'iOS 样式的底部标签页栏';
 
   @override
-  String get demoCupertinoTabBarDescription => 'iOS 样式的底部导航标签页栏。显示多个标签页，其中一个标签页（默认为第一个标签页）处于活动状态。';
+  String get demoCupertinoTabBarDescription =>
+      'iOS 样式的底部导航标签页栏。显示多个标签页，其中一个标签页（默认为第一个标签页）处于活动状态。';
 
   @override
   String get cupertinoTabBarHomeTab => '首页';
@@ -1049,7 +1087,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoContainerTransformTitle => '容器转换';
 
   @override
-  String get demoContainerTransformDescription => '容器转换模式用于转换包含容器的界面元素，这个模式可在两个界面元素之间创建可视化连接';
+  String get demoContainerTransformDescription =>
+      '容器转换模式用于转换包含容器的界面元素，这个模式可在两个界面元素之间创建可视化连接';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => '淡化模式';
@@ -1076,7 +1115,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoMotionListTileTitle => '列表项';
 
   @override
-  String get demoSharedAxisDescription => '共用轴模式可用于转换存在空间或导航关系的界面元素。这个模式会让元素在转换时共用 x 轴、y 轴或 z 轴，用以强调元素间的关系。';
+  String get demoSharedAxisDescription =>
+      '共用轴模式可用于转换存在空间或导航关系的界面元素。这个模式会让元素在转换时共用 x 轴、y 轴或 z 轴，用以强调元素间的关系。';
 
   @override
   String get demoSharedXAxisTitle => '共用 X 轴';
@@ -1091,7 +1131,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => '将课程化繁为简';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => '在您的 Feed 中，捆绑式类别会显示为群组。您以后可随时进行更改。';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      '在您的 Feed 中，捆绑式类别会显示为群组。您以后可随时进行更改。';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => '艺术与手工艺';
@@ -1229,7 +1270,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoFadeScaleTitle => '淡入';
 
   @override
-  String get demoFadeScaleDescription => '淡化模式可用于让界面元素进入或退出屏幕画面范围，例如对话框会以淡入的方式显示在画面中央。';
+  String get demoFadeScaleDescription =>
+      '淡化模式可用于让界面元素进入或退出屏幕画面范围，例如对话框会以淡入的方式显示在画面中央。';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => '显示模态';
@@ -1274,7 +1316,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => '平移、缩放、旋转';
 
   @override
-  String get demo2dTransformationsDescription => '点按即可修改卡片，使用手势即可在场景中移动。拖动即可平移对象，双指张合即可缩放对象，用双指即可旋转对象。按重置按钮即可恢复为初始方向。';
+  String get demo2dTransformationsDescription =>
+      '点按即可修改卡片，使用手势即可在场景中移动。拖动即可平移对象，双指张合即可缩放对象，用双指即可旋转对象。按重置按钮即可恢复为初始方向。';
 
   @override
   String get demo2dTransformationsResetTooltip => '重置变形';
@@ -1295,13 +1338,15 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => '常驻底部工作表';
 
   @override
-  String get demoBottomSheetPersistentDescription => '常驻底部工作表会显示应用主要内容的补充信息。即使在用户与应用的其他部分互动时，常驻底部工作表也会一直显示。';
+  String get demoBottomSheetPersistentDescription =>
+      '常驻底部工作表会显示应用主要内容的补充信息。即使在用户与应用的其他部分互动时，常驻底部工作表也会一直显示。';
 
   @override
   String get demoBottomSheetModalTitle => '模态底部工作表';
 
   @override
-  String get demoBottomSheetModalDescription => '模态底部工作表可替代菜单或对话框，并且会阻止用户与应用的其余部分互动。';
+  String get demoBottomSheetModalDescription =>
+      '模态底部工作表可替代菜单或对话框，并且会阻止用户与应用的其余部分互动。';
 
   @override
   String get demoBottomSheetAddLabel => '添加';
@@ -1345,13 +1390,15 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoCircularProgressIndicatorTitle => '环形进度指示器';
 
   @override
-  String get demoCircularProgressIndicatorDescription => '一种 Material Design 环形进度指示器，通过旋转来表示应用正处于忙碌状态。';
+  String get demoCircularProgressIndicatorDescription =>
+      '一种 Material Design 环形进度指示器，通过旋转来表示应用正处于忙碌状态。';
 
   @override
   String get demoLinearProgressIndicatorTitle => '线形进度指示器';
 
   @override
-  String get demoLinearProgressIndicatorDescription => '一种 Material Design 线形进度指示器，又称“进度条”。';
+  String get demoLinearProgressIndicatorDescription =>
+      '一种 Material Design 线形进度指示器，又称“进度条”。';
 
   @override
   String get demoPickersTitle => '选择器';
@@ -1375,7 +1422,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => '显示选择器';
@@ -1402,7 +1450,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoSnackbarsSubtitle => '信息提示控件会在屏幕底部显示信息';
 
   @override
-  String get demoSnackbarsDescription => '信息提示控件会告知用户应用已执行或将要执行的程序。它们会暂时性显示在屏幕底部，不会干扰用户体验，并且不需要用户输入任何内容就会消失。';
+  String get demoSnackbarsDescription =>
+      '信息提示控件会告知用户应用已执行或将要执行的程序。它们会暂时性显示在屏幕底部，不会干扰用户体验，并且不需要用户输入任何内容就会消失。';
 
   @override
   String get demoSnackbarsButtonLabel => '显示信息提示控件';
@@ -1426,19 +1475,22 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoSelectionControlsCheckboxTitle => '复选框';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => '复选框可让用户从一系列选项中选择多个选项。常规复选框的值为 true 或 false，三态复选框的值还可为 null。';
+  String get demoSelectionControlsCheckboxDescription =>
+      '复选框可让用户从一系列选项中选择多个选项。常规复选框的值为 true 或 false，三态复选框的值还可为 null。';
 
   @override
   String get demoSelectionControlsRadioTitle => '单选';
 
   @override
-  String get demoSelectionControlsRadioDescription => '单选按钮可让用户从一系列选项中选择一个选项。设置排斥性选择时，如果您觉得用户需要并排看到所有可用选项，可以使用单选按钮。';
+  String get demoSelectionControlsRadioDescription =>
+      '单选按钮可让用户从一系列选项中选择一个选项。设置排斥性选择时，如果您觉得用户需要并排看到所有可用选项，可以使用单选按钮。';
 
   @override
   String get demoSelectionControlsSwitchTitle => '开关';
 
   @override
-  String get demoSelectionControlsSwitchDescription => '开关用于切换单个设置选项的状态。开关控制的选项和选项所处状态应通过相应的内嵌标签标明。';
+  String get demoSelectionControlsSwitchDescription =>
+      '开关用于切换单个设置选项的状态。开关控制的选项和选项所处状态应通过相应的内嵌标签标明。';
 
   @override
   String get demoBottomTextFieldsTitle => '文本字段';
@@ -1536,7 +1588,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get demoTooltipSubtitle => '长按元素或将鼠标悬停在元素上方时显示的简短消息';
 
   @override
-  String get demoTooltipDescription => '工具提示提供文本标签，这些标签用于说明按钮的功能或其他界面操作。工具提示会在用户将鼠标悬停在元素上方、聚焦到元素上或长按元素时显示信息性文本。';
+  String get demoTooltipDescription =>
+      '工具提示提供文本标签，这些标签用于说明按钮的功能或其他界面操作。工具提示会在用户将鼠标悬停在元素上方、聚焦到元素上或长按元素时显示信息性文本。';
 
   @override
   String get demoTooltipInstructions => '长按元素或将鼠标悬停在元素上方即可显示工具提示。';
@@ -1600,7 +1653,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get dialogLocationTitle => '要使用 Google 的位置信息服务吗？';
 
   @override
-  String get dialogLocationDescription => '让 Google 协助应用判断位置，即代表系统会将匿名的位置数据发送给 Google（即使设备并没有运行任何应用）。';
+  String get dialogLocationDescription =>
+      '让 Google 协助应用判断位置，即代表系统会将匿名的位置数据发送给 Google（即使设备并没有运行任何应用）。';
 
   @override
   String get dialogCancel => '取消';
@@ -1648,7 +1702,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get cupertinoAlertLocationTitle => '是否允许“Google 地图”在您使用该应用时获取您的位置信息？';
 
   @override
-  String get cupertinoAlertLocationDescription => '您当前所在的位置将显示在地图上，并用于提供路线、附近位置的搜索结果和预计的行程时间。';
+  String get cupertinoAlertLocationDescription =>
+      '您当前所在的位置将显示在地图上，并用于提供路线、附近位置的搜索结果和预计的行程时间。';
 
   @override
   String get cupertinoAlertAllow => '允许';
@@ -1660,7 +1715,8 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => '选择最喜爱的甜点';
 
   @override
-  String get cupertinoAlertDessertDescription => '请从下面的列表中选择您最喜爱的甜点类型。系统将根据您的选择自定义您所在地区的推荐餐厅列表。';
+  String get cupertinoAlertDessertDescription =>
+      '请从下面的列表中选择您最喜爱的甜点类型。系统将根据您的选择自定义您所在地区的推荐餐厅列表。';
 
   @override
   String get cupertinoAlertCheesecake => '奶酪蛋糕';
@@ -2446,7 +2502,7 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
 
 /// The translations for Chinese, as used in China (`zh_CN`).
 class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
-  GalleryLocalizationsZhCn(): super('zh_CN');
+  GalleryLocalizationsZhCn() : super('zh_CN');
 
   @override
   String githubRepo(Object repoName) {
@@ -2739,7 +2795,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get rallySeeAllBudgets => '查看所有预算';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '账号为 ${accountNumber} 的${accountName}账户中的存款金额为 ${amount}。';
   }
 
@@ -2749,7 +2806,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return '${budgetName}预算的总金额为 ${amountTotal}，已用 ${amountUsed}，剩余 ${amountLeft}';
   }
 
@@ -2867,7 +2925,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoBottomAppBarSubtitle => '在底部显示导航栏和几项操作';
 
   @override
-  String get demoBottomAppBarDescription => '底部应用栏包含底部抽屉式导航栏和最多 4 项操作（包括悬浮操作按钮在内）。';
+  String get demoBottomAppBarDescription =>
+      '底部应用栏包含底部抽屉式导航栏和最多 4 项操作（包括悬浮操作按钮在内）。';
 
   @override
   String get bottomAppBarNotch => '凹口';
@@ -2894,7 +2953,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoBannerSubtitle => '在列表内显示横幅';
 
   @override
-  String get demoBannerDescription => '横幅显示简明的重要信息，并提供相应操作供用户执行（或关闭横幅）。横幅需要用户手动关闭。';
+  String get demoBannerDescription =>
+      '横幅显示简明的重要信息，并提供相应操作供用户执行（或关闭横幅）。横幅需要用户手动关闭。';
 
   @override
   String get demoBottomNavigationTitle => '底部导航栏';
@@ -2909,7 +2969,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoBottomNavigationSelectedLabel => '已选择标签';
 
   @override
-  String get demoBottomNavigationDescription => '底部导航栏会在屏幕底部显示三到五个目标位置。各个目标位置会显示为图标和文本标签（文本标签选择性显示）。用户点按底部导航栏中的图标后，系统会将用户转至与该图标关联的顶级导航目标位置。';
+  String get demoBottomNavigationDescription =>
+      '底部导航栏会在屏幕底部显示三到五个目标位置。各个目标位置会显示为图标和文本标签（文本标签选择性显示）。用户点按底部导航栏中的图标后，系统会将用户转至与该图标关联的顶级导航目标位置。';
 
   @override
   String get demoButtonTitle => '按钮';
@@ -2921,31 +2982,36 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoTextButtonTitle => '文本按钮';
 
   @override
-  String get demoTextButtonDescription => '文本按钮会在用户按下后出现墨水飞溅效果，但按钮本身没有升起效果。文本按钮适用于工具栏、对话框和设有内边距的内嵌元素';
+  String get demoTextButtonDescription =>
+      '文本按钮会在用户按下后出现墨水飞溅效果，但按钮本身没有升起效果。文本按钮适用于工具栏、对话框和设有内边距的内嵌元素';
 
   @override
   String get demoElevatedButtonTitle => '凸起按钮';
 
   @override
-  String get demoElevatedButtonDescription => '凸起按钮能为以平面内容为主的布局增添立体感。此类按钮可突出强调位于拥挤或宽阔空间中的功能。';
+  String get demoElevatedButtonDescription =>
+      '凸起按钮能为以平面内容为主的布局增添立体感。此类按钮可突出强调位于拥挤或宽阔空间中的功能。';
 
   @override
   String get demoOutlinedButtonTitle => '轮廓按钮';
 
   @override
-  String get demoOutlinedButtonDescription => '轮廓按钮会在用户按下后变为不透明并升起。此类按钮通常会与凸起按钮配对使用，用于指示其他的次要操作。';
+  String get demoOutlinedButtonDescription =>
+      '轮廓按钮会在用户按下后变为不透明并升起。此类按钮通常会与凸起按钮配对使用，用于指示其他的次要操作。';
 
   @override
   String get demoToggleButtonTitle => '切换按钮';
 
   @override
-  String get demoToggleButtonDescription => '切换按钮可用于对相关选项进行分组。为了凸显相关切换按钮的群组，一个群组应该共用一个常用容器';
+  String get demoToggleButtonDescription =>
+      '切换按钮可用于对相关选项进行分组。为了凸显相关切换按钮的群组，一个群组应该共用一个常用容器';
 
   @override
   String get demoFloatingButtonTitle => '悬浮操作按钮';
 
   @override
-  String get demoFloatingButtonDescription => '悬浮操作按钮是一种圆形图标按钮，它会悬停在内容上，可用来在应用中执行一项主要操作。';
+  String get demoFloatingButtonDescription =>
+      '悬浮操作按钮是一种圆形图标按钮，它会悬停在内容上，可用来在应用中执行一项主要操作。';
 
   @override
   String get demoCardTitle => '卡片';
@@ -2957,7 +3023,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoChipTitle => '信息块';
 
   @override
-  String get demoCardDescription => '卡片是一页用于表示某些相关信息（例如专辑、地理位置、一顿饭、详细联系信息等）的素材。';
+  String get demoCardDescription =>
+      '卡片是一页用于表示某些相关信息（例如专辑、地理位置、一顿饭、详细联系信息等）的素材。';
 
   @override
   String get demoChipSubtitle => '代表输入、属性或操作的精简元素';
@@ -2966,7 +3033,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoActionChipTitle => '操作信息块';
 
   @override
-  String get demoActionChipDescription => '操作信息块是一组选项，可触发与主要内容相关的操作。操作信息块应以动态和与上下文相关的形式显示在界面中。';
+  String get demoActionChipDescription =>
+      '操作信息块是一组选项，可触发与主要内容相关的操作。操作信息块应以动态和与上下文相关的形式显示在界面中。';
 
   @override
   String get demoChoiceChipTitle => '选择信息块';
@@ -2984,7 +3052,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoInputChipTitle => '输入信息块';
 
   @override
-  String get demoInputChipDescription => '输入信息块以精简的形式显示一段复杂的信息，例如实体（人物、地点或内容）或对话文字。';
+  String get demoInputChipDescription =>
+      '输入信息块以精简的形式显示一段复杂的信息，例如实体（人物、地点或内容）或对话文字。';
 
   @override
   String get demoDataTableTitle => '数据表格';
@@ -2993,7 +3062,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoDataTableSubtitle => '信息行和信息列';
 
   @override
-  String get demoDataTableDescription => '数据表格以类似网格的行和列的形式显示信息。这种信息组织方式非常直观，便于用户查看模式和数据分析结果。';
+  String get demoDataTableDescription =>
+      '数据表格以类似网格的行和列的形式显示信息。这种信息组织方式非常直观，便于用户查看模式和数据分析结果。';
 
   @override
   String get dataTableHeader => '营养成分';
@@ -3072,7 +3142,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoAlertDialogTitle => '提醒';
 
   @override
-  String get demoAlertDialogDescription => '提醒对话框会通知用户需要知悉的情况。您可以选择性地为提醒对话框提供标题和操作列表。';
+  String get demoAlertDialogDescription =>
+      '提醒对话框会通知用户需要知悉的情况。您可以选择性地为提醒对话框提供标题和操作列表。';
 
   @override
   String get demoAlertTitleDialogTitle => '带有标题的提醒';
@@ -3081,7 +3152,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoSimpleDialogTitle => '简洁';
 
   @override
-  String get demoSimpleDialogDescription => '简易对话框可以让用户在多个选项之间做选择。您可以选择性地为简易对话框提供标题（标题会显示在选项上方）。';
+  String get demoSimpleDialogDescription =>
+      '简易对话框可以让用户在多个选项之间做选择。您可以选择性地为简易对话框提供标题（标题会显示在选项上方）。';
 
   @override
   String get demoGridListsTitle => '网格列表';
@@ -3090,7 +3162,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoGridListsSubtitle => '行和列布局';
 
   @override
-  String get demoGridListsDescription => '网格列表最适合用于显示同类数据（通常为图片）。网格列表中的每一项称为一个图块。';
+  String get demoGridListsDescription =>
+      '网格列表最适合用于显示同类数据（通常为图片）。网格列表中的每一项称为一个图块。';
 
   @override
   String get demoGridListsImageOnlyTitle => '仅图片';
@@ -3108,22 +3181,26 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoSlidersSubtitle => '可让用户通过滑动来选择值的微件';
 
   @override
-  String get demoSlidersDescription => '滑块组件的滑动条表示一定范围的值，用户可使用滑块在滑动条上选择一个值。滑块组件非常适合用于调整音量、亮度等设置，或调节图像滤镜的效果。';
+  String get demoSlidersDescription =>
+      '滑块组件的滑动条表示一定范围的值，用户可使用滑块在滑动条上选择一个值。滑块组件非常适合用于调整音量、亮度等设置，或调节图像滤镜的效果。';
 
   @override
   String get demoRangeSlidersTitle => '范围滑块';
 
   @override
-  String get demoRangeSlidersDescription => '滑块组件的滑动条表示一定范围的值。滑动条两端可放置图标，图标指明值的范围。滑块组件非常适合用于调整音量、亮度等设置，或调节图像滤镜的效果。';
+  String get demoRangeSlidersDescription =>
+      '滑块组件的滑动条表示一定范围的值。滑动条两端可放置图标，图标指明值的范围。滑块组件非常适合用于调整音量、亮度等设置，或调节图像滤镜的效果。';
 
   @override
   String get demoCustomSlidersTitle => '自定义滑块';
 
   @override
-  String get demoCustomSlidersDescription => '滑块组件的滑动条表示一定范围的值，用户可使用滑块在滑动条上选择一个值或一定范围的值。可以更改滑块的主题背景，也可以对滑块执行其他自定义设置。';
+  String get demoCustomSlidersDescription =>
+      '滑块组件的滑动条表示一定范围的值，用户可使用滑块在滑动条上选择一个值或一定范围的值。可以更改滑块的主题背景，也可以对滑块执行其他自定义设置。';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => '带有可修改的数字值的连续滑块';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      '带有可修改的数字值的连续滑块';
 
   @override
   String get demoSlidersDiscrete => '间续滑块';
@@ -3132,7 +3209,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoSlidersDiscreteSliderWithCustomTheme => '采用自定义主题背景的间续滑块';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => '采用自定义主题背景的连续范围滑块';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      '采用自定义主题背景的连续范围滑块';
 
   @override
   String get demoSlidersContinuous => '连续滑块';
@@ -3159,7 +3237,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoMenuSubtitle => '菜单按钮和简单菜单';
 
   @override
-  String get demoMenuDescription => '在一个临时界面上显示选项列表的菜单。此类菜单会在用户与按钮、操作或其他控件互动时显示。';
+  String get demoMenuDescription =>
+      '在一个临时界面上显示选项列表的菜单。此类菜单会在用户与按钮、操作或其他控件互动时显示。';
 
   @override
   String get demoMenuItemValueOne => '菜单项 1';
@@ -3226,7 +3305,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoNavigationDrawerSubtitle => '在应用栏中显示抽屉式导航栏';
 
   @override
-  String get demoNavigationDrawerDescription => '从屏幕边缘水平滑入以在应用中显示导航链接的 Material Design 面板。';
+  String get demoNavigationDrawerDescription =>
+      '从屏幕边缘水平滑入以在应用中显示导航链接的 Material Design 面板。';
 
   @override
   String get demoNavigationDrawerUserName => '用户名';
@@ -3250,7 +3330,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoNavigationRailSubtitle => '在应用中显示导航栏';
 
   @override
-  String get demoNavigationRailDescription => '在应用左侧或右侧显示的 Material 微件，用于在少量视图（通常为 3 至 5 个）之间导航。';
+  String get demoNavigationRailDescription =>
+      '在应用左侧或右侧显示的 Material 微件，用于在少量视图（通常为 3 至 5 个）之间导航。';
 
   @override
   String get demoNavigationRailFirst => '第一个';
@@ -3271,7 +3352,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoFullscreenDialogTitle => '全屏';
 
   @override
-  String get demoFullscreenDialogDescription => '您可以利用 fullscreenDialog 属性指定接下来显示的页面是否为全屏模态对话框';
+  String get demoFullscreenDialogDescription =>
+      '您可以利用 fullscreenDialog 属性指定接下来显示的页面是否为全屏模态对话框';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => '活动指示器';
@@ -3280,7 +3362,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoCupertinoActivityIndicatorSubtitle => 'iOS 样式的活动指示器';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => '一种 iOS 样式的顺时针旋转的活动指示器';
+  String get demoCupertinoActivityIndicatorDescription =>
+      '一种 iOS 样式的顺时针旋转的活动指示器';
 
   @override
   String get demoCupertinoButtonsTitle => '按钮';
@@ -3289,7 +3372,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoCupertinoButtonsSubtitle => 'iOS 样式的按钮';
 
   @override
-  String get demoCupertinoButtonsDescription => 'iOS 样式的按钮，这类按钮所采用的文本和/或图标会在用户轻触按钮时淡出和淡入，并可选择性地加入背景。';
+  String get demoCupertinoButtonsDescription =>
+      'iOS 样式的按钮，这类按钮所采用的文本和/或图标会在用户轻触按钮时淡出和淡入，并可选择性地加入背景。';
 
   @override
   String get demoCupertinoAlertsTitle => '提醒';
@@ -3301,7 +3385,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoCupertinoAlertTitle => '提醒';
 
   @override
-  String get demoCupertinoAlertDescription => '提醒对话框会通知用户需要知悉的情况。您可以选择性地为提醒对话框提供标题、内容和操作列表。标题会显示在内容上方，操作则会显示在内容下方。';
+  String get demoCupertinoAlertDescription =>
+      '提醒对话框会通知用户需要知悉的情况。您可以选择性地为提醒对话框提供标题、内容和操作列表。标题会显示在内容上方，操作则会显示在内容下方。';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => '带有标题的提醒';
@@ -3316,7 +3401,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoCupertinoActionSheetTitle => '操作表';
 
   @override
-  String get demoCupertinoActionSheetDescription => '操作表是一种特定样式的提醒，它会根据目前的使用情况向用户显示一组选项（最少两个选项）。操作表可有标题、附加消息和操作列表。';
+  String get demoCupertinoActionSheetDescription =>
+      '操作表是一种特定样式的提醒，它会根据目前的使用情况向用户显示一组选项（最少两个选项）。操作表可有标题、附加消息和操作列表。';
 
   @override
   String get demoCupertinoNavigationBarTitle => '导航栏';
@@ -3325,7 +3411,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoCupertinoNavigationBarSubtitle => 'iOS 样式的导航栏';
 
   @override
-  String get demoCupertinoNavigationBarDescription => '一种 iOS 样式的导航栏。该导航栏是一个工具栏，至少在工具栏的中间包含一个页面标题。';
+  String get demoCupertinoNavigationBarDescription =>
+      '一种 iOS 样式的导航栏。该导航栏是一个工具栏，至少在工具栏的中间包含一个页面标题。';
 
   @override
   String get demoCupertinoPickerTitle => '选择器';
@@ -3364,7 +3451,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoCupertinoSegmentedControlSubtitle => 'iOS 样式的分段控件';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => '用于在多个互斥的选项之间做选择。分段控件中的任一选项被选中后，该控件中的其余选项便无法被选中。';
+  String get demoCupertinoSegmentedControlDescription =>
+      '用于在多个互斥的选项之间做选择。分段控件中的任一选项被选中后，该控件中的其余选项便无法被选中。';
 
   @override
   String get demoCupertinoSliderTitle => '滑块';
@@ -3398,7 +3486,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoCupertinoTabBarSubtitle => 'iOS 样式的底部标签页栏';
 
   @override
-  String get demoCupertinoTabBarDescription => 'iOS 样式的底部导航标签页栏。显示多个标签页，其中一个标签页（默认为第一个标签页）处于活动状态。';
+  String get demoCupertinoTabBarDescription =>
+      'iOS 样式的底部导航标签页栏。显示多个标签页，其中一个标签页（默认为第一个标签页）处于活动状态。';
 
   @override
   String get cupertinoTabBarHomeTab => '首页';
@@ -3449,7 +3538,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoContainerTransformTitle => '容器转换';
 
   @override
-  String get demoContainerTransformDescription => '容器转换模式用于转换包含容器的界面元素，这个模式可在两个界面元素之间创建可视化连接';
+  String get demoContainerTransformDescription =>
+      '容器转换模式用于转换包含容器的界面元素，这个模式可在两个界面元素之间创建可视化连接';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => '淡化模式';
@@ -3476,7 +3566,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoMotionListTileTitle => '列表项';
 
   @override
-  String get demoSharedAxisDescription => '共用轴模式可用于转换存在空间或导航关系的界面元素。这个模式会让元素在转换时共用 x 轴、y 轴或 z 轴，用以强调元素间的关系。';
+  String get demoSharedAxisDescription =>
+      '共用轴模式可用于转换存在空间或导航关系的界面元素。这个模式会让元素在转换时共用 x 轴、y 轴或 z 轴，用以强调元素间的关系。';
 
   @override
   String get demoSharedXAxisTitle => '共用 X 轴';
@@ -3491,7 +3582,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoSharedXAxisCoursePageTitle => '将课程化繁为简';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => '在您的 Feed 中，捆绑式类别会显示为群组。您以后可随时进行更改。';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      '在您的 Feed 中，捆绑式类别会显示为群组。您以后可随时进行更改。';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => '艺术与手工艺';
@@ -3629,7 +3721,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoFadeScaleTitle => '淡入';
 
   @override
-  String get demoFadeScaleDescription => '淡化模式可用于让界面元素进入或退出屏幕画面范围，例如对话框会以淡入的方式显示在画面中央。';
+  String get demoFadeScaleDescription =>
+      '淡化模式可用于让界面元素进入或退出屏幕画面范围，例如对话框会以淡入的方式显示在画面中央。';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => '显示模态';
@@ -3674,7 +3767,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demo2dTransformationsSubtitle => '平移、缩放、旋转';
 
   @override
-  String get demo2dTransformationsDescription => '点按即可修改卡片，使用手势即可在场景中移动。拖动即可平移对象，双指张合即可缩放对象，用双指即可旋转对象。按重置按钮即可恢复为初始方向。';
+  String get demo2dTransformationsDescription =>
+      '点按即可修改卡片，使用手势即可在场景中移动。拖动即可平移对象，双指张合即可缩放对象，用双指即可旋转对象。按重置按钮即可恢复为初始方向。';
 
   @override
   String get demo2dTransformationsResetTooltip => '重置变形';
@@ -3695,13 +3789,15 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoBottomSheetPersistentTitle => '常驻底部工作表';
 
   @override
-  String get demoBottomSheetPersistentDescription => '常驻底部工作表会显示应用主要内容的补充信息。即使在用户与应用的其他部分互动时，常驻底部工作表也会一直显示。';
+  String get demoBottomSheetPersistentDescription =>
+      '常驻底部工作表会显示应用主要内容的补充信息。即使在用户与应用的其他部分互动时，常驻底部工作表也会一直显示。';
 
   @override
   String get demoBottomSheetModalTitle => '模态底部工作表';
 
   @override
-  String get demoBottomSheetModalDescription => '模态底部工作表可替代菜单或对话框，并且会阻止用户与应用的其余部分互动。';
+  String get demoBottomSheetModalDescription =>
+      '模态底部工作表可替代菜单或对话框，并且会阻止用户与应用的其余部分互动。';
 
   @override
   String get demoBottomSheetAddLabel => '添加';
@@ -3745,13 +3841,15 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoCircularProgressIndicatorTitle => '环形进度指示器';
 
   @override
-  String get demoCircularProgressIndicatorDescription => '一种 Material Design 环形进度指示器，通过旋转来表示应用正处于忙碌状态。';
+  String get demoCircularProgressIndicatorDescription =>
+      '一种 Material Design 环形进度指示器，通过旋转来表示应用正处于忙碌状态。';
 
   @override
   String get demoLinearProgressIndicatorTitle => '线形进度指示器';
 
   @override
-  String get demoLinearProgressIndicatorDescription => '一种 Material Design 线形进度指示器，又称“进度条”。';
+  String get demoLinearProgressIndicatorDescription =>
+      '一种 Material Design 线形进度指示器，又称“进度条”。';
 
   @override
   String get demoPickersTitle => '选择器';
@@ -3796,7 +3894,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoSnackbarsSubtitle => '信息提示控件会在屏幕底部显示信息';
 
   @override
-  String get demoSnackbarsDescription => '信息提示控件会告知用户应用已执行或将要执行的程序。它们会暂时性显示在屏幕底部，不会干扰用户体验，并且不需要用户输入任何内容就会消失。';
+  String get demoSnackbarsDescription =>
+      '信息提示控件会告知用户应用已执行或将要执行的程序。它们会暂时性显示在屏幕底部，不会干扰用户体验，并且不需要用户输入任何内容就会消失。';
 
   @override
   String get demoSnackbarsButtonLabel => '显示信息提示控件';
@@ -3820,19 +3919,22 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoSelectionControlsCheckboxTitle => '复选框';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => '复选框可让用户从一系列选项中选择多个选项。常规复选框的值为 true 或 false，三态复选框的值还可为 null。';
+  String get demoSelectionControlsCheckboxDescription =>
+      '复选框可让用户从一系列选项中选择多个选项。常规复选框的值为 true 或 false，三态复选框的值还可为 null。';
 
   @override
   String get demoSelectionControlsRadioTitle => '单选';
 
   @override
-  String get demoSelectionControlsRadioDescription => '单选按钮可让用户从一系列选项中选择一个选项。设置排斥性选择时，如果您觉得用户需要并排看到所有可用选项，可以使用单选按钮。';
+  String get demoSelectionControlsRadioDescription =>
+      '单选按钮可让用户从一系列选项中选择一个选项。设置排斥性选择时，如果您觉得用户需要并排看到所有可用选项，可以使用单选按钮。';
 
   @override
   String get demoSelectionControlsSwitchTitle => '开关';
 
   @override
-  String get demoSelectionControlsSwitchDescription => '开关用于切换单个设置选项的状态。开关控制的选项和选项所处状态应通过相应的内嵌标签标明。';
+  String get demoSelectionControlsSwitchDescription =>
+      '开关用于切换单个设置选项的状态。开关控制的选项和选项所处状态应通过相应的内嵌标签标明。';
 
   @override
   String get demoBottomTextFieldsTitle => '文本字段';
@@ -3930,7 +4032,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get demoTooltipSubtitle => '长按元素或将鼠标悬停在元素上方时显示的简短消息';
 
   @override
-  String get demoTooltipDescription => '工具提示提供文本标签，这些标签用于说明按钮的功能或其他界面操作。工具提示会在用户将鼠标悬停在元素上方、聚焦到元素上或长按元素时显示信息性文本。';
+  String get demoTooltipDescription =>
+      '工具提示提供文本标签，这些标签用于说明按钮的功能或其他界面操作。工具提示会在用户将鼠标悬停在元素上方、聚焦到元素上或长按元素时显示信息性文本。';
 
   @override
   String get demoTooltipInstructions => '长按元素或将鼠标悬停在元素上方即可显示工具提示。';
@@ -3994,7 +4097,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get dialogLocationTitle => '要使用 Google 的位置信息服务吗？';
 
   @override
-  String get dialogLocationDescription => '让 Google 协助应用判断位置，即代表系统会将匿名的位置数据发送给 Google（即使设备并没有运行任何应用）。';
+  String get dialogLocationDescription =>
+      '让 Google 协助应用判断位置，即代表系统会将匿名的位置数据发送给 Google（即使设备并没有运行任何应用）。';
 
   @override
   String get dialogCancel => '取消';
@@ -4042,7 +4146,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get cupertinoAlertLocationTitle => '是否允许“Google 地图”在您使用该应用时获取您的位置信息？';
 
   @override
-  String get cupertinoAlertLocationDescription => '您当前所在的位置将显示在地图上，并用于提供路线、附近位置的搜索结果和预计的行程时间。';
+  String get cupertinoAlertLocationDescription =>
+      '您当前所在的位置将显示在地图上，并用于提供路线、附近位置的搜索结果和预计的行程时间。';
 
   @override
   String get cupertinoAlertAllow => '允许';
@@ -4054,7 +4159,8 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
   String get cupertinoAlertFavoriteDessert => '选择最喜爱的甜点';
 
   @override
-  String get cupertinoAlertDessertDescription => '请从下面的列表中选择您最喜爱的甜点类型。系统将根据您的选择自定义您所在地区的推荐餐厅列表。';
+  String get cupertinoAlertDessertDescription =>
+      '请从下面的列表中选择您最喜爱的甜点类型。系统将根据您的选择自定义您所在地区的推荐餐厅列表。';
 
   @override
   String get cupertinoAlertCheesecake => '奶酪蛋糕';
@@ -4840,7 +4946,7 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
 
 /// The translations for Chinese, as used in Hong Kong (`zh_HK`).
 class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
-  GalleryLocalizationsZhHk(): super('zh_HK');
+  GalleryLocalizationsZhHk() : super('zh_HK');
 
   @override
   String githubRepo(Object repoName) {
@@ -5133,7 +5239,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get rallySeeAllBudgets => '查看所有財務預算';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${accountName}帳戶 (${accountNumber}) 存入 ${amount}。';
   }
 
@@ -5143,7 +5250,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return '${budgetName}財務預算已使用 ${amountTotal} 中的 ${amountUsed}，尚餘 ${amountLeft}';
   }
 
@@ -5261,7 +5369,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoBottomAppBarSubtitle => '在底部顯示導覽和動作';
 
   @override
-  String get demoBottomAppBarDescription => '在底部應用程式列中，您可存取底部導覽列和最多 4 個動作，包括懸浮動作按鈕。';
+  String get demoBottomAppBarDescription =>
+      '在底部應用程式列中，您可存取底部導覽列和最多 4 個動作，包括懸浮動作按鈕。';
 
   @override
   String get bottomAppBarNotch => '凹口';
@@ -5288,7 +5397,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoBannerSubtitle => '在清單中顯示橫額';
 
   @override
-  String get demoBannerDescription => '橫額可展示重要而簡潔的訊息，並讓使用者執行操作以作回應 (或關閉橫額)。使用者需要執行操作才能關閉橫額。';
+  String get demoBannerDescription =>
+      '橫額可展示重要而簡潔的訊息，並讓使用者執行操作以作回應 (或關閉橫額)。使用者需要執行操作才能關閉橫額。';
 
   @override
   String get demoBottomNavigationTitle => '底部導覽';
@@ -5303,7 +5413,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoBottomNavigationSelectedLabel => '已選取標籤';
 
   @override
-  String get demoBottomNavigationDescription => '底部的導覽列會在螢幕底部顯示 3 至 5 個目的地。每個目的地均以圖示和選擇性的文字標籤標示。當使用者輕按底部導覽列的圖示時，畫面將會顯示與圖示相關的頂層導覽目的地。';
+  String get demoBottomNavigationDescription =>
+      '底部的導覽列會在螢幕底部顯示 3 至 5 個目的地。每個目的地均以圖示和選擇性的文字標籤標示。當使用者輕按底部導覽列的圖示時，畫面將會顯示與圖示相關的頂層導覽目的地。';
 
   @override
   String get demoButtonTitle => '按鈕';
@@ -5315,31 +5426,36 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoTextButtonTitle => '文字按鈕';
 
   @override
-  String get demoTextButtonDescription => '按下文字按鈕後會出現墨水擴散特效，但不會有升起效果。這類按鈕用於工具列、對話框和設有邊框間距的內嵌元素';
+  String get demoTextButtonDescription =>
+      '按下文字按鈕後會出現墨水擴散特效，但不會有升起效果。這類按鈕用於工具列、對話框和設有邊框間距的內嵌元素';
 
   @override
   String get demoElevatedButtonTitle => '凸起的按鈕';
 
   @override
-  String get demoElevatedButtonDescription => '凸起的按鈕可為主要為平面的版面配置增添層次。這類按鈕可在擁擠或寬闊的空間中突顯其功能。';
+  String get demoElevatedButtonDescription =>
+      '凸起的按鈕可為主要為平面的版面配置增添層次。這類按鈕可在擁擠或寬闊的空間中突顯其功能。';
 
   @override
   String get demoOutlinedButtonTitle => '外框按鈕';
 
   @override
-  String get demoOutlinedButtonDescription => '外框按鈕會在使用者按下時轉為不透明並升起。這類按鈕通常會與凸起的按鈕一同使用，用於指出次要的替代動作。';
+  String get demoOutlinedButtonDescription =>
+      '外框按鈕會在使用者按下時轉為不透明並升起。這類按鈕通常會與凸起的按鈕一同使用，用於指出次要的替代動作。';
 
   @override
   String get demoToggleButtonTitle => '切換按鈕';
 
   @override
-  String get demoToggleButtonDescription => '切換按鈕可用於將相關的選項分組。為突顯相關的切換按鈕群組，單一群組應共用同一個容器';
+  String get demoToggleButtonDescription =>
+      '切換按鈕可用於將相關的選項分組。為突顯相關的切換按鈕群組，單一群組應共用同一個容器';
 
   @override
   String get demoFloatingButtonTitle => '懸浮動作按鈕';
 
   @override
-  String get demoFloatingButtonDescription => '懸浮動作按鈕是個圓形圖示按鈕，會懸停在內容上，可用來在應用程式中執行一項主要動作。';
+  String get demoFloatingButtonDescription =>
+      '懸浮動作按鈕是個圓形圖示按鈕，會懸停在內容上，可用來在應用程式中執行一項主要動作。';
 
   @override
   String get demoCardTitle => '資訊卡';
@@ -5360,7 +5476,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoActionChipTitle => '動作方塊';
 
   @override
-  String get demoActionChipDescription => '動作方塊列出一組選項，可觸發與主要內容相關的動作。動作方塊應在使用者介面上以動態和與內容相關的方式顯示。';
+  String get demoActionChipDescription =>
+      '動作方塊列出一組選項，可觸發與主要內容相關的動作。動作方塊應在使用者介面上以動態和與內容相關的方式顯示。';
 
   @override
   String get demoChoiceChipTitle => '選擇方塊';
@@ -5378,7 +5495,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoInputChipTitle => '輸入方塊';
 
   @override
-  String get demoInputChipDescription => '輸入方塊以精簡的形式顯示複雜的資訊，如實體 (人物、地點或事物) 或對話文字。';
+  String get demoInputChipDescription =>
+      '輸入方塊以精簡的形式顯示複雜的資訊，如實體 (人物、地點或事物) 或對話文字。';
 
   @override
   String get demoDataTableTitle => '資料表';
@@ -5387,7 +5505,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoDataTableSubtitle => '載有資訊的列和欄';
 
   @override
-  String get demoDataTableDescription => '資料表以列和欄的格狀形式展示資訊，用以整理資訊，方便查閱，讓使用者找出模式和分析資料。';
+  String get demoDataTableDescription =>
+      '資料表以列和欄的格狀形式展示資訊，用以整理資訊，方便查閱，讓使用者找出模式和分析資料。';
 
   @override
   String get dataTableHeader => '營養';
@@ -5466,7 +5585,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoAlertDialogTitle => '通知';
 
   @override
-  String get demoAlertDialogDescription => '通知對話框會通知使用者目前發生要確認的情況。您可按需要為這類對話框設定標題和動作清單。';
+  String get demoAlertDialogDescription =>
+      '通知對話框會通知使用者目前發生要確認的情況。您可按需要為這類對話框設定標題和動作清單。';
 
   @override
   String get demoAlertTitleDialogTitle => '具有標題的通知';
@@ -5475,7 +5595,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoSimpleDialogTitle => '簡單';
 
   @override
-  String get demoSimpleDialogDescription => '簡單對話框讓使用者在幾個選項之間選擇。您可按需要為簡單對話框設定標題 (標題會在選項上方顯示)。';
+  String get demoSimpleDialogDescription =>
+      '簡單對話框讓使用者在幾個選項之間選擇。您可按需要為簡單對話框設定標題 (標題會在選項上方顯示)。';
 
   @override
   String get demoGridListsTitle => '格狀清單';
@@ -5484,7 +5605,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoGridListsSubtitle => '列和欄的版面配置';
 
   @override
-  String get demoGridListsDescription => '格狀清單最適合用於展示同類資料，通常為圖片。格狀清單中的每個項目稱為圖塊。';
+  String get demoGridListsDescription =>
+      '格狀清單最適合用於展示同類資料，通常為圖片。格狀清單中的每個項目稱為圖塊。';
 
   @override
   String get demoGridListsImageOnlyTitle => '只限圖片';
@@ -5502,19 +5624,22 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoSlidersSubtitle => '滑動來選擇值的小工具';
 
   @override
-  String get demoSlidersDescription => '滑桿上列有特定範圍內的值，使用者可選擇其中一個值。滑桿最適合用來調整設定，例如調校音量或光暗，以及套用圖片濾鏡。';
+  String get demoSlidersDescription =>
+      '滑桿上列有特定範圍內的值，使用者可選擇其中一個值。滑桿最適合用來調整設定，例如調校音量或光暗，以及套用圖片濾鏡。';
 
   @override
   String get demoRangeSlidersTitle => '範圍滑桿';
 
   @override
-  String get demoRangeSlidersDescription => '滑桿上列有特定範圍內的值，兩端可用圖示來代表不同的值。滑桿最適合用來調整設定，例如調校音量或光暗，以及套用圖片濾鏡。';
+  String get demoRangeSlidersDescription =>
+      '滑桿上列有特定範圍內的值，兩端可用圖示來代表不同的值。滑桿最適合用來調整設定，例如調校音量或光暗，以及套用圖片濾鏡。';
 
   @override
   String get demoCustomSlidersTitle => '自訂滑桿';
 
   @override
-  String get demoCustomSlidersDescription => '滑桿上列有特定範圍內的值，使用者可選擇其中一個值或某範圍的值。您可選擇滑桿的設計主題，亦可加以自訂。';
+  String get demoCustomSlidersDescription =>
+      '滑桿上列有特定範圍內的值，使用者可選擇其中一個值或某範圍的值。您可選擇滑桿的設計主題，亦可加以自訂。';
 
   @override
   String get demoSlidersContinuousWithEditableNumericalValue => '可編輯的連續數值';
@@ -5620,7 +5745,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoNavigationDrawerSubtitle => '在應用程式列中顯示導覽列';
 
   @override
-  String get demoNavigationDrawerDescription => '從螢幕邊緣水平滑入以在應用程式中顯示導覽連結的 Material Design 面板。';
+  String get demoNavigationDrawerDescription =>
+      '從螢幕邊緣水平滑入以在應用程式中顯示導覽連結的 Material Design 面板。';
 
   @override
   String get demoNavigationDrawerUserName => '用戶名稱';
@@ -5644,7 +5770,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoNavigationRailSubtitle => '在應用程式中顯示導覽欄';
 
   @override
-  String get demoNavigationRailDescription => '在應用程式左側或右側顯示的質感小工具，用以在少量視圖 (一般為 3 至 5 個) 之間導覽。';
+  String get demoNavigationRailDescription =>
+      '在應用程式左側或右側顯示的質感小工具，用以在少量視圖 (一般為 3 至 5 個) 之間導覽。';
 
   @override
   String get demoNavigationRailFirst => '第一個';
@@ -5665,7 +5792,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoFullscreenDialogTitle => '全螢幕';
 
   @override
-  String get demoFullscreenDialogDescription => '您可以利用 fullscreenDialog 屬性指定接下來顯示的頁面是否顯示為全螢幕強制回應對話框';
+  String get demoFullscreenDialogDescription =>
+      '您可以利用 fullscreenDialog 屬性指定接下來顯示的頁面是否顯示為全螢幕強制回應對話框';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => '活動指標';
@@ -5683,7 +5811,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoCupertinoButtonsSubtitle => 'iOS 樣式按鈕';
 
   @override
-  String get demoCupertinoButtonsDescription => 'iOS 樣式的按鈕，當中的文字和/或圖示會在使用者輕觸按鈕時淡出及淡入。可按需要設定背景。';
+  String get demoCupertinoButtonsDescription =>
+      'iOS 樣式的按鈕，當中的文字和/或圖示會在使用者輕觸按鈕時淡出及淡入。可按需要設定背景。';
 
   @override
   String get demoCupertinoAlertsTitle => '通知';
@@ -5695,7 +5824,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoCupertinoAlertTitle => '通知';
 
   @override
-  String get demoCupertinoAlertDescription => '通知對話框會通知使用者目前發生要確認的情況。您可按需要為這類對話框設定標題、內容和動作清單。標題會在內容上方顯示，動作會在內容下方顯示。';
+  String get demoCupertinoAlertDescription =>
+      '通知對話框會通知使用者目前發生要確認的情況。您可按需要為這類對話框設定標題、內容和動作清單。標題會在內容上方顯示，動作會在內容下方顯示。';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => '具有標題的通知';
@@ -5710,7 +5840,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoCupertinoActionSheetTitle => '動作表';
 
   @override
-  String get demoCupertinoActionSheetDescription => '動作表是一種特定樣式的通知，根據目前情況向使用者提供兩個或以上的相關選項。您可按需要為動作表設定標題、額外訊息和動作清單。';
+  String get demoCupertinoActionSheetDescription =>
+      '動作表是一種特定樣式的通知，根據目前情況向使用者提供兩個或以上的相關選項。您可按需要為動作表設定標題、額外訊息和動作清單。';
 
   @override
   String get demoCupertinoNavigationBarTitle => '導覽列';
@@ -5719,7 +5850,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoCupertinoNavigationBarSubtitle => 'iOS 樣式導覽列';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'iOS 樣式的導覽列。導覽列為於中間設有頁面標題的工具列。';
+  String get demoCupertinoNavigationBarDescription =>
+      'iOS 樣式的導覽列。導覽列為於中間設有頁面標題的工具列。';
 
   @override
   String get demoCupertinoPickerTitle => '點選器';
@@ -5728,7 +5860,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoCupertinoPickerSubtitle => 'iOS 樣式的日期和時間點選器';
 
   @override
-  String get demoCupertinoPickerDescription => 'iOS 樣式的日期和時間點選器小工具可用於選擇日期和/或時間。';
+  String get demoCupertinoPickerDescription =>
+      'iOS 樣式的日期和時間點選器小工具可用於選擇日期和/或時間。';
 
   @override
   String get demoCupertinoPickerTimer => '計時器';
@@ -5749,7 +5882,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoCupertinoPullToRefreshSubtitle => 'iOS 樣式的拉動，用於重新整理控制項';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => '採用 iOS 樣式的拉動以重新整理內容控制項的小工具。';
+  String get demoCupertinoPullToRefreshDescription =>
+      '採用 iOS 樣式的拉動以重新整理內容控制項的小工具。';
 
   @override
   String get demoCupertinoSegmentedControlTitle => '劃分控制';
@@ -5758,7 +5892,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoCupertinoSegmentedControlSubtitle => 'iOS 樣式的劃分控制';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => '用以在多個互相排斥的選項之間進行選擇。選擇了劃分控制的其中一個選項後，便將無法選擇其他劃分控制選項。';
+  String get demoCupertinoSegmentedControlDescription =>
+      '用以在多個互相排斥的選項之間進行選擇。選擇了劃分控制的其中一個選項後，便將無法選擇其他劃分控制選項。';
 
   @override
   String get demoCupertinoSliderTitle => '滑桿';
@@ -5792,7 +5927,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoCupertinoTabBarSubtitle => 'iOS 樣式底部分頁列';
 
   @override
-  String get demoCupertinoTabBarDescription => 'iOS 樣式底部導覽分頁列。顯示多個分頁，其中一個為使用中 (預設為第一個分頁)。';
+  String get demoCupertinoTabBarDescription =>
+      'iOS 樣式底部導覽分頁列。顯示多個分頁，其中一個為使用中 (預設為第一個分頁)。';
 
   @override
   String get cupertinoTabBarHomeTab => '首頁';
@@ -5843,7 +5979,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoContainerTransformTitle => '容器變形';
 
   @override
-  String get demoContainerTransformDescription => '容器變形模式用於轉移包含容器的使用者介面元素。此模式以視覺元素連結兩個不同使用者介面元素';
+  String get demoContainerTransformDescription =>
+      '容器變形模式用於轉移包含容器的使用者介面元素。此模式以視覺元素連結兩個不同使用者介面元素';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => '淡出模式';
@@ -5870,7 +6007,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoMotionListTileTitle => '清單項目';
 
   @override
-  String get demoSharedAxisDescription => '共用軸線模式用於轉移有空間或導覽關係的使用者介面元素。此模式利用共用的 X、Y 或 Z 軸進行變形，以突顯元素之間的關係。';
+  String get demoSharedAxisDescription =>
+      '共用軸線模式用於轉移有空間或導覽關係的使用者介面元素。此模式利用共用的 X、Y 或 Z 軸進行變形，以突顯元素之間的關係。';
 
   @override
   String get demoSharedXAxisTitle => '共用 X 軸';
@@ -5885,7 +6023,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoSharedXAxisCoursePageTitle => '精簡課程';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => '分類組合會以群組形式在您的資訊提供中顯示。您稍後可以隨時變更。';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      '分類組合會以群組形式在您的資訊提供中顯示。您稍後可以隨時變更。';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => '藝術與手工藝';
@@ -6023,7 +6162,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoFadeScaleTitle => '淡出';
 
   @override
-  String get demoFadeScaleDescription => '淡出模式用於進入或離開螢幕範圍的使用者介面元素，如在螢幕正中淡入的對話框。';
+  String get demoFadeScaleDescription =>
+      '淡出模式用於進入或離開螢幕範圍的使用者介面元素，如在螢幕正中淡入的對話框。';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => '顯示模態框';
@@ -6068,7 +6208,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demo2dTransformationsSubtitle => '平移、縮放、旋轉';
 
   @override
-  String get demo2dTransformationsDescription => '輕按以編輯圖塊，並使用手勢在場景中移動。以拖曳進行平移，用兩指縮放，並以兩隻手指旋轉。按一下重設按鈕即可返回原來的定向。';
+  String get demo2dTransformationsDescription =>
+      '輕按以編輯圖塊，並使用手勢在場景中移動。以拖曳進行平移，用兩指縮放，並以兩隻手指旋轉。按一下重設按鈕即可返回原來的定向。';
 
   @override
   String get demo2dTransformationsResetTooltip => '重設變形';
@@ -6089,13 +6230,15 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoBottomSheetPersistentTitle => '固定底部工作表';
 
   @override
-  String get demoBottomSheetPersistentDescription => '固定底部工作表會顯示應用程式主要內容以外的補充資訊。即使使用者與應用程式的其他部分互動，仍會看到固定底部工作表。';
+  String get demoBottomSheetPersistentDescription =>
+      '固定底部工作表會顯示應用程式主要內容以外的補充資訊。即使使用者與應用程式的其他部分互動，仍會看到固定底部工作表。';
 
   @override
   String get demoBottomSheetModalTitle => '強制回應底部工作表';
 
   @override
-  String get demoBottomSheetModalDescription => '強制回應底部工作表是選單或對話框的替代選擇，可防止使用者與應用程式其他部分互動。';
+  String get demoBottomSheetModalDescription =>
+      '強制回應底部工作表是選單或對話框的替代選擇，可防止使用者與應用程式其他部分互動。';
 
   @override
   String get demoBottomSheetAddLabel => '新增';
@@ -6139,13 +6282,15 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoCircularProgressIndicatorTitle => '環形進度指標';
 
   @override
-  String get demoCircularProgressIndicatorDescription => '一種 Material Design 環形進度指標，轉動時即表示應用程式忙碌中。';
+  String get demoCircularProgressIndicatorDescription =>
+      '一種 Material Design 環形進度指標，轉動時即表示應用程式忙碌中。';
 
   @override
   String get demoLinearProgressIndicatorTitle => '直線進度指標';
 
   @override
-  String get demoLinearProgressIndicatorDescription => '一種 Material Design 直線進度指標，亦稱為進度列。';
+  String get demoLinearProgressIndicatorDescription =>
+      '一種 Material Design 直線進度指標，亦稱為進度列。';
 
   @override
   String get demoPickersTitle => '點選器';
@@ -6190,7 +6335,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoSnackbarsSubtitle => '資訊列會在螢幕底部顯示訊息';
 
   @override
-  String get demoSnackbarsDescription => '資訊列會通知使用者有關應用程式已執行或將會執行的程序。它們會在螢幕底部短暫出現，並不會干擾使用者體驗，同時無需使用者輸入任何指令便會消失。';
+  String get demoSnackbarsDescription =>
+      '資訊列會通知使用者有關應用程式已執行或將會執行的程序。它們會在螢幕底部短暫出現，並不會干擾使用者體驗，同時無需使用者輸入任何指令便會消失。';
 
   @override
   String get demoSnackbarsButtonLabel => '顯示資訊列';
@@ -6214,19 +6360,22 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoSelectionControlsCheckboxTitle => '選框';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => '選框讓使用者從一組選項中選擇多個選項。一般選框的數值為 true 或 false，而三值選框則可包括空白值。';
+  String get demoSelectionControlsCheckboxDescription =>
+      '選框讓使用者從一組選項中選擇多個選項。一般選框的數值為 true 或 false，而三值選框則可包括空白值。';
 
   @override
   String get demoSelectionControlsRadioTitle => '圓形按鈕';
 
   @override
-  String get demoSelectionControlsRadioDescription => '圓形按鈕讓使用者從一組選項中選擇一個選項。如果您認為使用者需要並排查看所有選項並從中選擇一個選項，便可使用圓形按鈕。';
+  String get demoSelectionControlsRadioDescription =>
+      '圓形按鈕讓使用者從一組選項中選擇一個選項。如果您認為使用者需要並排查看所有選項並從中選擇一個選項，便可使用圓形按鈕。';
 
   @override
   String get demoSelectionControlsSwitchTitle => '開關';
 
   @override
-  String get demoSelectionControlsSwitchDescription => '使用開關可切換個別設定選項的狀態。開關控制的選項及其狀態應以相應的內嵌標籤清晰標示。';
+  String get demoSelectionControlsSwitchDescription =>
+      '使用開關可切換個別設定選項的狀態。開關控制的選項及其狀態應以相應的內嵌標籤清晰標示。';
 
   @override
   String get demoBottomTextFieldsTitle => '文字欄位';
@@ -6324,7 +6473,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get demoTooltipSubtitle => '長按或將滑鼠游標懸停時顯示的短訊息';
 
   @override
-  String get demoTooltipDescription => '附帶文字標籤的提示，用於說明按鈕功能或其他使用者介面的操作。提示會在使用者將滑鼠游標移至、對準或長按元素時顯示說明文字。';
+  String get demoTooltipDescription =>
+      '附帶文字標籤的提示，用於說明按鈕功能或其他使用者介面的操作。提示會在使用者將滑鼠游標移至、對準或長按元素時顯示說明文字。';
 
   @override
   String get demoTooltipInstructions => '長按或將滑鼠游標懸停時便會顯示提示。';
@@ -6388,7 +6538,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get dialogLocationTitle => '要使用 Google 的定位服務嗎？';
 
   @override
-  String get dialogLocationDescription => '允許 Google 協助應用程式判斷您的位置。這麼做會將匿名的位置資料傳送給 Google (即使您未執行任何應用程式)。';
+  String get dialogLocationDescription =>
+      '允許 Google 協助應用程式判斷您的位置。這麼做會將匿名的位置資料傳送給 Google (即使您未執行任何應用程式)。';
 
   @override
   String get dialogCancel => '取消';
@@ -6436,7 +6587,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get cupertinoAlertLocationTitle => '要允許「Google 地圖」在您使用時存取位置資訊嗎？';
 
   @override
-  String get cupertinoAlertLocationDescription => '您的目前位置會在地圖上顯示，並用於路線、附近搜尋結果和預計的行程時間。';
+  String get cupertinoAlertLocationDescription =>
+      '您的目前位置會在地圖上顯示，並用於路線、附近搜尋結果和預計的行程時間。';
 
   @override
   String get cupertinoAlertAllow => '允許';
@@ -6448,7 +6600,8 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
   String get cupertinoAlertFavoriteDessert => '選取喜愛的甜品';
 
   @override
-  String get cupertinoAlertDessertDescription => '請從下方清單中選取您喜愛的甜點類型。系統會根據您的選擇和所在地區，提供個人化的餐廳建議清單。';
+  String get cupertinoAlertDessertDescription =>
+      '請從下方清單中選取您喜愛的甜點類型。系統會根據您的選擇和所在地區，提供個人化的餐廳建議清單。';
 
   @override
   String get cupertinoAlertCheesecake => '芝士蛋糕';
@@ -7234,7 +7387,7 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
 
 /// The translations for Chinese, as used in Taiwan (`zh_TW`).
 class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
-  GalleryLocalizationsZhTw(): super('zh_TW');
+  GalleryLocalizationsZhTw() : super('zh_TW');
 
   @override
   String githubRepo(Object repoName) {
@@ -7527,7 +7680,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get rallySeeAllBudgets => '查看所有預算';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${accountName}帳戶 ${accountNumber} 的存款金額為 ${amount}。';
   }
 
@@ -7537,7 +7691,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return '${budgetName}預算金額為 ${amountTotal}，已使用 ${amountUsed}，還剩下 ${amountLeft}';
   }
 
@@ -7655,7 +7810,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoBottomAppBarSubtitle => '在底部顯示導覽和動作選項';
 
   @override
-  String get demoBottomAppBarDescription => '在底部應用程式列中，使用者可存取底部導覽匣和最多四個動作選項，包括懸浮動作按鈕。';
+  String get demoBottomAppBarDescription =>
+      '在底部應用程式列中，使用者可存取底部導覽匣和最多四個動作選項，包括懸浮動作按鈕。';
 
   @override
   String get bottomAppBarNotch => '凹槽';
@@ -7682,7 +7838,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoBannerSubtitle => '在清單內顯示橫幅';
 
   @override
-  String get demoBannerDescription => '橫幅上會顯示內容簡潔的重要訊息，並為使用者提供可執行的動作 (或關閉橫幅)。使用者必須執行動作才能關閉橫幅。';
+  String get demoBannerDescription =>
+      '橫幅上會顯示內容簡潔的重要訊息，並為使用者提供可執行的動作 (或關閉橫幅)。使用者必須執行動作才能關閉橫幅。';
 
   @override
   String get demoBottomNavigationTitle => '底部導覽';
@@ -7697,7 +7854,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoBottomNavigationSelectedLabel => '選取的標籤';
 
   @override
-  String get demoBottomNavigationDescription => '底部導覽列會在畫面底部顯示三至五個目的地。每個目的地都是以圖示和選用文字標籤呈現。當使用者輕觸底部導覽圖示時，系統就會將使用者導向至與該圖示相關聯的頂層導覽目的地。';
+  String get demoBottomNavigationDescription =>
+      '底部導覽列會在畫面底部顯示三至五個目的地。每個目的地都是以圖示和選用文字標籤呈現。當使用者輕觸底部導覽圖示時，系統就會將使用者導向至與該圖示相關聯的頂層導覽目的地。';
 
   @override
   String get demoButtonTitle => '按鈕';
@@ -7709,31 +7867,36 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoTextButtonTitle => '文字按鈕';
 
   @override
-  String get demoTextButtonDescription => '文字按鈕，按下後會出現墨水擴散特效，但不會有升起效果。這類按鈕用於工具列、對話方塊和設有邊框間距的內嵌元素';
+  String get demoTextButtonDescription =>
+      '文字按鈕，按下後會出現墨水擴散特效，但不會有升起效果。這類按鈕用於工具列、對話方塊和設有邊框間距的內嵌元素';
 
   @override
   String get demoElevatedButtonTitle => '升起效果按鈕';
 
   @override
-  String get demoElevatedButtonDescription => '升起效果按鈕可替多為平面的版面設計增添層次。這類按鈕可在擁擠或寬廣的空間中強調其功能。';
+  String get demoElevatedButtonDescription =>
+      '升起效果按鈕可替多為平面的版面設計增添層次。這類按鈕可在擁擠或寬廣的空間中強調其功能。';
 
   @override
   String get demoOutlinedButtonTitle => '外框按鈕';
 
   @override
-  String get demoOutlinedButtonDescription => '外框按鈕會在使用者按下時轉為不透明，且高度增加。這類按鈕通常會與凸起的按鈕搭配使用，用於指出次要的替代動作。';
+  String get demoOutlinedButtonDescription =>
+      '外框按鈕會在使用者按下時轉為不透明，且高度增加。這類按鈕通常會與凸起的按鈕搭配使用，用於指出次要的替代動作。';
 
   @override
   String get demoToggleButtonTitle => '切換鈕';
 
   @override
-  String get demoToggleButtonDescription => '切換鈕可用於將相關的選項分組。為凸顯相關的切換鈕群組，單一群組應共用同一個容器';
+  String get demoToggleButtonDescription =>
+      '切換鈕可用於將相關的選項分組。為凸顯相關的切換鈕群組，單一群組應共用同一個容器';
 
   @override
   String get demoFloatingButtonTitle => '懸浮動作按鈕';
 
   @override
-  String get demoFloatingButtonDescription => '懸浮動作按鈕是一種懸停在內容上方的圓形圖示按鈕，可用來執行應用程式中的主要動作。';
+  String get demoFloatingButtonDescription =>
+      '懸浮動作按鈕是一種懸停在內容上方的圓形圖示按鈕，可用來執行應用程式中的主要動作。';
 
   @override
   String get demoCardTitle => '卡片';
@@ -7745,7 +7908,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoChipTitle => '方塊';
 
   @override
-  String get demoCardDescription => '卡片是一種質感設計的資訊表，用來表示某些相關的資訊，例如相簿、地理位置、餐點、聯絡人詳細資料等等。';
+  String get demoCardDescription =>
+      '卡片是一種質感設計的資訊表，用來表示某些相關的資訊，例如相簿、地理位置、餐點、聯絡人詳細資料等等。';
 
   @override
   String get demoChipSubtitle => '代表輸入內容、屬性或動作的精簡元素';
@@ -7754,7 +7918,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoActionChipTitle => '動作方塊';
 
   @override
-  String get demoActionChipDescription => '「動作方塊」是一組選項，可觸發與主要內容相關的動作。系統會根據 UI 中的內容動態顯示這種方塊。';
+  String get demoActionChipDescription =>
+      '「動作方塊」是一組選項，可觸發與主要內容相關的動作。系統會根據 UI 中的內容動態顯示這種方塊。';
 
   @override
   String get demoChoiceChipTitle => '選擇方塊';
@@ -7772,7 +7937,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoInputChipTitle => '輸入方塊';
 
   @override
-  String get demoInputChipDescription => '「輸入方塊」是一項經過簡化的複雜資訊 (例如人物、地點或事物這類實體) 或對話內容。';
+  String get demoInputChipDescription =>
+      '「輸入方塊」是一項經過簡化的複雜資訊 (例如人物、地點或事物這類實體) 或對話內容。';
 
   @override
   String get demoDataTableTitle => '資料表格';
@@ -7781,7 +7947,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoDataTableSubtitle => '以列和欄呈現的資訊';
 
   @override
-  String get demoDataTableDescription => '資料表格是透過網格格式顯示資訊，這些網格是由列和欄所構成。資料表格以一種容易掃描的方式整理資訊，以便使用者找出模式和進行深入分析。';
+  String get demoDataTableDescription =>
+      '資料表格是透過網格格式顯示資訊，這些網格是由列和欄所構成。資料表格以一種容易掃描的方式整理資訊，以便使用者找出模式和進行深入分析。';
 
   @override
   String get dataTableHeader => '營養';
@@ -7860,7 +8027,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoAlertDialogTitle => '快訊';
 
   @override
-  String get demoAlertDialogDescription => '快訊對話方塊會通知使用者有待確認的情況。你可以視需要為這類對話方塊設定標題和動作清單。';
+  String get demoAlertDialogDescription =>
+      '快訊對話方塊會通知使用者有待確認的情況。你可以視需要為這類對話方塊設定標題和動作清單。';
 
   @override
   String get demoAlertTitleDialogTitle => '具有標題的快訊';
@@ -7869,7 +8037,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoSimpleDialogTitle => '簡潔';
 
   @override
-  String get demoSimpleDialogDescription => '簡潔對話方塊可讓使用者在幾個選項之間做選擇。你可以視需要為簡潔對話方塊設定標題 (標題會顯示在選項上方)。';
+  String get demoSimpleDialogDescription =>
+      '簡潔對話方塊可讓使用者在幾個選項之間做選擇。你可以視需要為簡潔對話方塊設定標題 (標題會顯示在選項上方)。';
 
   @override
   String get demoGridListsTitle => '格狀清單';
@@ -7896,19 +8065,22 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoSlidersSubtitle => '可讓使用者以滑動方式選取值的小工具';
 
   @override
-  String get demoSlidersDescription => '滑桿是表示特定值範圍的長條，使用者可從中選取單一值。滑桿很適合用來調整音量或亮度等設定，或是用來套用圖片濾鏡。';
+  String get demoSlidersDescription =>
+      '滑桿是表示特定值範圍的長條，使用者可從中選取單一值。滑桿很適合用來調整音量或亮度等設定，或是用來套用圖片濾鏡。';
 
   @override
   String get demoRangeSlidersTitle => '範圍滑桿';
 
   @override
-  String get demoRangeSlidersDescription => '滑桿是表示特定值範圍的長條，兩端可加入反映特定值範圍的圖示。滑桿很適合用來調整音量或亮度等設定，或是用來套用圖片濾鏡。';
+  String get demoRangeSlidersDescription =>
+      '滑桿是表示特定值範圍的長條，兩端可加入反映特定值範圍的圖示。滑桿很適合用來調整音量或亮度等設定，或是用來套用圖片濾鏡。';
 
   @override
   String get demoCustomSlidersTitle => '自訂滑桿';
 
   @override
-  String get demoCustomSlidersDescription => '滑桿是表示特定值範圍的長條，使用者可從中選取單一值或特定範圍的值。你可以為滑桿設定主題並加以自訂。';
+  String get demoCustomSlidersDescription =>
+      '滑桿是表示特定值範圍的長條，使用者可從中選取單一值或特定範圍的值。你可以為滑桿設定主題並加以自訂。';
 
   @override
   String get demoSlidersContinuousWithEditableNumericalValue => '含有可編輯數值的連續值滑桿';
@@ -7920,7 +8092,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoSlidersDiscreteSliderWithCustomTheme => '已設定自訂主題的離散值滑桿';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => '已設定自訂主題的連續範圍滑桿';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      '已設定自訂主題的連續範圍滑桿';
 
   @override
   String get demoSlidersContinuous => '連續值滑桿';
@@ -7947,7 +8120,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoMenuSubtitle => '選單按鈕和簡易選單';
 
   @override
-  String get demoMenuDescription => '選單可在臨時性平台上顯示選項清單。當使用者使用按鈕、其他控制項或執行動作時，系統就會顯示選單。';
+  String get demoMenuDescription =>
+      '選單可在臨時性平台上顯示選項清單。當使用者使用按鈕、其他控制項或執行動作時，系統就會顯示選單。';
 
   @override
   String get demoMenuItemValueOne => '選單項目一';
@@ -8014,7 +8188,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoNavigationDrawerSubtitle => '在應用程式列內顯示導覽匣';
 
   @override
-  String get demoNavigationDrawerDescription => '一種質感設計面板，只要從畫面邊緣水平向內滑動，即可顯示應用程式中的導覽連結。';
+  String get demoNavigationDrawerDescription =>
+      '一種質感設計面板，只要從畫面邊緣水平向內滑動，即可顯示應用程式中的導覽連結。';
 
   @override
   String get demoNavigationDrawerUserName => '使用者名稱';
@@ -8038,7 +8213,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoNavigationRailSubtitle => '在應用程式內顯示導覽邊欄';
 
   @override
-  String get demoNavigationRailDescription => '一種質感小工具，顯示在應用程式的左側或右側，如果要導覽的檢視畫面數量不多 (通常是三到五個畫面)，就適合使用這項小工具。';
+  String get demoNavigationRailDescription =>
+      '一種質感小工具，顯示在應用程式的左側或右側，如果要導覽的檢視畫面數量不多 (通常是三到五個畫面)，就適合使用這項小工具。';
 
   @override
   String get demoNavigationRailFirst => '第一個';
@@ -8059,7 +8235,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoFullscreenDialogTitle => '全螢幕';
 
   @override
-  String get demoFullscreenDialogDescription => '你可以利用 fullscreenDialog 屬性，指定接下來顯示的頁面是否為全螢幕強制回應對話方塊';
+  String get demoFullscreenDialogDescription =>
+      '你可以利用 fullscreenDialog 屬性，指定接下來顯示的頁面是否為全螢幕強制回應對話方塊';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => '活動指標';
@@ -8077,7 +8254,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoCupertinoButtonsSubtitle => 'iOS 樣式按鈕';
 
   @override
-  String get demoCupertinoButtonsDescription => 'iOS 樣式的按鈕，當中的文字和/或圖示會在使用者輕觸按鈕時淡出及淡入。可視需要設定背景。';
+  String get demoCupertinoButtonsDescription =>
+      'iOS 樣式的按鈕，當中的文字和/或圖示會在使用者輕觸按鈕時淡出及淡入。可視需要設定背景。';
 
   @override
   String get demoCupertinoAlertsTitle => '快訊';
@@ -8089,7 +8267,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoCupertinoAlertTitle => '快訊';
 
   @override
-  String get demoCupertinoAlertDescription => '快訊對話方塊會通知使用者有待確認的情況。你可以視需要為這類對話方塊設定標題、內容和動作清單。標題會顯示在內容上方，動作會顯示在內容下方。';
+  String get demoCupertinoAlertDescription =>
+      '快訊對話方塊會通知使用者有待確認的情況。你可以視需要為這類對話方塊設定標題、內容和動作清單。標題會顯示在內容上方，動作會顯示在內容下方。';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => '具有標題的快訊';
@@ -8104,7 +8283,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoCupertinoActionSheetTitle => '動作表';
 
   @override
-  String get demoCupertinoActionSheetDescription => '動作表是一種特定樣式的快訊，可根據目前的使用情況，為使用者提供兩個以上的相關選項。你可以視需要替動作表設定標題、訊息內容和動作清單。';
+  String get demoCupertinoActionSheetDescription =>
+      '動作表是一種特定樣式的快訊，可根據目前的使用情況，為使用者提供兩個以上的相關選項。你可以視需要替動作表設定標題、訊息內容和動作清單。';
 
   @override
   String get demoCupertinoNavigationBarTitle => '導覽列';
@@ -8113,7 +8293,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoCupertinoNavigationBarSubtitle => 'iOS 樣式的導覽列';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'iOS 樣式的導覽列。導覽列是一種工具列，這種工具列的中間至少會有頁面的標題。';
+  String get demoCupertinoNavigationBarDescription =>
+      'iOS 樣式的導覽列。導覽列是一種工具列，這種工具列的中間至少會有頁面的標題。';
 
   @override
   String get demoCupertinoPickerTitle => '挑選器';
@@ -8122,7 +8303,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoCupertinoPickerSubtitle => 'iOS 樣式的日期和時間挑選器';
 
   @override
-  String get demoCupertinoPickerDescription => '一種 iOS 樣式的挑選器小工具，可用來選取日期、時間或同時選取二者。';
+  String get demoCupertinoPickerDescription =>
+      '一種 iOS 樣式的挑選器小工具，可用來選取日期、時間或同時選取二者。';
 
   @override
   String get demoCupertinoPickerTimer => '計時器';
@@ -8143,7 +8325,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoCupertinoPullToRefreshSubtitle => 'iOS 樣式的下拉重新整理畫面控制項';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => '導入 iOS 樣式下拉重新整理畫面控制項的小工具。';
+  String get demoCupertinoPullToRefreshDescription =>
+      '導入 iOS 樣式下拉重新整理畫面控制項的小工具。';
 
   @override
   String get demoCupertinoSegmentedControlTitle => '分區控制項';
@@ -8152,7 +8335,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoCupertinoSegmentedControlSubtitle => 'iOS 樣式的區隔控制元件';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => '當有多個互斥項目時，用於選取其中一個項目。如果選取區隔控制元件中的其中一個選項，就無法選取區隔控制元件中的其他選項。';
+  String get demoCupertinoSegmentedControlDescription =>
+      '當有多個互斥項目時，用於選取其中一個項目。如果選取區隔控制元件中的其中一個選項，就無法選取區隔控制元件中的其他選項。';
 
   @override
   String get demoCupertinoSliderTitle => '滑桿';
@@ -8186,7 +8370,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoCupertinoTabBarSubtitle => 'iOS 樣式的底部分頁標籤列';
 
   @override
-  String get demoCupertinoTabBarDescription => 'iOS 樣式的底部導覽分頁標籤列，可顯示多個分頁標籤，其中一個分頁標籤處於使用中狀態 (預設為第一個分頁標籤)。';
+  String get demoCupertinoTabBarDescription =>
+      'iOS 樣式的底部導覽分頁標籤列，可顯示多個分頁標籤，其中一個分頁標籤處於使用中狀態 (預設為第一個分頁標籤)。';
 
   @override
   String get cupertinoTabBarHomeTab => '首頁';
@@ -8237,7 +8422,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoContainerTransformTitle => '容器轉換';
 
   @override
-  String get demoContainerTransformDescription => '容器轉換模式是用於轉換含有容器的 UI 元素，這個模式可在兩個 UI 元素之間建立起可見的連結';
+  String get demoContainerTransformDescription =>
+      '容器轉換模式是用於轉換含有容器的 UI 元素，這個模式可在兩個 UI 元素之間建立起可見的連結';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => '淡化模式';
@@ -8264,7 +8450,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoMotionListTileTitle => '清單項目';
 
   @override
-  String get demoSharedAxisDescription => '共用軸模式可用於轉換 UI 元素，這些 UI 元素彼此間具有空間或導覽的關係。這個模式會讓元素在轉換時共用 X、Y 或 Z 軸，藉此強調元素間的關係。';
+  String get demoSharedAxisDescription =>
+      '共用軸模式可用於轉換 UI 元素，這些 UI 元素彼此間具有空間或導覽的關係。這個模式會讓元素在轉換時共用 X、Y 或 Z 軸，藉此強調元素間的關係。';
 
   @override
   String get demoSharedXAxisTitle => '共用 X 軸';
@@ -8279,7 +8466,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoSharedXAxisCoursePageTitle => '將課程化繁為簡';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => '組合類別會以群組方式顯示在動態饋給中，你之後隨時可以進行變更。';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      '組合類別會以群組方式顯示在動態饋給中，你之後隨時可以進行變更。';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => '藝術與工藝';
@@ -8417,7 +8605,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoFadeScaleTitle => '淡化';
 
   @override
-  String get demoFadeScaleDescription => '淡化模式可用於讓 UI 元素進入或退出畫面範圍，例如對話方塊會以淡入的方式顯示在畫面中央。';
+  String get demoFadeScaleDescription =>
+      '淡化模式可用於讓 UI 元素進入或退出畫面範圍，例如對話方塊會以淡入的方式顯示在畫面中央。';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => '顯示強制回應對話方塊';
@@ -8462,7 +8651,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demo2dTransformationsSubtitle => '平移、縮放、旋轉';
 
   @override
-  String get demo2dTransformationsDescription => '輕觸即可編輯圖塊，使用手勢則可在螢幕上四處移動。拖曳可平移、雙指撥動可縮放，使用兩指可旋轉。按下重設按鈕即可返回起始方向。';
+  String get demo2dTransformationsDescription =>
+      '輕觸即可編輯圖塊，使用手勢則可在螢幕上四處移動。拖曳可平移、雙指撥動可縮放，使用兩指可旋轉。按下重設按鈕即可返回起始方向。';
 
   @override
   String get demo2dTransformationsResetTooltip => '重設變換';
@@ -8483,13 +8673,15 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoBottomSheetPersistentTitle => '持續性底部資訊表';
 
   @override
-  String get demoBottomSheetPersistentDescription => '持續性底部資訊表會顯示應用程式主要內容的補充資訊。即便使用者正在與應用程式的其他部分進行互動，這種資訊表仍會持續顯示。';
+  String get demoBottomSheetPersistentDescription =>
+      '持續性底部資訊表會顯示應用程式主要內容的補充資訊。即便使用者正在與應用程式的其他部分進行互動，這種資訊表仍會持續顯示。';
 
   @override
   String get demoBottomSheetModalTitle => '強制回應底部資訊表';
 
   @override
-  String get demoBottomSheetModalDescription => '強制回應底部資訊表是選單或對話方塊的替代方案，而且可以禁止使用者與其他應用程式的其他部分進行互動。';
+  String get demoBottomSheetModalDescription =>
+      '強制回應底部資訊表是選單或對話方塊的替代方案，而且可以禁止使用者與其他應用程式的其他部分進行互動。';
 
   @override
   String get demoBottomSheetAddLabel => '新增';
@@ -8533,7 +8725,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoCircularProgressIndicatorTitle => '圓形進度指標';
 
   @override
-  String get demoCircularProgressIndicatorDescription => '符合質感設計的圓形進度指標，會以旋轉方式表示應用程式目前忙碌中。';
+  String get demoCircularProgressIndicatorDescription =>
+      '符合質感設計的圓形進度指標，會以旋轉方式表示應用程式目前忙碌中。';
 
   @override
   String get demoLinearProgressIndicatorTitle => '直線進度指標';
@@ -8584,7 +8777,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoSnackbarsSubtitle => 'Snackbar 可在畫面底部顯示訊息';
 
   @override
-  String get demoSnackbarsDescription => 'Snackbar 可通知使用者應用程式已執行的處理程序，或即將執行的處理程序。這個元件只會暫時出現在畫面底部，不會影響使用者體驗，而且使用者不需要採取任何動作，這個元件就會自動消失。';
+  String get demoSnackbarsDescription =>
+      'Snackbar 可通知使用者應用程式已執行的處理程序，或即將執行的處理程序。這個元件只會暫時出現在畫面底部，不會影響使用者體驗，而且使用者不需要採取任何動作，這個元件就會自動消失。';
 
   @override
   String get demoSnackbarsButtonLabel => '顯示 Snackbar';
@@ -8608,19 +8802,22 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoSelectionControlsCheckboxTitle => '核取方塊';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => '核取方塊可讓使用者從一組選項中選取多個項目。一般核取方塊的值為 true 或 false。如果核取方塊有三種狀態，其值也可以是 null。';
+  String get demoSelectionControlsCheckboxDescription =>
+      '核取方塊可讓使用者從一組選項中選取多個項目。一般核取方塊的值為 true 或 false。如果核取方塊有三種狀態，其值也可以是 null。';
 
   @override
   String get demoSelectionControlsRadioTitle => '圓形';
 
   @override
-  String get demoSelectionControlsRadioDescription => '圓形按鈕可讓使用者從一組選項中選取一個項目。如果你想並排列出所有可選擇的項目，並讓使用者選出其中一項，請使用圓形按鈕。';
+  String get demoSelectionControlsRadioDescription =>
+      '圓形按鈕可讓使用者從一組選項中選取一個項目。如果你想並排列出所有可選擇的項目，並讓使用者選出其中一項，請使用圓形按鈕。';
 
   @override
   String get demoSelectionControlsSwitchTitle => '切換按鈕';
 
   @override
-  String get demoSelectionControlsSwitchDescription => '「開啟/關閉」切換按鈕是用來切換單一設定選項的狀態。切換按鈕控制的選項及其所處狀態，都應在對應的內嵌標籤中表達清楚。';
+  String get demoSelectionControlsSwitchDescription =>
+      '「開啟/關閉」切換按鈕是用來切換單一設定選項的狀態。切換按鈕控制的選項及其所處狀態，都應在對應的內嵌標籤中表達清楚。';
 
   @override
   String get demoBottomTextFieldsTitle => '文字欄位';
@@ -8632,7 +8829,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoTextFieldSubtitle => '一行可編輯的文字和數字';
 
   @override
-  String get demoTextFieldDescription => '文字欄位可讓使用者在 UI 中輸入文字。這類欄位通常會出現在表單或對話方塊中。';
+  String get demoTextFieldDescription =>
+      '文字欄位可讓使用者在 UI 中輸入文字。這類欄位通常會出現在表單或對話方塊中。';
 
   @override
   String get demoTextFieldShowPasswordLabel => '顯示密碼';
@@ -8650,7 +8848,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoTextFieldOnlyAlphabeticalChars => '請勿輸入字母以外的字元。';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - 請輸入美國地區的電話號碼。';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - 請輸入美國地區的電話號碼。';
 
   @override
   String get demoTextFieldEnterPassword => '請輸入密碼。';
@@ -8718,7 +8917,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get demoTooltipSubtitle => '長按或游標懸停時顯示的簡短訊息';
 
   @override
-  String get demoTooltipDescription => '工具提示是一種文字標籤，有助於說明按鈕的功能或其他使用者介面的操作方式。使用者只要長按某個元素，或者將游標懸停或將焦點移至元素上，系統就會透過工具提示顯示相關的實用資訊。';
+  String get demoTooltipDescription =>
+      '工具提示是一種文字標籤，有助於說明按鈕的功能或其他使用者介面的操作方式。使用者只要長按某個元素，或者將游標懸停或將焦點移至元素上，系統就會透過工具提示顯示相關的實用資訊。';
 
   @override
   String get demoTooltipInstructions => '長按或懸停游標即可查看工具提示。';
@@ -8782,7 +8982,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get dialogLocationTitle => '要使用 Google 的定位服務嗎？';
 
   @override
-  String get dialogLocationDescription => '允許 Google 協助應用程式判斷你的位置。這麼做會將匿名的位置資料傳送給 Google (即使你未執行任何應用程式)。';
+  String get dialogLocationDescription =>
+      '允許 Google 協助應用程式判斷你的位置。這麼做會將匿名的位置資料傳送給 Google (即使你未執行任何應用程式)。';
 
   @override
   String get dialogCancel => '取消';
@@ -8830,7 +9031,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get cupertinoAlertLocationTitle => '要允許「Google 地圖」在你使用時存取你的位置資訊嗎？';
 
   @override
-  String get cupertinoAlertLocationDescription => '您的目前位置會顯示於地圖並用於路線、附近搜尋結果和估計路程時間。';
+  String get cupertinoAlertLocationDescription =>
+      '您的目前位置會顯示於地圖並用於路線、附近搜尋結果和估計路程時間。';
 
   @override
   String get cupertinoAlertAllow => '允許';
@@ -8842,7 +9044,8 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
   String get cupertinoAlertFavoriteDessert => '選取喜愛的甜點';
 
   @override
-  String get cupertinoAlertDessertDescription => '請從下方清單中選取你喜愛的甜點類型。系統會根據你的選擇和所在地區，提供個人化的餐廳建議清單。';
+  String get cupertinoAlertDessertDescription =>
+      '請從下方清單中選取你喜愛的甜點類型。系統會根據你的選擇和所在地區，提供個人化的餐廳建議清單。';
 
   @override
   String get cupertinoAlertCheesecake => '乳酪蛋糕';

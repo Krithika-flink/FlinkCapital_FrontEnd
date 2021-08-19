@@ -13,7 +13,7 @@ import 'package:gallery/constants.dart';
 import 'package:gallery/data/gallery_options.dart';
 import 'package:gallery/pages/backdrop.dart';
 import 'package:gallery/pages/splash.dart';
-import 'package:gallery/themes/gallery_theme_data.dart';
+import 'package:gallery/themes/flink_theme_data.dart';
 //import 'package:flutter_auth_buttons/flutter_auth_buttons.dart';
 export 'package:gallery/data/demos.dart' show pumpDeferredLibraries;
 
@@ -48,7 +48,7 @@ class GalleryApp extends StatelessWidget {
         builder: (context) {
           return MaterialApp(
             restorationScopeId: 'rootGallery',
-            title: 'Flutter Gallery',
+            title: 'Flink\'s Bigg Bott',
             debugShowCheckedModeBanner: false,
             themeMode: GalleryOptions.of(context).themeMode,
             theme: GalleryThemeData.lightThemeData.copyWith(

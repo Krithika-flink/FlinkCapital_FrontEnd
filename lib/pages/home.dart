@@ -25,7 +25,6 @@ import 'package:gallery/studies/rally/colors.dart';
 //import 'package:gallery/studies/reply/routes.dart' as reply_routes;
 //import 'package:gallery/studies/shrine/routes.dart' as shrine_routes;
 //import 'package:gallery/studies/shrine/colors.dart';
-import 'package:gallery/studies/starter/routes.dart' as starter_app_routes;
 
 const _horizontalPadding = 32.0;
 const _carouselItemMargin = 8.0;
@@ -44,17 +43,11 @@ class HomePage extends StatelessWidget {
     final studyDemos = studies(localizations);
     final carouselCards = <Widget>[
       _CarouselCard(
-        demo: studyDemos['rally'],
+        demo: studyDemos['BiggBott'],
         textColor: RallyColors.accountColors[0],
-        asset: const AssetImage(
-          'assets/studies/rally_card.png',
-          package: 'flutter_gallery_assets',
-        ),
+        asset: const AssetImage('assets/Card.png'),
         assetColor: const Color(0xFFD1F2E6),
-        assetDark: const AssetImage(
-          'assets/studies/rally_card_dark.png',
-          package: 'flutter_gallery_assets',
-        ),
+        assetDark: const AssetImage('assets/Card.png'),
         assetDarkColor: const Color(0xFF253538),
         studyRoute: rally_routes.loginRoute,
       )
@@ -135,14 +128,8 @@ class HomePage extends StatelessWidget {
                   FadeInImagePlaceholder(
                     image: Theme.of(context).colorScheme.brightness ==
                             Brightness.dark
-                        ? const AssetImage(
-                            'assets/logo/flutter_logo.png',
-                            package: 'flutter_gallery_assets',
-                          )
-                        : const AssetImage(
-                            'assets/logo/flutter_logo_color.png',
-                            package: 'flutter_gallery_assets',
-                          ),
+                        ? const AssetImage('assets/FlinkCapital.png')
+                        : const AssetImage('assets/FlinkCapital.png'),
                     placeholder: const SizedBox.shrink(),
                     excludeFromSemantics: true,
                   ),
@@ -768,7 +755,7 @@ class _DesktopCarousel extends StatefulWidget {
 }
 
 class _DesktopCarouselState extends State<_DesktopCarousel> {
-  static const cardPadding = 15.0;
+  static const cardPadding = 20.0;
   ScrollController _controller;
 
   @override
@@ -790,7 +777,7 @@ class _DesktopCarouselState extends State<_DesktopCarousel> {
     return Padding(
       padding: const EdgeInsets.symmetric(
         vertical: 8,
-        horizontal: cardPadding,
+        // horizontal: 0,
       ),
       child: widget.children[index],
     );
@@ -1075,7 +1062,7 @@ class _StudyWrapperState extends State<StudyWrapper> {
               child: widget.study,
             ),
           ),
-          /*  SafeArea(
+          SafeArea(
             child: Align(
               alignment: widget.alignment,
               child: Padding(
@@ -1106,7 +1093,7 @@ class _StudyWrapperState extends State<StudyWrapper> {
                 ),
               ),
             ),
-          ), */
+          ),
         ],
       ),
     );

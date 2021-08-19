@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get signIn => 'BEJELENTKEZÉS';
 
   @override
-  String get bannerDemoText => 'Jelszava frissítve lett a másik eszközén. Kérjük, jelentkezzen be újra.';
+  String get bannerDemoText =>
+      'Jelszava frissítve lett a másik eszközén. Kérjük, jelentkezzen be újra.';
 
   @override
   String get bannerDemoResetText => 'Üzenetszalag visszaállítása';
@@ -60,7 +60,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'Tíz város, amelyet érdemes felkeresni Tamilnáduban';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'Tíz város, amelyet érdemes felkeresni Tamilnáduban';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Tízes szám';
@@ -99,7 +100,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get shrineDescription => 'Divatos kiskereskedelmi alkalmazás';
 
   @override
-  String get fortnightlyDescription => 'Tartalomközpontú hírszolgáltató alkalmazás';
+  String get fortnightlyDescription =>
+      'Tartalomközpontú hírszolgáltató alkalmazás';
 
   @override
   String get rallyDescription => 'Személyes pénzügyi alkalmazás';
@@ -111,7 +113,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get rallyAccountDataChecking => 'Folyószámla';
 
   @override
-  String get rallyAccountDataHomeSavings => 'Otthonnal kapcsolatos megtakarítások';
+  String get rallyAccountDataHomeSavings =>
+      'Otthonnal kapcsolatos megtakarítások';
 
   @override
   String get rallyAccountDataCarSavings => 'Autóval kapcsolatos megtakarítások';
@@ -120,7 +123,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Szabadság';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Éves százalékos hozam';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Éves százalékos hozam';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Kamatláb';
@@ -129,7 +133,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'Kamat eddig az évben';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Tavaly kifizetett kamatok';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Tavaly kifizetett kamatok';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Következő kimutatás';
@@ -285,8 +290,10 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Növelje a lehetséges adókedvezményt! Rendeljen kategóriát 1 hozzárendelés nélküli tranzakcióhoz.',
-      other: 'Növelje a lehetséges adókedvezményt! Rendeljen kategóriákat ${count} hozzárendelés nélküli tranzakcióhoz.',
+      one:
+          'Növelje a lehetséges adókedvezményt! Rendeljen kategóriát 1 hozzárendelés nélküli tranzakcióhoz.',
+      other:
+          'Növelje a lehetséges adókedvezményt! Rendeljen kategóriákat ${count} hozzárendelés nélküli tranzakcióhoz.',
     );
   }
 
@@ -300,7 +307,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Összes költségkeret megtekintése';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${accountName} bankszámla (${accountNumber}) ${amount} összeggel.';
   }
 
@@ -310,7 +318,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return '${amountTotal} összegű ${budgetName} költségkeret, amelyből felhasználásra került ${amountUsed}, és maradt ${amountLeft}';
   }
 
@@ -353,7 +362,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Lehetőségek megtekintése';
 
   @override
-  String get demoOptionsFeatureDescription => 'Koppintson ide a bemutatóhoz tartozó, rendelkezésre álló lehetőségek megtekintéséhez.';
+  String get demoOptionsFeatureDescription =>
+      'Koppintson ide a bemutatóhoz tartozó, rendelkezésre álló lehetőségek megtekintéséhez.';
 
   @override
   String get settingsTitle => 'Beállítások';
@@ -386,7 +396,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get settingsTextDirection => 'Szövegirány';
 
   @override
-  String get settingsTextDirectionLocaleBased => 'A nyelv- és országbeállítás alapján';
+  String get settingsTextDirectionLocaleBased =>
+      'A nyelv- és országbeállítás alapján';
 
   @override
   String get settingsTextDirectionLTR => 'Balról jobbra';
@@ -425,19 +436,23 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Alsó alkalmazássáv';
 
   @override
-  String get demoBottomAppBarSubtitle => 'A képernyő alján jeleníti meg a navigációs fiókot és a műveleteket';
+  String get demoBottomAppBarSubtitle =>
+      'A képernyő alján jeleníti meg a navigációs fiókot és a műveleteket';
 
   @override
-  String get demoBottomAppBarDescription => 'Az alsó alkalmazássávok hozzáférést biztosítanak az alsó navigációs fiókhoz és akár négy művelethez (a lebegő műveletgombot is beleértve).';
+  String get demoBottomAppBarDescription =>
+      'Az alsó alkalmazássávok hozzáférést biztosítanak az alsó navigációs fiókhoz és akár négy művelethez (a lebegő műveletgombot is beleértve).';
 
   @override
   String get bottomAppBarNotch => 'Képernyőkivágás';
@@ -464,13 +479,15 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Üzenetszalag megjelenítése listában';
 
   @override
-  String get demoBannerDescription => 'Az üzenetszalagon rövid, ugyanakkor fontos üzenetek jelennek meg, amelyekkel a kapcsolatban a felhasználók valamilyen műveletet végezhetnek el (vagy elvethetik az üzenetszalagot). Az elvetéséhez is felhasználói beavatkozásra van szükség.';
+  String get demoBannerDescription =>
+      'Az üzenetszalagon rövid, ugyanakkor fontos üzenetek jelennek meg, amelyekkel a kapcsolatban a felhasználók valamilyen műveletet végezhetnek el (vagy elvethetik az üzenetszalagot). Az elvetéséhez is felhasználói beavatkozásra van szükség.';
 
   @override
   String get demoBottomNavigationTitle => 'Alsó navigáció';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Alsó navigáció halványuló nézetekkel';
+  String get demoBottomNavigationSubtitle =>
+      'Alsó navigáció halványuló nézetekkel';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Állandó címkék';
@@ -479,43 +496,50 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Kiválasztott címke';
 
   @override
-  String get demoBottomNavigationDescription => 'Az alsó navigációs sávon három-öt célhely jelenik meg a képernyő alján. Minden egyes célhelyet egy ikon és egy nem kötelező szöveges címke jelöl. Amikor rákoppint egy alsó navigációs ikonra, a felhasználó az adott ikonhoz kapcsolódó legfelső szintű navigációs célhelyre kerül.';
+  String get demoBottomNavigationDescription =>
+      'Az alsó navigációs sávon három-öt célhely jelenik meg a képernyő alján. Minden egyes célhelyet egy ikon és egy nem kötelező szöveges címke jelöl. Amikor rákoppint egy alsó navigációs ikonra, a felhasználó az adott ikonhoz kapcsolódó legfelső szintű navigációs célhelyre kerül.';
 
   @override
   String get demoButtonTitle => 'Gombok';
 
   @override
-  String get demoButtonSubtitle => 'Szöveg, kiemelkedő, körülrajzolt és egyebek';
+  String get demoButtonSubtitle =>
+      'Szöveg, kiemelkedő, körülrajzolt és egyebek';
 
   @override
   String get demoTextButtonTitle => 'Szöveg gomb';
 
   @override
-  String get demoTextButtonDescription => 'Valamelyik szöveg gomb megnyomásakor tintafolt jelenik meg rajta, de nem emelkedik fel. Szöveg gombokat használhat eszköztárakban, párbeszédpaneleken és kitöltéssel szövegen belül is';
+  String get demoTextButtonDescription =>
+      'Valamelyik szöveg gomb megnyomásakor tintafolt jelenik meg rajta, de nem emelkedik fel. Szöveg gombokat használhat eszköztárakban, párbeszédpaneleken és kitöltéssel szövegen belül is';
 
   @override
   String get demoElevatedButtonTitle => 'Kiemelkedő gomb';
 
   @override
-  String get demoElevatedButtonDescription => 'A kiemelkedő gombok térbeli kiterjedést adnak az általában lapos külsejű gomboknak. Alkalmasak a funkciók kiemelésére zsúfolt vagy nagy területeken.';
+  String get demoElevatedButtonDescription =>
+      'A kiemelkedő gombok térbeli kiterjedést adnak az általában lapos külsejű gomboknak. Alkalmasak a funkciók kiemelésére zsúfolt vagy nagy területeken.';
 
   @override
   String get demoOutlinedButtonTitle => 'Körülrajzolt gomb';
 
   @override
-  String get demoOutlinedButtonDescription => 'A körülrajzolt gombok átlátszatlanok és kiemelkedők lesznek, ha megnyomják őket. Gyakran kapcsolódnak kiemelkedő gombokhoz, hogy alternatív, másodlagos műveletet jelezzenek.';
+  String get demoOutlinedButtonDescription =>
+      'A körülrajzolt gombok átlátszatlanok és kiemelkedők lesznek, ha megnyomják őket. Gyakran kapcsolódnak kiemelkedő gombokhoz, hogy alternatív, másodlagos műveletet jelezzenek.';
 
   @override
   String get demoToggleButtonTitle => 'Váltógombok';
 
   @override
-  String get demoToggleButtonDescription => 'A váltógombok kapcsolódó lehetőségek csoportosításához használhatók. A kapcsolódó váltógombok csoportjának kiemeléséhez a csoportnak közös tárolón kell osztoznia';
+  String get demoToggleButtonDescription =>
+      'A váltógombok kapcsolódó lehetőségek csoportosításához használhatók. A kapcsolódó váltógombok csoportjának kiemeléséhez a csoportnak közös tárolón kell osztoznia';
 
   @override
   String get demoFloatingButtonTitle => 'Lebegő műveletgomb';
 
   @override
-  String get demoFloatingButtonDescription => 'A lebegő műveletgomb egy olyan kerek ikongomb, amely a tartalom fölött előugorva bemutat egy elsődleges műveletet az alkalmazásban.';
+  String get demoFloatingButtonDescription =>
+      'A lebegő műveletgomb egy olyan kerek ikongomb, amely a tartalom fölött előugorva bemutat egy elsődleges műveletet az alkalmazásban.';
 
   @override
   String get demoCardTitle => 'Kártyák';
@@ -527,43 +551,51 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoChipTitle => 'Szelvények';
 
   @override
-  String get demoCardDescription => 'A kártya olyan Material-lap, amelyen kapcsolódó információ szerepel (pl. album, földrajzi hely, étkezés, kapcsolatfelvételi adatok stb.).';
+  String get demoCardDescription =>
+      'A kártya olyan Material-lap, amelyen kapcsolódó információ szerepel (pl. album, földrajzi hely, étkezés, kapcsolatfelvételi adatok stb.).';
 
   @override
-  String get demoChipSubtitle => 'Kompakt elemek, amelyek bevitelt, tulajdonságot vagy műveletet jelölnek';
+  String get demoChipSubtitle =>
+      'Kompakt elemek, amelyek bevitelt, tulajdonságot vagy műveletet jelölnek';
 
   @override
   String get demoActionChipTitle => 'Műveletszelvény';
 
   @override
-  String get demoActionChipDescription => 'A műveletszelvények olyan beállításcsoportokat jelentenek, amelyek aktiválnak valamilyen műveletet az elsődleges tartalommal kapcsolatban. A műveletszelvényeknek dinamikusan, a kontextusnak megfelelően kell megjelenniük a kezelőfelületen.';
+  String get demoActionChipDescription =>
+      'A műveletszelvények olyan beállításcsoportokat jelentenek, amelyek aktiválnak valamilyen műveletet az elsődleges tartalommal kapcsolatban. A műveletszelvényeknek dinamikusan, a kontextusnak megfelelően kell megjelenniük a kezelőfelületen.';
 
   @override
   String get demoChoiceChipTitle => 'Választószelvény';
 
   @override
-  String get demoChoiceChipDescription => 'A választószelvények egy konkrét választást jelölnek egy csoportból. A választószelvények kapcsolódó leíró szöveget vagy kategóriákat is tartalmaznak.';
+  String get demoChoiceChipDescription =>
+      'A választószelvények egy konkrét választást jelölnek egy csoportból. A választószelvények kapcsolódó leíró szöveget vagy kategóriákat is tartalmaznak.';
 
   @override
   String get demoFilterChipTitle => 'Szűrőszelvény';
 
   @override
-  String get demoFilterChipDescription => 'A szűrőszelvények címkék vagy leíró jellegű szavak segítségével szűrik a tartalmat.';
+  String get demoFilterChipDescription =>
+      'A szűrőszelvények címkék vagy leíró jellegű szavak segítségével szűrik a tartalmat.';
 
   @override
   String get demoInputChipTitle => 'Beviteli szelvény';
 
   @override
-  String get demoInputChipDescription => 'A beviteli szelvények összetett információt jelentenek kompakt formában például egy adott entitásról (személyről, helyről vagy dologról) vagy egy adott beszélgetés szövegéről.';
+  String get demoInputChipDescription =>
+      'A beviteli szelvények összetett információt jelentenek kompakt formában például egy adott entitásról (személyről, helyről vagy dologról) vagy egy adott beszélgetés szövegéről.';
 
   @override
   String get demoDataTableTitle => 'Adattáblák';
 
   @override
-  String get demoDataTableSubtitle => 'Információkat tartalmazó sorok és oszlopok';
+  String get demoDataTableSubtitle =>
+      'Információkat tartalmazó sorok és oszlopok';
 
   @override
-  String get demoDataTableDescription => 'Az adattáblák oszlopok és sorok rácsszerű formájában jelenítik meg az információkat. Olyan módon rendszerezik őket, hogy könnyen áttekinthetők legyenek, így a felhasználók felfedezhetik a mintázatokat és az egyéb fontos adatokat.';
+  String get demoDataTableDescription =>
+      'Az adattáblák oszlopok és sorok rácsszerű formájában jelenítik meg az információkat. Olyan módon rendszerezik őket, hogy könnyen áttekinthetők legyenek, így a felhasználók felfedezhetik a mintázatokat és az egyéb fontos adatokat.';
 
   @override
   String get dataTableHeader => 'Táplálkozás';
@@ -642,7 +674,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'Értesítés';
 
   @override
-  String get demoAlertDialogDescription => 'Egy párbeszédpanel tájékoztatja a felhasználót a figyelmét igénylő helyzetekről. Az értesítési párbeszédpanel nem kötelező címmel és nem kötelező műveletlistával rendelkezik.';
+  String get demoAlertDialogDescription =>
+      'Egy párbeszédpanel tájékoztatja a felhasználót a figyelmét igénylő helyzetekről. Az értesítési párbeszédpanel nem kötelező címmel és nem kötelező műveletlistával rendelkezik.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Értesítés címmel';
@@ -651,16 +684,19 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Egyszerű';
 
   @override
-  String get demoSimpleDialogDescription => 'Egy egyszerű párbeszédpanel választást kínál a felhasználónak több lehetőség közül. Az egyszerű párbeszédpanel nem kötelező címmel rendelkezik, amely a választási lehetőségek felett jelenik meg.';
+  String get demoSimpleDialogDescription =>
+      'Egy egyszerű párbeszédpanel választást kínál a felhasználónak több lehetőség közül. Az egyszerű párbeszédpanel nem kötelező címmel rendelkezik, amely a választási lehetőségek felett jelenik meg.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +708,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Soros és oszlopos elrendezés';
 
   @override
-  String get demoGridListsDescription => 'A rácsos listák homogén adatok (általában képek) megjelenítésére a legalkalmasabbak. A rácsos lista egyes elemeit csempéknek nevezzük.';
+  String get demoGridListsDescription =>
+      'A rácsos listák homogén adatok (általában képek) megjelenítésére a legalkalmasabbak. A rácsos lista egyes elemeit csempéknek nevezzük.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Csak kép';
@@ -687,34 +724,41 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoSlidersTitle => 'Csúszkák';
 
   @override
-  String get demoSlidersSubtitle => 'Modulok, amelyek csúsztatásával kiválaszthatja a kívánt értéket';
+  String get demoSlidersSubtitle =>
+      'Modulok, amelyek csúsztatásával kiválaszthatja a kívánt értéket';
 
   @override
-  String get demoSlidersDescription => 'A csúszkák értéktartományt jelenítenek meg egy sáv mentén, és a felhasználók ebből a tartományból választhatják ki a kívánt értéket. A csúszkák ideális összetevők olyan beállítások módosításához, mint például a hangerő és a fényerő, valamint képszűrők alkalmazásához.';
+  String get demoSlidersDescription =>
+      'A csúszkák értéktartományt jelenítenek meg egy sáv mentén, és a felhasználók ebből a tartományból választhatják ki a kívánt értéket. A csúszkák ideális összetevők olyan beállítások módosításához, mint például a hangerő és a fényerő, valamint képszűrők alkalmazásához.';
 
   @override
   String get demoRangeSlidersTitle => 'Tartománycsúszkák';
 
   @override
-  String get demoRangeSlidersDescription => 'A csúszkák értéktartományt jelenítenek meg egy sáv mentén. A csúszkáknál a sáv mindkét végén ikonok jelezhetik az értéktartományt. A csúszkák ideális összetevők olyan beállítások módosításához, mint például a hangerő és a fényerő, valamint képszűrők alkalmazásához.';
+  String get demoRangeSlidersDescription =>
+      'A csúszkák értéktartományt jelenítenek meg egy sáv mentén. A csúszkáknál a sáv mindkét végén ikonok jelezhetik az értéktartományt. A csúszkák ideális összetevők olyan beállítások módosításához, mint például a hangerő és a fényerő, valamint képszűrők alkalmazásához.';
 
   @override
   String get demoCustomSlidersTitle => 'Egyéni csúszkák';
 
   @override
-  String get demoCustomSlidersDescription => 'A csúszkák értéktartományt jelenítenek meg egy sáv mentén, és a felhasználók ebből a tartományból választhatják ki a kívánt értéket vagy értéktartományt. A csúszkák személyre szabhatók, és témájuk módosítható.';
+  String get demoCustomSlidersDescription =>
+      'A csúszkák értéktartományt jelenítenek meg egy sáv mentén, és a felhasználók ebből a tartományból választhatják ki a kívánt értéket vagy értéktartományt. A csúszkák személyre szabhatók, és témájuk módosítható.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Folyamatos csúszka szerkeszthető számértékkel';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Folyamatos csúszka szerkeszthető számértékkel';
 
   @override
   String get demoSlidersDiscrete => 'Tagolt';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Tagolt csúszka egyéni témával';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Tagolt csúszka egyéni témával';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Folyamatos tartománycsúszka egyéni témával';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Folyamatos tartománycsúszka egyéni témával';
 
   @override
   String get demoSlidersContinuous => 'Folyamatos';
@@ -741,7 +785,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Menügombok és egyszerű menük';
 
   @override
-  String get demoMenuDescription => 'Egy menü válaszlehetőségek listáját jeleníti meg egy ideiglenes felületen. Akkor jelenik meg, amikor a felhasználó valamilyen gombot, műveletet vagy másféle vezérlőelemet használ.';
+  String get demoMenuDescription =>
+      'Egy menü válaszlehetőségek listáját jeleníti meg egy ideiglenes felületen. Akkor jelenik meg, amikor a felhasználó valamilyen gombot, műveletet vagy másféle vezérlőelemet használ.';
 
   @override
   String get demoMenuItemValueOne => 'Első menüelem';
@@ -805,10 +850,12 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoNavigationDrawerTitle => 'Navigációs fiók';
 
   @override
-  String get demoNavigationDrawerSubtitle => 'Fiók megjelenítése az alkalmazássávon belül';
+  String get demoNavigationDrawerSubtitle =>
+      'Fiók megjelenítése az alkalmazássávon belül';
 
   @override
-  String get demoNavigationDrawerDescription => 'Material Design panel, amely vízszintesen húzódik befelé a képernyő szélétől, és navigációs linkeket jelenít meg az adott alkalmazásban.';
+  String get demoNavigationDrawerDescription =>
+      'Material Design panel, amely vízszintesen húzódik befelé a képernyő szélétől, és navigációs linkeket jelenít meg az adott alkalmazásban.';
 
   @override
   String get demoNavigationDrawerUserName => 'Felhasználói név';
@@ -823,16 +870,19 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Második elem';
 
   @override
-  String get demoNavigationDrawerText => 'A fiók megjelenítéséhez csúsztasson a szélétől, vagy koppintson a bal felső sarokban található ikonra';
+  String get demoNavigationDrawerText =>
+      'A fiók megjelenítéséhez csúsztasson a szélétől, vagy koppintson a bal felső sarokban található ikonra';
 
   @override
   String get demoNavigationRailTitle => 'Navigációs sáv';
 
   @override
-  String get demoNavigationRailSubtitle => 'Navigációs sáv megjelenítése az adott alkalmazáson belül';
+  String get demoNavigationRailSubtitle =>
+      'Navigációs sáv megjelenítése az adott alkalmazáson belül';
 
   @override
-  String get demoNavigationRailDescription => 'Anyagi modul, amely az adott alkalmazás bal vagy jobb oldalán jelenik meg, és néhány (jellemzően három és öt) nézet közötti navigálásra szolgál.';
+  String get demoNavigationRailDescription =>
+      'Anyagi modul, amely az adott alkalmazás bal vagy jobb oldalán jelenik meg, és néhány (jellemzően három és öt) nézet közötti navigálásra szolgál.';
 
   @override
   String get demoNavigationRailFirst => 'Első';
@@ -847,22 +897,26 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoMenuAnItemWithASimpleMenu => 'Elem egyszerű menüvel';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Elem ellenőrző listás menüvel';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Elem ellenőrző listás menüvel';
 
   @override
   String get demoFullscreenDialogTitle => 'Teljes képernyő';
 
   @override
-  String get demoFullscreenDialogDescription => 'A fullscreenDialog tulajdonság határozza meg, hogy az érkezési oldal teljes képernyős moduláris párbeszédpanel-e';
+  String get demoFullscreenDialogDescription =>
+      'A fullscreenDialog tulajdonság határozza meg, hogy az érkezési oldal teljes képernyős moduláris párbeszédpanel-e';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Tevékenységjelző';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'iOS-stílusú tevékenységjelzők';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'iOS-stílusú tevékenységjelzők';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'iOS-stílusú tevékenységjelző, amely az óramutató járásával megegyezően forog.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'iOS-stílusú tevékenységjelző, amely az óramutató járásával megegyezően forog.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Gombok';
@@ -871,7 +925,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'iOS-stílusú gombok';
 
   @override
-  String get demoCupertinoButtonsDescription => 'iOS-stílusú gomb. Érintésre megjelenő és eltűnő szöveget és/vagy ikont foglal magában. Tetszés szerint rendelkezhet háttérrel is.';
+  String get demoCupertinoButtonsDescription =>
+      'iOS-stílusú gomb. Érintésre megjelenő és eltűnő szöveget és/vagy ikont foglal magában. Tetszés szerint rendelkezhet háttérrel is.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +935,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,19 +945,22 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Értesítések';
 
   @override
-  String get demoCupertinoAlertsSubtitle => 'iOS-stílusú értesítési párbeszédpanelek';
+  String get demoCupertinoAlertsSubtitle =>
+      'iOS-stílusú értesítési párbeszédpanelek';
 
   @override
   String get demoCupertinoAlertTitle => 'Figyelmeztetés';
 
   @override
-  String get demoCupertinoAlertDescription => 'Egy párbeszédpanel tájékoztatja a felhasználót a figyelmét igénylő helyzetekről. Az értesítési párbeszédpanel nem kötelező címmel, nem kötelező tartalommal és nem kötelező műveletlistával rendelkezik. A cím a tartalom felett, a műveletek pedig a tartalom alatt jelennek meg.';
+  String get demoCupertinoAlertDescription =>
+      'Egy párbeszédpanel tájékoztatja a felhasználót a figyelmét igénylő helyzetekről. Az értesítési párbeszédpanel nem kötelező címmel, nem kötelező tartalommal és nem kötelező műveletlistával rendelkezik. A cím a tartalom felett, a műveletek pedig a tartalom alatt jelennek meg.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Értesítés címmel';
@@ -916,7 +975,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'Műveleti munkalap';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'A műveleti lapok olyan speciális stílusú értesítések, amelyek két vagy több választást biztosítanak a felhasználónak az adott kontextusban. A műveleti lapnak lehet címe, további üzenete és műveleti listája.';
+  String get demoCupertinoActionSheetDescription =>
+      'A műveleti lapok olyan speciális stílusú értesítések, amelyek két vagy több választást biztosítanak a felhasználónak az adott kontextusban. A műveleti lapnak lehet címe, további üzenete és műveleti listája.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Navigációs sáv';
@@ -925,16 +985,19 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoCupertinoNavigationBarSubtitle => 'iOS-stílusú navigációs sáv';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'iOS-stílusú navigációs sáv. A navigációs sáv olyan eszköztár, amely legalább az oldal címét tartalmazza az eszköztár közepén.';
+  String get demoCupertinoNavigationBarDescription =>
+      'iOS-stílusú navigációs sáv. A navigációs sáv olyan eszköztár, amely legalább az oldal címét tartalmazza az eszköztár közepén.';
 
   @override
   String get demoCupertinoPickerTitle => 'Választók';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'iOS-stílusú dátum- és időválasztók';
+  String get demoCupertinoPickerSubtitle =>
+      'iOS-stílusú dátum- és időválasztók';
 
   @override
-  String get demoCupertinoPickerDescription => 'iOS-stílusú választómodul, amelyet dátumok, időpontok, illetve dátumok és időpontok egyidejű kiválasztására lehet használni.';
+  String get demoCupertinoPickerDescription =>
+      'iOS-stílusú választómodul, amelyet dátumok, időpontok, illetve dátumok és időpontok egyidejű kiválasztására lehet használni.';
 
   @override
   String get demoCupertinoPickerTimer => 'Időzítő';
@@ -952,19 +1015,23 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'Húzza le a frissítéshez';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'iOS-stílusú vezérlő a lehúzással való frissítéshez';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'iOS-stílusú vezérlő a lehúzással való frissítéshez';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'A lehúzással való frissítéshez tartozó iOS-stílusú vezérlőt megvalósító modul.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'A lehúzással való frissítéshez tartozó iOS-stílusú vezérlőt megvalósító modul.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Szegmentált vezérlés';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'iOS-stílusú szegmentált vezérlés';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'iOS-stílusú szegmentált vezérlés';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Több, egymást kölcsönösen kizáró lehetőség közüli választásra szolgál. Amikor a felhasználó kiválasztja valamelyik lehetőséget a szegmentált vezérlésben, a többi lehetőség nem lesz választható.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Több, egymást kölcsönösen kizáró lehetőség közüli választásra szolgál. Amikor a felhasználó kiválasztja valamelyik lehetőséget a szegmentált vezérlésben, a többi lehetőség nem lesz választható.';
 
   @override
   String get demoCupertinoSliderTitle => 'Csúszka';
@@ -973,7 +1040,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'iOS-stílusú csúszka';
 
   @override
-  String get demoCupertinoSliderDescription => 'A csúszkával folyamatos vagy diszkrét értékkészletből lehet választani.';
+  String get demoCupertinoSliderDescription =>
+      'A csúszkával folyamatos vagy diszkrét értékkészletből lehet választani.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,7 +1057,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'iOS-stílusú kapcsoló';
 
   @override
-  String get demoCupertinoSwitchDescription => 'A kapcsolóval egy adott beállítás be- vagy kikapcsolt állapotát lehet állítani.';
+  String get demoCupertinoSwitchDescription =>
+      'A kapcsolóval egy adott beállítás be- vagy kikapcsolt állapotát lehet állítani.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Fülsáv';
@@ -998,7 +1067,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'iOS-stílusú fülsáv';
 
   @override
-  String get demoCupertinoTabBarDescription => 'iOS-stílusú, alsó navigációs lapfülsáv. Több lapfület jelenít meg, amelyek közül az egyik aktív (alapértelmezés szerint az első).';
+  String get demoCupertinoTabBarDescription =>
+      'iOS-stílusú, alsó navigációs lapfülsáv. Több lapfület jelenít meg, amelyek közül az egyik aktív (alapértelmezés szerint az első).';
 
   @override
   String get cupertinoTabBarHomeTab => 'Kezdőlap';
@@ -1016,7 +1086,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'iOS-stílusú szövegmezők';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'A szövegmezőbe a felhasználók beírhatnak szöveget hardveres vagy képernyő-billentyűzettel.';
+  String get demoCupertinoTextFieldDescription =>
+      'A szövegmezőbe a felhasználók beírhatnak szöveget hardveres vagy képernyő-billentyűzettel.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN-kód';
@@ -1025,16 +1096,19 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoMotionTitle => 'Mozgás';
 
   @override
-  String get demoMotionSubtitle => 'Az előre meghatározott áttűnési minták mindegyike';
+  String get demoMotionSubtitle =>
+      'Az előre meghatározott áttűnési minták mindegyike';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'Kártyák, listák és lebegő műveletgomb';
+  String get demoContainerTransformDemoInstructions =>
+      'Kártyák, listák és lebegő műveletgomb';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'Következő és Vissza gomb';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'Rendezés a „Nemrég lejátszott” lehetőség szerint';
+  String get demoSharedYAxisDemoInstructions =>
+      'Rendezés a „Nemrég lejátszott” lehetőség szerint';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'Beállítások ikon gombja';
@@ -1043,13 +1117,15 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoFadeThroughDemoInstructions => 'Alsó navigáció';
 
   @override
-  String get demoFadeScaleDemoInstructions => 'Modális ablak és lebegő műveletgomb';
+  String get demoFadeScaleDemoInstructions =>
+      'Modális ablak és lebegő műveletgomb';
 
   @override
   String get demoContainerTransformTitle => 'Tároló átalakulása';
 
   @override
-  String get demoContainerTransformDescription => 'A tároló átalakulása minta a tárolót tartalmazó UI-elemek közötti áttűnések megvalósítására szolgál. Ez a minta látható kapcsolatot hoz létre két UI-elem között';
+  String get demoContainerTransformDescription =>
+      'A tároló átalakulása minta a tárolót tartalmazó UI-elemek közötti áttűnések megvalósítására szolgál. Ez a minta látható kapcsolatot hoz létre két UI-elem között';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'Halványítás mód';
@@ -1076,7 +1152,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Listaelem';
 
   @override
-  String get demoSharedAxisDescription => 'A megosztott tengely mintát a térbeli vagy navigációs kapcsolattal rendelkező UI-elemek közötti átmenetekhez használja a rendszer. Ez a minta megosztott átalakítást használ az x, az y vagy a z tengelyen az elemek közötti kapcsolat megerősítéséhez.';
+  String get demoSharedAxisDescription =>
+      'A megosztott tengely mintát a térbeli vagy navigációs kapcsolattal rendelkező UI-elemek közötti átmenetekhez használja a rendszer. Ez a minta megosztott átalakítást használ az x, az y vagy a z tengelyen az elemek közötti kapcsolat megerősítéséhez.';
 
   @override
   String get demoSharedXAxisTitle => 'Megosztott x tengely';
@@ -1091,7 +1168,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'A kurzusok észszerűsítése';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'A csomagolt kategóriák csoportokként jelennek meg a hírcsatornában. Ezt később bármikor megváltoztathatja.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'A csomagolt kategóriák csoportokként jelennek meg a hírcsatornában. Ezt később bármikor megváltoztathatja.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Kézművesség';
@@ -1112,7 +1190,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoSharedXAxisBundledCourseSubtitle => 'Kategorizált';
 
   @override
-  String get demoSharedXAxisIndividualCourseSubtitle => 'Egyénileg megjelenítve';
+  String get demoSharedXAxisIndividualCourseSubtitle =>
+      'Egyénileg megjelenítve';
 
   @override
   String get demoSharedXAxisSignInWelcomeText => 'Üdv, David Park!';
@@ -1121,10 +1200,12 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoSharedXAxisSignInSubtitleText => 'Jelentkezzen be fiókjával';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'E-mail-cím vagy telefonszám';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'E-mail-cím vagy telefonszám';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'ELFELEJTETTE AZ E-MAIL-CÍMÉT?';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'ELFELEJTETTE AZ E-MAIL-CÍMÉT?';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'FIÓK LÉTREHOZÁSA';
@@ -1178,7 +1259,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Garnélarák';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Garnélatál receptje';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Garnélatál receptje';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Rák';
@@ -1190,7 +1272,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Marhahúsos szendvics';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Marhahúsos szendvics receptje';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Marhahúsos szendvics receptje';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Mentett receptek';
@@ -1211,7 +1294,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Áttűnés';
 
   @override
-  String get demoFadeThroughDescription => 'Az áttűnés mintát olyan UI-elemek közötti átmenetekhez használja a rendszer, amelyek között nincs szoros kapcsolat.';
+  String get demoFadeThroughDescription =>
+      'Az áttűnés mintát olyan UI-elemek közötti átmenetekhez használja a rendszer, amelyek között nincs szoros kapcsolat.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Albumok';
@@ -1229,10 +1313,12 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Halványítás';
 
   @override
-  String get demoFadeScaleDescription => 'A halványítás mintát olyan UI-elemek esetén használja a rendszer, amelyek a képernyő határain belül lépnek be vagy ki (például a képernyő közepén elhalványuló párbeszédablak esetén).';
+  String get demoFadeScaleDescription =>
+      'A halványítás mintát olyan UI-elemek esetén használja a rendszer, amelyek a képernyő határain belül lépnek be vagy ki (például a képernyő közepén elhalványuló párbeszédablak esetén).';
 
   @override
-  String get demoFadeScaleShowAlertDialogButton => 'MODÁLIS ABLAK MEGJELENÍTÉSE';
+  String get demoFadeScaleShowAlertDialogButton =>
+      'MODÁLIS ABLAK MEGJELENÍTÉSE';
 
   @override
   String get demoFadeScaleShowFabButton => 'LEBEGŐ MŰVELETGOMB MEGJELENÍTÉSE';
@@ -1256,25 +1342,30 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Az összes előre definiált szín';
 
   @override
-  String get demoColorsDescription => 'Színek és állandó színkorongok, amelyek az anyagszerű megjelenés színpalettáját képviselik.';
+  String get demoColorsDescription =>
+      'Színek és állandó színkorongok, amelyek az anyagszerű megjelenés színpalettáját képviselik.';
 
   @override
   String get demoTypographyTitle => 'Tipográfia';
 
   @override
-  String get demoTypographySubtitle => 'Az előre meghatározott szövegstílusok mindegyike';
+  String get demoTypographySubtitle =>
+      'Az előre meghatározott szövegstílusok mindegyike';
 
   @override
-  String get demoTypographyDescription => 'Az anyagszerű megjelenésben található különböző tipográfiai stílusok meghatározásai.';
+  String get demoTypographyDescription =>
+      'Az anyagszerű megjelenésben található különböző tipográfiai stílusok meghatározásai.';
 
   @override
   String get demo2dTransformationsTitle => '2D-s átalakítások';
 
   @override
-  String get demo2dTransformationsSubtitle => 'Pásztázás, nagyítás/kicsinyítés, forgatás';
+  String get demo2dTransformationsSubtitle =>
+      'Pásztázás, nagyítás/kicsinyítés, forgatás';
 
   @override
-  String get demo2dTransformationsDescription => 'A mozaikok szerkesztéséhez koppintson, a jelenetben való mozgáshoz pedig használjon kézmozdulatokat. Húzza ujját a pásztázáshoz, húzza össze ujjait a nagyításhoz/kicsinyítéshez, és használja két ujját a forgatáshoz. Nyomja meg a visszaállítás gombot a kezdő tájoláshoz való visszatéréshez.';
+  String get demo2dTransformationsDescription =>
+      'A mozaikok szerkesztéséhez koppintson, a jelenetben való mozgáshoz pedig használjon kézmozdulatokat. Húzza ujját a pásztázáshoz, húzza össze ujjait a nagyításhoz/kicsinyítéshez, és használja két ujját a forgatáshoz. Nyomja meg a visszaállítás gombot a kezdő tájoláshoz való visszatéréshez.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Átalakítások visszaállítása';
@@ -1295,13 +1386,15 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'Állandó alsó lap';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Az állandó alsó lap olyan információkat jelenít meg, amelyek kiegészítik az alkalmazás elsődleges tartalmát. Az állandó alsó lap még akkor is látható marad, amikor a felhasználó az alkalmazás más részeit használja.';
+  String get demoBottomSheetPersistentDescription =>
+      'Az állandó alsó lap olyan információkat jelenít meg, amelyek kiegészítik az alkalmazás elsődleges tartalmát. Az állandó alsó lap még akkor is látható marad, amikor a felhasználó az alkalmazás más részeit használja.';
 
   @override
   String get demoBottomSheetModalTitle => 'Modális alsó lap';
 
   @override
-  String get demoBottomSheetModalDescription => 'A modális alsó lap a menü és a párbeszédpanel alternatívája, és segítségével megakadályozható, hogy a felhasználó az alkalmazás többi részét használja.';
+  String get demoBottomSheetModalDescription =>
+      'A modális alsó lap a menü és a párbeszédpanel alternatívája, és segítségével megakadályozható, hogy a felhasználó az alkalmazás többi részét használja.';
 
   @override
   String get demoBottomSheetAddLabel => 'Hozzáadás';
@@ -1324,7 +1417,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoListsSubtitle => 'Görgethető lista elrendezései';
 
   @override
-  String get demoListsDescription => 'Egyetlen, fix magasságú sor, amely általában szöveget tartalmaz, és az elején vagy végén ikon található.';
+  String get demoListsDescription =>
+      'Egyetlen, fix magasságú sor, amely általában szöveget tartalmaz, és az elején vagy végén ikon található.';
 
   @override
   String get demoOneLineListsTitle => 'Egysoros';
@@ -1339,19 +1433,22 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoProgressIndicatorTitle => 'Folyamatjelzők';
 
   @override
-  String get demoProgressIndicatorSubtitle => 'Lineáris, körkörös, meghatározatlan ideig tartó';
+  String get demoProgressIndicatorSubtitle =>
+      'Lineáris, körkörös, meghatározatlan ideig tartó';
 
   @override
   String get demoCircularProgressIndicatorTitle => 'Körkörös folyamatjelző';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Körkörös Material Design-folyamatjelző, amely forgással jelzi, hogy az alkalmazás dolgozik.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Körkörös Material Design-folyamatjelző, amely forgással jelzi, hogy az alkalmazás dolgozik.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'Lineáris folyamatjelző';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Lineáris Material Design-folyamatjelző, amely folyamatjelző sávként is ismert.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Lineáris Material Design-folyamatjelző, amely folyamatjelző sávként is ismert.';
 
   @override
   String get demoPickersTitle => 'Választók';
@@ -1363,19 +1460,22 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Dátumválasztó';
 
   @override
-  String get demoDatePickerDescription => 'Anyagszerű megjelenéssel rendelkező dátumválasztót tartalmazó párbeszédpanelt jelenít meg.';
+  String get demoDatePickerDescription =>
+      'Anyagszerű megjelenéssel rendelkező dátumválasztót tartalmazó párbeszédpanelt jelenít meg.';
 
   @override
   String get demoTimePickerTitle => 'Időpontválasztó';
 
   @override
-  String get demoTimePickerDescription => 'Anyagszerű megjelenéssel rendelkező időpontválasztót tartalmazó párbeszédpanelt jelenít meg.';
+  String get demoTimePickerDescription =>
+      'Anyagszerű megjelenéssel rendelkező időpontválasztót tartalmazó párbeszédpanelt jelenít meg.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'VÁLASZTÓ MEGJELENÍTÉSE';
@@ -1390,19 +1490,23 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoTabsNonScrollingTitle => 'Nem görgethető';
 
   @override
-  String get demoTabsSubtitle => 'Lapok egymástól függetlenül görgethető nézettel';
+  String get demoTabsSubtitle =>
+      'Lapok egymástól függetlenül görgethető nézettel';
 
   @override
-  String get demoTabsDescription => 'A lapok rendszerezik a tartalmakat különböző képernyőkön, adathalmazokban és egyéb interakciók során.';
+  String get demoTabsDescription =>
+      'A lapok rendszerezik a tartalmakat különböző képernyőkön, adathalmazokban és egyéb interakciók során.';
 
   @override
   String get demoSnackbarsTitle => 'Információs sávok';
 
   @override
-  String get demoSnackbarsSubtitle => 'Az információs sávok üzeneteket jelenítenek meg a képernyő alján';
+  String get demoSnackbarsSubtitle =>
+      'Az információs sávok üzeneteket jelenítenek meg a képernyő alján';
 
   @override
-  String get demoSnackbarsDescription => 'Az információs sávok arról tájékoztatják a felhasználókat, hogy valamelyik alkalmazás melyik folyamatot végezte el vagy fogja elvégezni. A képernyő alján, rövid időre jelennek meg. Nem zavarhatják meg a felhasználói élményt, és nem követelhetnek meg felhasználói beavatkozást ahhoz, hogy eltűnjenek.';
+  String get demoSnackbarsDescription =>
+      'Az információs sávok arról tájékoztatják a felhasználókat, hogy valamelyik alkalmazás melyik folyamatot végezte el vagy fogja elvégezni. A képernyő alján, rövid időre jelennek meg. Nem zavarhatják meg a felhasználói élményt, és nem követelhetnek meg felhasználói beavatkozást ahhoz, hogy eltűnjenek.';
 
   @override
   String get demoSnackbarsButtonLabel => 'PÉLDA AZ INFORMÁCIÓS SÁVRA';
@@ -1414,31 +1518,36 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoSnackbarsActionButtonLabel => 'MŰVELET';
 
   @override
-  String get demoSnackbarsAction => 'Megnyomta az információs sávról elvégezhető művelet gombját.';
+  String get demoSnackbarsAction =>
+      'Megnyomta az információs sávról elvégezhető művelet gombját.';
 
   @override
   String get demoSelectionControlsTitle => 'Kiválasztásvezérlők';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Jelölőnégyzetek, választógombok és kapcsolók';
+  String get demoSelectionControlsSubtitle =>
+      'Jelölőnégyzetek, választógombok és kapcsolók';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Jelölőnégyzet';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'A jelölőnégyzetek lehetővé teszik a felhasználó számára, hogy egy adott csoportból több lehetőséget is kiválasszon. A normál jelölőnégyzetek értéke igaz vagy hamis lehet, míg a háromállapotú jelölőnégyzetek a null értéket is felvehetik.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'A jelölőnégyzetek lehetővé teszik a felhasználó számára, hogy egy adott csoportból több lehetőséget is kiválasszon. A normál jelölőnégyzetek értéke igaz vagy hamis lehet, míg a háromállapotú jelölőnégyzetek a null értéket is felvehetik.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Választógomb';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'A választógombok lehetővé teszik, hogy a felhasználó kiválassza a csoportban lévő valamelyik lehetőséget. A választógombok használata kizárólagos kiválasztást eredményez, amelyet akkor érdemes használnia, ha úgy gondolja, hogy a felhasználónak egyszerre kell látnia az összes választható lehetőséget.';
+  String get demoSelectionControlsRadioDescription =>
+      'A választógombok lehetővé teszik, hogy a felhasználó kiválassza a csoportban lévő valamelyik lehetőséget. A választógombok használata kizárólagos kiválasztást eredményez, amelyet akkor érdemes használnia, ha úgy gondolja, hogy a felhasználónak egyszerre kell látnia az összes választható lehetőséget.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Kapcsoló';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'A be- és kikapcsolásra szolgáló gomb egyetlen beállítás állapotát módosítja. Annak a beállításnak, amelyet a kapcsoló vezérel, valamint annak, hogy éppen be- vagy kikapcsolt állapotban van-e a kapcsoló, egyértelműnek kell lennie a megfelelő szövegközi címkéből.';
+  String get demoSelectionControlsSwitchDescription =>
+      'A be- és kikapcsolásra szolgáló gomb egyetlen beállítás állapotát módosítja. Annak a beállításnak, amelyet a kapcsoló vezérel, valamint annak, hogy éppen be- vagy kikapcsolt állapotban van-e a kapcsoló, egyértelműnek kell lennie a megfelelő szövegközi címkéből.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Szövegmezők';
@@ -1447,10 +1556,12 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoTextFieldTitle => 'Szövegmezők';
 
   @override
-  String get demoTextFieldSubtitle => 'Egy sornyi szerkeszthető szöveg és számok';
+  String get demoTextFieldSubtitle =>
+      'Egy sornyi szerkeszthető szöveg és számok';
 
   @override
-  String get demoTextFieldDescription => 'A szöveges mezők segítségével a felhasználók szöveget adhatnak meg egy kezelőfelületen. Jellemzően az űrlapokon és párbeszédpanelekben jelennek meg.';
+  String get demoTextFieldDescription =>
+      'A szöveges mezők segítségével a felhasználók szöveget adhatnak meg egy kezelőfelületen. Jellemzően az űrlapokon és párbeszédpanelekben jelennek meg.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Jelszó megjelenítése';
@@ -1459,16 +1570,19 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Jelszó elrejtése';
 
   @override
-  String get demoTextFieldFormErrors => 'Kérjük, javítsa ki a piros színű hibákat a beküldés előtt.';
+  String get demoTextFieldFormErrors =>
+      'Kérjük, javítsa ki a piros színű hibákat a beküldés előtt.';
 
   @override
   String get demoTextFieldNameRequired => 'A név megadása kötelező.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'Kérjük, csak az ábécé karaktereit használja.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'Kérjük, csak az ábécé karaktereit használja.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### – Adjon meg egy USA-beli telefonszámot.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### – Adjon meg egy USA-beli telefonszámot.';
 
   @override
   String get demoTextFieldEnterPassword => 'Írjon be egy jelszót.';
@@ -1495,7 +1609,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoTextFieldEmail => 'E-mail-cím';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Beszéljen magáról (pl. írja le, hogy mivel foglalkozik vagy mik a hobbijai)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Beszéljen magáról (pl. írja le, hogy mivel foglalkozik vagy mik a hobbijai)';
 
   @override
   String get demoTextFieldKeepItShort => 'Legyen rövid, ez csak egy demó.';
@@ -1533,13 +1648,16 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get demoTooltipTitle => 'Elemleírások';
 
   @override
-  String get demoTooltipSubtitle => 'Rövid üzenet, amely a kapcsolódó elem hosszú megnyomásakor vagy az egérrel való rámutatáskor jelenik meg';
+  String get demoTooltipSubtitle =>
+      'Rövid üzenet, amely a kapcsolódó elem hosszú megnyomásakor vagy az egérrel való rámutatáskor jelenik meg';
 
   @override
-  String get demoTooltipDescription => 'Az elemleírások szöveges címkéket tartalmaznak, amelyek segítik az adott gomb vagy más kezelőfelületi művelet funkciójának a megértését. Az elemleírások informatív szöveget jelenítenek meg, amikor a felhasználók az adott elem fölé viszik az egeret, az adott elemre fókuszálnak, vagy hosszan nyomják az adott elemet.';
+  String get demoTooltipDescription =>
+      'Az elemleírások szöveges címkéket tartalmaznak, amelyek segítik az adott gomb vagy más kezelőfelületi művelet funkciójának a megértését. Az elemleírások informatív szöveget jelenítenek meg, amikor a felhasználók az adott elem fölé viszik az egeret, az adott elemre fókuszálnak, vagy hosszan nyomják az adott elemet.';
 
   @override
-  String get demoTooltipInstructions => 'Az elemleírás megjelenítéséhez nyomja hosszan a kapcsolódó elemet, vagy vigye rá az egeret.';
+  String get demoTooltipInstructions =>
+      'Az elemleírás megjelenítéséhez nyomja hosszan a kapcsolódó elemet, vagy vigye rá az egeret.';
 
   @override
   String get bottomNavigationCommentsTab => 'Megjegyzések';
@@ -1597,10 +1715,12 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get dialogDiscardTitle => 'Elveti a piszkozatot?';
 
   @override
-  String get dialogLocationTitle => 'Használni kívánja a Google Helyszolgáltatásokat?';
+  String get dialogLocationTitle =>
+      'Használni kívánja a Google Helyszolgáltatásokat?';
 
   @override
-  String get dialogLocationDescription => 'Hagyja, hogy a Google segítsen az alkalmazásoknak a helymeghatározásban. Ez névtelen helyadatok küldését jelenti a Google-nak, még akkor is, ha egyetlen alkalmazás sem fut.';
+  String get dialogLocationDescription =>
+      'Hagyja, hogy a Google segítsen az alkalmazásoknak a helymeghatározásban. Ez névtelen helyadatok küldését jelenti a Google-nak, még akkor is, ha egyetlen alkalmazás sem fut.';
 
   @override
   String get dialogCancel => 'MÉGSE';
@@ -1630,7 +1750,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get dialogFullscreenSave => 'MENTÉS';
 
   @override
-  String get dialogFullscreenDescription => 'Teljes képernyős párbeszédpanel demója';
+  String get dialogFullscreenDescription =>
+      'Teljes képernyős párbeszédpanel demója';
 
   @override
   String get cupertinoButton => 'Gomb';
@@ -1645,10 +1766,12 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Elvetés';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Engedélyezi a „Térkép” számára a hozzáférést tartózkodási helyéhez, amíg az alkalmazást használja?';
+  String get cupertinoAlertLocationTitle =>
+      'Engedélyezi a „Térkép” számára a hozzáférést tartózkodási helyéhez, amíg az alkalmazást használja?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Aktuális tartózkodási helye megjelenik a térképen, és a rendszer felhasználja az útvonaltervekhez, a közelben lévő keresési eredményekhez és a becsült utazási időkhöz.';
+  String get cupertinoAlertLocationDescription =>
+      'Aktuális tartózkodási helye megjelenik a térképen, és a rendszer felhasználja az útvonaltervekhez, a közelben lévő keresési eredményekhez és a becsült utazási időkhöz.';
 
   @override
   String get cupertinoAlertAllow => 'Engedélyezés';
@@ -1660,7 +1783,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Kedvenc desszert kiválasztása';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Válaszd ki kedvenc desszertfajtádat az alábbi listából. A kiválasztott ételek alapján a rendszer személyre szabja a közeli étkezési lehetőségek javasolt listáját.';
+  String get cupertinoAlertDessertDescription =>
+      'Válaszd ki kedvenc desszertfajtádat az alábbi listából. A kiválasztott ételek alapján a rendszer személyre szabja a közeli étkezési lehetőségek javasolt listáját.';
 
   @override
   String get cupertinoAlertCheesecake => 'Sajttorta';
@@ -1965,7 +2089,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get shrineProductNavyTrousers => 'Matrózkék nadrág';
 
   @override
-  String get shrineProductWalterHenleyWhite => '„Walter” henley stílusú póló (fehér)';
+  String get shrineProductWalterHenleyWhite =>
+      '„Walter” henley stílusú póló (fehér)';
 
   @override
   String get shrineProductSurfAndPerfShirt => '„Surf and perf” póló';
@@ -1980,7 +2105,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get shrineProductClassicWhiteCollar => 'Klasszikus fehér gallér';
 
   @override
-  String get shrineProductCeriseScallopTee => '„Cerise” lekerekített alsó szegélyű póló';
+  String get shrineProductCeriseScallopTee =>
+      '„Cerise” lekerekített alsó szegélyű póló';
 
   @override
   String get shrineProductShoulderRollsTee => 'Váll néküli felső';
@@ -2261,7 +2387,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get craneFly5SemanticLabel => 'Hegyek előtt, tó partján álló szálloda';
 
   @override
-  String get craneFly6SemanticLabel => 'Légi felvétel a Szépművészeti Palotáról';
+  String get craneFly6SemanticLabel =>
+      'Légi felvétel a Szépművészeti Palotáról';
 
   @override
   String get craneFly7SemanticLabel => 'Rushmore-hegy';
@@ -2273,10 +2400,12 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get craneFly9SemanticLabel => 'Régi kék autóra támaszkodó férfi';
 
   @override
-  String get craneFly10SemanticLabel => 'Az Al-Azhar mecset tornyai a lemenő nap fényében';
+  String get craneFly10SemanticLabel =>
+      'Az Al-Azhar mecset tornyai a lemenő nap fényében';
 
   @override
-  String get craneFly11SemanticLabel => 'Téglaépítésű világítótorony a tengeren';
+  String get craneFly11SemanticLabel =>
+      'Téglaépítésű világítótorony a tengeren';
 
   @override
   String get craneFly12SemanticLabel => 'Medence pálmafákkal';
@@ -2288,7 +2417,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get craneSleep0SemanticLabel => 'Vízen álló nyaralóházak';
 
   @override
-  String get craneSleep1SemanticLabel => 'Faház havas tájon, örökzöld fák között';
+  String get craneSleep1SemanticLabel =>
+      'Faház havas tájon, örökzöld fák között';
 
   @override
   String get craneSleep2SemanticLabel => 'A Machu Picchu fellegvára';
@@ -2297,7 +2427,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get craneSleep3SemanticLabel => 'Régi kék autóra támaszkodó férfi';
 
   @override
-  String get craneSleep4SemanticLabel => 'Hegyek előtt, tó partján álló szálloda';
+  String get craneSleep4SemanticLabel =>
+      'Hegyek előtt, tó partján álló szálloda';
 
   @override
   String get craneSleep5SemanticLabel => 'Sátor egy mezőn';
@@ -2312,10 +2443,12 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get craneSleep8SemanticLabel => 'Maja romok egy tengerparti sziklán';
 
   @override
-  String get craneSleep9SemanticLabel => 'Téglaépítésű világítótorony a tengeren';
+  String get craneSleep9SemanticLabel =>
+      'Téglaépítésű világítótorony a tengeren';
 
   @override
-  String get craneSleep10SemanticLabel => 'Az Al-Azhar mecset tornyai a lemenő nap fényében';
+  String get craneSleep10SemanticLabel =>
+      'Az Al-Azhar mecset tornyai a lemenő nap fényében';
 
   @override
   String get craneSleep11SemanticLabel => 'A Taipei 101 felhőkarcoló';
@@ -2324,7 +2457,8 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get craneEat0SemanticLabel => 'Pizza egy fatüzelésű sütőben';
 
   @override
-  String get craneEat1SemanticLabel => 'Üres bár vendéglőkben használatos bárszékekkel';
+  String get craneEat1SemanticLabel =>
+      'Üres bár vendéglőkben használatos bárszékekkel';
 
   @override
   String get craneEat2SemanticLabel => 'Hamburger';
@@ -2402,10 +2536,12 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Legújabb frissítések';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'A csendes, mégis erőteljes egészségügyi forradalom';
+  String get fortnightlyHeadlineHealthcare =>
+      'A csendes, mégis erőteljes egészségügyi forradalom';
 
   @override
-  String get fortnightlyHeadlineWar => 'Háború során szétválasztott amerikai életek';
+  String get fortnightlyHeadlineWar =>
+      'Háború során szétválasztott amerikai életek';
 
   @override
   String get fortnightlyHeadlineGasoline => 'A benzin jövője';
@@ -2414,10 +2550,12 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'A Zöld sereg belső reformja';
 
   @override
-  String get fortnightlyHeadlineStocks => 'A tőzsde stagnálásával minden szempár a valutára szegeződik';
+  String get fortnightlyHeadlineStocks =>
+      'A tőzsde stagnálásával minden szempár a valutára szegeződik';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'A tervezők a technológiát hívják segítségül futurisztikus anyagok megalkotásához';
+  String get fortnightlyHeadlineFabrics =>
+      'A tervezők a technológiát hívják segítségül futurisztikus anyagok megalkotásához';
 
   @override
   String get fortnightlyHeadlineFeminists => 'A feministák pártot választanak';

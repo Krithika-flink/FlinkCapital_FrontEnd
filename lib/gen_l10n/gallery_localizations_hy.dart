@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get signIn => 'ՄՈՒՏՔ';
 
   @override
-  String get bannerDemoText => 'Ձեր գաղտնաբառը թարմացվել է ձեր մյուս սարքում։ Նորից մուտք գործեք հաշիվ։';
+  String get bannerDemoText =>
+      'Ձեր գաղտնաբառը թարմացվել է ձեր մյուս սարքում։ Նորից մուտք գործեք հաշիվ։';
 
   @override
   String get bannerDemoResetText => 'Վերակայել ազդերիզը';
@@ -60,7 +60,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'Այցելելու լավագույն 10 քաղաքները Թամիլ Նադուում';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'Այցելելու լավագույն 10 քաղաքները Թամիլ Նադուում';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Համար 10';
@@ -72,7 +73,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get cardsDemoTravelDestinationLocation1 => 'Թանջավուր, Թամիլ Նադու';
 
   @override
-  String get cardsDemoTravelDestinationTitle2 => 'Հարավային Հնդկաստանի արհեստավորները';
+  String get cardsDemoTravelDestinationTitle2 =>
+      'Հարավային Հնդկաստանի արհեստավորները';
 
   @override
   String get cardsDemoTravelDestinationDescription2 => 'Մետաքսագործներ';
@@ -99,13 +101,15 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get shrineDescription => 'Ոճային իրեր գնելու հավելված';
 
   @override
-  String get fortnightlyDescription => 'Նորությունների հավելված, որում կարևորը բովանդակությունն է';
+  String get fortnightlyDescription =>
+      'Նորությունների հավելված, որում կարևորը բովանդակությունն է';
 
   @override
   String get rallyDescription => 'Բյուջեի պլանավորման հավելված';
 
   @override
-  String get replyDescription => 'Փոստային հավելված` արդյունավետ հաղորդակցման համար';
+  String get replyDescription =>
+      'Փոստային հավելված` արդյունավետ հաղորդակցման համար';
 
   @override
   String get rallyAccountDataChecking => 'Բանկային հաշիվ';
@@ -114,13 +118,15 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get rallyAccountDataHomeSavings => 'Խնայողություններ տան համար';
 
   @override
-  String get rallyAccountDataCarSavings => 'Խնայողություններ ավտոմեքենայի համար';
+  String get rallyAccountDataCarSavings =>
+      'Խնայողություններ ավտոմեքենայի համար';
 
   @override
   String get rallyAccountDataVacation => 'Արձակուրդ';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Տարեկան տոկոսային եկամտաբերությունը';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Տարեկան տոկոսային եկամտաբերությունը';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Տոկոսադրույք';
@@ -129,7 +135,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'Տոկոսադրույքը տարեսկզբից';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Անցած տարի վճարված տոկոսներ';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Անցած տարի վճարված տոկոսներ';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Հաջորդ քաղվածքը';
@@ -285,8 +292,10 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Ավելացրեք հարկային հնարավոր նվազեցման գումարը։ Նշանակեք կատեգորիաներ 1 չբաշխված գործարքի համար։',
-      other: 'Ավելացրեք հարկային հնարավոր նվազեցման գումարը։ Նշանակեք կատեգորիաներ ${count} չբաշխված գործարքի համար։',
+      one:
+          'Ավելացրեք հարկային հնարավոր նվազեցման գումարը։ Նշանակեք կատեգորիաներ 1 չբաշխված գործարքի համար։',
+      other:
+          'Ավելացրեք հարկային հնարավոր նվազեցման գումարը։ Նշանակեք կատեգորիաներ ${count} չբաշխված գործարքի համար։',
     );
   }
 
@@ -300,7 +309,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Դիտել բոլոր բյուջեները';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${amount} գումարի ${accountName} հաշիվ (${accountNumber})։';
   }
 
@@ -310,12 +320,14 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'Բյուջե՝ ${budgetName}։ Ծախսվել է ${amountUsed}՝ ${amountTotal}-ից։ Մնացել է՝ ${amountLeft}։';
   }
 
   @override
-  String get craneDescription => 'Անհատականացված հավելված ճամփորդությունների համար';
+  String get craneDescription =>
+      'Անհատականացված հավելված ճամփորդությունների համար';
 
   @override
   String get homeCategoryReference => 'ՈՃԵՐ ԵՎ ԱՅԼՆ';
@@ -342,7 +354,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoCodeViewerCopyAll => 'ՊԱՏՃԵՆԵԼ ԱՄԲՈՂՋԸ';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'Պատճենվեց սեղմատախտակին։';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'Պատճենվեց սեղմատախտակին։';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -353,7 +366,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Դիտեք ընտրանքները';
 
   @override
-  String get demoOptionsFeatureDescription => 'Հպեք այստեղ և դիտեք հնարավոր ընտրանքները ցուցադրական տարբերակի համար։';
+  String get demoOptionsFeatureDescription =>
+      'Հպեք այստեղ և դիտեք հնարավոր ընտրանքները ցուցադրական տարբերակի համար։';
 
   @override
   String get settingsTitle => 'Կարգավորումներ';
@@ -386,7 +400,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get settingsTextDirection => 'Տեքստի ուղղությունը';
 
   @override
-  String get settingsTextDirectionLocaleBased => 'Տարածաշրջանային կարգավորումներ';
+  String get settingsTextDirectionLocaleBased =>
+      'Տարածաշրջանային կարգավորումներ';
 
   @override
   String get settingsTextDirectionLTR => 'Ձախից աջ';
@@ -425,19 +440,23 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Հավելվածների ստորին գոտի';
 
   @override
-  String get demoBottomAppBarSubtitle => 'Էկրանի ներքևի հատվածում ցուցադրում է նավարկման տարրերն ու հասանելի գործողությունները';
+  String get demoBottomAppBarSubtitle =>
+      'Էկրանի ներքևի հատվածում ցուցադրում է նավարկման տարրերն ու հասանելի գործողությունները';
 
   @override
-  String get demoBottomAppBarDescription => 'Հավելվածների ստորին գոտում կարելի է տեղակայել նավարկման դարակը և մինչև չորս գործողություն, այդ թվում գործողության լողացող կոճակը։';
+  String get demoBottomAppBarDescription =>
+      'Հավելվածների ստորին գոտում կարելի է տեղակայել նավարկման դարակը և մինչև չորս գործողություն, այդ թվում գործողության լողացող կոճակը։';
 
   @override
   String get bottomAppBarNotch => 'Կտրվածք';
@@ -455,7 +474,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get bottomAppBarPositionFloatingEnd => 'Վահանակի վերևում՝ վերջում';
 
   @override
-  String get bottomAppBarPositionFloatingCenter => 'Վահանակի վերևում՝ կենտրոնում';
+  String get bottomAppBarPositionFloatingCenter =>
+      'Վահանակի վերևում՝ կենտրոնում';
 
   @override
   String get demoBannerTitle => 'Ազդերիզ';
@@ -464,13 +484,15 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Ազդերիզի ցուցադրում ցանկում';
 
   @override
-  String get demoBannerDescription => 'Ազդերիզը ցուցադրում է կարևոր, համառոտ հաղորդագրություն և գործողությունների ցանկ, որոնք պետք է կատարեն օգտատերերը (նրանք կարող են նաև փակել ազդերիզը)։ Առանց օգտատիրոջ գործողության հնարավոր չէ փակել ազդերիզը։';
+  String get demoBannerDescription =>
+      'Ազդերիզը ցուցադրում է կարևոր, համառոտ հաղորդագրություն և գործողությունների ցանկ, որոնք պետք է կատարեն օգտատերերը (նրանք կարող են նաև փակել ազդերիզը)։ Առանց օգտատիրոջ գործողության հնարավոր չէ փակել ազդերիզը։';
 
   @override
   String get demoBottomNavigationTitle => 'Նավիգացիա էկրանի ներքևի հատվածում';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Նավիգացիա էկրանի ներքևի հատվածում՝ սահուն անցումով';
+  String get demoBottomNavigationSubtitle =>
+      'Նավիգացիա էկրանի ներքևի հատվածում՝ սահուն անցումով';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Ստատիկ պիտակներ';
@@ -479,7 +501,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Ընտրված պիտակ';
 
   @override
-  String get demoBottomNavigationDescription => 'Էկրանի ներքևի հատվածի նավարկման գոտում կարող է տեղավորվել ծառայության երեքից հինգ բաժին։ Ընդ որում դրանցից յուրաքանչյուրը կունենա առանձին պատկերակ և տեքստ (պարտադիր չէ)։ Եթե օգտատերը սեղմի պատկերակներից որևէ մեկի վրա, ապա կանցնի համապատասխան բաժին։';
+  String get demoBottomNavigationDescription =>
+      'Էկրանի ներքևի հատվածի նավարկման գոտում կարող է տեղավորվել ծառայության երեքից հինգ բաժին։ Ընդ որում դրանցից յուրաքանչյուրը կունենա առանձին պատկերակ և տեքստ (պարտադիր չէ)։ Եթե օգտատերը սեղմի պատկերակներից որևէ մեկի վրա, ապա կանցնի համապատասխան բաժին։';
 
   @override
   String get demoButtonTitle => 'Կոճակներ';
@@ -491,31 +514,36 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoTextButtonTitle => 'Տեքստային կոճակ';
 
   @override
-  String get demoTextButtonDescription => 'Սեղմելու դեպքում տեքստային կոճակը չի բարձրանում։ Դրա փոխարեն էկրանին հայտնվում է թանաքի հետք։ Այսպիսի կոճակներն օգտագործեք գործիքագոտիներում, երկխոսության պատուհաններում և տեղադրեք դրանք դաշտերում։';
+  String get demoTextButtonDescription =>
+      'Սեղմելու դեպքում տեքստային կոճակը չի բարձրանում։ Դրա փոխարեն էկրանին հայտնվում է թանաքի հետք։ Այսպիսի կոճակներն օգտագործեք գործիքագոտիներում, երկխոսության պատուհաններում և տեղադրեք դրանք դաշտերում։';
 
   @override
   String get demoElevatedButtonTitle => 'Բարձրացված կոճակ';
 
   @override
-  String get demoElevatedButtonDescription => 'Բարձրացված կոճակները թույլ են տալիս հարթ մակերեսները դարձնել ավելի ծավալային, իսկ հագեցած և լայն էջերի գործառույթները՝ ավելի տեսանելի։';
+  String get demoElevatedButtonDescription =>
+      'Բարձրացված կոճակները թույլ են տալիս հարթ մակերեսները դարձնել ավելի ծավալային, իսկ հագեցած և լայն էջերի գործառույթները՝ ավելի տեսանելի։';
 
   @override
   String get demoOutlinedButtonTitle => 'Ուրվագծային կոճակ';
 
   @override
-  String get demoOutlinedButtonDescription => 'Ուրվագծային կոճակները սեղմելիս դառնում են անթափանց և բարձրանում են։ Դրանք հաճախ օգտագործվում են բարձրացված կոճակների հետ՝ որևէ լրացուցիչ, այլընտրանքային գործողություն ընդգծելու համար։';
+  String get demoOutlinedButtonDescription =>
+      'Ուրվագծային կոճակները սեղմելիս դառնում են անթափանց և բարձրանում են։ Դրանք հաճախ օգտագործվում են բարձրացված կոճակների հետ՝ որևէ լրացուցիչ, այլընտրանքային գործողություն ընդգծելու համար։';
 
   @override
   String get demoToggleButtonTitle => 'Փոխարկման կոճակներ';
 
   @override
-  String get demoToggleButtonDescription => 'Փոխարկման կոճակների օգնությամբ հնարավոր է խմբավորել նմանատիպ ընտրանքները։ Մեկը մյուսի հետ կապ ունեցող փոխարկման կոճակները պետք է ունենան ընդհանուր զետեղարան։';
+  String get demoToggleButtonDescription =>
+      'Փոխարկման կոճակների օգնությամբ հնարավոր է խմբավորել նմանատիպ ընտրանքները։ Մեկը մյուսի հետ կապ ունեցող փոխարկման կոճակները պետք է ունենան ընդհանուր զետեղարան։';
 
   @override
   String get demoFloatingButtonTitle => 'Գործողության լողացող կոճակ';
 
   @override
-  String get demoFloatingButtonDescription => 'Լողացող գործողության կոճակը շրճանաձև պատկերակով կոճակ է, որը ցուցադրվում է բովանդակության վրա և թույլ է տալիս ընդգծել ամենակարևոր գործողությունը հավելվածում։';
+  String get demoFloatingButtonDescription =>
+      'Լողացող գործողության կոճակը շրճանաձև պատկերակով կոճակ է, որը ցուցադրվում է բովանդակության վրա և թույլ է տալիս ընդգծել ամենակարևոր գործողությունը հավելվածում։';
 
   @override
   String get demoCardTitle => 'Քարտեր';
@@ -527,43 +555,51 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoChipTitle => 'Չիպեր';
 
   @override
-  String get demoCardDescription => 'Քարտը մի թերթիկ է, որը պարունակում է առչնվող տեղեկություններ որևէ բանի (օր․՝ ալբոմի, գտնվելու վայրի, ճաշատեսակի, կոնտակտային տվյալների) մասին։';
+  String get demoCardDescription =>
+      'Քարտը մի թերթիկ է, որը պարունակում է առչնվող տեղեկություններ որևէ բանի (օր․՝ ալբոմի, գտնվելու վայրի, ճաշատեսակի, կոնտակտային տվյալների) մասին։';
 
   @override
-  String get demoChipSubtitle => 'Կոմպակտ տարրեր, որոնք ներկայացնում են մուտքագրում, հատկանիշ կամ գործողություն';
+  String get demoChipSubtitle =>
+      'Կոմպակտ տարրեր, որոնք ներկայացնում են մուտքագրում, հատկանիշ կամ գործողություն';
 
   @override
   String get demoActionChipTitle => 'Գործողության չիպ';
 
   @override
-  String get demoActionChipDescription => 'Գործողությունների ինտերակտիվ չիպերը կարգավորումների խումբ են, որոնք ակտիվացնում են հիմնական բովանդակության հետ կապված գործողություններ։ Այս չիպերը պետք է հայտնվեն դինամիկ կերպով և լրացնեն միջերեսը։';
+  String get demoActionChipDescription =>
+      'Գործողությունների ինտերակտիվ չիպերը կարգավորումների խումբ են, որոնք ակտիվացնում են հիմնական բովանդակության հետ կապված գործողություններ։ Այս չիպերը պետք է հայտնվեն դինամիկ կերպով և լրացնեն միջերեսը։';
 
   @override
   String get demoChoiceChipTitle => 'Ընտրության չիպ';
 
   @override
-  String get demoChoiceChipDescription => 'Ընտրության ինտերակտիվ չիպերը ներկայացնում են հավաքածուից ընտրված մեկ տարբերակ։ Այս չիպերը պարունակում են առնչվող նկարագրական տեքստ կամ կատեգորիաներ։';
+  String get demoChoiceChipDescription =>
+      'Ընտրության ինտերակտիվ չիպերը ներկայացնում են հավաքածուից ընտրված մեկ տարբերակ։ Այս չիպերը պարունակում են առնչվող նկարագրական տեքստ կամ կատեգորիաներ։';
 
   @override
   String get demoFilterChipTitle => 'Զտիչի չիպ';
 
   @override
-  String get demoFilterChipDescription => 'Զտիչների ինտերակտիվ չիպերը պիտակներ կամ նկարագրող բառեր են օգտագործում՝ բովանդակությունը զտելու համար։';
+  String get demoFilterChipDescription =>
+      'Զտիչների ինտերակտիվ չիպերը պիտակներ կամ նկարագրող բառեր են օգտագործում՝ բովանդակությունը զտելու համար։';
 
   @override
   String get demoInputChipTitle => 'Մուտքագրման չիպ';
 
   @override
-  String get demoInputChipDescription => 'Մուտքագրման ինտերակտիվ չիպերը հակիրճ ձևով ընդհանուր տեղեկություններ են տալիս օբյեկտի (օր․՝ անձի, վայրի, առարկայի) կամ նամակագրության տեքստի մասին։';
+  String get demoInputChipDescription =>
+      'Մուտքագրման ինտերակտիվ չիպերը հակիրճ ձևով ընդհանուր տեղեկություններ են տալիս օբյեկտի (օր․՝ անձի, վայրի, առարկայի) կամ նամակագրության տեքստի մասին։';
 
   @override
   String get demoDataTableTitle => 'Տվյալների աղյուսակներ';
 
   @override
-  String get demoDataTableSubtitle => 'Տեղեկություններ պարունակող տողեր և սյունակներ';
+  String get demoDataTableSubtitle =>
+      'Տեղեկություններ պարունակող տողեր և սյունակներ';
 
   @override
-  String get demoDataTableDescription => 'Տվյալների աղյուսակները ցուցադրում են տեղեկություններ տողերի և սյունակների ցանցի տեսքով։ Դրանք տեսակավորում են տեղեկություններն այնպես, որ հեշտ լինի որոնում կատարելը, ինչպես նաև նմուշներ և վիճակագրություն գտնելը։';
+  String get demoDataTableDescription =>
+      'Տվյալների աղյուսակները ցուցադրում են տեղեկություններ տողերի և սյունակների ցանցի տեսքով։ Դրանք տեսակավորում են տեղեկություններն այնպես, որ հեշտ լինի որոնում կատարելը, ինչպես նաև նմուշներ և վիճակագրություն գտնելը։';
 
   @override
   String get dataTableHeader => 'Սնունդ';
@@ -642,7 +678,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'Ծանուցում';
 
   @override
-  String get demoAlertDialogDescription => 'Ծանուցումների երկխոսության պատուհանը տեղեկացնում է օգտատիրոջը ուշադրության արժանի իրադարձությունների մասին։ Այն կարող է ունենալ վերնագիր, ինչպես նաև հասանելի գործողությունների ցանկ։';
+  String get demoAlertDialogDescription =>
+      'Ծանուցումների երկխոսության պատուհանը տեղեկացնում է օգտատիրոջը ուշադրության արժանի իրադարձությունների մասին։ Այն կարող է ունենալ վերնագիր, ինչպես նաև հասանելի գործողությունների ցանկ։';
 
   @override
   String get demoAlertTitleDialogTitle => 'Ծանուցում վերնագրով';
@@ -651,16 +688,19 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Պարզ';
 
   @override
-  String get demoSimpleDialogDescription => 'Սովորական երկխոսության պատուհանում օգտատիրոջն առաջարկվում է ընտրության մի քանի տարբերակ։ Եթե պատուհանն ունի վերնագիր, այն ցուցադրվում է տարբերակների վերևում։';
+  String get demoSimpleDialogDescription =>
+      'Սովորական երկխոսության պատուհանում օգտատիրոջն առաջարկվում է ընտրության մի քանի տարբերակ։ Եթե պատուհանն ունի վերնագիր, այն ցուցադրվում է տարբերակների վերևում։';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +712,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Տողերի և սյունակների դասավորությունը';
 
   @override
-  String get demoGridListsDescription => 'Ցանցաձև ցանկերը հարմարեցված են միատեսակ տվյալների (սովորաբար պատկերների) ցուցադրման համար։ Ցանցաձև ցանկի տարրերը կոչվում են սալիկներ։';
+  String get demoGridListsDescription =>
+      'Ցանցաձև ցանկերը հարմարեցված են միատեսակ տվյալների (սովորաբար պատկերների) ցուցադրման համար։ Ցանցաձև ցանկի տարրերը կոչվում են սալիկներ։';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Միայն պատկերներ';
@@ -687,34 +728,41 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoSlidersTitle => 'Սահիչներ';
 
   @override
-  String get demoSlidersSubtitle => 'Որոշակի արժեք ընտրելու համար օգտատերը պետք է մատն էկրանի վրայով սահեցնի';
+  String get demoSlidersSubtitle =>
+      'Որոշակի արժեք ընտրելու համար օգտատերը պետք է մատն էկրանի վրայով սահեցնի';
 
   @override
-  String get demoSlidersDescription => 'Սահիչները թույլ են տալիս ընտրել անհրաժեշտ արժեքը տրված միջակայքում։ Սահիչների օգնությամբ հեշտությամբ կարող եք կարգավորել ձայնի մակարդակը, պայծառությունն ու պատկերների զտիչները։';
+  String get demoSlidersDescription =>
+      'Սահիչները թույլ են տալիս ընտրել անհրաժեշտ արժեքը տրված միջակայքում։ Սահիչների օգնությամբ հեշտությամբ կարող եք կարգավորել ձայնի մակարդակը, պայծառությունն ու պատկերների զտիչները։';
 
   @override
   String get demoRangeSlidersTitle => 'Միջակայքի սահիչներ';
 
   @override
-  String get demoRangeSlidersDescription => 'Սահիչները թույլ են տալիս ընտրել անհրաժեշտ արժեքը տրված միջակայքում։ Պարզության համար, միջակայքի եզրերով կարող եք տեղակայել պատկերակներ։ Սահիչների օգնությամբ հեշտությամբ կարող եք կարգավորել ձայնի մակարդակը, պայծառությունն ու պատկերների զտիչները։';
+  String get demoRangeSlidersDescription =>
+      'Սահիչները թույլ են տալիս ընտրել անհրաժեշտ արժեքը տրված միջակայքում։ Պարզության համար, միջակայքի եզրերով կարող եք տեղակայել պատկերակներ։ Սահիչների օգնությամբ հեշտությամբ կարող եք կարգավորել ձայնի մակարդակը, պայծառությունն ու պատկերների զտիչները։';
 
   @override
   String get demoCustomSlidersTitle => 'Հատուկ սահիչներ';
 
   @override
-  String get demoCustomSlidersDescription => 'Սահիչները թույլ են տալիս ընտրել արժեքներից որևէ մեկը կամ նշել արժեքների միջակայքը։ Սահիչները կարելի է անհատականացնել սեփական թեմայով և կարգավորումներով։';
+  String get demoCustomSlidersDescription =>
+      'Սահիչները թույլ են տալիս ընտրել արժեքներից որևէ մեկը կամ նշել արժեքների միջակայքը։ Սահիչները կարելի է անհատականացնել սեփական թեմայով և կարգավորումներով։';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Շարունակական սահիչ՝ թվային արժեքը խմբագրելու հնարավորությամբ';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Շարունակական սահիչ՝ թվային արժեքը խմբագրելու հնարավորությամբ';
 
   @override
   String get demoSlidersDiscrete => 'Դիսկրետ';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Դիսկրետ սահիչ՝ անհատականացված թեմայով';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Դիսկրետ սահիչ՝ անհատականացված թեմայով';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Միջակայքի շարունակական սահիչ՝ անհատականացված թեմայով';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Միջակայքի շարունակական սահիչ՝ անհատականացված թեմայով';
 
   @override
   String get demoSlidersContinuous => 'Շարունակական';
@@ -741,7 +789,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Ընտրացանկի կոճակներ և պարզ ընտրացանկեր';
 
   @override
-  String get demoMenuDescription => 'Ընտրացանկը ցուցադրում է ընտրանքների ցանկ ժամանակավոր մակերեսին։ Դրանք ցուցադրվում են, երբ օգտատերերը սեղմում են կոճակին կամ այլ գործողություն են կատարում։';
+  String get demoMenuDescription =>
+      'Ընտրացանկը ցուցադրում է ընտրանքների ցանկ ժամանակավոր մակերեսին։ Դրանք ցուցադրվում են, երբ օգտատերերը սեղմում են կոճակին կամ այլ գործողություն են կատարում։';
 
   @override
   String get demoMenuItemValueOne => 'Ընտրացանկի տարր 1';
@@ -777,7 +826,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoMenuContextMenuItemThree => 'Տեղային ընտրացանկի տարր 2';
 
   @override
-  String get demoMenuAnItemWithASectionedMenu => 'Բաժիններ պարունակող ընտրացանկով տարր';
+  String get demoMenuAnItemWithASectionedMenu =>
+      'Բաժիններ պարունակող ընտրացանկով տարր';
 
   @override
   String get demoMenuPreview => 'Դիտել';
@@ -805,10 +855,12 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoNavigationDrawerTitle => 'Նավարկման դարակ';
 
   @override
-  String get demoNavigationDrawerSubtitle => 'Դարակի ցուցադրում հավելվածի գոտում';
+  String get demoNavigationDrawerSubtitle =>
+      'Դարակի ցուցադրում հավելվածի գոտում';
 
   @override
-  String get demoNavigationDrawerDescription => 'Material Design ոճի հորիզոնական վահանակ, որը սահում է էկրանի եզրից և պարունակում է հավելվածում նավարկման հղումներ։';
+  String get demoNavigationDrawerDescription =>
+      'Material Design ոճի հորիզոնական վահանակ, որը սահում է էկրանի եզրից և պարունակում է հավելվածում նավարկման հղումներ։';
 
   @override
   String get demoNavigationDrawerUserName => 'Օգտանուն';
@@ -823,16 +875,19 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Կետ երկու';
 
   @override
-  String get demoNavigationDrawerText => 'Դարակը բացելու համար մատը սահեցրեք եզրից կամ հպեք վերևի ձախ անկյունի պատկերակին։';
+  String get demoNavigationDrawerText =>
+      'Դարակը բացելու համար մատը սահեցրեք եզրից կամ հպեք վերևի ձախ անկյունի պատկերակին։';
 
   @override
   String get demoNavigationRailTitle => 'Նավարկման գոտի';
 
   @override
-  String get demoNavigationRailSubtitle => 'Նավարկման գոտու ցուցադրում հավելվածում';
+  String get demoNavigationRailSubtitle =>
+      'Նավարկման գոտու ցուցադրում հավելվածում';
 
   @override
-  String get demoNavigationRailDescription => 'Material Design ոճի վիջեթ, որը ցուցադրվում է հավելվածի աջ կամ ձախ մասում և պարունակում է քիչ թվով պատկերակներ (սովորաբար երեքից հինգ)։';
+  String get demoNavigationRailDescription =>
+      'Material Design ոճի վիջեթ, որը ցուցադրվում է հավելվածի աջ կամ ձախ մասում և պարունակում է քիչ թվով պատկերակներ (սովորաբար երեքից հինգ)։';
 
   @override
   String get demoNavigationRailFirst => 'Առաջին';
@@ -847,22 +902,26 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoMenuAnItemWithASimpleMenu => 'Պարզ ընտրացանկով տարր';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Ստուգաթերթ պարունակող ընտրացանկով տարր';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Ստուգաթերթ պարունակող ընտրացանկով տարր';
 
   @override
   String get demoFullscreenDialogTitle => 'Լիաէկրան';
 
   @override
-  String get demoFullscreenDialogDescription => 'fullscreenDialog պարամետրը հատկորոշում է, թե արդյոք հաջորդ էկրանը պետք է լինի լիաէկրան մոդալ երկխոսության պատուհան։';
+  String get demoFullscreenDialogDescription =>
+      'fullscreenDialog պարամետրը հատկորոշում է, թե արդյոք հաջորդ էկրանը պետք է լինի լիաէկրան մոդալ երկխոսության պատուհան։';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Գործողությունների ցուցիչ';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'Գործողությունների՝ iOS-ի ոճով ցուցիչներ';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'Գործողությունների՝ iOS-ի ոճով ցուցիչներ';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'Գործողությունների՝ iOS-ի ոճով ցուցիչ, որը պտտվում է ժամացույցի սլաքի ուղղությամբ։';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'Գործողությունների՝ iOS-ի ոճով ցուցիչ, որը պտտվում է ժամացույցի սլաքի ուղղությամբ։';
 
   @override
   String get demoCupertinoButtonsTitle => 'Կոճակներ';
@@ -871,7 +930,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'iOS-ի ոճով կոճակներ';
 
   @override
-  String get demoCupertinoButtonsDescription => 'iOS-ի ոճով կոճակ։ Պարունակում է տեքստ և/կամ պատկերակ, որը հայտնվում և անհետանում է սեղմելու դեպքում։ Կարող է նաև ֆոն ունենալ։';
+  String get demoCupertinoButtonsDescription =>
+      'iOS-ի ոճով կոճակ։ Պարունակում է տեքստ և/կամ պատկերակ, որը հայտնվում և անհետանում է սեղմելու դեպքում։ Կարող է նաև ֆոն ունենալ։';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +940,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,19 +950,22 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Ծանուցումներ';
 
   @override
-  String get demoCupertinoAlertsSubtitle => 'iOS-ի ոճով ծանուցումների երկխոսության պատուհաններ';
+  String get demoCupertinoAlertsSubtitle =>
+      'iOS-ի ոճով ծանուցումների երկխոսության պատուհաններ';
 
   @override
   String get demoCupertinoAlertTitle => 'Ծանուցում';
 
   @override
-  String get demoCupertinoAlertDescription => 'Ծանուցումների երկխոսության պատուհանը տեղեկացնում է օգտատիրոջը ուշադրության արժանի իրադարձությունների մասին։ Այն կարող է ունենալ վերնագիր և բովանդակություն, ինչպես նաև հասանելի գործողությունների ցանկ։ Վերնագիրը ցուցադրվում է բովանդակության վերևում, իսկ գործողությունները՝ ներքևում։';
+  String get demoCupertinoAlertDescription =>
+      'Ծանուցումների երկխոսության պատուհանը տեղեկացնում է օգտատիրոջը ուշադրության արժանի իրադարձությունների մասին։ Այն կարող է ունենալ վերնագիր և բովանդակություն, ինչպես նաև հասանելի գործողությունների ցանկ։ Վերնագիրը ցուցադրվում է բովանդակության վերևում, իսկ գործողությունները՝ ներքևում։';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Վերնագրով ծանուցում';
@@ -910,13 +974,15 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoCupertinoAlertButtonsTitle => 'Ծանուցում կոճակներով';
 
   @override
-  String get demoCupertinoAlertButtonsOnlyTitle => 'Միայն ծանուցումներով կոճակներ';
+  String get demoCupertinoAlertButtonsOnlyTitle =>
+      'Միայն ծանուցումներով կոճակներ';
 
   @override
   String get demoCupertinoActionSheetTitle => 'Գործողությունների ցանկ';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Գործողությունների ցանկը ծանուցման հատուկ տեսակ է, որում օգտատիրոջն առաջարկվում է գործողությունների առնվազն երկու տարբերակ՝ կախված կոնտեքստից։ Ցանկը կարող է ունենալ վերնագիր, լրացուցիչ հաղորդագրություն, ինչպես նաև հասանելի գործողությունների ցանկ։';
+  String get demoCupertinoActionSheetDescription =>
+      'Գործողությունների ցանկը ծանուցման հատուկ տեսակ է, որում օգտատիրոջն առաջարկվում է գործողությունների առնվազն երկու տարբերակ՝ կախված կոնտեքստից։ Ցանկը կարող է ունենալ վերնագիր, լրացուցիչ հաղորդագրություն, ինչպես նաև հասանելի գործողությունների ցանկ։';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Նավարկման գոտի';
@@ -925,16 +991,19 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoCupertinoNavigationBarSubtitle => 'iOS-ի ոճով նավարկման գոտի';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'iOS-ի ոճով նավարկման գոտի։ Նավարկման գոտին գտնվում է գործիքագոտու մեջտեղում և հնարավորինս փոքր տարբերակով պարունակում է էջի վերնագիրը։';
+  String get demoCupertinoNavigationBarDescription =>
+      'iOS-ի ոճով նավարկման գոտի։ Նավարկման գոտին գտնվում է գործիքագոտու մեջտեղում և հնարավորինս փոքր տարբերակով պարունակում է էջի վերնագիրը։';
 
   @override
   String get demoCupertinoPickerTitle => 'Ընտրիչներ';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'iOS-ի ոճով ամսաթվի և ժամի ընտրիչներ';
+  String get demoCupertinoPickerSubtitle =>
+      'iOS-ի ոճով ամսաթվի և ժամի ընտրիչներ';
 
   @override
-  String get demoCupertinoPickerDescription => 'iOS-ի ոճով ընտրիչի վիջեթ, որի միջոցով կարելի է ընտրել ամսաթվեր, ժամեր կամ ամսաթիվն ու ժամը միասին։';
+  String get demoCupertinoPickerDescription =>
+      'iOS-ի ոճով ընտրիչի վիջեթ, որի միջոցով կարելի է ընտրել ամսաթվեր, ժամեր կամ ամսաթիվն ու ժամը միասին։';
 
   @override
   String get demoCupertinoPickerTimer => 'Ժամաչափ';
@@ -952,19 +1021,24 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'Քաշել՝ թարմացնելու համար';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'iOS-ի ոճով «Քաշել՝ թարմացնելու համար» կառավար';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'iOS-ի ոճով «Քաշել՝ թարմացնելու համար» կառավար';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Վիջեթ, որը կառավարում է iOS-ի ոճով «Քաշել՝ թարմացնելու համար» բովանդակությունը։';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Վիջեթ, որը կառավարում է iOS-ի ոճով «Քաշել՝ թարմացնելու համար» բովանդակությունը։';
 
   @override
-  String get demoCupertinoSegmentedControlTitle => 'Կառավարման սեգմենտավորված տարր';
+  String get demoCupertinoSegmentedControlTitle =>
+      'Կառավարման սեգմենտավորված տարր';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'iOS-ի ոճով սեգմենտավորված կառավարման տարր';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'iOS-ի ոճով սեգմենտավորված կառավարման տարր';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Թույլ է տալիս ընտրություն անել մի քանի իրար բացառող տարբերակների միջև։ Երբ սեգմենտավորված կառավարման տարրում մեկ տարբերակ է ընտրված, մյուս տարբերակները չեն ընդծգվում։';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Թույլ է տալիս ընտրություն անել մի քանի իրար բացառող տարբերակների միջև։ Երբ սեգմենտավորված կառավարման տարրում մեկ տարբերակ է ընտրված, մյուս տարբերակները չեն ընդծգվում։';
 
   @override
   String get demoCupertinoSliderTitle => 'Սահիչ';
@@ -973,7 +1047,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'iOS-ի ոճով սահիչ';
 
   @override
-  String get demoCupertinoSliderDescription => 'Սահիչի միջոցով նշված միջակայքում կարելի է որոշակի արժեք ընտրել։';
+  String get demoCupertinoSliderDescription =>
+      'Սահիչի միջոցով նշված միջակայքում կարելի է որոշակի արժեք ընտրել։';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,7 +1064,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'iOS-ի ոճով փոխանջատիչ';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Փոխանջատիչի միջոցով կարելի է միացնել կամ անջատել առանձին կարգավորումներ։';
+  String get demoCupertinoSwitchDescription =>
+      'Փոխանջատիչի միջոցով կարելի է միացնել կամ անջատել առանձին կարգավորումներ։';
 
   @override
   String get demoCupertinoTabBarTitle => 'Ներդիրների գոտի';
@@ -998,7 +1074,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'iOS-ի ոճով ստորին ներդիրի գոտի';
 
   @override
-  String get demoCupertinoTabBarDescription => 'iOS-ի ոճի ստորին նավարկման ներդիրի գոտի։ Ցուցադրում է մի քանի ներդիրներ, որոնցից մեկն ակտիվ է։ Ըստ կանխադրման՝ ակտիվ է համարվում առաջին ներդիրը։';
+  String get demoCupertinoTabBarDescription =>
+      'iOS-ի ոճի ստորին նավարկման ներդիրի գոտի։ Ցուցադրում է մի քանի ներդիրներ, որոնցից մեկն ակտիվ է։ Ըստ կանխադրման՝ ակտիվ է համարվում առաջին ներդիրը։';
 
   @override
   String get cupertinoTabBarHomeTab => 'Գլխավոր էջ';
@@ -1016,7 +1093,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'iOS-ի ոճով տեքստային դաշտեր';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'Տեքստային դաշտը օգտատիրոջը թույլ է տալիս մուտքագրել տեքստ սովորական կամ էկրանային ստեղնաշարի օգնությամբ։';
+  String get demoCupertinoTextFieldDescription =>
+      'Տեքստային դաշտը օգտատիրոջը թույլ է տալիս մուտքագրել տեքստ սովորական կամ էկրանային ստեղնաշարի օգնությամբ։';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN կոդ';
@@ -1028,19 +1106,22 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoMotionSubtitle => 'Բոլոր ստանդարտ անցումները';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'Քարտեր, ցանկեր և գործողության լողացող կոճակներ';
+  String get demoContainerTransformDemoInstructions =>
+      'Քարտեր, ցանկեր և գործողության լողացող կոճակներ';
 
   @override
   String get demoSharedXAxisDemoInstructions => '«Առաջ» և «Հետ» կոճակներ';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'Տեսակավորել ըստ «Վերջերս նվագարկված» պարամետրի';
+  String get demoSharedYAxisDemoInstructions =>
+      'Տեսակավորել ըստ «Վերջերս նվագարկված» պարամետրի';
 
   @override
   String get demoSharedZAxisDemoInstructions => '«Կարգավորումներ» կոճակ';
 
   @override
-  String get demoFadeThroughDemoInstructions => 'Նավարկում էկրանի ներքևի հատվածում';
+  String get demoFadeThroughDemoInstructions =>
+      'Նավարկում էկրանի ներքևի հատվածում';
 
   @override
   String get demoFadeScaleDemoInstructions => 'Մոդալ և լողացող կոճակներ';
@@ -1049,13 +1130,16 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'Զետեղարանի փոխակերպում';
 
   @override
-  String get demoContainerTransformDescription => 'Զետեղարանի փոխակերպումը նախատեսված է միջերեսի՝ զետեղարան պարունակող տարրերի միջև անցումների համար։ Այս էֆեկտը տեսանելի կապ է հաստատում միջերեսի երկու տարրերի միջև։';
+  String get demoContainerTransformDescription =>
+      'Զետեղարանի փոխակերպումը նախատեսված է միջերեսի՝ զետեղարան պարունակող տարրերի միջև անցումների համար։ Այս էֆեկտը տեսանելի կապ է հաստատում միջերեսի երկու տարրերի միջև։';
 
   @override
-  String get demoContainerTransformModalBottomSheetTitle => 'Սահուն հայտնվելու կամ անհետանալու ռեժիմ';
+  String get demoContainerTransformModalBottomSheetTitle =>
+      'Սահուն հայտնվելու կամ անհետանալու ռեժիմ';
 
   @override
-  String get demoContainerTransformTypeFade => 'ՍԱՀՈՒՆ ՀԱՅՏՆՎՈՒՄ ԿԱՄ ԱՆՀԵՏԱՑՈՒՄ';
+  String get demoContainerTransformTypeFade =>
+      'ՍԱՀՈՒՆ ՀԱՅՏՆՎՈՒՄ ԿԱՄ ԱՆՀԵՏԱՑՈՒՄ';
 
   @override
   String get demoContainerTransformTypeFadeThrough => 'ՍԱՀՈՒՆ ԱՆՑՈՒՄ';
@@ -1076,7 +1160,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Ցանկի կետ';
 
   @override
-  String get demoSharedAxisDescription => 'Ընդհանուր առանցքի էֆեկտը օգտագործվում է միջերեսի այն տարրերի միջև անցում կատարելու ամար, որոնք կարծես թե տեղակայված են մեկ առանցքի վրա։ Տարրերի միջև կապն ամրապնդելու համար օգտագործվում է համատեղ փոխակերպումը X, Y կամ Z առանցքներով։';
+  String get demoSharedAxisDescription =>
+      'Ընդհանուր առանցքի էֆեկտը օգտագործվում է միջերեսի այն տարրերի միջև անցում կատարելու ամար, որոնք կարծես թե տեղակայված են մեկ առանցքի վրա։ Տարրերի միջև կապն ամրապնդելու համար օգտագործվում է համատեղ փոխակերպումը X, Y կամ Z առանցքներով։';
 
   @override
   String get demoSharedXAxisTitle => 'Ընդհանուր X առանցք';
@@ -1091,7 +1176,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'Կանոնակարգեք ձեր դասընթացները';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Կատեգորիաների փաթեթները ֆիդում հայտնվում են խմբերի տեսքով։ Դուք ցանկացած ժամանակ կարող եք փոխել սա։';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Կատեգորիաների փաթեթները ֆիդում հայտնվում են խմբերի տեսքով։ Դուք ցանկացած ժամանակ կարող եք փոխել սա։';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Արվեստ և արհեստներ';
@@ -1121,7 +1207,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoSharedXAxisSignInSubtitleText => 'Մտեք ձեր հաշիվ';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'Էլ․ հասցե կամ հեռախոսահամար';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'Էլ․ հասցե կամ հեռախոսահամար';
 
   @override
   String get demoSharedXAxisForgotEmailButtonText => 'ԷԼ․ ՀԱՍՑԵՆ ՄՈՌԱՑԵ՞Լ ԵՔ';
@@ -1178,19 +1265,22 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Ծովախեցգետին';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Ծովախեցգետնով ուտեստի բաղադրատոմս';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Ծովախեցգետնով ուտեստի բաղադրատոմս';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Խաչափառ';
 
   @override
-  String get demoSharedZAxisCrabPlateRecipeDescription => 'Խաչափառով ուտեստի բաղադրատոմս';
+  String get demoSharedZAxisCrabPlateRecipeDescription =>
+      'Խաչափառով ուտեստի բաղադրատոմս';
 
   @override
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Տավարի մսով սենդվիչ';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Տավարի մսով սենդվիչի բաղադրատոմս';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Տավարի մսով սենդվիչի բաղադրատոմս';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Պահված բաղադրատոմսեր';
@@ -1211,7 +1301,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Սահուն անցում';
 
   @override
-  String get demoFadeThroughDescription => 'Սահուն անցումն օգտագործվում է միջերեսի այն տարրերի միջև անցում կատարելու համար, որոնց միջև սերտ կապ չկա։';
+  String get demoFadeThroughDescription =>
+      'Սահուն անցումն օգտագործվում է միջերեսի այն տարրերի միջև անցում կատարելու համար, որոնց միջև սերտ կապ չկա։';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Ալբոմներ';
@@ -1229,19 +1320,23 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Սահուն հայտնվում կամ անհետացում';
 
   @override
-  String get demoFadeScaleDescription => 'Այս էֆեկտն օգտագործվում է միջերեսի այն տարրերի համար, որոնք հայտնվում կամ անհետանում են էկրանի սահմաններում։ Օրինակ՝ երկխոսության պատուհանը, որը հայտնվում, այնուհետև անհետանում է էկրանի կենտրոնում։';
+  String get demoFadeScaleDescription =>
+      'Այս էֆեկտն օգտագործվում է միջերեսի այն տարրերի համար, որոնք հայտնվում կամ անհետանում են էկրանի սահմաններում։ Օրինակ՝ երկխոսության պատուհանը, որը հայտնվում, այնուհետև անհետանում է էկրանի կենտրոնում։';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'ՑՈՒՑԱԴՐԵԼ ՄՈԴԱԼ ՊԱՏՈՒՀԱՆԸ';
 
   @override
-  String get demoFadeScaleShowFabButton => 'ՑՈՒՑԱԴՐԵԼ ԳՈՐԾՈՂՈՒԹՅԱՆ ԼՈՂԱՑՈՂ ԿՈՃԱԿԸ';
+  String get demoFadeScaleShowFabButton =>
+      'ՑՈՒՑԱԴՐԵԼ ԳՈՐԾՈՂՈՒԹՅԱՆ ԼՈՂԱՑՈՂ ԿՈՃԱԿԸ';
 
   @override
-  String get demoFadeScaleHideFabButton => 'ԹԱՔՑՆԵԼ ԳՈՐԾՈՂՈՒԹՅԱՆ ԼՈՂԱՑՈՂ ԿՈՃԱԿԸ';
+  String get demoFadeScaleHideFabButton =>
+      'ԹԱՔՑՆԵԼ ԳՈՐԾՈՂՈՒԹՅԱՆ ԼՈՂԱՑՈՂ ԿՈՃԱԿԸ';
 
   @override
-  String get demoFadeScaleAlertDialogHeader => 'Երկխոսության պատուհան՝ ծանուցումով';
+  String get demoFadeScaleAlertDialogHeader =>
+      'Երկխոսության պատուհան՝ ծանուցումով';
 
   @override
   String get demoFadeScaleAlertDialogCancelButton => 'ՉԵՂԱՐԿԵԼ';
@@ -1256,7 +1351,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Բոլոր նախասահմանված գույները';
 
   @override
-  String get demoColorsDescription => 'Գույների և երանգների հաստատուն պարամետրեր, որոնք ներկայացնում են Material Design-ի գունապնակը։';
+  String get demoColorsDescription =>
+      'Գույների և երանգների հաստատուն պարամետրեր, որոնք ներկայացնում են Material Design-ի գունապնակը։';
 
   @override
   String get demoTypographyTitle => 'Տառատեսակներ';
@@ -1265,16 +1361,19 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoTypographySubtitle => 'Տեքստի բոլոր ստանդարտ ոճերը';
 
   @override
-  String get demoTypographyDescription => 'Սահմանումներ Material Design-ում առկա տարբեր տառատեսակների համար։';
+  String get demoTypographyDescription =>
+      'Սահմանումներ Material Design-ում առկա տարբեր տառատեսակների համար։';
 
   @override
   String get demo2dTransformationsTitle => '2D փոխակերպումներ';
 
   @override
-  String get demo2dTransformationsSubtitle => 'Համայնապատկերում, մասշտաբավորում, պտտում';
+  String get demo2dTransformationsSubtitle =>
+      'Համայնապատկերում, մասշտաբավորում, պտտում';
 
   @override
-  String get demo2dTransformationsDescription => 'Հպեք՝ սալիկները փոփոխելու համար։ Համայնապատկերումը կառավարեք ժեստերի միջոցով։ Մասշտաբը կարգավորելու համար կարող եք մոտեցնել կամ հեռացնել մատները։ Երկու մատների օգնությամբ կարող եք նաև պտտել օբյեկտը։ Սկզբնական պարամետրերին վերադառնալու համար սեղմեք վերակայման կոճակը։';
+  String get demo2dTransformationsDescription =>
+      'Հպեք՝ սալիկները փոփոխելու համար։ Համայնապատկերումը կառավարեք ժեստերի միջոցով։ Մասշտաբը կարգավորելու համար կարող եք մոտեցնել կամ հեռացնել մատները։ Երկու մատների օգնությամբ կարող եք նաև պտտել օբյեկտը։ Սկզբնական պարամետրերին վերադառնալու համար սեղմեք վերակայման կոճակը։';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Վերակայել փոխակերպումները';
@@ -1295,13 +1394,15 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'Ներքևի ստատիկ թերթ';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Ներքևի ստատիկ թերթը ցույց է տալիս հավելվածի հիմնական բաժինները։ Այսպիսի թերթը միշտ կլինի էկրանի ներքևի հատվածում (նույնիսկ այն դեպքերում, երբ օգտատերը անցնում է մեկ բաժնից մյուսը)։';
+  String get demoBottomSheetPersistentDescription =>
+      'Ներքևի ստատիկ թերթը ցույց է տալիս հավելվածի հիմնական բաժինները։ Այսպիսի թերթը միշտ կլինի էկրանի ներքևի հատվածում (նույնիսկ այն դեպքերում, երբ օգտատերը անցնում է մեկ բաժնից մյուսը)։';
 
   @override
   String get demoBottomSheetModalTitle => 'Ներքևի մոդալ թերթ';
 
   @override
-  String get demoBottomSheetModalDescription => 'Ներքևի մոդալ թերթը կարելի է օգտագործել ընտրացանկի կամ երկխոսության պատուհանի փոխարեն։ Այսպիսի թերթն օգտատիրոջն օգնում է ավելի արագ անցնել անհրաժեշտ բաժիններ։';
+  String get demoBottomSheetModalDescription =>
+      'Ներքևի մոդալ թերթը կարելի է օգտագործել ընտրացանկի կամ երկխոսության պատուհանի փոխարեն։ Այսպիսի թերթն օգտատիրոջն օգնում է ավելի արագ անցնել անհրաժեշտ բաժիններ։';
 
   @override
   String get demoBottomSheetAddLabel => 'Ավելացնել';
@@ -1324,7 +1425,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoListsSubtitle => 'Ոլորման ցանկի դասավորություններ';
 
   @override
-  String get demoListsDescription => 'Ֆիքսված բարձրությամբ մեկ տող, որը սովորաբար պարունակում է տեքստ, ինչպես նաև պատկերակ՝ տեքստի սկզբում կամ վերջում։';
+  String get demoListsDescription =>
+      'Ֆիքսված բարձրությամբ մեկ տող, որը սովորաբար պարունակում է տեքստ, ինչպես նաև պատկերակ՝ տեքստի սկզբում կամ վերջում։';
 
   @override
   String get demoOneLineListsTitle => 'Մեկ գիծ';
@@ -1345,13 +1447,15 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoCircularProgressIndicatorTitle => 'Ընթացքի շրջանաձև ցուցիչ';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Ընթացքի՝ Material Design-ի ոճով շրջանաձև ցուցիչը ցույց է տալիս, որ հավելվածը մշակում է օգտատիրոջ հարցումը։';
+  String get demoCircularProgressIndicatorDescription =>
+      'Ընթացքի՝ Material Design-ի ոճով շրջանաձև ցուցիչը ցույց է տալիս, որ հավելվածը մշակում է օգտատիրոջ հարցումը։';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'Ընթացքի գծային ցուցիչ';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Ընթացքի՝ Material Design-ի ոճով գծային ցուցիչ, որը նաև անվանում են ընթացագոտի։';
+  String get demoLinearProgressIndicatorDescription =>
+      'Ընթացքի՝ Material Design-ի ոճով գծային ցուցիչ, որը նաև անվանում են ընթացագոտի։';
 
   @override
   String get demoPickersTitle => 'Ընտրիչներ';
@@ -1363,19 +1467,22 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Ամսաթվի ընտրիչ';
 
   @override
-  String get demoDatePickerDescription => 'Ցուցադրում է երկխոսության պատուհան, որը պարունակում է Material Design-ի ոճով ամսաթվի ընտրիչ։';
+  String get demoDatePickerDescription =>
+      'Ցուցադրում է երկխոսության պատուհան, որը պարունակում է Material Design-ի ոճով ամսաթվի ընտրիչ։';
 
   @override
   String get demoTimePickerTitle => 'Ժամի ընտրիչ';
 
   @override
-  String get demoTimePickerDescription => 'Ցուցադրում է երկխոսության պատուհան, որը պարունակում է Material Design-ի ոճով ժամի ընտրիչ։';
+  String get demoTimePickerDescription =>
+      'Ցուցադրում է երկխոսության պատուհան, որը պարունակում է Material Design-ի ոճով ժամի ընտրիչ։';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'ՑՈՒՑԱԴՐԵԼ ԸՆՏՐԻՉԸ';
@@ -1393,16 +1500,19 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoTabsSubtitle => 'Առանձին ոլորվող ներդիրներ';
 
   @override
-  String get demoTabsDescription => 'Ներդիրները թույլ են տալիս դասավորել էկրանների, տվյալակազմերի բովանդակությունը և այլն։';
+  String get demoTabsDescription =>
+      'Ներդիրները թույլ են տալիս դասավորել էկրանների, տվյալակազմերի բովանդակությունը և այլն։';
 
   @override
   String get demoSnackbarsTitle => 'Ծանուցումների տողեր';
 
   @override
-  String get demoSnackbarsSubtitle => 'Ծանուցումների տողերի հաղորդագրությունները ցուցադրվում են էկրանի ներքևի հատվածում';
+  String get demoSnackbarsSubtitle =>
+      'Ծանուցումների տողերի հաղորդագրությունները ցուցադրվում են էկրանի ներքևի հատվածում';
 
   @override
-  String get demoSnackbarsDescription => 'Ծանուցումների տողերը օգտատերերին տեղեկացնում են հավելվածում կատարված կամ կատարվելիք գործողությունների մասին։ Դրանք հայտնվում են կարճ ժամանակով էկրանի ներքևի հատվածում։ Ծանուցումների տողերը չեն շեղում օգտատերերին, և դրանք փակելու կարիք չկա։';
+  String get demoSnackbarsDescription =>
+      'Ծանուցումների տողերը օգտատերերին տեղեկացնում են հավելվածում կատարված կամ կատարվելիք գործողությունների մասին։ Դրանք հայտնվում են կարճ ժամանակով էկրանի ներքևի հատվածում։ Ծանուցումների տողերը չեն շեղում օգտատերերին, և դրանք փակելու կարիք չկա։';
 
   @override
   String get demoSnackbarsButtonLabel => 'ՑՈՒՑԱԴՐԵԼ ԾԱՆՈՒՑՈՒՄՆԵՐԻ ՏՈՂԸ';
@@ -1420,25 +1530,29 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoSelectionControlsTitle => 'Ընտրության կառավարման տարրեր';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Նշավանդակներ, կետակոճակներ և փոխանջատիչներ';
+  String get demoSelectionControlsSubtitle =>
+      'Նշավանդակներ, կետակոճակներ և փոխանջատիչներ';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Նշավանդակ';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Նշավանդակների միջոցով օգտատերը կարող է ցանկից ընտրել մի քանի կարգավորումներ։ Նշավանդակը սովորաբար ունենում է true կամ false կարգավիճակը, և որոշ դեպքերում երրորդ արժեքը՝ null։';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Նշավանդակների միջոցով օգտատերը կարող է ցանկից ընտրել մի քանի կարգավորումներ։ Նշավանդակը սովորաբար ունենում է true կամ false կարգավիճակը, և որոշ դեպքերում երրորդ արժեքը՝ null։';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Ռադիո';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Կետակոճակների միջոցով օգտատերը կարող է ընտրել մեկ կարգավորում ցանկից։ Օգտագործեք կետակոճակները, եթե կարծում եք, որ օգտատիրոջն անհրաժեշտ է տեսնել բոլոր հասանելի կարգավորումներն իրար կողքի։';
+  String get demoSelectionControlsRadioDescription =>
+      'Կետակոճակների միջոցով օգտատերը կարող է ընտրել մեկ կարգավորում ցանկից։ Օգտագործեք կետակոճակները, եթե կարծում եք, որ օգտատիրոջն անհրաժեշտ է տեսնել բոլոր հասանելի կարգավորումներն իրար կողքի։';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Փոխանջատիչ';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Փոխանջատիչի միջոցով կարելի է միացնել կամ անջատել առանձին կարգավորումներ։ Կարգավորման անվանումը և կարգավիճակը պետք է պարզ երևան փոխանջատիչի կողքին։';
+  String get demoSelectionControlsSwitchDescription =>
+      'Փոխանջատիչի միջոցով կարելի է միացնել կամ անջատել առանձին կարգավորումներ։ Կարգավորման անվանումը և կարգավիճակը պետք է պարզ երևան փոխանջատիչի կողքին։';
 
   @override
   String get demoBottomTextFieldsTitle => 'Տեքստային դաշտեր';
@@ -1450,7 +1564,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoTextFieldSubtitle => 'Տեքստի և թվերի խմբագրման մեկ տող';
 
   @override
-  String get demoTextFieldDescription => 'Տեքստային դաշտերի օգնությամբ օգտատերերը կարող են լրացնել ձևեր և մուտքագրել տվյալներ երկխոսության պատուհաններում։';
+  String get demoTextFieldDescription =>
+      'Տեքստային դաշտերի օգնությամբ օգտատերերը կարող են լրացնել ձևեր և մուտքագրել տվյալներ երկխոսության պատուհաններում։';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Ցույց տալ գաղտնաբառը';
@@ -1459,7 +1574,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Թաքցնել գաղտնաբառը';
 
   @override
-  String get demoTextFieldFormErrors => 'Նախքան ձևն ուղարկելը շտկեք կարմիր գույնով նշված սխալները։';
+  String get demoTextFieldFormErrors =>
+      'Նախքան ձևն ուղարկելը շտկեք կարմիր գույնով նշված սխալները։';
 
   @override
   String get demoTextFieldNameRequired => 'Մուտքագրեք անունը (պարտադիր է)։';
@@ -1468,7 +1584,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoTextFieldOnlyAlphabeticalChars => 'Օգտագործեք միայն տառեր։';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => 'Մուտքագրեք ԱՄՆ հեռախոսահամար հետևյալ ձևաչափով՝ (###) ###-####։';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      'Մուտքագրեք ԱՄՆ հեռախոսահամար հետևյալ ձևաչափով՝ (###) ###-####։';
 
   @override
   String get demoTextFieldEnterPassword => 'Մուտքագրեք գաղտնաբառը։';
@@ -1483,7 +1600,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoTextFieldNameField => 'Անուն*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'Ի՞նչ համարով կարելի է կապվել ձեզ հետ';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'Ի՞նչ համարով կարելի է կապվել ձեզ հետ';
 
   @override
   String get demoTextFieldPhoneNumber => 'Հեռախոսահամար*';
@@ -1495,10 +1613,12 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoTextFieldEmail => 'Էլ․ հասցե';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Պատմեք ձեր մասին (օր․՝ ինչ հոբբի ունեք)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Պատմեք ձեր մասին (օր․՝ ինչ հոբբի ունեք)';
 
   @override
-  String get demoTextFieldKeepItShort => 'Երկար-բարակ պետք չէ գրել, սա ընդամենը տեքստի նմուշ է։';
+  String get demoTextFieldKeepItShort =>
+      'Երկար-բարակ պետք չէ գրել, սա ընդամենը տեքստի նմուշ է։';
 
   @override
   String get demoTextFieldLifeStory => 'Կենսագրություն';
@@ -1533,13 +1653,16 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get demoTooltipTitle => 'Հուշումներ';
 
   @override
-  String get demoTooltipSubtitle => 'Կարճ հաղորդագրություն, որը ցուցադրվում է երկար սեղմման կամ նշորդն անցկացնելու դեպքում';
+  String get demoTooltipSubtitle =>
+      'Կարճ հաղորդագրություն, որը ցուցադրվում է երկար սեղմման կամ նշորդն անցկացնելու դեպքում';
 
   @override
-  String get demoTooltipDescription => 'Հուշումները տեքստային պիտակների օգնությամբ նկարագրում են կոճակի գործառույթը և միջերեսի մյուս գործողությունները։ Հուշումներում ցուցադրվում են տեքստ պարունակող տեղեկություններ, երբ օգտատերը նշորդն անց է կացնում տարրի վրայով, պահում կամ երկար սեղմում դրա վրա։';
+  String get demoTooltipDescription =>
+      'Հուշումները տեքստային պիտակների օգնությամբ նկարագրում են կոճակի գործառույթը և միջերեսի մյուս գործողությունները։ Հուշումներում ցուցադրվում են տեքստ պարունակող տեղեկություններ, երբ օգտատերը նշորդն անց է կացնում տարրի վրայով, պահում կամ երկար սեղմում դրա վրա։';
 
   @override
-  String get demoTooltipInstructions => 'Երկար սեղմեք կամ նշորդն անցկացրեք՝ հուշումները ցուցադրելու համար։';
+  String get demoTooltipInstructions =>
+      'Երկար սեղմեք կամ նշորդն անցկացրեք՝ հուշումները ցուցադրելու համար։';
 
   @override
   String get bottomNavigationCommentsTab => 'Մեկնաբանություններ';
@@ -1597,10 +1720,12 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get dialogDiscardTitle => 'Հեռացնե՞լ սևագիրը:';
 
   @override
-  String get dialogLocationTitle => 'Օգտագործե՞լ Google-ի տեղորոշման ծառայությունը';
+  String get dialogLocationTitle =>
+      'Օգտագործե՞լ Google-ի տեղորոշման ծառայությունը';
 
   @override
-  String get dialogLocationDescription => 'Google-ին տեղադրության անանուն տվյալների ուղարկումը թույլ է տալիս հավելվածներին ավելի ճշգրիտ որոշել ձեր գտնվելու վայրը։ Տվյալները կուղարկվեն, նույնիսկ երբ ոչ մի հավելված գործարկված չէ։';
+  String get dialogLocationDescription =>
+      'Google-ին տեղադրության անանուն տվյալների ուղարկումը թույլ է տալիս հավելվածներին ավելի ճշգրիտ որոշել ձեր գտնվելու վայրը։ Տվյալները կուղարկվեն, նույնիսկ երբ ոչ մի հավելված գործարկված չէ։';
 
   @override
   String get dialogCancel => 'ՉԵՂԱՐԿԵԼ';
@@ -1630,7 +1755,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get dialogFullscreenSave => 'ՊԱՀԵԼ';
 
   @override
-  String get dialogFullscreenDescription => 'Երկխոսության լիաէկրան պատուհանի դեմո';
+  String get dialogFullscreenDescription =>
+      'Երկխոսության լիաէկրան պատուհանի դեմո';
 
   @override
   String get cupertinoButton => 'Կոճակ';
@@ -1645,10 +1771,12 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Հեռացնել';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Քարտեզներին հասանելի դարձնե՞լ ձեր տեղադրությանը, երբ օգտագործում եք հավելվածը';
+  String get cupertinoAlertLocationTitle =>
+      'Քարտեզներին հասանելի դարձնե՞լ ձեր տեղադրությանը, երբ օգտագործում եք հավելվածը';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Ձեր ընթացիկ գտնվելու վայրը կցուցադրվի քարտեզի վրա և կօգտագործվի երթուղիների, ճշգրիտ որոնման արդյունքների և ճանապարհի տևողության համար։';
+  String get cupertinoAlertLocationDescription =>
+      'Ձեր ընթացիկ գտնվելու վայրը կցուցադրվի քարտեզի վրա և կօգտագործվի երթուղիների, ճշգրիտ որոնման արդյունքների և ճանապարհի տևողության համար։';
 
   @override
   String get cupertinoAlertAllow => 'Թույլատրել';
@@ -1660,7 +1788,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Ընտրեք սիրած աղանդերը';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Ընտրեք ձեր սիրած աղանդերը ստորև ցանկից։ Ձեր ընտրությունը կօգտագործվի մոտակայքում գտնվող օբյետկտները կարգավորելու համար։';
+  String get cupertinoAlertDessertDescription =>
+      'Ընտրեք ձեր սիրած աղանդերը ստորև ցանկից։ Ձեր ընտրությունը կօգտագործվի մոտակայքում գտնվող օբյետկտները կարգավորելու համար։';
 
   @override
   String get cupertinoAlertCheesecake => 'Չիզքեյք';
@@ -1914,7 +2043,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get shrineProductGiltDeskTrio => 'Սեղանի հավաքածու';
 
   @override
-  String get shrineProductCopperWireRack => 'Պղնձե մետաղալարերից պատրաստված զամբյուղ';
+  String get shrineProductCopperWireRack =>
+      'Պղնձե մետաղալարերից պատրաստված զամբյուղ';
 
   @override
   String get shrineProductSootheCeramicSet => 'Կերամիկական սպասքի հավաքածու';
@@ -2243,13 +2373,15 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get craneEat10 => 'Լիսաբոն, Պորտուգալիա';
 
   @override
-  String get craneFly0SemanticLabel => 'Շալե՝ փշատերև ծառերով ձյունե լանդշաֆտի ֆոնի վրա';
+  String get craneFly0SemanticLabel =>
+      'Շալե՝ փշատերև ծառերով ձյունե լանդշաֆտի ֆոնի վրա';
 
   @override
   String get craneFly1SemanticLabel => 'Վրան դաշտում';
 
   @override
-  String get craneFly2SemanticLabel => 'Աղոթքի դրոշներ՝ ձյունապատ լեռների ֆոնի վրա';
+  String get craneFly2SemanticLabel =>
+      'Աղոթքի դրոշներ՝ ձյունապատ լեռների ֆոնի վրա';
 
   @override
   String get craneFly3SemanticLabel => 'Մաչու Պիչու ամրոց';
@@ -2270,10 +2402,12 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'Գերծառերի պուրակ';
 
   @override
-  String get craneFly9SemanticLabel => 'Կապույտ ռետրո մեքենայի վրա հենված տղամարդ';
+  String get craneFly9SemanticLabel =>
+      'Կապույտ ռետրո մեքենայի վրա հենված տղամարդ';
 
   @override
-  String get craneFly10SemanticLabel => 'Ալ-Ազհարի մզկիթի մինարեթները մայրամուտին';
+  String get craneFly10SemanticLabel =>
+      'Ալ-Ազհարի մզկիթի մինարեթները մայրամուտին';
 
   @override
   String get craneFly11SemanticLabel => 'Աղյուսե փարոս՝ ծովի ֆոնի վրա';
@@ -2282,19 +2416,22 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get craneFly12SemanticLabel => 'Արմավենիներով շրջապատված լողավազան';
 
   @override
-  String get craneFly13SemanticLabel => 'Արմավենիներով շրջապատված ծովափնյա լողավազան';
+  String get craneFly13SemanticLabel =>
+      'Արմավենիներով շրջապատված ծովափնյա լողավազան';
 
   @override
   String get craneSleep0SemanticLabel => 'Բունգալոներ ջրի վրա';
 
   @override
-  String get craneSleep1SemanticLabel => 'Շալե՝ փշատերև ծառերով ձյունե լանդշաֆտի ֆոնի վրա';
+  String get craneSleep1SemanticLabel =>
+      'Շալե՝ փշատերև ծառերով ձյունե լանդշաֆտի ֆոնի վրա';
 
   @override
   String get craneSleep2SemanticLabel => 'Մաչու Պիչու ամրոց';
 
   @override
-  String get craneSleep3SemanticLabel => 'Կապույտ ռետրո մեքենայի վրա հենված տղամարդ';
+  String get craneSleep3SemanticLabel =>
+      'Կապույտ ռետրո մեքենայի վրա հենված տղամարդ';
 
   @override
   String get craneSleep4SemanticLabel => 'Լճամերձ հյուրանոց՝ լեռների ֆոնի վրա';
@@ -2309,13 +2446,15 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get craneSleep7SemanticLabel => 'Վառ տներ Ռիբեյրա հրապարակում';
 
   @override
-  String get craneSleep8SemanticLabel => 'Մայաների ավերակները լողափից վեր՝ ժայռի վրա';
+  String get craneSleep8SemanticLabel =>
+      'Մայաների ավերակները լողափից վեր՝ ժայռի վրա';
 
   @override
   String get craneSleep9SemanticLabel => 'Աղյուսե փարոս՝ ծովի ֆոնի վրա';
 
   @override
-  String get craneSleep10SemanticLabel => 'Ալ-Ազհարի մզկիթի մինարեթները մայրամուտին';
+  String get craneSleep10SemanticLabel =>
+      'Ալ-Ազհարի մզկիթի մինարեթները մայրամուտին';
 
   @override
   String get craneSleep11SemanticLabel => 'Թայբեյ 101 երկնաքեր';
@@ -2351,7 +2490,8 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get craneEat9SemanticLabel => 'Թխվածքներով վաճառասեղան սրճարանում';
 
   @override
-  String get craneEat10SemanticLabel => 'Պաստրամիով հսկայական սենդվիչ բռնած կին';
+  String get craneEat10SemanticLabel =>
+      'Պաստրամիով հսկայական սենդվիչ բռնած կին';
 
   @override
   String get fortnightlyMenuFrontPage => 'Առաջին էջ';
@@ -2402,10 +2542,12 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Վերջին թարմացումները';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Առողջապահության համակարգի հանգիստ, բայց լուրջ հետևանքներով հեղափոխություն';
+  String get fortnightlyHeadlineHealthcare =>
+      'Առողջապահության համակարգի հանգիստ, բայց լուրջ հետևանքներով հեղափոխություն';
 
   @override
-  String get fortnightlyHeadlineWar => 'Պատերազմի հետևանքով բաժանված ամերիկացիների կյանքը';
+  String get fortnightlyHeadlineWar =>
+      'Պատերազմի հետևանքով բաժանված ամերիկացիների կյանքը';
 
   @override
   String get fortnightlyHeadlineGasoline => 'Բենզինի ապագան';
@@ -2414,16 +2556,20 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'Կանաչ բանակի ներքին բարեփոխումներ';
 
   @override
-  String get fortnightlyHeadlineStocks => 'Բաժնետոմսերի փոխարժեքի ստագնացիայի պատճառով շատերը նախընտրությունը տալիս են արժույթին';
+  String get fortnightlyHeadlineStocks =>
+      'Բաժնետոմսերի փոխարժեքի ստագնացիայի պատճառով շատերը նախընտրությունը տալիս են արժույթին';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Դիզայներներն օգտագործում են նոր տեխնոլոգիաները՝ ֆուտուրիստական գործվածքներ ստեղծելու համար';
+  String get fortnightlyHeadlineFabrics =>
+      'Դիզայներներն օգտագործում են նոր տեխնոլոգիաները՝ ֆուտուրիստական գործվածքներ ստեղծելու համար';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'Ֆեմինիստները պարտիզանական պատերազմի են պատրաստվում';
+  String get fortnightlyHeadlineFeminists =>
+      'Ֆեմինիստները պարտիզանական պատերազմի են պատրաստվում';
 
   @override
-  String get fortnightlyHeadlineBees => 'Գյուղատնտեսության մեջ մեղուների պակաս է գրանցվել';
+  String get fortnightlyHeadlineBees =>
+      'Գյուղատնտեսության մեջ մեղուների պակաս է գրանցվել';
 
   @override
   String get replyInboxLabel => 'Մուտքային';

@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get signIn => 'ΣΥΝΔΕΣΗ';
 
   @override
-  String get bannerDemoText => 'Ο κωδικός πρόσβασής σας ενημερώθηκε στην άλλη συσκευή σας. Συνδεθείτε ξανά.';
+  String get bannerDemoText =>
+      'Ο κωδικός πρόσβασής σας ενημερώθηκε στην άλλη συσκευή σας. Συνδεθείτε ξανά.';
 
   @override
   String get bannerDemoResetText => 'Επαναφορά του banner';
@@ -44,7 +44,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get cardsDemoTappable => 'Με δυνατότητα πατήματος';
 
   @override
-  String get cardsDemoSelectable => 'Με δυνατότητα επιλογής (παρατεταμένο πάτημα)';
+  String get cardsDemoSelectable =>
+      'Με δυνατότητα επιλογής (παρατεταμένο πάτημα)';
 
   @override
   String get cardsDemoExplore => 'Εξερεύνηση';
@@ -60,7 +61,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'Κορυφαίες 10 πόλεις για επίσκεψη στην πολιτεία Ταμίλ Ναντού';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'Κορυφαίες 10 πόλεις για επίσκεψη στην πολιτεία Ταμίλ Ναντού';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Αριθμός 10';
@@ -99,13 +101,15 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get shrineDescription => 'Μια μοντέρνα εφαρμογή λιανικής πώλησης';
 
   @override
-  String get fortnightlyDescription => 'Μια εφαρμογή ειδήσεων με έμφαση στο περιεχόμενο';
+  String get fortnightlyDescription =>
+      'Μια εφαρμογή ειδήσεων με έμφαση στο περιεχόμενο';
 
   @override
   String get rallyDescription => 'Μια εφαρμογή για προσωπικά οικονομικά';
 
   @override
-  String get replyDescription => 'Μια αποδοτική και εξειδικευμένη εφαρμογή ηλεκτρονικού ταχυδρομείου';
+  String get replyDescription =>
+      'Μια αποδοτική και εξειδικευμένη εφαρμογή ηλεκτρονικού ταχυδρομείου';
 
   @override
   String get rallyAccountDataChecking => 'Τρεχούμενος';
@@ -120,7 +124,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Διακοπές';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Απόδοση ετήσιου ποσοστού';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Απόδοση ετήσιου ποσοστού';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Επιτόκιο';
@@ -129,7 +134,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'Επιτόκιο τρέχοντος έτους';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Τόκοι που πληρώθηκαν το προηγούμενο έτος';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Τόκοι που πληρώθηκαν το προηγούμενο έτος';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Επόμενη δήλωση';
@@ -174,7 +180,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get rallySettingsTaxDocuments => 'Φορολογικά έγγραφα';
 
   @override
-  String get rallySettingsPasscodeAndTouchId => 'Κωδικός πρόσβασης και Touch ID';
+  String get rallySettingsPasscodeAndTouchId =>
+      'Κωδικός πρόσβασης και Touch ID';
 
   @override
   String get rallySettingsNotifications => 'Ειδοποιήσεις';
@@ -285,8 +292,10 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Αυξήστε την πιθανή έκπτωση φόρου! Εκχωρήστε κατηγορίες σε 1 μη εκχωρημένη συναλλαγή.',
-      other: 'Αυξήστε την πιθανή έκπτωση φόρου! Εκχωρήστε κατηγορίες σε ${count} μη εκχωρημένες συναλλαγές.',
+      one:
+          'Αυξήστε την πιθανή έκπτωση φόρου! Εκχωρήστε κατηγορίες σε 1 μη εκχωρημένη συναλλαγή.',
+      other:
+          'Αυξήστε την πιθανή έκπτωση φόρου! Εκχωρήστε κατηγορίες σε ${count} μη εκχωρημένες συναλλαγές.',
     );
   }
 
@@ -300,7 +309,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Εμφάνιση όλων των προϋπολογισμών';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'Λογαριασμός ${accountName} με αριθμό ${accountNumber} και ποσό ${amount}.';
   }
 
@@ -310,7 +320,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'Προϋπολογισμός ${budgetName} από τον οποίο έχουν χρησιμοποιηθεί ${amountUsed} από το συνολικό ποσό των ${amountTotal}, απομένουν ${amountLeft}';
   }
 
@@ -342,7 +353,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoCodeViewerCopyAll => 'ΑΝΤΙΓΡΑΦΗ ΟΛΩΝ';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'Αντιγράφηκε στο πρόχειρο.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'Αντιγράφηκε στο πρόχειρο.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -353,7 +365,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Επιλογές προβολής';
 
   @override
-  String get demoOptionsFeatureDescription => 'Πατήστε εδώ για να δείτε διαθέσιμες επιλογές για αυτήν την επίδειξη.';
+  String get demoOptionsFeatureDescription =>
+      'Πατήστε εδώ για να δείτε διαθέσιμες επιλογές για αυτήν την επίδειξη.';
 
   @override
   String get settingsTitle => 'Ρυθμίσεις';
@@ -386,7 +399,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get settingsTextDirection => 'Κατεύθυνση κειμένου';
 
   @override
-  String get settingsTextDirectionLocaleBased => 'Με βάση τις τοπικές ρυθμίσεις';
+  String get settingsTextDirectionLocaleBased =>
+      'Με βάση τις τοπικές ρυθμίσεις';
 
   @override
   String get settingsTextDirectionLTR => 'LTR';
@@ -425,19 +439,23 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Γραμμή εφαρμογής στο κάτω μέρος';
 
   @override
-  String get demoBottomAppBarSubtitle => 'Προβάλλει πλοήγηση και ενέργειες στο κάτω μέρος';
+  String get demoBottomAppBarSubtitle =>
+      'Προβάλλει πλοήγηση και ενέργειες στο κάτω μέρος';
 
   @override
-  String get demoBottomAppBarDescription => 'Οι γραμμές εφαρμογών στο κάτω μέρος παρέχουν πρόσβαση σε ένα συρτάρι πλοήγησης στο κάτω μέρος και έως τέσσερις ενέργειες, συμπεριλαμβανομένου του κινούμενου κουμπιού ενεργειών.';
+  String get demoBottomAppBarDescription =>
+      'Οι γραμμές εφαρμογών στο κάτω μέρος παρέχουν πρόσβαση σε ένα συρτάρι πλοήγησης στο κάτω μέρος και έως τέσσερις ενέργειες, συμπεριλαμβανομένου του κινούμενου κουμπιού ενεργειών.';
 
   @override
   String get bottomAppBarNotch => 'Εγκοπή';
@@ -464,13 +482,15 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Εμφάνιση banner μέσα σε μια λίστα';
 
   @override
-  String get demoBannerDescription => 'Ένα banner εμφανίζει ένα σημαντικό, συνοπτικό μήνυμα και παρέχει ενέργειες που μπορούν να εκτελέσουν οι χρήστες (ή δυνατότητα παράβλεψης του banner). Απαιτείται ενέργεια χρήστη για την παράβλεψή του.';
+  String get demoBannerDescription =>
+      'Ένα banner εμφανίζει ένα σημαντικό, συνοπτικό μήνυμα και παρέχει ενέργειες που μπορούν να εκτελέσουν οι χρήστες (ή δυνατότητα παράβλεψης του banner). Απαιτείται ενέργεια χρήστη για την παράβλεψή του.';
 
   @override
   String get demoBottomNavigationTitle => 'Πλοήγηση κάτω μέρους';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Πλοήγηση κάτω μέρους με προβολές σταδιακής μετάβασης';
+  String get demoBottomNavigationSubtitle =>
+      'Πλοήγηση κάτω μέρους με προβολές σταδιακής μετάβασης';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Μόνιμες ετικέτες';
@@ -479,7 +499,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Επιλεγμένη ετικέτα';
 
   @override
-  String get demoBottomNavigationDescription => 'Οι γραμμές πλοήγησης κάτω μέρους εμφανίζουν από τρεις έως πέντε προορισμούς στο κάτω μέρος μιας οθόνης. Κάθε προορισμός αντιπροσωπεύεται από ένα εικονίδιο και μια προαιρετική ετικέτα κειμένου. Με το πάτημα ενός εικονιδίου πλοήγησης στο κάτω μέρος, ο χρήστης μεταφέρεται στον προορισμό της πλοήγησης ανώτερου επιπέδου που συσχετίζεται με αυτό το εικονίδιο.';
+  String get demoBottomNavigationDescription =>
+      'Οι γραμμές πλοήγησης κάτω μέρους εμφανίζουν από τρεις έως πέντε προορισμούς στο κάτω μέρος μιας οθόνης. Κάθε προορισμός αντιπροσωπεύεται από ένα εικονίδιο και μια προαιρετική ετικέτα κειμένου. Με το πάτημα ενός εικονιδίου πλοήγησης στο κάτω μέρος, ο χρήστης μεταφέρεται στον προορισμό της πλοήγησης ανώτερου επιπέδου που συσχετίζεται με αυτό το εικονίδιο.';
 
   @override
   String get demoButtonTitle => 'Κουμπιά';
@@ -491,70 +512,82 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoTextButtonTitle => 'Κουμπί κειμένου';
 
   @override
-  String get demoTextButtonDescription => 'Ένα κουμπί κειμένου εμφανίζει μια πιτσιλιά μελανιού κατά το πάτημα, χωρίς ανασήκωμα. Χρησιμοποιήστε κουμπιά κειμένου στις γραμμές εργαλείων, σε παράθυρα διαλόγου και ενσωματωμένα με την αναπλήρωση.';
+  String get demoTextButtonDescription =>
+      'Ένα κουμπί κειμένου εμφανίζει μια πιτσιλιά μελανιού κατά το πάτημα, χωρίς ανασήκωμα. Χρησιμοποιήστε κουμπιά κειμένου στις γραμμές εργαλείων, σε παράθυρα διαλόγου και ενσωματωμένα με την αναπλήρωση.';
 
   @override
   String get demoElevatedButtonTitle => 'Ανυψωμένο κουμπί';
 
   @override
-  String get demoElevatedButtonDescription => 'Τα ανυψωμένα κουμπιά προσθέτουν διάσταση στις κυρίως επίπεδες διατάξεις. Δίνουν έμφαση σε λειτουργίες σε γεμάτους ή μεγάλους χώρους.';
+  String get demoElevatedButtonDescription =>
+      'Τα ανυψωμένα κουμπιά προσθέτουν διάσταση στις κυρίως επίπεδες διατάξεις. Δίνουν έμφαση σε λειτουργίες σε γεμάτους ή μεγάλους χώρους.';
 
   @override
   String get demoOutlinedButtonTitle => 'Κουμπί με περίγραμμα';
 
   @override
-  String get demoOutlinedButtonDescription => 'Τα κουμπιά με περίγραμμα γίνονται αδιαφανή και ανυψώνονται κατά το πάτημα. Συχνά συνδυάζονται με ανυψωμένα κουμπιά για να υποδείξουν μια εναλλακτική, δευτερεύουσα ενέργεια.';
+  String get demoOutlinedButtonDescription =>
+      'Τα κουμπιά με περίγραμμα γίνονται αδιαφανή και ανυψώνονται κατά το πάτημα. Συχνά συνδυάζονται με ανυψωμένα κουμπιά για να υποδείξουν μια εναλλακτική, δευτερεύουσα ενέργεια.';
 
   @override
   String get demoToggleButtonTitle => 'Κουμπιά εναλλαγής';
 
   @override
-  String get demoToggleButtonDescription => 'Μπορείτε να χρησιμοποιήσετε κουμπιά εναλλαγής για να ομαδοποιήσετε τις σχετικές επιλογές. Για να δοθεί έμφαση σε ομάδες σχετικών κουμπιών εναλλαγής, μια ομάδα θα πρέπει να μοιράζεται ένα κοινό κοντέινερ.';
+  String get demoToggleButtonDescription =>
+      'Μπορείτε να χρησιμοποιήσετε κουμπιά εναλλαγής για να ομαδοποιήσετε τις σχετικές επιλογές. Για να δοθεί έμφαση σε ομάδες σχετικών κουμπιών εναλλαγής, μια ομάδα θα πρέπει να μοιράζεται ένα κοινό κοντέινερ.';
 
   @override
   String get demoFloatingButtonTitle => 'Κινούμενο κουμπί ενεργειών';
 
   @override
-  String get demoFloatingButtonDescription => 'Ένα κινούμενο κουμπί ενεργειών είναι ένα κουμπί με κυκλικό εικονίδιο που κινείται πάνω από το περιεχόμενο για να προωθήσει μια κύρια ενέργεια στην εφαρμογή.';
+  String get demoFloatingButtonDescription =>
+      'Ένα κινούμενο κουμπί ενεργειών είναι ένα κουμπί με κυκλικό εικονίδιο που κινείται πάνω από το περιεχόμενο για να προωθήσει μια κύρια ενέργεια στην εφαρμογή.';
 
   @override
   String get demoCardTitle => 'Κάρτες';
 
   @override
-  String get demoCardSubtitle => 'Κάρτες γραμμής βάσης με στρογγυλεμένες γωνίες';
+  String get demoCardSubtitle =>
+      'Κάρτες γραμμής βάσης με στρογγυλεμένες γωνίες';
 
   @override
   String get demoChipTitle => 'Τσιπ';
 
   @override
-  String get demoCardDescription => 'Μια κάρτα είναι ένα φύλλο υλικού που χρησιμοποιείται για την αναπαράσταση ορισμένων σχετικών πληροφοριών, για παράδειγμα ενός άλμπουμ, μιας γεωγραφικής τοποθεσίας, ενός γεύματος, στοιχείων επικοινωνίας κ.λπ.';
+  String get demoCardDescription =>
+      'Μια κάρτα είναι ένα φύλλο υλικού που χρησιμοποιείται για την αναπαράσταση ορισμένων σχετικών πληροφοριών, για παράδειγμα ενός άλμπουμ, μιας γεωγραφικής τοποθεσίας, ενός γεύματος, στοιχείων επικοινωνίας κ.λπ.';
 
   @override
-  String get demoChipSubtitle => 'Συμπαγή στοιχεία που αντιπροσωπεύουν μια εισαγωγή, ένα χαρακτηριστικό ή μια δράση';
+  String get demoChipSubtitle =>
+      'Συμπαγή στοιχεία που αντιπροσωπεύουν μια εισαγωγή, ένα χαρακτηριστικό ή μια δράση';
 
   @override
   String get demoActionChipTitle => 'Τσιπ δράσης';
 
   @override
-  String get demoActionChipDescription => 'Τα τσιπ δράσης είναι ένα σύνολο επιλογών που ενεργοποιούν μια δράση που σχετίζεται με το αρχικό περιεχόμενο. Τα τσιπ δράσης θα πρέπει να εμφανίζονται δυναμικά και με βάση τα συμφραζόμενα στη διεπαφή χρήστη.';
+  String get demoActionChipDescription =>
+      'Τα τσιπ δράσης είναι ένα σύνολο επιλογών που ενεργοποιούν μια δράση που σχετίζεται με το αρχικό περιεχόμενο. Τα τσιπ δράσης θα πρέπει να εμφανίζονται δυναμικά και με βάση τα συμφραζόμενα στη διεπαφή χρήστη.';
 
   @override
   String get demoChoiceChipTitle => 'Τσιπ επιλογής';
 
   @override
-  String get demoChoiceChipDescription => 'Τα τσιπ επιλογής αντιπροσωπεύουν μία επιλογή από ένα σύνολο. Τα τσιπ επιλογής περιέχουν σχετικό περιγραφικό κείμενο ή κατηγορίες.';
+  String get demoChoiceChipDescription =>
+      'Τα τσιπ επιλογής αντιπροσωπεύουν μία επιλογή από ένα σύνολο. Τα τσιπ επιλογής περιέχουν σχετικό περιγραφικό κείμενο ή κατηγορίες.';
 
   @override
   String get demoFilterChipTitle => 'Τσιπ φίλτρου';
 
   @override
-  String get demoFilterChipDescription => 'Τα τσιπ φίλτρου χρησιμοποιούν ετικέτες ή περιγραφικές λέξεις για το φιλτράρισμα περιεχομένου.';
+  String get demoFilterChipDescription =>
+      'Τα τσιπ φίλτρου χρησιμοποιούν ετικέτες ή περιγραφικές λέξεις για το φιλτράρισμα περιεχομένου.';
 
   @override
   String get demoInputChipTitle => 'Τσιπ εισαγωγής';
 
   @override
-  String get demoInputChipDescription => 'Τα τσιπ εισαγωγής αντιπροσωπεύουν ένα περίπλοκο τμήμα πληροφοριών, όπως μια οντότητα (άτομο, μέρος ή πράγμα) ή κείμενο συνομιλίας, σε συμπαγή μορφή.';
+  String get demoInputChipDescription =>
+      'Τα τσιπ εισαγωγής αντιπροσωπεύουν ένα περίπλοκο τμήμα πληροφοριών, όπως μια οντότητα (άτομο, μέρος ή πράγμα) ή κείμενο συνομιλίας, σε συμπαγή μορφή.';
 
   @override
   String get demoDataTableTitle => 'Πίνακες δεδομένων';
@@ -563,7 +596,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'Σειρές και στήλες πληροφοριών';
 
   @override
-  String get demoDataTableDescription => 'Οι πίνακες δεδομένων εμφανίζουν πληροφορίες σε μορφή πλέγματος με σειρές και στήλες. Οργανώνουν τις πληροφορίες με εποπτικό τρόπο, έτσι ώστε οι χρήστες να μπορούν να αναζητούν εύκολα μοτίβα και insight.';
+  String get demoDataTableDescription =>
+      'Οι πίνακες δεδομένων εμφανίζουν πληροφορίες σε μορφή πλέγματος με σειρές και στήλες. Οργανώνουν τις πληροφορίες με εποπτικό τρόπο, έτσι ώστε οι χρήστες να μπορούν να αναζητούν εύκολα μοτίβα και insight.';
 
   @override
   String get dataTableHeader => 'Διατροφή';
@@ -642,7 +676,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'Ειδοποίηση';
 
   @override
-  String get demoAlertDialogDescription => 'Ένα παράθυρο διαλόγου ειδοποίησης που ενημερώνει τον χρήστη για καταστάσεις που απαιτούν επιβεβαίωση. Ένα παράθυρο διαλόγου ειδοποίησης με προαιρετικό τίτλο και προαιρετική λίστα ενεργειών.';
+  String get demoAlertDialogDescription =>
+      'Ένα παράθυρο διαλόγου ειδοποίησης που ενημερώνει τον χρήστη για καταστάσεις που απαιτούν επιβεβαίωση. Ένα παράθυρο διαλόγου ειδοποίησης με προαιρετικό τίτλο και προαιρετική λίστα ενεργειών.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Ειδοποίηση με τίτλο';
@@ -651,16 +686,19 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Απλό';
 
   @override
-  String get demoSimpleDialogDescription => 'Ένα απλό παράθυρο διαλόγου που προσφέρει στον χρήστη τη δυνατότητα επιλογής μεταξύ διαφόρων επιλογών. Ένα απλό παράθυρο διαλόγου με προαιρετικό τίτλο που εμφανίζεται πάνω από τις επιλογές.';
+  String get demoSimpleDialogDescription =>
+      'Ένα απλό παράθυρο διαλόγου που προσφέρει στον χρήστη τη δυνατότητα επιλογής μεταξύ διαφόρων επιλογών. Ένα απλό παράθυρο διαλόγου με προαιρετικό τίτλο που εμφανίζεται πάνω από τις επιλογές.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +710,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Διάταξη σειράς και στήλης';
 
   @override
-  String get demoGridListsDescription => 'Οι λίστες πλέγματος είναι κατάλληλες για παρουσίαση ομοιογενών δεδομένων, συνήθως εικόνων. Κάθε στοιχείο σε μια λίστα πλέγματος ονομάζεται πλακίδιο.';
+  String get demoGridListsDescription =>
+      'Οι λίστες πλέγματος είναι κατάλληλες για παρουσίαση ομοιογενών δεδομένων, συνήθως εικόνων. Κάθε στοιχείο σε μια λίστα πλέγματος ονομάζεται πλακίδιο.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Μόνο εικόνα';
@@ -687,40 +726,48 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoSlidersTitle => 'Ρυθμιστικά';
 
   @override
-  String get demoSlidersSubtitle => 'Γραφικά στοιχεία για επιλογή μιας τιμής μέσω σάρωσης';
+  String get demoSlidersSubtitle =>
+      'Γραφικά στοιχεία για επιλογή μιας τιμής μέσω σάρωσης';
 
   @override
-  String get demoSlidersDescription => 'Τα ρυθμιστικά αντικατοπτρίζουν ένα εύρος τιμών κατά μήκος μιας γραμμής, μέσω της οποίας οι χρήστες μπορούν να επιλέξουν μία τιμή. Είναι ιδανικά για προσαρμογή ρυθμίσεων, όπως η ένταση ήχου, η φωτεινότητα και η εφαρμογή φίλτρων εικόνας.';
+  String get demoSlidersDescription =>
+      'Τα ρυθμιστικά αντικατοπτρίζουν ένα εύρος τιμών κατά μήκος μιας γραμμής, μέσω της οποίας οι χρήστες μπορούν να επιλέξουν μία τιμή. Είναι ιδανικά για προσαρμογή ρυθμίσεων, όπως η ένταση ήχου, η φωτεινότητα και η εφαρμογή φίλτρων εικόνας.';
 
   @override
   String get demoRangeSlidersTitle => 'Ρυθμιστικά εύρους';
 
   @override
-  String get demoRangeSlidersDescription => 'Τα ρυθμιστικά αντικατοπτρίζουν ένα εύρος τιμών κατά μήκος μιας γραμμής. Διαθέτουν εικονίδια και στα δύο άκρα της γραμμής, τα οποία αντικατοπτρίζουν ένα εύρος τιμών. Είναι ιδανικά για προσαρμογή ρυθμίσεων, όπως η ένταση ήχου, η φωτεινότητα και η εφαρμογή φίλτρων εικόνας.';
+  String get demoRangeSlidersDescription =>
+      'Τα ρυθμιστικά αντικατοπτρίζουν ένα εύρος τιμών κατά μήκος μιας γραμμής. Διαθέτουν εικονίδια και στα δύο άκρα της γραμμής, τα οποία αντικατοπτρίζουν ένα εύρος τιμών. Είναι ιδανικά για προσαρμογή ρυθμίσεων, όπως η ένταση ήχου, η φωτεινότητα και η εφαρμογή φίλτρων εικόνας.';
 
   @override
   String get demoCustomSlidersTitle => 'Προσαρμοσμένα ρυθμιστικά';
 
   @override
-  String get demoCustomSlidersDescription => 'Τα ρυθμιστικά αντικατοπτρίζουν ένα εύρος τιμών κατά μήκος μιας γραμμής, μέσω της οποίας οι χρήστες μπορούν να επιλέξουν μία τιμή ή ένα εύρος τιμών. Μπορείτε να προσαρμόσετε ή να προσθέσετε θέμα στα ρυθμιστικά.';
+  String get demoCustomSlidersDescription =>
+      'Τα ρυθμιστικά αντικατοπτρίζουν ένα εύρος τιμών κατά μήκος μιας γραμμής, μέσω της οποίας οι χρήστες μπορούν να επιλέξουν μία τιμή ή ένα εύρος τιμών. Μπορείτε να προσαρμόσετε ή να προσθέσετε θέμα στα ρυθμιστικά.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Συνεχές με αριθμητική τιμή με δυνατότητα επεξεργασίας';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Συνεχές με αριθμητική τιμή με δυνατότητα επεξεργασίας';
 
   @override
   String get demoSlidersDiscrete => 'Διακριτό';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Διακριτό ρυθμιστικό με προσαρμοσμένο θέμα';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Διακριτό ρυθμιστικό με προσαρμοσμένο θέμα';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Συνεχές ρυθμιστικό εύρους με προσαρμοσμένο θέμα';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Συνεχές ρυθμιστικό εύρους με προσαρμοσμένο θέμα';
 
   @override
   String get demoSlidersContinuous => 'Συνεχές';
 
   @override
-  String get demoSlidersEditableNumericalValue => 'Αριθμητική τιμή με δυνατότητα επεξεργασίας';
+  String get demoSlidersEditableNumericalValue =>
+      'Αριθμητική τιμή με δυνατότητα επεξεργασίας';
 
   @override
   String get demoMenuTitle => 'Μενού';
@@ -741,7 +788,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Κουμπιά μενού και απλά μενού';
 
   @override
-  String get demoMenuDescription => 'Ένα μενού παρουσιάζει μια λίστα επιλογών σε μια προσωρινή επιφάνεια. Εμφανίζονται όταν οι χρήστες αλληλεπιδρούν με ένα κουμπί, μια ενέργεια ή άλλο στοιχείο ελέγχου.';
+  String get demoMenuDescription =>
+      'Ένα μενού παρουσιάζει μια λίστα επιλογών σε μια προσωρινή επιφάνεια. Εμφανίζονται όταν οι χρήστες αλληλεπιδρούν με ένα κουμπί, μια ενέργεια ή άλλο στοιχείο ελέγχου.';
 
   @override
   String get demoMenuItemValueOne => 'Στοιχείο μενού ένα';
@@ -765,7 +813,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoMenuFour => 'Τέσσερα';
 
   @override
-  String get demoMenuAnItemWithAContextMenuButton => 'Ένα στοιχείο με μενού περιβάλλοντος';
+  String get demoMenuAnItemWithAContextMenuButton =>
+      'Ένα στοιχείο με μενού περιβάλλοντος';
 
   @override
   String get demoMenuContextMenuItemOne => 'Στοιχείο μενού περιβάλλοντος ένα';
@@ -774,10 +823,12 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoMenuADisabledMenuItem => 'Απενεργοποιημένο στοιχείο μενού';
 
   @override
-  String get demoMenuContextMenuItemThree => 'Στοιχείο μενού περιβάλλοντος τρία';
+  String get demoMenuContextMenuItemThree =>
+      'Στοιχείο μενού περιβάλλοντος τρία';
 
   @override
-  String get demoMenuAnItemWithASectionedMenu => 'Ένα στοιχείο με μενού χωρισμένο σε ενότητες';
+  String get demoMenuAnItemWithASectionedMenu =>
+      'Ένα στοιχείο με μενού χωρισμένο σε ενότητες';
 
   @override
   String get demoMenuPreview => 'Προεπισκόπηση';
@@ -805,10 +856,12 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoNavigationDrawerTitle => 'Συρτάρι πλοήγησης';
 
   @override
-  String get demoNavigationDrawerSubtitle => 'Προβολή συρταριού εντός της γραμμής εφαρμογών';
+  String get demoNavigationDrawerSubtitle =>
+      'Προβολή συρταριού εντός της γραμμής εφαρμογών';
 
   @override
-  String get demoNavigationDrawerDescription => 'Ένα πλαίσιο Material Design που σύρεται οριζόντια από την άκρη της οθόνης για την εμφάνιση συνδέσμων πλοήγησης σε μια εφαρμογή.';
+  String get demoNavigationDrawerDescription =>
+      'Ένα πλαίσιο Material Design που σύρεται οριζόντια από την άκρη της οθόνης για την εμφάνιση συνδέσμων πλοήγησης σε μια εφαρμογή.';
 
   @override
   String get demoNavigationDrawerUserName => 'Όνομα Χρήστη';
@@ -823,16 +876,19 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Στοιχείο δύο';
 
   @override
-  String get demoNavigationDrawerText => 'Σύρετε από την άκρη ή πατήστε το εικονίδιο στην επάνω αριστερή γωνία για να δείτε το συρτάρι.';
+  String get demoNavigationDrawerText =>
+      'Σύρετε από την άκρη ή πατήστε το εικονίδιο στην επάνω αριστερή γωνία για να δείτε το συρτάρι.';
 
   @override
   String get demoNavigationRailTitle => 'Στήλη πλοήγησης';
 
   @override
-  String get demoNavigationRailSubtitle => 'Προβολή στήλης πλοήγησης σε μια εφαρμογή';
+  String get demoNavigationRailSubtitle =>
+      'Προβολή στήλης πλοήγησης σε μια εφαρμογή';
 
   @override
-  String get demoNavigationRailDescription => 'Ένα γραφικό στοιχείο υλικού που προορίζεται για προβολή αριστερά ή δεξιά μιας εφαρμογής, για την πλοήγηση μεταξύ ενός μικρού αριθμού προβολών, συνήθως μεταξύ τριών και πέντε.';
+  String get demoNavigationRailDescription =>
+      'Ένα γραφικό στοιχείο υλικού που προορίζεται για προβολή αριστερά ή δεξιά μιας εφαρμογής, για την πλοήγηση μεταξύ ενός μικρού αριθμού προβολών, συνήθως μεταξύ τριών και πέντε.';
 
   @override
   String get demoNavigationRailFirst => 'Πρώτη';
@@ -847,22 +903,26 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoMenuAnItemWithASimpleMenu => 'Ένα στοιχείο με απλό μενού';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Ένα στοιχείο με μενού λίστας ελέγχου';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Ένα στοιχείο με μενού λίστας ελέγχου';
 
   @override
   String get demoFullscreenDialogTitle => 'Πλήρης οθόνη';
 
   @override
-  String get demoFullscreenDialogDescription => 'Η ιδιότητα fullscreenDialog καθορίζει εάν η εισερχόμενη σελίδα αποτελεί ένα παράθυρο διαλόγου σε πλήρη οθόνη.';
+  String get demoFullscreenDialogDescription =>
+      'Η ιδιότητα fullscreenDialog καθορίζει εάν η εισερχόμενη σελίδα αποτελεί ένα παράθυρο διαλόγου σε πλήρη οθόνη.';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Ένδειξη δραστηριότητας';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'Ενδείξεις δραστηριότητας σε στιλ iOS';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'Ενδείξεις δραστηριότητας σε στιλ iOS';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'Ένδειξη δραστηριότητας σε στιλ iOS που περιστρέφεται δεξιόστροφα.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'Ένδειξη δραστηριότητας σε στιλ iOS που περιστρέφεται δεξιόστροφα.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Κουμπιά';
@@ -871,7 +931,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'Κουμπιά σε στιλ iOS';
 
   @override
-  String get demoCupertinoButtonsDescription => 'Ένα κουμπί σε στιλ iOS. Εμφανίζει κείμενο ή/και ένα εικονίδιο που εξαφανίζεται και εμφανίζεται σταδιακά με το άγγιγμα. Μπορεί να έχει φόντο προαιρετικά.';
+  String get demoCupertinoButtonsDescription =>
+      'Ένα κουμπί σε στιλ iOS. Εμφανίζει κείμενο ή/και ένα εικονίδιο που εξαφανίζεται και εμφανίζεται σταδιακά με το άγγιγμα. Μπορεί να έχει φόντο προαιρετικά.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +941,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,19 +951,22 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Ειδοποιήσεις';
 
   @override
-  String get demoCupertinoAlertsSubtitle => 'Παράθυρα διαλόγου ειδοποίησης σε στιλ iOS';
+  String get demoCupertinoAlertsSubtitle =>
+      'Παράθυρα διαλόγου ειδοποίησης σε στιλ iOS';
 
   @override
   String get demoCupertinoAlertTitle => 'Ειδοποίηση';
 
   @override
-  String get demoCupertinoAlertDescription => 'Ένα παράθυρο διαλόγου ειδοποίησης που ενημερώνει τον χρήστη για καταστάσεις που απαιτούν επιβεβαίωση. Ένα παράθυρο διαλόγου ειδοποίησης με προαιρετικό τίτλο, προαιρετικό περιεχόμενο και προαιρετική λίστα ενεργειών. Ο τίτλος εμφανίζεται πάνω από το περιεχόμενο και οι ενέργειες εμφανίζονται κάτω από το περιεχόμενο.';
+  String get demoCupertinoAlertDescription =>
+      'Ένα παράθυρο διαλόγου ειδοποίησης που ενημερώνει τον χρήστη για καταστάσεις που απαιτούν επιβεβαίωση. Ένα παράθυρο διαλόγου ειδοποίησης με προαιρετικό τίτλο, προαιρετικό περιεχόμενο και προαιρετική λίστα ενεργειών. Ο τίτλος εμφανίζεται πάνω από το περιεχόμενο και οι ενέργειες εμφανίζονται κάτω από το περιεχόμενο.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Ειδοποίηση με τίτλο';
@@ -916,7 +981,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'Φύλλο ενεργειών';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Ένα φύλλο ενεργειών είναι ένα συγκεκριμένο στιλ ειδοποίησης που παρουσιάζει στον χρήστη ένα σύνολο δύο ή περισσότερων επιλογών που σχετίζονται με το τρέχον περιβάλλον. Ένα φύλλο ενεργειών μπορεί να έχει τίτλο, επιπλέον μήνυμα και μια λίστα ενεργειών.';
+  String get demoCupertinoActionSheetDescription =>
+      'Ένα φύλλο ενεργειών είναι ένα συγκεκριμένο στιλ ειδοποίησης που παρουσιάζει στον χρήστη ένα σύνολο δύο ή περισσότερων επιλογών που σχετίζονται με το τρέχον περιβάλλον. Ένα φύλλο ενεργειών μπορεί να έχει τίτλο, επιπλέον μήνυμα και μια λίστα ενεργειών.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Γραμμή πλοήγησης';
@@ -925,16 +991,19 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoCupertinoNavigationBarSubtitle => 'Γραμμή πλοήγησης τύπου iOS';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'Μια γραμμή πλοήγησης τύπου iOS. Η γραμμή πλοήγησης είναι μια γραμμή εργαλείων που αποτελείται, κατά το ελάχιστο, από έναν τίτλο σελίδας στο μέσο της γραμμής εργαλείων.';
+  String get demoCupertinoNavigationBarDescription =>
+      'Μια γραμμή πλοήγησης τύπου iOS. Η γραμμή πλοήγησης είναι μια γραμμή εργαλείων που αποτελείται, κατά το ελάχιστο, από έναν τίτλο σελίδας στο μέσο της γραμμής εργαλείων.';
 
   @override
   String get demoCupertinoPickerTitle => 'Εργαλεία επιλογής';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'Εργαλεία επιλογής ημερομηνίας και ώρας τύπου iOS';
+  String get demoCupertinoPickerSubtitle =>
+      'Εργαλεία επιλογής ημερομηνίας και ώρας τύπου iOS';
 
   @override
-  String get demoCupertinoPickerDescription => 'Ένα γραφικό στοιχείο εργαλείου επιλογής τύπου iOS μπορεί να χρησιμοποιηθεί για την επιλογή ημερομηνίας, ώρας ή και ημερομηνίας και ώρας.';
+  String get demoCupertinoPickerDescription =>
+      'Ένα γραφικό στοιχείο εργαλείου επιλογής τύπου iOS μπορεί να χρησιμοποιηθεί για την επιλογή ημερομηνίας, ώρας ή και ημερομηνίας και ώρας.';
 
   @override
   String get demoCupertinoPickerTimer => 'Χρονόμετρο';
@@ -949,22 +1018,27 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoCupertinoPickerDateTime => 'Ημερομηνία και ώρα';
 
   @override
-  String get demoCupertinoPullToRefreshTitle => 'Σύρετε προς τα κάτω για ανανέωση';
+  String get demoCupertinoPullToRefreshTitle =>
+      'Σύρετε προς τα κάτω για ανανέωση';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'Στοιχείο ελέγχου τύπου iOS για ανανέωση με σύρσιμο προς τα κάτω';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'Στοιχείο ελέγχου τύπου iOS για ανανέωση με σύρσιμο προς τα κάτω';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Ένα γραφικό στοιχείο που χρησιμοποιεί το στοιχείο ελέγχου περιεχομένου τύπου iOS για ανανέωση με σύρσιμο προς τα κάτω.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Ένα γραφικό στοιχείο που χρησιμοποιεί το στοιχείο ελέγχου περιεχομένου τύπου iOS για ανανέωση με σύρσιμο προς τα κάτω.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Τμηματοποιημένος έλεγχος';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'Τμηματοποιημένος έλεγχος σε στιλ iOS';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'Τμηματοποιημένος έλεγχος σε στιλ iOS';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Χρησιμοποιείται για τον ορισμό μιας επιλογής μέσα από έναν αριθμό επιλογών που αποκλείουν η μία την άλλη. Όταν ορίζεται μία επιλογή στον τμηματοποιημένο έλεγχο, καταργείται ο ορισμός των άλλων επιλογών στον τμηματοποιημένο έλεγχο.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Χρησιμοποιείται για τον ορισμό μιας επιλογής μέσα από έναν αριθμό επιλογών που αποκλείουν η μία την άλλη. Όταν ορίζεται μία επιλογή στον τμηματοποιημένο έλεγχο, καταργείται ο ορισμός των άλλων επιλογών στον τμηματοποιημένο έλεγχο.';
 
   @override
   String get demoCupertinoSliderTitle => 'Ρυθμιστικό';
@@ -973,7 +1047,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'Ρυθμιστικό σε στιλ iOS';
 
   @override
-  String get demoCupertinoSliderDescription => 'Ένα ρυθμιστικό που μπορεί να χρησιμοποιηθεί για την επιλογή ανάμεσα σε ένα συνεχές ή διακριτό σύνολο τιμών.';
+  String get demoCupertinoSliderDescription =>
+      'Ένα ρυθμιστικό που μπορεί να χρησιμοποιηθεί για την επιλογή ανάμεσα σε ένα συνεχές ή διακριτό σύνολο τιμών.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,7 +1064,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'Διακόπτης σε στιλ iOS';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Ένας διακόπτης που χρησιμοποιείται για την εναλλαγή της κατάστασης ενεργοποίησης/απενεργοποίησης μιας μεμονωμένης ρύθμισης.';
+  String get demoCupertinoSwitchDescription =>
+      'Ένας διακόπτης που χρησιμοποιείται για την εναλλαγή της κατάστασης ενεργοποίησης/απενεργοποίησης μιας μεμονωμένης ρύθμισης.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Γραμμή καρτελών';
@@ -998,7 +1074,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'Κάτω γραμμή καρτελών σε στιλ iOS';
 
   @override
-  String get demoCupertinoTabBarDescription => 'Μια κάτω γραμμή πλοήγησης καρτελών σε στιλ iOS. Εμφανίζει πολλές καρτέλες, από τις οποίες μία είναι ενεργή, από προεπιλογή η πρώτη.';
+  String get demoCupertinoTabBarDescription =>
+      'Μια κάτω γραμμή πλοήγησης καρτελών σε στιλ iOS. Εμφανίζει πολλές καρτέλες, από τις οποίες μία είναι ενεργή, από προεπιλογή η πρώτη.';
 
   @override
   String get cupertinoTabBarHomeTab => 'Αρχική σελίδα';
@@ -1016,7 +1093,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'Πεδία κειμένου τύπου iOS';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'Ένα πεδίο κειμένου που επιτρέπει στον χρήστη να εισάγει κείμενο, είτε με ένα πληκτρολόγιο υλικού είτε με ένα πληκτρολόγιο οθόνης.';
+  String get demoCupertinoTextFieldDescription =>
+      'Ένα πεδίο κειμένου που επιτρέπει στον χρήστη να εισάγει κείμενο, είτε με ένα πληκτρολόγιο υλικού είτε με ένα πληκτρολόγιο οθόνης.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN';
@@ -1034,7 +1112,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoSharedXAxisDemoInstructions => 'Κουμπιά Επόμενο και Πίσω';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'Ταξινόμηση κατά Ακούσατε πρόσφατα';
+  String get demoSharedYAxisDemoInstructions =>
+      'Ταξινόμηση κατά Ακούσατε πρόσφατα';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'Κουμπί εικονιδίου ρυθμίσεων';
@@ -1049,16 +1128,19 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'Μετασχηματισμός κοντέινερ';
 
   @override
-  String get demoContainerTransformDescription => 'Το μοτίβο μετασχηματισμού κοντέινερ έχει σχεδιαστεί για μεταβάσεις μεταξύ στοιχείων διεπαφής χρήστη που περιλαμβάνουν ένα κοντέινερ. Αυτό το μοτίβο δημιουργεί μια ορατή σύνδεση μεταξύ δύο στοιχείων διεπαφής χρήστη.';
+  String get demoContainerTransformDescription =>
+      'Το μοτίβο μετασχηματισμού κοντέινερ έχει σχεδιαστεί για μεταβάσεις μεταξύ στοιχείων διεπαφής χρήστη που περιλαμβάνουν ένα κοντέινερ. Αυτό το μοτίβο δημιουργεί μια ορατή σύνδεση μεταξύ δύο στοιχείων διεπαφής χρήστη.';
 
   @override
-  String get demoContainerTransformModalBottomSheetTitle => 'Λειτουργία σταδιακής εξαφάνισης';
+  String get demoContainerTransformModalBottomSheetTitle =>
+      'Λειτουργία σταδιακής εξαφάνισης';
 
   @override
   String get demoContainerTransformTypeFade => 'ΣΤΑΔΙΑΚΗ ΕΞΑΦΑΝΙΣΗ';
 
   @override
-  String get demoContainerTransformTypeFadeThrough => 'ΣΤΑΔΙΑΚΗ ΕΞΑΦΑΝΙΣΗ ΔΙΑ ΜΕΣΟΥ';
+  String get demoContainerTransformTypeFadeThrough =>
+      'ΣΤΑΔΙΑΚΗ ΕΞΑΦΑΝΙΣΗ ΔΙΑ ΜΕΣΟΥ';
 
   @override
   String get demoMotionPlaceholderTitle => 'Τίτλος';
@@ -1076,7 +1158,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Στοιχείο λίστας';
 
   @override
-  String get demoSharedAxisDescription => 'Το μοτίβο κοινόχρηστου άξονα χρησιμοποιείται για μεταβάσεις μεταξύ στοιχείων διεπαφής χρήστη που συνδέονται με μια χωρική σχέση ή μια σχέση πλοήγησης. Αυτό το μοτίβο χρησιμοποιεί έναν κοινόχρηστο μετασχηματισμό στον άξονα x, y ή z για να ενδυναμώσει τη σχέση μεταξύ των στοιχείων.';
+  String get demoSharedAxisDescription =>
+      'Το μοτίβο κοινόχρηστου άξονα χρησιμοποιείται για μεταβάσεις μεταξύ στοιχείων διεπαφής χρήστη που συνδέονται με μια χωρική σχέση ή μια σχέση πλοήγησης. Αυτό το μοτίβο χρησιμοποιεί έναν κοινόχρηστο μετασχηματισμό στον άξονα x, y ή z για να ενδυναμώσει τη σχέση μεταξύ των στοιχείων.';
 
   @override
   String get demoSharedXAxisTitle => 'Κοινόχρηστος άξονας x';
@@ -1091,7 +1174,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'Συντονισμός των μαθημάτων σας';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Οι ομαδοποιημένες κατηγορίες εμφανίζονται ως ομάδες στη ροή σας. Μπορείτε πάντα να αλλάξετε αυτήν την επιλογή αργότερα.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Οι ομαδοποιημένες κατηγορίες εμφανίζονται ως ομάδες στη ροή σας. Μπορείτε πάντα να αλλάξετε αυτήν την επιλογή αργότερα.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Τέχνη και κατασκευές';
@@ -1118,13 +1202,16 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoSharedXAxisSignInWelcomeText => 'Γεια σας David Park,';
 
   @override
-  String get demoSharedXAxisSignInSubtitleText => 'Σύνδεση με τον λογαριασμό σας';
+  String get demoSharedXAxisSignInSubtitleText =>
+      'Σύνδεση με τον λογαριασμό σας';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'Διεύθυνση ηλεκτρονικού ταχυδρομείου ή αριθμός τηλεφώνου';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'Διεύθυνση ηλεκτρονικού ταχυδρομείου ή αριθμός τηλεφώνου';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'ΞΕΧΑΣΑΤΕ ΤΗ ΔΙΕΥΘΥΝΣΗ ΗΛΕΚΤΡΟΝΙΚΟΥ ΤΑΧΥΔΡΟΜΕΙΟΥ;';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'ΞΕΧΑΣΑΤΕ ΤΗ ΔΙΕΥΘΥΝΣΗ ΗΛΕΚΤΡΟΝΙΚΟΥ ΤΑΧΥΔΡΟΜΕΙΟΥ;';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'ΔΗΜΙΟΥΡΓΙΑ ΛΟΓΑΡΙΑΣΜΟΥ';
@@ -1178,7 +1265,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Γαρίδες';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Συνταγή για γαρίδες';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Συνταγή για γαρίδες';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Καβούρι';
@@ -1190,7 +1278,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Σάντουιτς με βοδινό';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Συνταγή για σάντουιτς με βοδινό';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Συνταγή για σάντουιτς με βοδινό';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Αποθηκευμένες συνταγές';
@@ -1211,7 +1300,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Σταδιακή εξαφάνιση διά μέσου';
 
   @override
-  String get demoFadeThroughDescription => 'Το μοτίβο σταδιακής εξαφάνισης στο κέντρο χρησιμοποιείται για μεταβάσεις μεταξύ στοιχείων διεπαφής χρήστη που δεν έχουν μια ισχυρή σχέση ανάμεσά τους.';
+  String get demoFadeThroughDescription =>
+      'Το μοτίβο σταδιακής εξαφάνισης στο κέντρο χρησιμοποιείται για μεταβάσεις μεταξύ στοιχείων διεπαφής χρήστη που δεν έχουν μια ισχυρή σχέση ανάμεσά τους.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Άλμπουμ';
@@ -1229,19 +1319,24 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Σταδιακή εξαφάνιση';
 
   @override
-  String get demoFadeScaleDescription => 'Το μοτίβο σταδιακής εξαφάνισης χρησιμοποιείται για στοιχεία διεπαφής χρήστη που μπαίνουν ή βγαίνουν από τα όρια της οθόνης , όπως ένα παράθυρο διαλόγου που εμφανίζεται σταδιακά στο κέντρο της οθόνης.';
+  String get demoFadeScaleDescription =>
+      'Το μοτίβο σταδιακής εξαφάνισης χρησιμοποιείται για στοιχεία διεπαφής χρήστη που μπαίνουν ή βγαίνουν από τα όρια της οθόνης , όπως ένα παράθυρο διαλόγου που εμφανίζεται σταδιακά στο κέντρο της οθόνης.';
 
   @override
-  String get demoFadeScaleShowAlertDialogButton => 'ΕΜΦΑΝΙΣΗ ΑΠΟΚΛΕΙΣΤΙΚΗΣ ΕΙΔΟΠΟΙΗΣΗΣ';
+  String get demoFadeScaleShowAlertDialogButton =>
+      'ΕΜΦΑΝΙΣΗ ΑΠΟΚΛΕΙΣΤΙΚΗΣ ΕΙΔΟΠΟΙΗΣΗΣ';
 
   @override
-  String get demoFadeScaleShowFabButton => 'ΕΜΦΑΝΙΣΗ ΚΙΝΟΥΜΕΝΟΥ ΚΟΥΜΠΙΟΥ ΕΝΕΡΓΕΙΑΣ';
+  String get demoFadeScaleShowFabButton =>
+      'ΕΜΦΑΝΙΣΗ ΚΙΝΟΥΜΕΝΟΥ ΚΟΥΜΠΙΟΥ ΕΝΕΡΓΕΙΑΣ';
 
   @override
-  String get demoFadeScaleHideFabButton => 'ΑΠΟΚΡΥΨΗ ΚΙΝΟΥΜΕΝΟΥ ΚΟΥΜΠΙΟΥ ΕΝΕΡΓΕΙΑΣ';
+  String get demoFadeScaleHideFabButton =>
+      'ΑΠΟΚΡΥΨΗ ΚΙΝΟΥΜΕΝΟΥ ΚΟΥΜΠΙΟΥ ΕΝΕΡΓΕΙΑΣ';
 
   @override
-  String get demoFadeScaleAlertDialogHeader => 'Παράθυρο διαλόγου προειδοποιήσεων';
+  String get demoFadeScaleAlertDialogHeader =>
+      'Παράθυρο διαλόγου προειδοποιήσεων';
 
   @override
   String get demoFadeScaleAlertDialogCancelButton => 'ΑΚΥΡΩΣΗ';
@@ -1256,7 +1351,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Όλα τα προκαθορισμένα χρώματα';
 
   @override
-  String get demoColorsDescription => 'Χρώματα και δείγματα χρώματος που αντιπροσωπεύουν τη χρωματική παλέτα του material design.';
+  String get demoColorsDescription =>
+      'Χρώματα και δείγματα χρώματος που αντιπροσωπεύουν τη χρωματική παλέτα του material design.';
 
   @override
   String get demoTypographyTitle => 'Τυπογραφία';
@@ -1265,7 +1361,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoTypographySubtitle => 'Όλα τα προκαθορισμένα στιλ κειμένου';
 
   @override
-  String get demoTypographyDescription => 'Ορισμοί για διάφορα τυπογραφικά στιλ που συναντώνται στο material design.';
+  String get demoTypographyDescription =>
+      'Ορισμοί για διάφορα τυπογραφικά στιλ που συναντώνται στο material design.';
 
   @override
   String get demo2dTransformationsTitle => 'Μετασχηματισμοί 2D';
@@ -1274,7 +1371,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'Μετακίνηση, εστίαση, περιστροφή';
 
   @override
-  String get demo2dTransformationsDescription => 'Πατήστε για να επεξεργαστείτε πλακίδια και χρησιμοποιήστε κινήσεις για να μετακινηθείτε σε μια σκηνή. Σύρετε για μετακίνηση, πλησιάστε τα δάχτυλά σας για εστίαση, περιστρέψτε με δύο δάχτυλα. Πατήστε το κουμπί επαναφοράς για να επιστρέψετε στον αρχικό προσανατολισμό.';
+  String get demo2dTransformationsDescription =>
+      'Πατήστε για να επεξεργαστείτε πλακίδια και χρησιμοποιήστε κινήσεις για να μετακινηθείτε σε μια σκηνή. Σύρετε για μετακίνηση, πλησιάστε τα δάχτυλά σας για εστίαση, περιστρέψτε με δύο δάχτυλα. Πατήστε το κουμπί επαναφοράς για να επιστρέψετε στον αρχικό προσανατολισμό.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Επαναφορά μετασχηματισμών';
@@ -1289,19 +1387,22 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoBottomSheetTitle => 'Φύλλο κάτω μέρους';
 
   @override
-  String get demoBottomSheetSubtitle => 'Μόνιμα και αποκλειστικά φύλλα κάτω μέρους';
+  String get demoBottomSheetSubtitle =>
+      'Μόνιμα και αποκλειστικά φύλλα κάτω μέρους';
 
   @override
   String get demoBottomSheetPersistentTitle => 'Μόνιμο φύλλο στο κάτω μέρος';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Ένα μόνιμο φύλλο στο κάτω μέρος εμφανίζει πληροφορίες που συμπληρώνουν το κύριο περιεχόμενο της εφαρμογής. Ένα μόνιμο φύλλο στο κάτω μέρος παραμένει ορατό ακόμη και όταν ο χρήστης αλληλεπιδρά με άλλα μέρη της εφαρμογής.';
+  String get demoBottomSheetPersistentDescription =>
+      'Ένα μόνιμο φύλλο στο κάτω μέρος εμφανίζει πληροφορίες που συμπληρώνουν το κύριο περιεχόμενο της εφαρμογής. Ένα μόνιμο φύλλο στο κάτω μέρος παραμένει ορατό ακόμη και όταν ο χρήστης αλληλεπιδρά με άλλα μέρη της εφαρμογής.';
 
   @override
   String get demoBottomSheetModalTitle => 'Αποκλειστικό φύλλο κάτω μέρους';
 
   @override
-  String get demoBottomSheetModalDescription => 'Ένα αποκλειστικό φύλλο στο κάτω μέρος αποτελεί εναλλακτική λύση συγκριτικά με ένα μενού ή παράθυρο διαλόγου και αποτρέπει την αλληλεπίδραση του χρήστη με την υπόλοιπη εφαρμογή.';
+  String get demoBottomSheetModalDescription =>
+      'Ένα αποκλειστικό φύλλο στο κάτω μέρος αποτελεί εναλλακτική λύση συγκριτικά με ένα μενού ή παράθυρο διαλόγου και αποτρέπει την αλληλεπίδραση του χρήστη με την υπόλοιπη εφαρμογή.';
 
   @override
   String get demoBottomSheetAddLabel => 'Προσθήκη';
@@ -1324,7 +1425,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoListsSubtitle => 'Διατάξεις κυλιόμενων λιστών';
 
   @override
-  String get demoListsDescription => 'Μία γραμμή σταθερού ύψους που συνήθως περιέχει κείμενο καθώς και ένα εικονίδιο στην αρχή ή στο τέλος.';
+  String get demoListsDescription =>
+      'Μία γραμμή σταθερού ύψους που συνήθως περιέχει κείμενο καθώς και ένα εικονίδιο στην αρχή ή στο τέλος.';
 
   @override
   String get demoOneLineListsTitle => 'Μία γραμμή';
@@ -1339,19 +1441,22 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoProgressIndicatorTitle => 'Ενδείξεις προόδου';
 
   @override
-  String get demoProgressIndicatorSubtitle => 'Γραμμική, κυκλική, απροσδιόριστη';
+  String get demoProgressIndicatorSubtitle =>
+      'Γραμμική, κυκλική, απροσδιόριστη';
 
   @override
   String get demoCircularProgressIndicatorTitle => 'Κυκλική ένδειξη προόδου';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Μια κυκλική ένδειξη προόδου του Material Design, που περιστρέφεται για να υποδείξει ότι η εφαρμογή είναι απασχολημένη.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Μια κυκλική ένδειξη προόδου του Material Design, που περιστρέφεται για να υποδείξει ότι η εφαρμογή είναι απασχολημένη.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'Γραμμική ένδειξη προόδου';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Μια γραμμική ένδειξη προόδου του Material Design, η οποία είναι επίσης γνωστή ως γραμμή προόδου.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Μια γραμμική ένδειξη προόδου του Material Design, η οποία είναι επίσης γνωστή ως γραμμή προόδου.';
 
   @override
   String get demoPickersTitle => 'Εργαλεία επιλογής';
@@ -1363,19 +1468,22 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Εργαλείο επιλογής ημερομηνίας';
 
   @override
-  String get demoDatePickerDescription => 'Εμφανίζει ένα παράθυρο διαλόγου που περιέχει ένα εργαλείο επιλογής ημερομηνίας material design.';
+  String get demoDatePickerDescription =>
+      'Εμφανίζει ένα παράθυρο διαλόγου που περιέχει ένα εργαλείο επιλογής ημερομηνίας material design.';
 
   @override
   String get demoTimePickerTitle => 'Εργαλείο επιλογής ώρας';
 
   @override
-  String get demoTimePickerDescription => 'Εμφανίζει ένα παράθυρο διαλόγου που περιέχει ένα εργαλείο επιλογής ώρας material design.';
+  String get demoTimePickerDescription =>
+      'Εμφανίζει ένα παράθυρο διαλόγου που περιέχει ένα εργαλείο επιλογής ώρας material design.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'ΕΜΦΑΝΙΣΗ ΕΡΓΑΛΕΙΟΥ ΕΠΙΛΟΓΗΣ';
@@ -1393,52 +1501,63 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoTabsSubtitle => 'Καρτέλες με προβολές ανεξάρτητης κύλισης';
 
   @override
-  String get demoTabsDescription => 'Οι καρτέλες οργανώνουν το περιεχόμενο σε διαφορετικές οθόνες, σύνολα δεδομένων και άλλες αλληλεπιδράσεις.';
+  String get demoTabsDescription =>
+      'Οι καρτέλες οργανώνουν το περιεχόμενο σε διαφορετικές οθόνες, σύνολα δεδομένων και άλλες αλληλεπιδράσεις.';
 
   @override
-  String get demoSnackbarsTitle => 'Αναδυόμενες ειδοποιήσεις χωρίς δυνατότητα παράβλεψης';
+  String get demoSnackbarsTitle =>
+      'Αναδυόμενες ειδοποιήσεις χωρίς δυνατότητα παράβλεψης';
 
   @override
-  String get demoSnackbarsSubtitle => 'Οι αναδυόμενες ειδοποιήσεις χωρίς δυνατότητα παράβλεψης εμφανίζουν μηνύματα στο κάτω μέρος της οθόνης.';
+  String get demoSnackbarsSubtitle =>
+      'Οι αναδυόμενες ειδοποιήσεις χωρίς δυνατότητα παράβλεψης εμφανίζουν μηνύματα στο κάτω μέρος της οθόνης.';
 
   @override
-  String get demoSnackbarsDescription => 'Οι αναδυόμενες ειδοποιήσεις χωρίς δυνατότητα παράβλεψης ενημερώνουν τους χρήστες σχετικά με μια διεργασία που εκτέλεσε ή πρόκειται να εκτελέσει μια εφαρμογή. Εμφανίζονται προσωρινά, στο κάτω μέρος της οθόνης. Δεν διακόπτουν την εμπειρία του χρήστη και δεν απαιτούν κάποια ενέργεια από τον χρήστη για να εξαφανιστούν.';
+  String get demoSnackbarsDescription =>
+      'Οι αναδυόμενες ειδοποιήσεις χωρίς δυνατότητα παράβλεψης ενημερώνουν τους χρήστες σχετικά με μια διεργασία που εκτέλεσε ή πρόκειται να εκτελέσει μια εφαρμογή. Εμφανίζονται προσωρινά, στο κάτω μέρος της οθόνης. Δεν διακόπτουν την εμπειρία του χρήστη και δεν απαιτούν κάποια ενέργεια από τον χρήστη για να εξαφανιστούν.';
 
   @override
-  String get demoSnackbarsButtonLabel => 'ΕΜΦΑΝΙΣΗ ΑΝΑΔΥΟΜΕΝΗΣ ΕΙΔΟΠΟΙΗΣΗΣ ΧΩΡΙΣ ΔΥΝΑΤΟΤΗΤΑ ΠΑΡΑΒΛΕΨΗΣ';
+  String get demoSnackbarsButtonLabel =>
+      'ΕΜΦΑΝΙΣΗ ΑΝΑΔΥΟΜΕΝΗΣ ΕΙΔΟΠΟΙΗΣΗΣ ΧΩΡΙΣ ΔΥΝΑΤΟΤΗΤΑ ΠΑΡΑΒΛΕΨΗΣ';
 
   @override
-  String get demoSnackbarsText => 'Αυτή είναι μια αναδυόμενη ειδοποίηση χωρίς δυνατότητα παράβλεψης.';
+  String get demoSnackbarsText =>
+      'Αυτή είναι μια αναδυόμενη ειδοποίηση χωρίς δυνατότητα παράβλεψης.';
 
   @override
   String get demoSnackbarsActionButtonLabel => 'ΕΝΕΡΓΕΙΑ';
 
   @override
-  String get demoSnackbarsAction => 'Πατήσατε την ενέργεια της αναδυόμενης ειδοποίησης χωρίς δυνατότητα παράβλεψης.';
+  String get demoSnackbarsAction =>
+      'Πατήσατε την ενέργεια της αναδυόμενης ειδοποίησης χωρίς δυνατότητα παράβλεψης.';
 
   @override
   String get demoSelectionControlsTitle => 'Στοιχεία ελέγχου επιλογής';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Πλαίσια ελέγχου, κουμπιά επιλογής και διακόπτες';
+  String get demoSelectionControlsSubtitle =>
+      'Πλαίσια ελέγχου, κουμπιά επιλογής και διακόπτες';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Πλαίσιο ελέγχου';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Τα πλαίσια ελέγχου επιτρέπουν στον χρήστη να επιλέξει πολλές επιλογές από ένα σύνολο. Μια τιμή ενός κανονικού πλαισίου ελέγχου είναι είτε true είτε false και η τιμή ενός πλαισίου ελέγχου τριπλής κατάστασης μπορεί, επίσης, να είναι null.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Τα πλαίσια ελέγχου επιτρέπουν στον χρήστη να επιλέξει πολλές επιλογές από ένα σύνολο. Μια τιμή ενός κανονικού πλαισίου ελέγχου είναι είτε true είτε false και η τιμή ενός πλαισίου ελέγχου τριπλής κατάστασης μπορεί, επίσης, να είναι null.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Ραδιόφωνο';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Τα κουμπιά επιλογής επιτρέπουν στον χρήστη να επιλέξει μια επιλογή από ένα σύνολο. Χρησιμοποιήστε τα κουμπιά επιλογής για αποκλειστική επιλογή, εάν πιστεύετε ότι ο χρήστης πρέπει να βλέπει όλες τις διαθέσιμες επιλογές δίπλα-δίπλα.';
+  String get demoSelectionControlsRadioDescription =>
+      'Τα κουμπιά επιλογής επιτρέπουν στον χρήστη να επιλέξει μια επιλογή από ένα σύνολο. Χρησιμοποιήστε τα κουμπιά επιλογής για αποκλειστική επιλογή, εάν πιστεύετε ότι ο χρήστης πρέπει να βλέπει όλες τις διαθέσιμες επιλογές δίπλα-δίπλα.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Εναλλαγή';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Οι διακόπτες ενεργοποίησης/απενεργοποίησης εναλλάσουν την κατάσταση μιας μεμονωμένης ρύθμισης. Η επιλογή που ελέγχει ο διακόπτης, καθώς και η κατάσταση στην οποία βρίσκεται, θα πρέπει να αποσαφηνίζεται από την αντίστοιχη ενσωματωμένη ετικέτα.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Οι διακόπτες ενεργοποίησης/απενεργοποίησης εναλλάσουν την κατάσταση μιας μεμονωμένης ρύθμισης. Η επιλογή που ελέγχει ο διακόπτης, καθώς και η κατάσταση στην οποία βρίσκεται, θα πρέπει να αποσαφηνίζεται από την αντίστοιχη ενσωματωμένη ετικέτα.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Πεδία κειμένου';
@@ -1447,10 +1566,12 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoTextFieldTitle => 'Πεδία κειμένου';
 
   @override
-  String get demoTextFieldSubtitle => 'Μονή γραμμή κειμένου και αριθμών με δυνατότητα επεξεργασίας';
+  String get demoTextFieldSubtitle =>
+      'Μονή γραμμή κειμένου και αριθμών με δυνατότητα επεξεργασίας';
 
   @override
-  String get demoTextFieldDescription => 'Τα πεδία κειμένου επιτρέπουν στους χρήστες να εισάγουν κείμενο σε μια διεπαφή χρήστη. Συνήθως, εμφανίζονται σε φόρμες και παράθυρα διαλόγου.';
+  String get demoTextFieldDescription =>
+      'Τα πεδία κειμένου επιτρέπουν στους χρήστες να εισάγουν κείμενο σε μια διεπαφή χρήστη. Συνήθως, εμφανίζονται σε φόρμες και παράθυρα διαλόγου.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Εμφάνιση κωδικού πρόσβασης';
@@ -1459,22 +1580,26 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Απόκρυψη κωδικού πρόσβασης';
 
   @override
-  String get demoTextFieldFormErrors => 'Διορθώστε τα σφάλματα που έχουν επισημανθεί με κόκκινο χρώμα πριν την υποβολή.';
+  String get demoTextFieldFormErrors =>
+      'Διορθώστε τα σφάλματα που έχουν επισημανθεί με κόκκινο χρώμα πριν την υποβολή.';
 
   @override
   String get demoTextFieldNameRequired => 'Το όνομα είναι υποχρεωτικό.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'Εισαγάγετε μόνο αλφαβητικούς χαρακτήρες.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'Εισαγάγετε μόνο αλφαβητικούς χαρακτήρες.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - Εισαγάγετε έναν αριθμό τηλεφώνου ΗΠΑ.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - Εισαγάγετε έναν αριθμό τηλεφώνου ΗΠΑ.';
 
   @override
   String get demoTextFieldEnterPassword => 'Καταχωρίστε έναν κωδικό πρόσβασης.';
 
   @override
-  String get demoTextFieldPasswordsDoNotMatch => 'Οι κωδικοί πρόσβασης δεν ταιριάζουν';
+  String get demoTextFieldPasswordsDoNotMatch =>
+      'Οι κωδικοί πρόσβασης δεν ταιριάζουν';
 
   @override
   String get demoTextFieldWhatDoPeopleCallYou => 'Πώς σας λένε;';
@@ -1483,22 +1608,26 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoTextFieldNameField => 'Όνομα*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'Πώς μπορούμε να επικοινωνήσουμε μαζί σας;';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'Πώς μπορούμε να επικοινωνήσουμε μαζί σας;';
 
   @override
   String get demoTextFieldPhoneNumber => 'Αριθμός τηλεφώνου*';
 
   @override
-  String get demoTextFieldYourEmailAddress => 'Η διεύθυνση ηλεκτρονικού ταχυδρομείου σας';
+  String get demoTextFieldYourEmailAddress =>
+      'Η διεύθυνση ηλεκτρονικού ταχυδρομείου σας';
 
   @override
   String get demoTextFieldEmail => 'Διεύθυνση ηλεκτρονικού ταχυδρομείου';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Πείτε μας για τον εαυτό σας (π.χ., γράψτε με τι ασχολείστε ή ποια είναι τα χόμπι σας)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Πείτε μας για τον εαυτό σας (π.χ., γράψτε με τι ασχολείστε ή ποια είναι τα χόμπι σας)';
 
   @override
-  String get demoTextFieldKeepItShort => 'Φροντίστε να είστε σύντομοι, αυτή είναι απλώς μια επίδειξη.';
+  String get demoTextFieldKeepItShort =>
+      'Φροντίστε να είστε σύντομοι, αυτή είναι απλώς μια επίδειξη.';
 
   @override
   String get demoTextFieldLifeStory => 'Βιογραφία';
@@ -1516,7 +1645,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoTextFieldPassword => 'Κωδικός πρόσβασης*';
 
   @override
-  String get demoTextFieldRetypePassword => 'Επαναπληκτρολόγηση κωδικού πρόσβασης*';
+  String get demoTextFieldRetypePassword =>
+      'Επαναπληκτρολόγηση κωδικού πρόσβασης*';
 
   @override
   String get demoTextFieldSubmit => 'ΥΠΟΒΟΛΗ';
@@ -1533,13 +1663,16 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get demoTooltipTitle => 'Επεξηγήσεις εργαλείου';
 
   @override
-  String get demoTooltipSubtitle => 'Σύντομο μήνυμα που εμφανίζεται με παρατεταμένο πάτημα ή τοποθέτηση του δείκτη';
+  String get demoTooltipSubtitle =>
+      'Σύντομο μήνυμα που εμφανίζεται με παρατεταμένο πάτημα ή τοποθέτηση του δείκτη';
 
   @override
-  String get demoTooltipDescription => 'Οι επεξηγήσεις εργαλείου παρέχουν ετικέτες κειμένου που βοηθούν με την επεξήγηση της λειτουργίας ενός κουμπιού ή άλλης ενέργειας της διεπαφής χρήστη. Οι επεξηγήσεις εργαλείου προβάλουν ενημερωτικό κείμενο όταν οι χρήστες τοποθετούν τον δείκτη πάνω από ένα στοιχείο, εστιάζουν ή πατούν παρατεταμένα σε ένα στοιχείο.';
+  String get demoTooltipDescription =>
+      'Οι επεξηγήσεις εργαλείου παρέχουν ετικέτες κειμένου που βοηθούν με την επεξήγηση της λειτουργίας ενός κουμπιού ή άλλης ενέργειας της διεπαφής χρήστη. Οι επεξηγήσεις εργαλείου προβάλουν ενημερωτικό κείμενο όταν οι χρήστες τοποθετούν τον δείκτη πάνω από ένα στοιχείο, εστιάζουν ή πατούν παρατεταμένα σε ένα στοιχείο.';
 
   @override
-  String get demoTooltipInstructions => 'Παρατεταμένο πάτημα ή τοποθέτηση του δείκτη για εμφάνιση της επεξήγησης εργαλείου.';
+  String get demoTooltipInstructions =>
+      'Παρατεταμένο πάτημα ή τοποθέτηση του δείκτη για εμφάνιση της επεξήγησης εργαλείου.';
 
   @override
   String get bottomNavigationCommentsTab => 'Σχόλια';
@@ -1597,10 +1730,12 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get dialogDiscardTitle => 'Απόρριψη πρόχειρου;';
 
   @override
-  String get dialogLocationTitle => 'Χρήση της υπηρεσίας τοποθεσίας της Google;';
+  String get dialogLocationTitle =>
+      'Χρήση της υπηρεσίας τοποθεσίας της Google;';
 
   @override
-  String get dialogLocationDescription => 'Επιτρέψτε στην Google να διευκολύνει τις εφαρμογές να προσδιορίζουν την τοποθεσία σας. Αυτό συνεπάγεται την αποστολή ανώνυμων δεδομένων τοποθεσίας στην Google, ακόμη και όταν δεν εκτελούνται εφαρμογές.';
+  String get dialogLocationDescription =>
+      'Επιτρέψτε στην Google να διευκολύνει τις εφαρμογές να προσδιορίζουν την τοποθεσία σας. Αυτό συνεπάγεται την αποστολή ανώνυμων δεδομένων τοποθεσίας στην Google, ακόμη και όταν δεν εκτελούνται εφαρμογές.';
 
   @override
   String get dialogCancel => 'ΑΚΥΡΩΣΗ';
@@ -1615,7 +1750,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get dialogAgree => 'ΣΥΜΦΩΝΩ';
 
   @override
-  String get dialogSetBackup => 'Ρύθμιση λογαριασμού δημιουργίας αντιγράφων ασφαλείας';
+  String get dialogSetBackup =>
+      'Ρύθμιση λογαριασμού δημιουργίας αντιγράφων ασφαλείας';
 
   @override
   String get dialogAddAccount => 'Προσθήκη λογαριασμού';
@@ -1630,7 +1766,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get dialogFullscreenSave => 'ΑΠΟΘΗΚΕΥΣΗ';
 
   @override
-  String get dialogFullscreenDescription => 'Μια επίδειξη παραθύρου διαλόγου σε πλήρη οθόνη';
+  String get dialogFullscreenDescription =>
+      'Μια επίδειξη παραθύρου διαλόγου σε πλήρη οθόνη';
 
   @override
   String get cupertinoButton => 'Κουμπί';
@@ -1645,10 +1782,12 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Απόρριψη';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Να επιτρέπεται στους Χάρτες να έχουν πρόσβαση στην τοποθεσία σας, ενώ χρησιμοποιείτε την εφαρμογή;';
+  String get cupertinoAlertLocationTitle =>
+      'Να επιτρέπεται στους Χάρτες να έχουν πρόσβαση στην τοποθεσία σας, ενώ χρησιμοποιείτε την εφαρμογή;';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Η τρέχουσα τοποθεσία σας θα εμφανίζεται στον χάρτη και θα χρησιμοποιείται για εμφάνιση οδηγιών, κοντινών αποτελεσμάτων αναζήτησης και εκτιμώμενη διάρκεια διαδρομής.';
+  String get cupertinoAlertLocationDescription =>
+      'Η τρέχουσα τοποθεσία σας θα εμφανίζεται στον χάρτη και θα χρησιμοποιείται για εμφάνιση οδηγιών, κοντινών αποτελεσμάτων αναζήτησης και εκτιμώμενη διάρκεια διαδρομής.';
 
   @override
   String get cupertinoAlertAllow => 'Να επιτραπεί';
@@ -1660,7 +1799,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Επιλέξτε αγαπημένο επιδόρπιο';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Επιλέξτε το αγαπημένο σας επιδόρπιο από την παρακάτω λίστα. Η επιλογή σας θα χρησιμοποιηθεί για την προσαρμογή της προτεινόμενης λίστας εστιατορίων στην περιοχή σας.';
+  String get cupertinoAlertDessertDescription =>
+      'Επιλέξτε το αγαπημένο σας επιδόρπιο από την παρακάτω λίστα. Η επιλογή σας θα χρησιμοποιηθεί για την προσαρμογή της προτεινόμενης λίστας εστιατορίων στην περιοχή σας.';
 
   @override
   String get cupertinoAlertCheesecake => 'Τσίζκεϊκ';
@@ -1780,7 +1920,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get starterAppTitle => 'Εφαρμογή Starter';
 
   @override
-  String get starterAppDescription => 'Μια αποκριτική διάταξη για την εφαρμογή Starter';
+  String get starterAppDescription =>
+      'Μια αποκριτική διάταξη για την εφαρμογή Starter';
 
   @override
   String get starterAppGenericButton => 'ΚΟΥΜΠΙ';
@@ -2243,13 +2384,15 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get craneEat10 => 'Λισαβόνα, Πορτογαλία';
 
   @override
-  String get craneFly0SemanticLabel => 'Σαλέ σε χιονισμένο τοπίο με αειθαλή δέντρα';
+  String get craneFly0SemanticLabel =>
+      'Σαλέ σε χιονισμένο τοπίο με αειθαλή δέντρα';
 
   @override
   String get craneFly1SemanticLabel => 'Μια σκηνή σε ένα λιβάδι';
 
   @override
-  String get craneFly2SemanticLabel => 'Σημαίες προσευχής μπροστά από ένα χιονισμένο βουνό';
+  String get craneFly2SemanticLabel =>
+      'Σημαίες προσευχής μπροστά από ένα χιονισμένο βουνό';
 
   @override
   String get craneFly3SemanticLabel => 'Φρούριο Μάτσου Πίτσου';
@@ -2258,10 +2401,12 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get craneFly4SemanticLabel => 'Μπανγκαλόου πάνω στο νερό';
 
   @override
-  String get craneFly5SemanticLabel => 'Ξενοδοχείο δίπλα στη λίμνη μπροστά από βουνά';
+  String get craneFly5SemanticLabel =>
+      'Ξενοδοχείο δίπλα στη λίμνη μπροστά από βουνά';
 
   @override
-  String get craneFly6SemanticLabel => 'Αεροφωτογραφία του Palacio de Bellas Artes';
+  String get craneFly6SemanticLabel =>
+      'Αεροφωτογραφία του Palacio de Bellas Artes';
 
   @override
   String get craneFly7SemanticLabel => 'Όρος Ράσμορ';
@@ -2270,10 +2415,12 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'Supertree Grove';
 
   @override
-  String get craneFly9SemanticLabel => 'Άνδρας που ακουμπάει σε αυτοκίνητο αντίκα';
+  String get craneFly9SemanticLabel =>
+      'Άνδρας που ακουμπάει σε αυτοκίνητο αντίκα';
 
   @override
-  String get craneFly10SemanticLabel => 'Οι πύργοι του τεμένους Αλ-Αζχάρ στο ηλιοβασίλεμα';
+  String get craneFly10SemanticLabel =>
+      'Οι πύργοι του τεμένους Αλ-Αζχάρ στο ηλιοβασίλεμα';
 
   @override
   String get craneFly11SemanticLabel => 'Φάρος από τούβλα στη θάλασσα';
@@ -2282,22 +2429,26 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get craneFly12SemanticLabel => 'Λιμνούλα με φοινικόδεντρα';
 
   @override
-  String get craneFly13SemanticLabel => 'Πισίνα δίπλα στη θάλασσα με φοινικόδεντρα';
+  String get craneFly13SemanticLabel =>
+      'Πισίνα δίπλα στη θάλασσα με φοινικόδεντρα';
 
   @override
   String get craneSleep0SemanticLabel => 'Μπανγκαλόου πάνω στο νερό';
 
   @override
-  String get craneSleep1SemanticLabel => 'Σαλέ σε χιονισμένο τοπίο με αειθαλή δέντρα';
+  String get craneSleep1SemanticLabel =>
+      'Σαλέ σε χιονισμένο τοπίο με αειθαλή δέντρα';
 
   @override
   String get craneSleep2SemanticLabel => 'Φρούριο Μάτσου Πίτσου';
 
   @override
-  String get craneSleep3SemanticLabel => 'Άνδρας που ακουμπάει σε αυτοκίνητο αντίκα';
+  String get craneSleep3SemanticLabel =>
+      'Άνδρας που ακουμπάει σε αυτοκίνητο αντίκα';
 
   @override
-  String get craneSleep4SemanticLabel => 'Ξενοδοχείο δίπλα στη λίμνη μπροστά από βουνά';
+  String get craneSleep4SemanticLabel =>
+      'Ξενοδοχείο δίπλα στη λίμνη μπροστά από βουνά';
 
   @override
   String get craneSleep5SemanticLabel => 'Μια σκηνή σε ένα λιβάδι';
@@ -2306,16 +2457,19 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get craneSleep6SemanticLabel => 'Λιμνούλα με φοινικόδεντρα';
 
   @override
-  String get craneSleep7SemanticLabel => 'Πολύχρωμα διαμερίσματα στην πλατεία Riberia';
+  String get craneSleep7SemanticLabel =>
+      'Πολύχρωμα διαμερίσματα στην πλατεία Riberia';
 
   @override
-  String get craneSleep8SemanticLabel => 'Ερείπια των Μάγια σε έναν γκρεμό πάνω από μια παραλία';
+  String get craneSleep8SemanticLabel =>
+      'Ερείπια των Μάγια σε έναν γκρεμό πάνω από μια παραλία';
 
   @override
   String get craneSleep9SemanticLabel => 'Φάρος από τούβλα στη θάλασσα';
 
   @override
-  String get craneSleep10SemanticLabel => 'Οι πύργοι του τεμένους Αλ-Αζχάρ στο ηλιοβασίλεμα';
+  String get craneSleep10SemanticLabel =>
+      'Οι πύργοι του τεμένους Αλ-Αζχάρ στο ηλιοβασίλεμα';
 
   @override
   String get craneSleep11SemanticLabel => 'Ουρανοξύστης Taipei 101';
@@ -2336,7 +2490,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get craneEat4SemanticLabel => 'Επιδόρπιο σοκολάτας';
 
   @override
-  String get craneEat5SemanticLabel => 'Χώρος καθήμενων καλλιτεχνικού εστιατορίου';
+  String get craneEat5SemanticLabel =>
+      'Χώρος καθήμενων καλλιτεχνικού εστιατορίου';
 
   @override
   String get craneEat6SemanticLabel => 'Πιάτο με γαρίδες';
@@ -2351,7 +2506,8 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get craneEat9SemanticLabel => 'Πάγκος καφετέριας με αρτοσκευάσματα';
 
   @override
-  String get craneEat10SemanticLabel => 'Γυναίκα που κρατάει ένα τεράστιο σάντουιτς παστράμι';
+  String get craneEat10SemanticLabel =>
+      'Γυναίκα που κρατάει ένα τεράστιο σάντουιτς παστράμι';
 
   @override
   String get fortnightlyMenuFrontPage => 'Εξώφυλλο';
@@ -2402,22 +2558,27 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Τελευταίες ενημερώσεις';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Η αθόρυβη, αλλά ισχυρή επανάσταση στην υγειονομική περίθαλψη';
+  String get fortnightlyHeadlineHealthcare =>
+      'Η αθόρυβη, αλλά ισχυρή επανάσταση στην υγειονομική περίθαλψη';
 
   @override
-  String get fortnightlyHeadlineWar => 'Ο διχασμός στη ζωή των Αμερικανών κατά τη διάρκεια του πολέμου';
+  String get fortnightlyHeadlineWar =>
+      'Ο διχασμός στη ζωή των Αμερικανών κατά τη διάρκεια του πολέμου';
 
   @override
   String get fortnightlyHeadlineGasoline => 'Το μέλλον της βενζίνης';
 
   @override
-  String get fortnightlyHeadlineArmy => 'Η εκ των έσω μεταρρύθμιση του Πράσινου στρατού';
+  String get fortnightlyHeadlineArmy =>
+      'Η εκ των έσω μεταρρύθμιση του Πράσινου στρατού';
 
   @override
-  String get fortnightlyHeadlineStocks => 'Μετοχές σε τέλμα, στροφή στο συνάλλαγμα';
+  String get fortnightlyHeadlineStocks =>
+      'Μετοχές σε τέλμα, στροφή στο συνάλλαγμα';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Οι σχεδιαστές χρησιμοποιούν την τεχνολογία για να δημιουργήσουν φουτουριστικά υφάσματα';
+  String get fortnightlyHeadlineFabrics =>
+      'Οι σχεδιαστές χρησιμοποιούν την τεχνολογία για να δημιουργήσουν φουτουριστικά υφάσματα';
 
   @override
   String get fortnightlyHeadlineFeminists => 'Η στράτευση των φεμινιστριών';

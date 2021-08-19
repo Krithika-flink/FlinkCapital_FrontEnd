@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get signIn => 'تسجيل الدخول';
 
   @override
-  String get bannerDemoText => 'تم تعديل كلمة المرور على جهاز آخر. يُرجى تسجيل الدخول مرة أخرى.';
+  String get bannerDemoText =>
+      'تم تعديل كلمة المرور على جهاز آخر. يُرجى تسجيل الدخول مرة أخرى.';
 
   @override
   String get bannerDemoResetText => 'إعادة ضبط البانر';
@@ -60,7 +60,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'أهم 10 مدن يمكن زيارتها في تاميل نادو';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'أهم 10 مدن يمكن زيارتها في تاميل نادو';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'رقم 10';
@@ -120,16 +121,19 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'عطلة';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'النسبة المئوية للعائد السنوي';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'النسبة المئوية للعائد السنوي';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'سعر الفائدة';
 
   @override
-  String get rallyAccountDetailDataInterestYtd => 'الفائدة منذ بداية العام حتى اليوم';
+  String get rallyAccountDetailDataInterestYtd =>
+      'الفائدة منذ بداية العام حتى اليوم';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'الفائدة المدفوعة في العام الماضي';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'الفائدة المدفوعة في العام الماضي';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'كشف الحساب التالي';
@@ -285,10 +289,14 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على معاملة واحدة لم يتم ضبطها.',
-      few: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملات لم يتم ضبطها.',
-      many: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
-      other: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
+      one:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على معاملة واحدة لم يتم ضبطها.',
+      few:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملات لم يتم ضبطها.',
+      many:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
+      other:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
     );
   }
 
@@ -302,7 +310,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'عرض جميع الميزانيات';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'الحساب ${accountName} رقم ${accountNumber} بمبلغ ${amount}.';
   }
 
@@ -312,7 +321,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'ميزانية ${budgetName} مع استخدام ${amountUsed} من إجمالي ${amountTotal}، المبلغ المتبقي ${amountLeft}';
   }
 
@@ -344,7 +354,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoCodeViewerCopyAll => 'نسخ الكل';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'تم نسخ النص إلى الحافظة.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'تم نسخ النص إلى الحافظة.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -355,7 +366,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'عرض الخيارات';
 
   @override
-  String get demoOptionsFeatureDescription => 'انقر هنا لعرض الخيارات المتاحة لهذا العرض التوضيحي.';
+  String get demoOptionsFeatureDescription =>
+      'انقر هنا لعرض الخيارات المتاحة لهذا العرض التوضيحي.';
 
   @override
   String get settingsTitle => 'الإعدادات';
@@ -427,19 +439,23 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'شريط التطبيق السفلي';
 
   @override
-  String get demoBottomAppBarSubtitle => 'يعرض لائحة التنقل والإجراءات في أسفل التطبيق';
+  String get demoBottomAppBarSubtitle =>
+      'يعرض لائحة التنقل والإجراءات في أسفل التطبيق';
 
   @override
-  String get demoBottomAppBarDescription => 'تساعدك أشرطة التطبيقات السفلية على الوصول إلى لائحة التنقل السفلية وما يصل إلى أربعة إجراءات، بما في ذلك زر الإجراء العائم.';
+  String get demoBottomAppBarDescription =>
+      'تساعدك أشرطة التطبيقات السفلية على الوصول إلى لائحة التنقل السفلية وما يصل إلى أربعة إجراءات، بما في ذلك زر الإجراء العائم.';
 
   @override
   String get bottomAppBarNotch => 'قطع علوي';
@@ -466,7 +482,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoBannerSubtitle => 'عرض بانر داخل قائمة';
 
   @override
-  String get demoBannerDescription => 'يعرض البانر رسالة مهمة ومختصرة، كما يقدّم إجراءات يمكن للمستخدمين اتخاذها (أو تجاهل البانر). يجب أن يتخذ المستخدم إجراء ليتم تجاهل البانر.';
+  String get demoBannerDescription =>
+      'يعرض البانر رسالة مهمة ومختصرة، كما يقدّم إجراءات يمكن للمستخدمين اتخاذها (أو تجاهل البانر). يجب أن يتخذ المستخدم إجراء ليتم تجاهل البانر.';
 
   @override
   String get demoBottomNavigationTitle => 'شريط التنقل السفلي';
@@ -481,43 +498,50 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'الملصق المُختار';
 
   @override
-  String get demoBottomNavigationDescription => 'تعرض أشرطة التنقل السفلية بين ثلاث وخمس وجهات في الجزء السفلي من الشاشة. ويتم تمثيل كل وجهة برمز ووسم نصي اختياري. عند النقر على رمز التنقل السفلي، يتم نقل المستخدم إلى وجهة التنقل ذات المستوى الأعلى المرتبطة بذلك الرمز.';
+  String get demoBottomNavigationDescription =>
+      'تعرض أشرطة التنقل السفلية بين ثلاث وخمس وجهات في الجزء السفلي من الشاشة. ويتم تمثيل كل وجهة برمز ووسم نصي اختياري. عند النقر على رمز التنقل السفلي، يتم نقل المستخدم إلى وجهة التنقل ذات المستوى الأعلى المرتبطة بذلك الرمز.';
 
   @override
   String get demoButtonTitle => 'الأزرار';
 
   @override
-  String get demoButtonSubtitle => 'أزرار نصية أو بارزة أو محدَّدة الجوانب، والمزيد';
+  String get demoButtonSubtitle =>
+      'أزرار نصية أو بارزة أو محدَّدة الجوانب، والمزيد';
 
   @override
   String get demoTextButtonTitle => 'زر نصي';
 
   @override
-  String get demoTextButtonDescription => 'يتلوّن الزر النصي عند الضغط عليه ولكن لا يرتفع. ينصح باستخدام الأزرار النصية على أشرطة الأدوات وفي مربّعات الحوار وداخل المساحات المتروكة';
+  String get demoTextButtonDescription =>
+      'يتلوّن الزر النصي عند الضغط عليه ولكن لا يرتفع. ينصح باستخدام الأزرار النصية على أشرطة الأدوات وفي مربّعات الحوار وداخل المساحات المتروكة';
 
   @override
   String get demoElevatedButtonTitle => 'زر بارز';
 
   @override
-  String get demoElevatedButtonDescription => 'تضفي الأزرار البارزة مزيدًا من الحركة إلى التصميمات الأحادية البعد. فهي تبرِز الوظائف المعروضة في المساحات العريضة أو المكدَّسة.';
+  String get demoElevatedButtonDescription =>
+      'تضفي الأزرار البارزة مزيدًا من الحركة إلى التصميمات الأحادية البعد. فهي تبرِز الوظائف المعروضة في المساحات العريضة أو المكدَّسة.';
 
   @override
   String get demoOutlinedButtonTitle => 'زر محدَّد الجوانب';
 
   @override
-  String get demoOutlinedButtonDescription => 'تصبح الأزرار المحدَّدة الجوانب غير شفافة وترتفع عند الضغط عليها. وغالبًا ما يتم إقرانها مع الأزرار البارزة للإشارة إلى إجراء ثانوي بديل.';
+  String get demoOutlinedButtonDescription =>
+      'تصبح الأزرار المحدَّدة الجوانب غير شفافة وترتفع عند الضغط عليها. وغالبًا ما يتم إقرانها مع الأزرار البارزة للإشارة إلى إجراء ثانوي بديل.';
 
   @override
   String get demoToggleButtonTitle => 'أزرار التبديل';
 
   @override
-  String get demoToggleButtonDescription => 'يمكن استخدام أزرار التبديل لتجميع الخيارات المرتبطة. لتأكيد مجموعات أزرار التبديل المرتبطة، يجب أن تشترك إحدى المجموعات في حاوية مشتركة.';
+  String get demoToggleButtonDescription =>
+      'يمكن استخدام أزرار التبديل لتجميع الخيارات المرتبطة. لتأكيد مجموعات أزرار التبديل المرتبطة، يجب أن تشترك إحدى المجموعات في حاوية مشتركة.';
 
   @override
   String get demoFloatingButtonTitle => 'زر الإجراء العائم';
 
   @override
-  String get demoFloatingButtonDescription => 'زر الإجراء العائم هو زر على شكل رمز دائري يتم تمريره فوق المحتوى للترويج لاتخاذ إجراء أساسي في التطبيق.';
+  String get demoFloatingButtonDescription =>
+      'زر الإجراء العائم هو زر على شكل رمز دائري يتم تمريره فوق المحتوى للترويج لاتخاذ إجراء أساسي في التطبيق.';
 
   @override
   String get demoCardTitle => 'البطاقات';
@@ -529,34 +553,40 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoChipTitle => 'الشرائح';
 
   @override
-  String get demoCardDescription => 'البطاقة هي ورقة مواد تُستخدَم لتمثيل بعض المعلومات ذات الصلة، مثلاً ألبوم أو موقع جغرافي أو وجبة أو تفاصيل جهة اتصال أو ما إلى ذلك.';
+  String get demoCardDescription =>
+      'البطاقة هي ورقة مواد تُستخدَم لتمثيل بعض المعلومات ذات الصلة، مثلاً ألبوم أو موقع جغرافي أو وجبة أو تفاصيل جهة اتصال أو ما إلى ذلك.';
 
   @override
-  String get demoChipSubtitle => 'العناصر المضغوطة التي تمثل إدخال أو سمة أو إجراء';
+  String get demoChipSubtitle =>
+      'العناصر المضغوطة التي تمثل إدخال أو سمة أو إجراء';
 
   @override
   String get demoActionChipTitle => 'شريحة الإجراءات';
 
   @override
-  String get demoActionChipDescription => 'شرائح الإجراءات هي مجموعة من الخيارات التي تشغّل إجراءً ذا صلة بالمحتوى الأساسي. ينبغي أن يكون ظهور شرائح الإجراءات في واجهة المستخدم ديناميكيًا ومناسبًا للسياق.';
+  String get demoActionChipDescription =>
+      'شرائح الإجراءات هي مجموعة من الخيارات التي تشغّل إجراءً ذا صلة بالمحتوى الأساسي. ينبغي أن يكون ظهور شرائح الإجراءات في واجهة المستخدم ديناميكيًا ومناسبًا للسياق.';
 
   @override
   String get demoChoiceChipTitle => 'شريحة الخيارات';
 
   @override
-  String get demoChoiceChipDescription => 'تمثل شرائح الخيارات خيارًا واحدًا من بين مجموعة. تتضمن شرائح الخيارات النصوص الوصفية ذات الصلة أو الفئات.';
+  String get demoChoiceChipDescription =>
+      'تمثل شرائح الخيارات خيارًا واحدًا من بين مجموعة. تتضمن شرائح الخيارات النصوص الوصفية ذات الصلة أو الفئات.';
 
   @override
   String get demoFilterChipTitle => 'شريحة الفلتر';
 
   @override
-  String get demoFilterChipDescription => 'تستخدم شرائح الفلتر العلامات أو الكلمات الوصفية باعتبارها طريقة لفلترة المحتوى.';
+  String get demoFilterChipDescription =>
+      'تستخدم شرائح الفلتر العلامات أو الكلمات الوصفية باعتبارها طريقة لفلترة المحتوى.';
 
   @override
   String get demoInputChipTitle => 'شريحة الإدخال';
 
   @override
-  String get demoInputChipDescription => 'تمثل شرائح الإدخالات معلومة معقدة، مثل كيان (شخص، مكان، أو شئ) أو نص محادثة، في نمط مضغوط.';
+  String get demoInputChipDescription =>
+      'تمثل شرائح الإدخالات معلومة معقدة، مثل كيان (شخص، مكان، أو شئ) أو نص محادثة، في نمط مضغوط.';
 
   @override
   String get demoDataTableTitle => 'جداول البيانات';
@@ -565,7 +595,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'صفوف وأعمدة من المعلومات';
 
   @override
-  String get demoDataTableDescription => 'تعرض جداول البيانات معلومات على هيئة شبكة من الصفوف والأعمدة، حيث يتم تنظيم المعلومات بطريقة يَسهُل فحصها ليتمكن المستخدمون من البحث عن الأنماط والإحصاءات.';
+  String get demoDataTableDescription =>
+      'تعرض جداول البيانات معلومات على هيئة شبكة من الصفوف والأعمدة، حيث يتم تنظيم المعلومات بطريقة يَسهُل فحصها ليتمكن المستخدمون من البحث عن الأنماط والإحصاءات.';
 
   @override
   String get dataTableHeader => 'التغذية';
@@ -638,13 +669,15 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoDialogTitle => 'مربعات الحوار';
 
   @override
-  String get demoDialogSubtitle => 'مربعات حوار بسيطة ومخصّصة للتنبيهات وبملء الشاشة';
+  String get demoDialogSubtitle =>
+      'مربعات حوار بسيطة ومخصّصة للتنبيهات وبملء الشاشة';
 
   @override
   String get demoAlertDialogTitle => 'التنبيه';
 
   @override
-  String get demoAlertDialogDescription => 'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري وقائمة إجراءات اختيارية.';
+  String get demoAlertDialogDescription =>
+      'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري وقائمة إجراءات اختيارية.';
 
   @override
   String get demoAlertTitleDialogTitle => 'تنبيه مزوّد بعنوان';
@@ -653,16 +686,19 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'بسيط';
 
   @override
-  String get demoSimpleDialogDescription => 'يتيح مربع الحوار البسيط للمستخدم إمكانية الاختيار من بين عدة خيارات. ويشتمل مربع الحوار البسيط على عنوان اختياري يتم عرضه أعلى هذه الخيارات.';
+  String get demoSimpleDialogDescription =>
+      'يتيح مربع الحوار البسيط للمستخدم إمكانية الاختيار من بين عدة خيارات. ويشتمل مربع الحوار البسيط على عنوان اختياري يتم عرضه أعلى هذه الخيارات.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -674,7 +710,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'تنسيق الصفوف والأعمدة';
 
   @override
-  String get demoGridListsDescription => 'الاستخدام المثالي لقوائم الشبكات هو لعرض البيانات المتجانسة التي عادة ما تكون صورًا. كل عنصر في الشبكة يُسمَى مربّع.';
+  String get demoGridListsDescription =>
+      'الاستخدام المثالي لقوائم الشبكات هو لعرض البيانات المتجانسة التي عادة ما تكون صورًا. كل عنصر في الشبكة يُسمَى مربّع.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'صورة فقط';
@@ -692,31 +729,37 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoSlidersSubtitle => 'أدوات لاختيار قيمة عن طريق التمرير السريع';
 
   @override
-  String get demoSlidersDescription => 'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة من ذلك الشريط. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
+  String get demoSlidersDescription =>
+      'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة من ذلك الشريط. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
 
   @override
   String get demoRangeSlidersTitle => 'شرائط تمرير تتضمَّن نطاقات';
 
   @override
-  String get demoRangeSlidersDescription => 'تعكس شرائط التمرير نطاقًا من القيم بطول شريط. يمكن أن تحتوي على رموز في كلا طرفي الشريط بحيث تعكس نطاقًا من القيم. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
+  String get demoRangeSlidersDescription =>
+      'تعكس شرائط التمرير نطاقًا من القيم بطول شريط. يمكن أن تحتوي على رموز في كلا طرفي الشريط بحيث تعكس نطاقًا من القيم. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
 
   @override
   String get demoCustomSlidersTitle => 'شرائط التمرير المخصَّصة';
 
   @override
-  String get demoCustomSlidersDescription => 'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة أو نطاق من القيم من ذلك الشريط. يمكن تخصيص شرائط التمرير وتغيير تصميماتها.';
+  String get demoCustomSlidersDescription =>
+      'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة أو نطاق من القيم من ذلك الشريط. يمكن تخصيص شرائط التمرير وتغيير تصميماتها.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'مستمر بقيمة رقمية قابلة للتعديل';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'مستمر بقيمة رقمية قابلة للتعديل';
 
   @override
   String get demoSlidersDiscrete => 'منفصل القيم';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'شريط تمرير منفصل القيم بتصميم مخصَّص';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'شريط تمرير منفصل القيم بتصميم مخصَّص';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'شريط تمرير بنطاق مستمر وتصميم مخصَّص';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'شريط تمرير بنطاق مستمر وتصميم مخصَّص';
 
   @override
   String get demoSlidersContinuous => 'مستمر';
@@ -743,7 +786,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoMenuSubtitle => 'أزرار قوائم وقوائم بسيطة';
 
   @override
-  String get demoMenuDescription => 'تعرض القائمة مجموعة من الخيارات على سطح مؤقت، حيث تظهر عندما يتفاعل المستخدمون مع زر أو إجراء أو عنصر تحكم آخر.';
+  String get demoMenuDescription =>
+      'تعرض القائمة مجموعة من الخيارات على سطح مؤقت، حيث تظهر عندما يتفاعل المستخدمون مع زر أو إجراء أو عنصر تحكم آخر.';
 
   @override
   String get demoMenuItemValueOne => 'أول عنصر قائمة';
@@ -810,7 +854,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoNavigationDrawerSubtitle => 'عرض لائحة تنقّل في شريط التطبيق';
 
   @override
-  String get demoNavigationDrawerDescription => 'لوحة تصميم متعدد الأبعاد تتحرك أفقيًا من حافة الشاشة لعرض روابط التنقّل في تطبيق.';
+  String get demoNavigationDrawerDescription =>
+      'لوحة تصميم متعدد الأبعاد تتحرك أفقيًا من حافة الشاشة لعرض روابط التنقّل في تطبيق.';
 
   @override
   String get demoNavigationDrawerUserName => 'اسم المستخدم';
@@ -825,7 +870,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'العنصر الثاني';
 
   @override
-  String get demoNavigationDrawerText => 'مرِّر سريعًا من الحافة أو انقر على الرمز في أعلى يمين الصفحة لعرض لائحة التنقّل.';
+  String get demoNavigationDrawerText =>
+      'مرِّر سريعًا من الحافة أو انقر على الرمز في أعلى يمين الصفحة لعرض لائحة التنقّل.';
 
   @override
   String get demoNavigationRailTitle => 'شريط التنقّل';
@@ -834,7 +880,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoNavigationRailSubtitle => 'عرض شريط تنقّل داخل تطبيق';
 
   @override
-  String get demoNavigationRailDescription => 'أداة أساسية تظهر في يمين أو يسار التطبيق للتنقّل بين عدد صغير من الأقسام داخل التطبيق، غالبًا ما بين 3 إلى 5 أقسام.';
+  String get demoNavigationRailDescription =>
+      'أداة أساسية تظهر في يمين أو يسار التطبيق للتنقّل بين عدد صغير من الأقسام داخل التطبيق، غالبًا ما بين 3 إلى 5 أقسام.';
 
   @override
   String get demoNavigationRailFirst => 'الأول';
@@ -855,7 +902,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoFullscreenDialogTitle => 'ملء الشاشة';
 
   @override
-  String get demoFullscreenDialogDescription => 'تحدِّد خاصية fullscreenDialog ما إذا كانت الصفحة الواردة هي مربع حوار نمطي بملء الشاشة.';
+  String get demoFullscreenDialogDescription =>
+      'تحدِّد خاصية fullscreenDialog ما إذا كانت الصفحة الواردة هي مربع حوار نمطي بملء الشاشة.';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'مؤشر النشاط';
@@ -864,16 +912,19 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoCupertinoActivityIndicatorSubtitle => 'مؤشرات نشاط بنمط iOS';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'مؤشر نشاط بنمط iOS ويدور في اتجاه عقارب الساعة';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'مؤشر نشاط بنمط iOS ويدور في اتجاه عقارب الساعة';
 
   @override
   String get demoCupertinoButtonsTitle => 'الأزرار';
 
   @override
-  String get demoCupertinoButtonsSubtitle => 'أزرار مستوحاة من نظام التشغيل iOS';
+  String get demoCupertinoButtonsSubtitle =>
+      'أزرار مستوحاة من نظام التشغيل iOS';
 
   @override
-  String get demoCupertinoButtonsDescription => 'زر مستوحى من نظام التشغيل iOS. يتم عرض هذا الزر على شكل نص و/أو رمز يتلاشى ويظهر بالتدريج عند اللمس. وقد يكون مزوّدًا بخلفية اختياريًا.';
+  String get demoCupertinoButtonsDescription =>
+      'زر مستوحى من نظام التشغيل iOS. يتم عرض هذا الزر على شكل نص و/أو رمز يتلاشى ويظهر بالتدريج عند اللمس. وقد يكون مزوّدًا بخلفية اختياريًا.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -882,7 +933,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -891,19 +943,22 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'التنبيهات';
 
   @override
-  String get demoCupertinoAlertsSubtitle => 'مربعات حوار التنبيهات المستوحاة من نظام التشغيل iOS';
+  String get demoCupertinoAlertsSubtitle =>
+      'مربعات حوار التنبيهات المستوحاة من نظام التشغيل iOS';
 
   @override
   String get demoCupertinoAlertTitle => 'تنبيه';
 
   @override
-  String get demoCupertinoAlertDescription => 'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري ومحتوى اختياري وقائمة إجراءات اختيارية. ويتم عرض العنوان أعلى المحتوى بينما تُعرض الإجراءات أسفل المحتوى.';
+  String get demoCupertinoAlertDescription =>
+      'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري ومحتوى اختياري وقائمة إجراءات اختيارية. ويتم عرض العنوان أعلى المحتوى بينما تُعرض الإجراءات أسفل المحتوى.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'تنبيه يتضمّن عنوانًا';
@@ -918,7 +973,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'ورقة الإجراءات';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'ورقة الإجراءات هي ورقة أنماط معيّنة للتنبيهات تقدّم للمستخدم مجموعة مكوّنة من خيارين أو أكثر مرتبطة بالسياق الحالي. ويمكن أن تتضمّن ورقة الإجراءات عنوانًا ورسالة إضافية وقائمة إجراءات.';
+  String get demoCupertinoActionSheetDescription =>
+      'ورقة الإجراءات هي ورقة أنماط معيّنة للتنبيهات تقدّم للمستخدم مجموعة مكوّنة من خيارين أو أكثر مرتبطة بالسياق الحالي. ويمكن أن تتضمّن ورقة الإجراءات عنوانًا ورسالة إضافية وقائمة إجراءات.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'شريط التنقل';
@@ -927,16 +983,19 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoCupertinoNavigationBarSubtitle => 'شريط تنقل بنمط iOS';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'شريط تنقل بنمط iOS شريط التنقل هو شريط أدوات يتكون على الأقل من عنوان صفحة في وسط شريط الأدوات.';
+  String get demoCupertinoNavigationBarDescription =>
+      'شريط تنقل بنمط iOS شريط التنقل هو شريط أدوات يتكون على الأقل من عنوان صفحة في وسط شريط الأدوات.';
 
   @override
   String get demoCupertinoPickerTitle => 'أدوات اختيار الوقت';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'أدوات اختيار التاريخ والوقت بنمط iOS';
+  String get demoCupertinoPickerSubtitle =>
+      'أدوات اختيار التاريخ والوقت بنمط iOS';
 
   @override
-  String get demoCupertinoPickerDescription => 'أداة اختيار بنمط iOS يمكن استخدامها لاختيار تواريخ أو أوقات أو لاختيار كل من التاريخ والوقت.';
+  String get demoCupertinoPickerDescription =>
+      'أداة اختيار بنمط iOS يمكن استخدامها لاختيار تواريخ أو أوقات أو لاختيار كل من التاريخ والوقت.';
 
   @override
   String get demoCupertinoPickerTimer => 'الموقِّت';
@@ -954,19 +1013,23 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'سحب لإعادة التحميل';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'عنصر تحكم السحب لإعادة التحميل بنمط iOS';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'عنصر تحكم السحب لإعادة التحميل بنمط iOS';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'أداة تنفّذ إعدادات التحكم في المحتوى للسحب لأعادة التحميل بنمط iOS';
+  String get demoCupertinoPullToRefreshDescription =>
+      'أداة تنفّذ إعدادات التحكم في المحتوى للسحب لأعادة التحميل بنمط iOS';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'عنصر تحكّم شريحة';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'عنصر تحكّم شريحة بنمط iOS';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'عنصر تحكّم شريحة بنمط iOS';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'يُستخدَم للاختيار بين عدد من الخيارات يستبعد أحدها الآخر. عند تحديد خيار في عنصر تحكّم الشريحة، يتم إلغاء اختيار العنصر الآخر في عنصر تحكّم الشريحة.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'يُستخدَم للاختيار بين عدد من الخيارات يستبعد أحدها الآخر. عند تحديد خيار في عنصر تحكّم الشريحة، يتم إلغاء اختيار العنصر الآخر في عنصر تحكّم الشريحة.';
 
   @override
   String get demoCupertinoSliderTitle => 'شريط التمرير';
@@ -975,7 +1038,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'شريط تمرير بنمط iOS';
 
   @override
-  String get demoCupertinoSliderDescription => 'يمكن استخدام شريط تمرير للاختيار من مجموعة قيم متصلة أو مجموعة قيم منفصلة.';
+  String get demoCupertinoSliderDescription =>
+      'يمكن استخدام شريط تمرير للاختيار من مجموعة قيم متصلة أو مجموعة قيم منفصلة.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -991,16 +1055,19 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'مفتاح تبديل بنمط iOS';
 
   @override
-  String get demoCupertinoSwitchDescription => 'يُستخدَم مفتاح التبديل لتفعيل إعداد فردي أو إيقافه.';
+  String get demoCupertinoSwitchDescription =>
+      'يُستخدَم مفتاح التبديل لتفعيل إعداد فردي أو إيقافه.';
 
   @override
   String get demoCupertinoTabBarTitle => 'شريط علامات التبويب';
 
   @override
-  String get demoCupertinoTabBarSubtitle => 'شريط علامات التبويب السفلي بنمط iOS';
+  String get demoCupertinoTabBarSubtitle =>
+      'شريط علامات التبويب السفلي بنمط iOS';
 
   @override
-  String get demoCupertinoTabBarDescription => 'شريط علامات تبويب للتنقل السفلي بنمط iOS. يعرض عدة علامات تبويب، حيث تكون هناك علامة تبويب واحدة نشطة وبشكل تلقائي تكون هي علامة التبويب الأولى.';
+  String get demoCupertinoTabBarDescription =>
+      'شريط علامات تبويب للتنقل السفلي بنمط iOS. يعرض عدة علامات تبويب، حيث تكون هناك علامة تبويب واحدة نشطة وبشكل تلقائي تكون هي علامة التبويب الأولى.';
 
   @override
   String get cupertinoTabBarHomeTab => 'علامة التبويب الرئيسية';
@@ -1018,7 +1085,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'حقول نصل بنمط iOS';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'يسمح حقل النص للمستخدم بإدخال نص إما باستخدام لوحة مفاتيح حقيقية أو لوحة مفاتيح تظهر على الشاشة.';
+  String get demoCupertinoTextFieldDescription =>
+      'يسمح حقل النص للمستخدم بإدخال نص إما باستخدام لوحة مفاتيح حقيقية أو لوحة مفاتيح تظهر على الشاشة.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'رقم التعريف الشخصي';
@@ -1030,13 +1098,15 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoMotionSubtitle => 'كل أنماط الانتقال المُعرَّفة مسبقًا';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'البطاقات والقوائم وأزرار الإجراءات الرئيسية (FAB)';
+  String get demoContainerTransformDemoInstructions =>
+      'البطاقات والقوائم وأزرار الإجراءات الرئيسية (FAB)';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'زرّا التالي والرجوع';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'ترتيب حسب \"الأغاني المشغّلة مؤخرًا\"';
+  String get demoSharedYAxisDemoInstructions =>
+      'ترتيب حسب \"الأغاني المشغّلة مؤخرًا\"';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'زر رمز الإعدادات';
@@ -1045,13 +1115,15 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoFadeThroughDemoInstructions => 'شريط التنقّل السفلي';
 
   @override
-  String get demoFadeScaleDemoInstructions => 'مربّع الحوار المشروط وزر الإجراء الرئيسي (FAB)';
+  String get demoFadeScaleDemoInstructions =>
+      'مربّع الحوار المشروط وزر الإجراء الرئيسي (FAB)';
 
   @override
   String get demoContainerTransformTitle => 'تحويل الحاوية';
 
   @override
-  String get demoContainerTransformDescription => 'تم تصميم نمط تحويل الحاوية لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تتضمّن حاوية. ينشئ هذا النمط تأثير ربط مرئي بين عنصرين في واجهة المستخدم.';
+  String get demoContainerTransformDescription =>
+      'تم تصميم نمط تحويل الحاوية لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تتضمّن حاوية. ينشئ هذا النمط تأثير ربط مرئي بين عنصرين في واجهة المستخدم.';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'وضع التلاشي';
@@ -1078,7 +1150,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'عنصر قائمة';
 
   @override
-  String get demoSharedAxisDescription => 'يتم استخدام نمط المحور المشترك لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تربطها علاقة انتقال أو علاقة مكانية. يستخدم هذا النمط التحويل المشترك على محور \"س\" أو \"ص\" أو \"ع\" لتعزيز العلاقة بين العناصر.';
+  String get demoSharedAxisDescription =>
+      'يتم استخدام نمط المحور المشترك لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تربطها علاقة انتقال أو علاقة مكانية. يستخدم هذا النمط التحويل المشترك على محور \"س\" أو \"ص\" أو \"ع\" لتعزيز العلاقة بين العناصر.';
 
   @override
   String get demoSharedXAxisTitle => 'محور \"س\" المشترك';
@@ -1093,7 +1166,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'تقديم دوراتك بسلاسة';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'تظهر الفئات المجمّعة كمجموعات في الخلاصة. يمكنك دائمًا تغيير هذا لاحقًا.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'تظهر الفئات المجمّعة كمجموعات في الخلاصة. يمكنك دائمًا تغيير هذا لاحقًا.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'فنون وأعمال حِرَفية';
@@ -1123,10 +1197,12 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoSharedXAxisSignInSubtitleText => 'تسجيل الدخول باستخدام حسابك';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'البريد الإلكتروني أو رقم الهاتف';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'البريد الإلكتروني أو رقم الهاتف';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'هل نسيت البريد الإلكتروني؟';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'هل نسيت البريد الإلكتروني؟';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'إنشاء حساب';
@@ -1192,7 +1268,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'شطيرة لحم بقري';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'وصفة شطيرة اللحم البقري';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'وصفة شطيرة اللحم البقري';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'الوصفات المحفوظة';
@@ -1213,7 +1290,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'التلاشي التدريجي';
 
   @override
-  String get demoFadeThroughDescription => 'يتم استخدام نمط التلاشي التدريجي لتأثيرات الانتقال بين عناصر واجهة المستخدم التي لا تربطها علاقة قوية ببعضها.';
+  String get demoFadeThroughDescription =>
+      'يتم استخدام نمط التلاشي التدريجي لتأثيرات الانتقال بين عناصر واجهة المستخدم التي لا تربطها علاقة قوية ببعضها.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'ألبومات';
@@ -1231,7 +1309,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'التلاشي';
 
   @override
-  String get demoFadeScaleDescription => 'يتم استخدام نمط التلاشي مع عناصر واجهة المستخدم التي تدخل في حدود الشاشة أو تخرج منها، مثلاً مربّع حوار يتلاشى في مركز الشاشة.';
+  String get demoFadeScaleDescription =>
+      'يتم استخدام نمط التلاشي مع عناصر واجهة المستخدم التي تدخل في حدود الشاشة أو تخرج منها، مثلاً مربّع حوار يتلاشى في مركز الشاشة.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'إظهار مربّع حوار مشروط';
@@ -1258,7 +1337,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoColorsSubtitle => 'جميع الألوان المحدّدة مسبقًا';
 
   @override
-  String get demoColorsDescription => 'ثوابت اللون وعينات الألوان التي تُمثل لوحة ألوان التصميم المتعدد الأبعاد';
+  String get demoColorsDescription =>
+      'ثوابت اللون وعينات الألوان التي تُمثل لوحة ألوان التصميم المتعدد الأبعاد';
 
   @override
   String get demoTypographyTitle => 'أسلوب الخط';
@@ -1267,7 +1347,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoTypographySubtitle => 'جميع أنماط النص المحدّدة مسبقًا';
 
   @override
-  String get demoTypographyDescription => 'تعريف أساليب الخط المختلفة في التصميم المتعدد الأبعاد';
+  String get demoTypographyDescription =>
+      'تعريف أساليب الخط المختلفة في التصميم المتعدد الأبعاد';
 
   @override
   String get demo2dTransformationsTitle => 'التحويلات الثنائية الأبعاد';
@@ -1276,7 +1357,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'عرض شامل، تكبير/تصغير، تدوير';
 
   @override
-  String get demo2dTransformationsDescription => 'انقر لتعديل المربّعات واستخدام الإيماءات للتنقل خلال المشهد. اسحب لتنفيذ العرض الشامل وحرّك إصبعيك للتكبير/التصغير ويمكنك التدوير بإصبعين. اضغط على زر إعادة الضبط للرجوع إلى الاتجاه الأصلي.';
+  String get demo2dTransformationsDescription =>
+      'انقر لتعديل المربّعات واستخدام الإيماءات للتنقل خلال المشهد. اسحب لتنفيذ العرض الشامل وحرّك إصبعيك للتكبير/التصغير ويمكنك التدوير بإصبعين. اضغط على زر إعادة الضبط للرجوع إلى الاتجاه الأصلي.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'إعادة ضبط التحويلات';
@@ -1297,13 +1379,15 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'البطاقة السفلية العادية';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'تعرض البطاقة السفلية العادية معلومات تكميلية للمحتوى الأساسي للتطبيق. ولا تختفي هذه البطاقة عندما يتفاعل المستخدم مع المحتوى الآخر على الشاشة.';
+  String get demoBottomSheetPersistentDescription =>
+      'تعرض البطاقة السفلية العادية معلومات تكميلية للمحتوى الأساسي للتطبيق. ولا تختفي هذه البطاقة عندما يتفاعل المستخدم مع المحتوى الآخر على الشاشة.';
 
   @override
   String get demoBottomSheetModalTitle => 'البطاقة السفلية المقيِّدة';
 
   @override
-  String get demoBottomSheetModalDescription => 'تعتبر البطاقة السفلية المقيِّدة بديلاً لقائمة أو مربّع حوار ولا تسمح للمستخدم بالتفاعل مع المحتوى الآخر على الشاشة.';
+  String get demoBottomSheetModalDescription =>
+      'تعتبر البطاقة السفلية المقيِّدة بديلاً لقائمة أو مربّع حوار ولا تسمح للمستخدم بالتفاعل مع المحتوى الآخر على الشاشة.';
 
   @override
   String get demoBottomSheetAddLabel => 'إضافة';
@@ -1326,7 +1410,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoListsSubtitle => 'التمرير خلال تنسيقات القوائم';
 
   @override
-  String get demoListsDescription => 'صف بارتفاع واحد ثابت يحتوي عادةً على نص ورمز سابق أو لاحق.';
+  String get demoListsDescription =>
+      'صف بارتفاع واحد ثابت يحتوي عادةً على نص ورمز سابق أو لاحق.';
 
   @override
   String get demoOneLineListsTitle => 'سطر واحد';
@@ -1347,13 +1432,15 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoCircularProgressIndicatorTitle => 'مؤشر تقدم دائري';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'مؤشر تقدم دائري بتصميم متعدد الأبعاد (Material Design) ويدور ليدل على أن التطبيق مشغول';
+  String get demoCircularProgressIndicatorDescription =>
+      'مؤشر تقدم دائري بتصميم متعدد الأبعاد (Material Design) ويدور ليدل على أن التطبيق مشغول';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'مؤشر تقدم خطي';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'مؤشر تقدم خطي بتصميم متعدد الأبعاد ويُعرَف أيضًا بشريط التقدم';
+  String get demoLinearProgressIndicatorDescription =>
+      'مؤشر تقدم خطي بتصميم متعدد الأبعاد ويُعرَف أيضًا بشريط التقدم';
 
   @override
   String get demoPickersTitle => 'أدوات اختيار الوقت';
@@ -1365,19 +1452,22 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoDatePickerTitle => 'أداة اختيار التاريخ';
 
   @override
-  String get demoDatePickerDescription => 'تعرض مربّع حوار يحتوي على أداة اختيار تاريخ ذات تصميم متعدد الأبعاد.';
+  String get demoDatePickerDescription =>
+      'تعرض مربّع حوار يحتوي على أداة اختيار تاريخ ذات تصميم متعدد الأبعاد.';
 
   @override
   String get demoTimePickerTitle => 'أداة اختيار الوقت';
 
   @override
-  String get demoTimePickerDescription => 'تعرض مربّع حوار يحتوي على أداة اختيار وقت ذات تصميم متعدد الأبعاد.';
+  String get demoTimePickerDescription =>
+      'تعرض مربّع حوار يحتوي على أداة اختيار وقت ذات تصميم متعدد الأبعاد.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'إظهار أداة الاختيار';
@@ -1392,19 +1482,23 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoTabsNonScrollingTitle => 'عدم التمرير';
 
   @override
-  String get demoTabsSubtitle => 'علامات تبويب تحتوي على عروض يمكن التنقّل خلالها بشكل مستقل';
+  String get demoTabsSubtitle =>
+      'علامات تبويب تحتوي على عروض يمكن التنقّل خلالها بشكل مستقل';
 
   @override
-  String get demoTabsDescription => 'تساعد علامات التبويب على تنظيم المحتوى في الشاشات المختلفة ومجموعات البيانات والتفاعلات الأخرى.';
+  String get demoTabsDescription =>
+      'تساعد علامات التبويب على تنظيم المحتوى في الشاشات المختلفة ومجموعات البيانات والتفاعلات الأخرى.';
 
   @override
   String get demoSnackbarsTitle => 'أشرطة إعلام منبثقة';
 
   @override
-  String get demoSnackbarsSubtitle => 'تعرض \"أشرطة الإعلام المنبثقة\" رسائل في أسفل الشاشة';
+  String get demoSnackbarsSubtitle =>
+      'تعرض \"أشرطة الإعلام المنبثقة\" رسائل في أسفل الشاشة';
 
   @override
-  String get demoSnackbarsDescription => 'تُعلِم \"أشرطة الإعلام منبثقة\" المستخدمين بعملية نفّذها التطبيق أو بعملية سينفّذها التطبيق. تظهر مؤقتًا باتجاه أسفل الشاشة ويُفترَض ألا تشوش على تجربة المستخدم وألا تتطلب تدخل المستخدم لإخفائها.';
+  String get demoSnackbarsDescription =>
+      'تُعلِم \"أشرطة الإعلام منبثقة\" المستخدمين بعملية نفّذها التطبيق أو بعملية سينفّذها التطبيق. تظهر مؤقتًا باتجاه أسفل الشاشة ويُفترَض ألا تشوش على تجربة المستخدم وألا تتطلب تدخل المستخدم لإخفائها.';
 
   @override
   String get demoSnackbarsButtonLabel => 'عرض شريط إعلام منبثق';
@@ -1416,31 +1510,36 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoSnackbarsActionButtonLabel => 'إجراء';
 
   @override
-  String get demoSnackbarsAction => 'لقد ضغطت على إجراء في \"شريط الإعلام المنبثق\".';
+  String get demoSnackbarsAction =>
+      'لقد ضغطت على إجراء في \"شريط الإعلام المنبثق\".';
 
   @override
   String get demoSelectionControlsTitle => 'عناصر التحكّم في الاختيار';
 
   @override
-  String get demoSelectionControlsSubtitle => 'مربّعات الاختيار وأزرار الاختيار ومفاتيح التبديل';
+  String get demoSelectionControlsSubtitle =>
+      'مربّعات الاختيار وأزرار الاختيار ومفاتيح التبديل';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'مربع اختيار';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'تسمح مربّعات الاختيار للمستخدمين باختيار عدة خيارات من مجموعة من الخيارات. القيمة المعتادة لمربّع الاختيار هي \"صحيح\" أو \"غير صحيح\" ويمكن أيضًا إضافة حالة ثالثة وهي \"خالية\".';
+  String get demoSelectionControlsCheckboxDescription =>
+      'تسمح مربّعات الاختيار للمستخدمين باختيار عدة خيارات من مجموعة من الخيارات. القيمة المعتادة لمربّع الاختيار هي \"صحيح\" أو \"غير صحيح\" ويمكن أيضًا إضافة حالة ثالثة وهي \"خالية\".';
 
   @override
   String get demoSelectionControlsRadioTitle => 'زر اختيار';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'تسمح أزرار الاختيار للقارئ بتحديد خيار واحد من مجموعة من الخيارات. يمكنك استخدام أزرار الاختيار لتحديد اختيارات حصرية إذا كنت تعتقد أنه يجب أن تظهر للمستخدم كل الخيارات المتاحة جنبًا إلى جنب.';
+  String get demoSelectionControlsRadioDescription =>
+      'تسمح أزرار الاختيار للقارئ بتحديد خيار واحد من مجموعة من الخيارات. يمكنك استخدام أزرار الاختيار لتحديد اختيارات حصرية إذا كنت تعتقد أنه يجب أن تظهر للمستخدم كل الخيارات المتاحة جنبًا إلى جنب.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'مفاتيح التبديل';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'تؤدي مفاتيح تبديل التشغيل/الإيقاف إلى تبديل حالة خيار واحد في الإعدادات. يجب توضيح الخيار الذي يتحكّم فيه مفتاح التبديل وكذلك حالته، وذلك من خلال التسمية المضمّنة المتاحة.';
+  String get demoSelectionControlsSwitchDescription =>
+      'تؤدي مفاتيح تبديل التشغيل/الإيقاف إلى تبديل حالة خيار واحد في الإعدادات. يجب توضيح الخيار الذي يتحكّم فيه مفتاح التبديل وكذلك حالته، وذلك من خلال التسمية المضمّنة المتاحة.';
 
   @override
   String get demoBottomTextFieldsTitle => 'حقول النص';
@@ -1449,10 +1548,12 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoTextFieldTitle => 'حقول النص';
 
   @override
-  String get demoTextFieldSubtitle => 'سطر واحد من النص والأرقام القابلة للتعديل';
+  String get demoTextFieldSubtitle =>
+      'سطر واحد من النص والأرقام القابلة للتعديل';
 
   @override
-  String get demoTextFieldDescription => 'تسمح حقول النص للمستخدمين بإدخال نص في واجهة مستخدم. وتظهر عادةً في النماذج ومربّعات الحوار.';
+  String get demoTextFieldDescription =>
+      'تسمح حقول النص للمستخدمين بإدخال نص في واجهة مستخدم. وتظهر عادةً في النماذج ومربّعات الحوار.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'عرض كلمة المرور';
@@ -1461,16 +1562,19 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'إخفاء كلمة المرور';
 
   @override
-  String get demoTextFieldFormErrors => 'يُرجى تصحيح الأخطاء باللون الأحمر قبل الإرسال.';
+  String get demoTextFieldFormErrors =>
+      'يُرجى تصحيح الأخطاء باللون الأحمر قبل الإرسال.';
 
   @override
   String get demoTextFieldNameRequired => 'الاسم مطلوب.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'يُرجى إدخال حروف أبجدية فقط.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'يُرجى إدخال حروف أبجدية فقط.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - يُرجى إدخال رقم هاتف صالح في الولايات المتحدة.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - يُرجى إدخال رقم هاتف صالح في الولايات المتحدة.';
 
   @override
   String get demoTextFieldEnterPassword => 'يرجى إدخال كلمة مرور.';
@@ -1485,7 +1589,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoTextFieldNameField => 'الاسم*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'على أي رقم يمكننا التواصل معك؟';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'على أي رقم يمكننا التواصل معك؟';
 
   @override
   String get demoTextFieldPhoneNumber => 'رقم الهاتف*';
@@ -1497,7 +1602,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoTextFieldEmail => 'رسالة إلكترونية';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'أخبِرنا عن نفسك (مثلاً ما هي هواياتك المفضّلة أو ما هو مجال عملك؟)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'أخبِرنا عن نفسك (مثلاً ما هي هواياتك المفضّلة أو ما هو مجال عملك؟)';
 
   @override
   String get demoTextFieldKeepItShort => 'يُرجى الاختصار، هذا مجرد عرض توضيحي.';
@@ -1535,13 +1641,16 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get demoTooltipTitle => 'التلميحات';
 
   @override
-  String get demoTooltipSubtitle => 'رسالة قصيرة تُعرَض عند الضغط مع الاستمرار أو تمرير مؤشر الماوس';
+  String get demoTooltipSubtitle =>
+      'رسالة قصيرة تُعرَض عند الضغط مع الاستمرار أو تمرير مؤشر الماوس';
 
   @override
-  String get demoTooltipDescription => 'توفّر التلميحات تصنيفات نصية تساعد في شرح وظيفة زر أو إجراء آخر من إجراءات واجهة المستخدم. تعرض التلميحات نص إخباري عندما يمرّر المستخدمون مؤشر الماوس على عنصر أو يركزون عليه أو يضغطون عليه مع الاستمرار.';
+  String get demoTooltipDescription =>
+      'توفّر التلميحات تصنيفات نصية تساعد في شرح وظيفة زر أو إجراء آخر من إجراءات واجهة المستخدم. تعرض التلميحات نص إخباري عندما يمرّر المستخدمون مؤشر الماوس على عنصر أو يركزون عليه أو يضغطون عليه مع الاستمرار.';
 
   @override
-  String get demoTooltipInstructions => 'اضغط مع الاستمرار على العنصر أو مرّر مؤشر الماوس عليه لعرض التلميح.';
+  String get demoTooltipInstructions =>
+      'اضغط مع الاستمرار على العنصر أو مرّر مؤشر الماوس عليه لعرض التلميح.';
 
   @override
   String get bottomNavigationCommentsTab => 'التعليقات';
@@ -1599,10 +1708,12 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get dialogDiscardTitle => 'هل تريد تجاهل المسودة؟';
 
   @override
-  String get dialogLocationTitle => 'هل تريد استخدام خدمة الموقع الجغرافي من Google؟';
+  String get dialogLocationTitle =>
+      'هل تريد استخدام خدمة الموقع الجغرافي من Google؟';
 
   @override
-  String get dialogLocationDescription => 'يمكنك السماح لشركة Google بمساعدة التطبيقات في تحديد الموقع الجغرافي. ويعني هذا أنه سيتم إرسال بيانات مجهولة المصدر عن الموقع الجغرافي إلى Google، حتى عند عدم تشغيل أي تطبيقات.';
+  String get dialogLocationDescription =>
+      'يمكنك السماح لشركة Google بمساعدة التطبيقات في تحديد الموقع الجغرافي. ويعني هذا أنه سيتم إرسال بيانات مجهولة المصدر عن الموقع الجغرافي إلى Google، حتى عند عدم تشغيل أي تطبيقات.';
 
   @override
   String get dialogCancel => 'إلغاء';
@@ -1647,10 +1758,12 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'تجاهل';
 
   @override
-  String get cupertinoAlertLocationTitle => 'هل تريد السماح لخدمة \"خرائط Google\" بالدخول إلى موقعك الجغرافي أثناء استخدام التطبيق؟';
+  String get cupertinoAlertLocationTitle =>
+      'هل تريد السماح لخدمة \"خرائط Google\" بالدخول إلى موقعك الجغرافي أثناء استخدام التطبيق؟';
 
   @override
-  String get cupertinoAlertLocationDescription => 'سيتم عرض الموقع الجغرافي الحالي على الخريطة واستخدامه لتوفير الاتجاهات ونتائج البحث عن الأماكن المجاورة وأوقات التنقّل المقدرة.';
+  String get cupertinoAlertLocationDescription =>
+      'سيتم عرض الموقع الجغرافي الحالي على الخريطة واستخدامه لتوفير الاتجاهات ونتائج البحث عن الأماكن المجاورة وأوقات التنقّل المقدرة.';
 
   @override
   String get cupertinoAlertAllow => 'السماح';
@@ -1662,7 +1775,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Select Favorite Dessert';
 
   @override
-  String get cupertinoAlertDessertDescription => 'يُرجى اختيار نوع الحلوى المفضّل لك من القائمة أدناه. وسيتم استخدام اختيارك في تخصيص القائمة المقترَحة للمطاعم في منطقتك.';
+  String get cupertinoAlertDessertDescription =>
+      'يُرجى اختيار نوع الحلوى المفضّل لك من القائمة أدناه. وسيتم استخدام اختيارك في تخصيص القائمة المقترَحة للمطاعم في منطقتك.';
 
   @override
   String get cupertinoAlertCheesecake => 'كعكة بالجبن';
@@ -1915,13 +2029,15 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get shrineProductShrugBag => 'حقيبة كتف';
 
   @override
-  String get shrineProductGiltDeskTrio => 'طقم أدوات مكتبية ذهبية اللون من 3 قطع';
+  String get shrineProductGiltDeskTrio =>
+      'طقم أدوات مكتبية ذهبية اللون من 3 قطع';
 
   @override
   String get shrineProductCopperWireRack => 'رف سلكي نحاسي';
 
   @override
-  String get shrineProductSootheCeramicSet => 'طقم سيراميك باللون الأبيض الراقي';
+  String get shrineProductSootheCeramicSet =>
+      'طقم سيراميك باللون الأبيض الراقي';
 
   @override
   String get shrineProductHurrahsTeaSet => 'طقم شاي مميّز';
@@ -1984,7 +2100,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get shrineProductClassicWhiteCollar => 'ياقة بيضاء كلاسيكية';
 
   @override
-  String get shrineProductCeriseScallopTee => 'قميص قصير الأكمام باللون الكرزي الفاتح';
+  String get shrineProductCeriseScallopTee =>
+      'قميص قصير الأكمام باللون الكرزي الفاتح';
 
   @override
   String get shrineProductShoulderRollsTee => 'قميص واسعة بأكمام قصيرة';
@@ -2259,7 +2376,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get craneEat10 => 'لشبونة، البرتغال';
 
   @override
-  String get craneFly0SemanticLabel => 'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
+  String get craneFly0SemanticLabel =>
+      'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
 
   @override
   String get craneFly1SemanticLabel => 'خيمة في حقل';
@@ -2274,7 +2392,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get craneFly4SemanticLabel => 'أكواخ فوق الماء';
 
   @override
-  String get craneFly5SemanticLabel => 'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
+  String get craneFly5SemanticLabel =>
+      'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
 
   @override
   String get craneFly6SemanticLabel => 'عرض \"قصر الفنون الجميلة\" من الجوّ';
@@ -2304,7 +2423,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get craneSleep0SemanticLabel => 'أكواخ فوق الماء';
 
   @override
-  String get craneSleep1SemanticLabel => 'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
+  String get craneSleep1SemanticLabel =>
+      'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
 
   @override
   String get craneSleep2SemanticLabel => 'قلعة ماتشو بيتشو';
@@ -2313,7 +2433,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get craneSleep3SemanticLabel => 'رجل متّكِئ على سيارة زرقاء عتيقة';
 
   @override
-  String get craneSleep4SemanticLabel => 'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
+  String get craneSleep4SemanticLabel =>
+      'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
 
   @override
   String get craneSleep5SemanticLabel => 'خيمة في حقل';
@@ -2325,7 +2446,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get craneSleep7SemanticLabel => 'شُقق ملونة في ميدان ريبيارا';
 
   @override
-  String get craneSleep8SemanticLabel => 'أطلال \"المايا\" على جُرْف يطِلّ على الشاطئ';
+  String get craneSleep8SemanticLabel =>
+      'أطلال \"المايا\" على جُرْف يطِلّ على الشاطئ';
 
   @override
   String get craneSleep9SemanticLabel => 'منارة من الطوب على شاطئ البحر';
@@ -2418,7 +2540,8 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'آخر المستجدّات';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'ثورة الرعاية الصحية الهادئة والفعالة في الوقت نفسه';
+  String get fortnightlyHeadlineHealthcare =>
+      'ثورة الرعاية الصحية الهادئة والفعالة في الوقت نفسه';
 
   @override
   String get fortnightlyHeadlineWar => 'الأمريكيون المنقسمون أثناء الحرب';
@@ -2430,13 +2553,16 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'إصلاح الجيش الأخضر من الداخل';
 
   @override
-  String get fortnightlyHeadlineStocks => 'مع ركود الأسهم، يتجه الكثيرون إلى العملة';
+  String get fortnightlyHeadlineStocks =>
+      'مع ركود الأسهم، يتجه الكثيرون إلى العملة';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'مصمِّمون يستخدمون التكنولوجيا لصنع ملابس تستلهم المستقبل';
+  String get fortnightlyHeadlineFabrics =>
+      'مصمِّمون يستخدمون التكنولوجيا لصنع ملابس تستلهم المستقبل';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'مدافعون عن حقوق المرأة يجابهون التحزب';
+  String get fortnightlyHeadlineFeminists =>
+      'مدافعون عن حقوق المرأة يجابهون التحزب';
 
   @override
   String get fortnightlyHeadlineBees => 'نقص نحل الأراضي الزراعية';
@@ -2462,7 +2588,7 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
 
 /// The translations for Arabic, as used in Egypt (`ar_EG`).
 class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
-  GalleryLocalizationsArEg(): super('ar_EG');
+  GalleryLocalizationsArEg() : super('ar_EG');
 
   @override
   String githubRepo(Object repoName) {
@@ -2478,7 +2604,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get signIn => 'تسجيل الدخول';
 
   @override
-  String get bannerDemoText => 'تم تعديل كلمة المرور على جهاز آخر. يُرجى تسجيل الدخول مرة أخرى.';
+  String get bannerDemoText =>
+      'تم تعديل كلمة المرور على جهاز آخر. يُرجى تسجيل الدخول مرة أخرى.';
 
   @override
   String get bannerDemoResetText => 'إعادة ضبط البانر';
@@ -2515,7 +2642,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'أهم 10 مدن يمكن زيارتها في تاميل نادو';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'أهم 10 مدن يمكن زيارتها في تاميل نادو';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'رقم 10';
@@ -2575,16 +2703,19 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get rallyAccountDataVacation => 'عطلة';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'النسبة المئوية للعائد السنوي';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'النسبة المئوية للعائد السنوي';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'سعر الفائدة';
 
   @override
-  String get rallyAccountDetailDataInterestYtd => 'الفائدة منذ بداية العام حتى اليوم';
+  String get rallyAccountDetailDataInterestYtd =>
+      'الفائدة منذ بداية العام حتى اليوم';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'الفائدة المدفوعة في العام الماضي';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'الفائدة المدفوعة في العام الماضي';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'كشف الحساب التالي';
@@ -2740,10 +2871,14 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على معاملة واحدة لم يتم ضبطها.',
-      few: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملات لم يتم ضبطها.',
-      many: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
-      other: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
+      one:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على معاملة واحدة لم يتم ضبطها.',
+      few:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملات لم يتم ضبطها.',
+      many:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
+      other:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
     );
   }
 
@@ -2757,7 +2892,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get rallySeeAllBudgets => 'عرض جميع الميزانيات';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'الحساب ${accountName} رقم ${accountNumber} بمبلغ ${amount}.';
   }
 
@@ -2767,7 +2903,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'ميزانية ${budgetName} مع استخدام ${amountUsed} من إجمالي ${amountTotal}، المبلغ المتبقي ${amountLeft}';
   }
 
@@ -2799,7 +2936,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoCodeViewerCopyAll => 'نسخ الكل';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'تم نسخ النص إلى الحافظة.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'تم نسخ النص إلى الحافظة.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -2810,7 +2948,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoOptionsFeatureTitle => 'عرض الخيارات';
 
   @override
-  String get demoOptionsFeatureDescription => 'انقر هنا لعرض الخيارات المتاحة لهذا العرض التوضيحي.';
+  String get demoOptionsFeatureDescription =>
+      'انقر هنا لعرض الخيارات المتاحة لهذا العرض التوضيحي.';
 
   @override
   String get settingsTitle => 'الإعدادات';
@@ -2882,10 +3021,12 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoBottomAppBarTitle => 'شريط التطبيق السفلي';
 
   @override
-  String get demoBottomAppBarSubtitle => 'يعرض لائحة التنقل والإجراءات في أسفل التطبيق';
+  String get demoBottomAppBarSubtitle =>
+      'يعرض لائحة التنقل والإجراءات في أسفل التطبيق';
 
   @override
-  String get demoBottomAppBarDescription => 'تساعدك أشرطة التطبيقات السفلية على الوصول إلى لائحة التنقل السفلية وما يصل إلى أربعة إجراءات، بما في ذلك زر الإجراء العائم.';
+  String get demoBottomAppBarDescription =>
+      'تساعدك أشرطة التطبيقات السفلية على الوصول إلى لائحة التنقل السفلية وما يصل إلى أربعة إجراءات، بما في ذلك زر الإجراء العائم.';
 
   @override
   String get bottomAppBarNotch => 'قطع علوي';
@@ -2912,7 +3053,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoBannerSubtitle => 'عرض بانر داخل قائمة';
 
   @override
-  String get demoBannerDescription => 'يعرض البانر رسالة مهمة ومختصرة، كما يقدّم إجراءات يمكن للمستخدمين اتخاذها (أو تجاهل البانر). يجب أن يتخذ المستخدم إجراء ليتم تجاهل البانر.';
+  String get demoBannerDescription =>
+      'يعرض البانر رسالة مهمة ومختصرة، كما يقدّم إجراءات يمكن للمستخدمين اتخاذها (أو تجاهل البانر). يجب أن يتخذ المستخدم إجراء ليتم تجاهل البانر.';
 
   @override
   String get demoBottomNavigationTitle => 'شريط التنقل السفلي';
@@ -2927,43 +3069,50 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoBottomNavigationSelectedLabel => 'الملصق المُختار';
 
   @override
-  String get demoBottomNavigationDescription => 'تعرض أشرطة التنقل السفلية بين ثلاث وخمس وجهات في الجزء السفلي من الشاشة. ويتم تمثيل كل وجهة برمز ووسم نصي اختياري. عند النقر على رمز التنقل السفلي، يتم نقل المستخدم إلى وجهة التنقل ذات المستوى الأعلى المرتبطة بذلك الرمز.';
+  String get demoBottomNavigationDescription =>
+      'تعرض أشرطة التنقل السفلية بين ثلاث وخمس وجهات في الجزء السفلي من الشاشة. ويتم تمثيل كل وجهة برمز ووسم نصي اختياري. عند النقر على رمز التنقل السفلي، يتم نقل المستخدم إلى وجهة التنقل ذات المستوى الأعلى المرتبطة بذلك الرمز.';
 
   @override
   String get demoButtonTitle => 'الأزرار';
 
   @override
-  String get demoButtonSubtitle => 'أزرار نصية أو بارزة أو محدَّدة الجوانب، والمزيد';
+  String get demoButtonSubtitle =>
+      'أزرار نصية أو بارزة أو محدَّدة الجوانب، والمزيد';
 
   @override
   String get demoTextButtonTitle => 'زر نصي';
 
   @override
-  String get demoTextButtonDescription => 'يتلوّن الزر النصي عند الضغط عليه ولكن لا يرتفع. ينصح باستخدام الأزرار النصية على أشرطة الأدوات وفي مربّعات الحوار وداخل المساحات المتروكة';
+  String get demoTextButtonDescription =>
+      'يتلوّن الزر النصي عند الضغط عليه ولكن لا يرتفع. ينصح باستخدام الأزرار النصية على أشرطة الأدوات وفي مربّعات الحوار وداخل المساحات المتروكة';
 
   @override
   String get demoElevatedButtonTitle => 'زر بارز';
 
   @override
-  String get demoElevatedButtonDescription => 'تضفي الأزرار البارزة مزيدًا من الحركة إلى التصميمات الأحادية البعد. فهي تبرِز الوظائف المعروضة في المساحات العريضة أو المكدَّسة.';
+  String get demoElevatedButtonDescription =>
+      'تضفي الأزرار البارزة مزيدًا من الحركة إلى التصميمات الأحادية البعد. فهي تبرِز الوظائف المعروضة في المساحات العريضة أو المكدَّسة.';
 
   @override
   String get demoOutlinedButtonTitle => 'زر محدَّد الجوانب';
 
   @override
-  String get demoOutlinedButtonDescription => 'تصبح الأزرار المحدَّدة الجوانب غير شفافة وترتفع عند الضغط عليها. وغالبًا ما يتم إقرانها مع الأزرار البارزة للإشارة إلى إجراء ثانوي بديل.';
+  String get demoOutlinedButtonDescription =>
+      'تصبح الأزرار المحدَّدة الجوانب غير شفافة وترتفع عند الضغط عليها. وغالبًا ما يتم إقرانها مع الأزرار البارزة للإشارة إلى إجراء ثانوي بديل.';
 
   @override
   String get demoToggleButtonTitle => 'أزرار التبديل';
 
   @override
-  String get demoToggleButtonDescription => 'يمكن استخدام أزرار التبديل لتجميع الخيارات المرتبطة. لتأكيد مجموعات أزرار التبديل المرتبطة، يجب أن تشترك إحدى المجموعات في حاوية مشتركة.';
+  String get demoToggleButtonDescription =>
+      'يمكن استخدام أزرار التبديل لتجميع الخيارات المرتبطة. لتأكيد مجموعات أزرار التبديل المرتبطة، يجب أن تشترك إحدى المجموعات في حاوية مشتركة.';
 
   @override
   String get demoFloatingButtonTitle => 'زر الإجراء العائم';
 
   @override
-  String get demoFloatingButtonDescription => 'زر الإجراء العائم هو زر على شكل رمز دائري يتم تمريره فوق المحتوى للترويج لاتخاذ إجراء أساسي في التطبيق.';
+  String get demoFloatingButtonDescription =>
+      'زر الإجراء العائم هو زر على شكل رمز دائري يتم تمريره فوق المحتوى للترويج لاتخاذ إجراء أساسي في التطبيق.';
 
   @override
   String get demoCardTitle => 'البطاقات';
@@ -2975,34 +3124,40 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoChipTitle => 'الشرائح';
 
   @override
-  String get demoCardDescription => 'البطاقة هي ورقة مواد تُستخدَم لتمثيل بعض المعلومات ذات الصلة، مثلاً ألبوم أو موقع جغرافي أو وجبة أو تفاصيل جهة اتصال أو ما إلى ذلك.';
+  String get demoCardDescription =>
+      'البطاقة هي ورقة مواد تُستخدَم لتمثيل بعض المعلومات ذات الصلة، مثلاً ألبوم أو موقع جغرافي أو وجبة أو تفاصيل جهة اتصال أو ما إلى ذلك.';
 
   @override
-  String get demoChipSubtitle => 'العناصر المضغوطة التي تمثل إدخال أو سمة أو إجراء';
+  String get demoChipSubtitle =>
+      'العناصر المضغوطة التي تمثل إدخال أو سمة أو إجراء';
 
   @override
   String get demoActionChipTitle => 'شريحة الإجراءات';
 
   @override
-  String get demoActionChipDescription => 'شرائح الإجراءات هي مجموعة من الخيارات التي تشغّل إجراءً ذا صلة بالمحتوى الأساسي. ينبغي أن يكون ظهور شرائح الإجراءات في واجهة المستخدم ديناميكيًا ومناسبًا للسياق.';
+  String get demoActionChipDescription =>
+      'شرائح الإجراءات هي مجموعة من الخيارات التي تشغّل إجراءً ذا صلة بالمحتوى الأساسي. ينبغي أن يكون ظهور شرائح الإجراءات في واجهة المستخدم ديناميكيًا ومناسبًا للسياق.';
 
   @override
   String get demoChoiceChipTitle => 'شريحة الخيارات';
 
   @override
-  String get demoChoiceChipDescription => 'تمثل شرائح الخيارات خيارًا واحدًا من بين مجموعة. تتضمن شرائح الخيارات النصوص الوصفية ذات الصلة أو الفئات.';
+  String get demoChoiceChipDescription =>
+      'تمثل شرائح الخيارات خيارًا واحدًا من بين مجموعة. تتضمن شرائح الخيارات النصوص الوصفية ذات الصلة أو الفئات.';
 
   @override
   String get demoFilterChipTitle => 'شريحة الفلتر';
 
   @override
-  String get demoFilterChipDescription => 'تستخدم شرائح الفلتر العلامات أو الكلمات الوصفية باعتبارها طريقة لفلترة المحتوى.';
+  String get demoFilterChipDescription =>
+      'تستخدم شرائح الفلتر العلامات أو الكلمات الوصفية باعتبارها طريقة لفلترة المحتوى.';
 
   @override
   String get demoInputChipTitle => 'شريحة الإدخال';
 
   @override
-  String get demoInputChipDescription => 'تمثل شرائح الإدخالات معلومة معقدة، مثل كيان (شخص، مكان، أو شئ) أو نص محادثة، في نمط مضغوط.';
+  String get demoInputChipDescription =>
+      'تمثل شرائح الإدخالات معلومة معقدة، مثل كيان (شخص، مكان، أو شئ) أو نص محادثة، في نمط مضغوط.';
 
   @override
   String get demoDataTableTitle => 'جداول البيانات';
@@ -3011,7 +3166,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoDataTableSubtitle => 'صفوف وأعمدة من المعلومات';
 
   @override
-  String get demoDataTableDescription => 'تعرض جداول البيانات معلومات على هيئة شبكة من الصفوف والأعمدة، حيث يتم تنظيم المعلومات بطريقة يَسهُل فحصها ليتمكن المستخدمون من البحث عن الأنماط والإحصاءات.';
+  String get demoDataTableDescription =>
+      'تعرض جداول البيانات معلومات على هيئة شبكة من الصفوف والأعمدة، حيث يتم تنظيم المعلومات بطريقة يَسهُل فحصها ليتمكن المستخدمون من البحث عن الأنماط والإحصاءات.';
 
   @override
   String get dataTableHeader => 'التغذية';
@@ -3084,13 +3240,15 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoDialogTitle => 'مربعات الحوار';
 
   @override
-  String get demoDialogSubtitle => 'مربعات حوار بسيطة ومخصّصة للتنبيهات وبملء الشاشة';
+  String get demoDialogSubtitle =>
+      'مربعات حوار بسيطة ومخصّصة للتنبيهات وبملء الشاشة';
 
   @override
   String get demoAlertDialogTitle => 'التنبيه';
 
   @override
-  String get demoAlertDialogDescription => 'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري وقائمة إجراءات اختيارية.';
+  String get demoAlertDialogDescription =>
+      'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري وقائمة إجراءات اختيارية.';
 
   @override
   String get demoAlertTitleDialogTitle => 'تنبيه مزوّد بعنوان';
@@ -3099,7 +3257,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoSimpleDialogTitle => 'بسيط';
 
   @override
-  String get demoSimpleDialogDescription => 'يتيح مربع الحوار البسيط للمستخدم إمكانية الاختيار من بين عدة خيارات. ويشتمل مربع الحوار البسيط على عنوان اختياري يتم عرضه أعلى هذه الخيارات.';
+  String get demoSimpleDialogDescription =>
+      'يتيح مربع الحوار البسيط للمستخدم إمكانية الاختيار من بين عدة خيارات. ويشتمل مربع الحوار البسيط على عنوان اختياري يتم عرضه أعلى هذه الخيارات.';
 
   @override
   String get demoGridListsTitle => 'قوائم الشبكات';
@@ -3108,7 +3267,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoGridListsSubtitle => 'تنسيق الصفوف والأعمدة';
 
   @override
-  String get demoGridListsDescription => 'الاستخدام المثالي لقوائم الشبكات هو لعرض البيانات المتجانسة التي عادة ما تكون صورًا. كل عنصر في الشبكة يُسمَى مربّع.';
+  String get demoGridListsDescription =>
+      'الاستخدام المثالي لقوائم الشبكات هو لعرض البيانات المتجانسة التي عادة ما تكون صورًا. كل عنصر في الشبكة يُسمَى مربّع.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'صورة فقط';
@@ -3126,31 +3286,37 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoSlidersSubtitle => 'أدوات لاختيار قيمة عن طريق التمرير السريع';
 
   @override
-  String get demoSlidersDescription => 'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة من ذلك الشريط. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
+  String get demoSlidersDescription =>
+      'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة من ذلك الشريط. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
 
   @override
   String get demoRangeSlidersTitle => 'شرائط تمرير تتضمَّن نطاقات';
 
   @override
-  String get demoRangeSlidersDescription => 'تعكس شرائط التمرير نطاقًا من القيم بطول شريط. يمكن أن تحتوي على رموز في كلا طرفي الشريط بحيث تعكس نطاقًا من القيم. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
+  String get demoRangeSlidersDescription =>
+      'تعكس شرائط التمرير نطاقًا من القيم بطول شريط. يمكن أن تحتوي على رموز في كلا طرفي الشريط بحيث تعكس نطاقًا من القيم. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
 
   @override
   String get demoCustomSlidersTitle => 'شرائط التمرير المخصَّصة';
 
   @override
-  String get demoCustomSlidersDescription => 'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة أو نطاق من القيم من ذلك الشريط. يمكن تخصيص شرائط التمرير وتغيير تصميماتها.';
+  String get demoCustomSlidersDescription =>
+      'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة أو نطاق من القيم من ذلك الشريط. يمكن تخصيص شرائط التمرير وتغيير تصميماتها.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'مستمر بقيمة رقمية قابلة للتعديل';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'مستمر بقيمة رقمية قابلة للتعديل';
 
   @override
   String get demoSlidersDiscrete => 'منفصل القيم';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'شريط تمرير منفصل القيم بتصميم مخصَّص';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'شريط تمرير منفصل القيم بتصميم مخصَّص';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'شريط تمرير بنطاق مستمر وتصميم مخصَّص';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'شريط تمرير بنطاق مستمر وتصميم مخصَّص';
 
   @override
   String get demoSlidersContinuous => 'مستمر';
@@ -3177,7 +3343,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoMenuSubtitle => 'أزرار قوائم وقوائم بسيطة';
 
   @override
-  String get demoMenuDescription => 'تعرض القائمة مجموعة من الخيارات على سطح مؤقت، حيث تظهر عندما يتفاعل المستخدمون مع زر أو إجراء أو عنصر تحكم آخر.';
+  String get demoMenuDescription =>
+      'تعرض القائمة مجموعة من الخيارات على سطح مؤقت، حيث تظهر عندما يتفاعل المستخدمون مع زر أو إجراء أو عنصر تحكم آخر.';
 
   @override
   String get demoMenuItemValueOne => 'أول عنصر قائمة';
@@ -3244,7 +3411,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoNavigationDrawerSubtitle => 'عرض لائحة تنقّل في شريط التطبيق';
 
   @override
-  String get demoNavigationDrawerDescription => 'لوحة تصميم متعدد الأبعاد تتحرك أفقيًا من حافة الشاشة لعرض روابط التنقّل في تطبيق.';
+  String get demoNavigationDrawerDescription =>
+      'لوحة تصميم متعدد الأبعاد تتحرك أفقيًا من حافة الشاشة لعرض روابط التنقّل في تطبيق.';
 
   @override
   String get demoNavigationDrawerUserName => 'اسم المستخدم';
@@ -3259,7 +3427,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoNavigationDrawerToPageTwo => 'العنصر الثاني';
 
   @override
-  String get demoNavigationDrawerText => 'مرِّر سريعًا من الحافة أو انقر على الرمز في أعلى يمين الصفحة لعرض لائحة التنقّل.';
+  String get demoNavigationDrawerText =>
+      'مرِّر سريعًا من الحافة أو انقر على الرمز في أعلى يمين الصفحة لعرض لائحة التنقّل.';
 
   @override
   String get demoNavigationRailTitle => 'شريط التنقّل';
@@ -3268,7 +3437,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoNavigationRailSubtitle => 'عرض شريط تنقّل داخل تطبيق';
 
   @override
-  String get demoNavigationRailDescription => 'أداة أساسية تظهر في يمين أو يسار التطبيق للتنقّل بين عدد صغير من الأقسام داخل التطبيق، غالبًا ما بين 3 إلى 5 أقسام.';
+  String get demoNavigationRailDescription =>
+      'أداة أساسية تظهر في يمين أو يسار التطبيق للتنقّل بين عدد صغير من الأقسام داخل التطبيق، غالبًا ما بين 3 إلى 5 أقسام.';
 
   @override
   String get demoNavigationRailFirst => 'الأول';
@@ -3289,7 +3459,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoFullscreenDialogTitle => 'ملء الشاشة';
 
   @override
-  String get demoFullscreenDialogDescription => 'تحدِّد خاصية fullscreenDialog ما إذا كانت الصفحة الواردة هي مربع حوار نمطي بملء الشاشة.';
+  String get demoFullscreenDialogDescription =>
+      'تحدِّد خاصية fullscreenDialog ما إذا كانت الصفحة الواردة هي مربع حوار نمطي بملء الشاشة.';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'مؤشر النشاط';
@@ -3298,28 +3469,33 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoCupertinoActivityIndicatorSubtitle => 'مؤشرات نشاط بنمط iOS';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'مؤشر نشاط بنمط iOS ويدور في اتجاه عقارب الساعة';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'مؤشر نشاط بنمط iOS ويدور في اتجاه عقارب الساعة';
 
   @override
   String get demoCupertinoButtonsTitle => 'الأزرار';
 
   @override
-  String get demoCupertinoButtonsSubtitle => 'أزرار مستوحاة من نظام التشغيل iOS';
+  String get demoCupertinoButtonsSubtitle =>
+      'أزرار مستوحاة من نظام التشغيل iOS';
 
   @override
-  String get demoCupertinoButtonsDescription => 'زر مستوحى من نظام التشغيل iOS. يتم عرض هذا الزر على شكل نص و/أو رمز يتلاشى ويظهر بالتدريج عند اللمس. وقد يكون مزوّدًا بخلفية اختياريًا.';
+  String get demoCupertinoButtonsDescription =>
+      'زر مستوحى من نظام التشغيل iOS. يتم عرض هذا الزر على شكل نص و/أو رمز يتلاشى ويظهر بالتدريج عند اللمس. وقد يكون مزوّدًا بخلفية اختياريًا.';
 
   @override
   String get demoCupertinoAlertsTitle => 'التنبيهات';
 
   @override
-  String get demoCupertinoAlertsSubtitle => 'مربعات حوار التنبيهات المستوحاة من نظام التشغيل iOS';
+  String get demoCupertinoAlertsSubtitle =>
+      'مربعات حوار التنبيهات المستوحاة من نظام التشغيل iOS';
 
   @override
   String get demoCupertinoAlertTitle => 'تنبيه';
 
   @override
-  String get demoCupertinoAlertDescription => 'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري ومحتوى اختياري وقائمة إجراءات اختيارية. ويتم عرض العنوان أعلى المحتوى بينما تُعرض الإجراءات أسفل المحتوى.';
+  String get demoCupertinoAlertDescription =>
+      'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري ومحتوى اختياري وقائمة إجراءات اختيارية. ويتم عرض العنوان أعلى المحتوى بينما تُعرض الإجراءات أسفل المحتوى.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'تنبيه يتضمّن عنوانًا';
@@ -3334,7 +3510,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoCupertinoActionSheetTitle => 'ورقة الإجراءات';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'ورقة الإجراءات هي ورقة أنماط معيّنة للتنبيهات تقدّم للمستخدم مجموعة مكوّنة من خيارين أو أكثر مرتبطة بالسياق الحالي. ويمكن أن تتضمّن ورقة الإجراءات عنوانًا ورسالة إضافية وقائمة إجراءات.';
+  String get demoCupertinoActionSheetDescription =>
+      'ورقة الإجراءات هي ورقة أنماط معيّنة للتنبيهات تقدّم للمستخدم مجموعة مكوّنة من خيارين أو أكثر مرتبطة بالسياق الحالي. ويمكن أن تتضمّن ورقة الإجراءات عنوانًا ورسالة إضافية وقائمة إجراءات.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'شريط التنقل';
@@ -3343,16 +3520,19 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoCupertinoNavigationBarSubtitle => 'شريط تنقل بنمط iOS';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'شريط تنقل بنمط iOS شريط التنقل هو شريط أدوات يتكون على الأقل من عنوان صفحة في وسط شريط الأدوات.';
+  String get demoCupertinoNavigationBarDescription =>
+      'شريط تنقل بنمط iOS شريط التنقل هو شريط أدوات يتكون على الأقل من عنوان صفحة في وسط شريط الأدوات.';
 
   @override
   String get demoCupertinoPickerTitle => 'أدوات اختيار الوقت';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'أدوات اختيار التاريخ والوقت بنمط iOS';
+  String get demoCupertinoPickerSubtitle =>
+      'أدوات اختيار التاريخ والوقت بنمط iOS';
 
   @override
-  String get demoCupertinoPickerDescription => 'أداة اختيار بنمط iOS يمكن استخدامها لاختيار تواريخ أو أوقات أو لاختيار كل من التاريخ والوقت.';
+  String get demoCupertinoPickerDescription =>
+      'أداة اختيار بنمط iOS يمكن استخدامها لاختيار تواريخ أو أوقات أو لاختيار كل من التاريخ والوقت.';
 
   @override
   String get demoCupertinoPickerTimer => 'الموقِّت';
@@ -3370,19 +3550,23 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoCupertinoPullToRefreshTitle => 'سحب لإعادة التحميل';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'عنصر تحكم السحب لإعادة التحميل بنمط iOS';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'عنصر تحكم السحب لإعادة التحميل بنمط iOS';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'أداة تنفّذ إعدادات التحكم في المحتوى للسحب لأعادة التحميل بنمط iOS';
+  String get demoCupertinoPullToRefreshDescription =>
+      'أداة تنفّذ إعدادات التحكم في المحتوى للسحب لأعادة التحميل بنمط iOS';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'عنصر تحكّم شريحة';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'عنصر تحكّم شريحة بنمط iOS';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'عنصر تحكّم شريحة بنمط iOS';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'يُستخدَم للاختيار بين عدد من الخيارات يستبعد أحدها الآخر. عند تحديد خيار في عنصر تحكّم الشريحة، يتم إلغاء اختيار العنصر الآخر في عنصر تحكّم الشريحة.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'يُستخدَم للاختيار بين عدد من الخيارات يستبعد أحدها الآخر. عند تحديد خيار في عنصر تحكّم الشريحة، يتم إلغاء اختيار العنصر الآخر في عنصر تحكّم الشريحة.';
 
   @override
   String get demoCupertinoSliderTitle => 'شريط التمرير';
@@ -3391,7 +3575,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoCupertinoSliderSubtitle => 'شريط تمرير بنمط iOS';
 
   @override
-  String get demoCupertinoSliderDescription => 'يمكن استخدام شريط تمرير للاختيار من مجموعة قيم متصلة أو مجموعة قيم منفصلة.';
+  String get demoCupertinoSliderDescription =>
+      'يمكن استخدام شريط تمرير للاختيار من مجموعة قيم متصلة أو مجموعة قيم منفصلة.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -3407,16 +3592,19 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoCupertinoSwitchSubtitle => 'مفتاح تبديل بنمط iOS';
 
   @override
-  String get demoCupertinoSwitchDescription => 'يُستخدَم مفتاح التبديل لتفعيل إعداد فردي أو إيقافه.';
+  String get demoCupertinoSwitchDescription =>
+      'يُستخدَم مفتاح التبديل لتفعيل إعداد فردي أو إيقافه.';
 
   @override
   String get demoCupertinoTabBarTitle => 'شريط علامات التبويب';
 
   @override
-  String get demoCupertinoTabBarSubtitle => 'شريط علامات التبويب السفلي بنمط iOS';
+  String get demoCupertinoTabBarSubtitle =>
+      'شريط علامات التبويب السفلي بنمط iOS';
 
   @override
-  String get demoCupertinoTabBarDescription => 'شريط علامات تبويب للتنقل السفلي بنمط iOS. يعرض عدة علامات تبويب، حيث تكون هناك علامة تبويب واحدة نشطة وبشكل تلقائي تكون هي علامة التبويب الأولى.';
+  String get demoCupertinoTabBarDescription =>
+      'شريط علامات تبويب للتنقل السفلي بنمط iOS. يعرض عدة علامات تبويب، حيث تكون هناك علامة تبويب واحدة نشطة وبشكل تلقائي تكون هي علامة التبويب الأولى.';
 
   @override
   String get cupertinoTabBarHomeTab => 'علامة التبويب الرئيسية';
@@ -3434,7 +3622,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoCupertinoTextFieldSubtitle => 'حقول نصل بنمط iOS';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'يسمح حقل النص للمستخدم بإدخال نص إما باستخدام لوحة مفاتيح حقيقية أو لوحة مفاتيح تظهر على الشاشة.';
+  String get demoCupertinoTextFieldDescription =>
+      'يسمح حقل النص للمستخدم بإدخال نص إما باستخدام لوحة مفاتيح حقيقية أو لوحة مفاتيح تظهر على الشاشة.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'رقم التعريف الشخصي';
@@ -3446,13 +3635,15 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoMotionSubtitle => 'كل أنماط الانتقال المُعرَّفة مسبقًا';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'البطاقات والقوائم وأزرار الإجراءات الرئيسية (FAB)';
+  String get demoContainerTransformDemoInstructions =>
+      'البطاقات والقوائم وأزرار الإجراءات الرئيسية (FAB)';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'زرّا التالي والرجوع';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'ترتيب حسب \"الأغاني المشغّلة مؤخرًا\"';
+  String get demoSharedYAxisDemoInstructions =>
+      'ترتيب حسب \"الأغاني المشغّلة مؤخرًا\"';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'زر رمز الإعدادات';
@@ -3461,13 +3652,15 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoFadeThroughDemoInstructions => 'شريط التنقّل السفلي';
 
   @override
-  String get demoFadeScaleDemoInstructions => 'مربّع الحوار المشروط وزر الإجراء الرئيسي (FAB)';
+  String get demoFadeScaleDemoInstructions =>
+      'مربّع الحوار المشروط وزر الإجراء الرئيسي (FAB)';
 
   @override
   String get demoContainerTransformTitle => 'تحويل الحاوية';
 
   @override
-  String get demoContainerTransformDescription => 'تم تصميم نمط تحويل الحاوية لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تتضمّن حاوية. ينشئ هذا النمط تأثير ربط مرئي بين عنصرين في واجهة المستخدم.';
+  String get demoContainerTransformDescription =>
+      'تم تصميم نمط تحويل الحاوية لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تتضمّن حاوية. ينشئ هذا النمط تأثير ربط مرئي بين عنصرين في واجهة المستخدم.';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'وضع التلاشي';
@@ -3494,7 +3687,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoMotionListTileTitle => 'عنصر قائمة';
 
   @override
-  String get demoSharedAxisDescription => 'يتم استخدام نمط المحور المشترك لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تربطها علاقة انتقال أو علاقة مكانية. يستخدم هذا النمط التحويل المشترك على محور \"س\" أو \"ص\" أو \"ع\" لتعزيز العلاقة بين العناصر.';
+  String get demoSharedAxisDescription =>
+      'يتم استخدام نمط المحور المشترك لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تربطها علاقة انتقال أو علاقة مكانية. يستخدم هذا النمط التحويل المشترك على محور \"س\" أو \"ص\" أو \"ع\" لتعزيز العلاقة بين العناصر.';
 
   @override
   String get demoSharedXAxisTitle => 'محور \"س\" المشترك';
@@ -3509,7 +3703,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoSharedXAxisCoursePageTitle => 'تقديم دوراتك بسلاسة';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'تظهر الفئات المجمّعة كمجموعات في الخلاصة. يمكنك دائمًا تغيير هذا لاحقًا.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'تظهر الفئات المجمّعة كمجموعات في الخلاصة. يمكنك دائمًا تغيير هذا لاحقًا.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'فنون وأعمال حِرَفية';
@@ -3539,10 +3734,12 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoSharedXAxisSignInSubtitleText => 'تسجيل الدخول باستخدام حسابك';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'البريد الإلكتروني أو رقم الهاتف';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'البريد الإلكتروني أو رقم الهاتف';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'هل نسيت البريد الإلكتروني؟';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'هل نسيت البريد الإلكتروني؟';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'إنشاء حساب';
@@ -3608,7 +3805,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'شطيرة لحم بقري';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'وصفة شطيرة اللحم البقري';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'وصفة شطيرة اللحم البقري';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'الوصفات المحفوظة';
@@ -3629,7 +3827,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoFadeThroughTitle => 'التلاشي التدريجي';
 
   @override
-  String get demoFadeThroughDescription => 'يتم استخدام نمط التلاشي التدريجي لتأثيرات الانتقال بين عناصر واجهة المستخدم التي لا تربطها علاقة قوية ببعضها.';
+  String get demoFadeThroughDescription =>
+      'يتم استخدام نمط التلاشي التدريجي لتأثيرات الانتقال بين عناصر واجهة المستخدم التي لا تربطها علاقة قوية ببعضها.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'ألبومات';
@@ -3647,7 +3846,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoFadeScaleTitle => 'التلاشي';
 
   @override
-  String get demoFadeScaleDescription => 'يتم استخدام نمط التلاشي مع عناصر واجهة المستخدم التي تدخل في حدود الشاشة أو تخرج منها، مثلاً مربّع حوار يتلاشى في مركز الشاشة.';
+  String get demoFadeScaleDescription =>
+      'يتم استخدام نمط التلاشي مع عناصر واجهة المستخدم التي تدخل في حدود الشاشة أو تخرج منها، مثلاً مربّع حوار يتلاشى في مركز الشاشة.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'إظهار مربّع حوار مشروط';
@@ -3674,7 +3874,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoColorsSubtitle => 'جميع الألوان المحدّدة مسبقًا';
 
   @override
-  String get demoColorsDescription => 'ثوابت اللون وعينات الألوان التي تُمثل لوحة ألوان التصميم المتعدد الأبعاد';
+  String get demoColorsDescription =>
+      'ثوابت اللون وعينات الألوان التي تُمثل لوحة ألوان التصميم المتعدد الأبعاد';
 
   @override
   String get demoTypographyTitle => 'أسلوب الخط';
@@ -3683,7 +3884,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoTypographySubtitle => 'جميع أنماط النص المحدّدة مسبقًا';
 
   @override
-  String get demoTypographyDescription => 'تعريف أساليب الخط المختلفة في التصميم المتعدد الأبعاد';
+  String get demoTypographyDescription =>
+      'تعريف أساليب الخط المختلفة في التصميم المتعدد الأبعاد';
 
   @override
   String get demo2dTransformationsTitle => 'التحويلات الثنائية الأبعاد';
@@ -3692,7 +3894,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demo2dTransformationsSubtitle => 'عرض شامل، تكبير/تصغير، تدوير';
 
   @override
-  String get demo2dTransformationsDescription => 'انقر لتعديل المربّعات واستخدام الإيماءات للتنقل خلال المشهد. اسحب لتنفيذ العرض الشامل وحرّك إصبعيك للتكبير/التصغير ويمكنك التدوير بإصبعين. اضغط على زر إعادة الضبط للرجوع إلى الاتجاه الأصلي.';
+  String get demo2dTransformationsDescription =>
+      'انقر لتعديل المربّعات واستخدام الإيماءات للتنقل خلال المشهد. اسحب لتنفيذ العرض الشامل وحرّك إصبعيك للتكبير/التصغير ويمكنك التدوير بإصبعين. اضغط على زر إعادة الضبط للرجوع إلى الاتجاه الأصلي.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'إعادة ضبط التحويلات';
@@ -3713,13 +3916,15 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoBottomSheetPersistentTitle => 'البطاقة السفلية العادية';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'تعرض البطاقة السفلية العادية معلومات تكميلية للمحتوى الأساسي للتطبيق. ولا تختفي هذه البطاقة عندما يتفاعل المستخدم مع المحتوى الآخر على الشاشة.';
+  String get demoBottomSheetPersistentDescription =>
+      'تعرض البطاقة السفلية العادية معلومات تكميلية للمحتوى الأساسي للتطبيق. ولا تختفي هذه البطاقة عندما يتفاعل المستخدم مع المحتوى الآخر على الشاشة.';
 
   @override
   String get demoBottomSheetModalTitle => 'البطاقة السفلية المقيِّدة';
 
   @override
-  String get demoBottomSheetModalDescription => 'تعتبر البطاقة السفلية المقيِّدة بديلاً لقائمة أو مربّع حوار ولا تسمح للمستخدم بالتفاعل مع المحتوى الآخر على الشاشة.';
+  String get demoBottomSheetModalDescription =>
+      'تعتبر البطاقة السفلية المقيِّدة بديلاً لقائمة أو مربّع حوار ولا تسمح للمستخدم بالتفاعل مع المحتوى الآخر على الشاشة.';
 
   @override
   String get demoBottomSheetAddLabel => 'إضافة';
@@ -3742,7 +3947,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoListsSubtitle => 'التمرير خلال تنسيقات القوائم';
 
   @override
-  String get demoListsDescription => 'صف بارتفاع واحد ثابت يحتوي عادةً على نص ورمز سابق أو لاحق.';
+  String get demoListsDescription =>
+      'صف بارتفاع واحد ثابت يحتوي عادةً على نص ورمز سابق أو لاحق.';
 
   @override
   String get demoOneLineListsTitle => 'سطر واحد';
@@ -3763,13 +3969,15 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoCircularProgressIndicatorTitle => 'مؤشر تقدم دائري';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'مؤشر تقدم دائري بتصميم متعدد الأبعاد (Material Design) ويدور ليدل على أن التطبيق مشغول';
+  String get demoCircularProgressIndicatorDescription =>
+      'مؤشر تقدم دائري بتصميم متعدد الأبعاد (Material Design) ويدور ليدل على أن التطبيق مشغول';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'مؤشر تقدم خطي';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'مؤشر تقدم خطي بتصميم متعدد الأبعاد ويُعرَف أيضًا بشريط التقدم';
+  String get demoLinearProgressIndicatorDescription =>
+      'مؤشر تقدم خطي بتصميم متعدد الأبعاد ويُعرَف أيضًا بشريط التقدم';
 
   @override
   String get demoPickersTitle => 'أدوات اختيار الوقت';
@@ -3781,13 +3989,15 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoDatePickerTitle => 'أداة اختيار التاريخ';
 
   @override
-  String get demoDatePickerDescription => 'تعرض مربّع حوار يحتوي على أداة اختيار تاريخ ذات تصميم متعدد الأبعاد.';
+  String get demoDatePickerDescription =>
+      'تعرض مربّع حوار يحتوي على أداة اختيار تاريخ ذات تصميم متعدد الأبعاد.';
 
   @override
   String get demoTimePickerTitle => 'أداة اختيار الوقت';
 
   @override
-  String get demoTimePickerDescription => 'تعرض مربّع حوار يحتوي على أداة اختيار وقت ذات تصميم متعدد الأبعاد.';
+  String get demoTimePickerDescription =>
+      'تعرض مربّع حوار يحتوي على أداة اختيار وقت ذات تصميم متعدد الأبعاد.';
 
   @override
   String get demoPickersShowPicker => 'إظهار أداة الاختيار';
@@ -3802,19 +4012,23 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoTabsNonScrollingTitle => 'عدم التمرير';
 
   @override
-  String get demoTabsSubtitle => 'علامات تبويب تحتوي على عروض يمكن التنقّل خلالها بشكل مستقل';
+  String get demoTabsSubtitle =>
+      'علامات تبويب تحتوي على عروض يمكن التنقّل خلالها بشكل مستقل';
 
   @override
-  String get demoTabsDescription => 'تساعد علامات التبويب على تنظيم المحتوى في الشاشات المختلفة ومجموعات البيانات والتفاعلات الأخرى.';
+  String get demoTabsDescription =>
+      'تساعد علامات التبويب على تنظيم المحتوى في الشاشات المختلفة ومجموعات البيانات والتفاعلات الأخرى.';
 
   @override
   String get demoSnackbarsTitle => 'أشرطة إعلام منبثقة';
 
   @override
-  String get demoSnackbarsSubtitle => 'تعرض \"أشرطة الإعلام المنبثقة\" رسائل في أسفل الشاشة';
+  String get demoSnackbarsSubtitle =>
+      'تعرض \"أشرطة الإعلام المنبثقة\" رسائل في أسفل الشاشة';
 
   @override
-  String get demoSnackbarsDescription => 'تُعلِم \"أشرطة الإعلام منبثقة\" المستخدمين بعملية نفّذها التطبيق أو بعملية سينفّذها التطبيق. تظهر مؤقتًا باتجاه أسفل الشاشة ويُفترَض ألا تشوش على تجربة المستخدم وألا تتطلب تدخل المستخدم لإخفائها.';
+  String get demoSnackbarsDescription =>
+      'تُعلِم \"أشرطة الإعلام منبثقة\" المستخدمين بعملية نفّذها التطبيق أو بعملية سينفّذها التطبيق. تظهر مؤقتًا باتجاه أسفل الشاشة ويُفترَض ألا تشوش على تجربة المستخدم وألا تتطلب تدخل المستخدم لإخفائها.';
 
   @override
   String get demoSnackbarsButtonLabel => 'عرض شريط إعلام منبثق';
@@ -3826,31 +4040,36 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoSnackbarsActionButtonLabel => 'إجراء';
 
   @override
-  String get demoSnackbarsAction => 'لقد ضغطت على إجراء في \"شريط الإعلام المنبثق\".';
+  String get demoSnackbarsAction =>
+      'لقد ضغطت على إجراء في \"شريط الإعلام المنبثق\".';
 
   @override
   String get demoSelectionControlsTitle => 'عناصر التحكّم في الاختيار';
 
   @override
-  String get demoSelectionControlsSubtitle => 'مربّعات الاختيار وأزرار الاختيار ومفاتيح التبديل';
+  String get demoSelectionControlsSubtitle =>
+      'مربّعات الاختيار وأزرار الاختيار ومفاتيح التبديل';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'مربع اختيار';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'تسمح مربّعات الاختيار للمستخدمين باختيار عدة خيارات من مجموعة من الخيارات. القيمة المعتادة لمربّع الاختيار هي \"صحيح\" أو \"غير صحيح\" ويمكن أيضًا إضافة حالة ثالثة وهي \"خالية\".';
+  String get demoSelectionControlsCheckboxDescription =>
+      'تسمح مربّعات الاختيار للمستخدمين باختيار عدة خيارات من مجموعة من الخيارات. القيمة المعتادة لمربّع الاختيار هي \"صحيح\" أو \"غير صحيح\" ويمكن أيضًا إضافة حالة ثالثة وهي \"خالية\".';
 
   @override
   String get demoSelectionControlsRadioTitle => 'زر اختيار';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'تسمح أزرار الاختيار للقارئ بتحديد خيار واحد من مجموعة من الخيارات. يمكنك استخدام أزرار الاختيار لتحديد اختيارات حصرية إذا كنت تعتقد أنه يجب أن تظهر للمستخدم كل الخيارات المتاحة جنبًا إلى جنب.';
+  String get demoSelectionControlsRadioDescription =>
+      'تسمح أزرار الاختيار للقارئ بتحديد خيار واحد من مجموعة من الخيارات. يمكنك استخدام أزرار الاختيار لتحديد اختيارات حصرية إذا كنت تعتقد أنه يجب أن تظهر للمستخدم كل الخيارات المتاحة جنبًا إلى جنب.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'مفاتيح التبديل';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'تؤدي مفاتيح تبديل التشغيل/الإيقاف إلى تبديل حالة خيار واحد في الإعدادات. يجب توضيح الخيار الذي يتحكّم فيه مفتاح التبديل وكذلك حالته، وذلك من خلال التسمية المضمّنة المتاحة.';
+  String get demoSelectionControlsSwitchDescription =>
+      'تؤدي مفاتيح تبديل التشغيل/الإيقاف إلى تبديل حالة خيار واحد في الإعدادات. يجب توضيح الخيار الذي يتحكّم فيه مفتاح التبديل وكذلك حالته، وذلك من خلال التسمية المضمّنة المتاحة.';
 
   @override
   String get demoBottomTextFieldsTitle => 'حقول النص';
@@ -3859,10 +4078,12 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoTextFieldTitle => 'حقول النص';
 
   @override
-  String get demoTextFieldSubtitle => 'سطر واحد من النص والأرقام القابلة للتعديل';
+  String get demoTextFieldSubtitle =>
+      'سطر واحد من النص والأرقام القابلة للتعديل';
 
   @override
-  String get demoTextFieldDescription => 'تسمح حقول النص للمستخدمين بإدخال نص في واجهة مستخدم. وتظهر عادةً في النماذج ومربّعات الحوار.';
+  String get demoTextFieldDescription =>
+      'تسمح حقول النص للمستخدمين بإدخال نص في واجهة مستخدم. وتظهر عادةً في النماذج ومربّعات الحوار.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'عرض كلمة المرور';
@@ -3871,16 +4092,19 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoTextFieldHidePasswordLabel => 'إخفاء كلمة المرور';
 
   @override
-  String get demoTextFieldFormErrors => 'يُرجى تصحيح الأخطاء باللون الأحمر قبل الإرسال.';
+  String get demoTextFieldFormErrors =>
+      'يُرجى تصحيح الأخطاء باللون الأحمر قبل الإرسال.';
 
   @override
   String get demoTextFieldNameRequired => 'الاسم مطلوب.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'يُرجى إدخال حروف أبجدية فقط.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'يُرجى إدخال حروف أبجدية فقط.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - يُرجى إدخال رقم هاتف صالح في الولايات المتحدة.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - يُرجى إدخال رقم هاتف صالح في الولايات المتحدة.';
 
   @override
   String get demoTextFieldEnterPassword => 'يرجى إدخال كلمة مرور.';
@@ -3895,7 +4119,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoTextFieldNameField => 'الاسم*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'على أي رقم يمكننا التواصل معك؟';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'على أي رقم يمكننا التواصل معك؟';
 
   @override
   String get demoTextFieldPhoneNumber => 'رقم الهاتف*';
@@ -3907,7 +4132,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoTextFieldEmail => 'رسالة إلكترونية';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'أخبِرنا عن نفسك (مثلاً ما هي هواياتك المفضّلة أو ما هو مجال عملك؟)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'أخبِرنا عن نفسك (مثلاً ما هي هواياتك المفضّلة أو ما هو مجال عملك؟)';
 
   @override
   String get demoTextFieldKeepItShort => 'يُرجى الاختصار، هذا مجرد عرض توضيحي.';
@@ -3945,13 +4171,16 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get demoTooltipTitle => 'التلميحات';
 
   @override
-  String get demoTooltipSubtitle => 'رسالة قصيرة تُعرَض عند الضغط مع الاستمرار أو تمرير مؤشر الماوس';
+  String get demoTooltipSubtitle =>
+      'رسالة قصيرة تُعرَض عند الضغط مع الاستمرار أو تمرير مؤشر الماوس';
 
   @override
-  String get demoTooltipDescription => 'توفّر التلميحات تصنيفات نصية تساعد في شرح وظيفة زر أو إجراء آخر من إجراءات واجهة المستخدم. تعرض التلميحات نص إخباري عندما يمرّر المستخدمون مؤشر الماوس على عنصر أو يركزون عليه أو يضغطون عليه مع الاستمرار.';
+  String get demoTooltipDescription =>
+      'توفّر التلميحات تصنيفات نصية تساعد في شرح وظيفة زر أو إجراء آخر من إجراءات واجهة المستخدم. تعرض التلميحات نص إخباري عندما يمرّر المستخدمون مؤشر الماوس على عنصر أو يركزون عليه أو يضغطون عليه مع الاستمرار.';
 
   @override
-  String get demoTooltipInstructions => 'اضغط مع الاستمرار على العنصر أو مرّر مؤشر الماوس عليه لعرض التلميح.';
+  String get demoTooltipInstructions =>
+      'اضغط مع الاستمرار على العنصر أو مرّر مؤشر الماوس عليه لعرض التلميح.';
 
   @override
   String get bottomNavigationCommentsTab => 'التعليقات';
@@ -4009,10 +4238,12 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get dialogDiscardTitle => 'هل تريد تجاهل المسودة؟';
 
   @override
-  String get dialogLocationTitle => 'هل تريد استخدام خدمة الموقع الجغرافي من Google؟';
+  String get dialogLocationTitle =>
+      'هل تريد استخدام خدمة الموقع الجغرافي من Google؟';
 
   @override
-  String get dialogLocationDescription => 'يمكنك السماح لشركة Google بمساعدة التطبيقات في تحديد الموقع الجغرافي. ويعني هذا أنه سيتم إرسال بيانات مجهولة المصدر عن الموقع الجغرافي إلى Google، حتى عند عدم تشغيل أي تطبيقات.';
+  String get dialogLocationDescription =>
+      'يمكنك السماح لشركة Google بمساعدة التطبيقات في تحديد الموقع الجغرافي. ويعني هذا أنه سيتم إرسال بيانات مجهولة المصدر عن الموقع الجغرافي إلى Google، حتى عند عدم تشغيل أي تطبيقات.';
 
   @override
   String get dialogCancel => 'إلغاء';
@@ -4057,10 +4288,12 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get cupertinoAlertDiscard => 'تجاهل';
 
   @override
-  String get cupertinoAlertLocationTitle => 'هل تريد السماح لخدمة \"خرائط Google\" بالدخول إلى موقعك الجغرافي أثناء استخدام التطبيق؟';
+  String get cupertinoAlertLocationTitle =>
+      'هل تريد السماح لخدمة \"خرائط Google\" بالدخول إلى موقعك الجغرافي أثناء استخدام التطبيق؟';
 
   @override
-  String get cupertinoAlertLocationDescription => 'سيتم عرض الموقع الجغرافي الحالي على الخريطة واستخدامه لتوفير الاتجاهات ونتائج البحث عن الأماكن المجاورة وأوقات التنقّل المقدرة.';
+  String get cupertinoAlertLocationDescription =>
+      'سيتم عرض الموقع الجغرافي الحالي على الخريطة واستخدامه لتوفير الاتجاهات ونتائج البحث عن الأماكن المجاورة وأوقات التنقّل المقدرة.';
 
   @override
   String get cupertinoAlertAllow => 'السماح';
@@ -4072,7 +4305,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get cupertinoAlertFavoriteDessert => 'Select Favorite Dessert';
 
   @override
-  String get cupertinoAlertDessertDescription => 'يُرجى اختيار نوع الحلوى المفضّل لك من القائمة أدناه. وسيتم استخدام اختيارك في تخصيص القائمة المقترَحة للمطاعم في منطقتك.';
+  String get cupertinoAlertDessertDescription =>
+      'يُرجى اختيار نوع الحلوى المفضّل لك من القائمة أدناه. وسيتم استخدام اختيارك في تخصيص القائمة المقترَحة للمطاعم في منطقتك.';
 
   @override
   String get cupertinoAlertCheesecake => 'كعكة بالجبن';
@@ -4325,13 +4559,15 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get shrineProductShrugBag => 'حقيبة كتف';
 
   @override
-  String get shrineProductGiltDeskTrio => 'طقم أدوات مكتبية ذهبية اللون من 3 قطع';
+  String get shrineProductGiltDeskTrio =>
+      'طقم أدوات مكتبية ذهبية اللون من 3 قطع';
 
   @override
   String get shrineProductCopperWireRack => 'رف سلكي نحاسي';
 
   @override
-  String get shrineProductSootheCeramicSet => 'طقم سيراميك باللون الأبيض الراقي';
+  String get shrineProductSootheCeramicSet =>
+      'طقم سيراميك باللون الأبيض الراقي';
 
   @override
   String get shrineProductHurrahsTeaSet => 'طقم شاي مميّز';
@@ -4394,7 +4630,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get shrineProductClassicWhiteCollar => 'ياقة بيضاء كلاسيكية';
 
   @override
-  String get shrineProductCeriseScallopTee => 'قميص قصير الأكمام باللون الكرزي الفاتح';
+  String get shrineProductCeriseScallopTee =>
+      'قميص قصير الأكمام باللون الكرزي الفاتح';
 
   @override
   String get shrineProductShoulderRollsTee => 'قميص واسعة بأكمام قصيرة';
@@ -4669,7 +4906,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get craneEat10 => 'لشبونة، البرتغال';
 
   @override
-  String get craneFly0SemanticLabel => 'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
+  String get craneFly0SemanticLabel =>
+      'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
 
   @override
   String get craneFly1SemanticLabel => 'خيمة في حقل';
@@ -4684,7 +4922,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get craneFly4SemanticLabel => 'أكواخ فوق الماء';
 
   @override
-  String get craneFly5SemanticLabel => 'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
+  String get craneFly5SemanticLabel =>
+      'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
 
   @override
   String get craneFly6SemanticLabel => 'عرض \"قصر الفنون الجميلة\" من الجوّ';
@@ -4714,7 +4953,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get craneSleep0SemanticLabel => 'أكواخ فوق الماء';
 
   @override
-  String get craneSleep1SemanticLabel => 'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
+  String get craneSleep1SemanticLabel =>
+      'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
 
   @override
   String get craneSleep2SemanticLabel => 'قلعة ماتشو بيتشو';
@@ -4723,7 +4963,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get craneSleep3SemanticLabel => 'رجل متّكِئ على سيارة زرقاء عتيقة';
 
   @override
-  String get craneSleep4SemanticLabel => 'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
+  String get craneSleep4SemanticLabel =>
+      'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
 
   @override
   String get craneSleep5SemanticLabel => 'خيمة في حقل';
@@ -4735,7 +4976,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get craneSleep7SemanticLabel => 'شُقق ملونة في ميدان ريبيارا';
 
   @override
-  String get craneSleep8SemanticLabel => 'أطلال \"المايا\" على جُرْف يطِلّ على الشاطئ';
+  String get craneSleep8SemanticLabel =>
+      'أطلال \"المايا\" على جُرْف يطِلّ على الشاطئ';
 
   @override
   String get craneSleep9SemanticLabel => 'منارة من الطوب على شاطئ البحر';
@@ -4828,7 +5070,8 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get fortnightlyLatestUpdates => 'آخر المستجدّات';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'ثورة الرعاية الصحية الهادئة والفعالة في الوقت نفسه';
+  String get fortnightlyHeadlineHealthcare =>
+      'ثورة الرعاية الصحية الهادئة والفعالة في الوقت نفسه';
 
   @override
   String get fortnightlyHeadlineWar => 'الأمريكيون المنقسمون أثناء الحرب';
@@ -4840,13 +5083,16 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
   String get fortnightlyHeadlineArmy => 'إصلاح الجيش الأخضر من الداخل';
 
   @override
-  String get fortnightlyHeadlineStocks => 'مع ركود الأسهم، يتجه الكثيرون إلى العملة';
+  String get fortnightlyHeadlineStocks =>
+      'مع ركود الأسهم، يتجه الكثيرون إلى العملة';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'مصمِّمون يستخدمون التكنولوجيا لصنع ملابس تستلهم المستقبل';
+  String get fortnightlyHeadlineFabrics =>
+      'مصمِّمون يستخدمون التكنولوجيا لصنع ملابس تستلهم المستقبل';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'مدافعون عن حقوق المرأة يجابهون التحزب';
+  String get fortnightlyHeadlineFeminists =>
+      'مدافعون عن حقوق المرأة يجابهون التحزب';
 
   @override
   String get fortnightlyHeadlineBees => 'نقص نحل الأراضي الزراعية';
@@ -4872,7 +5118,7 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
 
 /// The translations for Arabic, as used in Jordan (`ar_JO`).
 class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
-  GalleryLocalizationsArJo(): super('ar_JO');
+  GalleryLocalizationsArJo() : super('ar_JO');
 
   @override
   String githubRepo(Object repoName) {
@@ -4888,7 +5134,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get signIn => 'تسجيل الدخول';
 
   @override
-  String get bannerDemoText => 'تم تعديل كلمة المرور على جهاز آخر. يُرجى تسجيل الدخول مرة أخرى.';
+  String get bannerDemoText =>
+      'تم تعديل كلمة المرور على جهاز آخر. يُرجى تسجيل الدخول مرة أخرى.';
 
   @override
   String get bannerDemoResetText => 'إعادة ضبط البانر';
@@ -4925,7 +5172,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'أهم 10 مدن يمكن زيارتها في تاميل نادو';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'أهم 10 مدن يمكن زيارتها في تاميل نادو';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'رقم 10';
@@ -4985,16 +5233,19 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get rallyAccountDataVacation => 'عطلة';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'النسبة المئوية للعائد السنوي';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'النسبة المئوية للعائد السنوي';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'سعر الفائدة';
 
   @override
-  String get rallyAccountDetailDataInterestYtd => 'الفائدة منذ بداية العام حتى اليوم';
+  String get rallyAccountDetailDataInterestYtd =>
+      'الفائدة منذ بداية العام حتى اليوم';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'الفائدة المدفوعة في العام الماضي';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'الفائدة المدفوعة في العام الماضي';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'كشف الحساب التالي';
@@ -5150,10 +5401,14 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على معاملة واحدة لم يتم ضبطها.',
-      few: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملات لم يتم ضبطها.',
-      many: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
-      other: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
+      one:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على معاملة واحدة لم يتم ضبطها.',
+      few:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملات لم يتم ضبطها.',
+      many:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
+      other:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
     );
   }
 
@@ -5167,7 +5422,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get rallySeeAllBudgets => 'عرض جميع الميزانيات';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'الحساب ${accountName} رقم ${accountNumber} بمبلغ ${amount}.';
   }
 
@@ -5177,7 +5433,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'ميزانية ${budgetName} مع استخدام ${amountUsed} من إجمالي ${amountTotal}، المبلغ المتبقي ${amountLeft}';
   }
 
@@ -5209,7 +5466,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoCodeViewerCopyAll => 'نسخ الكل';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'تم نسخ النص إلى الحافظة.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'تم نسخ النص إلى الحافظة.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -5220,7 +5478,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoOptionsFeatureTitle => 'عرض الخيارات';
 
   @override
-  String get demoOptionsFeatureDescription => 'انقر هنا لعرض الخيارات المتاحة لهذا العرض التوضيحي.';
+  String get demoOptionsFeatureDescription =>
+      'انقر هنا لعرض الخيارات المتاحة لهذا العرض التوضيحي.';
 
   @override
   String get settingsTitle => 'الإعدادات';
@@ -5292,10 +5551,12 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoBottomAppBarTitle => 'شريط التطبيق السفلي';
 
   @override
-  String get demoBottomAppBarSubtitle => 'يعرض لائحة التنقل والإجراءات في أسفل التطبيق';
+  String get demoBottomAppBarSubtitle =>
+      'يعرض لائحة التنقل والإجراءات في أسفل التطبيق';
 
   @override
-  String get demoBottomAppBarDescription => 'تساعدك أشرطة التطبيقات السفلية على الوصول إلى لائحة التنقل السفلية وما يصل إلى أربعة إجراءات، بما في ذلك زر الإجراء العائم.';
+  String get demoBottomAppBarDescription =>
+      'تساعدك أشرطة التطبيقات السفلية على الوصول إلى لائحة التنقل السفلية وما يصل إلى أربعة إجراءات، بما في ذلك زر الإجراء العائم.';
 
   @override
   String get bottomAppBarNotch => 'قطع علوي';
@@ -5322,7 +5583,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoBannerSubtitle => 'عرض بانر داخل قائمة';
 
   @override
-  String get demoBannerDescription => 'يعرض البانر رسالة مهمة ومختصرة، كما يقدّم إجراءات يمكن للمستخدمين اتخاذها (أو تجاهل البانر). يجب أن يتخذ المستخدم إجراء ليتم تجاهل البانر.';
+  String get demoBannerDescription =>
+      'يعرض البانر رسالة مهمة ومختصرة، كما يقدّم إجراءات يمكن للمستخدمين اتخاذها (أو تجاهل البانر). يجب أن يتخذ المستخدم إجراء ليتم تجاهل البانر.';
 
   @override
   String get demoBottomNavigationTitle => 'شريط التنقل السفلي';
@@ -5337,43 +5599,50 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoBottomNavigationSelectedLabel => 'الملصق المُختار';
 
   @override
-  String get demoBottomNavigationDescription => 'تعرض أشرطة التنقل السفلية بين ثلاث وخمس وجهات في الجزء السفلي من الشاشة. ويتم تمثيل كل وجهة برمز ووسم نصي اختياري. عند النقر على رمز التنقل السفلي، يتم نقل المستخدم إلى وجهة التنقل ذات المستوى الأعلى المرتبطة بذلك الرمز.';
+  String get demoBottomNavigationDescription =>
+      'تعرض أشرطة التنقل السفلية بين ثلاث وخمس وجهات في الجزء السفلي من الشاشة. ويتم تمثيل كل وجهة برمز ووسم نصي اختياري. عند النقر على رمز التنقل السفلي، يتم نقل المستخدم إلى وجهة التنقل ذات المستوى الأعلى المرتبطة بذلك الرمز.';
 
   @override
   String get demoButtonTitle => 'الأزرار';
 
   @override
-  String get demoButtonSubtitle => 'أزرار نصية أو بارزة أو محدَّدة الجوانب، والمزيد';
+  String get demoButtonSubtitle =>
+      'أزرار نصية أو بارزة أو محدَّدة الجوانب، والمزيد';
 
   @override
   String get demoTextButtonTitle => 'زر نصي';
 
   @override
-  String get demoTextButtonDescription => 'يتلوّن الزر النصي عند الضغط عليه ولكن لا يرتفع. ينصح باستخدام الأزرار النصية على أشرطة الأدوات وفي مربّعات الحوار وداخل المساحات المتروكة';
+  String get demoTextButtonDescription =>
+      'يتلوّن الزر النصي عند الضغط عليه ولكن لا يرتفع. ينصح باستخدام الأزرار النصية على أشرطة الأدوات وفي مربّعات الحوار وداخل المساحات المتروكة';
 
   @override
   String get demoElevatedButtonTitle => 'زر بارز';
 
   @override
-  String get demoElevatedButtonDescription => 'تضفي الأزرار البارزة مزيدًا من الحركة إلى التصميمات الأحادية البعد. فهي تبرِز الوظائف المعروضة في المساحات العريضة أو المكدَّسة.';
+  String get demoElevatedButtonDescription =>
+      'تضفي الأزرار البارزة مزيدًا من الحركة إلى التصميمات الأحادية البعد. فهي تبرِز الوظائف المعروضة في المساحات العريضة أو المكدَّسة.';
 
   @override
   String get demoOutlinedButtonTitle => 'زر محدَّد الجوانب';
 
   @override
-  String get demoOutlinedButtonDescription => 'تصبح الأزرار المحدَّدة الجوانب غير شفافة وترتفع عند الضغط عليها. وغالبًا ما يتم إقرانها مع الأزرار البارزة للإشارة إلى إجراء ثانوي بديل.';
+  String get demoOutlinedButtonDescription =>
+      'تصبح الأزرار المحدَّدة الجوانب غير شفافة وترتفع عند الضغط عليها. وغالبًا ما يتم إقرانها مع الأزرار البارزة للإشارة إلى إجراء ثانوي بديل.';
 
   @override
   String get demoToggleButtonTitle => 'أزرار التبديل';
 
   @override
-  String get demoToggleButtonDescription => 'يمكن استخدام أزرار التبديل لتجميع الخيارات المرتبطة. لتأكيد مجموعات أزرار التبديل المرتبطة، يجب أن تشترك إحدى المجموعات في حاوية مشتركة.';
+  String get demoToggleButtonDescription =>
+      'يمكن استخدام أزرار التبديل لتجميع الخيارات المرتبطة. لتأكيد مجموعات أزرار التبديل المرتبطة، يجب أن تشترك إحدى المجموعات في حاوية مشتركة.';
 
   @override
   String get demoFloatingButtonTitle => 'زر الإجراء العائم';
 
   @override
-  String get demoFloatingButtonDescription => 'زر الإجراء العائم هو زر على شكل رمز دائري يتم تمريره فوق المحتوى للترويج لاتخاذ إجراء أساسي في التطبيق.';
+  String get demoFloatingButtonDescription =>
+      'زر الإجراء العائم هو زر على شكل رمز دائري يتم تمريره فوق المحتوى للترويج لاتخاذ إجراء أساسي في التطبيق.';
 
   @override
   String get demoCardTitle => 'البطاقات';
@@ -5385,34 +5654,40 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoChipTitle => 'الشرائح';
 
   @override
-  String get demoCardDescription => 'البطاقة هي ورقة مواد تُستخدَم لتمثيل بعض المعلومات ذات الصلة، مثلاً ألبوم أو موقع جغرافي أو وجبة أو تفاصيل جهة اتصال أو ما إلى ذلك.';
+  String get demoCardDescription =>
+      'البطاقة هي ورقة مواد تُستخدَم لتمثيل بعض المعلومات ذات الصلة، مثلاً ألبوم أو موقع جغرافي أو وجبة أو تفاصيل جهة اتصال أو ما إلى ذلك.';
 
   @override
-  String get demoChipSubtitle => 'العناصر المضغوطة التي تمثل إدخال أو سمة أو إجراء';
+  String get demoChipSubtitle =>
+      'العناصر المضغوطة التي تمثل إدخال أو سمة أو إجراء';
 
   @override
   String get demoActionChipTitle => 'شريحة الإجراءات';
 
   @override
-  String get demoActionChipDescription => 'شرائح الإجراءات هي مجموعة من الخيارات التي تشغّل إجراءً ذا صلة بالمحتوى الأساسي. ينبغي أن يكون ظهور شرائح الإجراءات في واجهة المستخدم ديناميكيًا ومناسبًا للسياق.';
+  String get demoActionChipDescription =>
+      'شرائح الإجراءات هي مجموعة من الخيارات التي تشغّل إجراءً ذا صلة بالمحتوى الأساسي. ينبغي أن يكون ظهور شرائح الإجراءات في واجهة المستخدم ديناميكيًا ومناسبًا للسياق.';
 
   @override
   String get demoChoiceChipTitle => 'شريحة الخيارات';
 
   @override
-  String get demoChoiceChipDescription => 'تمثل شرائح الخيارات خيارًا واحدًا من بين مجموعة. تتضمن شرائح الخيارات النصوص الوصفية ذات الصلة أو الفئات.';
+  String get demoChoiceChipDescription =>
+      'تمثل شرائح الخيارات خيارًا واحدًا من بين مجموعة. تتضمن شرائح الخيارات النصوص الوصفية ذات الصلة أو الفئات.';
 
   @override
   String get demoFilterChipTitle => 'شريحة الفلتر';
 
   @override
-  String get demoFilterChipDescription => 'تستخدم شرائح الفلتر العلامات أو الكلمات الوصفية باعتبارها طريقة لفلترة المحتوى.';
+  String get demoFilterChipDescription =>
+      'تستخدم شرائح الفلتر العلامات أو الكلمات الوصفية باعتبارها طريقة لفلترة المحتوى.';
 
   @override
   String get demoInputChipTitle => 'شريحة الإدخال';
 
   @override
-  String get demoInputChipDescription => 'تمثل شرائح الإدخالات معلومة معقدة، مثل كيان (شخص، مكان، أو شئ) أو نص محادثة، في نمط مضغوط.';
+  String get demoInputChipDescription =>
+      'تمثل شرائح الإدخالات معلومة معقدة، مثل كيان (شخص، مكان، أو شئ) أو نص محادثة، في نمط مضغوط.';
 
   @override
   String get demoDataTableTitle => 'جداول البيانات';
@@ -5421,7 +5696,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoDataTableSubtitle => 'صفوف وأعمدة من المعلومات';
 
   @override
-  String get demoDataTableDescription => 'تعرض جداول البيانات معلومات على هيئة شبكة من الصفوف والأعمدة، حيث يتم تنظيم المعلومات بطريقة يَسهُل فحصها ليتمكن المستخدمون من البحث عن الأنماط والإحصاءات.';
+  String get demoDataTableDescription =>
+      'تعرض جداول البيانات معلومات على هيئة شبكة من الصفوف والأعمدة، حيث يتم تنظيم المعلومات بطريقة يَسهُل فحصها ليتمكن المستخدمون من البحث عن الأنماط والإحصاءات.';
 
   @override
   String get dataTableHeader => 'التغذية';
@@ -5494,13 +5770,15 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoDialogTitle => 'مربعات الحوار';
 
   @override
-  String get demoDialogSubtitle => 'مربعات حوار بسيطة ومخصّصة للتنبيهات وبملء الشاشة';
+  String get demoDialogSubtitle =>
+      'مربعات حوار بسيطة ومخصّصة للتنبيهات وبملء الشاشة';
 
   @override
   String get demoAlertDialogTitle => 'التنبيه';
 
   @override
-  String get demoAlertDialogDescription => 'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري وقائمة إجراءات اختيارية.';
+  String get demoAlertDialogDescription =>
+      'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري وقائمة إجراءات اختيارية.';
 
   @override
   String get demoAlertTitleDialogTitle => 'تنبيه مزوّد بعنوان';
@@ -5509,7 +5787,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoSimpleDialogTitle => 'بسيط';
 
   @override
-  String get demoSimpleDialogDescription => 'يتيح مربع الحوار البسيط للمستخدم إمكانية الاختيار من بين عدة خيارات. ويشتمل مربع الحوار البسيط على عنوان اختياري يتم عرضه أعلى هذه الخيارات.';
+  String get demoSimpleDialogDescription =>
+      'يتيح مربع الحوار البسيط للمستخدم إمكانية الاختيار من بين عدة خيارات. ويشتمل مربع الحوار البسيط على عنوان اختياري يتم عرضه أعلى هذه الخيارات.';
 
   @override
   String get demoGridListsTitle => 'قوائم الشبكات';
@@ -5518,7 +5797,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoGridListsSubtitle => 'تنسيق الصفوف والأعمدة';
 
   @override
-  String get demoGridListsDescription => 'الاستخدام المثالي لقوائم الشبكات هو لعرض البيانات المتجانسة التي عادة ما تكون صورًا. كل عنصر في الشبكة يُسمَى مربّع.';
+  String get demoGridListsDescription =>
+      'الاستخدام المثالي لقوائم الشبكات هو لعرض البيانات المتجانسة التي عادة ما تكون صورًا. كل عنصر في الشبكة يُسمَى مربّع.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'صورة فقط';
@@ -5536,31 +5816,37 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoSlidersSubtitle => 'أدوات لاختيار قيمة عن طريق التمرير السريع';
 
   @override
-  String get demoSlidersDescription => 'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة من ذلك الشريط. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
+  String get demoSlidersDescription =>
+      'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة من ذلك الشريط. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
 
   @override
   String get demoRangeSlidersTitle => 'شرائط تمرير تتضمَّن نطاقات';
 
   @override
-  String get demoRangeSlidersDescription => 'تعكس شرائط التمرير نطاقًا من القيم بطول شريط. يمكن أن تحتوي على رموز في كلا طرفي الشريط بحيث تعكس نطاقًا من القيم. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
+  String get demoRangeSlidersDescription =>
+      'تعكس شرائط التمرير نطاقًا من القيم بطول شريط. يمكن أن تحتوي على رموز في كلا طرفي الشريط بحيث تعكس نطاقًا من القيم. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
 
   @override
   String get demoCustomSlidersTitle => 'شرائط التمرير المخصَّصة';
 
   @override
-  String get demoCustomSlidersDescription => 'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة أو نطاق من القيم من ذلك الشريط. يمكن تخصيص شرائط التمرير وتغيير تصميماتها.';
+  String get demoCustomSlidersDescription =>
+      'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة أو نطاق من القيم من ذلك الشريط. يمكن تخصيص شرائط التمرير وتغيير تصميماتها.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'مستمر بقيمة رقمية قابلة للتعديل';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'مستمر بقيمة رقمية قابلة للتعديل';
 
   @override
   String get demoSlidersDiscrete => 'منفصل القيم';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'شريط تمرير منفصل القيم بتصميم مخصَّص';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'شريط تمرير منفصل القيم بتصميم مخصَّص';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'شريط تمرير بنطاق مستمر وتصميم مخصَّص';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'شريط تمرير بنطاق مستمر وتصميم مخصَّص';
 
   @override
   String get demoSlidersContinuous => 'مستمر';
@@ -5587,7 +5873,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoMenuSubtitle => 'أزرار قوائم وقوائم بسيطة';
 
   @override
-  String get demoMenuDescription => 'تعرض القائمة مجموعة من الخيارات على سطح مؤقت، حيث تظهر عندما يتفاعل المستخدمون مع زر أو إجراء أو عنصر تحكم آخر.';
+  String get demoMenuDescription =>
+      'تعرض القائمة مجموعة من الخيارات على سطح مؤقت، حيث تظهر عندما يتفاعل المستخدمون مع زر أو إجراء أو عنصر تحكم آخر.';
 
   @override
   String get demoMenuItemValueOne => 'أول عنصر قائمة';
@@ -5654,7 +5941,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoNavigationDrawerSubtitle => 'عرض لائحة تنقّل في شريط التطبيق';
 
   @override
-  String get demoNavigationDrawerDescription => 'لوحة تصميم متعدد الأبعاد تتحرك أفقيًا من حافة الشاشة لعرض روابط التنقّل في تطبيق.';
+  String get demoNavigationDrawerDescription =>
+      'لوحة تصميم متعدد الأبعاد تتحرك أفقيًا من حافة الشاشة لعرض روابط التنقّل في تطبيق.';
 
   @override
   String get demoNavigationDrawerUserName => 'اسم المستخدم';
@@ -5669,7 +5957,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoNavigationDrawerToPageTwo => 'العنصر الثاني';
 
   @override
-  String get demoNavigationDrawerText => 'مرِّر سريعًا من الحافة أو انقر على الرمز في أعلى يمين الصفحة لعرض لائحة التنقّل.';
+  String get demoNavigationDrawerText =>
+      'مرِّر سريعًا من الحافة أو انقر على الرمز في أعلى يمين الصفحة لعرض لائحة التنقّل.';
 
   @override
   String get demoNavigationRailTitle => 'شريط التنقّل';
@@ -5678,7 +5967,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoNavigationRailSubtitle => 'عرض شريط تنقّل داخل تطبيق';
 
   @override
-  String get demoNavigationRailDescription => 'أداة أساسية تظهر في يمين أو يسار التطبيق للتنقّل بين عدد صغير من الأقسام داخل التطبيق، غالبًا ما بين 3 إلى 5 أقسام.';
+  String get demoNavigationRailDescription =>
+      'أداة أساسية تظهر في يمين أو يسار التطبيق للتنقّل بين عدد صغير من الأقسام داخل التطبيق، غالبًا ما بين 3 إلى 5 أقسام.';
 
   @override
   String get demoNavigationRailFirst => 'الأول';
@@ -5699,7 +5989,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoFullscreenDialogTitle => 'ملء الشاشة';
 
   @override
-  String get demoFullscreenDialogDescription => 'تحدِّد خاصية fullscreenDialog ما إذا كانت الصفحة الواردة هي مربع حوار نمطي بملء الشاشة.';
+  String get demoFullscreenDialogDescription =>
+      'تحدِّد خاصية fullscreenDialog ما إذا كانت الصفحة الواردة هي مربع حوار نمطي بملء الشاشة.';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'مؤشر النشاط';
@@ -5708,28 +5999,33 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoCupertinoActivityIndicatorSubtitle => 'مؤشرات نشاط بنمط iOS';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'مؤشر نشاط بنمط iOS ويدور في اتجاه عقارب الساعة';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'مؤشر نشاط بنمط iOS ويدور في اتجاه عقارب الساعة';
 
   @override
   String get demoCupertinoButtonsTitle => 'الأزرار';
 
   @override
-  String get demoCupertinoButtonsSubtitle => 'أزرار مستوحاة من نظام التشغيل iOS';
+  String get demoCupertinoButtonsSubtitle =>
+      'أزرار مستوحاة من نظام التشغيل iOS';
 
   @override
-  String get demoCupertinoButtonsDescription => 'زر مستوحى من نظام التشغيل iOS. يتم عرض هذا الزر على شكل نص و/أو رمز يتلاشى ويظهر بالتدريج عند اللمس. وقد يكون مزوّدًا بخلفية اختياريًا.';
+  String get demoCupertinoButtonsDescription =>
+      'زر مستوحى من نظام التشغيل iOS. يتم عرض هذا الزر على شكل نص و/أو رمز يتلاشى ويظهر بالتدريج عند اللمس. وقد يكون مزوّدًا بخلفية اختياريًا.';
 
   @override
   String get demoCupertinoAlertsTitle => 'التنبيهات';
 
   @override
-  String get demoCupertinoAlertsSubtitle => 'مربعات حوار التنبيهات المستوحاة من نظام التشغيل iOS';
+  String get demoCupertinoAlertsSubtitle =>
+      'مربعات حوار التنبيهات المستوحاة من نظام التشغيل iOS';
 
   @override
   String get demoCupertinoAlertTitle => 'تنبيه';
 
   @override
-  String get demoCupertinoAlertDescription => 'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري ومحتوى اختياري وقائمة إجراءات اختيارية. ويتم عرض العنوان أعلى المحتوى بينما تُعرض الإجراءات أسفل المحتوى.';
+  String get demoCupertinoAlertDescription =>
+      'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري ومحتوى اختياري وقائمة إجراءات اختيارية. ويتم عرض العنوان أعلى المحتوى بينما تُعرض الإجراءات أسفل المحتوى.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'تنبيه يتضمّن عنوانًا';
@@ -5744,7 +6040,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoCupertinoActionSheetTitle => 'ورقة الإجراءات';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'ورقة الإجراءات هي ورقة أنماط معيّنة للتنبيهات تقدّم للمستخدم مجموعة مكوّنة من خيارين أو أكثر مرتبطة بالسياق الحالي. ويمكن أن تتضمّن ورقة الإجراءات عنوانًا ورسالة إضافية وقائمة إجراءات.';
+  String get demoCupertinoActionSheetDescription =>
+      'ورقة الإجراءات هي ورقة أنماط معيّنة للتنبيهات تقدّم للمستخدم مجموعة مكوّنة من خيارين أو أكثر مرتبطة بالسياق الحالي. ويمكن أن تتضمّن ورقة الإجراءات عنوانًا ورسالة إضافية وقائمة إجراءات.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'شريط التنقل';
@@ -5753,16 +6050,19 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoCupertinoNavigationBarSubtitle => 'شريط تنقل بنمط iOS';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'شريط تنقل بنمط iOS شريط التنقل هو شريط أدوات يتكون على الأقل من عنوان صفحة في وسط شريط الأدوات.';
+  String get demoCupertinoNavigationBarDescription =>
+      'شريط تنقل بنمط iOS شريط التنقل هو شريط أدوات يتكون على الأقل من عنوان صفحة في وسط شريط الأدوات.';
 
   @override
   String get demoCupertinoPickerTitle => 'أدوات اختيار الوقت';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'أدوات اختيار التاريخ والوقت بنمط iOS';
+  String get demoCupertinoPickerSubtitle =>
+      'أدوات اختيار التاريخ والوقت بنمط iOS';
 
   @override
-  String get demoCupertinoPickerDescription => 'أداة اختيار بنمط iOS يمكن استخدامها لاختيار تواريخ أو أوقات أو لاختيار كل من التاريخ والوقت.';
+  String get demoCupertinoPickerDescription =>
+      'أداة اختيار بنمط iOS يمكن استخدامها لاختيار تواريخ أو أوقات أو لاختيار كل من التاريخ والوقت.';
 
   @override
   String get demoCupertinoPickerTimer => 'الموقِّت';
@@ -5780,19 +6080,23 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoCupertinoPullToRefreshTitle => 'سحب لإعادة التحميل';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'عنصر تحكم السحب لإعادة التحميل بنمط iOS';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'عنصر تحكم السحب لإعادة التحميل بنمط iOS';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'أداة تنفّذ إعدادات التحكم في المحتوى للسحب لأعادة التحميل بنمط iOS';
+  String get demoCupertinoPullToRefreshDescription =>
+      'أداة تنفّذ إعدادات التحكم في المحتوى للسحب لأعادة التحميل بنمط iOS';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'عنصر تحكّم شريحة';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'عنصر تحكّم شريحة بنمط iOS';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'عنصر تحكّم شريحة بنمط iOS';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'يُستخدَم للاختيار بين عدد من الخيارات يستبعد أحدها الآخر. عند تحديد خيار في عنصر تحكّم الشريحة، يتم إلغاء اختيار العنصر الآخر في عنصر تحكّم الشريحة.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'يُستخدَم للاختيار بين عدد من الخيارات يستبعد أحدها الآخر. عند تحديد خيار في عنصر تحكّم الشريحة، يتم إلغاء اختيار العنصر الآخر في عنصر تحكّم الشريحة.';
 
   @override
   String get demoCupertinoSliderTitle => 'شريط التمرير';
@@ -5801,7 +6105,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoCupertinoSliderSubtitle => 'شريط تمرير بنمط iOS';
 
   @override
-  String get demoCupertinoSliderDescription => 'يمكن استخدام شريط تمرير للاختيار من مجموعة قيم متصلة أو مجموعة قيم منفصلة.';
+  String get demoCupertinoSliderDescription =>
+      'يمكن استخدام شريط تمرير للاختيار من مجموعة قيم متصلة أو مجموعة قيم منفصلة.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -5817,16 +6122,19 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoCupertinoSwitchSubtitle => 'مفتاح تبديل بنمط iOS';
 
   @override
-  String get demoCupertinoSwitchDescription => 'يُستخدَم مفتاح التبديل لتفعيل إعداد فردي أو إيقافه.';
+  String get demoCupertinoSwitchDescription =>
+      'يُستخدَم مفتاح التبديل لتفعيل إعداد فردي أو إيقافه.';
 
   @override
   String get demoCupertinoTabBarTitle => 'شريط علامات التبويب';
 
   @override
-  String get demoCupertinoTabBarSubtitle => 'شريط علامات التبويب السفلي بنمط iOS';
+  String get demoCupertinoTabBarSubtitle =>
+      'شريط علامات التبويب السفلي بنمط iOS';
 
   @override
-  String get demoCupertinoTabBarDescription => 'شريط علامات تبويب للتنقل السفلي بنمط iOS. يعرض عدة علامات تبويب، حيث تكون هناك علامة تبويب واحدة نشطة وبشكل تلقائي تكون هي علامة التبويب الأولى.';
+  String get demoCupertinoTabBarDescription =>
+      'شريط علامات تبويب للتنقل السفلي بنمط iOS. يعرض عدة علامات تبويب، حيث تكون هناك علامة تبويب واحدة نشطة وبشكل تلقائي تكون هي علامة التبويب الأولى.';
 
   @override
   String get cupertinoTabBarHomeTab => 'علامة التبويب الرئيسية';
@@ -5844,7 +6152,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoCupertinoTextFieldSubtitle => 'حقول نصل بنمط iOS';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'يسمح حقل النص للمستخدم بإدخال نص إما باستخدام لوحة مفاتيح حقيقية أو لوحة مفاتيح تظهر على الشاشة.';
+  String get demoCupertinoTextFieldDescription =>
+      'يسمح حقل النص للمستخدم بإدخال نص إما باستخدام لوحة مفاتيح حقيقية أو لوحة مفاتيح تظهر على الشاشة.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'رقم التعريف الشخصي';
@@ -5856,13 +6165,15 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoMotionSubtitle => 'كل أنماط الانتقال المُعرَّفة مسبقًا';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'البطاقات والقوائم وأزرار الإجراءات الرئيسية (FAB)';
+  String get demoContainerTransformDemoInstructions =>
+      'البطاقات والقوائم وأزرار الإجراءات الرئيسية (FAB)';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'زرّا التالي والرجوع';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'ترتيب حسب \"الأغاني المشغّلة مؤخرًا\"';
+  String get demoSharedYAxisDemoInstructions =>
+      'ترتيب حسب \"الأغاني المشغّلة مؤخرًا\"';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'زر رمز الإعدادات';
@@ -5871,13 +6182,15 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoFadeThroughDemoInstructions => 'شريط التنقّل السفلي';
 
   @override
-  String get demoFadeScaleDemoInstructions => 'مربّع الحوار المشروط وزر الإجراء الرئيسي (FAB)';
+  String get demoFadeScaleDemoInstructions =>
+      'مربّع الحوار المشروط وزر الإجراء الرئيسي (FAB)';
 
   @override
   String get demoContainerTransformTitle => 'تحويل الحاوية';
 
   @override
-  String get demoContainerTransformDescription => 'تم تصميم نمط تحويل الحاوية لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تتضمّن حاوية. ينشئ هذا النمط تأثير ربط مرئي بين عنصرين في واجهة المستخدم.';
+  String get demoContainerTransformDescription =>
+      'تم تصميم نمط تحويل الحاوية لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تتضمّن حاوية. ينشئ هذا النمط تأثير ربط مرئي بين عنصرين في واجهة المستخدم.';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'وضع التلاشي';
@@ -5904,7 +6217,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoMotionListTileTitle => 'عنصر قائمة';
 
   @override
-  String get demoSharedAxisDescription => 'يتم استخدام نمط المحور المشترك لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تربطها علاقة انتقال أو علاقة مكانية. يستخدم هذا النمط التحويل المشترك على محور \"س\" أو \"ص\" أو \"ع\" لتعزيز العلاقة بين العناصر.';
+  String get demoSharedAxisDescription =>
+      'يتم استخدام نمط المحور المشترك لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تربطها علاقة انتقال أو علاقة مكانية. يستخدم هذا النمط التحويل المشترك على محور \"س\" أو \"ص\" أو \"ع\" لتعزيز العلاقة بين العناصر.';
 
   @override
   String get demoSharedXAxisTitle => 'محور \"س\" المشترك';
@@ -5919,7 +6233,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoSharedXAxisCoursePageTitle => 'تقديم دوراتك بسلاسة';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'تظهر الفئات المجمّعة كمجموعات في الخلاصة. يمكنك دائمًا تغيير هذا لاحقًا.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'تظهر الفئات المجمّعة كمجموعات في الخلاصة. يمكنك دائمًا تغيير هذا لاحقًا.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'فنون وأعمال حِرَفية';
@@ -5949,10 +6264,12 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoSharedXAxisSignInSubtitleText => 'تسجيل الدخول باستخدام حسابك';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'البريد الإلكتروني أو رقم الهاتف';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'البريد الإلكتروني أو رقم الهاتف';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'هل نسيت البريد الإلكتروني؟';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'هل نسيت البريد الإلكتروني؟';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'إنشاء حساب';
@@ -6018,7 +6335,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'شطيرة لحم بقري';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'وصفة شطيرة اللحم البقري';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'وصفة شطيرة اللحم البقري';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'الوصفات المحفوظة';
@@ -6039,7 +6357,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoFadeThroughTitle => 'التلاشي التدريجي';
 
   @override
-  String get demoFadeThroughDescription => 'يتم استخدام نمط التلاشي التدريجي لتأثيرات الانتقال بين عناصر واجهة المستخدم التي لا تربطها علاقة قوية ببعضها.';
+  String get demoFadeThroughDescription =>
+      'يتم استخدام نمط التلاشي التدريجي لتأثيرات الانتقال بين عناصر واجهة المستخدم التي لا تربطها علاقة قوية ببعضها.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'ألبومات';
@@ -6057,7 +6376,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoFadeScaleTitle => 'التلاشي';
 
   @override
-  String get demoFadeScaleDescription => 'يتم استخدام نمط التلاشي مع عناصر واجهة المستخدم التي تدخل في حدود الشاشة أو تخرج منها، مثلاً مربّع حوار يتلاشى في مركز الشاشة.';
+  String get demoFadeScaleDescription =>
+      'يتم استخدام نمط التلاشي مع عناصر واجهة المستخدم التي تدخل في حدود الشاشة أو تخرج منها، مثلاً مربّع حوار يتلاشى في مركز الشاشة.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'إظهار مربّع حوار مشروط';
@@ -6084,7 +6404,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoColorsSubtitle => 'جميع الألوان المحدّدة مسبقًا';
 
   @override
-  String get demoColorsDescription => 'ثوابت اللون وعينات الألوان التي تُمثل لوحة ألوان التصميم المتعدد الأبعاد';
+  String get demoColorsDescription =>
+      'ثوابت اللون وعينات الألوان التي تُمثل لوحة ألوان التصميم المتعدد الأبعاد';
 
   @override
   String get demoTypographyTitle => 'أسلوب الخط';
@@ -6093,7 +6414,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoTypographySubtitle => 'جميع أنماط النص المحدّدة مسبقًا';
 
   @override
-  String get demoTypographyDescription => 'تعريف أساليب الخط المختلفة في التصميم المتعدد الأبعاد';
+  String get demoTypographyDescription =>
+      'تعريف أساليب الخط المختلفة في التصميم المتعدد الأبعاد';
 
   @override
   String get demo2dTransformationsTitle => 'التحويلات الثنائية الأبعاد';
@@ -6102,7 +6424,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demo2dTransformationsSubtitle => 'عرض شامل، تكبير/تصغير، تدوير';
 
   @override
-  String get demo2dTransformationsDescription => 'انقر لتعديل المربّعات واستخدام الإيماءات للتنقل خلال المشهد. اسحب لتنفيذ العرض الشامل وحرّك إصبعيك للتكبير/التصغير ويمكنك التدوير بإصبعين. اضغط على زر إعادة الضبط للرجوع إلى الاتجاه الأصلي.';
+  String get demo2dTransformationsDescription =>
+      'انقر لتعديل المربّعات واستخدام الإيماءات للتنقل خلال المشهد. اسحب لتنفيذ العرض الشامل وحرّك إصبعيك للتكبير/التصغير ويمكنك التدوير بإصبعين. اضغط على زر إعادة الضبط للرجوع إلى الاتجاه الأصلي.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'إعادة ضبط التحويلات';
@@ -6123,13 +6446,15 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoBottomSheetPersistentTitle => 'البطاقة السفلية العادية';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'تعرض البطاقة السفلية العادية معلومات تكميلية للمحتوى الأساسي للتطبيق. ولا تختفي هذه البطاقة عندما يتفاعل المستخدم مع المحتوى الآخر على الشاشة.';
+  String get demoBottomSheetPersistentDescription =>
+      'تعرض البطاقة السفلية العادية معلومات تكميلية للمحتوى الأساسي للتطبيق. ولا تختفي هذه البطاقة عندما يتفاعل المستخدم مع المحتوى الآخر على الشاشة.';
 
   @override
   String get demoBottomSheetModalTitle => 'البطاقة السفلية المقيِّدة';
 
   @override
-  String get demoBottomSheetModalDescription => 'تعتبر البطاقة السفلية المقيِّدة بديلاً لقائمة أو مربّع حوار ولا تسمح للمستخدم بالتفاعل مع المحتوى الآخر على الشاشة.';
+  String get demoBottomSheetModalDescription =>
+      'تعتبر البطاقة السفلية المقيِّدة بديلاً لقائمة أو مربّع حوار ولا تسمح للمستخدم بالتفاعل مع المحتوى الآخر على الشاشة.';
 
   @override
   String get demoBottomSheetAddLabel => 'إضافة';
@@ -6152,7 +6477,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoListsSubtitle => 'التمرير خلال تنسيقات القوائم';
 
   @override
-  String get demoListsDescription => 'صف بارتفاع واحد ثابت يحتوي عادةً على نص ورمز سابق أو لاحق.';
+  String get demoListsDescription =>
+      'صف بارتفاع واحد ثابت يحتوي عادةً على نص ورمز سابق أو لاحق.';
 
   @override
   String get demoOneLineListsTitle => 'سطر واحد';
@@ -6173,13 +6499,15 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoCircularProgressIndicatorTitle => 'مؤشر تقدم دائري';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'مؤشر تقدم دائري بتصميم متعدد الأبعاد (Material Design) ويدور ليدل على أن التطبيق مشغول';
+  String get demoCircularProgressIndicatorDescription =>
+      'مؤشر تقدم دائري بتصميم متعدد الأبعاد (Material Design) ويدور ليدل على أن التطبيق مشغول';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'مؤشر تقدم خطي';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'مؤشر تقدم خطي بتصميم متعدد الأبعاد ويُعرَف أيضًا بشريط التقدم';
+  String get demoLinearProgressIndicatorDescription =>
+      'مؤشر تقدم خطي بتصميم متعدد الأبعاد ويُعرَف أيضًا بشريط التقدم';
 
   @override
   String get demoPickersTitle => 'أدوات اختيار الوقت';
@@ -6191,13 +6519,15 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoDatePickerTitle => 'أداة اختيار التاريخ';
 
   @override
-  String get demoDatePickerDescription => 'تعرض مربّع حوار يحتوي على أداة اختيار تاريخ ذات تصميم متعدد الأبعاد.';
+  String get demoDatePickerDescription =>
+      'تعرض مربّع حوار يحتوي على أداة اختيار تاريخ ذات تصميم متعدد الأبعاد.';
 
   @override
   String get demoTimePickerTitle => 'أداة اختيار الوقت';
 
   @override
-  String get demoTimePickerDescription => 'تعرض مربّع حوار يحتوي على أداة اختيار وقت ذات تصميم متعدد الأبعاد.';
+  String get demoTimePickerDescription =>
+      'تعرض مربّع حوار يحتوي على أداة اختيار وقت ذات تصميم متعدد الأبعاد.';
 
   @override
   String get demoPickersShowPicker => 'إظهار أداة الاختيار';
@@ -6212,19 +6542,23 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoTabsNonScrollingTitle => 'عدم التمرير';
 
   @override
-  String get demoTabsSubtitle => 'علامات تبويب تحتوي على عروض يمكن التنقّل خلالها بشكل مستقل';
+  String get demoTabsSubtitle =>
+      'علامات تبويب تحتوي على عروض يمكن التنقّل خلالها بشكل مستقل';
 
   @override
-  String get demoTabsDescription => 'تساعد علامات التبويب على تنظيم المحتوى في الشاشات المختلفة ومجموعات البيانات والتفاعلات الأخرى.';
+  String get demoTabsDescription =>
+      'تساعد علامات التبويب على تنظيم المحتوى في الشاشات المختلفة ومجموعات البيانات والتفاعلات الأخرى.';
 
   @override
   String get demoSnackbarsTitle => 'أشرطة إعلام منبثقة';
 
   @override
-  String get demoSnackbarsSubtitle => 'تعرض \"أشرطة الإعلام المنبثقة\" رسائل في أسفل الشاشة';
+  String get demoSnackbarsSubtitle =>
+      'تعرض \"أشرطة الإعلام المنبثقة\" رسائل في أسفل الشاشة';
 
   @override
-  String get demoSnackbarsDescription => 'تُعلِم \"أشرطة الإعلام منبثقة\" المستخدمين بعملية نفّذها التطبيق أو بعملية سينفّذها التطبيق. تظهر مؤقتًا باتجاه أسفل الشاشة ويُفترَض ألا تشوش على تجربة المستخدم وألا تتطلب تدخل المستخدم لإخفائها.';
+  String get demoSnackbarsDescription =>
+      'تُعلِم \"أشرطة الإعلام منبثقة\" المستخدمين بعملية نفّذها التطبيق أو بعملية سينفّذها التطبيق. تظهر مؤقتًا باتجاه أسفل الشاشة ويُفترَض ألا تشوش على تجربة المستخدم وألا تتطلب تدخل المستخدم لإخفائها.';
 
   @override
   String get demoSnackbarsButtonLabel => 'عرض شريط إعلام منبثق';
@@ -6236,31 +6570,36 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoSnackbarsActionButtonLabel => 'إجراء';
 
   @override
-  String get demoSnackbarsAction => 'لقد ضغطت على إجراء في \"شريط الإعلام المنبثق\".';
+  String get demoSnackbarsAction =>
+      'لقد ضغطت على إجراء في \"شريط الإعلام المنبثق\".';
 
   @override
   String get demoSelectionControlsTitle => 'عناصر التحكّم في الاختيار';
 
   @override
-  String get demoSelectionControlsSubtitle => 'مربّعات الاختيار وأزرار الاختيار ومفاتيح التبديل';
+  String get demoSelectionControlsSubtitle =>
+      'مربّعات الاختيار وأزرار الاختيار ومفاتيح التبديل';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'مربع اختيار';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'تسمح مربّعات الاختيار للمستخدمين باختيار عدة خيارات من مجموعة من الخيارات. القيمة المعتادة لمربّع الاختيار هي \"صحيح\" أو \"غير صحيح\" ويمكن أيضًا إضافة حالة ثالثة وهي \"خالية\".';
+  String get demoSelectionControlsCheckboxDescription =>
+      'تسمح مربّعات الاختيار للمستخدمين باختيار عدة خيارات من مجموعة من الخيارات. القيمة المعتادة لمربّع الاختيار هي \"صحيح\" أو \"غير صحيح\" ويمكن أيضًا إضافة حالة ثالثة وهي \"خالية\".';
 
   @override
   String get demoSelectionControlsRadioTitle => 'زر اختيار';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'تسمح أزرار الاختيار للقارئ بتحديد خيار واحد من مجموعة من الخيارات. يمكنك استخدام أزرار الاختيار لتحديد اختيارات حصرية إذا كنت تعتقد أنه يجب أن تظهر للمستخدم كل الخيارات المتاحة جنبًا إلى جنب.';
+  String get demoSelectionControlsRadioDescription =>
+      'تسمح أزرار الاختيار للقارئ بتحديد خيار واحد من مجموعة من الخيارات. يمكنك استخدام أزرار الاختيار لتحديد اختيارات حصرية إذا كنت تعتقد أنه يجب أن تظهر للمستخدم كل الخيارات المتاحة جنبًا إلى جنب.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'مفاتيح التبديل';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'تؤدي مفاتيح تبديل التشغيل/الإيقاف إلى تبديل حالة خيار واحد في الإعدادات. يجب توضيح الخيار الذي يتحكّم فيه مفتاح التبديل وكذلك حالته، وذلك من خلال التسمية المضمّنة المتاحة.';
+  String get demoSelectionControlsSwitchDescription =>
+      'تؤدي مفاتيح تبديل التشغيل/الإيقاف إلى تبديل حالة خيار واحد في الإعدادات. يجب توضيح الخيار الذي يتحكّم فيه مفتاح التبديل وكذلك حالته، وذلك من خلال التسمية المضمّنة المتاحة.';
 
   @override
   String get demoBottomTextFieldsTitle => 'حقول النص';
@@ -6269,10 +6608,12 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoTextFieldTitle => 'حقول النص';
 
   @override
-  String get demoTextFieldSubtitle => 'سطر واحد من النص والأرقام القابلة للتعديل';
+  String get demoTextFieldSubtitle =>
+      'سطر واحد من النص والأرقام القابلة للتعديل';
 
   @override
-  String get demoTextFieldDescription => 'تسمح حقول النص للمستخدمين بإدخال نص في واجهة مستخدم. وتظهر عادةً في النماذج ومربّعات الحوار.';
+  String get demoTextFieldDescription =>
+      'تسمح حقول النص للمستخدمين بإدخال نص في واجهة مستخدم. وتظهر عادةً في النماذج ومربّعات الحوار.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'عرض كلمة المرور';
@@ -6281,16 +6622,19 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoTextFieldHidePasswordLabel => 'إخفاء كلمة المرور';
 
   @override
-  String get demoTextFieldFormErrors => 'يُرجى تصحيح الأخطاء باللون الأحمر قبل الإرسال.';
+  String get demoTextFieldFormErrors =>
+      'يُرجى تصحيح الأخطاء باللون الأحمر قبل الإرسال.';
 
   @override
   String get demoTextFieldNameRequired => 'الاسم مطلوب.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'يُرجى إدخال حروف أبجدية فقط.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'يُرجى إدخال حروف أبجدية فقط.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - يُرجى إدخال رقم هاتف صالح في الولايات المتحدة.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - يُرجى إدخال رقم هاتف صالح في الولايات المتحدة.';
 
   @override
   String get demoTextFieldEnterPassword => 'يرجى إدخال كلمة مرور.';
@@ -6305,7 +6649,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoTextFieldNameField => 'الاسم*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'على أي رقم يمكننا التواصل معك؟';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'على أي رقم يمكننا التواصل معك؟';
 
   @override
   String get demoTextFieldPhoneNumber => 'رقم الهاتف*';
@@ -6317,7 +6662,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoTextFieldEmail => 'رسالة إلكترونية';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'أخبِرنا عن نفسك (مثلاً ما هي هواياتك المفضّلة أو ما هو مجال عملك؟)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'أخبِرنا عن نفسك (مثلاً ما هي هواياتك المفضّلة أو ما هو مجال عملك؟)';
 
   @override
   String get demoTextFieldKeepItShort => 'يُرجى الاختصار، هذا مجرد عرض توضيحي.';
@@ -6355,13 +6701,16 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get demoTooltipTitle => 'التلميحات';
 
   @override
-  String get demoTooltipSubtitle => 'رسالة قصيرة تُعرَض عند الضغط مع الاستمرار أو تمرير مؤشر الماوس';
+  String get demoTooltipSubtitle =>
+      'رسالة قصيرة تُعرَض عند الضغط مع الاستمرار أو تمرير مؤشر الماوس';
 
   @override
-  String get demoTooltipDescription => 'توفّر التلميحات تصنيفات نصية تساعد في شرح وظيفة زر أو إجراء آخر من إجراءات واجهة المستخدم. تعرض التلميحات نص إخباري عندما يمرّر المستخدمون مؤشر الماوس على عنصر أو يركزون عليه أو يضغطون عليه مع الاستمرار.';
+  String get demoTooltipDescription =>
+      'توفّر التلميحات تصنيفات نصية تساعد في شرح وظيفة زر أو إجراء آخر من إجراءات واجهة المستخدم. تعرض التلميحات نص إخباري عندما يمرّر المستخدمون مؤشر الماوس على عنصر أو يركزون عليه أو يضغطون عليه مع الاستمرار.';
 
   @override
-  String get demoTooltipInstructions => 'اضغط مع الاستمرار على العنصر أو مرّر مؤشر الماوس عليه لعرض التلميح.';
+  String get demoTooltipInstructions =>
+      'اضغط مع الاستمرار على العنصر أو مرّر مؤشر الماوس عليه لعرض التلميح.';
 
   @override
   String get bottomNavigationCommentsTab => 'التعليقات';
@@ -6419,10 +6768,12 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get dialogDiscardTitle => 'هل تريد تجاهل المسودة؟';
 
   @override
-  String get dialogLocationTitle => 'هل تريد استخدام خدمة الموقع الجغرافي من Google؟';
+  String get dialogLocationTitle =>
+      'هل تريد استخدام خدمة الموقع الجغرافي من Google؟';
 
   @override
-  String get dialogLocationDescription => 'يمكنك السماح لشركة Google بمساعدة التطبيقات في تحديد الموقع الجغرافي. ويعني هذا أنه سيتم إرسال بيانات مجهولة المصدر عن الموقع الجغرافي إلى Google، حتى عند عدم تشغيل أي تطبيقات.';
+  String get dialogLocationDescription =>
+      'يمكنك السماح لشركة Google بمساعدة التطبيقات في تحديد الموقع الجغرافي. ويعني هذا أنه سيتم إرسال بيانات مجهولة المصدر عن الموقع الجغرافي إلى Google، حتى عند عدم تشغيل أي تطبيقات.';
 
   @override
   String get dialogCancel => 'إلغاء';
@@ -6467,10 +6818,12 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get cupertinoAlertDiscard => 'تجاهل';
 
   @override
-  String get cupertinoAlertLocationTitle => 'هل تريد السماح لخدمة \"خرائط Google\" بالدخول إلى موقعك الجغرافي أثناء استخدام التطبيق؟';
+  String get cupertinoAlertLocationTitle =>
+      'هل تريد السماح لخدمة \"خرائط Google\" بالدخول إلى موقعك الجغرافي أثناء استخدام التطبيق؟';
 
   @override
-  String get cupertinoAlertLocationDescription => 'سيتم عرض الموقع الجغرافي الحالي على الخريطة واستخدامه لتوفير الاتجاهات ونتائج البحث عن الأماكن المجاورة وأوقات التنقّل المقدرة.';
+  String get cupertinoAlertLocationDescription =>
+      'سيتم عرض الموقع الجغرافي الحالي على الخريطة واستخدامه لتوفير الاتجاهات ونتائج البحث عن الأماكن المجاورة وأوقات التنقّل المقدرة.';
 
   @override
   String get cupertinoAlertAllow => 'السماح';
@@ -6482,7 +6835,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get cupertinoAlertFavoriteDessert => 'Select Favorite Dessert';
 
   @override
-  String get cupertinoAlertDessertDescription => 'يُرجى اختيار نوع الحلوى المفضّل لك من القائمة أدناه. وسيتم استخدام اختيارك في تخصيص القائمة المقترَحة للمطاعم في منطقتك.';
+  String get cupertinoAlertDessertDescription =>
+      'يُرجى اختيار نوع الحلوى المفضّل لك من القائمة أدناه. وسيتم استخدام اختيارك في تخصيص القائمة المقترَحة للمطاعم في منطقتك.';
 
   @override
   String get cupertinoAlertCheesecake => 'كعكة بالجبن';
@@ -6735,13 +7089,15 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get shrineProductShrugBag => 'حقيبة كتف';
 
   @override
-  String get shrineProductGiltDeskTrio => 'طقم أدوات مكتبية ذهبية اللون من 3 قطع';
+  String get shrineProductGiltDeskTrio =>
+      'طقم أدوات مكتبية ذهبية اللون من 3 قطع';
 
   @override
   String get shrineProductCopperWireRack => 'رف سلكي نحاسي';
 
   @override
-  String get shrineProductSootheCeramicSet => 'طقم سيراميك باللون الأبيض الراقي';
+  String get shrineProductSootheCeramicSet =>
+      'طقم سيراميك باللون الأبيض الراقي';
 
   @override
   String get shrineProductHurrahsTeaSet => 'طقم شاي مميّز';
@@ -6804,7 +7160,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get shrineProductClassicWhiteCollar => 'ياقة بيضاء كلاسيكية';
 
   @override
-  String get shrineProductCeriseScallopTee => 'قميص قصير الأكمام باللون الكرزي الفاتح';
+  String get shrineProductCeriseScallopTee =>
+      'قميص قصير الأكمام باللون الكرزي الفاتح';
 
   @override
   String get shrineProductShoulderRollsTee => 'قميص واسعة بأكمام قصيرة';
@@ -7079,7 +7436,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get craneEat10 => 'لشبونة، البرتغال';
 
   @override
-  String get craneFly0SemanticLabel => 'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
+  String get craneFly0SemanticLabel =>
+      'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
 
   @override
   String get craneFly1SemanticLabel => 'خيمة في حقل';
@@ -7094,7 +7452,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get craneFly4SemanticLabel => 'أكواخ فوق الماء';
 
   @override
-  String get craneFly5SemanticLabel => 'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
+  String get craneFly5SemanticLabel =>
+      'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
 
   @override
   String get craneFly6SemanticLabel => 'عرض \"قصر الفنون الجميلة\" من الجوّ';
@@ -7124,7 +7483,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get craneSleep0SemanticLabel => 'أكواخ فوق الماء';
 
   @override
-  String get craneSleep1SemanticLabel => 'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
+  String get craneSleep1SemanticLabel =>
+      'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
 
   @override
   String get craneSleep2SemanticLabel => 'قلعة ماتشو بيتشو';
@@ -7133,7 +7493,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get craneSleep3SemanticLabel => 'رجل متّكِئ على سيارة زرقاء عتيقة';
 
   @override
-  String get craneSleep4SemanticLabel => 'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
+  String get craneSleep4SemanticLabel =>
+      'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
 
   @override
   String get craneSleep5SemanticLabel => 'خيمة في حقل';
@@ -7145,7 +7506,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get craneSleep7SemanticLabel => 'شُقق ملونة في ميدان ريبيارا';
 
   @override
-  String get craneSleep8SemanticLabel => 'أطلال \"المايا\" على جُرْف يطِلّ على الشاطئ';
+  String get craneSleep8SemanticLabel =>
+      'أطلال \"المايا\" على جُرْف يطِلّ على الشاطئ';
 
   @override
   String get craneSleep9SemanticLabel => 'منارة من الطوب على شاطئ البحر';
@@ -7238,7 +7600,8 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get fortnightlyLatestUpdates => 'آخر المستجدّات';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'ثورة الرعاية الصحية الهادئة والفعالة في الوقت نفسه';
+  String get fortnightlyHeadlineHealthcare =>
+      'ثورة الرعاية الصحية الهادئة والفعالة في الوقت نفسه';
 
   @override
   String get fortnightlyHeadlineWar => 'الأمريكيون المنقسمون أثناء الحرب';
@@ -7250,13 +7613,16 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
   String get fortnightlyHeadlineArmy => 'إصلاح الجيش الأخضر من الداخل';
 
   @override
-  String get fortnightlyHeadlineStocks => 'مع ركود الأسهم، يتجه الكثيرون إلى العملة';
+  String get fortnightlyHeadlineStocks =>
+      'مع ركود الأسهم، يتجه الكثيرون إلى العملة';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'مصمِّمون يستخدمون التكنولوجيا لصنع ملابس تستلهم المستقبل';
+  String get fortnightlyHeadlineFabrics =>
+      'مصمِّمون يستخدمون التكنولوجيا لصنع ملابس تستلهم المستقبل';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'مدافعون عن حقوق المرأة يجابهون التحزب';
+  String get fortnightlyHeadlineFeminists =>
+      'مدافعون عن حقوق المرأة يجابهون التحزب';
 
   @override
   String get fortnightlyHeadlineBees => 'نقص نحل الأراضي الزراعية';
@@ -7282,7 +7648,7 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
 
 /// The translations for Arabic, as used in Morocco (`ar_MA`).
 class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
-  GalleryLocalizationsArMa(): super('ar_MA');
+  GalleryLocalizationsArMa() : super('ar_MA');
 
   @override
   String githubRepo(Object repoName) {
@@ -7298,7 +7664,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get signIn => 'تسجيل الدخول';
 
   @override
-  String get bannerDemoText => 'تم تعديل كلمة المرور على جهاز آخر. يُرجى تسجيل الدخول مرة أخرى.';
+  String get bannerDemoText =>
+      'تم تعديل كلمة المرور على جهاز آخر. يُرجى تسجيل الدخول مرة أخرى.';
 
   @override
   String get bannerDemoResetText => 'إعادة ضبط البانر';
@@ -7335,7 +7702,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'أهم 10 مدن يمكن زيارتها في تاميل نادو';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'أهم 10 مدن يمكن زيارتها في تاميل نادو';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'رقم 10';
@@ -7395,16 +7763,19 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get rallyAccountDataVacation => 'عطلة';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'النسبة المئوية للعائد السنوي';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'النسبة المئوية للعائد السنوي';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'سعر الفائدة';
 
   @override
-  String get rallyAccountDetailDataInterestYtd => 'الفائدة منذ بداية العام حتى اليوم';
+  String get rallyAccountDetailDataInterestYtd =>
+      'الفائدة منذ بداية العام حتى اليوم';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'الفائدة المدفوعة في العام الماضي';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'الفائدة المدفوعة في العام الماضي';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'كشف الحساب التالي';
@@ -7560,10 +7931,14 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على معاملة واحدة لم يتم ضبطها.',
-      few: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملات لم يتم ضبطها.',
-      many: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
-      other: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
+      one:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على معاملة واحدة لم يتم ضبطها.',
+      few:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملات لم يتم ضبطها.',
+      many:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
+      other:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
     );
   }
 
@@ -7577,7 +7952,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get rallySeeAllBudgets => 'عرض جميع الميزانيات';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'الحساب ${accountName} رقم ${accountNumber} بمبلغ ${amount}.';
   }
 
@@ -7587,7 +7963,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'ميزانية ${budgetName} مع استخدام ${amountUsed} من إجمالي ${amountTotal}، المبلغ المتبقي ${amountLeft}';
   }
 
@@ -7619,7 +7996,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoCodeViewerCopyAll => 'نسخ الكل';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'تم نسخ النص إلى الحافظة.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'تم نسخ النص إلى الحافظة.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -7630,7 +8008,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoOptionsFeatureTitle => 'عرض الخيارات';
 
   @override
-  String get demoOptionsFeatureDescription => 'انقر هنا لعرض الخيارات المتاحة لهذا العرض التوضيحي.';
+  String get demoOptionsFeatureDescription =>
+      'انقر هنا لعرض الخيارات المتاحة لهذا العرض التوضيحي.';
 
   @override
   String get settingsTitle => 'الإعدادات';
@@ -7702,10 +8081,12 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoBottomAppBarTitle => 'شريط التطبيق السفلي';
 
   @override
-  String get demoBottomAppBarSubtitle => 'يعرض لائحة التنقل والإجراءات في أسفل التطبيق';
+  String get demoBottomAppBarSubtitle =>
+      'يعرض لائحة التنقل والإجراءات في أسفل التطبيق';
 
   @override
-  String get demoBottomAppBarDescription => 'تساعدك أشرطة التطبيقات السفلية على الوصول إلى لائحة التنقل السفلية وما يصل إلى أربعة إجراءات، بما في ذلك زر الإجراء العائم.';
+  String get demoBottomAppBarDescription =>
+      'تساعدك أشرطة التطبيقات السفلية على الوصول إلى لائحة التنقل السفلية وما يصل إلى أربعة إجراءات، بما في ذلك زر الإجراء العائم.';
 
   @override
   String get bottomAppBarNotch => 'قطع علوي';
@@ -7732,7 +8113,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoBannerSubtitle => 'عرض بانر داخل قائمة';
 
   @override
-  String get demoBannerDescription => 'يعرض البانر رسالة مهمة ومختصرة، كما يقدّم إجراءات يمكن للمستخدمين اتخاذها (أو تجاهل البانر). يجب أن يتخذ المستخدم إجراء ليتم تجاهل البانر.';
+  String get demoBannerDescription =>
+      'يعرض البانر رسالة مهمة ومختصرة، كما يقدّم إجراءات يمكن للمستخدمين اتخاذها (أو تجاهل البانر). يجب أن يتخذ المستخدم إجراء ليتم تجاهل البانر.';
 
   @override
   String get demoBottomNavigationTitle => 'شريط التنقل السفلي';
@@ -7747,43 +8129,50 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoBottomNavigationSelectedLabel => 'الملصق المُختار';
 
   @override
-  String get demoBottomNavigationDescription => 'تعرض أشرطة التنقل السفلية بين ثلاث وخمس وجهات في الجزء السفلي من الشاشة. ويتم تمثيل كل وجهة برمز ووسم نصي اختياري. عند النقر على رمز التنقل السفلي، يتم نقل المستخدم إلى وجهة التنقل ذات المستوى الأعلى المرتبطة بذلك الرمز.';
+  String get demoBottomNavigationDescription =>
+      'تعرض أشرطة التنقل السفلية بين ثلاث وخمس وجهات في الجزء السفلي من الشاشة. ويتم تمثيل كل وجهة برمز ووسم نصي اختياري. عند النقر على رمز التنقل السفلي، يتم نقل المستخدم إلى وجهة التنقل ذات المستوى الأعلى المرتبطة بذلك الرمز.';
 
   @override
   String get demoButtonTitle => 'الأزرار';
 
   @override
-  String get demoButtonSubtitle => 'أزرار نصية أو بارزة أو محدَّدة الجوانب، والمزيد';
+  String get demoButtonSubtitle =>
+      'أزرار نصية أو بارزة أو محدَّدة الجوانب، والمزيد';
 
   @override
   String get demoTextButtonTitle => 'زر نصي';
 
   @override
-  String get demoTextButtonDescription => 'يتلوّن الزر النصي عند الضغط عليه ولكن لا يرتفع. ينصح باستخدام الأزرار النصية على أشرطة الأدوات وفي مربّعات الحوار وداخل المساحات المتروكة';
+  String get demoTextButtonDescription =>
+      'يتلوّن الزر النصي عند الضغط عليه ولكن لا يرتفع. ينصح باستخدام الأزرار النصية على أشرطة الأدوات وفي مربّعات الحوار وداخل المساحات المتروكة';
 
   @override
   String get demoElevatedButtonTitle => 'زر بارز';
 
   @override
-  String get demoElevatedButtonDescription => 'تضفي الأزرار البارزة مزيدًا من الحركة إلى التصميمات الأحادية البعد. فهي تبرِز الوظائف المعروضة في المساحات العريضة أو المكدَّسة.';
+  String get demoElevatedButtonDescription =>
+      'تضفي الأزرار البارزة مزيدًا من الحركة إلى التصميمات الأحادية البعد. فهي تبرِز الوظائف المعروضة في المساحات العريضة أو المكدَّسة.';
 
   @override
   String get demoOutlinedButtonTitle => 'زر محدَّد الجوانب';
 
   @override
-  String get demoOutlinedButtonDescription => 'تصبح الأزرار المحدَّدة الجوانب غير شفافة وترتفع عند الضغط عليها. وغالبًا ما يتم إقرانها مع الأزرار البارزة للإشارة إلى إجراء ثانوي بديل.';
+  String get demoOutlinedButtonDescription =>
+      'تصبح الأزرار المحدَّدة الجوانب غير شفافة وترتفع عند الضغط عليها. وغالبًا ما يتم إقرانها مع الأزرار البارزة للإشارة إلى إجراء ثانوي بديل.';
 
   @override
   String get demoToggleButtonTitle => 'أزرار التبديل';
 
   @override
-  String get demoToggleButtonDescription => 'يمكن استخدام أزرار التبديل لتجميع الخيارات المرتبطة. لتأكيد مجموعات أزرار التبديل المرتبطة، يجب أن تشترك إحدى المجموعات في حاوية مشتركة.';
+  String get demoToggleButtonDescription =>
+      'يمكن استخدام أزرار التبديل لتجميع الخيارات المرتبطة. لتأكيد مجموعات أزرار التبديل المرتبطة، يجب أن تشترك إحدى المجموعات في حاوية مشتركة.';
 
   @override
   String get demoFloatingButtonTitle => 'زر الإجراء العائم';
 
   @override
-  String get demoFloatingButtonDescription => 'زر الإجراء العائم هو زر على شكل رمز دائري يتم تمريره فوق المحتوى للترويج لاتخاذ إجراء أساسي في التطبيق.';
+  String get demoFloatingButtonDescription =>
+      'زر الإجراء العائم هو زر على شكل رمز دائري يتم تمريره فوق المحتوى للترويج لاتخاذ إجراء أساسي في التطبيق.';
 
   @override
   String get demoCardTitle => 'البطاقات';
@@ -7795,34 +8184,40 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoChipTitle => 'الشرائح';
 
   @override
-  String get demoCardDescription => 'البطاقة هي ورقة مواد تُستخدَم لتمثيل بعض المعلومات ذات الصلة، مثلاً ألبوم أو موقع جغرافي أو وجبة أو تفاصيل جهة اتصال أو ما إلى ذلك.';
+  String get demoCardDescription =>
+      'البطاقة هي ورقة مواد تُستخدَم لتمثيل بعض المعلومات ذات الصلة، مثلاً ألبوم أو موقع جغرافي أو وجبة أو تفاصيل جهة اتصال أو ما إلى ذلك.';
 
   @override
-  String get demoChipSubtitle => 'العناصر المضغوطة التي تمثل إدخال أو سمة أو إجراء';
+  String get demoChipSubtitle =>
+      'العناصر المضغوطة التي تمثل إدخال أو سمة أو إجراء';
 
   @override
   String get demoActionChipTitle => 'شريحة الإجراءات';
 
   @override
-  String get demoActionChipDescription => 'شرائح الإجراءات هي مجموعة من الخيارات التي تشغّل إجراءً ذا صلة بالمحتوى الأساسي. ينبغي أن يكون ظهور شرائح الإجراءات في واجهة المستخدم ديناميكيًا ومناسبًا للسياق.';
+  String get demoActionChipDescription =>
+      'شرائح الإجراءات هي مجموعة من الخيارات التي تشغّل إجراءً ذا صلة بالمحتوى الأساسي. ينبغي أن يكون ظهور شرائح الإجراءات في واجهة المستخدم ديناميكيًا ومناسبًا للسياق.';
 
   @override
   String get demoChoiceChipTitle => 'شريحة الخيارات';
 
   @override
-  String get demoChoiceChipDescription => 'تمثل شرائح الخيارات خيارًا واحدًا من بين مجموعة. تتضمن شرائح الخيارات النصوص الوصفية ذات الصلة أو الفئات.';
+  String get demoChoiceChipDescription =>
+      'تمثل شرائح الخيارات خيارًا واحدًا من بين مجموعة. تتضمن شرائح الخيارات النصوص الوصفية ذات الصلة أو الفئات.';
 
   @override
   String get demoFilterChipTitle => 'شريحة الفلتر';
 
   @override
-  String get demoFilterChipDescription => 'تستخدم شرائح الفلتر العلامات أو الكلمات الوصفية باعتبارها طريقة لفلترة المحتوى.';
+  String get demoFilterChipDescription =>
+      'تستخدم شرائح الفلتر العلامات أو الكلمات الوصفية باعتبارها طريقة لفلترة المحتوى.';
 
   @override
   String get demoInputChipTitle => 'شريحة الإدخال';
 
   @override
-  String get demoInputChipDescription => 'تمثل شرائح الإدخالات معلومة معقدة، مثل كيان (شخص، مكان، أو شئ) أو نص محادثة، في نمط مضغوط.';
+  String get demoInputChipDescription =>
+      'تمثل شرائح الإدخالات معلومة معقدة، مثل كيان (شخص، مكان، أو شئ) أو نص محادثة، في نمط مضغوط.';
 
   @override
   String get demoDataTableTitle => 'جداول البيانات';
@@ -7831,7 +8226,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoDataTableSubtitle => 'صفوف وأعمدة من المعلومات';
 
   @override
-  String get demoDataTableDescription => 'تعرض جداول البيانات معلومات على هيئة شبكة من الصفوف والأعمدة، حيث يتم تنظيم المعلومات بطريقة يَسهُل فحصها ليتمكن المستخدمون من البحث عن الأنماط والإحصاءات.';
+  String get demoDataTableDescription =>
+      'تعرض جداول البيانات معلومات على هيئة شبكة من الصفوف والأعمدة، حيث يتم تنظيم المعلومات بطريقة يَسهُل فحصها ليتمكن المستخدمون من البحث عن الأنماط والإحصاءات.';
 
   @override
   String get dataTableHeader => 'التغذية';
@@ -7904,13 +8300,15 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoDialogTitle => 'مربعات الحوار';
 
   @override
-  String get demoDialogSubtitle => 'مربعات حوار بسيطة ومخصّصة للتنبيهات وبملء الشاشة';
+  String get demoDialogSubtitle =>
+      'مربعات حوار بسيطة ومخصّصة للتنبيهات وبملء الشاشة';
 
   @override
   String get demoAlertDialogTitle => 'التنبيه';
 
   @override
-  String get demoAlertDialogDescription => 'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري وقائمة إجراءات اختيارية.';
+  String get demoAlertDialogDescription =>
+      'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري وقائمة إجراءات اختيارية.';
 
   @override
   String get demoAlertTitleDialogTitle => 'تنبيه مزوّد بعنوان';
@@ -7919,7 +8317,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoSimpleDialogTitle => 'بسيط';
 
   @override
-  String get demoSimpleDialogDescription => 'يتيح مربع الحوار البسيط للمستخدم إمكانية الاختيار من بين عدة خيارات. ويشتمل مربع الحوار البسيط على عنوان اختياري يتم عرضه أعلى هذه الخيارات.';
+  String get demoSimpleDialogDescription =>
+      'يتيح مربع الحوار البسيط للمستخدم إمكانية الاختيار من بين عدة خيارات. ويشتمل مربع الحوار البسيط على عنوان اختياري يتم عرضه أعلى هذه الخيارات.';
 
   @override
   String get demoGridListsTitle => 'قوائم الشبكات';
@@ -7928,7 +8327,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoGridListsSubtitle => 'تنسيق الصفوف والأعمدة';
 
   @override
-  String get demoGridListsDescription => 'الاستخدام المثالي لقوائم الشبكات هو لعرض البيانات المتجانسة التي عادة ما تكون صورًا. كل عنصر في الشبكة يُسمَى مربّع.';
+  String get demoGridListsDescription =>
+      'الاستخدام المثالي لقوائم الشبكات هو لعرض البيانات المتجانسة التي عادة ما تكون صورًا. كل عنصر في الشبكة يُسمَى مربّع.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'صورة فقط';
@@ -7946,31 +8346,37 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoSlidersSubtitle => 'أدوات لاختيار قيمة عن طريق التمرير السريع';
 
   @override
-  String get demoSlidersDescription => 'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة من ذلك الشريط. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
+  String get demoSlidersDescription =>
+      'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة من ذلك الشريط. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
 
   @override
   String get demoRangeSlidersTitle => 'شرائط تمرير تتضمَّن نطاقات';
 
   @override
-  String get demoRangeSlidersDescription => 'تعكس شرائط التمرير نطاقًا من القيم بطول شريط. يمكن أن تحتوي على رموز في كلا طرفي الشريط بحيث تعكس نطاقًا من القيم. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
+  String get demoRangeSlidersDescription =>
+      'تعكس شرائط التمرير نطاقًا من القيم بطول شريط. يمكن أن تحتوي على رموز في كلا طرفي الشريط بحيث تعكس نطاقًا من القيم. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
 
   @override
   String get demoCustomSlidersTitle => 'شرائط التمرير المخصَّصة';
 
   @override
-  String get demoCustomSlidersDescription => 'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة أو نطاق من القيم من ذلك الشريط. يمكن تخصيص شرائط التمرير وتغيير تصميماتها.';
+  String get demoCustomSlidersDescription =>
+      'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة أو نطاق من القيم من ذلك الشريط. يمكن تخصيص شرائط التمرير وتغيير تصميماتها.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'مستمر بقيمة رقمية قابلة للتعديل';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'مستمر بقيمة رقمية قابلة للتعديل';
 
   @override
   String get demoSlidersDiscrete => 'منفصل القيم';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'شريط تمرير منفصل القيم بتصميم مخصَّص';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'شريط تمرير منفصل القيم بتصميم مخصَّص';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'شريط تمرير بنطاق مستمر وتصميم مخصَّص';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'شريط تمرير بنطاق مستمر وتصميم مخصَّص';
 
   @override
   String get demoSlidersContinuous => 'مستمر';
@@ -7997,7 +8403,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoMenuSubtitle => 'أزرار قوائم وقوائم بسيطة';
 
   @override
-  String get demoMenuDescription => 'تعرض القائمة مجموعة من الخيارات على سطح مؤقت، حيث تظهر عندما يتفاعل المستخدمون مع زر أو إجراء أو عنصر تحكم آخر.';
+  String get demoMenuDescription =>
+      'تعرض القائمة مجموعة من الخيارات على سطح مؤقت، حيث تظهر عندما يتفاعل المستخدمون مع زر أو إجراء أو عنصر تحكم آخر.';
 
   @override
   String get demoMenuItemValueOne => 'أول عنصر قائمة';
@@ -8064,7 +8471,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoNavigationDrawerSubtitle => 'عرض لائحة تنقّل في شريط التطبيق';
 
   @override
-  String get demoNavigationDrawerDescription => 'لوحة تصميم متعدد الأبعاد تتحرك أفقيًا من حافة الشاشة لعرض روابط التنقّل في تطبيق.';
+  String get demoNavigationDrawerDescription =>
+      'لوحة تصميم متعدد الأبعاد تتحرك أفقيًا من حافة الشاشة لعرض روابط التنقّل في تطبيق.';
 
   @override
   String get demoNavigationDrawerUserName => 'اسم المستخدم';
@@ -8079,7 +8487,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoNavigationDrawerToPageTwo => 'العنصر الثاني';
 
   @override
-  String get demoNavigationDrawerText => 'مرِّر سريعًا من الحافة أو انقر على الرمز في أعلى يمين الصفحة لعرض لائحة التنقّل.';
+  String get demoNavigationDrawerText =>
+      'مرِّر سريعًا من الحافة أو انقر على الرمز في أعلى يمين الصفحة لعرض لائحة التنقّل.';
 
   @override
   String get demoNavigationRailTitle => 'شريط التنقّل';
@@ -8088,7 +8497,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoNavigationRailSubtitle => 'عرض شريط تنقّل داخل تطبيق';
 
   @override
-  String get demoNavigationRailDescription => 'أداة أساسية تظهر في يمين أو يسار التطبيق للتنقّل بين عدد صغير من الأقسام داخل التطبيق، غالبًا ما بين 3 إلى 5 أقسام.';
+  String get demoNavigationRailDescription =>
+      'أداة أساسية تظهر في يمين أو يسار التطبيق للتنقّل بين عدد صغير من الأقسام داخل التطبيق، غالبًا ما بين 3 إلى 5 أقسام.';
 
   @override
   String get demoNavigationRailFirst => 'الأول';
@@ -8109,7 +8519,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoFullscreenDialogTitle => 'ملء الشاشة';
 
   @override
-  String get demoFullscreenDialogDescription => 'تحدِّد خاصية fullscreenDialog ما إذا كانت الصفحة الواردة هي مربع حوار نمطي بملء الشاشة.';
+  String get demoFullscreenDialogDescription =>
+      'تحدِّد خاصية fullscreenDialog ما إذا كانت الصفحة الواردة هي مربع حوار نمطي بملء الشاشة.';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'مؤشر النشاط';
@@ -8118,28 +8529,33 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoCupertinoActivityIndicatorSubtitle => 'مؤشرات نشاط بنمط iOS';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'مؤشر نشاط بنمط iOS ويدور في اتجاه عقارب الساعة';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'مؤشر نشاط بنمط iOS ويدور في اتجاه عقارب الساعة';
 
   @override
   String get demoCupertinoButtonsTitle => 'الأزرار';
 
   @override
-  String get demoCupertinoButtonsSubtitle => 'أزرار مستوحاة من نظام التشغيل iOS';
+  String get demoCupertinoButtonsSubtitle =>
+      'أزرار مستوحاة من نظام التشغيل iOS';
 
   @override
-  String get demoCupertinoButtonsDescription => 'زر مستوحى من نظام التشغيل iOS. يتم عرض هذا الزر على شكل نص و/أو رمز يتلاشى ويظهر بالتدريج عند اللمس. وقد يكون مزوّدًا بخلفية اختياريًا.';
+  String get demoCupertinoButtonsDescription =>
+      'زر مستوحى من نظام التشغيل iOS. يتم عرض هذا الزر على شكل نص و/أو رمز يتلاشى ويظهر بالتدريج عند اللمس. وقد يكون مزوّدًا بخلفية اختياريًا.';
 
   @override
   String get demoCupertinoAlertsTitle => 'التنبيهات';
 
   @override
-  String get demoCupertinoAlertsSubtitle => 'مربعات حوار التنبيهات المستوحاة من نظام التشغيل iOS';
+  String get demoCupertinoAlertsSubtitle =>
+      'مربعات حوار التنبيهات المستوحاة من نظام التشغيل iOS';
 
   @override
   String get demoCupertinoAlertTitle => 'تنبيه';
 
   @override
-  String get demoCupertinoAlertDescription => 'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري ومحتوى اختياري وقائمة إجراءات اختيارية. ويتم عرض العنوان أعلى المحتوى بينما تُعرض الإجراءات أسفل المحتوى.';
+  String get demoCupertinoAlertDescription =>
+      'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري ومحتوى اختياري وقائمة إجراءات اختيارية. ويتم عرض العنوان أعلى المحتوى بينما تُعرض الإجراءات أسفل المحتوى.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'تنبيه يتضمّن عنوانًا';
@@ -8154,7 +8570,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoCupertinoActionSheetTitle => 'ورقة الإجراءات';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'ورقة الإجراءات هي ورقة أنماط معيّنة للتنبيهات تقدّم للمستخدم مجموعة مكوّنة من خيارين أو أكثر مرتبطة بالسياق الحالي. ويمكن أن تتضمّن ورقة الإجراءات عنوانًا ورسالة إضافية وقائمة إجراءات.';
+  String get demoCupertinoActionSheetDescription =>
+      'ورقة الإجراءات هي ورقة أنماط معيّنة للتنبيهات تقدّم للمستخدم مجموعة مكوّنة من خيارين أو أكثر مرتبطة بالسياق الحالي. ويمكن أن تتضمّن ورقة الإجراءات عنوانًا ورسالة إضافية وقائمة إجراءات.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'شريط التنقل';
@@ -8163,16 +8580,19 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoCupertinoNavigationBarSubtitle => 'شريط تنقل بنمط iOS';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'شريط تنقل بنمط iOS شريط التنقل هو شريط أدوات يتكون على الأقل من عنوان صفحة في وسط شريط الأدوات.';
+  String get demoCupertinoNavigationBarDescription =>
+      'شريط تنقل بنمط iOS شريط التنقل هو شريط أدوات يتكون على الأقل من عنوان صفحة في وسط شريط الأدوات.';
 
   @override
   String get demoCupertinoPickerTitle => 'أدوات اختيار الوقت';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'أدوات اختيار التاريخ والوقت بنمط iOS';
+  String get demoCupertinoPickerSubtitle =>
+      'أدوات اختيار التاريخ والوقت بنمط iOS';
 
   @override
-  String get demoCupertinoPickerDescription => 'أداة اختيار بنمط iOS يمكن استخدامها لاختيار تواريخ أو أوقات أو لاختيار كل من التاريخ والوقت.';
+  String get demoCupertinoPickerDescription =>
+      'أداة اختيار بنمط iOS يمكن استخدامها لاختيار تواريخ أو أوقات أو لاختيار كل من التاريخ والوقت.';
 
   @override
   String get demoCupertinoPickerTimer => 'الموقِّت';
@@ -8190,19 +8610,23 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoCupertinoPullToRefreshTitle => 'سحب لإعادة التحميل';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'عنصر تحكم السحب لإعادة التحميل بنمط iOS';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'عنصر تحكم السحب لإعادة التحميل بنمط iOS';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'أداة تنفّذ إعدادات التحكم في المحتوى للسحب لأعادة التحميل بنمط iOS';
+  String get demoCupertinoPullToRefreshDescription =>
+      'أداة تنفّذ إعدادات التحكم في المحتوى للسحب لأعادة التحميل بنمط iOS';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'عنصر تحكّم شريحة';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'عنصر تحكّم شريحة بنمط iOS';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'عنصر تحكّم شريحة بنمط iOS';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'يُستخدَم للاختيار بين عدد من الخيارات يستبعد أحدها الآخر. عند تحديد خيار في عنصر تحكّم الشريحة، يتم إلغاء اختيار العنصر الآخر في عنصر تحكّم الشريحة.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'يُستخدَم للاختيار بين عدد من الخيارات يستبعد أحدها الآخر. عند تحديد خيار في عنصر تحكّم الشريحة، يتم إلغاء اختيار العنصر الآخر في عنصر تحكّم الشريحة.';
 
   @override
   String get demoCupertinoSliderTitle => 'شريط التمرير';
@@ -8211,7 +8635,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoCupertinoSliderSubtitle => 'شريط تمرير بنمط iOS';
 
   @override
-  String get demoCupertinoSliderDescription => 'يمكن استخدام شريط تمرير للاختيار من مجموعة قيم متصلة أو مجموعة قيم منفصلة.';
+  String get demoCupertinoSliderDescription =>
+      'يمكن استخدام شريط تمرير للاختيار من مجموعة قيم متصلة أو مجموعة قيم منفصلة.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -8227,16 +8652,19 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoCupertinoSwitchSubtitle => 'مفتاح تبديل بنمط iOS';
 
   @override
-  String get demoCupertinoSwitchDescription => 'يُستخدَم مفتاح التبديل لتفعيل إعداد فردي أو إيقافه.';
+  String get demoCupertinoSwitchDescription =>
+      'يُستخدَم مفتاح التبديل لتفعيل إعداد فردي أو إيقافه.';
 
   @override
   String get demoCupertinoTabBarTitle => 'شريط علامات التبويب';
 
   @override
-  String get demoCupertinoTabBarSubtitle => 'شريط علامات التبويب السفلي بنمط iOS';
+  String get demoCupertinoTabBarSubtitle =>
+      'شريط علامات التبويب السفلي بنمط iOS';
 
   @override
-  String get demoCupertinoTabBarDescription => 'شريط علامات تبويب للتنقل السفلي بنمط iOS. يعرض عدة علامات تبويب، حيث تكون هناك علامة تبويب واحدة نشطة وبشكل تلقائي تكون هي علامة التبويب الأولى.';
+  String get demoCupertinoTabBarDescription =>
+      'شريط علامات تبويب للتنقل السفلي بنمط iOS. يعرض عدة علامات تبويب، حيث تكون هناك علامة تبويب واحدة نشطة وبشكل تلقائي تكون هي علامة التبويب الأولى.';
 
   @override
   String get cupertinoTabBarHomeTab => 'علامة التبويب الرئيسية';
@@ -8254,7 +8682,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoCupertinoTextFieldSubtitle => 'حقول نصل بنمط iOS';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'يسمح حقل النص للمستخدم بإدخال نص إما باستخدام لوحة مفاتيح حقيقية أو لوحة مفاتيح تظهر على الشاشة.';
+  String get demoCupertinoTextFieldDescription =>
+      'يسمح حقل النص للمستخدم بإدخال نص إما باستخدام لوحة مفاتيح حقيقية أو لوحة مفاتيح تظهر على الشاشة.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'رقم التعريف الشخصي';
@@ -8266,13 +8695,15 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoMotionSubtitle => 'كل أنماط الانتقال المُعرَّفة مسبقًا';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'البطاقات والقوائم وأزرار الإجراءات الرئيسية (FAB)';
+  String get demoContainerTransformDemoInstructions =>
+      'البطاقات والقوائم وأزرار الإجراءات الرئيسية (FAB)';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'زرّا التالي والرجوع';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'ترتيب حسب \"الأغاني المشغّلة مؤخرًا\"';
+  String get demoSharedYAxisDemoInstructions =>
+      'ترتيب حسب \"الأغاني المشغّلة مؤخرًا\"';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'زر رمز الإعدادات';
@@ -8281,13 +8712,15 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoFadeThroughDemoInstructions => 'شريط التنقّل السفلي';
 
   @override
-  String get demoFadeScaleDemoInstructions => 'مربّع الحوار المشروط وزر الإجراء الرئيسي (FAB)';
+  String get demoFadeScaleDemoInstructions =>
+      'مربّع الحوار المشروط وزر الإجراء الرئيسي (FAB)';
 
   @override
   String get demoContainerTransformTitle => 'تحويل الحاوية';
 
   @override
-  String get demoContainerTransformDescription => 'تم تصميم نمط تحويل الحاوية لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تتضمّن حاوية. ينشئ هذا النمط تأثير ربط مرئي بين عنصرين في واجهة المستخدم.';
+  String get demoContainerTransformDescription =>
+      'تم تصميم نمط تحويل الحاوية لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تتضمّن حاوية. ينشئ هذا النمط تأثير ربط مرئي بين عنصرين في واجهة المستخدم.';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'وضع التلاشي';
@@ -8314,7 +8747,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoMotionListTileTitle => 'عنصر قائمة';
 
   @override
-  String get demoSharedAxisDescription => 'يتم استخدام نمط المحور المشترك لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تربطها علاقة انتقال أو علاقة مكانية. يستخدم هذا النمط التحويل المشترك على محور \"س\" أو \"ص\" أو \"ع\" لتعزيز العلاقة بين العناصر.';
+  String get demoSharedAxisDescription =>
+      'يتم استخدام نمط المحور المشترك لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تربطها علاقة انتقال أو علاقة مكانية. يستخدم هذا النمط التحويل المشترك على محور \"س\" أو \"ص\" أو \"ع\" لتعزيز العلاقة بين العناصر.';
 
   @override
   String get demoSharedXAxisTitle => 'محور \"س\" المشترك';
@@ -8329,7 +8763,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoSharedXAxisCoursePageTitle => 'تقديم دوراتك بسلاسة';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'تظهر الفئات المجمّعة كمجموعات في الخلاصة. يمكنك دائمًا تغيير هذا لاحقًا.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'تظهر الفئات المجمّعة كمجموعات في الخلاصة. يمكنك دائمًا تغيير هذا لاحقًا.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'فنون وأعمال حِرَفية';
@@ -8359,10 +8794,12 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoSharedXAxisSignInSubtitleText => 'تسجيل الدخول باستخدام حسابك';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'البريد الإلكتروني أو رقم الهاتف';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'البريد الإلكتروني أو رقم الهاتف';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'هل نسيت البريد الإلكتروني؟';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'هل نسيت البريد الإلكتروني؟';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'إنشاء حساب';
@@ -8428,7 +8865,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'شطيرة لحم بقري';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'وصفة شطيرة اللحم البقري';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'وصفة شطيرة اللحم البقري';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'الوصفات المحفوظة';
@@ -8449,7 +8887,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoFadeThroughTitle => 'التلاشي التدريجي';
 
   @override
-  String get demoFadeThroughDescription => 'يتم استخدام نمط التلاشي التدريجي لتأثيرات الانتقال بين عناصر واجهة المستخدم التي لا تربطها علاقة قوية ببعضها.';
+  String get demoFadeThroughDescription =>
+      'يتم استخدام نمط التلاشي التدريجي لتأثيرات الانتقال بين عناصر واجهة المستخدم التي لا تربطها علاقة قوية ببعضها.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'ألبومات';
@@ -8467,7 +8906,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoFadeScaleTitle => 'التلاشي';
 
   @override
-  String get demoFadeScaleDescription => 'يتم استخدام نمط التلاشي مع عناصر واجهة المستخدم التي تدخل في حدود الشاشة أو تخرج منها، مثلاً مربّع حوار يتلاشى في مركز الشاشة.';
+  String get demoFadeScaleDescription =>
+      'يتم استخدام نمط التلاشي مع عناصر واجهة المستخدم التي تدخل في حدود الشاشة أو تخرج منها، مثلاً مربّع حوار يتلاشى في مركز الشاشة.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'إظهار مربّع حوار مشروط';
@@ -8494,7 +8934,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoColorsSubtitle => 'جميع الألوان المحدّدة مسبقًا';
 
   @override
-  String get demoColorsDescription => 'ثوابت اللون وعينات الألوان التي تُمثل لوحة ألوان التصميم المتعدد الأبعاد';
+  String get demoColorsDescription =>
+      'ثوابت اللون وعينات الألوان التي تُمثل لوحة ألوان التصميم المتعدد الأبعاد';
 
   @override
   String get demoTypographyTitle => 'أسلوب الخط';
@@ -8503,7 +8944,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoTypographySubtitle => 'جميع أنماط النص المحدّدة مسبقًا';
 
   @override
-  String get demoTypographyDescription => 'تعريف أساليب الخط المختلفة في التصميم المتعدد الأبعاد';
+  String get demoTypographyDescription =>
+      'تعريف أساليب الخط المختلفة في التصميم المتعدد الأبعاد';
 
   @override
   String get demo2dTransformationsTitle => 'التحويلات الثنائية الأبعاد';
@@ -8512,7 +8954,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demo2dTransformationsSubtitle => 'عرض شامل، تكبير/تصغير، تدوير';
 
   @override
-  String get demo2dTransformationsDescription => 'انقر لتعديل المربّعات واستخدام الإيماءات للتنقل خلال المشهد. اسحب لتنفيذ العرض الشامل وحرّك إصبعيك للتكبير/التصغير ويمكنك التدوير بإصبعين. اضغط على زر إعادة الضبط للرجوع إلى الاتجاه الأصلي.';
+  String get demo2dTransformationsDescription =>
+      'انقر لتعديل المربّعات واستخدام الإيماءات للتنقل خلال المشهد. اسحب لتنفيذ العرض الشامل وحرّك إصبعيك للتكبير/التصغير ويمكنك التدوير بإصبعين. اضغط على زر إعادة الضبط للرجوع إلى الاتجاه الأصلي.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'إعادة ضبط التحويلات';
@@ -8533,13 +8976,15 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoBottomSheetPersistentTitle => 'البطاقة السفلية العادية';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'تعرض البطاقة السفلية العادية معلومات تكميلية للمحتوى الأساسي للتطبيق. ولا تختفي هذه البطاقة عندما يتفاعل المستخدم مع المحتوى الآخر على الشاشة.';
+  String get demoBottomSheetPersistentDescription =>
+      'تعرض البطاقة السفلية العادية معلومات تكميلية للمحتوى الأساسي للتطبيق. ولا تختفي هذه البطاقة عندما يتفاعل المستخدم مع المحتوى الآخر على الشاشة.';
 
   @override
   String get demoBottomSheetModalTitle => 'البطاقة السفلية المقيِّدة';
 
   @override
-  String get demoBottomSheetModalDescription => 'تعتبر البطاقة السفلية المقيِّدة بديلاً لقائمة أو مربّع حوار ولا تسمح للمستخدم بالتفاعل مع المحتوى الآخر على الشاشة.';
+  String get demoBottomSheetModalDescription =>
+      'تعتبر البطاقة السفلية المقيِّدة بديلاً لقائمة أو مربّع حوار ولا تسمح للمستخدم بالتفاعل مع المحتوى الآخر على الشاشة.';
 
   @override
   String get demoBottomSheetAddLabel => 'إضافة';
@@ -8562,7 +9007,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoListsSubtitle => 'التمرير خلال تنسيقات القوائم';
 
   @override
-  String get demoListsDescription => 'صف بارتفاع واحد ثابت يحتوي عادةً على نص ورمز سابق أو لاحق.';
+  String get demoListsDescription =>
+      'صف بارتفاع واحد ثابت يحتوي عادةً على نص ورمز سابق أو لاحق.';
 
   @override
   String get demoOneLineListsTitle => 'سطر واحد';
@@ -8583,13 +9029,15 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoCircularProgressIndicatorTitle => 'مؤشر تقدم دائري';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'مؤشر تقدم دائري بتصميم متعدد الأبعاد (Material Design) ويدور ليدل على أن التطبيق مشغول';
+  String get demoCircularProgressIndicatorDescription =>
+      'مؤشر تقدم دائري بتصميم متعدد الأبعاد (Material Design) ويدور ليدل على أن التطبيق مشغول';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'مؤشر تقدم خطي';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'مؤشر تقدم خطي بتصميم متعدد الأبعاد ويُعرَف أيضًا بشريط التقدم';
+  String get demoLinearProgressIndicatorDescription =>
+      'مؤشر تقدم خطي بتصميم متعدد الأبعاد ويُعرَف أيضًا بشريط التقدم';
 
   @override
   String get demoPickersTitle => 'أدوات اختيار الوقت';
@@ -8601,13 +9049,15 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoDatePickerTitle => 'أداة اختيار التاريخ';
 
   @override
-  String get demoDatePickerDescription => 'تعرض مربّع حوار يحتوي على أداة اختيار تاريخ ذات تصميم متعدد الأبعاد.';
+  String get demoDatePickerDescription =>
+      'تعرض مربّع حوار يحتوي على أداة اختيار تاريخ ذات تصميم متعدد الأبعاد.';
 
   @override
   String get demoTimePickerTitle => 'أداة اختيار الوقت';
 
   @override
-  String get demoTimePickerDescription => 'تعرض مربّع حوار يحتوي على أداة اختيار وقت ذات تصميم متعدد الأبعاد.';
+  String get demoTimePickerDescription =>
+      'تعرض مربّع حوار يحتوي على أداة اختيار وقت ذات تصميم متعدد الأبعاد.';
 
   @override
   String get demoPickersShowPicker => 'إظهار أداة الاختيار';
@@ -8622,19 +9072,23 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoTabsNonScrollingTitle => 'عدم التمرير';
 
   @override
-  String get demoTabsSubtitle => 'علامات تبويب تحتوي على عروض يمكن التنقّل خلالها بشكل مستقل';
+  String get demoTabsSubtitle =>
+      'علامات تبويب تحتوي على عروض يمكن التنقّل خلالها بشكل مستقل';
 
   @override
-  String get demoTabsDescription => 'تساعد علامات التبويب على تنظيم المحتوى في الشاشات المختلفة ومجموعات البيانات والتفاعلات الأخرى.';
+  String get demoTabsDescription =>
+      'تساعد علامات التبويب على تنظيم المحتوى في الشاشات المختلفة ومجموعات البيانات والتفاعلات الأخرى.';
 
   @override
   String get demoSnackbarsTitle => 'أشرطة إعلام منبثقة';
 
   @override
-  String get demoSnackbarsSubtitle => 'تعرض \"أشرطة الإعلام المنبثقة\" رسائل في أسفل الشاشة';
+  String get demoSnackbarsSubtitle =>
+      'تعرض \"أشرطة الإعلام المنبثقة\" رسائل في أسفل الشاشة';
 
   @override
-  String get demoSnackbarsDescription => 'تُعلِم \"أشرطة الإعلام منبثقة\" المستخدمين بعملية نفّذها التطبيق أو بعملية سينفّذها التطبيق. تظهر مؤقتًا باتجاه أسفل الشاشة ويُفترَض ألا تشوش على تجربة المستخدم وألا تتطلب تدخل المستخدم لإخفائها.';
+  String get demoSnackbarsDescription =>
+      'تُعلِم \"أشرطة الإعلام منبثقة\" المستخدمين بعملية نفّذها التطبيق أو بعملية سينفّذها التطبيق. تظهر مؤقتًا باتجاه أسفل الشاشة ويُفترَض ألا تشوش على تجربة المستخدم وألا تتطلب تدخل المستخدم لإخفائها.';
 
   @override
   String get demoSnackbarsButtonLabel => 'عرض شريط إعلام منبثق';
@@ -8646,31 +9100,36 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoSnackbarsActionButtonLabel => 'إجراء';
 
   @override
-  String get demoSnackbarsAction => 'لقد ضغطت على إجراء في \"شريط الإعلام المنبثق\".';
+  String get demoSnackbarsAction =>
+      'لقد ضغطت على إجراء في \"شريط الإعلام المنبثق\".';
 
   @override
   String get demoSelectionControlsTitle => 'عناصر التحكّم في الاختيار';
 
   @override
-  String get demoSelectionControlsSubtitle => 'مربّعات الاختيار وأزرار الاختيار ومفاتيح التبديل';
+  String get demoSelectionControlsSubtitle =>
+      'مربّعات الاختيار وأزرار الاختيار ومفاتيح التبديل';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'مربع اختيار';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'تسمح مربّعات الاختيار للمستخدمين باختيار عدة خيارات من مجموعة من الخيارات. القيمة المعتادة لمربّع الاختيار هي \"صحيح\" أو \"غير صحيح\" ويمكن أيضًا إضافة حالة ثالثة وهي \"خالية\".';
+  String get demoSelectionControlsCheckboxDescription =>
+      'تسمح مربّعات الاختيار للمستخدمين باختيار عدة خيارات من مجموعة من الخيارات. القيمة المعتادة لمربّع الاختيار هي \"صحيح\" أو \"غير صحيح\" ويمكن أيضًا إضافة حالة ثالثة وهي \"خالية\".';
 
   @override
   String get demoSelectionControlsRadioTitle => 'زر اختيار';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'تسمح أزرار الاختيار للقارئ بتحديد خيار واحد من مجموعة من الخيارات. يمكنك استخدام أزرار الاختيار لتحديد اختيارات حصرية إذا كنت تعتقد أنه يجب أن تظهر للمستخدم كل الخيارات المتاحة جنبًا إلى جنب.';
+  String get demoSelectionControlsRadioDescription =>
+      'تسمح أزرار الاختيار للقارئ بتحديد خيار واحد من مجموعة من الخيارات. يمكنك استخدام أزرار الاختيار لتحديد اختيارات حصرية إذا كنت تعتقد أنه يجب أن تظهر للمستخدم كل الخيارات المتاحة جنبًا إلى جنب.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'مفاتيح التبديل';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'تؤدي مفاتيح تبديل التشغيل/الإيقاف إلى تبديل حالة خيار واحد في الإعدادات. يجب توضيح الخيار الذي يتحكّم فيه مفتاح التبديل وكذلك حالته، وذلك من خلال التسمية المضمّنة المتاحة.';
+  String get demoSelectionControlsSwitchDescription =>
+      'تؤدي مفاتيح تبديل التشغيل/الإيقاف إلى تبديل حالة خيار واحد في الإعدادات. يجب توضيح الخيار الذي يتحكّم فيه مفتاح التبديل وكذلك حالته، وذلك من خلال التسمية المضمّنة المتاحة.';
 
   @override
   String get demoBottomTextFieldsTitle => 'حقول النص';
@@ -8679,10 +9138,12 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoTextFieldTitle => 'حقول النص';
 
   @override
-  String get demoTextFieldSubtitle => 'سطر واحد من النص والأرقام القابلة للتعديل';
+  String get demoTextFieldSubtitle =>
+      'سطر واحد من النص والأرقام القابلة للتعديل';
 
   @override
-  String get demoTextFieldDescription => 'تسمح حقول النص للمستخدمين بإدخال نص في واجهة مستخدم. وتظهر عادةً في النماذج ومربّعات الحوار.';
+  String get demoTextFieldDescription =>
+      'تسمح حقول النص للمستخدمين بإدخال نص في واجهة مستخدم. وتظهر عادةً في النماذج ومربّعات الحوار.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'عرض كلمة المرور';
@@ -8691,16 +9152,19 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoTextFieldHidePasswordLabel => 'إخفاء كلمة المرور';
 
   @override
-  String get demoTextFieldFormErrors => 'يُرجى تصحيح الأخطاء باللون الأحمر قبل الإرسال.';
+  String get demoTextFieldFormErrors =>
+      'يُرجى تصحيح الأخطاء باللون الأحمر قبل الإرسال.';
 
   @override
   String get demoTextFieldNameRequired => 'الاسم مطلوب.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'يُرجى إدخال حروف أبجدية فقط.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'يُرجى إدخال حروف أبجدية فقط.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - يُرجى إدخال رقم هاتف صالح في الولايات المتحدة.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - يُرجى إدخال رقم هاتف صالح في الولايات المتحدة.';
 
   @override
   String get demoTextFieldEnterPassword => 'يرجى إدخال كلمة مرور.';
@@ -8715,7 +9179,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoTextFieldNameField => 'الاسم*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'على أي رقم يمكننا التواصل معك؟';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'على أي رقم يمكننا التواصل معك؟';
 
   @override
   String get demoTextFieldPhoneNumber => 'رقم الهاتف*';
@@ -8727,7 +9192,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoTextFieldEmail => 'رسالة إلكترونية';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'أخبِرنا عن نفسك (مثلاً ما هي هواياتك المفضّلة أو ما هو مجال عملك؟)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'أخبِرنا عن نفسك (مثلاً ما هي هواياتك المفضّلة أو ما هو مجال عملك؟)';
 
   @override
   String get demoTextFieldKeepItShort => 'يُرجى الاختصار، هذا مجرد عرض توضيحي.';
@@ -8765,13 +9231,16 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get demoTooltipTitle => 'التلميحات';
 
   @override
-  String get demoTooltipSubtitle => 'رسالة قصيرة تُعرَض عند الضغط مع الاستمرار أو تمرير مؤشر الماوس';
+  String get demoTooltipSubtitle =>
+      'رسالة قصيرة تُعرَض عند الضغط مع الاستمرار أو تمرير مؤشر الماوس';
 
   @override
-  String get demoTooltipDescription => 'توفّر التلميحات تصنيفات نصية تساعد في شرح وظيفة زر أو إجراء آخر من إجراءات واجهة المستخدم. تعرض التلميحات نص إخباري عندما يمرّر المستخدمون مؤشر الماوس على عنصر أو يركزون عليه أو يضغطون عليه مع الاستمرار.';
+  String get demoTooltipDescription =>
+      'توفّر التلميحات تصنيفات نصية تساعد في شرح وظيفة زر أو إجراء آخر من إجراءات واجهة المستخدم. تعرض التلميحات نص إخباري عندما يمرّر المستخدمون مؤشر الماوس على عنصر أو يركزون عليه أو يضغطون عليه مع الاستمرار.';
 
   @override
-  String get demoTooltipInstructions => 'اضغط مع الاستمرار على العنصر أو مرّر مؤشر الماوس عليه لعرض التلميح.';
+  String get demoTooltipInstructions =>
+      'اضغط مع الاستمرار على العنصر أو مرّر مؤشر الماوس عليه لعرض التلميح.';
 
   @override
   String get bottomNavigationCommentsTab => 'التعليقات';
@@ -8829,10 +9298,12 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get dialogDiscardTitle => 'هل تريد تجاهل المسودة؟';
 
   @override
-  String get dialogLocationTitle => 'هل تريد استخدام خدمة الموقع الجغرافي من Google؟';
+  String get dialogLocationTitle =>
+      'هل تريد استخدام خدمة الموقع الجغرافي من Google؟';
 
   @override
-  String get dialogLocationDescription => 'يمكنك السماح لشركة Google بمساعدة التطبيقات في تحديد الموقع الجغرافي. ويعني هذا أنه سيتم إرسال بيانات مجهولة المصدر عن الموقع الجغرافي إلى Google، حتى عند عدم تشغيل أي تطبيقات.';
+  String get dialogLocationDescription =>
+      'يمكنك السماح لشركة Google بمساعدة التطبيقات في تحديد الموقع الجغرافي. ويعني هذا أنه سيتم إرسال بيانات مجهولة المصدر عن الموقع الجغرافي إلى Google، حتى عند عدم تشغيل أي تطبيقات.';
 
   @override
   String get dialogCancel => 'إلغاء';
@@ -8877,10 +9348,12 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get cupertinoAlertDiscard => 'تجاهل';
 
   @override
-  String get cupertinoAlertLocationTitle => 'هل تريد السماح لخدمة \"خرائط Google\" بالدخول إلى موقعك الجغرافي أثناء استخدام التطبيق؟';
+  String get cupertinoAlertLocationTitle =>
+      'هل تريد السماح لخدمة \"خرائط Google\" بالدخول إلى موقعك الجغرافي أثناء استخدام التطبيق؟';
 
   @override
-  String get cupertinoAlertLocationDescription => 'سيتم عرض الموقع الجغرافي الحالي على الخريطة واستخدامه لتوفير الاتجاهات ونتائج البحث عن الأماكن المجاورة وأوقات التنقّل المقدرة.';
+  String get cupertinoAlertLocationDescription =>
+      'سيتم عرض الموقع الجغرافي الحالي على الخريطة واستخدامه لتوفير الاتجاهات ونتائج البحث عن الأماكن المجاورة وأوقات التنقّل المقدرة.';
 
   @override
   String get cupertinoAlertAllow => 'السماح';
@@ -8892,7 +9365,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get cupertinoAlertFavoriteDessert => 'Select Favorite Dessert';
 
   @override
-  String get cupertinoAlertDessertDescription => 'يُرجى اختيار نوع الحلوى المفضّل لك من القائمة أدناه. وسيتم استخدام اختيارك في تخصيص القائمة المقترَحة للمطاعم في منطقتك.';
+  String get cupertinoAlertDessertDescription =>
+      'يُرجى اختيار نوع الحلوى المفضّل لك من القائمة أدناه. وسيتم استخدام اختيارك في تخصيص القائمة المقترَحة للمطاعم في منطقتك.';
 
   @override
   String get cupertinoAlertCheesecake => 'كعكة بالجبن';
@@ -9145,13 +9619,15 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get shrineProductShrugBag => 'حقيبة كتف';
 
   @override
-  String get shrineProductGiltDeskTrio => 'طقم أدوات مكتبية ذهبية اللون من 3 قطع';
+  String get shrineProductGiltDeskTrio =>
+      'طقم أدوات مكتبية ذهبية اللون من 3 قطع';
 
   @override
   String get shrineProductCopperWireRack => 'رف سلكي نحاسي';
 
   @override
-  String get shrineProductSootheCeramicSet => 'طقم سيراميك باللون الأبيض الراقي';
+  String get shrineProductSootheCeramicSet =>
+      'طقم سيراميك باللون الأبيض الراقي';
 
   @override
   String get shrineProductHurrahsTeaSet => 'طقم شاي مميّز';
@@ -9214,7 +9690,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get shrineProductClassicWhiteCollar => 'ياقة بيضاء كلاسيكية';
 
   @override
-  String get shrineProductCeriseScallopTee => 'قميص قصير الأكمام باللون الكرزي الفاتح';
+  String get shrineProductCeriseScallopTee =>
+      'قميص قصير الأكمام باللون الكرزي الفاتح';
 
   @override
   String get shrineProductShoulderRollsTee => 'قميص واسعة بأكمام قصيرة';
@@ -9489,7 +9966,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get craneEat10 => 'لشبونة، البرتغال';
 
   @override
-  String get craneFly0SemanticLabel => 'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
+  String get craneFly0SemanticLabel =>
+      'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
 
   @override
   String get craneFly1SemanticLabel => 'خيمة في حقل';
@@ -9504,7 +9982,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get craneFly4SemanticLabel => 'أكواخ فوق الماء';
 
   @override
-  String get craneFly5SemanticLabel => 'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
+  String get craneFly5SemanticLabel =>
+      'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
 
   @override
   String get craneFly6SemanticLabel => 'عرض \"قصر الفنون الجميلة\" من الجوّ';
@@ -9534,7 +10013,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get craneSleep0SemanticLabel => 'أكواخ فوق الماء';
 
   @override
-  String get craneSleep1SemanticLabel => 'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
+  String get craneSleep1SemanticLabel =>
+      'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
 
   @override
   String get craneSleep2SemanticLabel => 'قلعة ماتشو بيتشو';
@@ -9543,7 +10023,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get craneSleep3SemanticLabel => 'رجل متّكِئ على سيارة زرقاء عتيقة';
 
   @override
-  String get craneSleep4SemanticLabel => 'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
+  String get craneSleep4SemanticLabel =>
+      'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
 
   @override
   String get craneSleep5SemanticLabel => 'خيمة في حقل';
@@ -9555,7 +10036,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get craneSleep7SemanticLabel => 'شُقق ملونة في ميدان ريبيارا';
 
   @override
-  String get craneSleep8SemanticLabel => 'أطلال \"المايا\" على جُرْف يطِلّ على الشاطئ';
+  String get craneSleep8SemanticLabel =>
+      'أطلال \"المايا\" على جُرْف يطِلّ على الشاطئ';
 
   @override
   String get craneSleep9SemanticLabel => 'منارة من الطوب على شاطئ البحر';
@@ -9648,7 +10130,8 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get fortnightlyLatestUpdates => 'آخر المستجدّات';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'ثورة الرعاية الصحية الهادئة والفعالة في الوقت نفسه';
+  String get fortnightlyHeadlineHealthcare =>
+      'ثورة الرعاية الصحية الهادئة والفعالة في الوقت نفسه';
 
   @override
   String get fortnightlyHeadlineWar => 'الأمريكيون المنقسمون أثناء الحرب';
@@ -9660,13 +10143,16 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
   String get fortnightlyHeadlineArmy => 'إصلاح الجيش الأخضر من الداخل';
 
   @override
-  String get fortnightlyHeadlineStocks => 'مع ركود الأسهم، يتجه الكثيرون إلى العملة';
+  String get fortnightlyHeadlineStocks =>
+      'مع ركود الأسهم، يتجه الكثيرون إلى العملة';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'مصمِّمون يستخدمون التكنولوجيا لصنع ملابس تستلهم المستقبل';
+  String get fortnightlyHeadlineFabrics =>
+      'مصمِّمون يستخدمون التكنولوجيا لصنع ملابس تستلهم المستقبل';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'مدافعون عن حقوق المرأة يجابهون التحزب';
+  String get fortnightlyHeadlineFeminists =>
+      'مدافعون عن حقوق المرأة يجابهون التحزب';
 
   @override
   String get fortnightlyHeadlineBees => 'نقص نحل الأراضي الزراعية';
@@ -9692,7 +10178,7 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
 
 /// The translations for Arabic, as used in Saudi Arabia (`ar_SA`).
 class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
-  GalleryLocalizationsArSa(): super('ar_SA');
+  GalleryLocalizationsArSa() : super('ar_SA');
 
   @override
   String githubRepo(Object repoName) {
@@ -9708,7 +10194,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get signIn => 'تسجيل الدخول';
 
   @override
-  String get bannerDemoText => 'تم تعديل كلمة المرور على جهاز آخر. يُرجى تسجيل الدخول مرة أخرى.';
+  String get bannerDemoText =>
+      'تم تعديل كلمة المرور على جهاز آخر. يُرجى تسجيل الدخول مرة أخرى.';
 
   @override
   String get bannerDemoResetText => 'إعادة ضبط البانر';
@@ -9745,7 +10232,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'أهم 10 مدن يمكن زيارتها في تاميل نادو';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'أهم 10 مدن يمكن زيارتها في تاميل نادو';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'رقم 10';
@@ -9805,16 +10293,19 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get rallyAccountDataVacation => 'عطلة';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'النسبة المئوية للعائد السنوي';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'النسبة المئوية للعائد السنوي';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'سعر الفائدة';
 
   @override
-  String get rallyAccountDetailDataInterestYtd => 'الفائدة منذ بداية العام حتى اليوم';
+  String get rallyAccountDetailDataInterestYtd =>
+      'الفائدة منذ بداية العام حتى اليوم';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'الفائدة المدفوعة في العام الماضي';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'الفائدة المدفوعة في العام الماضي';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'كشف الحساب التالي';
@@ -9970,10 +10461,14 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على معاملة واحدة لم يتم ضبطها.',
-      few: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملات لم يتم ضبطها.',
-      many: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
-      other: 'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
+      one:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على معاملة واحدة لم يتم ضبطها.',
+      few:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملات لم يتم ضبطها.',
+      many:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
+      other:
+          'يمكنك زيادة خصم الضرائب المحتملة. ضبط الفئات على ${count} معاملة لم يتم ضبطها.',
     );
   }
 
@@ -9987,7 +10482,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get rallySeeAllBudgets => 'عرض جميع الميزانيات';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return 'الحساب ${accountName} رقم ${accountNumber} بمبلغ ${amount}.';
   }
 
@@ -9997,7 +10493,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'ميزانية ${budgetName} مع استخدام ${amountUsed} من إجمالي ${amountTotal}، المبلغ المتبقي ${amountLeft}';
   }
 
@@ -10029,7 +10526,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoCodeViewerCopyAll => 'نسخ الكل';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'تم نسخ النص إلى الحافظة.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'تم نسخ النص إلى الحافظة.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -10040,7 +10538,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoOptionsFeatureTitle => 'عرض الخيارات';
 
   @override
-  String get demoOptionsFeatureDescription => 'انقر هنا لعرض الخيارات المتاحة لهذا العرض التوضيحي.';
+  String get demoOptionsFeatureDescription =>
+      'انقر هنا لعرض الخيارات المتاحة لهذا العرض التوضيحي.';
 
   @override
   String get settingsTitle => 'الإعدادات';
@@ -10112,10 +10611,12 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoBottomAppBarTitle => 'شريط التطبيق السفلي';
 
   @override
-  String get demoBottomAppBarSubtitle => 'يعرض لائحة التنقل والإجراءات في أسفل التطبيق';
+  String get demoBottomAppBarSubtitle =>
+      'يعرض لائحة التنقل والإجراءات في أسفل التطبيق';
 
   @override
-  String get demoBottomAppBarDescription => 'تساعدك أشرطة التطبيقات السفلية على الوصول إلى لائحة التنقل السفلية وما يصل إلى أربعة إجراءات، بما في ذلك زر الإجراء العائم.';
+  String get demoBottomAppBarDescription =>
+      'تساعدك أشرطة التطبيقات السفلية على الوصول إلى لائحة التنقل السفلية وما يصل إلى أربعة إجراءات، بما في ذلك زر الإجراء العائم.';
 
   @override
   String get bottomAppBarNotch => 'قطع علوي';
@@ -10142,7 +10643,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoBannerSubtitle => 'عرض بانر داخل قائمة';
 
   @override
-  String get demoBannerDescription => 'يعرض البانر رسالة مهمة ومختصرة، كما يقدّم إجراءات يمكن للمستخدمين اتخاذها (أو تجاهل البانر). يجب أن يتخذ المستخدم إجراء ليتم تجاهل البانر.';
+  String get demoBannerDescription =>
+      'يعرض البانر رسالة مهمة ومختصرة، كما يقدّم إجراءات يمكن للمستخدمين اتخاذها (أو تجاهل البانر). يجب أن يتخذ المستخدم إجراء ليتم تجاهل البانر.';
 
   @override
   String get demoBottomNavigationTitle => 'شريط التنقل السفلي';
@@ -10157,43 +10659,50 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoBottomNavigationSelectedLabel => 'الملصق المُختار';
 
   @override
-  String get demoBottomNavigationDescription => 'تعرض أشرطة التنقل السفلية بين ثلاث وخمس وجهات في الجزء السفلي من الشاشة. ويتم تمثيل كل وجهة برمز ووسم نصي اختياري. عند النقر على رمز التنقل السفلي، يتم نقل المستخدم إلى وجهة التنقل ذات المستوى الأعلى المرتبطة بذلك الرمز.';
+  String get demoBottomNavigationDescription =>
+      'تعرض أشرطة التنقل السفلية بين ثلاث وخمس وجهات في الجزء السفلي من الشاشة. ويتم تمثيل كل وجهة برمز ووسم نصي اختياري. عند النقر على رمز التنقل السفلي، يتم نقل المستخدم إلى وجهة التنقل ذات المستوى الأعلى المرتبطة بذلك الرمز.';
 
   @override
   String get demoButtonTitle => 'الأزرار';
 
   @override
-  String get demoButtonSubtitle => 'أزرار نصية أو بارزة أو محدَّدة الجوانب، والمزيد';
+  String get demoButtonSubtitle =>
+      'أزرار نصية أو بارزة أو محدَّدة الجوانب، والمزيد';
 
   @override
   String get demoTextButtonTitle => 'زر نصي';
 
   @override
-  String get demoTextButtonDescription => 'يتلوّن الزر النصي عند الضغط عليه ولكن لا يرتفع. ينصح باستخدام الأزرار النصية على أشرطة الأدوات وفي مربّعات الحوار وداخل المساحات المتروكة';
+  String get demoTextButtonDescription =>
+      'يتلوّن الزر النصي عند الضغط عليه ولكن لا يرتفع. ينصح باستخدام الأزرار النصية على أشرطة الأدوات وفي مربّعات الحوار وداخل المساحات المتروكة';
 
   @override
   String get demoElevatedButtonTitle => 'زر بارز';
 
   @override
-  String get demoElevatedButtonDescription => 'تضفي الأزرار البارزة مزيدًا من الحركة إلى التصميمات الأحادية البعد. فهي تبرِز الوظائف المعروضة في المساحات العريضة أو المكدَّسة.';
+  String get demoElevatedButtonDescription =>
+      'تضفي الأزرار البارزة مزيدًا من الحركة إلى التصميمات الأحادية البعد. فهي تبرِز الوظائف المعروضة في المساحات العريضة أو المكدَّسة.';
 
   @override
   String get demoOutlinedButtonTitle => 'زر محدَّد الجوانب';
 
   @override
-  String get demoOutlinedButtonDescription => 'تصبح الأزرار المحدَّدة الجوانب غير شفافة وترتفع عند الضغط عليها. وغالبًا ما يتم إقرانها مع الأزرار البارزة للإشارة إلى إجراء ثانوي بديل.';
+  String get demoOutlinedButtonDescription =>
+      'تصبح الأزرار المحدَّدة الجوانب غير شفافة وترتفع عند الضغط عليها. وغالبًا ما يتم إقرانها مع الأزرار البارزة للإشارة إلى إجراء ثانوي بديل.';
 
   @override
   String get demoToggleButtonTitle => 'أزرار التبديل';
 
   @override
-  String get demoToggleButtonDescription => 'يمكن استخدام أزرار التبديل لتجميع الخيارات المرتبطة. لتأكيد مجموعات أزرار التبديل المرتبطة، يجب أن تشترك إحدى المجموعات في حاوية مشتركة.';
+  String get demoToggleButtonDescription =>
+      'يمكن استخدام أزرار التبديل لتجميع الخيارات المرتبطة. لتأكيد مجموعات أزرار التبديل المرتبطة، يجب أن تشترك إحدى المجموعات في حاوية مشتركة.';
 
   @override
   String get demoFloatingButtonTitle => 'زر الإجراء العائم';
 
   @override
-  String get demoFloatingButtonDescription => 'زر الإجراء العائم هو زر على شكل رمز دائري يتم تمريره فوق المحتوى للترويج لاتخاذ إجراء أساسي في التطبيق.';
+  String get demoFloatingButtonDescription =>
+      'زر الإجراء العائم هو زر على شكل رمز دائري يتم تمريره فوق المحتوى للترويج لاتخاذ إجراء أساسي في التطبيق.';
 
   @override
   String get demoCardTitle => 'البطاقات';
@@ -10205,34 +10714,40 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoChipTitle => 'الشرائح';
 
   @override
-  String get demoCardDescription => 'البطاقة هي ورقة مواد تُستخدَم لتمثيل بعض المعلومات ذات الصلة، مثلاً ألبوم أو موقع جغرافي أو وجبة أو تفاصيل جهة اتصال أو ما إلى ذلك.';
+  String get demoCardDescription =>
+      'البطاقة هي ورقة مواد تُستخدَم لتمثيل بعض المعلومات ذات الصلة، مثلاً ألبوم أو موقع جغرافي أو وجبة أو تفاصيل جهة اتصال أو ما إلى ذلك.';
 
   @override
-  String get demoChipSubtitle => 'العناصر المضغوطة التي تمثل إدخال أو سمة أو إجراء';
+  String get demoChipSubtitle =>
+      'العناصر المضغوطة التي تمثل إدخال أو سمة أو إجراء';
 
   @override
   String get demoActionChipTitle => 'شريحة الإجراءات';
 
   @override
-  String get demoActionChipDescription => 'شرائح الإجراءات هي مجموعة من الخيارات التي تشغّل إجراءً ذا صلة بالمحتوى الأساسي. ينبغي أن يكون ظهور شرائح الإجراءات في واجهة المستخدم ديناميكيًا ومناسبًا للسياق.';
+  String get demoActionChipDescription =>
+      'شرائح الإجراءات هي مجموعة من الخيارات التي تشغّل إجراءً ذا صلة بالمحتوى الأساسي. ينبغي أن يكون ظهور شرائح الإجراءات في واجهة المستخدم ديناميكيًا ومناسبًا للسياق.';
 
   @override
   String get demoChoiceChipTitle => 'شريحة الخيارات';
 
   @override
-  String get demoChoiceChipDescription => 'تمثل شرائح الخيارات خيارًا واحدًا من بين مجموعة. تتضمن شرائح الخيارات النصوص الوصفية ذات الصلة أو الفئات.';
+  String get demoChoiceChipDescription =>
+      'تمثل شرائح الخيارات خيارًا واحدًا من بين مجموعة. تتضمن شرائح الخيارات النصوص الوصفية ذات الصلة أو الفئات.';
 
   @override
   String get demoFilterChipTitle => 'شريحة الفلتر';
 
   @override
-  String get demoFilterChipDescription => 'تستخدم شرائح الفلتر العلامات أو الكلمات الوصفية باعتبارها طريقة لفلترة المحتوى.';
+  String get demoFilterChipDescription =>
+      'تستخدم شرائح الفلتر العلامات أو الكلمات الوصفية باعتبارها طريقة لفلترة المحتوى.';
 
   @override
   String get demoInputChipTitle => 'شريحة الإدخال';
 
   @override
-  String get demoInputChipDescription => 'تمثل شرائح الإدخالات معلومة معقدة، مثل كيان (شخص، مكان، أو شئ) أو نص محادثة، في نمط مضغوط.';
+  String get demoInputChipDescription =>
+      'تمثل شرائح الإدخالات معلومة معقدة، مثل كيان (شخص، مكان، أو شئ) أو نص محادثة، في نمط مضغوط.';
 
   @override
   String get demoDataTableTitle => 'جداول البيانات';
@@ -10241,7 +10756,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoDataTableSubtitle => 'صفوف وأعمدة من المعلومات';
 
   @override
-  String get demoDataTableDescription => 'تعرض جداول البيانات معلومات على هيئة شبكة من الصفوف والأعمدة، حيث يتم تنظيم المعلومات بطريقة يَسهُل فحصها ليتمكن المستخدمون من البحث عن الأنماط والإحصاءات.';
+  String get demoDataTableDescription =>
+      'تعرض جداول البيانات معلومات على هيئة شبكة من الصفوف والأعمدة، حيث يتم تنظيم المعلومات بطريقة يَسهُل فحصها ليتمكن المستخدمون من البحث عن الأنماط والإحصاءات.';
 
   @override
   String get dataTableHeader => 'التغذية';
@@ -10314,13 +10830,15 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoDialogTitle => 'مربعات الحوار';
 
   @override
-  String get demoDialogSubtitle => 'مربعات حوار بسيطة ومخصّصة للتنبيهات وبملء الشاشة';
+  String get demoDialogSubtitle =>
+      'مربعات حوار بسيطة ومخصّصة للتنبيهات وبملء الشاشة';
 
   @override
   String get demoAlertDialogTitle => 'التنبيه';
 
   @override
-  String get demoAlertDialogDescription => 'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري وقائمة إجراءات اختيارية.';
+  String get demoAlertDialogDescription =>
+      'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري وقائمة إجراءات اختيارية.';
 
   @override
   String get demoAlertTitleDialogTitle => 'تنبيه مزوّد بعنوان';
@@ -10329,7 +10847,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoSimpleDialogTitle => 'بسيط';
 
   @override
-  String get demoSimpleDialogDescription => 'يتيح مربع الحوار البسيط للمستخدم إمكانية الاختيار من بين عدة خيارات. ويشتمل مربع الحوار البسيط على عنوان اختياري يتم عرضه أعلى هذه الخيارات.';
+  String get demoSimpleDialogDescription =>
+      'يتيح مربع الحوار البسيط للمستخدم إمكانية الاختيار من بين عدة خيارات. ويشتمل مربع الحوار البسيط على عنوان اختياري يتم عرضه أعلى هذه الخيارات.';
 
   @override
   String get demoGridListsTitle => 'قوائم الشبكات';
@@ -10338,7 +10857,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoGridListsSubtitle => 'تنسيق الصفوف والأعمدة';
 
   @override
-  String get demoGridListsDescription => 'الاستخدام المثالي لقوائم الشبكات هو لعرض البيانات المتجانسة التي عادة ما تكون صورًا. كل عنصر في الشبكة يُسمَى مربّع.';
+  String get demoGridListsDescription =>
+      'الاستخدام المثالي لقوائم الشبكات هو لعرض البيانات المتجانسة التي عادة ما تكون صورًا. كل عنصر في الشبكة يُسمَى مربّع.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'صورة فقط';
@@ -10356,31 +10876,37 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoSlidersSubtitle => 'أدوات لاختيار قيمة عن طريق التمرير السريع';
 
   @override
-  String get demoSlidersDescription => 'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة من ذلك الشريط. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
+  String get demoSlidersDescription =>
+      'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة من ذلك الشريط. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
 
   @override
   String get demoRangeSlidersTitle => 'شرائط تمرير تتضمَّن نطاقات';
 
   @override
-  String get demoRangeSlidersDescription => 'تعكس شرائط التمرير نطاقًا من القيم بطول شريط. يمكن أن تحتوي على رموز في كلا طرفي الشريط بحيث تعكس نطاقًا من القيم. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
+  String get demoRangeSlidersDescription =>
+      'تعكس شرائط التمرير نطاقًا من القيم بطول شريط. يمكن أن تحتوي على رموز في كلا طرفي الشريط بحيث تعكس نطاقًا من القيم. وهي مثالية لتعديل الإعدادات، مثلاً مستوى الصوت أو السطوع أو تطبيق فلاتر الصور.';
 
   @override
   String get demoCustomSlidersTitle => 'شرائط التمرير المخصَّصة';
 
   @override
-  String get demoCustomSlidersDescription => 'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة أو نطاق من القيم من ذلك الشريط. يمكن تخصيص شرائط التمرير وتغيير تصميماتها.';
+  String get demoCustomSlidersDescription =>
+      'تعكس شرائط التمرير نطاقًا من القيم بطول شريط، ويمكن للمستخدمين اختيار قيمة واحدة أو نطاق من القيم من ذلك الشريط. يمكن تخصيص شرائط التمرير وتغيير تصميماتها.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'مستمر بقيمة رقمية قابلة للتعديل';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'مستمر بقيمة رقمية قابلة للتعديل';
 
   @override
   String get demoSlidersDiscrete => 'منفصل القيم';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'شريط تمرير منفصل القيم بتصميم مخصَّص';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'شريط تمرير منفصل القيم بتصميم مخصَّص';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'شريط تمرير بنطاق مستمر وتصميم مخصَّص';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'شريط تمرير بنطاق مستمر وتصميم مخصَّص';
 
   @override
   String get demoSlidersContinuous => 'مستمر';
@@ -10407,7 +10933,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoMenuSubtitle => 'أزرار قوائم وقوائم بسيطة';
 
   @override
-  String get demoMenuDescription => 'تعرض القائمة مجموعة من الخيارات على سطح مؤقت، حيث تظهر عندما يتفاعل المستخدمون مع زر أو إجراء أو عنصر تحكم آخر.';
+  String get demoMenuDescription =>
+      'تعرض القائمة مجموعة من الخيارات على سطح مؤقت، حيث تظهر عندما يتفاعل المستخدمون مع زر أو إجراء أو عنصر تحكم آخر.';
 
   @override
   String get demoMenuItemValueOne => 'أول عنصر قائمة';
@@ -10474,7 +11001,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoNavigationDrawerSubtitle => 'عرض لائحة تنقّل في شريط التطبيق';
 
   @override
-  String get demoNavigationDrawerDescription => 'لوحة تصميم متعدد الأبعاد تتحرك أفقيًا من حافة الشاشة لعرض روابط التنقّل في تطبيق.';
+  String get demoNavigationDrawerDescription =>
+      'لوحة تصميم متعدد الأبعاد تتحرك أفقيًا من حافة الشاشة لعرض روابط التنقّل في تطبيق.';
 
   @override
   String get demoNavigationDrawerUserName => 'اسم المستخدم';
@@ -10489,7 +11017,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoNavigationDrawerToPageTwo => 'العنصر الثاني';
 
   @override
-  String get demoNavigationDrawerText => 'مرِّر سريعًا من الحافة أو انقر على الرمز في أعلى يمين الصفحة لعرض لائحة التنقّل.';
+  String get demoNavigationDrawerText =>
+      'مرِّر سريعًا من الحافة أو انقر على الرمز في أعلى يمين الصفحة لعرض لائحة التنقّل.';
 
   @override
   String get demoNavigationRailTitle => 'شريط التنقّل';
@@ -10498,7 +11027,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoNavigationRailSubtitle => 'عرض شريط تنقّل داخل تطبيق';
 
   @override
-  String get demoNavigationRailDescription => 'أداة أساسية تظهر في يمين أو يسار التطبيق للتنقّل بين عدد صغير من الأقسام داخل التطبيق، غالبًا ما بين 3 إلى 5 أقسام.';
+  String get demoNavigationRailDescription =>
+      'أداة أساسية تظهر في يمين أو يسار التطبيق للتنقّل بين عدد صغير من الأقسام داخل التطبيق، غالبًا ما بين 3 إلى 5 أقسام.';
 
   @override
   String get demoNavigationRailFirst => 'الأول';
@@ -10519,7 +11049,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoFullscreenDialogTitle => 'ملء الشاشة';
 
   @override
-  String get demoFullscreenDialogDescription => 'تحدِّد خاصية fullscreenDialog ما إذا كانت الصفحة الواردة هي مربع حوار نمطي بملء الشاشة.';
+  String get demoFullscreenDialogDescription =>
+      'تحدِّد خاصية fullscreenDialog ما إذا كانت الصفحة الواردة هي مربع حوار نمطي بملء الشاشة.';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'مؤشر النشاط';
@@ -10528,28 +11059,33 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoCupertinoActivityIndicatorSubtitle => 'مؤشرات نشاط بنمط iOS';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'مؤشر نشاط بنمط iOS ويدور في اتجاه عقارب الساعة';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'مؤشر نشاط بنمط iOS ويدور في اتجاه عقارب الساعة';
 
   @override
   String get demoCupertinoButtonsTitle => 'الأزرار';
 
   @override
-  String get demoCupertinoButtonsSubtitle => 'أزرار مستوحاة من نظام التشغيل iOS';
+  String get demoCupertinoButtonsSubtitle =>
+      'أزرار مستوحاة من نظام التشغيل iOS';
 
   @override
-  String get demoCupertinoButtonsDescription => 'زر مستوحى من نظام التشغيل iOS. يتم عرض هذا الزر على شكل نص و/أو رمز يتلاشى ويظهر بالتدريج عند اللمس. وقد يكون مزوّدًا بخلفية اختياريًا.';
+  String get demoCupertinoButtonsDescription =>
+      'زر مستوحى من نظام التشغيل iOS. يتم عرض هذا الزر على شكل نص و/أو رمز يتلاشى ويظهر بالتدريج عند اللمس. وقد يكون مزوّدًا بخلفية اختياريًا.';
 
   @override
   String get demoCupertinoAlertsTitle => 'التنبيهات';
 
   @override
-  String get demoCupertinoAlertsSubtitle => 'مربعات حوار التنبيهات المستوحاة من نظام التشغيل iOS';
+  String get demoCupertinoAlertsSubtitle =>
+      'مربعات حوار التنبيهات المستوحاة من نظام التشغيل iOS';
 
   @override
   String get demoCupertinoAlertTitle => 'تنبيه';
 
   @override
-  String get demoCupertinoAlertDescription => 'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري ومحتوى اختياري وقائمة إجراءات اختيارية. ويتم عرض العنوان أعلى المحتوى بينما تُعرض الإجراءات أسفل المحتوى.';
+  String get demoCupertinoAlertDescription =>
+      'يخبر مربع حوار التنبيهات المستخدم بالحالات التي تتطلب تأكيد الاستلام. ويشتمل مربع حوار التنبيهات على عنوان اختياري ومحتوى اختياري وقائمة إجراءات اختيارية. ويتم عرض العنوان أعلى المحتوى بينما تُعرض الإجراءات أسفل المحتوى.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'تنبيه يتضمّن عنوانًا';
@@ -10564,7 +11100,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoCupertinoActionSheetTitle => 'ورقة الإجراءات';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'ورقة الإجراءات هي ورقة أنماط معيّنة للتنبيهات تقدّم للمستخدم مجموعة مكوّنة من خيارين أو أكثر مرتبطة بالسياق الحالي. ويمكن أن تتضمّن ورقة الإجراءات عنوانًا ورسالة إضافية وقائمة إجراءات.';
+  String get demoCupertinoActionSheetDescription =>
+      'ورقة الإجراءات هي ورقة أنماط معيّنة للتنبيهات تقدّم للمستخدم مجموعة مكوّنة من خيارين أو أكثر مرتبطة بالسياق الحالي. ويمكن أن تتضمّن ورقة الإجراءات عنوانًا ورسالة إضافية وقائمة إجراءات.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'شريط التنقل';
@@ -10573,16 +11110,19 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoCupertinoNavigationBarSubtitle => 'شريط تنقل بنمط iOS';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'شريط تنقل بنمط iOS شريط التنقل هو شريط أدوات يتكون على الأقل من عنوان صفحة في وسط شريط الأدوات.';
+  String get demoCupertinoNavigationBarDescription =>
+      'شريط تنقل بنمط iOS شريط التنقل هو شريط أدوات يتكون على الأقل من عنوان صفحة في وسط شريط الأدوات.';
 
   @override
   String get demoCupertinoPickerTitle => 'أدوات اختيار الوقت';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'أدوات اختيار التاريخ والوقت بنمط iOS';
+  String get demoCupertinoPickerSubtitle =>
+      'أدوات اختيار التاريخ والوقت بنمط iOS';
 
   @override
-  String get demoCupertinoPickerDescription => 'أداة اختيار بنمط iOS يمكن استخدامها لاختيار تواريخ أو أوقات أو لاختيار كل من التاريخ والوقت.';
+  String get demoCupertinoPickerDescription =>
+      'أداة اختيار بنمط iOS يمكن استخدامها لاختيار تواريخ أو أوقات أو لاختيار كل من التاريخ والوقت.';
 
   @override
   String get demoCupertinoPickerTimer => 'الموقِّت';
@@ -10600,19 +11140,23 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoCupertinoPullToRefreshTitle => 'سحب لإعادة التحميل';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'عنصر تحكم السحب لإعادة التحميل بنمط iOS';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'عنصر تحكم السحب لإعادة التحميل بنمط iOS';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'أداة تنفّذ إعدادات التحكم في المحتوى للسحب لأعادة التحميل بنمط iOS';
+  String get demoCupertinoPullToRefreshDescription =>
+      'أداة تنفّذ إعدادات التحكم في المحتوى للسحب لأعادة التحميل بنمط iOS';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'عنصر تحكّم شريحة';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'عنصر تحكّم شريحة بنمط iOS';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'عنصر تحكّم شريحة بنمط iOS';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'يُستخدَم للاختيار بين عدد من الخيارات يستبعد أحدها الآخر. عند تحديد خيار في عنصر تحكّم الشريحة، يتم إلغاء اختيار العنصر الآخر في عنصر تحكّم الشريحة.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'يُستخدَم للاختيار بين عدد من الخيارات يستبعد أحدها الآخر. عند تحديد خيار في عنصر تحكّم الشريحة، يتم إلغاء اختيار العنصر الآخر في عنصر تحكّم الشريحة.';
 
   @override
   String get demoCupertinoSliderTitle => 'شريط التمرير';
@@ -10621,7 +11165,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoCupertinoSliderSubtitle => 'شريط تمرير بنمط iOS';
 
   @override
-  String get demoCupertinoSliderDescription => 'يمكن استخدام شريط تمرير للاختيار من مجموعة قيم متصلة أو مجموعة قيم منفصلة.';
+  String get demoCupertinoSliderDescription =>
+      'يمكن استخدام شريط تمرير للاختيار من مجموعة قيم متصلة أو مجموعة قيم منفصلة.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -10637,16 +11182,19 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoCupertinoSwitchSubtitle => 'مفتاح تبديل بنمط iOS';
 
   @override
-  String get demoCupertinoSwitchDescription => 'يُستخدَم مفتاح التبديل لتفعيل إعداد فردي أو إيقافه.';
+  String get demoCupertinoSwitchDescription =>
+      'يُستخدَم مفتاح التبديل لتفعيل إعداد فردي أو إيقافه.';
 
   @override
   String get demoCupertinoTabBarTitle => 'شريط علامات التبويب';
 
   @override
-  String get demoCupertinoTabBarSubtitle => 'شريط علامات التبويب السفلي بنمط iOS';
+  String get demoCupertinoTabBarSubtitle =>
+      'شريط علامات التبويب السفلي بنمط iOS';
 
   @override
-  String get demoCupertinoTabBarDescription => 'شريط علامات تبويب للتنقل السفلي بنمط iOS. يعرض عدة علامات تبويب، حيث تكون هناك علامة تبويب واحدة نشطة وبشكل تلقائي تكون هي علامة التبويب الأولى.';
+  String get demoCupertinoTabBarDescription =>
+      'شريط علامات تبويب للتنقل السفلي بنمط iOS. يعرض عدة علامات تبويب، حيث تكون هناك علامة تبويب واحدة نشطة وبشكل تلقائي تكون هي علامة التبويب الأولى.';
 
   @override
   String get cupertinoTabBarHomeTab => 'علامة التبويب الرئيسية';
@@ -10664,7 +11212,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoCupertinoTextFieldSubtitle => 'حقول نصل بنمط iOS';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'يسمح حقل النص للمستخدم بإدخال نص إما باستخدام لوحة مفاتيح حقيقية أو لوحة مفاتيح تظهر على الشاشة.';
+  String get demoCupertinoTextFieldDescription =>
+      'يسمح حقل النص للمستخدم بإدخال نص إما باستخدام لوحة مفاتيح حقيقية أو لوحة مفاتيح تظهر على الشاشة.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'رقم التعريف الشخصي';
@@ -10676,13 +11225,15 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoMotionSubtitle => 'كل أنماط الانتقال المُعرَّفة مسبقًا';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'البطاقات والقوائم وأزرار الإجراءات الرئيسية (FAB)';
+  String get demoContainerTransformDemoInstructions =>
+      'البطاقات والقوائم وأزرار الإجراءات الرئيسية (FAB)';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'زرّا التالي والرجوع';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'ترتيب حسب \"الأغاني المشغّلة مؤخرًا\"';
+  String get demoSharedYAxisDemoInstructions =>
+      'ترتيب حسب \"الأغاني المشغّلة مؤخرًا\"';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'زر رمز الإعدادات';
@@ -10691,13 +11242,15 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoFadeThroughDemoInstructions => 'شريط التنقّل السفلي';
 
   @override
-  String get demoFadeScaleDemoInstructions => 'مربّع الحوار المشروط وزر الإجراء الرئيسي (FAB)';
+  String get demoFadeScaleDemoInstructions =>
+      'مربّع الحوار المشروط وزر الإجراء الرئيسي (FAB)';
 
   @override
   String get demoContainerTransformTitle => 'تحويل الحاوية';
 
   @override
-  String get demoContainerTransformDescription => 'تم تصميم نمط تحويل الحاوية لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تتضمّن حاوية. ينشئ هذا النمط تأثير ربط مرئي بين عنصرين في واجهة المستخدم.';
+  String get demoContainerTransformDescription =>
+      'تم تصميم نمط تحويل الحاوية لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تتضمّن حاوية. ينشئ هذا النمط تأثير ربط مرئي بين عنصرين في واجهة المستخدم.';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'وضع التلاشي';
@@ -10724,7 +11277,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoMotionListTileTitle => 'عنصر قائمة';
 
   @override
-  String get demoSharedAxisDescription => 'يتم استخدام نمط المحور المشترك لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تربطها علاقة انتقال أو علاقة مكانية. يستخدم هذا النمط التحويل المشترك على محور \"س\" أو \"ص\" أو \"ع\" لتعزيز العلاقة بين العناصر.';
+  String get demoSharedAxisDescription =>
+      'يتم استخدام نمط المحور المشترك لتأثيرات الانتقال بين العناصر في واجهة المستخدم التي تربطها علاقة انتقال أو علاقة مكانية. يستخدم هذا النمط التحويل المشترك على محور \"س\" أو \"ص\" أو \"ع\" لتعزيز العلاقة بين العناصر.';
 
   @override
   String get demoSharedXAxisTitle => 'محور \"س\" المشترك';
@@ -10739,7 +11293,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoSharedXAxisCoursePageTitle => 'تقديم دوراتك بسلاسة';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'تظهر الفئات المجمّعة كمجموعات في الخلاصة. يمكنك دائمًا تغيير هذا لاحقًا.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'تظهر الفئات المجمّعة كمجموعات في الخلاصة. يمكنك دائمًا تغيير هذا لاحقًا.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'فنون وأعمال حِرَفية';
@@ -10769,10 +11324,12 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoSharedXAxisSignInSubtitleText => 'تسجيل الدخول باستخدام حسابك';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'البريد الإلكتروني أو رقم الهاتف';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'البريد الإلكتروني أو رقم الهاتف';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'هل نسيت البريد الإلكتروني؟';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'هل نسيت البريد الإلكتروني؟';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'إنشاء حساب';
@@ -10838,7 +11395,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'شطيرة لحم بقري';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'وصفة شطيرة اللحم البقري';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'وصفة شطيرة اللحم البقري';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'الوصفات المحفوظة';
@@ -10859,7 +11417,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoFadeThroughTitle => 'التلاشي التدريجي';
 
   @override
-  String get demoFadeThroughDescription => 'يتم استخدام نمط التلاشي التدريجي لتأثيرات الانتقال بين عناصر واجهة المستخدم التي لا تربطها علاقة قوية ببعضها.';
+  String get demoFadeThroughDescription =>
+      'يتم استخدام نمط التلاشي التدريجي لتأثيرات الانتقال بين عناصر واجهة المستخدم التي لا تربطها علاقة قوية ببعضها.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'ألبومات';
@@ -10877,7 +11436,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoFadeScaleTitle => 'التلاشي';
 
   @override
-  String get demoFadeScaleDescription => 'يتم استخدام نمط التلاشي مع عناصر واجهة المستخدم التي تدخل في حدود الشاشة أو تخرج منها، مثلاً مربّع حوار يتلاشى في مركز الشاشة.';
+  String get demoFadeScaleDescription =>
+      'يتم استخدام نمط التلاشي مع عناصر واجهة المستخدم التي تدخل في حدود الشاشة أو تخرج منها، مثلاً مربّع حوار يتلاشى في مركز الشاشة.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'إظهار مربّع حوار مشروط';
@@ -10904,7 +11464,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoColorsSubtitle => 'جميع الألوان المحدّدة مسبقًا';
 
   @override
-  String get demoColorsDescription => 'ثوابت اللون وعينات الألوان التي تُمثل لوحة ألوان التصميم المتعدد الأبعاد';
+  String get demoColorsDescription =>
+      'ثوابت اللون وعينات الألوان التي تُمثل لوحة ألوان التصميم المتعدد الأبعاد';
 
   @override
   String get demoTypographyTitle => 'أسلوب الخط';
@@ -10913,7 +11474,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoTypographySubtitle => 'جميع أنماط النص المحدّدة مسبقًا';
 
   @override
-  String get demoTypographyDescription => 'تعريف أساليب الخط المختلفة في التصميم المتعدد الأبعاد';
+  String get demoTypographyDescription =>
+      'تعريف أساليب الخط المختلفة في التصميم المتعدد الأبعاد';
 
   @override
   String get demo2dTransformationsTitle => 'التحويلات الثنائية الأبعاد';
@@ -10922,7 +11484,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demo2dTransformationsSubtitle => 'عرض شامل، تكبير/تصغير، تدوير';
 
   @override
-  String get demo2dTransformationsDescription => 'انقر لتعديل المربّعات واستخدام الإيماءات للتنقل خلال المشهد. اسحب لتنفيذ العرض الشامل وحرّك إصبعيك للتكبير/التصغير ويمكنك التدوير بإصبعين. اضغط على زر إعادة الضبط للرجوع إلى الاتجاه الأصلي.';
+  String get demo2dTransformationsDescription =>
+      'انقر لتعديل المربّعات واستخدام الإيماءات للتنقل خلال المشهد. اسحب لتنفيذ العرض الشامل وحرّك إصبعيك للتكبير/التصغير ويمكنك التدوير بإصبعين. اضغط على زر إعادة الضبط للرجوع إلى الاتجاه الأصلي.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'إعادة ضبط التحويلات';
@@ -10943,13 +11506,15 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoBottomSheetPersistentTitle => 'البطاقة السفلية العادية';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'تعرض البطاقة السفلية العادية معلومات تكميلية للمحتوى الأساسي للتطبيق. ولا تختفي هذه البطاقة عندما يتفاعل المستخدم مع المحتوى الآخر على الشاشة.';
+  String get demoBottomSheetPersistentDescription =>
+      'تعرض البطاقة السفلية العادية معلومات تكميلية للمحتوى الأساسي للتطبيق. ولا تختفي هذه البطاقة عندما يتفاعل المستخدم مع المحتوى الآخر على الشاشة.';
 
   @override
   String get demoBottomSheetModalTitle => 'البطاقة السفلية المقيِّدة';
 
   @override
-  String get demoBottomSheetModalDescription => 'تعتبر البطاقة السفلية المقيِّدة بديلاً لقائمة أو مربّع حوار ولا تسمح للمستخدم بالتفاعل مع المحتوى الآخر على الشاشة.';
+  String get demoBottomSheetModalDescription =>
+      'تعتبر البطاقة السفلية المقيِّدة بديلاً لقائمة أو مربّع حوار ولا تسمح للمستخدم بالتفاعل مع المحتوى الآخر على الشاشة.';
 
   @override
   String get demoBottomSheetAddLabel => 'إضافة';
@@ -10972,7 +11537,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoListsSubtitle => 'التمرير خلال تنسيقات القوائم';
 
   @override
-  String get demoListsDescription => 'صف بارتفاع واحد ثابت يحتوي عادةً على نص ورمز سابق أو لاحق.';
+  String get demoListsDescription =>
+      'صف بارتفاع واحد ثابت يحتوي عادةً على نص ورمز سابق أو لاحق.';
 
   @override
   String get demoOneLineListsTitle => 'سطر واحد';
@@ -10993,13 +11559,15 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoCircularProgressIndicatorTitle => 'مؤشر تقدم دائري';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'مؤشر تقدم دائري بتصميم متعدد الأبعاد (Material Design) ويدور ليدل على أن التطبيق مشغول';
+  String get demoCircularProgressIndicatorDescription =>
+      'مؤشر تقدم دائري بتصميم متعدد الأبعاد (Material Design) ويدور ليدل على أن التطبيق مشغول';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'مؤشر تقدم خطي';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'مؤشر تقدم خطي بتصميم متعدد الأبعاد ويُعرَف أيضًا بشريط التقدم';
+  String get demoLinearProgressIndicatorDescription =>
+      'مؤشر تقدم خطي بتصميم متعدد الأبعاد ويُعرَف أيضًا بشريط التقدم';
 
   @override
   String get demoPickersTitle => 'أدوات اختيار الوقت';
@@ -11011,13 +11579,15 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoDatePickerTitle => 'أداة اختيار التاريخ';
 
   @override
-  String get demoDatePickerDescription => 'تعرض مربّع حوار يحتوي على أداة اختيار تاريخ ذات تصميم متعدد الأبعاد.';
+  String get demoDatePickerDescription =>
+      'تعرض مربّع حوار يحتوي على أداة اختيار تاريخ ذات تصميم متعدد الأبعاد.';
 
   @override
   String get demoTimePickerTitle => 'أداة اختيار الوقت';
 
   @override
-  String get demoTimePickerDescription => 'تعرض مربّع حوار يحتوي على أداة اختيار وقت ذات تصميم متعدد الأبعاد.';
+  String get demoTimePickerDescription =>
+      'تعرض مربّع حوار يحتوي على أداة اختيار وقت ذات تصميم متعدد الأبعاد.';
 
   @override
   String get demoPickersShowPicker => 'إظهار أداة الاختيار';
@@ -11032,19 +11602,23 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoTabsNonScrollingTitle => 'عدم التمرير';
 
   @override
-  String get demoTabsSubtitle => 'علامات تبويب تحتوي على عروض يمكن التنقّل خلالها بشكل مستقل';
+  String get demoTabsSubtitle =>
+      'علامات تبويب تحتوي على عروض يمكن التنقّل خلالها بشكل مستقل';
 
   @override
-  String get demoTabsDescription => 'تساعد علامات التبويب على تنظيم المحتوى في الشاشات المختلفة ومجموعات البيانات والتفاعلات الأخرى.';
+  String get demoTabsDescription =>
+      'تساعد علامات التبويب على تنظيم المحتوى في الشاشات المختلفة ومجموعات البيانات والتفاعلات الأخرى.';
 
   @override
   String get demoSnackbarsTitle => 'أشرطة إعلام منبثقة';
 
   @override
-  String get demoSnackbarsSubtitle => 'تعرض \"أشرطة الإعلام المنبثقة\" رسائل في أسفل الشاشة';
+  String get demoSnackbarsSubtitle =>
+      'تعرض \"أشرطة الإعلام المنبثقة\" رسائل في أسفل الشاشة';
 
   @override
-  String get demoSnackbarsDescription => 'تُعلِم \"أشرطة الإعلام منبثقة\" المستخدمين بعملية نفّذها التطبيق أو بعملية سينفّذها التطبيق. تظهر مؤقتًا باتجاه أسفل الشاشة ويُفترَض ألا تشوش على تجربة المستخدم وألا تتطلب تدخل المستخدم لإخفائها.';
+  String get demoSnackbarsDescription =>
+      'تُعلِم \"أشرطة الإعلام منبثقة\" المستخدمين بعملية نفّذها التطبيق أو بعملية سينفّذها التطبيق. تظهر مؤقتًا باتجاه أسفل الشاشة ويُفترَض ألا تشوش على تجربة المستخدم وألا تتطلب تدخل المستخدم لإخفائها.';
 
   @override
   String get demoSnackbarsButtonLabel => 'عرض شريط إعلام منبثق';
@@ -11056,31 +11630,36 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoSnackbarsActionButtonLabel => 'إجراء';
 
   @override
-  String get demoSnackbarsAction => 'لقد ضغطت على إجراء في \"شريط الإعلام المنبثق\".';
+  String get demoSnackbarsAction =>
+      'لقد ضغطت على إجراء في \"شريط الإعلام المنبثق\".';
 
   @override
   String get demoSelectionControlsTitle => 'عناصر التحكّم في الاختيار';
 
   @override
-  String get demoSelectionControlsSubtitle => 'مربّعات الاختيار وأزرار الاختيار ومفاتيح التبديل';
+  String get demoSelectionControlsSubtitle =>
+      'مربّعات الاختيار وأزرار الاختيار ومفاتيح التبديل';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'مربع اختيار';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'تسمح مربّعات الاختيار للمستخدمين باختيار عدة خيارات من مجموعة من الخيارات. القيمة المعتادة لمربّع الاختيار هي \"صحيح\" أو \"غير صحيح\" ويمكن أيضًا إضافة حالة ثالثة وهي \"خالية\".';
+  String get demoSelectionControlsCheckboxDescription =>
+      'تسمح مربّعات الاختيار للمستخدمين باختيار عدة خيارات من مجموعة من الخيارات. القيمة المعتادة لمربّع الاختيار هي \"صحيح\" أو \"غير صحيح\" ويمكن أيضًا إضافة حالة ثالثة وهي \"خالية\".';
 
   @override
   String get demoSelectionControlsRadioTitle => 'زر اختيار';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'تسمح أزرار الاختيار للقارئ بتحديد خيار واحد من مجموعة من الخيارات. يمكنك استخدام أزرار الاختيار لتحديد اختيارات حصرية إذا كنت تعتقد أنه يجب أن تظهر للمستخدم كل الخيارات المتاحة جنبًا إلى جنب.';
+  String get demoSelectionControlsRadioDescription =>
+      'تسمح أزرار الاختيار للقارئ بتحديد خيار واحد من مجموعة من الخيارات. يمكنك استخدام أزرار الاختيار لتحديد اختيارات حصرية إذا كنت تعتقد أنه يجب أن تظهر للمستخدم كل الخيارات المتاحة جنبًا إلى جنب.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'مفاتيح التبديل';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'تؤدي مفاتيح تبديل التشغيل/الإيقاف إلى تبديل حالة خيار واحد في الإعدادات. يجب توضيح الخيار الذي يتحكّم فيه مفتاح التبديل وكذلك حالته، وذلك من خلال التسمية المضمّنة المتاحة.';
+  String get demoSelectionControlsSwitchDescription =>
+      'تؤدي مفاتيح تبديل التشغيل/الإيقاف إلى تبديل حالة خيار واحد في الإعدادات. يجب توضيح الخيار الذي يتحكّم فيه مفتاح التبديل وكذلك حالته، وذلك من خلال التسمية المضمّنة المتاحة.';
 
   @override
   String get demoBottomTextFieldsTitle => 'حقول النص';
@@ -11089,10 +11668,12 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoTextFieldTitle => 'حقول النص';
 
   @override
-  String get demoTextFieldSubtitle => 'سطر واحد من النص والأرقام القابلة للتعديل';
+  String get demoTextFieldSubtitle =>
+      'سطر واحد من النص والأرقام القابلة للتعديل';
 
   @override
-  String get demoTextFieldDescription => 'تسمح حقول النص للمستخدمين بإدخال نص في واجهة مستخدم. وتظهر عادةً في النماذج ومربّعات الحوار.';
+  String get demoTextFieldDescription =>
+      'تسمح حقول النص للمستخدمين بإدخال نص في واجهة مستخدم. وتظهر عادةً في النماذج ومربّعات الحوار.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'عرض كلمة المرور';
@@ -11101,16 +11682,19 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoTextFieldHidePasswordLabel => 'إخفاء كلمة المرور';
 
   @override
-  String get demoTextFieldFormErrors => 'يُرجى تصحيح الأخطاء باللون الأحمر قبل الإرسال.';
+  String get demoTextFieldFormErrors =>
+      'يُرجى تصحيح الأخطاء باللون الأحمر قبل الإرسال.';
 
   @override
   String get demoTextFieldNameRequired => 'الاسم مطلوب.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'يُرجى إدخال حروف أبجدية فقط.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'يُرجى إدخال حروف أبجدية فقط.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### - يُرجى إدخال رقم هاتف صالح في الولايات المتحدة.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### - يُرجى إدخال رقم هاتف صالح في الولايات المتحدة.';
 
   @override
   String get demoTextFieldEnterPassword => 'يرجى إدخال كلمة مرور.';
@@ -11125,7 +11709,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoTextFieldNameField => 'الاسم*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'على أي رقم يمكننا التواصل معك؟';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'على أي رقم يمكننا التواصل معك؟';
 
   @override
   String get demoTextFieldPhoneNumber => 'رقم الهاتف*';
@@ -11137,7 +11722,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoTextFieldEmail => 'رسالة إلكترونية';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'أخبِرنا عن نفسك (مثلاً ما هي هواياتك المفضّلة أو ما هو مجال عملك؟)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'أخبِرنا عن نفسك (مثلاً ما هي هواياتك المفضّلة أو ما هو مجال عملك؟)';
 
   @override
   String get demoTextFieldKeepItShort => 'يُرجى الاختصار، هذا مجرد عرض توضيحي.';
@@ -11175,13 +11761,16 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get demoTooltipTitle => 'التلميحات';
 
   @override
-  String get demoTooltipSubtitle => 'رسالة قصيرة تُعرَض عند الضغط مع الاستمرار أو تمرير مؤشر الماوس';
+  String get demoTooltipSubtitle =>
+      'رسالة قصيرة تُعرَض عند الضغط مع الاستمرار أو تمرير مؤشر الماوس';
 
   @override
-  String get demoTooltipDescription => 'توفّر التلميحات تصنيفات نصية تساعد في شرح وظيفة زر أو إجراء آخر من إجراءات واجهة المستخدم. تعرض التلميحات نص إخباري عندما يمرّر المستخدمون مؤشر الماوس على عنصر أو يركزون عليه أو يضغطون عليه مع الاستمرار.';
+  String get demoTooltipDescription =>
+      'توفّر التلميحات تصنيفات نصية تساعد في شرح وظيفة زر أو إجراء آخر من إجراءات واجهة المستخدم. تعرض التلميحات نص إخباري عندما يمرّر المستخدمون مؤشر الماوس على عنصر أو يركزون عليه أو يضغطون عليه مع الاستمرار.';
 
   @override
-  String get demoTooltipInstructions => 'اضغط مع الاستمرار على العنصر أو مرّر مؤشر الماوس عليه لعرض التلميح.';
+  String get demoTooltipInstructions =>
+      'اضغط مع الاستمرار على العنصر أو مرّر مؤشر الماوس عليه لعرض التلميح.';
 
   @override
   String get bottomNavigationCommentsTab => 'التعليقات';
@@ -11239,10 +11828,12 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get dialogDiscardTitle => 'هل تريد تجاهل المسودة؟';
 
   @override
-  String get dialogLocationTitle => 'هل تريد استخدام خدمة الموقع الجغرافي من Google؟';
+  String get dialogLocationTitle =>
+      'هل تريد استخدام خدمة الموقع الجغرافي من Google؟';
 
   @override
-  String get dialogLocationDescription => 'يمكنك السماح لشركة Google بمساعدة التطبيقات في تحديد الموقع الجغرافي. ويعني هذا أنه سيتم إرسال بيانات مجهولة المصدر عن الموقع الجغرافي إلى Google، حتى عند عدم تشغيل أي تطبيقات.';
+  String get dialogLocationDescription =>
+      'يمكنك السماح لشركة Google بمساعدة التطبيقات في تحديد الموقع الجغرافي. ويعني هذا أنه سيتم إرسال بيانات مجهولة المصدر عن الموقع الجغرافي إلى Google، حتى عند عدم تشغيل أي تطبيقات.';
 
   @override
   String get dialogCancel => 'إلغاء';
@@ -11287,10 +11878,12 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get cupertinoAlertDiscard => 'تجاهل';
 
   @override
-  String get cupertinoAlertLocationTitle => 'هل تريد السماح لخدمة \"خرائط Google\" بالدخول إلى موقعك الجغرافي أثناء استخدام التطبيق؟';
+  String get cupertinoAlertLocationTitle =>
+      'هل تريد السماح لخدمة \"خرائط Google\" بالدخول إلى موقعك الجغرافي أثناء استخدام التطبيق؟';
 
   @override
-  String get cupertinoAlertLocationDescription => 'سيتم عرض الموقع الجغرافي الحالي على الخريطة واستخدامه لتوفير الاتجاهات ونتائج البحث عن الأماكن المجاورة وأوقات التنقّل المقدرة.';
+  String get cupertinoAlertLocationDescription =>
+      'سيتم عرض الموقع الجغرافي الحالي على الخريطة واستخدامه لتوفير الاتجاهات ونتائج البحث عن الأماكن المجاورة وأوقات التنقّل المقدرة.';
 
   @override
   String get cupertinoAlertAllow => 'السماح';
@@ -11302,7 +11895,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get cupertinoAlertFavoriteDessert => 'Select Favorite Dessert';
 
   @override
-  String get cupertinoAlertDessertDescription => 'يُرجى اختيار نوع الحلوى المفضّل لك من القائمة أدناه. وسيتم استخدام اختيارك في تخصيص القائمة المقترَحة للمطاعم في منطقتك.';
+  String get cupertinoAlertDessertDescription =>
+      'يُرجى اختيار نوع الحلوى المفضّل لك من القائمة أدناه. وسيتم استخدام اختيارك في تخصيص القائمة المقترَحة للمطاعم في منطقتك.';
 
   @override
   String get cupertinoAlertCheesecake => 'كعكة بالجبن';
@@ -11555,13 +12149,15 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get shrineProductShrugBag => 'حقيبة كتف';
 
   @override
-  String get shrineProductGiltDeskTrio => 'طقم أدوات مكتبية ذهبية اللون من 3 قطع';
+  String get shrineProductGiltDeskTrio =>
+      'طقم أدوات مكتبية ذهبية اللون من 3 قطع';
 
   @override
   String get shrineProductCopperWireRack => 'رف سلكي نحاسي';
 
   @override
-  String get shrineProductSootheCeramicSet => 'طقم سيراميك باللون الأبيض الراقي';
+  String get shrineProductSootheCeramicSet =>
+      'طقم سيراميك باللون الأبيض الراقي';
 
   @override
   String get shrineProductHurrahsTeaSet => 'طقم شاي مميّز';
@@ -11624,7 +12220,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get shrineProductClassicWhiteCollar => 'ياقة بيضاء كلاسيكية';
 
   @override
-  String get shrineProductCeriseScallopTee => 'قميص قصير الأكمام باللون الكرزي الفاتح';
+  String get shrineProductCeriseScallopTee =>
+      'قميص قصير الأكمام باللون الكرزي الفاتح';
 
   @override
   String get shrineProductShoulderRollsTee => 'قميص واسعة بأكمام قصيرة';
@@ -11899,7 +12496,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get craneEat10 => 'لشبونة، البرتغال';
 
   @override
-  String get craneFly0SemanticLabel => 'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
+  String get craneFly0SemanticLabel =>
+      'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
 
   @override
   String get craneFly1SemanticLabel => 'خيمة في حقل';
@@ -11914,7 +12512,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get craneFly4SemanticLabel => 'أكواخ فوق الماء';
 
   @override
-  String get craneFly5SemanticLabel => 'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
+  String get craneFly5SemanticLabel =>
+      'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
 
   @override
   String get craneFly6SemanticLabel => 'عرض \"قصر الفنون الجميلة\" من الجوّ';
@@ -11944,7 +12543,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get craneSleep0SemanticLabel => 'أكواخ فوق الماء';
 
   @override
-  String get craneSleep1SemanticLabel => 'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
+  String get craneSleep1SemanticLabel =>
+      'شاليه في مساحة طبيعية من الثلوج وبها أشجار دائمة الخضرة';
 
   @override
   String get craneSleep2SemanticLabel => 'قلعة ماتشو بيتشو';
@@ -11953,7 +12553,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get craneSleep3SemanticLabel => 'رجل متّكِئ على سيارة زرقاء عتيقة';
 
   @override
-  String get craneSleep4SemanticLabel => 'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
+  String get craneSleep4SemanticLabel =>
+      'فندق يطِلّ على بحيرة قُبالة سلسلة من الجبال';
 
   @override
   String get craneSleep5SemanticLabel => 'خيمة في حقل';
@@ -11965,7 +12566,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get craneSleep7SemanticLabel => 'شُقق ملونة في ميدان ريبيارا';
 
   @override
-  String get craneSleep8SemanticLabel => 'أطلال \"المايا\" على جُرْف يطِلّ على الشاطئ';
+  String get craneSleep8SemanticLabel =>
+      'أطلال \"المايا\" على جُرْف يطِلّ على الشاطئ';
 
   @override
   String get craneSleep9SemanticLabel => 'منارة من الطوب على شاطئ البحر';
@@ -12058,7 +12660,8 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get fortnightlyLatestUpdates => 'آخر المستجدّات';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'ثورة الرعاية الصحية الهادئة والفعالة في الوقت نفسه';
+  String get fortnightlyHeadlineHealthcare =>
+      'ثورة الرعاية الصحية الهادئة والفعالة في الوقت نفسه';
 
   @override
   String get fortnightlyHeadlineWar => 'الأمريكيون المنقسمون أثناء الحرب';
@@ -12070,13 +12673,16 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
   String get fortnightlyHeadlineArmy => 'إصلاح الجيش الأخضر من الداخل';
 
   @override
-  String get fortnightlyHeadlineStocks => 'مع ركود الأسهم، يتجه الكثيرون إلى العملة';
+  String get fortnightlyHeadlineStocks =>
+      'مع ركود الأسهم، يتجه الكثيرون إلى العملة';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'مصمِّمون يستخدمون التكنولوجيا لصنع ملابس تستلهم المستقبل';
+  String get fortnightlyHeadlineFabrics =>
+      'مصمِّمون يستخدمون التكنولوجيا لصنع ملابس تستلهم المستقبل';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'مدافعون عن حقوق المرأة يجابهون التحزب';
+  String get fortnightlyHeadlineFeminists =>
+      'مدافعون عن حقوق المرأة يجابهون التحزب';
 
   @override
   String get fortnightlyHeadlineBees => 'نقص نحل الأراضي الزراعية';

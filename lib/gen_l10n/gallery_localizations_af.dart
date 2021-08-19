@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get signIn => 'MELD AAN';
 
   @override
-  String get bannerDemoText => 'Jou wagwoord is op jou ander toestel opgedateer. Meld asseblief weer aan.';
+  String get bannerDemoText =>
+      'Jou wagwoord is op jou ander toestel opgedateer. Meld asseblief weer aan.';
 
   @override
   String get bannerDemoResetText => 'Stel die banier terug';
@@ -60,7 +60,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'Top-10-stede om te besoek in Tamil Nadu';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'Top-10-stede om te besoek in Tamil Nadu';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Nommer 10';
@@ -120,7 +121,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Vakansie';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Jaarpersentasie-opbrengs';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Jaarpersentasie-opbrengs';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Rentekoers';
@@ -129,7 +131,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'Rente in jaar tot nou';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Rente wat verlede jaar betaal is';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Rente wat verlede jaar betaal is';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Volgende staat';
@@ -285,8 +288,10 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Verhoog jou potensiële belastingaftrekking! Wys kategorieë toe aan 1 ontoegewysde transaksie.',
-      other: 'Verhoog jou potensiële belastingaftrekking! Wys kategorieë toe aan ${count} ontoegewysde transaksies.',
+      one:
+          'Verhoog jou potensiële belastingaftrekking! Wys kategorieë toe aan 1 ontoegewysde transaksie.',
+      other:
+          'Verhoog jou potensiële belastingaftrekking! Wys kategorieë toe aan ${count} ontoegewysde transaksies.',
     );
   }
 
@@ -300,7 +305,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Sien alle begrotings';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${accountName}-rekening ${accountNumber} met ${amount}.';
   }
 
@@ -310,7 +316,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return '${budgetName}-begroting met ${amountUsed} gebruik van ${amountTotal}; ${amountLeft} oor';
   }
 
@@ -353,7 +360,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Sien opsies';
 
   @override
-  String get demoOptionsFeatureDescription => 'Tik hier om beskikbare opsies vir hierdie demonstrasie te bekyk.';
+  String get demoOptionsFeatureDescription =>
+      'Tik hier om beskikbare opsies vir hierdie demonstrasie te bekyk.';
 
   @override
   String get settingsTitle => 'Instellings';
@@ -425,19 +433,23 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Onderste programbalk';
 
   @override
-  String get demoBottomAppBarSubtitle => 'Wys navigasie en handelinge aan die onderkant';
+  String get demoBottomAppBarSubtitle =>
+      'Wys navigasie en handelinge aan die onderkant';
 
   @override
-  String get demoBottomAppBarDescription => 'Onderste programbalke bied toegang tot \'n onderste navigasielaai en tot vier handelinge, insluitend die swewende handelingknoppie.';
+  String get demoBottomAppBarDescription =>
+      'Onderste programbalke bied toegang tot \'n onderste navigasielaai en tot vier handelinge, insluitend die swewende handelingknoppie.';
 
   @override
   String get bottomAppBarNotch => 'Keep';
@@ -464,13 +476,15 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Wys \'n banier binne \'n lys';
 
   @override
-  String get demoBannerDescription => '\'n Banier vertoon \'n belangrike, bondige boodskap en verskaf handelinge waaraan gebruikers moet aandag gee (of hulle moet die banier toemaak). \'n Gebruikerhandeling word vereis om dit toe te maak.';
+  String get demoBannerDescription =>
+      '\'n Banier vertoon \'n belangrike, bondige boodskap en verskaf handelinge waaraan gebruikers moet aandag gee (of hulle moet die banier toemaak). \'n Gebruikerhandeling word vereis om dit toe te maak.';
 
   @override
   String get demoBottomNavigationTitle => 'Navigasie onder';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Navigasie aan die onderkant met kruisverdowwingaansigte';
+  String get demoBottomNavigationSubtitle =>
+      'Navigasie aan die onderkant met kruisverdowwingaansigte';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Blywende etikette';
@@ -479,7 +493,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Gekose etiket';
 
   @override
-  String get demoBottomNavigationDescription => 'Navigasiebalke aan die onderkant van die skerm wys drie tot vyf bestemmings. Elke bestemming word deur \'n ikoon en \'n opsionele teksetiket verteenwoordig. Wanneer \'n gebruiker op \'n onderste navigasie-ikoon tik, word hulle geneem na die topvlak-navigasiebestemming wat met daardie ikoon geassosieer word.';
+  String get demoBottomNavigationDescription =>
+      'Navigasiebalke aan die onderkant van die skerm wys drie tot vyf bestemmings. Elke bestemming word deur \'n ikoon en \'n opsionele teksetiket verteenwoordig. Wanneer \'n gebruiker op \'n onderste navigasie-ikoon tik, word hulle geneem na die topvlak-navigasiebestemming wat met daardie ikoon geassosieer word.';
 
   @override
   String get demoButtonTitle => 'Knoppies';
@@ -491,31 +506,36 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoTextButtonTitle => 'Teksknoppie';
 
   @override
-  String get demoTextButtonDescription => '\'n Teksknoppie wys \'n inkspatsel wanneer dit gedruk word maar word nie gelig nie. Gebruik teksknoppies op nutsbalke, in dialoë en inlyn met opvulling';
+  String get demoTextButtonDescription =>
+      '\'n Teksknoppie wys \'n inkspatsel wanneer dit gedruk word maar word nie gelig nie. Gebruik teksknoppies op nutsbalke, in dialoë en inlyn met opvulling';
 
   @override
   String get demoElevatedButtonTitle => 'Verhewe knoppie';
 
   @override
-  String get demoElevatedButtonDescription => 'Verhewe knoppies voeg dimensie by vir uitlegte wat meestal plat is. Hulle beklemtoon funksies in besige of wye ruimtes.';
+  String get demoElevatedButtonDescription =>
+      'Verhewe knoppies voeg dimensie by vir uitlegte wat meestal plat is. Hulle beklemtoon funksies in besige of wye ruimtes.';
 
   @override
   String get demoOutlinedButtonTitle => 'Buitelynknoppie';
 
   @override
-  String get demoOutlinedButtonDescription => 'Buitelynknoppies word ondeursigtig en verhewe wanneer hulle gedruk word. Hulle word dikwels met verhewe knoppies saamgebind om \'n alternatiewe, sekondêre handeling aan te dui.';
+  String get demoOutlinedButtonDescription =>
+      'Buitelynknoppies word ondeursigtig en verhewe wanneer hulle gedruk word. Hulle word dikwels met verhewe knoppies saamgebind om \'n alternatiewe, sekondêre handeling aan te dui.';
 
   @override
   String get demoToggleButtonTitle => 'Wisselknoppies';
 
   @override
-  String get demoToggleButtonDescription => 'Wisselknoppies kan gebruik word om verwante opsies te groepeer. Om \'n groep verwante wisselknoppies te beklemtoon, moet \'n groep \'n gemeenskaplike houer deel';
+  String get demoToggleButtonDescription =>
+      'Wisselknoppies kan gebruik word om verwante opsies te groepeer. Om \'n groep verwante wisselknoppies te beklemtoon, moet \'n groep \'n gemeenskaplike houer deel';
 
   @override
   String get demoFloatingButtonTitle => 'Swewende handelingknoppie';
 
   @override
-  String get demoFloatingButtonDescription => '\'n Swewende handelingknoppie is \'n ronde ikoonknoppie wat oor inhoud hang om \'n primêre handeling in die program te bevorder.';
+  String get demoFloatingButtonDescription =>
+      '\'n Swewende handelingknoppie is \'n ronde ikoonknoppie wat oor inhoud hang om \'n primêre handeling in die program te bevorder.';
 
   @override
   String get demoCardTitle => 'Kaarte';
@@ -527,34 +547,40 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoChipTitle => 'Skyfies';
 
   @override
-  String get demoCardDescription => '\'n Kaart is \'n sigblad met materiaal wat gebruik word om verwante inligting te verteenwoordig, soos byvoorbeeld \'n album, \'n geografiese ligging, \'n maaltyd, kontakbesonderhede, ens.';
+  String get demoCardDescription =>
+      '\'n Kaart is \'n sigblad met materiaal wat gebruik word om verwante inligting te verteenwoordig, soos byvoorbeeld \'n album, \'n geografiese ligging, \'n maaltyd, kontakbesonderhede, ens.';
 
   @override
-  String get demoChipSubtitle => 'Kompakte elemente wat \'n invoer, kenmerk of handeling verteenwoordig';
+  String get demoChipSubtitle =>
+      'Kompakte elemente wat \'n invoer, kenmerk of handeling verteenwoordig';
 
   @override
   String get demoActionChipTitle => 'Handelingskyfie';
 
   @override
-  String get demoActionChipDescription => 'Handelingskyfies is \'n stel opsies wat \'n handeling wat met primêre inhoud verband hou, veroorsaak. Handelingskyfies behoort dinamies en kontekstueel in \'n UI te verskyn.';
+  String get demoActionChipDescription =>
+      'Handelingskyfies is \'n stel opsies wat \'n handeling wat met primêre inhoud verband hou, veroorsaak. Handelingskyfies behoort dinamies en kontekstueel in \'n UI te verskyn.';
 
   @override
   String get demoChoiceChipTitle => 'Keuseskyfie';
 
   @override
-  String get demoChoiceChipDescription => 'Keuseskyfies verteenwoordig \'n enkele keuse van \'n stel af. Keuseskyfies bevat beskrywende teks of kategorieë.';
+  String get demoChoiceChipDescription =>
+      'Keuseskyfies verteenwoordig \'n enkele keuse van \'n stel af. Keuseskyfies bevat beskrywende teks of kategorieë.';
 
   @override
   String get demoFilterChipTitle => 'Filterskyfie';
 
   @override
-  String get demoFilterChipDescription => 'Filterskyfies gebruik merkers of beskrywende woorde om inhoud te filtreer.';
+  String get demoFilterChipDescription =>
+      'Filterskyfies gebruik merkers of beskrywende woorde om inhoud te filtreer.';
 
   @override
   String get demoInputChipTitle => 'Invoerskyfie';
 
   @override
-  String get demoInputChipDescription => 'Invoerskyfies verteenwoordig \'n komplekse stuk inligting, soos \'n entiteit (persoon, plek of ding) of gespreksteks, in \'n kompakte vorm.';
+  String get demoInputChipDescription =>
+      'Invoerskyfies verteenwoordig \'n komplekse stuk inligting, soos \'n entiteit (persoon, plek of ding) of gespreksteks, in \'n kompakte vorm.';
 
   @override
   String get demoDataTableTitle => 'Datatabelle';
@@ -563,7 +589,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'Rye en kolomme inligting';
 
   @override
-  String get demoDataTableDescription => 'Datatabelle wys inligting in \'n roosterformaat met rye en kolomme. Dit organiseer inligting op \'n manier wat maklik is om noukeurig te bestudeer sodat gebruikers patrone en insigte kan kry.';
+  String get demoDataTableDescription =>
+      'Datatabelle wys inligting in \'n roosterformaat met rye en kolomme. Dit organiseer inligting op \'n manier wat maklik is om noukeurig te bestudeer sodat gebruikers patrone en insigte kan kry.';
 
   @override
   String get dataTableHeader => 'Voeding';
@@ -642,7 +669,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'Opletberig';
 
   @override
-  String get demoAlertDialogDescription => '\'n Opletberigdialoog lig die gebruiker in oor situasies wat erkenning nodig het. \'n Opletberigdialoog het \'n opsionele titel en \'n opsionele lys handelinge.';
+  String get demoAlertDialogDescription =>
+      '\'n Opletberigdialoog lig die gebruiker in oor situasies wat erkenning nodig het. \'n Opletberigdialoog het \'n opsionele titel en \'n opsionele lys handelinge.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Opletberig met titel';
@@ -651,16 +679,19 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Eenvoudig';
 
   @override
-  String get demoSimpleDialogDescription => '\'n Eenvoudige dialoog bied die gebruiker \'n keuse tussen verskeie opsies. \'n Eenvoudige dialoog het \'n opsionele titel wat bo die keuses gewys word.';
+  String get demoSimpleDialogDescription =>
+      '\'n Eenvoudige dialoog bied die gebruiker \'n keuse tussen verskeie opsies. \'n Eenvoudige dialoog het \'n opsionele titel wat bo die keuses gewys word.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +703,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Ry- en kolomuitleg';
 
   @override
-  String get demoGridListsDescription => 'Roosterlyste is die geskikste vir die aanbieding van gelyksoortige data, tipies prente. Elke item op \'n roosterlys word \'n teël genoem.';
+  String get demoGridListsDescription =>
+      'Roosterlyste is die geskikste vir die aanbieding van gelyksoortige data, tipies prente. Elke item op \'n roosterlys word \'n teël genoem.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Net prent';
@@ -687,34 +719,41 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoSlidersTitle => 'Glyers';
 
   @override
-  String get demoSlidersSubtitle => 'Legstukke om \'n waarde te kies deur te swiep';
+  String get demoSlidersSubtitle =>
+      'Legstukke om \'n waarde te kies deur te swiep';
 
   @override
-  String get demoSlidersDescription => 'Glyers weerspieël \'n reeks waardes langs \'n balk, waarop gebruikers \'n enkelwaarde kan kies. Hulle is ideaal daarvoor om instellings soos volume of helderheid te verstel, of om prentfilters toe te pas.';
+  String get demoSlidersDescription =>
+      'Glyers weerspieël \'n reeks waardes langs \'n balk, waarop gebruikers \'n enkelwaarde kan kies. Hulle is ideaal daarvoor om instellings soos volume of helderheid te verstel, of om prentfilters toe te pas.';
 
   @override
   String get demoRangeSlidersTitle => 'Reeksglyers';
 
   @override
-  String get demoRangeSlidersDescription => 'Glyers weerspieël \'n reeks waardes langs \'n balk. Hulle kan ikone op albei punte van die balk hê wat \'n reeks waardes weerspieël. Hulle is ideaal daarvoor om instellings soos volume of helderheid te verstel, of om prentfilters toe te pas.';
+  String get demoRangeSlidersDescription =>
+      'Glyers weerspieël \'n reeks waardes langs \'n balk. Hulle kan ikone op albei punte van die balk hê wat \'n reeks waardes weerspieël. Hulle is ideaal daarvoor om instellings soos volume of helderheid te verstel, of om prentfilters toe te pas.';
 
   @override
   String get demoCustomSlidersTitle => 'Gepasmaakte glyers';
 
   @override
-  String get demoCustomSlidersDescription => 'Glyers weerspieël \'n reeks waardes langs \'n balk, waarop gebruikers \'n enkelwaarde of \'n reeks waardes kan kies. Die glyers kan temas hê en gepasmaak word.';
+  String get demoCustomSlidersDescription =>
+      'Glyers weerspieël \'n reeks waardes langs \'n balk, waarop gebruikers \'n enkelwaarde of \'n reeks waardes kan kies. Die glyers kan temas hê en gepasmaak word.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Aaneenlopend met wysigbare numeriese waarde';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Aaneenlopend met wysigbare numeriese waarde';
 
   @override
   String get demoSlidersDiscrete => 'Diskreet';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Diskrete glyer met gepasmaakte tema';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Diskrete glyer met gepasmaakte tema';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Aaneenlopende reeksglyer met gepasmaakte tema';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Aaneenlopende reeksglyer met gepasmaakte tema';
 
   @override
   String get demoSlidersContinuous => 'Aaneenlopend';
@@ -741,7 +780,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Kielysknoppies en eenvoudige kieslyste';
 
   @override
-  String get demoMenuDescription => '\'n Kieslys wys \'n lys keuses op \'n tydelike oppervlakte. Hulle verskyn wanneer \'n gebruiker interaksie met \'n knoppie, handeling of ander kontrole het.';
+  String get demoMenuDescription =>
+      '\'n Kieslys wys \'n lys keuses op \'n tydelike oppervlakte. Hulle verskyn wanneer \'n gebruiker interaksie met \'n knoppie, handeling of ander kontrole het.';
 
   @override
   String get demoMenuItemValueOne => 'Kieslysitem een';
@@ -765,7 +805,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoMenuFour => 'Vier';
 
   @override
-  String get demoMenuAnItemWithAContextMenuButton => '\'n Item met \'n kontekskieslys';
+  String get demoMenuAnItemWithAContextMenuButton =>
+      '\'n Item met \'n kontekskieslys';
 
   @override
   String get demoMenuContextMenuItemOne => 'Kontekskieslysitem een';
@@ -777,7 +818,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoMenuContextMenuItemThree => 'Kontekskieslysitem drie';
 
   @override
-  String get demoMenuAnItemWithASectionedMenu => '\'n Item met \'n verdeelde kieslys';
+  String get demoMenuAnItemWithASectionedMenu =>
+      '\'n Item met \'n verdeelde kieslys';
 
   @override
   String get demoMenuPreview => 'Voorskou';
@@ -808,7 +850,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoNavigationDrawerSubtitle => 'Wys \'n laai binne programbalk';
 
   @override
-  String get demoNavigationDrawerDescription => '\'n Materiaalontwerppaneel wat horisontaal van die rand van die skerm af gly om navigasieskakels in \'n program te wys.';
+  String get demoNavigationDrawerDescription =>
+      '\'n Materiaalontwerppaneel wat horisontaal van die rand van die skerm af gly om navigasieskakels in \'n program te wys.';
 
   @override
   String get demoNavigationDrawerUserName => 'Gebruikernaam';
@@ -823,16 +866,19 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Item twee';
 
   @override
-  String get demoNavigationDrawerText => 'Swiep van die rand af of tik op die ikoon links bo om die laai te sien';
+  String get demoNavigationDrawerText =>
+      'Swiep van die rand af of tik op die ikoon links bo om die laai te sien';
 
   @override
   String get demoNavigationRailTitle => 'Navigasiespoor';
 
   @override
-  String get demoNavigationRailSubtitle => 'Wys \'n navigasiespoor binne \'n program';
+  String get demoNavigationRailSubtitle =>
+      'Wys \'n navigasiespoor binne \'n program';
 
   @override
-  String get demoNavigationRailDescription => '\'n Materiaallegstuk wat bedoel is om links of regs van \'n program gewys te word om te navigeer tussen \'n klein aantal aansigte, gewoonlik tussen drie en vyf.';
+  String get demoNavigationRailDescription =>
+      '\'n Materiaallegstuk wat bedoel is om links of regs van \'n program gewys te word om te navigeer tussen \'n klein aantal aansigte, gewoonlik tussen drie en vyf.';
 
   @override
   String get demoNavigationRailFirst => 'Eerste';
@@ -844,25 +890,30 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoNavigationRailThird => 'Derde';
 
   @override
-  String get demoMenuAnItemWithASimpleMenu => '\'n Item met \'n eenvoudige kieslys';
+  String get demoMenuAnItemWithASimpleMenu =>
+      '\'n Item met \'n eenvoudige kieslys';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => '\'n Item met \'n kontrolelyskieslys';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      '\'n Item met \'n kontrolelyskieslys';
 
   @override
   String get demoFullscreenDialogTitle => 'Volskerm';
 
   @override
-  String get demoFullscreenDialogDescription => 'Die volskermdialoog-eienskap spesifiseer of die inkomende bladsy \'n volskerm- modale dialoog is';
+  String get demoFullscreenDialogDescription =>
+      'Die volskermdialoog-eienskap spesifiseer of die inkomende bladsy \'n volskerm- modale dialoog is';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Aktiwiteitverklikker';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'iOS-stylaktiwiteitaanwysers';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'iOS-stylaktiwiteitaanwysers';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => '\'n iOS-stylaktiwiteitaanwyser wat kloksgewys draai.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      '\'n iOS-stylaktiwiteitaanwyser wat kloksgewys draai.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Knoppies';
@@ -871,7 +922,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'Knoppies in iOS-styl';
 
   @override
-  String get demoCupertinoButtonsDescription => '\'n Knoppie in iOS-styl. Dit bring teks en/of \'n ikoon in wat verdof of duideliker word met aanraking. Het die opsie om \'n agtergrond te hê.';
+  String get demoCupertinoButtonsDescription =>
+      '\'n Knoppie in iOS-styl. Dit bring teks en/of \'n ikoon in wat verdof of duideliker word met aanraking. Het die opsie om \'n agtergrond te hê.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +932,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,7 +942,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Opletberigte';
@@ -901,7 +955,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => 'Opletberig';
 
   @override
-  String get demoCupertinoAlertDescription => '\'n Opletberigdialoog lig die gebruiker in oor situasies wat erkenning nodig het. \'n Opletberigdialoog het \'n opsionele titel, opsionele inhoud en \'n opsionele lys handelinge. Die titel word bo die inhoud vertoon en die handelinge word onder die inhoud vertoon.';
+  String get demoCupertinoAlertDescription =>
+      '\'n Opletberigdialoog lig die gebruiker in oor situasies wat erkenning nodig het. \'n Opletberigdialoog het \'n opsionele titel, opsionele inhoud en \'n opsionele lys handelinge. Die titel word bo die inhoud vertoon en die handelinge word onder die inhoud vertoon.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Opletberig met titel';
@@ -916,7 +971,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'Handelingelys';
 
   @override
-  String get demoCupertinoActionSheetDescription => '\'n Handelingelys is \'n spesifieke styl opletberig wat \'n stel van twee of meer keuses wat met die huidige konteks verband hou, aan die gebruiker bied. \'n Handelingelys kan \'n titel, \'n bykomende boodskap en \'n lys handelinge hê.';
+  String get demoCupertinoActionSheetDescription =>
+      '\'n Handelingelys is \'n spesifieke styl opletberig wat \'n stel van twee of meer keuses wat met die huidige konteks verband hou, aan die gebruiker bied. \'n Handelingelys kan \'n titel, \'n bykomende boodskap en \'n lys handelinge hê.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Navigasiebalk';
@@ -925,7 +981,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoCupertinoNavigationBarSubtitle => 'Navigasiebalk in iOS-styl';
 
   @override
-  String get demoCupertinoNavigationBarDescription => '\'n Navigasiebalk in iOS-styl. Die navigasiebalk is \'n nutsbalk wat bestaan uit minstens \'n bladsytitel in die middel van die nutsbalk.';
+  String get demoCupertinoNavigationBarDescription =>
+      '\'n Navigasiebalk in iOS-styl. Die navigasiebalk is \'n nutsbalk wat bestaan uit minstens \'n bladsytitel in die middel van die nutsbalk.';
 
   @override
   String get demoCupertinoPickerTitle => 'Kiesers';
@@ -934,7 +991,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoCupertinoPickerSubtitle => 'Datum- en tydkieser in iOS-styl';
 
   @override
-  String get demoCupertinoPickerDescription => '\'n Kieserlegstuk in iOS-styl wat gebruik kan word om datums, tyd, of datum én tyd te kies.';
+  String get demoCupertinoPickerDescription =>
+      '\'n Kieserlegstuk in iOS-styl wat gebruik kan word om datums, tyd, of datum én tyd te kies.';
 
   @override
   String get demoCupertinoPickerTimer => 'Afteller';
@@ -952,19 +1010,23 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'Trek om te herlaai';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'Trek-om-te-herlaai-kontrole in iOS-styl';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'Trek-om-te-herlaai-kontrole in iOS-styl';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => '\'n Legstuk wat die trek-om-te-herlaai-inhoudkontrole in iOS-styl instel.';
+  String get demoCupertinoPullToRefreshDescription =>
+      '\'n Legstuk wat die trek-om-te-herlaai-inhoudkontrole in iOS-styl instel.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Gesegmenteerde kontrole';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'Gesegmenteerde kontrole in iOS-styl';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'Gesegmenteerde kontrole in iOS-styl';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Word gebruik om tussen \'n aantal wedersyds eksklusiewe opsies te kies. As een opsie in die gesegmenteerde kontrole gekies is, sal die ander opsies in die gesegmenteerde kontrole nie meer gekies wees nie.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Word gebruik om tussen \'n aantal wedersyds eksklusiewe opsies te kies. As een opsie in die gesegmenteerde kontrole gekies is, sal die ander opsies in die gesegmenteerde kontrole nie meer gekies wees nie.';
 
   @override
   String get demoCupertinoSliderTitle => 'Glyer';
@@ -973,7 +1035,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'Glyer in iOS-styl';
 
   @override
-  String get demoCupertinoSliderDescription => '\'n Glyer kan gebruik word om uit óf \'n aaneenlopende óf \'n diskrete stel waardes te kies.';
+  String get demoCupertinoSliderDescription =>
+      '\'n Glyer kan gebruik word om uit óf \'n aaneenlopende óf \'n diskrete stel waardes te kies.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,7 +1052,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'Skakelaar in iOS-styl';
 
   @override
-  String get demoCupertinoSwitchDescription => '\'n Skakelaar word gebruik om \'n enkele instelling aan of af te skakel.';
+  String get demoCupertinoSwitchDescription =>
+      '\'n Skakelaar word gebruik om \'n enkele instelling aan of af te skakel.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Oortjiebalk';
@@ -998,7 +1062,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'Onderste oortjiebalk in iOS-styl';
 
   @override
-  String get demoCupertinoTabBarDescription => '\'n Onderste navigasie-oortjiebalk in iOS-styl. Wys veelvuldige oortjies met een aktiewe oortjie; dit is by verstek die eerste oortjie.';
+  String get demoCupertinoTabBarDescription =>
+      '\'n Onderste navigasie-oortjiebalk in iOS-styl. Wys veelvuldige oortjies met een aktiewe oortjie; dit is by verstek die eerste oortjie.';
 
   @override
   String get cupertinoTabBarHomeTab => 'Tuis';
@@ -1016,7 +1081,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'Teksvelde in iOS-styl';
 
   @override
-  String get demoCupertinoTextFieldDescription => '\'n Teksveld stel die gebruiker in staat om teks in te voer, hetsy met \'n hardewaresleutelbord of \'n sleutelbord op die skerm.';
+  String get demoCupertinoTextFieldDescription =>
+      '\'n Teksveld stel die gebruiker in staat om teks in te voer, hetsy met \'n hardewaresleutelbord of \'n sleutelbord op die skerm.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN';
@@ -1028,13 +1094,15 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoMotionSubtitle => 'Al die voorafgedefinieerde oorgangspatrone';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'Kaarte, lyste en sweefhandelingknoppie';
+  String get demoContainerTransformDemoInstructions =>
+      'Kaarte, lyste en sweefhandelingknoppie';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'Volgende- en Terugknoppie';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'Rangskik volgens \"Onlangs gespeel\"';
+  String get demoSharedYAxisDemoInstructions =>
+      'Rangskik volgens \"Onlangs gespeel\"';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'Instellingsikoonknoppie';
@@ -1049,7 +1117,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'Houeromskepping';
 
   @override
-  String get demoContainerTransformDescription => 'Die houeromskeppingpatroon is ontwerp vir oorgang tussen UI-elemente wat \'n houer insluit. Die patroon skep \'n sigbare verbinding tussen twee UI-elemente';
+  String get demoContainerTransformDescription =>
+      'Die houeromskeppingpatroon is ontwerp vir oorgang tussen UI-elemente wat \'n houer insluit. Die patroon skep \'n sigbare verbinding tussen twee UI-elemente';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'Doofmodus';
@@ -1076,7 +1145,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Lysitem';
 
   @override
-  String get demoSharedAxisDescription => 'Die gedeelde-aspatroon word gebruik vir oorgang tussen die UI-elemente wat \'n ruimtelike of navigasieverhouding het. Die patroon gebruik \'n gedeelde omskepping op die x-, y- of z-as om die verhouding tussen elemente te versterk.';
+  String get demoSharedAxisDescription =>
+      'Die gedeelde-aspatroon word gebruik vir oorgang tussen die UI-elemente wat \'n ruimtelike of navigasieverhouding het. Die patroon gebruik \'n gedeelde omskepping op die x-, y- of z-as om die verhouding tussen elemente te versterk.';
 
   @override
   String get demoSharedXAxisTitle => 'Gedeelde x-as';
@@ -1091,7 +1161,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'Stroomlyn jou kursusse';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Gebondelde kategorieë verskyn as groepe in jou stroom. Jy kan dit altyd later verander.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Gebondelde kategorieë verskyn as groepe in jou stroom. Jy kan dit altyd later verander.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Kuns en kunsvlyt';
@@ -1112,7 +1183,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoSharedXAxisBundledCourseSubtitle => 'Gebondel';
 
   @override
-  String get demoSharedXAxisIndividualCourseSubtitle => 'Word individueel gewys';
+  String get demoSharedXAxisIndividualCourseSubtitle =>
+      'Word individueel gewys';
 
   @override
   String get demoSharedXAxisSignInWelcomeText => 'Hallo David Park';
@@ -1190,7 +1262,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Beesvleistoebroodjie';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Beesvleistoebroodjieresep';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Beesvleistoebroodjieresep';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Gestoorde resepte';
@@ -1211,7 +1284,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Deurdoof';
 
   @override
-  String get demoFadeThroughDescription => 'Die deurdoofpatroon word gebruik vir oorgang tussen UI-elemente wat nie \'n sterk vehouding met mekaar het nie.';
+  String get demoFadeThroughDescription =>
+      'Die deurdoofpatroon word gebruik vir oorgang tussen UI-elemente wat nie \'n sterk vehouding met mekaar het nie.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Albums';
@@ -1229,7 +1303,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Doof';
 
   @override
-  String get demoFadeScaleDescription => 'Die doofpatroon word gebruik vir UI-elemente wat binne die grense van die skerm inkom of uitgaan, soos \'n dialoog wat in die middel van die skerm verdof.';
+  String get demoFadeScaleDescription =>
+      'Die doofpatroon word gebruik vir UI-elemente wat binne die grense van die skerm inkom of uitgaan, soos \'n dialoog wat in die middel van die skerm verdof.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'WYS MODAAL';
@@ -1256,7 +1331,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Al die vooraf gedefinieerde kleure';
 
   @override
-  String get demoColorsDescription => 'Kleur en kleurmonsterkonstantes wat Materiaalontwerp se kleurpalet verteenwoordig.';
+  String get demoColorsDescription =>
+      'Kleur en kleurmonsterkonstantes wat Materiaalontwerp se kleurpalet verteenwoordig.';
 
   @override
   String get demoTypographyTitle => 'Tipografie';
@@ -1265,7 +1341,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoTypographySubtitle => 'Al die voorafgedefinieerde teksstyle';
 
   @override
-  String get demoTypographyDescription => 'Definisies vir die verskillende tipografiese style wat in Materiaalontwerp gevind word.';
+  String get demoTypographyDescription =>
+      'Definisies vir die verskillende tipografiese style wat in Materiaalontwerp gevind word.';
 
   @override
   String get demo2dTransformationsTitle => '2D-transformasies';
@@ -1274,7 +1351,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'Beeldrol, zoem en draai';
 
   @override
-  String get demo2dTransformationsDescription => 'Tik om teëls te wysig en gebruik gebare om op die toneel rond te beweeg. Sleep om te beeldrol, knyp om te zoem, gebruik twee vingers om te draai. Druk die terugstellingknoppie om na die aanvanklike oriëntasie terug te keer.';
+  String get demo2dTransformationsDescription =>
+      'Tik om teëls te wysig en gebruik gebare om op die toneel rond te beweeg. Sleep om te beeldrol, knyp om te zoem, gebruik twee vingers om te draai. Druk die terugstellingknoppie om na die aanvanklike oriëntasie terug te keer.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Stel transformasies terug';
@@ -1295,13 +1373,15 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoBottomSheetPersistentTitle => 'Blywende blad onder';
 
   @override
-  String get demoBottomSheetPersistentDescription => '\'n Blywende blad aan die onderkant van die skerm wys inligting wat die primêre inhoud van die program aanvul. Dit bly sigbaar, selfs wanneer die gebruiker met ander dele van die program interaksie het.';
+  String get demoBottomSheetPersistentDescription =>
+      '\'n Blywende blad aan die onderkant van die skerm wys inligting wat die primêre inhoud van die program aanvul. Dit bly sigbaar, selfs wanneer die gebruiker met ander dele van die program interaksie het.';
 
   @override
   String get demoBottomSheetModalTitle => 'Modale blad aan die onderkant';
 
   @override
-  String get demoBottomSheetModalDescription => '\'n Modale blad aan die onderkant van die skerm is \'n alternatief vir \'n kieslys of dialoog. Dit verhoed dat die gebruiker met die res van die program interaksie kan hê.';
+  String get demoBottomSheetModalDescription =>
+      '\'n Modale blad aan die onderkant van die skerm is \'n alternatief vir \'n kieslys of dialoog. Dit verhoed dat die gebruiker met die res van die program interaksie kan hê.';
 
   @override
   String get demoBottomSheetAddLabel => 'Voeg by';
@@ -1324,7 +1404,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoListsSubtitle => 'Rollysuitlegte';
 
   @override
-  String get demoListsDescription => '\'n Enkele ry met vaste hoogte wat gewoonlik \'n bietjie teks bevat, asook \'n ikoon vooraan of agteraan.';
+  String get demoListsDescription =>
+      '\'n Enkele ry met vaste hoogte wat gewoonlik \'n bietjie teks bevat, asook \'n ikoon vooraan of agteraan.';
 
   @override
   String get demoOneLineListsTitle => 'Een reël';
@@ -1342,16 +1423,19 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoProgressIndicatorSubtitle => 'Lineêr, sirkelvormig, onbepaald';
 
   @override
-  String get demoCircularProgressIndicatorTitle => 'Sirkelvormige vorderingaanwyser';
+  String get demoCircularProgressIndicatorTitle =>
+      'Sirkelvormige vorderingaanwyser';
 
   @override
-  String get demoCircularProgressIndicatorDescription => '\'n Sirkelvormige materiaalontwerp-vorderingaanwyser wat draai om aan te dui dat die toepassing besig is.';
+  String get demoCircularProgressIndicatorDescription =>
+      '\'n Sirkelvormige materiaalontwerp-vorderingaanwyser wat draai om aan te dui dat die toepassing besig is.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'Lineêre vorderingaanwyser';
 
   @override
-  String get demoLinearProgressIndicatorDescription => '\'n Lineêre materiaalontwerp-vorderingaanwyser, ook bekend as \'n vorderingsbalk.';
+  String get demoLinearProgressIndicatorDescription =>
+      '\'n Lineêre materiaalontwerp-vorderingaanwyser, ook bekend as \'n vorderingsbalk.';
 
   @override
   String get demoPickersTitle => 'Kiesers';
@@ -1363,19 +1447,22 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Datumkieser';
 
   @override
-  String get demoDatePickerDescription => 'Wys \'n dialoog met \'n materiaalontwerp-datumkieser.';
+  String get demoDatePickerDescription =>
+      'Wys \'n dialoog met \'n materiaalontwerp-datumkieser.';
 
   @override
   String get demoTimePickerTitle => 'Tydkieser';
 
   @override
-  String get demoTimePickerDescription => 'Wys \'n dialoog met \'n materiaalontwerp-tydkieser.';
+  String get demoTimePickerDescription =>
+      'Wys \'n dialoog met \'n materiaalontwerp-tydkieser.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'WYS KIESER';
@@ -1390,19 +1477,23 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoTabsNonScrollingTitle => 'Nie-rollees';
 
   @override
-  String get demoTabsSubtitle => 'Oortjies met aansigte waardeur jy onafhanklik kan rollees';
+  String get demoTabsSubtitle =>
+      'Oortjies met aansigte waardeur jy onafhanklik kan rollees';
 
   @override
-  String get demoTabsDescription => 'Oortjies organiseer inhoud oor verskillende skerms, datastelle, en ander interaksies heen.';
+  String get demoTabsDescription =>
+      'Oortjies organiseer inhoud oor verskillende skerms, datastelle, en ander interaksies heen.';
 
   @override
   String get demoSnackbarsTitle => 'Teksbalke';
 
   @override
-  String get demoSnackbarsSubtitle => 'Teksbalke wys boodskappe aan die onderkant van die skerm';
+  String get demoSnackbarsSubtitle =>
+      'Teksbalke wys boodskappe aan die onderkant van die skerm';
 
   @override
-  String get demoSnackbarsDescription => 'Teksbalke lig gebruikers in oor \'n proses wat \'n program uitgevoer het of sal uitvoer. Hulle verskyn tydelik naby die onderkant van die skerm. Hulle behoort nie die gebruikerervaring te onderbreek nie en hulle vereis nie gebruikerhandeling om te verdwyn nie.';
+  String get demoSnackbarsDescription =>
+      'Teksbalke lig gebruikers in oor \'n proses wat \'n program uitgevoer het of sal uitvoer. Hulle verskyn tydelik naby die onderkant van die skerm. Hulle behoort nie die gebruikerervaring te onderbreek nie en hulle vereis nie gebruikerhandeling om te verdwyn nie.';
 
   @override
   String get demoSnackbarsButtonLabel => 'WYS \'N TEKSBALK';
@@ -1420,25 +1511,29 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoSelectionControlsTitle => 'Seleksiekontroles';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Merkblokkies, klinkknoppies en skakelaars';
+  String get demoSelectionControlsSubtitle =>
+      'Merkblokkies, klinkknoppies en skakelaars';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Merkblokkie';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Merkblokkies maak dit vir die gebruiker moontlik om veelvuldige opsies uit \'n stel te kies. \'n Normale merkblokkie se waarde is waar of vals, en \'n driestaatmerkblokkie se waarde kan ook nul wees.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Merkblokkies maak dit vir die gebruiker moontlik om veelvuldige opsies uit \'n stel te kies. \'n Normale merkblokkie se waarde is waar of vals, en \'n driestaatmerkblokkie se waarde kan ook nul wees.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Radio';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Klinkknoppies maak dit vir die gebruiker moontlik om een opsie uit \'n stel te kies. Gebruik klinkknoppies vir \'n uitsluitende keuse as jy dink dat die gebruiker alle beskikbare opsies langs mekaar moet sien.';
+  String get demoSelectionControlsRadioDescription =>
+      'Klinkknoppies maak dit vir die gebruiker moontlik om een opsie uit \'n stel te kies. Gebruik klinkknoppies vir \'n uitsluitende keuse as jy dink dat die gebruiker alle beskikbare opsies langs mekaar moet sien.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Wissel';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Aan/af-skakelaar wissel die staat van \'n enkele instellingsopsie. Die opsie wat die skakelaar beheer, asook die staat waarin dit is, moet uit die ooreenstemmende inlynetiket duidelik wees.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Aan/af-skakelaar wissel die staat van \'n enkele instellingsopsie. Die opsie wat die skakelaar beheer, asook die staat waarin dit is, moet uit die ooreenstemmende inlynetiket duidelik wees.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Teksvelde';
@@ -1447,10 +1542,12 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoTextFieldTitle => 'Teksvelde';
 
   @override
-  String get demoTextFieldSubtitle => 'Een reël met redigeerbare teks en syfers';
+  String get demoTextFieldSubtitle =>
+      'Een reël met redigeerbare teks en syfers';
 
   @override
-  String get demoTextFieldDescription => 'Teksvelde laat gebruikers toe om teks by UI te voeg. Dit verskyn gewoonlik in vorms en dialoë.';
+  String get demoTextFieldDescription =>
+      'Teksvelde laat gebruikers toe om teks by UI te voeg. Dit verskyn gewoonlik in vorms en dialoë.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Wys wagwoord';
@@ -1459,22 +1556,26 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Versteek wagwoord';
 
   @override
-  String get demoTextFieldFormErrors => 'Maak asseblief die foute in rooi reg voordat jy indien.';
+  String get demoTextFieldFormErrors =>
+      'Maak asseblief die foute in rooi reg voordat jy indien.';
 
   @override
   String get demoTextFieldNameRequired => 'Naam word vereis.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'Voer asseblief net alfabetkarakters in.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'Voer asseblief net alfabetkarakters in.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### – Voer \'n Amerikaanse foonnommer in.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### – Voer \'n Amerikaanse foonnommer in.';
 
   @override
   String get demoTextFieldEnterPassword => 'Voer asseblief \'n wagwoord in.';
 
   @override
-  String get demoTextFieldPasswordsDoNotMatch => 'Die wagwoorde stem nie ooreen nie';
+  String get demoTextFieldPasswordsDoNotMatch =>
+      'Die wagwoorde stem nie ooreen nie';
 
   @override
   String get demoTextFieldWhatDoPeopleCallYou => 'Wat noem mense jou?';
@@ -1495,10 +1596,12 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoTextFieldEmail => 'E-pos';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Vertel ons meer oor jouself (bv., skryf neer wat jy doen of wat jou stokperdjies is)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Vertel ons meer oor jouself (bv., skryf neer wat jy doen of wat jou stokperdjies is)';
 
   @override
-  String get demoTextFieldKeepItShort => 'Hou dit kort; dis net \'n demonstrasie.';
+  String get demoTextFieldKeepItShort =>
+      'Hou dit kort; dis net \'n demonstrasie.';
 
   @override
   String get demoTextFieldLifeStory => 'Lewensverhaal';
@@ -1533,13 +1636,16 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get demoTooltipTitle => 'Nutswenke';
 
   @override
-  String get demoTooltipSubtitle => 'Kort boodskap wat gewys word wanneer daar lank gedruk of gehou word';
+  String get demoTooltipSubtitle =>
+      'Kort boodskap wat gewys word wanneer daar lank gedruk of gehou word';
 
   @override
-  String get demoTooltipDescription => 'Nutswenke verskaf teksetikette wat help om die funksie van \'n knoppie of ander gebruikerkoppelvlakhandeling te verduidelik. Nutswenke wys insiggewende teks wanneer gebruikers oor \'n element hou, op een fokus, of lank op een druk.';
+  String get demoTooltipDescription =>
+      'Nutswenke verskaf teksetikette wat help om die funksie van \'n knoppie of ander gebruikerkoppelvlakhandeling te verduidelik. Nutswenke wys insiggewende teks wanneer gebruikers oor \'n element hou, op een fokus, of lank op een druk.';
 
   @override
-  String get demoTooltipInstructions => 'Druk lank of hou om die nutswenk te wys.';
+  String get demoTooltipInstructions =>
+      'Druk lank of hou om die nutswenk te wys.';
 
   @override
   String get bottomNavigationCommentsTab => 'Opmerkings';
@@ -1600,7 +1706,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get dialogLocationTitle => 'Gebruik Google se liggingdiens?';
 
   @override
-  String get dialogLocationDescription => 'Laat Google programme help om ligging te bepaal. Dit beteken dat anonieme liggingdata na Google toe gestuur word, selfs wanneer geen programme laat loop word nie.';
+  String get dialogLocationDescription =>
+      'Laat Google programme help om ligging te bepaal. Dit beteken dat anonieme liggingdata na Google toe gestuur word, selfs wanneer geen programme laat loop word nie.';
 
   @override
   String get dialogCancel => 'KANSELLEER';
@@ -1645,10 +1752,12 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Gooi weg';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Laat \"Maps\" toe om toegang tot jou ligging te kry terwyl jy die program gebruik?';
+  String get cupertinoAlertLocationTitle =>
+      'Laat \"Maps\" toe om toegang tot jou ligging te kry terwyl jy die program gebruik?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Jou huidige ligging sal op die kaart gewys word en gebruik word vir aanwysings, soekresultate in die omtrek, en geskatte reistye.';
+  String get cupertinoAlertLocationDescription =>
+      'Jou huidige ligging sal op die kaart gewys word en gebruik word vir aanwysings, soekresultate in die omtrek, en geskatte reistye.';
 
   @override
   String get cupertinoAlertAllow => 'Laat toe';
@@ -1660,7 +1769,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Kies gunstelingnagereg';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Kies asseblief jou gunstelingsoort nagereg op die lys hieronder. Jou keuse sal gebruik word om die voorgestelde lys eetplekke in jou omgewing te pasmaak.';
+  String get cupertinoAlertDessertDescription =>
+      'Kies asseblief jou gunstelingsoort nagereg op die lys hieronder. Jou keuse sal gebruik word om die voorgestelde lys eetplekke in jou omgewing te pasmaak.';
 
   @override
   String get cupertinoAlertCheesecake => 'Kaaskoek';
@@ -2243,7 +2353,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get craneEat10 => 'Lissabon, Portugal';
 
   @override
-  String get craneFly0SemanticLabel => 'Chalet in \'n sneeulandskap met immergroen bome';
+  String get craneFly0SemanticLabel =>
+      'Chalet in \'n sneeulandskap met immergroen bome';
 
   @override
   String get craneFly1SemanticLabel => 'Tent in \'n veld';
@@ -2258,7 +2369,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get craneFly4SemanticLabel => 'Hutte bo die water';
 
   @override
-  String get craneFly5SemanticLabel => 'Hotel aan die oewer van \'n meer voor berge';
+  String get craneFly5SemanticLabel =>
+      'Hotel aan die oewer van \'n meer voor berge';
 
   @override
   String get craneFly6SemanticLabel => 'Lugaansig van Palacio de Bellas Artes';
@@ -2270,10 +2382,12 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'Supertree Grove';
 
   @override
-  String get craneFly9SemanticLabel => 'Man wat teen \'n antieke blou motor leun';
+  String get craneFly9SemanticLabel =>
+      'Man wat teen \'n antieke blou motor leun';
 
   @override
-  String get craneFly10SemanticLabel => 'Al-Azhar-moskeetorings tydens sonsondergang';
+  String get craneFly10SemanticLabel =>
+      'Al-Azhar-moskeetorings tydens sonsondergang';
 
   @override
   String get craneFly11SemanticLabel => 'Baksteenvuurtoring by die see';
@@ -2288,16 +2402,19 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get craneSleep0SemanticLabel => 'Hutte bo die water';
 
   @override
-  String get craneSleep1SemanticLabel => 'Chalet in \'n sneeulandskap met immergroen bome';
+  String get craneSleep1SemanticLabel =>
+      'Chalet in \'n sneeulandskap met immergroen bome';
 
   @override
   String get craneSleep2SemanticLabel => 'Machu Picchu-sitadel';
 
   @override
-  String get craneSleep3SemanticLabel => 'Man wat teen \'n antieke blou motor leun';
+  String get craneSleep3SemanticLabel =>
+      'Man wat teen \'n antieke blou motor leun';
 
   @override
-  String get craneSleep4SemanticLabel => 'Hotel aan die oewer van \'n meer voor berge';
+  String get craneSleep4SemanticLabel =>
+      'Hotel aan die oewer van \'n meer voor berge';
 
   @override
   String get craneSleep5SemanticLabel => 'Tent in \'n veld';
@@ -2306,16 +2423,19 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get craneSleep6SemanticLabel => 'Swembad met palmbome';
 
   @override
-  String get craneSleep7SemanticLabel => 'Kleurryke woonstelle by Riberia Square';
+  String get craneSleep7SemanticLabel =>
+      'Kleurryke woonstelle by Riberia Square';
 
   @override
-  String get craneSleep8SemanticLabel => 'Maja-ruïnes op \'n krans bo \'n strand';
+  String get craneSleep8SemanticLabel =>
+      'Maja-ruïnes op \'n krans bo \'n strand';
 
   @override
   String get craneSleep9SemanticLabel => 'Baksteenvuurtoring by die see';
 
   @override
-  String get craneSleep10SemanticLabel => 'Al-Azhar-moskeetorings tydens sonsondergang';
+  String get craneSleep10SemanticLabel =>
+      'Al-Azhar-moskeetorings tydens sonsondergang';
 
   @override
   String get craneSleep11SemanticLabel => 'Taipei 101-wolkekrabber';
@@ -2351,7 +2471,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get craneEat9SemanticLabel => 'Kafeetoonbank met fyngebak';
 
   @override
-  String get craneEat10SemanticLabel => 'Vrou wat \'n yslike pastramitoebroodjie vashou';
+  String get craneEat10SemanticLabel =>
+      'Vrou wat \'n yslike pastramitoebroodjie vashou';
 
   @override
   String get fortnightlyMenuFrontPage => 'Voorblad';
@@ -2390,7 +2511,8 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get fortnightlyTrendingReform => 'Hervorming';
 
   @override
-  String get fortnightlyTrendingHealthcareRevolution => 'Gesondheidsorgrevolusie';
+  String get fortnightlyTrendingHealthcareRevolution =>
+      'Gesondheidsorgrevolusie';
 
   @override
   String get fortnightlyTrendingGreenArmy => 'Groenweermag';
@@ -2402,10 +2524,12 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Jongste opdaterings';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Die stil dog kragtige gesondheidsorgrevolusie';
+  String get fortnightlyHeadlineHealthcare =>
+      'Die stil dog kragtige gesondheidsorgrevolusie';
 
   @override
-  String get fortnightlyHeadlineWar => 'Verdeelde Amerikaanse lewens tydens oorlog';
+  String get fortnightlyHeadlineWar =>
+      'Verdeelde Amerikaanse lewens tydens oorlog';
 
   @override
   String get fortnightlyHeadlineGasoline => 'Die toekoms van petrol';
@@ -2414,10 +2538,12 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'Hervorm die groenweermag van binne af';
 
   @override
-  String get fortnightlyHeadlineStocks => 'Terwyl aandele stagneer, bekyk baie mense valuta';
+  String get fortnightlyHeadlineStocks =>
+      'Terwyl aandele stagneer, bekyk baie mense valuta';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Ontwerpers gebruik tegnologie om futuristiese materiale te maak';
+  String get fortnightlyHeadlineFabrics =>
+      'Ontwerpers gebruik tegnologie om futuristiese materiale te maak';
 
   @override
   String get fortnightlyHeadlineFeminists => 'Feministe takel partydigheid';

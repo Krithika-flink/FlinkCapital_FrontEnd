@@ -223,7 +223,7 @@ class GalleryLocalizationsUr extends GalleryLocalizations {
   String get rallySeeAll => 'سبھی دیکھیں';
 
   @override
-  String get rallyFinanceLeft => '';
+  String get rallyFinanceLeft => 'Profit/Loss';
 
   @override
   String get rallyTitleOverview => 'مجموعی جائزہ';

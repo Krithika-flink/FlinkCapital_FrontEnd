@@ -10,8 +10,8 @@ import 'package:gallery/studies/rally/data.dart';
 import 'package:gallery/studies/rally/finance.dart';
 import 'package:gallery/studies/rally/tabs/sidebar.dart';
 
-/// A page that shows a summary of accounts.
-class AccountsView extends StatelessWidget {
+/// A page that shows a summary of futures.
+class FuturesView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final items = DummyDataService.getAccountDataList(context);
@@ -19,7 +19,7 @@ class AccountsView extends StatelessWidget {
     final balanceTotal = sumAccountDataPrimaryAmount(items);
 
     return TabWithSidebar(
-      restorationId: 'accounts_view',
+      restorationId: 'futures_view',
       mainView: FinancialEntityView(
         heroLabel: GalleryLocalizations.of(context).rallyAccountTotal,
         heroAmount: balanceTotal,

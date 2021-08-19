@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get signIn => 'KIRJAUDU SISÄÄN';
 
   @override
-  String get bannerDemoText => 'Salasanasi päivitettiin toisella laitteellasi. Kirjaudu sisään uudelleen.';
+  String get bannerDemoText =>
+      'Salasanasi päivitettiin toisella laitteellasi. Kirjaudu sisään uudelleen.';
 
   @override
   String get bannerDemoResetText => 'Nollaa banneri';
@@ -60,7 +60,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => 'Tamil Nadun 10 parasta kaupunkia';
+  String get cardsDemoTravelDestinationTitle1 =>
+      'Tamil Nadun 10 parasta kaupunkia';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Numero 10';
@@ -120,7 +121,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Loma';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Vuosituotto prosentteina';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Vuosituotto prosentteina';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Korkoprosentti';
@@ -129,7 +131,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'Korko YTD';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Viime vuonna maksetut korot';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Viime vuonna maksetut korot';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Seuraava ote';
@@ -285,8 +288,10 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Lisää mahdollisten verovähennystesi määrää! Anna 1 tuntemattomalle tapahtumalle luokka.',
-      other: 'Lisää mahdollisten verovähennystesi määrää! Anna ${count} tuntemattomalle tapahtumalle luokat.',
+      one:
+          'Lisää mahdollisten verovähennystesi määrää! Anna 1 tuntemattomalle tapahtumalle luokka.',
+      other:
+          'Lisää mahdollisten verovähennystesi määrää! Anna ${count} tuntemattomalle tapahtumalle luokat.',
     );
   }
 
@@ -300,7 +305,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Näytä kaikki budjetit';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${accountName}tili ${accountNumber}, jolla on ${amount}.';
   }
 
@@ -310,7 +316,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return 'Budjetti ${budgetName}, ${amountUsed} käytetty, kokonaismäärä ${amountTotal}, ${amountLeft} jäljellä';
   }
 
@@ -342,7 +349,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoCodeViewerCopyAll => 'KOPIOI KAIKKI';
 
   @override
-  String get demoCodeViewerCopiedToClipboardMessage => 'Kopioitu leikepöydälle.';
+  String get demoCodeViewerCopiedToClipboardMessage =>
+      'Kopioitu leikepöydälle.';
 
   @override
   String demoCodeViewerFailedToCopyToClipboardMessage(Object error) {
@@ -353,7 +361,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Näytä asetukset';
 
   @override
-  String get demoOptionsFeatureDescription => 'Voit näyttää esittelystä saatavilla olevat vaihtoehdot napauttamalla tästä.';
+  String get demoOptionsFeatureDescription =>
+      'Voit näyttää esittelystä saatavilla olevat vaihtoehdot napauttamalla tästä.';
 
   @override
   String get settingsTitle => 'Asetukset';
@@ -386,7 +395,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get settingsTextDirection => 'Tekstin suunta';
 
   @override
-  String get settingsTextDirectionLocaleBased => 'Perustuu kieli- ja maa-asetukseen';
+  String get settingsTextDirectionLocaleBased =>
+      'Perustuu kieli- ja maa-asetukseen';
 
   @override
   String get settingsTextDirectionLTR => 'V-O';
@@ -425,19 +435,23 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Alaosan sovelluspalkki';
 
   @override
-  String get demoBottomAppBarSubtitle => 'Näyttää siirtymisen ja toiminnot alaosassa';
+  String get demoBottomAppBarSubtitle =>
+      'Näyttää siirtymisen ja toiminnot alaosassa';
 
   @override
-  String get demoBottomAppBarDescription => 'Alaosan sovelluspalkkien kautta voidaan käyttää alaosan navigoinnin vetopaneelia ja jopa neljää toimintoa, mukaan lukien kelluvaa toimintopainiketta.';
+  String get demoBottomAppBarDescription =>
+      'Alaosan sovelluspalkkien kautta voidaan käyttää alaosan navigoinnin vetopaneelia ja jopa neljää toimintoa, mukaan lukien kelluvaa toimintopainiketta.';
 
   @override
   String get bottomAppBarNotch => 'Lovi';
@@ -464,22 +478,26 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Näytetään banneri luettelon sisällä';
 
   @override
-  String get demoBannerDescription => 'Banneri näyttää tärkeän, ytimekkään viestin ja tarjoaa käyttäjille toimintoja, joita he voivat tehdä (tai ohittaa bannerin). Käyttäjän toimia tarvitaan sen ohittamiseen.';
+  String get demoBannerDescription =>
+      'Banneri näyttää tärkeän, ytimekkään viestin ja tarjoaa käyttäjille toimintoja, joita he voivat tehdä (tai ohittaa bannerin). Käyttäjän toimia tarvitaan sen ohittamiseen.';
 
   @override
   String get demoBottomNavigationTitle => 'Alanavigointi';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Alanavigointi, näkymien ristiinhäivytys';
+  String get demoBottomNavigationSubtitle =>
+      'Alanavigointi, näkymien ristiinhäivytys';
 
   @override
-  String get demoBottomNavigationPersistentLabels => 'Näkyvissä pysyvä tunnisteet';
+  String get demoBottomNavigationPersistentLabels =>
+      'Näkyvissä pysyvä tunnisteet';
 
   @override
   String get demoBottomNavigationSelectedLabel => 'Valittu tunniste';
 
   @override
-  String get demoBottomNavigationDescription => 'Alareunan siirtymispalkissa näytetään kolmesta viiteen kohdetta näytön alalaidassa. Joka kohteella on kuvake ja mahdollisesti myös tekstikenttä. Kun käyttäjä napauttaa alaosan navigointikuvaketta, hän siirtyy siihen liittyvään navigointisijaintiin.';
+  String get demoBottomNavigationDescription =>
+      'Alareunan siirtymispalkissa näytetään kolmesta viiteen kohdetta näytön alalaidassa. Joka kohteella on kuvake ja mahdollisesti myös tekstikenttä. Kun käyttäjä napauttaa alaosan navigointikuvaketta, hän siirtyy siihen liittyvään navigointisijaintiin.';
 
   @override
   String get demoButtonTitle => 'Painikkeet';
@@ -491,31 +509,36 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoTextButtonTitle => 'Tekstipainike';
 
   @override
-  String get demoTextButtonDescription => 'Tekstipainike värjää tekstin painettaessa, mutta ei nosta painiketta. Käytä tekstipainikkeita yläpalkeissa, valintaikkunoissa ja tekstirivillä, jossa on täytettä';
+  String get demoTextButtonDescription =>
+      'Tekstipainike värjää tekstin painettaessa, mutta ei nosta painiketta. Käytä tekstipainikkeita yläpalkeissa, valintaikkunoissa ja tekstirivillä, jossa on täytettä';
 
   @override
   String get demoElevatedButtonTitle => 'Kohopainike';
 
   @override
-  String get demoElevatedButtonDescription => 'Kohopainikkeet lisäävät ulottuvuutta enimmäkseen litteisiin asetteluihin. Ne korostavat toimintoja täysissä tai laajoissa tiloissa.';
+  String get demoElevatedButtonDescription =>
+      'Kohopainikkeet lisäävät ulottuvuutta enimmäkseen litteisiin asetteluihin. Ne korostavat toimintoja täysissä tai laajoissa tiloissa.';
 
   @override
   String get demoOutlinedButtonTitle => 'Ääriviivallinen painike';
 
   @override
-  String get demoOutlinedButtonDescription => 'Ääriviivalliset painikkeet muuttuvat läpinäkyviksi ja nousevat painettaessa. Niistä muodostetaan usein kohopainikkeiden kanssa pari vaihtoehtoisen toissijaisen toiminnon ilmaisemiseksi.';
+  String get demoOutlinedButtonDescription =>
+      'Ääriviivalliset painikkeet muuttuvat läpinäkyviksi ja nousevat painettaessa. Niistä muodostetaan usein kohopainikkeiden kanssa pari vaihtoehtoisen toissijaisen toiminnon ilmaisemiseksi.';
 
   @override
   String get demoToggleButtonTitle => 'Päälle/pois-painikkeet';
 
   @override
-  String get demoToggleButtonDescription => 'Päälle/pois-painikkeiden avulla voidaan ryhmitellä vaihtoehtoja yhteen. To emphasize groups of related toggle buttons, a group should share a common container';
+  String get demoToggleButtonDescription =>
+      'Päälle/pois-painikkeiden avulla voidaan ryhmitellä vaihtoehtoja yhteen. To emphasize groups of related toggle buttons, a group should share a common container';
 
   @override
   String get demoFloatingButtonTitle => 'Kelluva toimintopainike';
 
   @override
-  String get demoFloatingButtonDescription => 'A floating action button is a circular icon button that hovers over content to promote a primary action in the application.';
+  String get demoFloatingButtonDescription =>
+      'A floating action button is a circular icon button that hovers over content to promote a primary action in the application.';
 
   @override
   String get demoCardTitle => 'Kortit';
@@ -527,34 +550,40 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoChipTitle => 'Elementit';
 
   @override
-  String get demoCardDescription => 'Kortti on tiettyä materiaalia oleva arkki, jolla ilmaistaan asiaan liittyvä tietoa, esimerkiksi albumi, maantieteellinen sijainti, ateria, yhteystiedot jne.';
+  String get demoCardDescription =>
+      'Kortti on tiettyä materiaalia oleva arkki, jolla ilmaistaan asiaan liittyvä tietoa, esimerkiksi albumi, maantieteellinen sijainti, ateria, yhteystiedot jne.';
 
   @override
-  String get demoChipSubtitle => 'Syötettä, määritettä tai toimintoa vastaavat tiiviit elementit';
+  String get demoChipSubtitle =>
+      'Syötettä, määritettä tai toimintoa vastaavat tiiviit elementit';
 
   @override
   String get demoActionChipTitle => 'Toimintoelementti';
 
   @override
-  String get demoActionChipDescription => 'Toimintoelementit ovat vaihtoehtoja, jotka käynnistävät pääsisältöön liittyvän toiminnon. Toimintoelementtien pitäisi tulla näkyviin käyttöliittymissä dynaamisesti ja sopivassa asiayhteydessä.';
+  String get demoActionChipDescription =>
+      'Toimintoelementit ovat vaihtoehtoja, jotka käynnistävät pääsisältöön liittyvän toiminnon. Toimintoelementtien pitäisi tulla näkyviin käyttöliittymissä dynaamisesti ja sopivassa asiayhteydessä.';
 
   @override
   String get demoChoiceChipTitle => 'Valintaelementti';
 
   @override
-  String get demoChoiceChipDescription => 'Valintaelementit ovat joukkoon kuuluvia yksittäisiä vaihtoehtoja. Valintaelementit sisältävät aiheeseen liittyviä luokkia tai kuvailevaa tekstiä.';
+  String get demoChoiceChipDescription =>
+      'Valintaelementit ovat joukkoon kuuluvia yksittäisiä vaihtoehtoja. Valintaelementit sisältävät aiheeseen liittyviä luokkia tai kuvailevaa tekstiä.';
 
   @override
   String get demoFilterChipTitle => 'Suodatinelementti';
 
   @override
-  String get demoFilterChipDescription => 'Suodatinelementeissä käytetään tageja tai kuvailevia sanoja sisällön suodattamiseen.';
+  String get demoFilterChipDescription =>
+      'Suodatinelementeissä käytetään tageja tai kuvailevia sanoja sisällön suodattamiseen.';
 
   @override
   String get demoInputChipTitle => 'Syöte-elementti';
 
   @override
-  String get demoInputChipDescription => 'Syöte-elementit ovat monimutkaisia tietoja, kuten yksikkö (henkilö, paikka tai asia) tai keskustelun teksti, tiiviissä muodossa.';
+  String get demoInputChipDescription =>
+      'Syöte-elementit ovat monimutkaisia tietoja, kuten yksikkö (henkilö, paikka tai asia) tai keskustelun teksti, tiiviissä muodossa.';
 
   @override
   String get demoDataTableTitle => 'Datataulukot';
@@ -563,7 +592,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'Rivit ja sarakkeet täynnä tietoa';
 
   @override
-  String get demoDataTableDescription => 'Datataulukot näyttävät tietoja ruudukonkaltaisessa muodossa eli riveinä ja sarakkeina. Ne järjestävät tiedot helposti katseltavaan muotoon, jotta käyttäjät voivat etsiä kaavoja ja tulkintoja.';
+  String get demoDataTableDescription =>
+      'Datataulukot näyttävät tietoja ruudukonkaltaisessa muodossa eli riveinä ja sarakkeina. Ne järjestävät tiedot helposti katseltavaan muotoon, jotta käyttäjät voivat etsiä kaavoja ja tulkintoja.';
 
   @override
   String get dataTableHeader => 'Ravinto';
@@ -642,7 +672,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'Ilmoitus';
 
   @override
-  String get demoAlertDialogDescription => 'Ilmoitusikkuna kertoo käyttäjälle tilanteista, jotka vaativat toimia. Ilmoitusikkunassa on valinnainen otsikko ja valinnainen toimintoluettelo.';
+  String get demoAlertDialogDescription =>
+      'Ilmoitusikkuna kertoo käyttäjälle tilanteista, jotka vaativat toimia. Ilmoitusikkunassa on valinnainen otsikko ja valinnainen toimintoluettelo.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Otsikollinen ilmoitus';
@@ -651,16 +682,19 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Yksinkertainen';
 
   @override
-  String get demoSimpleDialogDescription => 'Yksinkertainen valintaikkuna tarjoaa käyttäjälle mahdollisuuden valita useista vaihtoehdoista. Yksinkertaisessa valintaikkunassa on valinnainen otsikko, joka näkyy vaihtoehtojen yläpuolella.';
+  String get demoSimpleDialogDescription =>
+      'Yksinkertainen valintaikkuna tarjoaa käyttäjälle mahdollisuuden valita useista vaihtoehdoista. Yksinkertaisessa valintaikkunassa on valinnainen otsikko, joka näkyy vaihtoehtojen yläpuolella.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +706,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Rivi- ja sarakeasettelu';
 
   @override
-  String get demoGridListsDescription => 'Ruudukkolistat toimivat parhaiten, kun esitetään samanmuotoista dataa, yleensä kuvia. Ruudukon osia kutsutaan ruuduiksi.';
+  String get demoGridListsDescription =>
+      'Ruudukkolistat toimivat parhaiten, kun esitetään samanmuotoista dataa, yleensä kuvia. Ruudukon osia kutsutaan ruuduiksi.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Vain kuva';
@@ -687,34 +722,41 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoSlidersTitle => 'Liukusäätimet';
 
   @override
-  String get demoSlidersSubtitle => 'Widgetit arvon valitsemiseen pyyhkäisemällä';
+  String get demoSlidersSubtitle =>
+      'Widgetit arvon valitsemiseen pyyhkäisemällä';
 
   @override
-  String get demoSlidersDescription => 'Liukusäätimet kuvastavat erilaisia arvoja palkissa, josta käyttäjät voivat valita yksittäisen arvon. Ne sopivat erinomaisesti asetusten (kuten äänenvoimakkuuden tai kirkkauden) muuttamiseen tai kuvasuodattimien käyttöönottoon.';
+  String get demoSlidersDescription =>
+      'Liukusäätimet kuvastavat erilaisia arvoja palkissa, josta käyttäjät voivat valita yksittäisen arvon. Ne sopivat erinomaisesti asetusten (kuten äänenvoimakkuuden tai kirkkauden) muuttamiseen tai kuvasuodattimien käyttöönottoon.';
 
   @override
   String get demoRangeSlidersTitle => 'Välin liukusäätimet';
 
   @override
-  String get demoRangeSlidersDescription => 'Liukusäätimet kuvastavat erilaisia arvoja palkissa. Niiden kummassakin päässä voi olla kuvake, joka osoittaa erilaisia arvoja. Ne sopivat erinomaisesti asetusten (kuten äänenvoimakkuuden tai kirkkauden) muuttamiseen tai kuvasuodattimien käyttöönottoon.';
+  String get demoRangeSlidersDescription =>
+      'Liukusäätimet kuvastavat erilaisia arvoja palkissa. Niiden kummassakin päässä voi olla kuvake, joka osoittaa erilaisia arvoja. Ne sopivat erinomaisesti asetusten (kuten äänenvoimakkuuden tai kirkkauden) muuttamiseen tai kuvasuodattimien käyttöönottoon.';
 
   @override
   String get demoCustomSlidersTitle => 'Omat liukusäätimet';
 
   @override
-  String get demoCustomSlidersDescription => 'Liukusäätimet kuvastavat erilaisia arvoja palkissa, josta käyttäjät voivat valita yksittäisen arvon tai useita erilaisia arvoja. Liukusäätimiä voi jakaa teemoihin ja muokata.';
+  String get demoCustomSlidersDescription =>
+      'Liukusäätimet kuvastavat erilaisia arvoja palkissa, josta käyttäjät voivat valita yksittäisen arvon tai useita erilaisia arvoja. Liukusäätimiä voi jakaa teemoihin ja muokata.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Jatkuva arvo, jonka numeroa voi muokata';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Jatkuva arvo, jonka numeroa voi muokata';
 
   @override
   String get demoSlidersDiscrete => 'Diskreetti';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Diskreetti liukusäädin, jonka teemaa voi muokata';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Diskreetti liukusäädin, jonka teemaa voi muokata';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Jatkuva välin liukusäädin, jonka teemaa voi muokata';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Jatkuva välin liukusäädin, jonka teemaa voi muokata';
 
   @override
   String get demoSlidersContinuous => 'Jatkuva';
@@ -741,7 +783,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Valikon painikkeet ja yksinkertaiset valikot';
 
   @override
-  String get demoMenuDescription => 'Valikossa näytetään lista vaihtoehtoja väliaikaista taustaa vasten. Ne tulevat näkyviin, kun käyttäjä valitsee painikkeen, toiminnon tai muun säätimen.';
+  String get demoMenuDescription =>
+      'Valikossa näytetään lista vaihtoehtoja väliaikaista taustaa vasten. Ne tulevat näkyviin, kun käyttäjä valitsee painikkeen, toiminnon tai muun säätimen.';
 
   @override
   String get demoMenuItemValueOne => 'Ensimmäinen valikon kohta';
@@ -765,7 +808,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoMenuFour => 'Neljä';
 
   @override
-  String get demoMenuAnItemWithAContextMenuButton => 'Elementti, jolla on kontekstivalikko';
+  String get demoMenuAnItemWithAContextMenuButton =>
+      'Elementti, jolla on kontekstivalikko';
 
   @override
   String get demoMenuContextMenuItemOne => 'Ensimmäinen kontekstivalikon kohta';
@@ -777,7 +821,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoMenuContextMenuItemThree => 'Kolmas kontekstivalikon kohta';
 
   @override
-  String get demoMenuAnItemWithASectionedMenu => 'Elementti, jolla on osioihin jaettu valikko';
+  String get demoMenuAnItemWithASectionedMenu =>
+      'Elementti, jolla on osioihin jaettu valikko';
 
   @override
   String get demoMenuPreview => 'Esikatselu';
@@ -805,10 +850,12 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoNavigationDrawerTitle => 'Navigoinnin vetopaneeli';
 
   @override
-  String get demoNavigationDrawerSubtitle => 'Näytetään vetopaneeli sovelluspalkissa';
+  String get demoNavigationDrawerSubtitle =>
+      'Näytetään vetopaneeli sovelluspalkissa';
 
   @override
-  String get demoNavigationDrawerDescription => 'Material design ‑paneeli, joka tulee näkyviin vaakasuunnassa näytön reunasta, siirtymislinkkien näyttämiseksi sovelluksessa.';
+  String get demoNavigationDrawerDescription =>
+      'Material design ‑paneeli, joka tulee näkyviin vaakasuunnassa näytön reunasta, siirtymislinkkien näyttämiseksi sovelluksessa.';
 
   @override
   String get demoNavigationDrawerUserName => 'Käyttäjätunnus';
@@ -823,16 +870,19 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Kohde kaksi';
 
   @override
-  String get demoNavigationDrawerText => 'Voit nähdä vetopaneelin pyyhkäisemällä reunasta tai napauttamalla ylempänä vasemmalla olevaa kuvaketta';
+  String get demoNavigationDrawerText =>
+      'Voit nähdä vetopaneelin pyyhkäisemällä reunasta tai napauttamalla ylempänä vasemmalla olevaa kuvaketta';
 
   @override
   String get demoNavigationRailTitle => 'Siirtymispalkki';
 
   @override
-  String get demoNavigationRailSubtitle => 'Näytetään siirtymispalkki sovelluksessa';
+  String get demoNavigationRailSubtitle =>
+      'Näytetään siirtymispalkki sovelluksessa';
 
   @override
-  String get demoNavigationRailDescription => 'Materiaaliwidgetiä käytetään muutamien näkymien (yleensä 3–5) välillä siirtymiseen. Widgetin pitäisi näkyä sovelluksen vasemmassa tai oikeassa reunassa.';
+  String get demoNavigationRailDescription =>
+      'Materiaaliwidgetiä käytetään muutamien näkymien (yleensä 3–5) välillä siirtymiseen. Widgetin pitäisi näkyä sovelluksen vasemmassa tai oikeassa reunassa.';
 
   @override
   String get demoNavigationRailFirst => 'Ensimmäinen';
@@ -844,25 +894,30 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoNavigationRailThird => 'Kolmas';
 
   @override
-  String get demoMenuAnItemWithASimpleMenu => 'Elementti, jolla on yksinkertainen valikko';
+  String get demoMenuAnItemWithASimpleMenu =>
+      'Elementti, jolla on yksinkertainen valikko';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Elementti, jolla on muistilistavalikko';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Elementti, jolla on muistilistavalikko';
 
   @override
   String get demoFullscreenDialogTitle => 'Koko näyttö';
 
   @override
-  String get demoFullscreenDialogDescription => 'The fullscreenDialog property specifies whether the incoming page is a fullscreen modal dialog';
+  String get demoFullscreenDialogDescription =>
+      'The fullscreenDialog property specifies whether the incoming page is a fullscreen modal dialog';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Toimintaosoitin';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'iOS-tyyliset toimintaosoittimet';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'iOS-tyyliset toimintaosoittimet';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'iOS-tyylinen toimintaosoitin, joka pyörii myötäpäivään.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'iOS-tyylinen toimintaosoitin, joka pyörii myötäpäivään.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Painikkeet';
@@ -871,7 +926,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'iOS-tyyliset painikkeet';
 
   @override
-  String get demoCupertinoButtonsDescription => 'iOS-tyylinen painike. It takes in text and/or an icon that fades out and in on touch. Voi sisältää taustan.';
+  String get demoCupertinoButtonsDescription =>
+      'iOS-tyylinen painike. It takes in text and/or an icon that fades out and in on touch. Voi sisältää taustan.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +936,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,7 +946,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Ilmoitukset';
@@ -901,7 +959,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => 'Ilmoitus';
 
   @override
-  String get demoCupertinoAlertDescription => 'Ilmoitusikkuna kertoo käyttäjälle tilanteista, jotka vaativat toimia. Ilmoitusikkunassa on valinnainen otsikko, valinnainen sisältö ja valinnainen toimintoluettelo. Otsikko näkyy sisällön yläpuolella ja toiminnot sisällön alapuolella.';
+  String get demoCupertinoAlertDescription =>
+      'Ilmoitusikkuna kertoo käyttäjälle tilanteista, jotka vaativat toimia. Ilmoitusikkunassa on valinnainen otsikko, valinnainen sisältö ja valinnainen toimintoluettelo. Otsikko näkyy sisällön yläpuolella ja toiminnot sisällön alapuolella.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Otsikollinen ilmoitus';
@@ -916,25 +975,30 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'Toimintotaulukko';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Toimintotaulukko on tietyntyylinen ilmoitus, joka näyttää käyttäjälle vähintään kaksi vaihtoehtoa liittyen senhetkiseen kontekstiin. Toimintotaulukoissa voi olla otsikko, lisäviesti ja toimintoluettelo.';
+  String get demoCupertinoActionSheetDescription =>
+      'Toimintotaulukko on tietyntyylinen ilmoitus, joka näyttää käyttäjälle vähintään kaksi vaihtoehtoa liittyen senhetkiseen kontekstiin. Toimintotaulukoissa voi olla otsikko, lisäviesti ja toimintoluettelo.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Siirtymispalkki';
 
   @override
-  String get demoCupertinoNavigationBarSubtitle => 'iOS-tyylinen siirtymispalkki';
+  String get demoCupertinoNavigationBarSubtitle =>
+      'iOS-tyylinen siirtymispalkki';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'iOS-tyylinen siirtymispalkki. Siirtymispalkki koostuu pienimmillään sivun otsikosta, joka sijaitsee yläpalkin keskellä.';
+  String get demoCupertinoNavigationBarDescription =>
+      'iOS-tyylinen siirtymispalkki. Siirtymispalkki koostuu pienimmillään sivun otsikosta, joka sijaitsee yläpalkin keskellä.';
 
   @override
   String get demoCupertinoPickerTitle => 'Valitsimet';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'iOS-tyyliset päivämäärän ja ajan valitsimet';
+  String get demoCupertinoPickerSubtitle =>
+      'iOS-tyyliset päivämäärän ja ajan valitsimet';
 
   @override
-  String get demoCupertinoPickerDescription => 'iOS-tyylinen valitsin-widget, jolla voidaan valita päivämääriä, aikoja tai molempia.';
+  String get demoCupertinoPickerDescription =>
+      'iOS-tyylinen valitsin-widget, jolla voidaan valita päivämääriä, aikoja tai molempia.';
 
   @override
   String get demoCupertinoPickerTimer => 'Ajastin';
@@ -952,19 +1016,23 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'Vetämällä päivittäminen';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'iOS-tyylinen vetämällä päivittämisen asetus';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'iOS-tyylinen vetämällä päivittämisen asetus';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'Widget, joka tekee vetämällä päivittämisen asetuksesta iOS-tyylisen.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'Widget, joka tekee vetämällä päivittämisen asetuksesta iOS-tyylisen.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Segmenttihallinta';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'iOS-tyylinen segmenttihallinta';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'iOS-tyylinen segmenttihallinta';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Tällä valitaan yksi toisensa poissulkevista vaihtoehdoista. Kun yksi segmenttihallituista vaihtoehdoista valitaan, valinta poistuu sen muista vaihtoehdoista.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Tällä valitaan yksi toisensa poissulkevista vaihtoehdoista. Kun yksi segmenttihallituista vaihtoehdoista valitaan, valinta poistuu sen muista vaihtoehdoista.';
 
   @override
   String get demoCupertinoSliderTitle => 'Liukusäädin';
@@ -973,7 +1041,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'iOS-tyylinen liukusäädin';
 
   @override
-  String get demoCupertinoSliderDescription => 'Liukusäätimellä voi valita jatkuvasta tai diskreetistä arvojoukosta.';
+  String get demoCupertinoSliderDescription =>
+      'Liukusäätimellä voi valita jatkuvasta tai diskreetistä arvojoukosta.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,16 +1058,19 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'iOS-tyylinen kytkin';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Kytkimellä tietty asetus laitetaan päälle tai pois päältä.';
+  String get demoCupertinoSwitchDescription =>
+      'Kytkimellä tietty asetus laitetaan päälle tai pois päältä.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Välilehtirivi';
 
   @override
-  String get demoCupertinoTabBarSubtitle => 'iOS-tyylinen alareunan välilehtipalkki';
+  String get demoCupertinoTabBarSubtitle =>
+      'iOS-tyylinen alareunan välilehtipalkki';
 
   @override
-  String get demoCupertinoTabBarDescription => 'iOS-tyylinen alareunan välilehtipalkki siirtymistä varten. Näyttää useita välilehtiä, joista yksi on aktiivinen (oletuksena ensimmäinen välilehti).';
+  String get demoCupertinoTabBarDescription =>
+      'iOS-tyylinen alareunan välilehtipalkki siirtymistä varten. Näyttää useita välilehtiä, joista yksi on aktiivinen (oletuksena ensimmäinen välilehti).';
 
   @override
   String get cupertinoTabBarHomeTab => 'Koti';
@@ -1016,7 +1088,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'iOS-tyyliset tekstikentät';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'Tekstikentän avulla käyttäjä voi lisätä tekstiä joko laite- tai näyttönäppäimistöllä.';
+  String get demoCupertinoTextFieldDescription =>
+      'Tekstikentän avulla käyttäjä voi lisätä tekstiä joko laite- tai näyttönäppäimistöllä.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'PIN-koodi';
@@ -1028,13 +1101,16 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoMotionSubtitle => 'Kaikki ennalta asetetut siirtymät';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'Kortit, luettelot ja kelluva toimintopainike';
+  String get demoContainerTransformDemoInstructions =>
+      'Kortit, luettelot ja kelluva toimintopainike';
 
   @override
-  String get demoSharedXAxisDemoInstructions => 'Seuraava- ja takaisin-painikkeet';
+  String get demoSharedXAxisDemoInstructions =>
+      'Seuraava- ja takaisin-painikkeet';
 
   @override
-  String get demoSharedYAxisDemoInstructions => 'Lajittele viimeksi soitettujen mukaan';
+  String get demoSharedYAxisDemoInstructions =>
+      'Lajittele viimeksi soitettujen mukaan';
 
   @override
   String get demoSharedZAxisDemoInstructions => 'Asetuskuvakkeen painike';
@@ -1043,13 +1119,15 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoFadeThroughDemoInstructions => 'Alanavigointi';
 
   @override
-  String get demoFadeScaleDemoInstructions => 'Kelluva toimintopainike ja modaalinen';
+  String get demoFadeScaleDemoInstructions =>
+      'Kelluva toimintopainike ja modaalinen';
 
   @override
   String get demoContainerTransformTitle => 'Muuntuva säilö';
 
   @override
-  String get demoContainerTransformDescription => 'Muuntuvaa säilöä käytetään käyttöliittymäelementtien välisessä siirtymässä, kun niihin liittyy säilö. Näin kahden käyttöliittymäelementin välille syntyy näkyvä yhteys.';
+  String get demoContainerTransformDescription =>
+      'Muuntuvaa säilöä käytetään käyttöliittymäelementtien välisessä siirtymässä, kun niihin liittyy säilö. Näin kahden käyttöliittymäelementin välille syntyy näkyvä yhteys.';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'Häivytystapa';
@@ -1076,7 +1154,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Listan osa';
 
   @override
-  String get demoSharedAxisDescription => 'Jaettua akselia käytetään käyttöliittymäelementtien väliseen siirtymään, kun niillä on tilaan tai navigointiin liittyvä suhde. Silloin yhtäaikainen siirtyminen x-, y- tai z-akselilla vahvistaa elementtien välistä suhdetta.';
+  String get demoSharedAxisDescription =>
+      'Jaettua akselia käytetään käyttöliittymäelementtien väliseen siirtymään, kun niillä on tilaan tai navigointiin liittyvä suhde. Silloin yhtäaikainen siirtyminen x-, y- tai z-akselilla vahvistaa elementtien välistä suhdetta.';
 
   @override
   String get demoSharedXAxisTitle => 'Jaettu x-akseli';
@@ -1091,7 +1170,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'Kurssit selkeämmiksi';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Paketeiksi kootut kategoriat näkyvät fiidissä ryhminä. Voit muuttaa asetusta myöhemmin.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Paketeiksi kootut kategoriat näkyvät fiidissä ryhminä. Voit muuttaa asetusta myöhemmin.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Käsityöt';
@@ -1121,10 +1201,12 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoSharedXAxisSignInSubtitleText => 'Kirjaudu sisään tililläsi';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'Sähköpostiosoite tai puhelinnumero';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'Sähköpostiosoite tai puhelinnumero';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'UNOHDITKO SÄHKÖPOSTIOSOITTEEN?';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'UNOHDITKO SÄHKÖPOSTIOSOITTEEN?';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'LUO TILI';
@@ -1178,19 +1260,22 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Katkarapu';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Katkarapuannoksen resepti';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Katkarapuannoksen resepti';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Rapu';
 
   @override
-  String get demoSharedZAxisCrabPlateRecipeDescription => 'Rapuannoksen resepti';
+  String get demoSharedZAxisCrabPlateRecipeDescription =>
+      'Rapuannoksen resepti';
 
   @override
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Lihavoileipä';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Lihavoileivän resepti';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Lihavoileivän resepti';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Tallennetut reseptit';
@@ -1211,7 +1296,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Täysi häivytys';
 
   @override
-  String get demoFadeThroughDescription => 'Tätä häivytystä käytetään siirryttäessä sellaisten käyttöliittymäelementtien välillä, jotka eivät liity vahvasti toisiinsa.';
+  String get demoFadeThroughDescription =>
+      'Tätä häivytystä käytetään siirryttäessä sellaisten käyttöliittymäelementtien välillä, jotka eivät liity vahvasti toisiinsa.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Albumit';
@@ -1229,7 +1315,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Häivytys';
 
   @override
-  String get demoFadeScaleDescription => 'Tätä häivytystä käytetään sellaisten käyttöliittymäelementtien kanssa, jotka tulevat näkyviin tai poistuvat näytön sisällä, esimerkiksi valintaikkunan häivytys näytön keskellä.';
+  String get demoFadeScaleDescription =>
+      'Tätä häivytystä käytetään sellaisten käyttöliittymäelementtien kanssa, jotka tulevat näkyviin tai poistuvat näytön sisällä, esimerkiksi valintaikkunan häivytys näytön keskellä.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'NÄYTÄ MODAALI';
@@ -1256,7 +1343,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Kaikki ennalta määritetyt värit';
 
   @override
-  String get demoColorsDescription => 'Material designin väripaletin värien ja värijoukkojen arvot.';
+  String get demoColorsDescription =>
+      'Material designin väripaletin värien ja värijoukkojen arvot.';
 
   @override
   String get demoTypographyTitle => 'Typografia';
@@ -1265,7 +1353,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoTypographySubtitle => 'Kaikki ennalta määrätyt tekstityylit';
 
   @override
-  String get demoTypographyDescription => 'Material Designin erilaisten typografisten tyylien määritelmät.';
+  String get demoTypographyDescription =>
+      'Material Designin erilaisten typografisten tyylien määritelmät.';
 
   @override
   String get demo2dTransformationsTitle => '2D-muunnokset';
@@ -1274,7 +1363,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'Panorointi, zoomaus, kierto';
 
   @override
-  String get demo2dTransformationsDescription => 'Napauta muokataksesi osia ja liiku kuvassa eleiden avulla. Panoroi vetämällä, zoomaa nipistämällä ja kierrä kahdella sormella. Palaa alkuperäiseen näkymään painamalla nollauspainiketta.';
+  String get demo2dTransformationsDescription =>
+      'Napauta muokataksesi osia ja liiku kuvassa eleiden avulla. Panoroi vetämällä, zoomaa nipistämällä ja kierrä kahdella sormella. Palaa alkuperäiseen näkymään painamalla nollauspainiketta.';
 
   @override
   String get demo2dTransformationsResetTooltip => 'Nollaa muunnokset';
@@ -1289,19 +1379,22 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoBottomSheetTitle => 'Alaosa';
 
   @override
-  String get demoBottomSheetSubtitle => 'Näkyvissä pysyvä tai modaalinen alaosa';
+  String get demoBottomSheetSubtitle =>
+      'Näkyvissä pysyvä tai modaalinen alaosa';
 
   @override
   String get demoBottomSheetPersistentTitle => 'Näkyvissä pysyvä alaosa';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'Näkyvissä pysyvä alaosa näyttää sovelluksen pääsisältöä täydentäviä tietoja. Tällainen alaosa on näkyvissä, vaikka käyttäjä tekee jotain sovelluksen muissa osissa.';
+  String get demoBottomSheetPersistentDescription =>
+      'Näkyvissä pysyvä alaosa näyttää sovelluksen pääsisältöä täydentäviä tietoja. Tällainen alaosa on näkyvissä, vaikka käyttäjä tekee jotain sovelluksen muissa osissa.';
 
   @override
   String get demoBottomSheetModalTitle => 'Modaalinen alaosa';
 
   @override
-  String get demoBottomSheetModalDescription => 'Modaalinen alaosa on valikon tai valintaikkunan vaihtoehto, joka estää käyttäjää toimimasta muualla sovelluksessa.';
+  String get demoBottomSheetModalDescription =>
+      'Modaalinen alaosa on valikon tai valintaikkunan vaihtoehto, joka estää käyttäjää toimimasta muualla sovelluksessa.';
 
   @override
   String get demoBottomSheetAddLabel => 'Lisää';
@@ -1324,7 +1417,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoListsSubtitle => 'Vieritettävien luetteloiden ulkoasut';
 
   @override
-  String get demoListsDescription => 'Yksi korkeudeltaan kiinteä rivi, joka sisältää yleensä tekstiä ja jonka alussa tai lopussa on kuvake.';
+  String get demoListsDescription =>
+      'Yksi korkeudeltaan kiinteä rivi, joka sisältää yleensä tekstiä ja jonka alussa tai lopussa on kuvake.';
 
   @override
   String get demoOneLineListsTitle => 'Yksi rivi';
@@ -1339,19 +1433,24 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoProgressIndicatorTitle => 'Edistymisen osoittimet';
 
   @override
-  String get demoProgressIndicatorSubtitle => 'Lineaariset, ympyränmuotoiset, määrittelemättömät';
+  String get demoProgressIndicatorSubtitle =>
+      'Lineaariset, ympyränmuotoiset, määrittelemättömät';
 
   @override
-  String get demoCircularProgressIndicatorTitle => 'Ympyränmuotoinen edistymisen osoitin';
+  String get demoCircularProgressIndicatorTitle =>
+      'Ympyränmuotoinen edistymisen osoitin';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'Material designin ympyränmuotoinen edistymisen osoitin, jonka pyöriminen osoittaa sovelluksen olevan varattu.';
+  String get demoCircularProgressIndicatorDescription =>
+      'Material designin ympyränmuotoinen edistymisen osoitin, jonka pyöriminen osoittaa sovelluksen olevan varattu.';
 
   @override
-  String get demoLinearProgressIndicatorTitle => 'Lineaarinen edistymisen osoitin';
+  String get demoLinearProgressIndicatorTitle =>
+      'Lineaarinen edistymisen osoitin';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'Material designin lineaarinen edistymisen osoitin, jota kutsutaan myös etenemispalkiksi.';
+  String get demoLinearProgressIndicatorDescription =>
+      'Material designin lineaarinen edistymisen osoitin, jota kutsutaan myös etenemispalkiksi.';
 
   @override
   String get demoPickersTitle => 'Valitsimet';
@@ -1363,19 +1462,22 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Päivämäärävalitsin';
 
   @override
-  String get demoDatePickerDescription => 'Näyttää Material Design ‑päivämäärävalitsimen sisältävän valintaikkunan.';
+  String get demoDatePickerDescription =>
+      'Näyttää Material Design ‑päivämäärävalitsimen sisältävän valintaikkunan.';
 
   @override
   String get demoTimePickerTitle => 'Ajan valitsin';
 
   @override
-  String get demoTimePickerDescription => 'Näyttää Material Design ‑aikavalitsimen sisältävän valintaikkunan.';
+  String get demoTimePickerDescription =>
+      'Näyttää Material Design ‑aikavalitsimen sisältävän valintaikkunan.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'NÄYTÄ VALITSIN';
@@ -1390,19 +1492,23 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoTabsNonScrollingTitle => 'Ei vieritettävä';
 
   @override
-  String get demoTabsSubtitle => 'Välilehdet, joiden näkymiä voidaan selata erikseen';
+  String get demoTabsSubtitle =>
+      'Välilehdet, joiden näkymiä voidaan selata erikseen';
 
   @override
-  String get demoTabsDescription => 'Välilehdille järjestetään sisältöä eri näytöiltä, datajoukoista ja muista tilanteista.';
+  String get demoTabsDescription =>
+      'Välilehdille järjestetään sisältöä eri näytöiltä, datajoukoista ja muista tilanteista.';
 
   @override
   String get demoSnackbarsTitle => 'Pikatiedotteet';
 
   @override
-  String get demoSnackbarsSubtitle => 'Pikatiedotteet näyttävät viestejä näytön alareunassa';
+  String get demoSnackbarsSubtitle =>
+      'Pikatiedotteet näyttävät viestejä näytön alareunassa';
 
   @override
-  String get demoSnackbarsDescription => 'Pikatiedotteet ilmoittavat käyttäjille prosessista, jonka sovellus on suorittanut tai tulee suorittamaan. Ne näkyvät väliaikaisesti näytön alaosassa. Niiden ei pitäisi häiritä käyttökokemusta, ja ne katoavat itsestään.';
+  String get demoSnackbarsDescription =>
+      'Pikatiedotteet ilmoittavat käyttäjille prosessista, jonka sovellus on suorittanut tai tulee suorittamaan. Ne näkyvät väliaikaisesti näytön alaosassa. Niiden ei pitäisi häiritä käyttökokemusta, ja ne katoavat itsestään.';
 
   @override
   String get demoSnackbarsButtonLabel => 'NÄYTÄ PIKATIEDOTE';
@@ -1420,25 +1526,29 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoSelectionControlsTitle => 'Valintaohjaimet';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Valintaruudut, valintanapit ja päälle/pois-valitsimet';
+  String get demoSelectionControlsSubtitle =>
+      'Valintaruudut, valintanapit ja päälle/pois-valitsimet';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Valintaruutu';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Valintaruutujen avulla käyttäjä voi valita useita vaihtoehtoja joukosta. Valintaruudun tavalliset arvovaihtoehdot ovat tosi ja epätosi, ja kolmisuuntaisen valintaruudun arvo voi myös olla tyhjä.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Valintaruutujen avulla käyttäjä voi valita useita vaihtoehtoja joukosta. Valintaruudun tavalliset arvovaihtoehdot ovat tosi ja epätosi, ja kolmisuuntaisen valintaruudun arvo voi myös olla tyhjä.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Valintanappi';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Valintanapin avulla käyttäjä voi valita yhden vaihtoehdon joukosta. Käytä valintanappeja, kun käyttäjä voi valita vain yhden vaihtoehdon ja hänen pitää nähdä kaikki vaihtoehdot vierekkäin.';
+  String get demoSelectionControlsRadioDescription =>
+      'Valintanapin avulla käyttäjä voi valita yhden vaihtoehdon joukosta. Käytä valintanappeja, kun käyttäjä voi valita vain yhden vaihtoehdon ja hänen pitää nähdä kaikki vaihtoehdot vierekkäin.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Valitsin';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'Päälle/pois-valitsimet vaihtavat yksittäisen asetuksen tilan. Valitsimen ohjaama vaihtoehto sekä sen nykyinen tila pitäisi näkyä selkeästi sen tunnuksesta.';
+  String get demoSelectionControlsSwitchDescription =>
+      'Päälle/pois-valitsimet vaihtavat yksittäisen asetuksen tilan. Valitsimen ohjaama vaihtoehto sekä sen nykyinen tila pitäisi näkyä selkeästi sen tunnuksesta.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Tekstikentät';
@@ -1447,10 +1557,12 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoTextFieldTitle => 'Tekstikentät';
 
   @override
-  String get demoTextFieldSubtitle => 'Yksi rivi muokattavaa tekstiä ja numeroita';
+  String get demoTextFieldSubtitle =>
+      'Yksi rivi muokattavaa tekstiä ja numeroita';
 
   @override
-  String get demoTextFieldDescription => 'Tekstikentässä käyttäjä voi lisätä käyttöliittymään tekstiä. Niitä on yleensä lomakkeissa ja valintaikkunoissa.';
+  String get demoTextFieldDescription =>
+      'Tekstikentässä käyttäjä voi lisätä käyttöliittymään tekstiä. Niitä on yleensä lomakkeissa ja valintaikkunoissa.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Näytä salasana';
@@ -1459,7 +1571,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Piilota salasana';
 
   @override
-  String get demoTextFieldFormErrors => 'Korjaa punaisena näkyvät virheet ennen lähettämistä.';
+  String get demoTextFieldFormErrors =>
+      'Korjaa punaisena näkyvät virheet ennen lähettämistä.';
 
   @override
   String get demoTextFieldNameRequired => 'Nimi on pakollinen.';
@@ -1468,7 +1581,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoTextFieldOnlyAlphabeticalChars => 'Käytä vain aakkosia.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### – Lisää yhdysvaltalainen puhelinnumero.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### – Lisää yhdysvaltalainen puhelinnumero.';
 
   @override
   String get demoTextFieldEnterPassword => 'Lisää salasana.';
@@ -1477,7 +1591,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoTextFieldPasswordsDoNotMatch => 'Salasanat eivät ole samat';
 
   @override
-  String get demoTextFieldWhatDoPeopleCallYou => 'Millä nimellä sinua kutsutaan?';
+  String get demoTextFieldWhatDoPeopleCallYou =>
+      'Millä nimellä sinua kutsutaan?';
 
   @override
   String get demoTextFieldNameField => 'Nimi*';
@@ -1495,10 +1610,12 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoTextFieldEmail => 'Sähköposti';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Kerro itsestäsi (esim. mitä teet työksesi, mitä harrastat)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Kerro itsestäsi (esim. mitä teet työksesi, mitä harrastat)';
 
   @override
-  String get demoTextFieldKeepItShort => 'Älä kirjoita liikaa, tämä on pelkkä demo.';
+  String get demoTextFieldKeepItShort =>
+      'Älä kirjoita liikaa, tämä on pelkkä demo.';
 
   @override
   String get demoTextFieldLifeStory => 'Elämäntarina';
@@ -1533,13 +1650,16 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get demoTooltipTitle => 'Työkaluvinkit';
 
   @override
-  String get demoTooltipSubtitle => 'Lyhyt viesti, joka näkyy pitkällä painalluksella tai hiiren ollessa elementin päällä';
+  String get demoTooltipSubtitle =>
+      'Lyhyt viesti, joka näkyy pitkällä painalluksella tai hiiren ollessa elementin päällä';
 
   @override
-  String get demoTooltipDescription => 'Työkaluvinkki on tekstikenttä, joka selittää painikkeen toimintaa tai käyttöliittymän muuta toimintoa. Vinkin teksti näkyy, kun käyttäjä vie hiiren elementin päälle, tarkentaa siihen tai painaa sitä pitkään.';
+  String get demoTooltipDescription =>
+      'Työkaluvinkki on tekstikenttä, joka selittää painikkeen toimintaa tai käyttöliittymän muuta toimintoa. Vinkin teksti näkyy, kun käyttäjä vie hiiren elementin päälle, tarkentaa siihen tai painaa sitä pitkään.';
 
   @override
-  String get demoTooltipInstructions => 'Paina pitkään tai vie hiiri elementin päälle, niin työkaluvinkki tulee esiin.';
+  String get demoTooltipInstructions =>
+      'Paina pitkään tai vie hiiri elementin päälle, niin työkaluvinkki tulee esiin.';
 
   @override
   String get bottomNavigationCommentsTab => 'Kommentit';
@@ -1600,7 +1720,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get dialogLocationTitle => 'Käytetäänkö Googlen sijaintipalvelua?';
 
   @override
-  String get dialogLocationDescription => 'Anna Googlen auttaa sovelluksia sijainnin määrittämisessä. Googlelle lähetetään anonyymejä sijaintitietoja – myös kun sovelluksia ei ole käytössä.';
+  String get dialogLocationDescription =>
+      'Anna Googlen auttaa sovelluksia sijainnin määrittämisessä. Googlelle lähetetään anonyymejä sijaintitietoja – myös kun sovelluksia ei ole käytössä.';
 
   @override
   String get dialogCancel => 'PERUUTA';
@@ -1630,7 +1751,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get dialogFullscreenSave => 'TALLENNA';
 
   @override
-  String get dialogFullscreenDescription => 'Koko näytön valintaikkunan esittely';
+  String get dialogFullscreenDescription =>
+      'Koko näytön valintaikkunan esittely';
 
   @override
   String get cupertinoButton => 'Painike';
@@ -1645,10 +1767,12 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Hylkää';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Saako Maps käyttää sijaintiasi, kun käytät sovellusta?';
+  String get cupertinoAlertLocationTitle =>
+      'Saako Maps käyttää sijaintiasi, kun käytät sovellusta?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Nykyinen sijaintisi näytetään kartalla ja sitä käytetään reittiohjeiden, lähistön hakutulosten ja arvioitujen matka-aikojen näyttämiseen.';
+  String get cupertinoAlertLocationDescription =>
+      'Nykyinen sijaintisi näytetään kartalla ja sitä käytetään reittiohjeiden, lähistön hakutulosten ja arvioitujen matka-aikojen näyttämiseen.';
 
   @override
   String get cupertinoAlertAllow => 'Salli';
@@ -1660,7 +1784,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Valitse lempijälkiruokasi';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Valitse mieluisin jälkiruokatyyppi alla olevasta luettelosta. Valintasi avulla sinulle personoidaan suosituslista alueesi ruokapaikoista.';
+  String get cupertinoAlertDessertDescription =>
+      'Valitse mieluisin jälkiruokatyyppi alla olevasta luettelosta. Valintasi avulla sinulle personoidaan suosituslista alueesi ruokapaikoista.';
 
   @override
   String get cupertinoAlertCheesecake => 'Juustokakku';
@@ -1980,7 +2105,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get shrineProductClassicWhiteCollar => 'Klassinen valkokaulus';
 
   @override
-  String get shrineProductCeriseScallopTee => 'Kirsikanpunainen scallop-teepaita';
+  String get shrineProductCeriseScallopTee =>
+      'Kirsikanpunainen scallop-teepaita';
 
   @override
   String get shrineProductShoulderRollsTee => 'T-paita, käärittävät hihat';
@@ -2243,7 +2369,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get craneEat10 => 'Lissabon, Portugali';
 
   @override
-  String get craneFly0SemanticLabel => 'Talvimökki lumisessa maisemassa ja ikivihreitä puita';
+  String get craneFly0SemanticLabel =>
+      'Talvimökki lumisessa maisemassa ja ikivihreitä puita';
 
   @override
   String get craneFly1SemanticLabel => 'Teltta pellolla';
@@ -2270,10 +2397,12 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'Supertree Grove';
 
   @override
-  String get craneFly9SemanticLabel => 'Mies nojaamassa siniseen antiikkiautoon';
+  String get craneFly9SemanticLabel =>
+      'Mies nojaamassa siniseen antiikkiautoon';
 
   @override
-  String get craneFly10SemanticLabel => 'Al-Azhar-moskeijan tornit auringonlaskun aikaan';
+  String get craneFly10SemanticLabel =>
+      'Al-Azhar-moskeijan tornit auringonlaskun aikaan';
 
   @override
   String get craneFly11SemanticLabel => 'Tiilimajakka meressä';
@@ -2288,13 +2417,15 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get craneSleep0SemanticLabel => 'Vedenpäällisiä taloja';
 
   @override
-  String get craneSleep1SemanticLabel => 'Talvimökki lumisessa maisemassa ja ikivihreitä puita';
+  String get craneSleep1SemanticLabel =>
+      'Talvimökki lumisessa maisemassa ja ikivihreitä puita';
 
   @override
   String get craneSleep2SemanticLabel => 'Machu Picchun linnake';
 
   @override
-  String get craneSleep3SemanticLabel => 'Mies nojaamassa siniseen antiikkiautoon';
+  String get craneSleep3SemanticLabel =>
+      'Mies nojaamassa siniseen antiikkiautoon';
 
   @override
   String get craneSleep4SemanticLabel => 'Järvenrantahotelli vuorten edessä';
@@ -2306,16 +2437,19 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get craneSleep6SemanticLabel => 'Uima-allas ja palmuja';
 
   @override
-  String get craneSleep7SemanticLabel => 'Värikkäitä rakennuksia Riberia Squarella';
+  String get craneSleep7SemanticLabel =>
+      'Värikkäitä rakennuksia Riberia Squarella';
 
   @override
-  String get craneSleep8SemanticLabel => 'Mayalaiset rauniot kalliolla rannan yläpuolella';
+  String get craneSleep8SemanticLabel =>
+      'Mayalaiset rauniot kalliolla rannan yläpuolella';
 
   @override
   String get craneSleep9SemanticLabel => 'Tiilimajakka meressä';
 
   @override
-  String get craneSleep10SemanticLabel => 'Al-Azhar-moskeijan tornit auringonlaskun aikaan';
+  String get craneSleep10SemanticLabel =>
+      'Al-Azhar-moskeijan tornit auringonlaskun aikaan';
 
   @override
   String get craneSleep11SemanticLabel => 'Taipei 101 ‑pilvenpiirtäjä';
@@ -2324,7 +2458,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get craneEat0SemanticLabel => 'Pizza puu-uunissa';
 
   @override
-  String get craneEat1SemanticLabel => 'Tyhjä baaritiski ja amerikkalaisravintolan tyyliset tuolit';
+  String get craneEat1SemanticLabel =>
+      'Tyhjä baaritiski ja amerikkalaisravintolan tyyliset tuolit';
 
   @override
   String get craneEat2SemanticLabel => 'Hampurilainen';
@@ -2351,7 +2486,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get craneEat9SemanticLabel => 'Kahvilan tiski, jossa leivonnaisia';
 
   @override
-  String get craneEat10SemanticLabel => 'Nainen pitää kädessään suurta pastrami-voileipää';
+  String get craneEat10SemanticLabel =>
+      'Nainen pitää kädessään suurta pastrami-voileipää';
 
   @override
   String get fortnightlyMenuFrontPage => 'Etusivu';
@@ -2402,7 +2538,8 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'Viimeisimmät päivitykset';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'Terveydenhuollon hiljainen mutta vaikuttava vallankumous';
+  String get fortnightlyHeadlineHealthcare =>
+      'Terveydenhuollon hiljainen mutta vaikuttava vallankumous';
 
   @override
   String get fortnightlyHeadlineWar => 'Sodan erottamat amerikkalaiselämät';
@@ -2414,13 +2551,16 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'Vihreä armeija uudistuu sisältä päin';
 
   @override
-  String get fortnightlyHeadlineStocks => 'Osakkeiden kasvun hidastuessa katseet kääntyvät valuuttaan';
+  String get fortnightlyHeadlineStocks =>
+      'Osakkeiden kasvun hidastuessa katseet kääntyvät valuuttaan';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Tulevaisuuden kankaita kehitetään teknologian avulla';
+  String get fortnightlyHeadlineFabrics =>
+      'Tulevaisuuden kankaita kehitetään teknologian avulla';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'Feministit kyseenalaistavat puolueellisuuden';
+  String get fortnightlyHeadlineFeminists =>
+      'Feministit kyseenalaistavat puolueellisuuden';
 
   @override
   String get fortnightlyHeadlineBees => 'Maaseudun mehiläiskato';

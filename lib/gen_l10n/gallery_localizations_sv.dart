@@ -1,4 +1,3 @@
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'gallery_localizations.dart';
@@ -23,7 +22,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get signIn => 'LOGGA IN';
 
   @override
-  String get bannerDemoText => 'Lösenordet har uppdaterats på den andra enheten. Logga in igen.';
+  String get bannerDemoText =>
+      'Lösenordet har uppdaterats på den andra enheten. Logga in igen.';
 
   @override
   String get bannerDemoResetText => 'Återställ bannern';
@@ -60,7 +60,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   }
 
   @override
-  String get cardsDemoTravelDestinationTitle1 => '10 städer att besöka i Tamil Nadu';
+  String get cardsDemoTravelDestinationTitle1 =>
+      '10 städer att besöka i Tamil Nadu';
 
   @override
   String get cardsDemoTravelDestinationDescription1 => 'Nummer 10';
@@ -72,7 +73,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get cardsDemoTravelDestinationLocation1 => 'Thanjavur i Tamil Nadu';
 
   @override
-  String get cardsDemoTravelDestinationTitle2 => 'Hantverkare från södra Indien';
+  String get cardsDemoTravelDestinationTitle2 =>
+      'Hantverkare från södra Indien';
 
   @override
   String get cardsDemoTravelDestinationDescription2 => 'Silkesspinnare';
@@ -120,7 +122,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get rallyAccountDataVacation => 'Semester';
 
   @override
-  String get rallyAccountDetailDataAnnualPercentageYield => 'Årlig avkastning i procent';
+  String get rallyAccountDetailDataAnnualPercentageYield =>
+      'Årlig avkastning i procent';
 
   @override
   String get rallyAccountDetailDataInterestRate => 'Ränta';
@@ -129,7 +132,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get rallyAccountDetailDataInterestYtd => 'Ränta sedan årsskiftet';
 
   @override
-  String get rallyAccountDetailDataInterestPaidLastYear => 'Betald ränta förra året';
+  String get rallyAccountDetailDataInterestPaidLastYear =>
+      'Betald ränta förra året';
 
   @override
   String get rallyAccountDetailDataNextStatement => 'Nästa utdrag';
@@ -285,8 +289,10 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
     return intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      one: 'Öka ditt potentiella skatteavdrag! Tilldela kategorier till 1 ej tilldelad transaktion.',
-      other: 'Öka ditt potentiella skatteavdrag! Tilldela kategorier till ${count} ej tilldelade transaktioner.',
+      one:
+          'Öka ditt potentiella skatteavdrag! Tilldela kategorier till 1 ej tilldelad transaktion.',
+      other:
+          'Öka ditt potentiella skatteavdrag! Tilldela kategorier till ${count} ej tilldelade transaktioner.',
     );
   }
 
@@ -300,7 +306,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get rallySeeAllBudgets => 'Visa alla budgetar';
 
   @override
-  String rallyAccountAmount(Object accountName, Object accountNumber, Object amount) {
+  String rallyAccountAmount(
+      Object accountName, Object accountNumber, Object amount) {
     return '${accountName}-kontot ${accountNumber} med ${amount}.';
   }
 
@@ -310,7 +317,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   }
 
   @override
-  String rallyBudgetAmount(Object budgetName, Object amountUsed, Object amountTotal, Object amountLeft) {
+  String rallyBudgetAmount(Object budgetName, Object amountUsed,
+      Object amountTotal, Object amountLeft) {
     return '${budgetName}-budget med ${amountUsed} använt av ${amountTotal}, ${amountLeft} kvar';
   }
 
@@ -353,7 +361,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoOptionsFeatureTitle => 'Alternativ för vy';
 
   @override
-  String get demoOptionsFeatureDescription => 'Tryck här om du vill visa tillgängliga alternativ för demon.';
+  String get demoOptionsFeatureDescription =>
+      'Tryck här om du vill visa tillgängliga alternativ för demon.';
 
   @override
   String get settingsTitle => 'Inställningar';
@@ -425,19 +434,23 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoAppBarTitle => 'App bar';
 
   @override
-  String get demoAppBarSubtitle => 'Displays information and actions relating to the current screen';
+  String get demoAppBarSubtitle =>
+      'Displays information and actions relating to the current screen';
 
   @override
-  String get demoAppBarDescription => 'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
+  String get demoAppBarDescription =>
+      'The App bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions';
 
   @override
   String get demoBottomAppBarTitle => 'Nedre appfält';
 
   @override
-  String get demoBottomAppBarSubtitle => 'Visar navigering och åtgärder längst ned på skärmen';
+  String get demoBottomAppBarSubtitle =>
+      'Visar navigering och åtgärder längst ned på skärmen';
 
   @override
-  String get demoBottomAppBarDescription => 'Ett nedre appfält ger användaren åtkomst till en navigeringspanel längst ned på skärmen och upp till fyra åtgärder, inklusive den flytande åtgärdsknappen.';
+  String get demoBottomAppBarDescription =>
+      'Ett nedre appfält ger användaren åtkomst till en navigeringspanel längst ned på skärmen och upp till fyra åtgärder, inklusive den flytande åtgärdsknappen.';
 
   @override
   String get bottomAppBarNotch => 'Skärmutskärning';
@@ -464,13 +477,15 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoBannerSubtitle => 'Visar en banner i en lista';
 
   @override
-  String get demoBannerDescription => 'En banner har ett viktigt, kortfattat meddelande om hur användare kan utföra en åtgärd (eller ignorera bannern). En användaråtgärd krävs för att ignorera den.';
+  String get demoBannerDescription =>
+      'En banner har ett viktigt, kortfattat meddelande om hur användare kan utföra en åtgärd (eller ignorera bannern). En användaråtgärd krävs för att ignorera den.';
 
   @override
   String get demoBottomNavigationTitle => 'Navigering längst ned på skärmen';
 
   @override
-  String get demoBottomNavigationSubtitle => 'Navigering längst ned på skärmen med toning mellan vyer';
+  String get demoBottomNavigationSubtitle =>
+      'Navigering längst ned på skärmen med toning mellan vyer';
 
   @override
   String get demoBottomNavigationPersistentLabels => 'Permanenta etiketter';
@@ -479,7 +494,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoBottomNavigationSelectedLabel => 'Vald etikett';
 
   @override
-  String get demoBottomNavigationDescription => 'I navigeringsfält på nedre delen av skärmen visas tre till fem destinationer. Varje destination motsvaras av en ikon och en valfri textetikett. När användare trycker på en navigeringsikon på nedre delen av skärmen dirigeras de till det navigeringsmål på toppnivå som är kopplad till ikonen.';
+  String get demoBottomNavigationDescription =>
+      'I navigeringsfält på nedre delen av skärmen visas tre till fem destinationer. Varje destination motsvaras av en ikon och en valfri textetikett. När användare trycker på en navigeringsikon på nedre delen av skärmen dirigeras de till det navigeringsmål på toppnivå som är kopplad till ikonen.';
 
   @override
   String get demoButtonTitle => 'Knappar';
@@ -491,31 +507,36 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoTextButtonTitle => 'Textknapp';
 
   @override
-  String get demoTextButtonDescription => 'Med en textknapp visas en bläckplump vid tryck men den höjs inte. Använd textknappar i verktygsfält, dialogrutor och infogade med utfyllnad';
+  String get demoTextButtonDescription =>
+      'Med en textknapp visas en bläckplump vid tryck men den höjs inte. Använd textknappar i verktygsfält, dialogrutor och infogade med utfyllnad';
 
   @override
   String get demoElevatedButtonTitle => 'Upphöjd knapp';
 
   @override
-  String get demoElevatedButtonDescription => 'Med upphöjda knappar får mestadels platta layouter definition. De kan användas för att lyfta fram funktioner i plottriga eller breda utrymmen.';
+  String get demoElevatedButtonDescription =>
+      'Med upphöjda knappar får mestadels platta layouter definition. De kan användas för att lyfta fram funktioner i plottriga eller breda utrymmen.';
 
   @override
   String get demoOutlinedButtonTitle => 'Konturknapp';
 
   @override
-  String get demoOutlinedButtonDescription => 'Konturknappar blir ogenomskinliga och höjs vid tryck. De visas ofta tillsammans med upphöjda knappar som pekar på en alternativ, sekundär åtgärd.';
+  String get demoOutlinedButtonDescription =>
+      'Konturknappar blir ogenomskinliga och höjs vid tryck. De visas ofta tillsammans med upphöjda knappar som pekar på en alternativ, sekundär åtgärd.';
 
   @override
   String get demoToggleButtonTitle => 'På/av-knappar';
 
   @override
-  String get demoToggleButtonDescription => 'På/av-knappar kan användas för grupprelaterade alternativ. En grupp bör finnas i samma behållare för att lyfta fram grupper av relaterade på/av-knappar';
+  String get demoToggleButtonDescription =>
+      'På/av-knappar kan användas för grupprelaterade alternativ. En grupp bör finnas i samma behållare för att lyfta fram grupper av relaterade på/av-knappar';
 
   @override
   String get demoFloatingButtonTitle => 'Flytande åtgärdsknapp';
 
   @override
-  String get demoFloatingButtonDescription => 'En flytande åtgärdsknapp är en rund ikonknapp som flyter ovanpå innehållet för att främja en primär åtgärd i appen.';
+  String get demoFloatingButtonDescription =>
+      'En flytande åtgärdsknapp är en rund ikonknapp som flyter ovanpå innehållet för att främja en primär åtgärd i appen.';
 
   @override
   String get demoCardTitle => 'Kort';
@@ -527,34 +548,40 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoChipTitle => 'Brickor';
 
   @override
-  String get demoCardDescription => 'Ett kort är ett ark i Material Design som används för att representera relaterad information, till exempel ett album, en geografisk plats, en måltid, kontaktuppgifter osv.';
+  String get demoCardDescription =>
+      'Ett kort är ett ark i Material Design som används för att representera relaterad information, till exempel ett album, en geografisk plats, en måltid, kontaktuppgifter osv.';
 
   @override
-  String get demoChipSubtitle => 'Kompakta element som representerar en inmatning, åtgärd eller ett attribut';
+  String get demoChipSubtitle =>
+      'Kompakta element som representerar en inmatning, åtgärd eller ett attribut';
 
   @override
   String get demoActionChipTitle => 'Åtgärdsbricka';
 
   @override
-  String get demoActionChipDescription => 'Med åtgärdsbrickor får du en uppsättning alternativ som utlöser en åtgärd för huvudinnehållet. Åtgärdsbrickor ska visas dynamiskt och i rätt sammanhang i användargränssnittet.';
+  String get demoActionChipDescription =>
+      'Med åtgärdsbrickor får du en uppsättning alternativ som utlöser en åtgärd för huvudinnehållet. Åtgärdsbrickor ska visas dynamiskt och i rätt sammanhang i användargränssnittet.';
 
   @override
   String get demoChoiceChipTitle => 'Valbricka';
 
   @override
-  String get demoChoiceChipDescription => 'Valbrickor representerar ett av valen i en uppsättning. Valbrickor har relaterad beskrivande text eller kategorier.';
+  String get demoChoiceChipDescription =>
+      'Valbrickor representerar ett av valen i en uppsättning. Valbrickor har relaterad beskrivande text eller kategorier.';
 
   @override
   String get demoFilterChipTitle => 'Filterbricka';
 
   @override
-  String get demoFilterChipDescription => 'Med filterbrickor filtreras innehåll efter taggar eller beskrivande ord.';
+  String get demoFilterChipDescription =>
+      'Med filterbrickor filtreras innehåll efter taggar eller beskrivande ord.';
 
   @override
   String get demoInputChipTitle => 'Inmatningsbricka';
 
   @override
-  String get demoInputChipDescription => 'Inmatningsbrickor representerar ett komplext informationsstycke, till exempel en enhet (person, plats eller sak) eller samtalstext i kompakt format';
+  String get demoInputChipDescription =>
+      'Inmatningsbrickor representerar ett komplext informationsstycke, till exempel en enhet (person, plats eller sak) eller samtalstext i kompakt format';
 
   @override
   String get demoDataTableTitle => 'Datatabeller';
@@ -563,7 +590,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoDataTableSubtitle => 'Rader och kolumner med information';
 
   @override
-  String get demoDataTableDescription => 'Datatabeller visar information i ett rutnätsformat med rader och kolumner. De gör information lätt att söka igenom, så att användare kan leta efter mönster och insikter.';
+  String get demoDataTableDescription =>
+      'Datatabeller visar information i ett rutnätsformat med rader och kolumner. De gör information lätt att söka igenom, så att användare kan leta efter mönster och insikter.';
 
   @override
   String get dataTableHeader => 'Näring';
@@ -642,7 +670,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoAlertDialogTitle => 'Varning';
 
   @override
-  String get demoAlertDialogDescription => 'Med en varningsruta uppmärksammas användaren på saker som behöver bekräftas. Titeln och listan på åtgärder i varningsrutan är valfria.';
+  String get demoAlertDialogDescription =>
+      'Med en varningsruta uppmärksammas användaren på saker som behöver bekräftas. Titeln och listan på åtgärder i varningsrutan är valfria.';
 
   @override
   String get demoAlertTitleDialogTitle => 'Varning med titel';
@@ -651,16 +680,19 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoSimpleDialogTitle => 'Enkel';
 
   @override
-  String get demoSimpleDialogDescription => 'Med en enkel dialogruta får användaren välja mellan flera alternativ. En enkel dialogruta har en valfri titel som visas ovanför alternativen.';
+  String get demoSimpleDialogDescription =>
+      'Med en enkel dialogruta får användaren välja mellan flera alternativ. En enkel dialogruta har en valfri titel som visas ovanför alternativen.';
 
   @override
   String get demoDividerTitle => 'Divider';
 
   @override
-  String get demoDividerSubtitle => 'A divider is a thin line that groups content in lists and layouts.';
+  String get demoDividerSubtitle =>
+      'A divider is a thin line that groups content in lists and layouts.';
 
   @override
-  String get demoDividerDescription => 'Dividers can be used in lists, drawers, and elsewhere to separate content.';
+  String get demoDividerDescription =>
+      'Dividers can be used in lists, drawers, and elsewhere to separate content.';
 
   @override
   String get demoVerticalDividerTitle => 'Vertical Divider';
@@ -672,7 +704,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoGridListsSubtitle => 'Layout på rader och kolumner';
 
   @override
-  String get demoGridListsDescription => 'Rutnätslistor lämpar sig bäst för att presentera data av liknande typ, exempelvis bilder. Varje objekt i en rutnätslista kallas för en ruta.';
+  String get demoGridListsDescription =>
+      'Rutnätslistor lämpar sig bäst för att presentera data av liknande typ, exempelvis bilder. Varje objekt i en rutnätslista kallas för en ruta.';
 
   @override
   String get demoGridListsImageOnlyTitle => 'Endast bild';
@@ -687,34 +720,41 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoSlidersTitle => 'Skjutreglage';
 
   @override
-  String get demoSlidersSubtitle => 'Widgetar för att välja ett värde genom att svepa';
+  String get demoSlidersSubtitle =>
+      'Widgetar för att välja ett värde genom att svepa';
 
   @override
-  String get demoSlidersDescription => 'Skjutreglage är fält med ett värdeintervall som användare väljer ett värde från. De passar perfekt till justering av inställningar som volym, ljusstyrka och bildfilter.';
+  String get demoSlidersDescription =>
+      'Skjutreglage är fält med ett värdeintervall som användare väljer ett värde från. De passar perfekt till justering av inställningar som volym, ljusstyrka och bildfilter.';
 
   @override
   String get demoRangeSlidersTitle => 'Skjutreglage för intervall';
 
   @override
-  String get demoRangeSlidersDescription => 'Skjutreglage är fält med ett värdeintervall. De kan ha ikoner på båda sidorna av fältet som motsvarar värdeintervallet. De passar perfekt till justering av inställningar som volym, ljusstyrka och bildfilter.';
+  String get demoRangeSlidersDescription =>
+      'Skjutreglage är fält med ett värdeintervall. De kan ha ikoner på båda sidorna av fältet som motsvarar värdeintervallet. De passar perfekt till justering av inställningar som volym, ljusstyrka och bildfilter.';
 
   @override
   String get demoCustomSlidersTitle => 'Anpassade skjutreglage';
 
   @override
-  String get demoCustomSlidersDescription => 'Skjutreglage är fält med ett värdeintervall som användare väljer ett värde eller ett värdeintervall från. Det går att tillämpa teman på och anpassa skjutreglage.';
+  String get demoCustomSlidersDescription =>
+      'Skjutreglage är fält med ett värdeintervall som användare väljer ett värde eller ett värdeintervall från. Det går att tillämpa teman på och anpassa skjutreglage.';
 
   @override
-  String get demoSlidersContinuousWithEditableNumericalValue => 'Kontinuerligt med redigerbart siffervärde';
+  String get demoSlidersContinuousWithEditableNumericalValue =>
+      'Kontinuerligt med redigerbart siffervärde';
 
   @override
   String get demoSlidersDiscrete => 'Diskret';
 
   @override
-  String get demoSlidersDiscreteSliderWithCustomTheme => 'Diskret skjutreglage med anpassat tema';
+  String get demoSlidersDiscreteSliderWithCustomTheme =>
+      'Diskret skjutreglage med anpassat tema';
 
   @override
-  String get demoSlidersContinuousRangeSliderWithCustomTheme => 'Skjutreglage med kontinuerligt intervall och anpassat tema';
+  String get demoSlidersContinuousRangeSliderWithCustomTheme =>
+      'Skjutreglage med kontinuerligt intervall och anpassat tema';
 
   @override
   String get demoSlidersContinuous => 'Kontinuerligt';
@@ -741,7 +781,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoMenuSubtitle => 'Menyknappar och enkla menyer';
 
   @override
-  String get demoMenuDescription => 'En meny visar en lista över alternativ på en tillfällig yta. De syns när användare interagerar med en knapp, åtgärd eller annan kontroll.';
+  String get demoMenuDescription =>
+      'En meny visar en lista över alternativ på en tillfällig yta. De syns när användare interagerar med en knapp, åtgärd eller annan kontroll.';
 
   @override
   String get demoMenuItemValueOne => 'Menyalternativ ett';
@@ -765,7 +806,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoMenuFour => 'Fyra';
 
   @override
-  String get demoMenuAnItemWithAContextMenuButton => 'Ett alternativ med en snabbmeny';
+  String get demoMenuAnItemWithAContextMenuButton =>
+      'Ett alternativ med en snabbmeny';
 
   @override
   String get demoMenuContextMenuItemOne => 'Snabbmeny – alternativ ett';
@@ -777,7 +819,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoMenuContextMenuItemThree => 'Snabbmeny – alternativ tre';
 
   @override
-  String get demoMenuAnItemWithASectionedMenu => 'Ett alternativ med en meny med avsnitt';
+  String get demoMenuAnItemWithASectionedMenu =>
+      'Ett alternativ med en meny med avsnitt';
 
   @override
   String get demoMenuPreview => 'Förhandsgranska';
@@ -808,7 +851,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoNavigationDrawerSubtitle => 'Visar en panel i appfältet';
 
   @override
-  String get demoNavigationDrawerDescription => 'En Material Design-panel som kommer in horisontellt från skärmens kant för att visa navigeringslänkar i en app.';
+  String get demoNavigationDrawerDescription =>
+      'En Material Design-panel som kommer in horisontellt från skärmens kant för att visa navigeringslänkar i en app.';
 
   @override
   String get demoNavigationDrawerUserName => 'Användarnamn';
@@ -823,7 +867,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoNavigationDrawerToPageTwo => 'Objekt två';
 
   @override
-  String get demoNavigationDrawerText => 'Svep från kanten eller tryck på ikonen uppe till höger för att öppna panelen';
+  String get demoNavigationDrawerText =>
+      'Svep från kanten eller tryck på ikonen uppe till höger för att öppna panelen';
 
   @override
   String get demoNavigationRailTitle => 'Navigeringsspår';
@@ -832,7 +877,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoNavigationRailSubtitle => 'Visar ett navigeringsspår i en app';
 
   @override
-  String get demoNavigationRailDescription => 'En Material Design-widget avsedd att visas till vänster eller höger i en app för navigering mellan ett mindre antal vyer, vanligtvis mellan tre och fem.';
+  String get demoNavigationRailDescription =>
+      'En Material Design-widget avsedd att visas till vänster eller höger i en app för navigering mellan ett mindre antal vyer, vanligtvis mellan tre och fem.';
 
   @override
   String get demoNavigationRailFirst => 'Första';
@@ -844,25 +890,30 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoNavigationRailThird => 'Tredje';
 
   @override
-  String get demoMenuAnItemWithASimpleMenu => 'Ett alternativ med en enkel meny';
+  String get demoMenuAnItemWithASimpleMenu =>
+      'Ett alternativ med en enkel meny';
 
   @override
-  String get demoMenuAnItemWithAChecklistMenu => 'Ett alternativ med en meny med checklista';
+  String get demoMenuAnItemWithAChecklistMenu =>
+      'Ett alternativ med en meny med checklista';
 
   @override
   String get demoFullscreenDialogTitle => 'Helskärm';
 
   @override
-  String get demoFullscreenDialogDescription => 'Med egendomen fullscreenDialog anges om en inkommande sida är en modal dialogruta i helskärm';
+  String get demoFullscreenDialogDescription =>
+      'Med egendomen fullscreenDialog anges om en inkommande sida är en modal dialogruta i helskärm';
 
   @override
   String get demoCupertinoActivityIndicatorTitle => 'Aktivitetsindikator';
 
   @override
-  String get demoCupertinoActivityIndicatorSubtitle => 'Aktivitetsindikatorer i iOS-stil';
+  String get demoCupertinoActivityIndicatorSubtitle =>
+      'Aktivitetsindikatorer i iOS-stil';
 
   @override
-  String get demoCupertinoActivityIndicatorDescription => 'En aktivitetsindikator i iOS-stil som snurrar medurs.';
+  String get demoCupertinoActivityIndicatorDescription =>
+      'En aktivitetsindikator i iOS-stil som snurrar medurs.';
 
   @override
   String get demoCupertinoButtonsTitle => 'Knappar';
@@ -871,7 +922,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoCupertinoButtonsSubtitle => 'Knappar i iOS-stil';
 
   @override
-  String get demoCupertinoButtonsDescription => 'En knapp i iOS-stil. Den har en text och/eller ikon som tonas in och ut vid beröring. Den kan ha en bakgrund.';
+  String get demoCupertinoButtonsDescription =>
+      'En knapp i iOS-stil. Den har en text och/eller ikon som tonas in och ut vid beröring. Den kan ha en bakgrund.';
 
   @override
   String get demoCupertinoContextMenuTitle => 'Context Menu';
@@ -880,7 +932,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoCupertinoContextMenuSubtitle => 'iOS-style context menu';
 
   @override
-  String get demoCupertinoContextMenuDescription => 'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
+  String get demoCupertinoContextMenuDescription =>
+      'An iOS-style full screen contextual menu that appears when an element is long-pressed.';
 
   @override
   String get demoCupertinoContextMenuActionOne => 'Action one';
@@ -889,7 +942,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoCupertinoContextMenuActionTwo => 'Action two';
 
   @override
-  String get demoCupertinoContextMenuActionText => 'Tap and hold the Flutter logo to see the context menu.';
+  String get demoCupertinoContextMenuActionText =>
+      'Tap and hold the Flutter logo to see the context menu.';
 
   @override
   String get demoCupertinoAlertsTitle => 'Aviseringar';
@@ -901,7 +955,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoCupertinoAlertTitle => 'Varning';
 
   @override
-  String get demoCupertinoAlertDescription => 'Med en varningsruta uppmärksammas användaren på saker som behöver bekräftas. Titeln, innehållet och listan på åtgärder i varningsruta är valfria. Titeln visas ovanför innehållet och åtgärderna nedanför innehållet.';
+  String get demoCupertinoAlertDescription =>
+      'Med en varningsruta uppmärksammas användaren på saker som behöver bekräftas. Titeln, innehållet och listan på åtgärder i varningsruta är valfria. Titeln visas ovanför innehållet och åtgärderna nedanför innehållet.';
 
   @override
   String get demoCupertinoAlertWithTitleTitle => 'Varning med titel';
@@ -916,7 +971,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoCupertinoActionSheetTitle => 'Åtgärdsblad';
 
   @override
-  String get demoCupertinoActionSheetDescription => 'Ett åtgärdsblad är ett typ av aviseringar där användaren får två eller fler val som är relaterade till den aktuella kontexten. Ett åtgärdsblad kan ha en titel, ett ytterligare meddelande eller en lista över åtgärder.';
+  String get demoCupertinoActionSheetDescription =>
+      'Ett åtgärdsblad är ett typ av aviseringar där användaren får två eller fler val som är relaterade till den aktuella kontexten. Ett åtgärdsblad kan ha en titel, ett ytterligare meddelande eller en lista över åtgärder.';
 
   @override
   String get demoCupertinoNavigationBarTitle => 'Navigeringsfält';
@@ -925,16 +981,19 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoCupertinoNavigationBarSubtitle => 'Navigeringsfält i iOS-stil';
 
   @override
-  String get demoCupertinoNavigationBarDescription => 'Ett navigeringsfält i iOS-stil. Navigeringsfältet är ett verktygsfält som består av åtminstone en sidrubrik, i mitten av verktygsfältet.';
+  String get demoCupertinoNavigationBarDescription =>
+      'Ett navigeringsfält i iOS-stil. Navigeringsfältet är ett verktygsfält som består av åtminstone en sidrubrik, i mitten av verktygsfältet.';
 
   @override
   String get demoCupertinoPickerTitle => 'Väljare';
 
   @override
-  String get demoCupertinoPickerSubtitle => 'Väljare av datum och tid i iOS-stil';
+  String get demoCupertinoPickerSubtitle =>
+      'Väljare av datum och tid i iOS-stil';
 
   @override
-  String get demoCupertinoPickerDescription => 'En väljarwidget i iOS-stil som du kan använda för att välja datum, tider eller både datum och tid.';
+  String get demoCupertinoPickerDescription =>
+      'En väljarwidget i iOS-stil som du kan använda för att välja datum, tider eller både datum och tid.';
 
   @override
   String get demoCupertinoPickerTimer => 'Timer';
@@ -952,19 +1011,23 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoCupertinoPullToRefreshTitle => 'Dra för att uppdatera';
 
   @override
-  String get demoCupertinoPullToRefreshSubtitle => 'Kontrollen dra för att uppdatera i iOS-stil';
+  String get demoCupertinoPullToRefreshSubtitle =>
+      'Kontrollen dra för att uppdatera i iOS-stil';
 
   @override
-  String get demoCupertinoPullToRefreshDescription => 'En widget som implementerar innehållskontrollen dra för att uppdatera i iOS-stil.';
+  String get demoCupertinoPullToRefreshDescription =>
+      'En widget som implementerar innehållskontrollen dra för att uppdatera i iOS-stil.';
 
   @override
   String get demoCupertinoSegmentedControlTitle => 'Segmentstyrning';
 
   @override
-  String get demoCupertinoSegmentedControlSubtitle => 'Segmentstyrning i iOS-stil';
+  String get demoCupertinoSegmentedControlSubtitle =>
+      'Segmentstyrning i iOS-stil';
 
   @override
-  String get demoCupertinoSegmentedControlDescription => 'Används för att välja mellan ett antal ömsesidigt uteslutande alternativ. När ett alternativ i segmentstyrningen har valts är de andra alternativen i segmentstyrningen inte längre valda.';
+  String get demoCupertinoSegmentedControlDescription =>
+      'Används för att välja mellan ett antal ömsesidigt uteslutande alternativ. När ett alternativ i segmentstyrningen har valts är de andra alternativen i segmentstyrningen inte längre valda.';
 
   @override
   String get demoCupertinoSliderTitle => 'Skjutreglage';
@@ -973,7 +1036,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoCupertinoSliderSubtitle => 'Skjutreglage i iOS-stil';
 
   @override
-  String get demoCupertinoSliderDescription => 'Ett skjutreglage kan användas till att välja från en uppsättning kontinuerliga eller diskreta värden.';
+  String get demoCupertinoSliderDescription =>
+      'Ett skjutreglage kan användas till att välja från en uppsättning kontinuerliga eller diskreta värden.';
 
   @override
   String demoCupertinoSliderContinuous(Object value) {
@@ -989,7 +1053,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoCupertinoSwitchSubtitle => 'Reglage i iOS-stil';
 
   @override
-  String get demoCupertinoSwitchDescription => 'Ett reglage används till att aktivera eller inaktivera en enskild inställning.';
+  String get demoCupertinoSwitchDescription =>
+      'Ett reglage används till att aktivera eller inaktivera en enskild inställning.';
 
   @override
   String get demoCupertinoTabBarTitle => 'Flikfält';
@@ -998,7 +1063,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoCupertinoTabBarSubtitle => 'Nedre flikfält i iOS-stil';
 
   @override
-  String get demoCupertinoTabBarDescription => 'Ett flikfält för navigering i iOS-stil längst ned på skärmen. Flera flikar visa samtidigt, men bara en är aktiverad (den första fliken som standard).';
+  String get demoCupertinoTabBarDescription =>
+      'Ett flikfält för navigering i iOS-stil längst ned på skärmen. Flera flikar visa samtidigt, men bara en är aktiverad (den första fliken som standard).';
 
   @override
   String get cupertinoTabBarHomeTab => 'Startsida';
@@ -1016,7 +1082,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoCupertinoTextFieldSubtitle => 'Textfält i iOS-stil';
 
   @override
-  String get demoCupertinoTextFieldDescription => 'En användare kan skriva text i textfältet, antingen med ett fysiskt tangentbord eller med ett tangentbord på skärmen.';
+  String get demoCupertinoTextFieldDescription =>
+      'En användare kan skriva text i textfältet, antingen med ett fysiskt tangentbord eller med ett tangentbord på skärmen.';
 
   @override
   String get demoCupertinoTextFieldPIN => 'Pinkod';
@@ -1028,7 +1095,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoMotionSubtitle => 'Alla fördefinierade övergångsmönster';
 
   @override
-  String get demoContainerTransformDemoInstructions => 'Kort, listor och flytande åtgärdsknapp';
+  String get demoContainerTransformDemoInstructions =>
+      'Kort, listor och flytande åtgärdsknapp';
 
   @override
   String get demoSharedXAxisDemoInstructions => 'Knapparna Nästa och Tillbaka';
@@ -1037,10 +1105,12 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoSharedYAxisDemoInstructions => 'Sortera efter Nyligen spelade';
 
   @override
-  String get demoSharedZAxisDemoInstructions => 'Knapp med ikon för Inställningar';
+  String get demoSharedZAxisDemoInstructions =>
+      'Knapp med ikon för Inställningar';
 
   @override
-  String get demoFadeThroughDemoInstructions => 'Navigering längst ned på skärmen';
+  String get demoFadeThroughDemoInstructions =>
+      'Navigering längst ned på skärmen';
 
   @override
   String get demoFadeScaleDemoInstructions => 'Modal och flytande åtgärdsknapp';
@@ -1049,7 +1119,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoContainerTransformTitle => 'Behållartransformering';
 
   @override
-  String get demoContainerTransformDescription => 'Mönstret med behållartransformering är avsett för övergångar mellan element i användargränssnittet där en behållare är inblandad. Mönstret ger en synlig koppling mellan två element i användargränssnittet';
+  String get demoContainerTransformDescription =>
+      'Mönstret med behållartransformering är avsett för övergångar mellan element i användargränssnittet där en behållare är inblandad. Mönstret ger en synlig koppling mellan två element i användargränssnittet';
 
   @override
   String get demoContainerTransformModalBottomSheetTitle => 'Intoningsläge';
@@ -1076,7 +1147,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoMotionListTileTitle => 'Post i lista';
 
   @override
-  String get demoSharedAxisDescription => 'Mönstret med delad axel används för övergångar mellan element i användargränssnittet som hänger ihop rumsligt eller navigeringsmässigt. Mönstret förstärker den inbördes relationen mellan element med hjälp av en övergång längs en gemensam x-, y- eller z-axel.';
+  String get demoSharedAxisDescription =>
+      'Mönstret med delad axel används för övergångar mellan element i användargränssnittet som hänger ihop rumsligt eller navigeringsmässigt. Mönstret förstärker den inbördes relationen mellan element med hjälp av en övergång längs en gemensam x-, y- eller z-axel.';
 
   @override
   String get demoSharedXAxisTitle => 'Delad x-axel';
@@ -1091,7 +1163,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoSharedXAxisCoursePageTitle => 'Skräddarsy dina kurser';
 
   @override
-  String get demoSharedXAxisCoursePageSubtitle => 'Grupperade kategorier visas som grupper i flödet. Du kan alltid ändra detta senare.';
+  String get demoSharedXAxisCoursePageSubtitle =>
+      'Grupperade kategorier visas som grupper i flödet. Du kan alltid ändra detta senare.';
 
   @override
   String get demoSharedXAxisArtsAndCraftsCourseTitle => 'Konst och hantverk';
@@ -1121,10 +1194,12 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoSharedXAxisSignInSubtitleText => 'Logga in på ditt konto';
 
   @override
-  String get demoSharedXAxisSignInTextFieldLabel => 'E-postadress eller telefonnummer';
+  String get demoSharedXAxisSignInTextFieldLabel =>
+      'E-postadress eller telefonnummer';
 
   @override
-  String get demoSharedXAxisForgotEmailButtonText => 'HAR DU GLÖMT DIN E-POSTADRESS?';
+  String get demoSharedXAxisForgotEmailButtonText =>
+      'HAR DU GLÖMT DIN E-POSTADRESS?';
 
   @override
   String get demoSharedXAxisCreateAccountButtonText => 'SKAPA KONTO';
@@ -1166,7 +1241,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoSharedZAxisSandwichRecipeTitle => 'Dubbelmacka';
 
   @override
-  String get demoSharedZAxisSandwichRecipeDescription => 'Recept på dubbelmacka';
+  String get demoSharedZAxisSandwichRecipeDescription =>
+      'Recept på dubbelmacka';
 
   @override
   String get demoSharedZAxisDessertRecipeTitle => 'Efterrätt';
@@ -1178,7 +1254,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoSharedZAxisShrimpPlateRecipeTitle => 'Räkor';
 
   @override
-  String get demoSharedZAxisShrimpPlateRecipeDescription => 'Recept på räktallrik';
+  String get demoSharedZAxisShrimpPlateRecipeDescription =>
+      'Recept på räktallrik';
 
   @override
   String get demoSharedZAxisCrabPlateRecipeTitle => 'Krabba';
@@ -1190,7 +1267,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoSharedZAxisBeefSandwichRecipeTitle => 'Biffmacka';
 
   @override
-  String get demoSharedZAxisBeefSandwichRecipeDescription => 'Recept på biffmacka';
+  String get demoSharedZAxisBeefSandwichRecipeDescription =>
+      'Recept på biffmacka';
 
   @override
   String get demoSharedZAxisSavedRecipesListTitle => 'Sparade recept';
@@ -1211,7 +1289,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoFadeThroughTitle => 'Tona genom';
 
   @override
-  String get demoFadeThroughDescription => 'Mönstret med genomtoning används för övergångar mellan element i användargränssnittet som inte har någon tydlig inbördes koppling.';
+  String get demoFadeThroughDescription =>
+      'Mönstret med genomtoning används för övergångar mellan element i användargränssnittet som inte har någon tydlig inbördes koppling.';
 
   @override
   String get demoFadeThroughAlbumsDestination => 'Album';
@@ -1229,7 +1308,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoFadeScaleTitle => 'Tona in/ut';
 
   @override
-  String get demoFadeScaleDescription => 'Mönstret med objekt som tonar in/ut används för element i användargränssnittet som kommer in på eller lämnar skärmen, t.ex. en dialogruta som tonar in mitt på skärmen.';
+  String get demoFadeScaleDescription =>
+      'Mönstret med objekt som tonar in/ut används för element i användargränssnittet som kommer in på eller lämnar skärmen, t.ex. en dialogruta som tonar in mitt på skärmen.';
 
   @override
   String get demoFadeScaleShowAlertDialogButton => 'VISA MODALT ARK';
@@ -1256,7 +1336,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoColorsSubtitle => 'Alla förhandsfärger';
 
   @override
-  String get demoColorsDescription => 'Färger och färgrutor som representerar färgpaletten i Material Design.';
+  String get demoColorsDescription =>
+      'Färger och färgrutor som representerar färgpaletten i Material Design.';
 
   @override
   String get demoTypographyTitle => 'Typografi';
@@ -1265,7 +1346,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoTypographySubtitle => 'Alla fördefinierade textformat';
 
   @override
-  String get demoTypographyDescription => 'Definitioner för olika typografiska format i Material Design';
+  String get demoTypographyDescription =>
+      'Definitioner för olika typografiska format i Material Design';
 
   @override
   String get demo2dTransformationsTitle => '2D-transformationer';
@@ -1274,10 +1356,12 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demo2dTransformationsSubtitle => 'Panorera, zooma, rotera';
 
   @override
-  String get demo2dTransformationsDescription => 'Tryck för att redigera ramar och använd rörelser för att navigera i bilden. Dra för att panorera, rotera och nypa för att zooma in med två fingrar. Återgå till startriktningen genom att trycka på återställningsknappen.';
+  String get demo2dTransformationsDescription =>
+      'Tryck för att redigera ramar och använd rörelser för att navigera i bilden. Dra för att panorera, rotera och nypa för att zooma in med två fingrar. Återgå till startriktningen genom att trycka på återställningsknappen.';
 
   @override
-  String get demo2dTransformationsResetTooltip => 'Återställ transformationerna';
+  String get demo2dTransformationsResetTooltip =>
+      'Återställ transformationerna';
 
   @override
   String get demo2dTransformationsEditTooltip => 'Redigera ram';
@@ -1289,19 +1373,23 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoBottomSheetTitle => 'Ark på nedre delen av skärmen';
 
   @override
-  String get demoBottomSheetSubtitle => 'Permanent och modalt ark på nedre delen av skärmen';
+  String get demoBottomSheetSubtitle =>
+      'Permanent och modalt ark på nedre delen av skärmen';
 
   @override
-  String get demoBottomSheetPersistentTitle => 'Permanent ark på nedre delen av skärmen';
+  String get demoBottomSheetPersistentTitle =>
+      'Permanent ark på nedre delen av skärmen';
 
   @override
-  String get demoBottomSheetPersistentDescription => 'I ett permanent ark längst ned på skärmen visas information som kompletterar appens primära innehåll. Ett permanent ark fortsätter att visas när användaren interagerar med andra delar av appen.';
+  String get demoBottomSheetPersistentDescription =>
+      'I ett permanent ark längst ned på skärmen visas information som kompletterar appens primära innehåll. Ett permanent ark fortsätter att visas när användaren interagerar med andra delar av appen.';
 
   @override
   String get demoBottomSheetModalTitle => 'Modalt ark längst ned på skärmen';
 
   @override
-  String get demoBottomSheetModalDescription => 'Ett modalt ark längst ned på skärmen är ett alternativ till en meny eller dialogruta, och det förhindrar att användaren interagerar med resten av appen.';
+  String get demoBottomSheetModalDescription =>
+      'Ett modalt ark längst ned på skärmen är ett alternativ till en meny eller dialogruta, och det förhindrar att användaren interagerar med resten av appen.';
 
   @override
   String get demoBottomSheetAddLabel => 'Lägg till';
@@ -1324,7 +1412,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoListsSubtitle => 'Layouter med rullista';
 
   @override
-  String get demoListsDescription => 'En enkelrad med fast höjd som vanligtvis innehåller text och en ikon före eller efter texten.';
+  String get demoListsDescription =>
+      'En enkelrad med fast höjd som vanligtvis innehåller text och en ikon före eller efter texten.';
 
   @override
   String get demoOneLineListsTitle => 'En rad';
@@ -1345,13 +1434,15 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoCircularProgressIndicatorTitle => 'Cirkulär förloppsindikator';
 
   @override
-  String get demoCircularProgressIndicatorDescription => 'En cirkulär förloppsindikator i Material Design som visar att appen är upptagen genom att snurra.';
+  String get demoCircularProgressIndicatorDescription =>
+      'En cirkulär förloppsindikator i Material Design som visar att appen är upptagen genom att snurra.';
 
   @override
   String get demoLinearProgressIndicatorTitle => 'Linjär förloppsindikator';
 
   @override
-  String get demoLinearProgressIndicatorDescription => 'En linjär förloppsindikator i Material Design.';
+  String get demoLinearProgressIndicatorDescription =>
+      'En linjär förloppsindikator i Material Design.';
 
   @override
   String get demoPickersTitle => 'Väljare';
@@ -1363,19 +1454,22 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoDatePickerTitle => 'Datumväljare';
 
   @override
-  String get demoDatePickerDescription => 'Visar en dialog med en datumväljare i Material Design.';
+  String get demoDatePickerDescription =>
+      'Visar en dialog med en datumväljare i Material Design.';
 
   @override
   String get demoTimePickerTitle => 'Tidväljare';
 
   @override
-  String get demoTimePickerDescription => 'Visar en dialog med en tidväljare i Material Design.';
+  String get demoTimePickerDescription =>
+      'Visar en dialog med en tidväljare i Material Design.';
 
   @override
   String get demoDateRangePickerTitle => 'Date Range Picker';
 
   @override
-  String get demoDateRangePickerDescription => 'Shows a dialog containing a Material Design date range picker.';
+  String get demoDateRangePickerDescription =>
+      'Shows a dialog containing a Material Design date range picker.';
 
   @override
   String get demoPickersShowPicker => 'VISA VÄLJAREN';
@@ -1390,19 +1484,23 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoTabsNonScrollingTitle => 'Inte skrollbar';
 
   @override
-  String get demoTabsSubtitle => 'Flikar med vyer som går att skrolla igenom separat';
+  String get demoTabsSubtitle =>
+      'Flikar med vyer som går att skrolla igenom separat';
 
   @override
-  String get demoTabsDescription => 'Flikar organiserar innehåll på olika skärmar och med olika dataset och andra interaktioner.';
+  String get demoTabsDescription =>
+      'Flikar organiserar innehåll på olika skärmar och med olika dataset och andra interaktioner.';
 
   @override
   String get demoSnackbarsTitle => 'Meddelandefält';
 
   @override
-  String get demoSnackbarsSubtitle => 'Meddelandefält innehåller meddelanden och visas längst ned på skärmen';
+  String get demoSnackbarsSubtitle =>
+      'Meddelandefält innehåller meddelanden och visas längst ned på skärmen';
 
   @override
-  String get demoSnackbarsDescription => 'Meddelandefälten visar användarna vilken process som utförs eller ska utföras i en app. De visas tillfälligt, långt ned på skärmen. Meddelandefält ska inte störa användarupplevelsen, och användarna behöver inte göra något för att de ska försvinna.';
+  String get demoSnackbarsDescription =>
+      'Meddelandefälten visar användarna vilken process som utförs eller ska utföras i en app. De visas tillfälligt, långt ned på skärmen. Meddelandefält ska inte störa användarupplevelsen, och användarna behöver inte göra något för att de ska försvinna.';
 
   @override
   String get demoSnackbarsButtonLabel => 'VISA ETT MEDDELANDEFÄLT';
@@ -1414,31 +1512,36 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoSnackbarsActionButtonLabel => 'ÅTGÄRD';
 
   @override
-  String get demoSnackbarsAction => 'Du tryckte på åtgärden för meddelandefält.';
+  String get demoSnackbarsAction =>
+      'Du tryckte på åtgärden för meddelandefält.';
 
   @override
   String get demoSelectionControlsTitle => 'Urvalskontroller';
 
   @override
-  String get demoSelectionControlsSubtitle => 'Kryssrutor, alternativknappar och reglage';
+  String get demoSelectionControlsSubtitle =>
+      'Kryssrutor, alternativknappar och reglage';
 
   @override
   String get demoSelectionControlsCheckboxTitle => 'Kryssruta';
 
   @override
-  String get demoSelectionControlsCheckboxDescription => 'Med kryssrutor kan användaren välja mellan flera alternativ från en uppsättning. Värdet för en normal kryssruta är sant eller falskt. För en kryssruta med tre lägen kan värdet även vara tomt.';
+  String get demoSelectionControlsCheckboxDescription =>
+      'Med kryssrutor kan användaren välja mellan flera alternativ från en uppsättning. Värdet för en normal kryssruta är sant eller falskt. För en kryssruta med tre lägen kan värdet även vara tomt.';
 
   @override
   String get demoSelectionControlsRadioTitle => 'Alternativknapp';
 
   @override
-  String get demoSelectionControlsRadioDescription => 'Med hjälp av alternativknapparna kan användarna välja ett alternativ från en uppsättning. Använd alternativknapparna för ömsesidig uteslutning om du tror att användaren behöver se alla tillgängliga alternativ sida vid sida.';
+  String get demoSelectionControlsRadioDescription =>
+      'Med hjälp av alternativknapparna kan användarna välja ett alternativ från en uppsättning. Använd alternativknapparna för ömsesidig uteslutning om du tror att användaren behöver se alla tillgängliga alternativ sida vid sida.';
 
   @override
   String get demoSelectionControlsSwitchTitle => 'Reglage';
 
   @override
-  String get demoSelectionControlsSwitchDescription => 'På/av-reglage som används för att aktivera eller inaktivera en inställning. Det alternativ som reglaget styr samt det aktuella läget ska framgå av motsvarande infogad etikett.';
+  String get demoSelectionControlsSwitchDescription =>
+      'På/av-reglage som används för att aktivera eller inaktivera en inställning. Det alternativ som reglaget styr samt det aktuella läget ska framgå av motsvarande infogad etikett.';
 
   @override
   String get demoBottomTextFieldsTitle => 'Textfält';
@@ -1447,10 +1550,12 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoTextFieldTitle => 'Textfält';
 
   @override
-  String get demoTextFieldSubtitle => 'Enkelrad med text och siffror som kan redigeras';
+  String get demoTextFieldSubtitle =>
+      'Enkelrad med text och siffror som kan redigeras';
 
   @override
-  String get demoTextFieldDescription => 'Med textfält kan användare ange text i ett användargränssnitt. De används vanligtvis i formulär och dialogrutor.';
+  String get demoTextFieldDescription =>
+      'Med textfält kan användare ange text i ett användargränssnitt. De används vanligtvis i formulär och dialogrutor.';
 
   @override
   String get demoTextFieldShowPasswordLabel => 'Visa lösenord';
@@ -1459,22 +1564,26 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoTextFieldHidePasswordLabel => 'Dölj lösenord';
 
   @override
-  String get demoTextFieldFormErrors => 'Åtgärda rödmarkerade fel innan du skickar in.';
+  String get demoTextFieldFormErrors =>
+      'Åtgärda rödmarkerade fel innan du skickar in.';
 
   @override
   String get demoTextFieldNameRequired => 'Du måste ange namn.';
 
   @override
-  String get demoTextFieldOnlyAlphabeticalChars => 'Använd endast alfabetiska tecken.';
+  String get demoTextFieldOnlyAlphabeticalChars =>
+      'Använd endast alfabetiska tecken.';
 
   @override
-  String get demoTextFieldEnterUSPhoneNumber => '(###) ###-#### – ange ett amerikanskt telefonnummer.';
+  String get demoTextFieldEnterUSPhoneNumber =>
+      '(###) ###-#### – ange ett amerikanskt telefonnummer.';
 
   @override
   String get demoTextFieldEnterPassword => 'Ange ett lösenord.';
 
   @override
-  String get demoTextFieldPasswordsDoNotMatch => 'Lösenorden överensstämmer inte';
+  String get demoTextFieldPasswordsDoNotMatch =>
+      'Lösenorden överensstämmer inte';
 
   @override
   String get demoTextFieldWhatDoPeopleCallYou => 'Vad heter du?';
@@ -1483,7 +1592,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoTextFieldNameField => 'Namn*';
 
   @override
-  String get demoTextFieldWhereCanWeReachYou => 'På vilket nummer kan vi nå dig?';
+  String get demoTextFieldWhereCanWeReachYou =>
+      'På vilket nummer kan vi nå dig?';
 
   @override
   String get demoTextFieldPhoneNumber => 'Telefonnummer*';
@@ -1495,10 +1605,12 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get demoTextFieldEmail => 'E-post';
 
   @override
-  String get demoTextFieldTellUsAboutYourself => 'Berätta lite om dig själv (t.ex. vad du jobbar med eller vilka fritidsintressen du har)';
+  String get demoTextFieldTellUsAboutYourself =>
+      'Berätta lite om dig själv (t.ex. vad du jobbar med eller vilka fritidsintressen du har)';
 
   @override
-  String get demoTextFieldKeepItShort => 'Var kortfattad. Det här är bara en demo.';
+  String get demoTextFieldKeepItShort =>
+      'Var kortfattad. Det här är bara en demo.';
 
   @override
   String get demoTextFieldLifeStory => 'Livsberättelse';
@@ -1527,19 +1639,23 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   }
 
   @override
-  String get demoTextFieldRequiredField => '* anger att fältet är obligatoriskt';
+  String get demoTextFieldRequiredField =>
+      '* anger att fältet är obligatoriskt';
 
   @override
   String get demoTooltipTitle => 'Beskrivningar';
 
   @override
-  String get demoTooltipSubtitle => 'Kort meddelande som visas när användaren trycker länge eller håller muspekaren över ett element';
+  String get demoTooltipSubtitle =>
+      'Kort meddelande som visas när användaren trycker länge eller håller muspekaren över ett element';
 
   @override
-  String get demoTooltipDescription => 'I beskrivningar tillhandahålls textetiketter som förklarar funktionen hos en knapp eller en annan åtgärd kopplad till användargränssnittet. I beskrivningar visas informativ text när användare håller muspekaren över, fokuserar på eller trycker länge på ett element.';
+  String get demoTooltipDescription =>
+      'I beskrivningar tillhandahålls textetiketter som förklarar funktionen hos en knapp eller en annan åtgärd kopplad till användargränssnittet. I beskrivningar visas informativ text när användare håller muspekaren över, fokuserar på eller trycker länge på ett element.';
 
   @override
-  String get demoTooltipInstructions => 'Tryck länge på eller håll muspekaren över elementet för att visa beskrivningen.';
+  String get demoTooltipInstructions =>
+      'Tryck länge på eller håll muspekaren över elementet för att visa beskrivningen.';
 
   @override
   String get bottomNavigationCommentsTab => 'Kommentarer';
@@ -1600,7 +1716,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get dialogLocationTitle => 'Vill du använda Googles platstjänst?';
 
   @override
-  String get dialogLocationDescription => 'Google hjälper appar att avgöra enhetens plats. Detta innebär att anonym platsinformation skickas till Google, även när inga appar körs.';
+  String get dialogLocationDescription =>
+      'Google hjälper appar att avgöra enhetens plats. Detta innebär att anonym platsinformation skickas till Google, även när inga appar körs.';
 
   @override
   String get dialogCancel => 'AVBRYT';
@@ -1645,10 +1762,12 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get cupertinoAlertDiscard => 'Släng';
 
   @override
-  String get cupertinoAlertLocationTitle => 'Vill du tillåta att Maps får åtkomst till din plats när du använder appen?';
+  String get cupertinoAlertLocationTitle =>
+      'Vill du tillåta att Maps får åtkomst till din plats när du använder appen?';
 
   @override
-  String get cupertinoAlertLocationDescription => 'Din aktuella plats visas på kartan och används för vägbeskrivningar, sökresultat i närheten och beräknade resetider.';
+  String get cupertinoAlertLocationDescription =>
+      'Din aktuella plats visas på kartan och används för vägbeskrivningar, sökresultat i närheten och beräknade resetider.';
 
   @override
   String get cupertinoAlertAllow => 'Tillåt';
@@ -1660,7 +1779,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get cupertinoAlertFavoriteDessert => 'Välj favoritefterrätt';
 
   @override
-  String get cupertinoAlertDessertDescription => 'Välj din favoritefterrätt i listan nedan. Valet används för att anpassa listan över förslag på matställen i ditt område.';
+  String get cupertinoAlertDessertDescription =>
+      'Välj din favoritefterrätt i listan nedan. Valet används för att anpassa listan över förslag på matställen i ditt område.';
 
   @override
   String get cupertinoAlertCheesecake => 'Cheesecake';
@@ -2243,7 +2363,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get craneEat10 => 'Lissabon, Portugal';
 
   @override
-  String get craneFly0SemanticLabel => 'Fjällstuga i ett snötäckt landskap med granar';
+  String get craneFly0SemanticLabel =>
+      'Fjällstuga i ett snötäckt landskap med granar';
 
   @override
   String get craneFly1SemanticLabel => 'Tält på ett fält';
@@ -2258,7 +2379,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get craneFly4SemanticLabel => 'Bungalower på pålar i vattnet';
 
   @override
-  String get craneFly5SemanticLabel => 'Hotell vid en sjö med berg i bakgrunden';
+  String get craneFly5SemanticLabel =>
+      'Hotell vid en sjö med berg i bakgrunden';
 
   @override
   String get craneFly6SemanticLabel => 'Flygbild av Palacio de Bellas Artes';
@@ -2270,7 +2392,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get craneFly8SemanticLabel => 'Parken Supertree Grove';
 
   @override
-  String get craneFly9SemanticLabel => 'Man som lutar sig mot en blå veteranbil';
+  String get craneFly9SemanticLabel =>
+      'Man som lutar sig mot en blå veteranbil';
 
   @override
   String get craneFly10SemanticLabel => 'Al-Azhar-moskéns torn i solnedgången';
@@ -2288,16 +2411,19 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get craneSleep0SemanticLabel => 'Bungalower på pålar i vattnet';
 
   @override
-  String get craneSleep1SemanticLabel => 'Fjällstuga i ett snötäckt landskap med granar';
+  String get craneSleep1SemanticLabel =>
+      'Fjällstuga i ett snötäckt landskap med granar';
 
   @override
   String get craneSleep2SemanticLabel => 'Machu Picchu';
 
   @override
-  String get craneSleep3SemanticLabel => 'Man som lutar sig mot en blå veteranbil';
+  String get craneSleep3SemanticLabel =>
+      'Man som lutar sig mot en blå veteranbil';
 
   @override
-  String get craneSleep4SemanticLabel => 'Hotell vid en sjö med berg i bakgrunden';
+  String get craneSleep4SemanticLabel =>
+      'Hotell vid en sjö med berg i bakgrunden';
 
   @override
   String get craneSleep5SemanticLabel => 'Tält på ett fält';
@@ -2306,16 +2432,19 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get craneSleep6SemanticLabel => 'Pool och palmer';
 
   @override
-  String get craneSleep7SemanticLabel => 'Färgglada byggnader vid Praça da Ribeira';
+  String get craneSleep7SemanticLabel =>
+      'Färgglada byggnader vid Praça da Ribeira';
 
   @override
-  String get craneSleep8SemanticLabel => 'Mayaruiner på en klippa ovanför en strand';
+  String get craneSleep8SemanticLabel =>
+      'Mayaruiner på en klippa ovanför en strand';
 
   @override
   String get craneSleep9SemanticLabel => 'Tegelfyr i havet';
 
   @override
-  String get craneSleep10SemanticLabel => 'Al-Azhar-moskéns torn i solnedgången';
+  String get craneSleep10SemanticLabel =>
+      'Al-Azhar-moskéns torn i solnedgången';
 
   @override
   String get craneSleep11SemanticLabel => 'Skyskrapan Taipei 101';
@@ -2351,7 +2480,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get craneEat9SemanticLabel => 'Kafédisk med bakverk';
 
   @override
-  String get craneEat10SemanticLabel => 'Kvinna som håller en stor pastramimacka';
+  String get craneEat10SemanticLabel =>
+      'Kvinna som håller en stor pastramimacka';
 
   @override
   String get fortnightlyMenuFrontPage => 'Startsida';
@@ -2402,7 +2532,8 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get fortnightlyLatestUpdates => 'De senaste uppdateringarna';
 
   @override
-  String get fortnightlyHeadlineHealthcare => 'En sjukvårdsrevolution i det tysta';
+  String get fortnightlyHeadlineHealthcare =>
+      'En sjukvårdsrevolution i det tysta';
 
   @override
   String get fortnightlyHeadlineWar => 'Amerikaners skilda livsöden i krigstid';
@@ -2414,13 +2545,16 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
   String get fortnightlyHeadlineArmy => 'Green Army ombildas inifrån';
 
   @override
-  String get fortnightlyHeadlineStocks => 'När aktiemarknaden stagnerar vänder sig många till valutor i stället';
+  String get fortnightlyHeadlineStocks =>
+      'När aktiemarknaden stagnerar vänder sig många till valutor i stället';
 
   @override
-  String get fortnightlyHeadlineFabrics => 'Formgivare skapar futuristiska tyger med hjälp av teknik';
+  String get fortnightlyHeadlineFabrics =>
+      'Formgivare skapar futuristiska tyger med hjälp av teknik';
 
   @override
-  String get fortnightlyHeadlineFeminists => 'Feminister tar upp kampen mot partipolitiken';
+  String get fortnightlyHeadlineFeminists =>
+      'Feminister tar upp kampen mot partipolitiken';
 
   @override
   String get fortnightlyHeadlineBees => 'Bina försvinner från jordbruksmarker';

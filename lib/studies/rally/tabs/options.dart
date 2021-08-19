@@ -10,13 +10,13 @@ import 'package:gallery/studies/rally/data.dart';
 import 'package:gallery/studies/rally/finance.dart';
 import 'package:gallery/studies/rally/tabs/sidebar.dart';
 
-/// A page that shows a summary of bills.
-class BillsView extends StatefulWidget {
+/// A page that shows a summary of Options.
+class OptionsView extends StatefulWidget {
   @override
-  _BillsViewState createState() => _BillsViewState();
+  _OptionsViewState createState() => _OptionsViewState();
 }
 
-class _BillsViewState extends State<BillsView>
+class _OptionsViewState extends State<OptionsView>
     with SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {

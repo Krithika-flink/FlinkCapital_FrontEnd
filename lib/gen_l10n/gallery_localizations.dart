@@ -460,7 +460,7 @@ abstract class GalleryLocalizations {
   /// Study description for Rally.
   ///
   /// In en, this message translates to:
-  /// **'A personal finance app'**
+  /// **''**
   String get rallyDescription;
 
   /// Study description for Reply.
@@ -1038,7 +1038,7 @@ abstract class GalleryLocalizations {
   /// Title for information button.
   ///
   /// In en, this message translates to:
-  /// **'About Flutter Gallery'**
+  /// **'About Flink Capital'**
   String get settingsAbout;
 
   /// Title for feedback button.
@@ -1050,7 +1050,7 @@ abstract class GalleryLocalizations {
   /// Title for attribution (TOASTER is a proper name and should remain in English).
   ///
   /// In en, this message translates to:
-  /// **'Designed by TOASTER in London'**
+  /// **''**
   String get settingsAttribution;
 
   /// Title for the material App bar component demo.

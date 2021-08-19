@@ -12,8 +12,10 @@ import 'package:gallery/studies/rally/tabs/options.dart';
 import 'package:gallery/studies/rally/tabs/casheq.dart';
 import 'package:gallery/studies/rally/tabs/overview.dart';
 import 'package:gallery/studies/rally/tabs/settings.dart';
+import 'package:gallery/studies/rally/tabs/orderview.dart';
+import 'package:gallery/studies/rally/tabs/signout.dart';
 
-const int tabCount = 5;
+const int tabCount = 6;
 const int turnsToRotateRight = 1;
 const int turnsToRotateLeft = 3;
 
@@ -76,18 +78,25 @@ class _HomePageState extends State<HomePage>
             width: 150 + 50 * (cappedTextScale(context) - 1),
             alignment: Alignment.topCenter,
             padding: const EdgeInsets.symmetric(vertical: 32),
+            /* decoration: BoxDecoration(
+              border: Border.all(
+                color: Colors.white.withOpacity(0.5),
+                width: 2,
+              ),
+            ), */
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                const SizedBox(height: 24),
+                const SizedBox(height: 12),
                 ExcludeSemantics(
                   child: SizedBox(
-                    height: 80,
+                    height: 72,
                     child: Image.asset(
                       'assets/logo.png',
                     ),
                   ),
                 ),
-                const SizedBox(height: 24),
+                const SizedBox(height: 12),
                 // Rotate the tab bar, so the animation is vertical for desktops.
                 RotatedBox(
                   quarterTurns: verticalRotation,
@@ -183,9 +192,17 @@ class _HomePageState extends State<HomePage>
       ),
       _RallyTab(
         theme: theme,
+        iconData: Icons.list_alt,
+        title: GalleryLocalizations.of(context).rallyTitleOrder,
+        tabIndex: 1,
+        tabController: _tabController,
+        isVertical: isVertical,
+      ),
+      _RallyTab(
+        theme: theme,
         iconData: Icons.monitor,
         title: GalleryLocalizations.of(context).rallyTitleAccounts,
-        tabIndex: 1,
+        tabIndex: 2,
         tabController: _tabController,
         isVertical: isVertical,
       ),
@@ -193,7 +210,7 @@ class _HomePageState extends State<HomePage>
         theme: theme,
         iconData: Icons.money,
         title: GalleryLocalizations.of(context).rallyTitleBills,
-        tabIndex: 2,
+        tabIndex: 3,
         tabController: _tabController,
         isVertical: isVertical,
       ),
@@ -201,7 +218,7 @@ class _HomePageState extends State<HomePage>
         theme: theme,
         iconData: Icons.table_chart,
         title: GalleryLocalizations.of(context).rallyTitleBudgets,
-        tabIndex: 3,
+        tabIndex: 4,
         tabController: _tabController,
         isVertical: isVertical,
       ),
@@ -209,7 +226,7 @@ class _HomePageState extends State<HomePage>
         theme: theme,
         iconData: Icons.settings,
         title: GalleryLocalizations.of(context).rallyTitleSettings,
-        tabIndex: 4,
+        tabIndex: 5,
         tabController: _tabController,
         isVertical: isVertical,
       ),
@@ -219,10 +236,11 @@ class _HomePageState extends State<HomePage>
   List<Widget> _buildTabViews() {
     return [
       OverviewView(),
-      AccountsView(),
-      BillsView(),
-      BudgetsView(),
-      SettingsView(),
+      OrderView(),
+      FuturesView(),
+      OptionsView(),
+      CashView(),
+      SignOutView(),
     ];
   }
 }

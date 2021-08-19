@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:gallery/screens/user_info_screen.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
+import 'package:gallery/studies/rally/app.dart';
 
 class Authentication {
   static SnackBar customSnackBar({String content}) {
@@ -24,13 +26,8 @@ class Authentication {
     User user = FirebaseAuth.instance.currentUser;
 
     if (user != null) {
-      Navigator.of(context).pushReplacement(
-        MaterialPageRoute(
-          builder: (context) => UserInfoScreen(
-            user: user,
-          ),
-        ),
-      );
+      Navigator.of(context).restorablePushNamed(RallyApp.homeRoute);
+      ;
     }
 
     return firebaseApp;
@@ -116,5 +113,73 @@ class Authentication {
         ),
       );
     }
+  }
+
+  static Future<User> signInWithFacebook({BuildContext context}) async {
+    FirebaseAuth auth = FirebaseAuth.instance;
+    User user;
+
+    if (kIsWeb) {
+      FacebookAuthProvider facebookProvider = FacebookAuthProvider();
+
+      try {
+        final UserCredential userCredential =
+            await auth.signInWithPopup(facebookProvider);
+
+        user = userCredential.user;
+      } catch (e) {
+        print(e);
+      }
+    } else {
+      //final GoogleSignIn googleSignIn = GoogleSignIn();
+      final AccessToken result = await FacebookAuth.instance.login();
+
+      // ignore: omit_local_variable_types
+      /* final GoogleSignInAccount googleSignInAccount =
+          await googleSignIn.signIn(); */
+
+      if (result != null) {
+        /* final GoogleSignInAuthentication googleSignInAuthentication =
+            await googleSignInAccount.authentication;
+
+        final AuthCredential credential = GoogleAuthProvider.credential(
+          accessToken: googleSignInAuthentication.accessToken,
+          idToken: googleSignInAuthentication.idToken,
+        ); */
+        final facebookAuthCredential =
+            FacebookAuthProvider.credential(result.token);
+
+        try {
+          final UserCredential userCredential =
+              await auth.signInWithCredential(facebookAuthCredential);
+
+          user = userCredential.user;
+        } on FirebaseAuthException catch (e) {
+          if (e.code == 'account-exists-with-different-credential') {
+            ScaffoldMessenger.of(context).showSnackBar(
+              Authentication.customSnackBar(
+                content:
+                    'The account already exists with a different credential',
+              ),
+            );
+          } else if (e.code == 'invalid-credential') {
+            ScaffoldMessenger.of(context).showSnackBar(
+              Authentication.customSnackBar(
+                content:
+                    'Error occurred while accessing credentials. Try again.',
+              ),
+            );
+          }
+        } catch (e) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            Authentication.customSnackBar(
+              content: 'Error occurred using FaceBook Sign In. Try again.',
+            ),
+          );
+        }
+      }
+    }
+
+    return user;
   }
 }
