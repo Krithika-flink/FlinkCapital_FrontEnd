@@ -12,7 +12,6 @@ import 'package:gallery/data/gallery_options.dart';
 import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 import 'package:gallery/layout/adaptive.dart';
 import 'package:gallery/layout/text_scale.dart';
-import 'package:gallery/studies/rally/charts/line_chart.dart';
 import 'package:gallery/studies/rally/charts/pie_chart.dart';
 import 'package:gallery/studies/rally/charts/vertical_fraction_bar.dart';
 import 'package:gallery/studies/rally/colors.dart';
@@ -121,7 +120,7 @@ class FinancialEntityCategoryView extends StatelessWidget {
         openBuilder: (context, openContainer) => MultiplierView(),
         openColor: RallyColors.primaryBackground,
         closedColor: RallyColors.primaryBackground,
-        closedElevation: 0,
+        closedElevation: 1,
         closedBuilder: (context, openContainer) {
           return TextButton(
             style: TextButton.styleFrom(primary: Colors.black),
@@ -153,8 +152,9 @@ class FinancialEntityCategoryView extends StatelessWidget {
                               children: [
                                 Text(
                                   title,
-                                  style: textTheme.bodyText2
-                                      .copyWith(fontSize: 16),
+                                  style: textTheme.bodyText2.copyWith(
+                                      fontSize: 16,
+                                      color: RallyColors.cardBackground),
                                 ),
                                 Text(
                                   subtitle,
@@ -167,7 +167,7 @@ class FinancialEntityCategoryView extends StatelessWidget {
                               amount,
                               style: textTheme.bodyText1.copyWith(
                                 fontSize: 20,
-                                color: RallyColors.gray,
+                                color: RallyColors.cardBackground,
                               ),
                             ),
                           ],
@@ -215,15 +215,16 @@ class FinancialEntityCategoryModel {
   final Widget suffix;
 }
 
-FinancialEntityCategoryView buildFinancialEntityFromAccountData(
-  AccountData model,
-  int accountDataIndex,
+FinancialEntityCategoryView buildFinancialEntityFromFutureData(
+  FutureData model,
+  // ignore: non_constant_identifier_names
+  int FutureDataIndex,
   BuildContext context,
 ) {
   final amount = usdWithSignFormat(context).format(model.primaryAmount);
   //final shortAccountNumber = model.InputLot;
   return FinancialEntityCategoryView(
-    suffix: const Icon(Icons.chevron_right, color: Colors.grey),
+    suffix: const Icon(Icons.chevron_right, color: Colors.cyanAccent),
     title: model.name,
     subtitle: model.InputLot,
     semanticsLabel: GalleryLocalizations.of(context).rallyAccountAmount(
@@ -231,20 +232,20 @@ FinancialEntityCategoryView buildFinancialEntityFromAccountData(
       model.InputLot,
       amount,
     ),
-    indicatorColor: RallyColors.accountColor(accountDataIndex),
+    indicatorColor: RallyColors.accountColor(FutureDataIndex),
     indicatorFraction: 1,
     amount: amount,
   );
 }
 
-FinancialEntityCategoryView buildFinancialEntityFromBillData(
-  BillData model,
-  int billDataIndex,
+FinancialEntityCategoryView buildFinancialEntityFromOptionsData(
+  OptionsData model,
+  int OptionsDataIndex,
   BuildContext context,
 ) {
   final amount = usdWithSignFormat(context).format(model.primaryAmount);
   return FinancialEntityCategoryView(
-    suffix: const Icon(Icons.chevron_right, color: Colors.grey),
+    suffix: const Icon(Icons.chevron_right, color: Colors.cyanAccent),
     title: model.name,
     subtitle: model.dueDate,
     semanticsLabel: GalleryLocalizations.of(context).rallyBillAmount(
@@ -252,15 +253,15 @@ FinancialEntityCategoryView buildFinancialEntityFromBillData(
       model.dueDate,
       amount,
     ),
-    indicatorColor: RallyColors.billColor(billDataIndex),
+    indicatorColor: RallyColors.billColor(OptionsDataIndex),
     indicatorFraction: 1,
     amount: amount,
   );
 }
 
-FinancialEntityCategoryView buildFinancialEntityFromBudgetData(
-  BudgetData model,
-  int budgetDataIndex,
+FinancialEntityCategoryView buildFinancialEntityFromCashData(
+  CashData model,
+  int cashDataIndex,
   BuildContext context,
 ) {
   final amountUsed = usdWithSignFormat(context).format(model.amountUsed);
@@ -269,13 +270,7 @@ FinancialEntityCategoryView buildFinancialEntityFromBudgetData(
       usdWithSignFormat(context).format(model.primaryAmount - model.amountUsed);
 
   return FinancialEntityCategoryView(
-    suffix: Text(
-      GalleryLocalizations.of(context).rallyFinanceLeft,
-      style: Theme.of(context)
-          .textTheme
-          .bodyText2
-          .copyWith(color: RallyColors.gray60, fontSize: 10),
-    ),
+    suffix: const Icon(Icons.chevron_right, color: Colors.cyanAccent),
     title: model.name,
     //subtitle: amountUsed + ' / ' + primaryAmount,
     subtitle: 'Click here to Input Capital',
@@ -285,50 +280,46 @@ FinancialEntityCategoryView buildFinancialEntityFromBudgetData(
       model.primaryAmount,
       amount,
     ),
-    indicatorColor: RallyColors.budgetColor(budgetDataIndex),
+    indicatorColor: RallyColors.budgetColor(cashDataIndex),
     indicatorFraction: 1,
     amount: amount,
   );
 }
 
-List<FinancialEntityCategoryView> buildAccountDataListViews(
-  List<AccountData> items,
+List<FinancialEntityCategoryView> buildFutureDataListViews(
+  List<FutureData> items,
   BuildContext context,
 ) {
   return List<FinancialEntityCategoryView>.generate(
     items.length,
-    (i) => buildFinancialEntityFromAccountData(items[i], i, context),
+    (i) => buildFinancialEntityFromFutureData(items[i], i, context),
   );
 }
 
-List<FinancialEntityCategoryView> buildBillDataListViews(
-  List<BillData> items,
+List<FinancialEntityCategoryView> buildOptionsDataListViews(
+  List<OptionsData> items,
   BuildContext context,
 ) {
   return List<FinancialEntityCategoryView>.generate(
     items.length,
-    (i) => buildFinancialEntityFromBillData(items[i], i, context),
+    (i) => buildFinancialEntityFromOptionsData(items[i], i, context),
   );
 }
 
-List<FinancialEntityCategoryView> buildBudgetDataListViews(
-  List<BudgetData> items,
+List<FinancialEntityCategoryView> buildCashDataListViews(
+  List<CashData> items,
   BuildContext context,
 ) {
   return <FinancialEntityCategoryView>[
     for (int i = 0; i < items.length; i++)
-      buildFinancialEntityFromBudgetData(items[i], i, context)
+      buildFinancialEntityFromCashData(items[i], i, context)
   ];
 }
 
 class FinancialEntityCategoryDetailsPage extends StatelessWidget {
-  final List<DetailedEventData> items =
-      DummyDataService.getDetailedEventItems();
-
   @override
   Widget build(BuildContext context) {
     final isDesktop = isDisplayDesktop(context);
-
     return ApplyTextOptions(
       child: Scaffold(
         appBar: AppBar(
@@ -353,8 +344,8 @@ class FinancialEntityCategoryDetailsPage extends StatelessWidget {
                         borderRadius: BorderRadius.all(Radius.circular(5)))),
                 onPressed: () {}),
             const SizedBox(height: 30),
-            Text(
-              "ORDER SUMMARY",
+            const Text(
+              'ORDER SUMMARY',
               style: TextStyle(fontSize: 15, fontStyle: FontStyle.italic),
               textAlign: TextAlign.left,
             ),
@@ -841,7 +832,7 @@ class _EventAmount extends StatelessWidget {
     return Text(
       usdWithSignFormat(context).format(amount),
       style: textTheme.bodyText1.copyWith(
-        fontSize: 20,
+        fontSize: 18,
         color: RallyColors.gray,
       ),
     );

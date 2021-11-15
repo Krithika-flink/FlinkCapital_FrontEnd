@@ -4,6 +4,8 @@
 
 import 'dart:ui';
 
+import 'package:flutter/material.dart';
+
 /// Most color assignments in Rally are not like the typical color
 /// assignments that are common in other apps. Instead of primarily mapping to
 /// component type and part, they are assigned round robin based on layout.
@@ -29,15 +31,17 @@ class RallyColors {
     Color(0xFF0082FB),
   ];
 
-  static const Color gray = Color(0xFFD8D8D8);
-  static const Color gray60 = Color(0x99D8D8D8);
+  static const Color gray = Color(0x03FEFEFE);
+  static const Color gray60 = Color(0xDE000000);
   static const Color gray25 = Color(0x40D8D8D8);
-  static const Color white60 = Color(0x99FFFFFF);
-  static const Color primaryBackground = Color(0xFF33333D);
+  static const Color white60 = Color(0x03FEFEFE);
+  static const Color primaryBackground = Color(0xFFFFFFFF);
+  // static const Color primaryBackground = Colors.white70;
   static const Color inputBackground = Color(0xFF26282F);
-  static const Color cardBackground = Color(0x03FEFEFE);
+  //static const Color cardBackground = Color(0x03FEFEFE);
+  static Color cardBackground = Colors.blueGrey.shade400;
   static const Color buttonColor = Color(0xFF09AF79);
-  static const Color focusColor = Color(0xCCFFFFFF);
+  static const Color focusColor = Color(0xDE000000);
   static const Color dividerColor = Color(0xAA282828);
 
   /// Convenience method to get a single account color with position i.

@@ -902,7 +902,7 @@ class GalleryLocalizationsPa extends GalleryLocalizations {
       'fullscreenDialog ਪ੍ਰਾਪਰਟੀ ਨਿਰਧਾਰਤ ਕਰਦੀ ਹੈ ਕਿ ਇਨਕਮਿੰਗ ਪੰਨਾ ਪੂਰੀ-ਸਕ੍ਰੀਨ ਮਾਡਲ ਵਿੰਡੋ ਹੈ ਜਾਂ ਨਹੀਂ';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'ਸਰਗਰਮੀ ਸੂਚਕ';
+  String get interestedFAQ => 'ਸਰਗਰਮੀ ਸੂਚਕ';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle => 'iOS-ਸਟਾਈਲ ਸਰਗਰਮੀ ਸੂਚਕ';

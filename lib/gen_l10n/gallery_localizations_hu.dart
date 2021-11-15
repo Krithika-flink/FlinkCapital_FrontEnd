@@ -908,7 +908,7 @@ class GalleryLocalizationsHu extends GalleryLocalizations {
       'A fullscreenDialog tulajdonság határozza meg, hogy az érkezési oldal teljes képernyős moduláris párbeszédpanel-e';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Tevékenységjelző';
+  String get interestedFAQ => 'Tevékenységjelző';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

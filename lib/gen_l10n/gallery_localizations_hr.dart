@@ -913,7 +913,7 @@ class GalleryLocalizationsHr extends GalleryLocalizations {
       'Svojstvo fullscreenDialog određuje je li dolazna stranica modalni dijalog na cijelom zaslonu';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Pokazivač aktivnosti';
+  String get interestedFAQ => 'Pokazivač aktivnosti';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

@@ -917,7 +917,7 @@ class GalleryLocalizationsRu extends GalleryLocalizations {
       'Свойство fullscreenDialog определяет, будет ли следующая страница полноэкранным модальным диалоговым окном.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Индикатор выполнения';
+  String get interestedFAQ => 'Индикатор выполнения';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

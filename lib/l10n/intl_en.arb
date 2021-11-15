@@ -199,7 +199,7 @@
   "@rallyBudgetCategoryGroceries": {
     "description": "Category for budget, to sort expenses / bills in."
   },
-  "rallyBudgetCategoryRestaurants": "Flink",
+  "rallyBudgetCategoryRestaurants": "Flink Commodity",
   "@rallyBudgetCategoryRestaurants": {
     "description": "Category for budget, to sort expenses / bills in."
   },
@@ -1189,8 +1189,8 @@
   "@demoFullscreenDialogDescription": {
     "description": "Description for the fullscreen dialog component demo."
   },
-  "demoCupertinoActivityIndicatorTitle": "Activity indicator",
-  "@demoCupertinoActivityIndicatorTitle": {
+  "interestedFAQ": "Activity indicator",
+  "@interestedFAQ": {
     "description": "Title for the cupertino activity indicator component demo."
   },
   "demoCupertinoActivityIndicatorSubtitle": "iOS-style activity indicators",

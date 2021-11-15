@@ -905,7 +905,7 @@ class GalleryLocalizationsAf extends GalleryLocalizations {
       'Die volskermdialoog-eienskap spesifiseer of die inkomende bladsy \'n volskerm- modale dialoog is';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Aktiwiteitverklikker';
+  String get interestedFAQ => 'Aktiwiteitverklikker';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

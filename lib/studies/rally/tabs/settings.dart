@@ -24,7 +24,7 @@ class _SettingsViewState extends State<SettingsView> {
           restorationId: 'settings_list_view',
           shrinkWrap: true,
           children: [
-            for (String title
+            for (SettingsData title
                 in DummyDataService.getSettingsTitles(context)) ...[
               _SettingsItem(title),
               const Divider(
@@ -42,7 +42,7 @@ class _SettingsViewState extends State<SettingsView> {
 class _SettingsItem extends StatelessWidget {
   const _SettingsItem(this.title);
 
-  final String title;
+  final SettingsData title;
 
   @override
   Widget build(BuildContext context) {
@@ -53,8 +53,9 @@ class _SettingsItem extends StatelessWidget {
       ),
       child: Container(
         alignment: AlignmentDirectional.centerStart,
+        color: RallyColors.cardBackground,
         padding: const EdgeInsets.symmetric(vertical: 24, horizontal: 28),
-        child: Text(title),
+        child: Text(title.title, style: const TextStyle(color: Colors.black)),
       ),
       onPressed: () {
         Navigator.of(context).restorablePushNamed(rally_route.loginRoute);

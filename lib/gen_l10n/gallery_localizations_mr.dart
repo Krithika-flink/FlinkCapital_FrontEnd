@@ -902,7 +902,7 @@ class GalleryLocalizationsMr extends GalleryLocalizations {
       'fullscreenDialog प्रॉपर्टी ही येणारे पेज फुलस्क्रीन मोडाल डायलॉग आहे की नाही ते नमूद करते';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'अ‍ॅक्टिव्हिटी इंडिकेटर';
+  String get interestedFAQ => 'अ‍ॅक्टिव्हिटी इंडिकेटर';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

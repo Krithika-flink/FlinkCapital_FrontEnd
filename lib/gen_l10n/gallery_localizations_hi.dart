@@ -916,7 +916,7 @@ class GalleryLocalizationsHi extends GalleryLocalizations {
       'फ़ुल स्क्रीन डायलॉग से पता चलता है कि आने वाला पेज फ़ुल स्क्रीन मॉडल डायलॉग है या नहीं';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'गतिविधि दिखाने वाला संकेत';
+  String get interestedFAQ => 'गतिविधि दिखाने वाला संकेत';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

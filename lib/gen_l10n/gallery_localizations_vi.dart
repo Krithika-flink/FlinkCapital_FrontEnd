@@ -911,7 +911,7 @@ class GalleryLocalizationsVi extends GalleryLocalizations {
       'Thuộc tính fullscreenDialog cho biết liệu trang sắp tới có phải là một hộp thoại ở chế độ toàn màn hình hay không';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Chỉ báo hoạt động';
+  String get interestedFAQ => 'Chỉ báo hoạt động';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

@@ -913,7 +913,7 @@ class GalleryLocalizationsCa extends GalleryLocalizations {
       'La propietat fullscreenDialog indica si la pàgina entrant és un quadre de diàleg modal de pantalla completa';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador d\'activitat';
+  String get interestedFAQ => 'Indicador d\'activitat';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

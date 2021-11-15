@@ -3,17 +3,22 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
+import 'package:flutter_signin_button/button_view.dart';
+import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:gallery/data/gallery_options.dart';
 import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 import 'package:gallery/layout/adaptive.dart';
 import 'package:gallery/layout/text_scale.dart';
+import 'package:gallery/studies/rally/colors.dart';
 import 'package:gallery/studies/rally/tabs/futures.dart';
 import 'package:gallery/studies/rally/tabs/options.dart';
 import 'package:gallery/studies/rally/tabs/casheq.dart';
 import 'package:gallery/studies/rally/tabs/overview.dart';
-import 'package:gallery/studies/rally/tabs/settings.dart';
 import 'package:gallery/studies/rally/tabs/orderview.dart';
 import 'package:gallery/studies/rally/tabs/signout.dart';
+
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 const int tabCount = 6;
 const int turnsToRotateRight = 1;
@@ -78,44 +83,109 @@ class _HomePageState extends State<HomePage>
             width: 150 + 50 * (cappedTextScale(context) - 1),
             alignment: Alignment.topCenter,
             padding: const EdgeInsets.symmetric(vertical: 32),
-            /* decoration: BoxDecoration(
-              border: Border.all(
-                color: Colors.white.withOpacity(0.5),
-                width: 2,
-              ),
-            ), */
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                const SizedBox(height: 12),
-                ExcludeSemantics(
-                  child: SizedBox(
-                    height: 72,
-                    child: Image.asset(
-                      'assets/logo.png',
+            decoration: BoxDecoration(
+              border: Border(
+                  //side:BorderSide.merge(a, b),
+                  //color: RallyColors.cardBackground,
+                  right:
+                      BorderSide(width: 3.0, color: RallyColors.cardBackground)
+                  //width: 2,
+                  ),
+            ),
+            child: Expanded(
+              child: ListView(
+                //crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  //const SizedBox(height: 12),
+                  ExcludeSemantics(
+                    child: SizedBox(
+                      height: 60,
+                      child: Image.asset(
+                        'assets/logo.png',
+                      ),
                     ),
                   ),
-                ),
-                const SizedBox(height: 12),
-                // Rotate the tab bar, so the animation is vertical for desktops.
-                RotatedBox(
-                  quarterTurns: verticalRotation,
-                  child: _RallyTabBar(
-                    tabs: _buildTabs(
-                            context: context, theme: theme, isVertical: true)
-                        .map(
-                      (widget) {
-                        // Revert the rotation on the tabs.
-                        return RotatedBox(
-                          quarterTurns: revertVerticalRotation,
-                          child: widget,
-                        );
-                      },
-                    ).toList(),
-                    tabController: _tabController,
+                  Text("Follow us:",
+                      style: Theme.of(context)
+                          .textTheme
+                          .subtitle1
+                          .copyWith(color: Colors.black),
+                      textAlign: TextAlign.center),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      const Expanded(child: SizedBox(width: 200)),
+                      IconButton(
+                        icon: const Icon(FontAwesomeIcons.instagram, size: 20),
+                        color: const Color(0xFF8a3ab9),
+                        //highlightColor: Colors.pink,
+                        // Buttons.Facebook,
+                        // mini: true,
+                        onPressed: () async {
+                          const url = 'https://www.facebook.com/rk.nallakumar';
+                          if (await canLaunch(url) != null) {
+                            await launch(url, forceWebView: true);
+                          } else {
+                            throw 'Could not launch $url';
+                          }
+                        },
+                      ),
+                      const Expanded(child: SizedBox(width: 200)),
+                      IconButton(
+                          icon: Icon(FontAwesomeIcons.twitterSquare, size: 20),
+                          color: Color(0xFF1DA1F2),
+                          //highlightColor: Colors.pink,
+                          // Buttons.Facebook,
+                          // mini: true,onPressed
+
+                          onPressed: () async {
+                            const url = 'https://twitter.com/RK_Nallakumar';
+                            if (await canLaunch(url) != null) {
+                              await launch(url, forceWebView: true);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          }),
+                      const Expanded(child: SizedBox(width: 200)),
+                      IconButton(
+                        icon: Icon(FontAwesomeIcons.facebookSquare, size: 20),
+                        color: Color(0xFF1877f2),
+                        //highlightColor: Colors.pink,
+                        // Buttons.Facebook,
+                        // mini: true,
+                        onPressed: () async {
+                          const url = 'https://www.facebook.com/rk.nallakumar';
+                          if (await canLaunch(url) != null) {
+                            await launch(url, forceWebView: true);
+                          } else {
+                            throw 'Could not launch $url';
+                          }
+                        },
+                      ),
+                      const Expanded(child: SizedBox(width: 200)),
+                    ],
                   ),
-                ),
-              ],
+                  const SizedBox(height: 12),
+                  // Rotate the tab bar, so the animation is vertical for desktops.
+                  RotatedBox(
+                    quarterTurns: verticalRotation,
+                    child: _RallyTabBar(
+                      tabs: _buildTabs(
+                              context: context, theme: theme, isVertical: true)
+                          .map(
+                        (widget) {
+                          // Revert the rotation on the tabs.
+                          return RotatedBox(
+                            quarterTurns: revertVerticalRotation,
+                            child: widget,
+                          );
+                        },
+                      ).toList(),
+                      tabController: _tabController,
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
           Expanded(
@@ -124,7 +194,7 @@ class _HomePageState extends State<HomePage>
               quarterTurns: verticalRotation,
               child: TabBarView(
                 controller: _tabController,
-                children: _buildTabViews().map(
+                children: _buildTabViews(context).map(
                   (widget) {
                     // Revert the rotation on the tab views.
                     return RotatedBox(
@@ -148,7 +218,7 @@ class _HomePageState extends State<HomePage>
           Expanded(
             child: TabBarView(
               controller: _tabController,
-              children: _buildTabViews(),
+              children: _buildTabViews(context),
             ),
           ),
         ],
@@ -166,6 +236,7 @@ class _HomePageState extends State<HomePage>
             // feedback for tapping a tab, which is replaced with a custom
             // animation.
             data: theme.copyWith(
+              //splashColor: RallyColors.cardBackground,
               splashColor: Colors.transparent,
               highlightColor: Colors.transparent,
             ),
@@ -233,16 +304,27 @@ class _HomePageState extends State<HomePage>
     ];
   }
 
-  List<Widget> _buildTabViews() {
+  List<Widget> _buildTabViews(BuildContext buildContext) {
     return [
       OverviewView(),
       OrderView(),
       FuturesView(),
+      //openFuture(buildContext),
       OptionsView(),
       CashView(),
       SignOutView(),
     ];
   }
+}
+
+// ignore: always_declare_return_types
+Widget openFuture(BuildContext context) {
+  Navigator.push(
+    context,
+    MaterialPageRoute(
+      builder: (context) => FuturesView(),
+    ),
+  );
 }
 
 class _RallyTabBar extends StatelessWidget {
@@ -265,7 +347,7 @@ class _RallyTabBar extends StatelessWidget {
         tabs: tabs,
         controller: tabController,
         // This hides the tab indicator.
-        indicatorColor: Colors.transparent,
+        indicatorColor: Colors.blueGrey.shade400,
       ),
     );
   }
@@ -279,13 +361,15 @@ class _RallyTab extends StatefulWidget {
     int tabIndex,
     TabController tabController,
     this.isVertical,
-  })  : titleText = Text(title, style: theme.textTheme.button),
+  })  : titleText = Text(title,
+            style: (theme.textTheme.button
+                .copyWith(color: Colors.blueGrey.shade400))),
         isExpanded = tabController.index == tabIndex,
         icon = Icon(iconData, semanticLabel: title);
 
   final Text titleText;
   final Icon icon;
-  final bool isExpanded;
+  bool isExpanded;
   final bool isVertical;
 
   @override

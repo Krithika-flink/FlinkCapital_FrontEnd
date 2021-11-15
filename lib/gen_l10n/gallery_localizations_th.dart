@@ -905,7 +905,7 @@ class GalleryLocalizationsTh extends GalleryLocalizations {
       'พร็อพเพอร์ตี้ fullscreenDialog จะระบุว่าหน้าที่เข้ามาใหม่เป็นกล่องโต้ตอบในโหมดเต็มหน้าจอหรือไม่';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'สัญญาณบอกสถานะกิจกรรม';
+  String get interestedFAQ => 'สัญญาณบอกสถานะกิจกรรม';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

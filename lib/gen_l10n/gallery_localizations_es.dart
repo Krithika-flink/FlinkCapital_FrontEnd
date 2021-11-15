@@ -915,7 +915,7 @@ class GalleryLocalizationsEs extends GalleryLocalizations {
       'La propiedad fullscreenDialog especifica si la página entrante es un cuadro de diálogo modal a pantalla completa';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -3495,7 +3495,7 @@ class GalleryLocalizationsEs419 extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -6050,7 +6050,7 @@ class GalleryLocalizationsEsAr extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -8605,7 +8605,7 @@ class GalleryLocalizationsEsBo extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -11160,7 +11160,7 @@ class GalleryLocalizationsEsCl extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -13715,7 +13715,7 @@ class GalleryLocalizationsEsCo extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -16270,7 +16270,7 @@ class GalleryLocalizationsEsCr extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -18825,7 +18825,7 @@ class GalleryLocalizationsEsDo extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -21380,7 +21380,7 @@ class GalleryLocalizationsEsEc extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -23935,7 +23935,7 @@ class GalleryLocalizationsEsGt extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -26490,7 +26490,7 @@ class GalleryLocalizationsEsHn extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -29045,7 +29045,7 @@ class GalleryLocalizationsEsMx extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -31600,7 +31600,7 @@ class GalleryLocalizationsEsNi extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -34155,7 +34155,7 @@ class GalleryLocalizationsEsPa extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -36710,7 +36710,7 @@ class GalleryLocalizationsEsPe extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -39265,7 +39265,7 @@ class GalleryLocalizationsEsPr extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -41820,7 +41820,7 @@ class GalleryLocalizationsEsPy extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -44375,7 +44375,7 @@ class GalleryLocalizationsEsSv extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -46930,7 +46930,7 @@ class GalleryLocalizationsEsUs extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -49485,7 +49485,7 @@ class GalleryLocalizationsEsUy extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -52040,7 +52040,7 @@ class GalleryLocalizationsEsVe extends GalleryLocalizationsEs {
       'La propiedad fullscreenDialog especifica si la página nueva es un diálogo modal de pantalla completa.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de actividad';
+  String get interestedFAQ => 'Indicador de actividad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

@@ -902,7 +902,7 @@ class GalleryLocalizationsGu extends GalleryLocalizations {
       'fullscreenDialog પ્રોપર્ટી ઇનકમિંગ પેજ પૂર્ણસ્ક્રીન મૉડલ સંવાદ હશે કે કેમ તેનો ઉલ્લેખ કરે છે';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'પ્રવૃત્તિ સૂચક';
+  String get interestedFAQ => 'પ્રવૃત્તિ સૂચક';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

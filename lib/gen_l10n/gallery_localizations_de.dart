@@ -911,7 +911,7 @@ class GalleryLocalizationsDe extends GalleryLocalizations {
       'Das Attribut \"fullscreenDialog\" gibt an, ob eine eingehende Seite ein modales Vollbild-Dialogfeld ist';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Aktivitätsanzeige';
+  String get interestedFAQ => 'Aktivitätsanzeige';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -3478,7 +3478,7 @@ class GalleryLocalizationsDeAt extends GalleryLocalizationsDe {
       'Das Attribut \"fullscreenDialog\" gibt an, ob eine eingehende Seite ein modales Vollbild-Dialogfeld ist';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Aktivitätsanzeige';
+  String get interestedFAQ => 'Aktivitätsanzeige';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -6018,7 +6018,7 @@ class GalleryLocalizationsDeCh extends GalleryLocalizationsDe {
       'Das Attribut \"fullscreenDialog\" gibt an, ob eine eingehende Seite ein modales Vollbild-Dialogfeld ist';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Aktivitätsanzeige';
+  String get interestedFAQ => 'Aktivitätsanzeige';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

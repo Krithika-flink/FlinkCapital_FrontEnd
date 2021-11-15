@@ -24,8 +24,8 @@ class RallyPieChartSegment {
 /// The max height and width of the [RallyPieChart].
 const pieChartMaxSize = 500.0;
 
-List<RallyPieChartSegment> buildSegmentsFromAccountItems(
-    List<AccountData> items) {
+List<RallyPieChartSegment> buildSegmentsFromFutureItems(
+    List<FutureData> items) {
   return List<RallyPieChartSegment>.generate(
     items.length,
     (i) {
@@ -37,7 +37,7 @@ List<RallyPieChartSegment> buildSegmentsFromAccountItems(
   );
 }
 
-List<RallyPieChartSegment> buildSegmentsFromBillItems(List<BillData> items) {
+List<RallyPieChartSegment> buildSegmentsFromBillItems(List<OptionsData> items) {
   return List<RallyPieChartSegment>.generate(
     items.length,
     (i) {
@@ -49,8 +49,7 @@ List<RallyPieChartSegment> buildSegmentsFromBillItems(List<BillData> items) {
   );
 }
 
-List<RallyPieChartSegment> buildSegmentsFromBudgetItems(
-    List<BudgetData> items) {
+List<RallyPieChartSegment> buildSegmentsFromBudgetItems(List<CashData> items) {
   return List<RallyPieChartSegment>.generate(
     items.length,
     (i) {
@@ -144,20 +143,22 @@ class _AnimatedRallyPieChart extends AnimatedWidget {
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
     final labelTextStyle = textTheme.bodyText2.copyWith(
-      fontSize: 14,
+      fontSize: 17,
       letterSpacing: letterSpacingOrNone(0.5),
+      color: Colors.blueGrey.shade400,
     );
 
     return LayoutBuilder(builder: (context, constraints) {
       // When the widget is larger, we increase the font size.
       var headlineStyle = constraints.maxHeight >= pieChartMaxSize
-          ? textTheme.headline5.copyWith(fontSize: 70)
-          : textTheme.headline5;
+          ? textTheme.headline5.copyWith(fontSize: 70, color: Colors.black)
+          : textTheme.headline5.copyWith(color: Colors.black);
 
       // With a large text scale factor, we set a max font size.
       if (GalleryOptions.of(context).textScaleFactor(context) > 1.0) {
         headlineStyle = headlineStyle.copyWith(
           fontSize: (headlineStyle.fontSize / reducedTextScale(context)),
+          color: Colors.black,
         );
       }
 

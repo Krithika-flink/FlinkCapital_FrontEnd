@@ -915,7 +915,7 @@ class GalleryLocalizationsSr extends GalleryLocalizations {
       'Производ fullscreenDialog одређује да ли се следећа страница отвара у модалном дијалогу преко целог екрана';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Индикатор активности';
+  String get interestedFAQ => 'Индикатор активности';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -3486,7 +3486,7 @@ class GalleryLocalizationsSrLatn extends GalleryLocalizationsSr {
       'Proizvod fullscreenDialog određuje da li se sledeća stranica otvara u modalnom dijalogu preko celog ekrana';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indikator aktivnosti';
+  String get interestedFAQ => 'Indikator aktivnosti';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

@@ -907,7 +907,7 @@ class GalleryLocalizationsKn extends GalleryLocalizations {
       'ಒಳಬರುವ ಪುಟವು, ಫುಲ್‌ಸ್ಕ್ರೀನ್‌ಡೈಲಾಗ್ ಮೋಡಲ್ ಆಗಿದೆಯೇ ಎಂಬುದನ್ನು ಫುಲ್‌ಸ್ಕ್ರೀನ್ ಡೈಲಾಗ್ ಗುಣಲಕ್ಷಣ ಸೂಚಿಸುತ್ತದೆ';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'ಚಟುವಟಿಕೆ ಸೂಚಕ';
+  String get interestedFAQ => 'ಚಟುವಟಿಕೆ ಸೂಚಕ';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

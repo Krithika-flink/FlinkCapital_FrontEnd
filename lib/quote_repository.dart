@@ -7,7 +7,7 @@ class QuoteRepository {
   ApiBaseHelper _helper = ApiBaseHelper();
 
   Future<List<Quote>> fetchQuoteList() async {
-    final response = await _helper.get("quote");
+    final response = await _helper.get('quote');
     return QuoteResponse.fromJson(response as Map<String, dynamic>).results;
   }
 }

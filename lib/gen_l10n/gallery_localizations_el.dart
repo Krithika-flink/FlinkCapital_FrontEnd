@@ -914,7 +914,7 @@ class GalleryLocalizationsEl extends GalleryLocalizations {
       'Η ιδιότητα fullscreenDialog καθορίζει εάν η εισερχόμενη σελίδα αποτελεί ένα παράθυρο διαλόγου σε πλήρη οθόνη.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Ένδειξη δραστηριότητας';
+  String get interestedFAQ => 'Ένδειξη δραστηριότητας';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

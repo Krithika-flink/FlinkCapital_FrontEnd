@@ -905,7 +905,7 @@ class GalleryLocalizationsSv extends GalleryLocalizations {
       'Med egendomen fullscreenDialog anges om en inkommande sida är en modal dialogruta i helskärm';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Aktivitetsindikator';
+  String get interestedFAQ => 'Aktivitetsindikator';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

@@ -915,7 +915,7 @@ class GalleryLocalizationsFr extends GalleryLocalizations {
       'La propriété \"fullscreenDialog\" indique si la page demandée est une boîte de dialogue modale en plein écran';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicateur d\'activité';
+  String get interestedFAQ => 'Indicateur d\'activité';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -3504,7 +3504,7 @@ class GalleryLocalizationsFrCa extends GalleryLocalizationsFr {
       'La propriété fullscreenDialog qui spécifie si la page entrante est une boîte de dialogue modale plein écran';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicateur d\'activité';
+  String get interestedFAQ => 'Indicateur d\'activité';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -6075,7 +6075,7 @@ class GalleryLocalizationsFrCh extends GalleryLocalizationsFr {
       'La propriété \"fullscreenDialog\" indique si la page demandée est une boîte de dialogue modale en plein écran';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicateur d\'activité';
+  String get interestedFAQ => 'Indicateur d\'activité';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

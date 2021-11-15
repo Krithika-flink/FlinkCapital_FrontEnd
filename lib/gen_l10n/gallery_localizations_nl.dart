@@ -909,7 +909,7 @@ class GalleryLocalizationsNl extends GalleryLocalizations {
       'De eigenschap fullscreenDialog geeft aan of de binnenkomende pagina een dialoogvenster is in de modus volledig scherm';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Activiteitsindicator';
+  String get interestedFAQ => 'Activiteitsindicator';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

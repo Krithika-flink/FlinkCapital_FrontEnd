@@ -907,7 +907,7 @@ class GalleryLocalizationsAs extends GalleryLocalizations {
       'fullscreenDialog সম্পদে পৃষ্ঠাখন সম্পূর্ণ স্ক্ৰীনৰ ম’ডেল ডায়ল\'গ হয়নে নহয় সেয়া নির্দিষ্ট কৰে';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'কাৰ্যকলাপৰ সূচক';
+  String get interestedFAQ => 'কাৰ্যকলাপৰ সূচক';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

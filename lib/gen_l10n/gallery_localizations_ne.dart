@@ -905,7 +905,7 @@ class GalleryLocalizationsNe extends GalleryLocalizations {
       'फुल स्क्रिनका संवादको विशेषताले आउँदो पृष्ठ फुल स्क्रिन मोडल संवाद हो वा होइन भन्ने कुरा निर्दिष्ट गर्दछ';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'गतिविधि सूचक';
+  String get interestedFAQ => 'गतिविधि सूचक';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

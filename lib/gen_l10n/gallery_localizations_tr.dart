@@ -906,7 +906,7 @@ class GalleryLocalizationsTr extends GalleryLocalizations {
       'Tam ekran iletişim kutusu özelliği, gelen sayfanın tam ekran kalıcı bir iletişim kutusu olup olmadığını belirtir.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Etkinlik göstergesi';
+  String get interestedFAQ => 'Etkinlik göstergesi';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

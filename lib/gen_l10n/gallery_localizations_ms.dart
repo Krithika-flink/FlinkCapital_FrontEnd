@@ -903,7 +903,7 @@ class GalleryLocalizationsMs extends GalleryLocalizations {
       'Sifat Dialogskrinpenuh menentukan sama ada halaman masuk ialah dialog mod skrin penuh';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Penunjuk aktiviti';
+  String get interestedFAQ => 'Penunjuk aktiviti';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

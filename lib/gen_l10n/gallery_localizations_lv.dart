@@ -907,7 +907,7 @@ class GalleryLocalizationsLv extends GalleryLocalizations {
       'Rekvizīts fullscreenDialog nosaka, vai ienākošā lapa ir pilnekrāna režīma modālais dialoglodziņš.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Aktivitātes indikators';
+  String get interestedFAQ => 'Aktivitātes indikators';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

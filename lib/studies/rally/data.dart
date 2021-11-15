@@ -2,37 +2,43 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
+import 'dart:core';
+
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 import 'package:gallery/studies/rally/formatters.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/material.dart';
-//import 'package:flutterfire_samples/res/custom_colors.dart';
-//import 'package:flutterfire_samples/screens/edit_screen.dart';
+import 'package:gallery/userModel.dart';
 import 'package:gallery/utils/database.dart';
+import 'package:gallery/studies/rally/finance.dart';
 
-/// Calculates the sum of the primary amounts of a list of [AccountData].
-double sumAccountDataPrimaryAmount(List<AccountData> items) =>
-    sumOf<AccountData>(items, (item) => item.primaryAmount);
+final User user = FirebaseAuth.instance.currentUser;
+final userid = user.uid;
+UserModel userdetails;
 
-/// Calculates the sum of the primary amounts of a list of [BillData].
-double sumBillDataPrimaryAmount(List<BillData> items) =>
-    sumOf<BillData>(items, (item) => item.primaryAmount);
+/// Calculates the sum of the primary amounts of a list of [FutureData].
+double sumFutureDataPrimaryAmount(List<FutureData> items) =>
+    sumOf<FutureData>(items, (item) => item.primaryAmount);
 
-/// Calculates the sum of the primary amounts of a list of [BillData].
-double sumBillDataPaidAmount(List<BillData> items) => sumOf<BillData>(
+/// Calculates the sum of the primary amounts of a list of [OptionsData].
+double sumOptionsDataPrimaryAmount(List<OptionsData> items) =>
+    sumOf<OptionsData>(items, (item) => item.primaryAmount);
+
+/// Calculates the sum of the primary amounts of a list of [OptionsData].
+double sumOptionsDataPaidAmount(List<OptionsData> items) => sumOf<OptionsData>(
       items.where((item) => item.isPaid).toList(),
       (item) => item.primaryAmount,
     );
 
-/// Calculates the sum of the primary amounts of a list of [BudgetData].
-double sumBudgetDataPrimaryAmount(List<BudgetData> items) =>
-    sumOf<BudgetData>(items, (item) => item.primaryAmount);
+/// Calculates the sum of the primary amounts of a list of [CashData].
+double sumCashDataPrimaryAmount(List<CashData> items) =>
+    sumOf<CashData>(items, (item) => item.primaryAmount);
 
-/// Calculates the sum of the amounts used of a list of [BudgetData].
-double sumBudgetDataAmountUsed(List<BudgetData> items) =>
-    sumOf<BudgetData>(items, (item) => item.amountUsed);
+/// Calculates the sum of the amounts used of a list of [CashData].
+double sumCashDataAmountUsed(List<CashData> items) =>
+    sumOf<CashData>(items, (item) => item.amountUsed);
 
 /// Utility function to sum up values in a list.
 double sumOf<T>(List<T> list, double Function(T elt) getValue) {
@@ -46,8 +52,8 @@ double sumOf<T>(List<T> list, double Function(T elt) getValue) {
 /// A data model for an account.
 ///
 /// The [primaryAmount] is the balance of the account in USD.
-class AccountData {
-  const AccountData({this.name, this.primaryAmount, this.InputLot});
+class FutureData {
+  const FutureData({this.name, this.primaryAmount, this.InputLot});
 
   /// The display name of this entity.
   final String name;
@@ -62,8 +68,8 @@ class AccountData {
 /// A data model for a bill.
 ///
 /// The [primaryAmount] is the Profit in USD.
-class BillData {
-  const BillData({
+class OptionsData {
+  const OptionsData({
     this.name,
     this.primaryAmount,
     this.dueDate,
@@ -86,9 +92,8 @@ class BillData {
 /// A data model for a budget.
 ///
 /// The [primaryAmount] is the budget cap in USD.
-class BudgetData {
-  const BudgetData(
-      {this.name, this.primaryAmount, this.amountUsed, this.text1});
+class CashData {
+  const CashData({this.name, this.primaryAmount, this.amountUsed, this.text1});
 
   /// The display name of this entity.
   final String name;
@@ -111,6 +116,16 @@ class AlertData {
 
   /// The icon to display with the alert.
   final IconData iconData;
+}
+
+class SettingsData {
+  SettingsData({this.title, this.order});
+
+  /// The alert message to display.
+  final String title;
+
+  /// The icon to display with the alert.
+  final int order;
 }
 
 class DetailedEventData {
@@ -139,25 +154,42 @@ class UserDetailData {
 /// Class to return dummy data lists.
 ///
 /// In a real app, this might be replaced with some asynchronous service.
+/* class DummyDataService extends StatefulWidget {
+  final UserModel userModel;
+
+  const DummyDataService({@required this.userModel});
+  @override
+  /* State<StatefulWidget> createState() {
+    return _DummyDataServiceState();
+  } */
+  _DummyDataServiceState createState() => _DummyDataServiceState();
+} */
+
 class DummyDataService {
-  static List<AccountData> getAccountDataList(BuildContext context) {
-    return <AccountData>[
-      AccountData(
+  /* void didChangeDependencies() async {
+    super.didChangeDependencies();
+    user1 = await Database.getUser(userid);
+    //setState(() {});
+  }
+ */
+  static List<FutureData> getFutureDataList(BuildContext context) {
+    return <FutureData>[
+      FutureData(
         name: GalleryLocalizations.of(context).rallyAccountDataChecking,
         primaryAmount: 2215.13,
         InputLot: 'Click here to Input No. of lots',
       ),
-      AccountData(
+      FutureData(
         name: GalleryLocalizations.of(context).rallyAccountDataHomeSavings,
         primaryAmount: 8678.88,
         InputLot: 'Click here to Input No. of lots',
       ),
-      AccountData(
+      FutureData(
         name: GalleryLocalizations.of(context).rallyAccountDataCarSavings,
         primaryAmount: 987.48,
         InputLot: 'Click here to Input No. of lots',
       )
-      //AccountData(
+      //FutureData(
       //name: GalleryLocalizations.of(context).rallyAccountDataVacation,
       //primaryAmount: 253,
       //InputLot: '1231233456',
@@ -165,7 +197,11 @@ class DummyDataService {
     ];
   }
 
-  static List<UserDetailData> getAccountDetailList(BuildContext context) {
+  static List<UserDetailData> getAccountDetailList(BuildContext context,
+      {UserModel user}) {
+    //var accountdetails = getUserdetails();
+    //UserModel user1;
+    //getUserdetails().then((user1) {
     return <UserDetailData>[
       UserDetailData(
         title: GalleryLocalizations.of(context)
@@ -195,9 +231,11 @@ class DummyDataService {
       UserDetailData(
         title:
             GalleryLocalizations.of(context).rallyAccountDetailDataAccountOwner,
-        value: 'Krithika',
+        value: user.fullName,
       ),
     ];
+
+    ///});
   }
 
   static List<DetailedEventData> getDetailedEventItems() {
@@ -241,26 +279,26 @@ class DummyDataService {
     ];
   }
 
-  static List<BillData> getBillDataList(BuildContext context) {
+  static List<OptionsData> getOptionsDataList(BuildContext context) {
     // The following names are not localized as they're product/brand names.
-    return <BillData>[
-      BillData(
+    return <OptionsData>[
+      const OptionsData(
         name: 'Flink Athena',
         primaryAmount: 1245.36,
         dueDate: 'Click here to Input No. of lots',
       ),
-      BillData(
+      OptionsData(
         name: 'Flink Demeter',
         primaryAmount: 1200,
         dueDate: 'Click here to Input No. of lots',
         isPaid: true,
       ),
-      BillData(
+      OptionsData(
         name: 'Flink Artemis',
         primaryAmount: 1287.33,
         dueDate: 'Click here to Input No. of lots',
       )
-      //BillData(
+      //OptionsData(
       //name: 'ABC Loans',
       //primaryAmount: 400,
       //dueDate: dateFormatAbbreviatedMonthDay(context)
@@ -269,7 +307,7 @@ class DummyDataService {
     ];
   }
 
-  static List<UserDetailData> getBillDetailList(BuildContext context,
+  static List<UserDetailData> getOptionsDetailList(BuildContext context,
       {double dueTotal, double paidTotal}) {
     return <UserDetailData>[
       UserDetailData(
@@ -287,27 +325,27 @@ class DummyDataService {
     ];
   }
 
-  static List<BudgetData> getBudgetDataList(BuildContext context) {
-    return <BudgetData>[
-      BudgetData(
+  static List<CashData> getCashDataList(BuildContext context) {
+    return <CashData>[
+      CashData(
         name: GalleryLocalizations.of(context).rallyBudgetCategoryCoffeeShops,
         primaryAmount: 1270,
         amountUsed: 44,
         text1: 'Click here to Input Capital',
       ),
-      BudgetData(
+      CashData(
         name: GalleryLocalizations.of(context).rallyBudgetCategoryGroceries,
         primaryAmount: 31170,
         amountUsed: 23,
         text1: 'Click here to Input Capital',
       ),
-      BudgetData(
+      CashData(
         name: GalleryLocalizations.of(context).rallyBudgetCategoryRestaurants,
         primaryAmount: 4170,
         amountUsed: 22,
         text1: 'Click here to Input Capital',
       )
-      //BudgetData(
+      //CashData(
       //name: GalleryLocalizations.of(context).rallyBudgetCategoryClothing,
       //primaryAmount: 70,
       //amountUsed:'Click here to Input Capital',
@@ -315,7 +353,7 @@ class DummyDataService {
     ];
   }
 
-  static List<UserDetailData> getBudgetDetailList(BuildContext context,
+  static List<UserDetailData> getCashDetailList(BuildContext context,
       {double capTotal, double usedTotal}) {
     return <UserDetailData>[
       UserDetailData(
@@ -333,17 +371,25 @@ class DummyDataService {
     ];
   }
 
-  static List<String> getSettingsTitles(BuildContext context) {
-    return <String>[
-      /* GalleryLocalizations.of(context).rallySettingsManageAccounts,
+  static List<SettingsData> getSettingsTitles(BuildContext context) {
+    return <SettingsData>[
+      /*GalleryLocalizations.of(context).rallySettingsManageAccounts,
       GalleryLocalizations.of(context).rallySettingsTaxDocuments,
       GalleryLocalizations.of(context).rallySettingsPasscodeAndTouchId,
-      GalleryLocalizations.of(context).rallySettingsNotifications,
-      GalleryLocalizations.of(context).rallySettingsPersonalInformation,
-      GalleryLocalizations.of(context).rallySettingsPaperlessSettings,
-      GalleryLocalizations.of(context).rallySettingsFindAtms,
-      GalleryLocalizations.of(context).rallySettingsHelp, */
-      GalleryLocalizations.of(context).rallySettingsSignOut,
+      GalleryLocalizations.of(context).rallySettingsNotifications,*/
+      SettingsData(
+          order: 1,
+          title: GalleryLocalizations.of(context)
+              .rallySettingsPersonalInformation),
+      SettingsData(
+          order: 2, title: GalleryLocalizations.of(context).rallySettingsHelp),
+      SettingsData(
+          order: 3,
+          title: GalleryLocalizations.of(context).rallySettingsSignOut),
+      /*GalleryLocalizations.of(context).rallySettingsPaperlessSettings,
+      GalleryLocalizations.of(context).rallySettingsFindAtms,*/
+      // GalleryLocalizations.of(context).rallySettingsHelp,
+      //GalleryLocalizations.of(context).rallySettingsSignOut,
     ];
   }
 
@@ -379,6 +425,13 @@ class DummyDataService {
       ),
     ];
   }
+/* 
+  @override
+  Widget build(BuildContext context) {
+    return ListBody();
+  } */
+
+  //FinancialEntityCategoryDetailsPage(getDetailedEventItems);
 }
 
 class Flinktable extends StatelessWidget {
@@ -430,8 +483,9 @@ class Flinktable extends StatelessWidget {
           ),
         ),
       ],
-      rows: const <DataRow>[
-        DataRow(
+      // ignore: prefer_const_literals_to_create_immutables
+      rows: <DataRow>[
+        const DataRow(
           cells: <DataCell>[
             DataCell(Text('')),
             DataCell(Text('')),
@@ -515,9 +569,10 @@ class FlinkPorttable extends StatelessWidget {
 }
 
 List<DataRow> _createRows(QuerySnapshot snapshot) {
+  // ignore: omit_local_variable_types
   List<DataRow> newList =
       snapshot.docs.map((DocumentSnapshot documentSnapshot) {
-    return new DataRow(cells: [
+    return DataRow(cells: [
       DataCell(Text(documentSnapshot.id.toString())),
       DataCell(Text(documentSnapshot['symbol'].toString())),
       DataCell(Text(documentSnapshot['buy_sell'].toString())),
@@ -542,51 +597,52 @@ class ItemList extends StatelessWidget {
         if (snapshot.hasError) {
           return Text('Something went wrong');
         } else if (snapshot.hasData || snapshot.data != null) {
-          return new DataTable(
+          return DataTable(
+            // ignore: prefer_const_literals_to_create_immutables
             columns: <DataColumn>[
-              new DataColumn(
+              const DataColumn(
                 label: Text(
                   'ORDER ID',
                   style: TextStyle(fontStyle: FontStyle.normal),
                 ),
               ),
-              new DataColumn(
+              const DataColumn(
                 label: Text(
                   'SYMBOL',
                   style: TextStyle(fontStyle: FontStyle.normal),
                 ),
               ),
-              new DataColumn(
+              const DataColumn(
                 label: Text(
                   'BUY/SELL',
                   style: TextStyle(fontStyle: FontStyle.normal),
                 ),
               ),
-              new DataColumn(
+              const DataColumn(
                 label: Text(
                   'TYPE',
                   style: TextStyle(fontStyle: FontStyle.normal),
                 ),
               ),
-              new DataColumn(
+              const DataColumn(
                 label: Text(
                   'QTY',
                   style: TextStyle(fontStyle: FontStyle.normal),
                 ),
               ),
-              new DataColumn(
+              const DataColumn(
                 label: Text(
                   'PRICE',
                   style: TextStyle(fontStyle: FontStyle.normal),
                 ),
               ),
-              new DataColumn(
+              const DataColumn(
                 label: Text(
                   'TIME',
                   style: TextStyle(fontStyle: FontStyle.normal),
                 ),
               ),
-              new DataColumn(
+              const DataColumn(
                 label: Text(
                   'STATUS',
                   style: TextStyle(fontStyle: FontStyle.normal),
@@ -598,7 +654,7 @@ class ItemList extends StatelessWidget {
             rows: _createRows(snapshot.data),
           );
         }
-        return Center(
+        return const Center(
           child: CircularProgressIndicator(
             valueColor: AlwaysStoppedAnimation<Color>(Colors.orange),
           ),
@@ -607,3 +663,17 @@ class ItemList extends StatelessWidget {
     );
   }
 }
+
+// ignore: must_be_immutable
+/* class GetUser extends StatelessWidget {
+  UserModel user;
+ */
+//@override
+Future<UserModel> getUserdetails() async {
+  // super.didChangeDependencies();
+  userdetails = await Database.getUser(userid);
+  return userdetails;
+  //setState(() {});
+}
+
+//}

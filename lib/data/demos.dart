@@ -942,80 +942,100 @@ List<GalleryDemo> cupertinoDemos(GalleryLocalizations localizations) {
   LibraryLoader cupertinoLoader = cupertino_demos.loadLibrary;
   return [
     GalleryDemo(
-      title: localizations.demoCupertinoActivityIndicatorTitle,
+      // title: localizations.interestedFAQ,
+      title: 'How to take a trial?',
       icon: GalleryIcons.cupertinoProgress,
       slug: 'cupertino-activity-indicator',
-      subtitle: localizations.demoCupertinoActivityIndicatorSubtitle,
+      subtitle: 'We provide one-week...',
+      //localizations.demoCupertinoActivityIndicatorSubtitle,
       configurations: [
         GalleryDemoConfiguration(
-          title: localizations.demoCupertinoActivityIndicatorTitle,
-          description: localizations.demoCupertinoActivityIndicatorDescription,
-          documentationUrl:
-              '$_docsBaseUrl/cupertino/CupertinoActivityIndicator-class.html',
-          buildRoute: (_) => DeferredWidget(
-              cupertinoLoader,
-              // ignore: prefer_const_constructors
-              () => cupertino_demos.CupertinoProgressIndicatorDemo()),
+          title: 'How to take a trial?',
+          description: '',
+          //localizations.demoCupertinoActivityIndicatorDescription,
+          //documentationUrl: '',
+          /*'$_docsBaseUrl/cupertino/CupertinoActivityIndicator-class.html',*/
+          buildRoute: (_) => const Text(
+              'We provide one-week free trial. Just go to https://flinkcapital.web.app/ '
+              'and start your free trial with your existing account of Aliceblue, Fyers, Angel Broking'
+              'and Trustline.If you do not have an account, you can open account using the same link '
+              'and get started.Users who open account under our referral get additional three '
+              'months subscriptions at free of cost if they subscribe to one year plan.'
+              'So, all users who open account under us will get 1 year + 3 months of validity'),
+          // DeferredWidget(
+          //   cupertinoLoader,
+          // ignore: prefer_const_constructors
+          //() => Text(""),
+          // () =>cupertino_demos.CupertinoProgressIndicatorDemo()),
           code: CodeSegments.cupertinoActivityIndicatorDemo,
         ),
       ],
       category: GalleryDemoCategory.cupertino,
     ),
     GalleryDemo(
-      title: localizations.demoCupertinoAlertsTitle,
+      title: 'What is the cost?',
+      //localizations.demoCupertinoAlertsTitle,
       icon: GalleryIcons.dialogs,
       slug: 'cupertino-alerts',
-      subtitle: localizations.demoCupertinoAlertsSubtitle,
+      subtitle: 'We charge...',
+      //localizations.demoCupertinoAlertsSubtitle,
       configurations: [
         GalleryDemoConfiguration(
-          title: localizations.demoCupertinoAlertTitle,
-          description: localizations.demoCupertinoAlertDescription,
+          title: 'Subscription Plans',
+          description: '',
+          //localizations.demoCupertinoAlertDescription,
           documentationUrl:
               '$_docsBaseUrl/cupertino/CupertinoAlertDialog-class.html',
-          buildRoute: (_) => DeferredWidget(
+          buildRoute: (_) => const Text(
+              'Flink Capital charges Quarterly (INR 21000), Half Yearly (INR 34000) and Yearly (INR 55000) on the entire gamut of strategies.'
+              'If you want to access any individual bot it costs Rs.9,700 per year.'),
+          /* DeferredWidget(
               cupertinoLoader,
               // ignore: prefer_const_constructors
               () => cupertino_demos.CupertinoAlertDemo(
-                  type: AlertDemoType.alert)),
+                  type: AlertDemoType.alert)), */
           code: CodeSegments.cupertinoAlertDemo,
         ),
         GalleryDemoConfiguration(
-          title: localizations.demoCupertinoAlertWithTitleTitle,
-          description: localizations.demoCupertinoAlertDescription,
+          title: 'Do you provide monthly subscription plans?',
+          //localizations.demoCupertinoAlertWithTitleTitle,
+          description: '',
+          //localizations.demoCupertinoAlertDescription,
           documentationUrl:
               '$_docsBaseUrl/cupertino/CupertinoAlertDialog-class.html',
-          buildRoute: (_) => DeferredWidget(
+          buildRoute: (_) => Text(
+              'No, all our trading bots’ subscriptions are available only on quarterly,half-yearly or yearly basis.'),
+          /* DeferredWidget(
               cupertinoLoader,
               // ignore: prefer_const_constructors
               () => cupertino_demos.CupertinoAlertDemo(
-                  type: AlertDemoType.alertTitle)),
+                  type: AlertDemoType.alertTitle)), */
           code: CodeSegments.cupertinoAlertDemo,
         ),
         GalleryDemoConfiguration(
-          title: localizations.demoCupertinoAlertButtonsTitle,
-          description: localizations.demoCupertinoAlertDescription,
+          title: 'Do you provide any discounts?',
+
+          //localizations.demoCupertinoAlertButtonsTitle,
+          description: '',
+          //localizations.demoCupertinoAlertDescription,
           documentationUrl:
               '$_docsBaseUrl/cupertino/CupertinoAlertDialog-class.html',
-          buildRoute: (_) => DeferredWidget(
-              cupertinoLoader,
-              // ignore: prefer_const_constructors
-              () => cupertino_demos.CupertinoAlertDemo(
-                  type: AlertDemoType.alertButtons)),
+          buildRoute: (_) => const Text(
+              'We provide you access to all bots at discounted price, each bot is priced at Rs.9,700 for 12 months, we have 9 different bots, so if you wanted to subscribe to all bots, you end up paying more than Rs.87300 to get access to 9 bots just for 1 year whereas with just Rs.55,000 per year, you can get access to all our trading bots for one full year.'), // https://rzp.io/l/alicebluebots'),
           code: CodeSegments.cupertinoAlertDemo,
         ),
         GalleryDemoConfiguration(
-          title: localizations.demoCupertinoAlertButtonsOnlyTitle,
-          description: localizations.demoCupertinoAlertDescription,
+          title: 'Where should I make the payment',
+          //localizations.demoCupertinoAlertButtonsOnlyTitle,
+          description: '',
+          //localizations.demoCupertinoAlertDescription,
           documentationUrl:
               '$_docsBaseUrl/cupertino/CupertinoAlertDialog-class.html',
-          buildRoute: (_) => DeferredWidget(
-              cupertinoLoader,
-              // ignore: prefer_const_constructors
-              () => cupertino_demos.CupertinoAlertDemo(
-                  type: AlertDemoType.alertButtonsOnly)),
-          code: CodeSegments.cupertinoAlertDemo,
+          buildRoute: (_) => const Text(
+              'You can pay in the given link.https://rzp.io/l/alicebluebots'),
+          //code: CodeSegments.cupertinoAlertDemo,
         ),
-        GalleryDemoConfiguration(
+        /*  GalleryDemoConfiguration(
           title: localizations.demoCupertinoActionSheetTitle,
           description: localizations.demoCupertinoActionSheetDescription,
           documentationUrl:
@@ -1026,206 +1046,201 @@ List<GalleryDemo> cupertinoDemos(GalleryLocalizations localizations) {
               () => cupertino_demos.CupertinoAlertDemo(
                   type: AlertDemoType.actionSheet)),
           code: CodeSegments.cupertinoAlertDemo,
-        ),
+        ), */
       ],
       category: GalleryDemoCategory.cupertino,
     ),
     GalleryDemo(
-      title: localizations.demoCupertinoButtonsTitle,
+      title: 'Is it fully automated?',
+      //localizations.demoCupertinoButtonsTitle,
       icon: GalleryIcons.genericButtons,
       slug: 'cupertino-buttons',
-      subtitle: localizations.demoCupertinoButtonsSubtitle,
+      subtitle: 'Yes...',
       configurations: [
         GalleryDemoConfiguration(
-          title: localizations.demoCupertinoButtonsTitle,
-          description: localizations.demoCupertinoButtonsDescription,
+          title: 'Is it fully automated?',
+          description: '',
           documentationUrl:
               '$_docsBaseUrl/cupertino/CupertinoButton-class.html',
-          buildRoute: (_) => DeferredWidget(
-              cupertinoLoader,
-              // ignore: prefer_const_constructors
-              () => cupertino_demos.CupertinoButtonDemo()),
+          buildRoute: (_) => const Text(
+              'Yes, our platform places entry orders and stop loss orders/target orders automatically as per the strategy. No manual intervention required. Only by day end around 3 pm, if there are any open positions, users must square off these positions by clicking Flink Capital all button available in our platform. That would close all your open intraday position with a single click. If you don’t do it, broker will automatically close all your open position.'),
+          code: CodeSegments.cupertinoButtonDemo,
+        ),
+        GalleryDemoConfiguration(
+          title:
+              'Why it’s not fully automated with Zerodha or Upstox or with other brokers?',
+          description: '',
+          documentationUrl:
+              '$_docsBaseUrl/cupertino/CupertinoButton-class.html',
+          buildRoute: (_) => const Text(
+              'Brokers like Upstox/Zerodha charges almost Rs.4000 per month to use their API, it’s an additional cost the user has to pay, if they wanted to use fully automated platform, where brokers like Aliceblue and Trustline provide api free of cost, so traders don’t need to spend extra cost for fully automated platform.'),
+          code: CodeSegments.cupertinoButtonDemo,
+        ),
+        GalleryDemoConfiguration(
+          title: 'Do I need to click any button during the market hours?',
+          description: '',
+          documentationUrl:
+              '$_docsBaseUrl/cupertino/CupertinoButton-class.html',
+          buildRoute: (_) => const Text(
+              'No manual intervention required. You just need to login once every day and update your capital, that’s all. Bot will automatically place all trades.'),
+          code: CodeSegments.cupertinoButtonDemo,
+        ),
+        GalleryDemoConfiguration(
+          title: 'Does your platform support customized strategy?',
+          description: '',
+          documentationUrl:
+              '$_docsBaseUrl/cupertino/CupertinoButton-class.html',
+          buildRoute: (_) => const Text(
+              'No, our platform comes with inbuilt strategy. Doesn’t support any customized strategy.'),
           code: CodeSegments.cupertinoButtonDemo,
         ),
       ],
       category: GalleryDemoCategory.cupertino,
     ),
     GalleryDemo(
-      title: localizations.demoCupertinoContextMenuTitle,
+      title:
+          'Do you provide any offer if user open account under your referral?',
       icon: GalleryIcons.moreVert,
       slug: 'cupertino-context-menu',
-      subtitle: localizations.demoCupertinoContextMenuSubtitle,
+      subtitle: 'Yes...',
       configurations: [
         GalleryDemoConfiguration(
-          title: localizations.demoCupertinoContextMenuTitle,
-          description: localizations.demoCupertinoContextMenuDescription,
+          title:
+              'Do you provide any offer if user open account under your referral?',
+          description: '',
           documentationUrl:
               '$_docsBaseUrl/cupertino/CupertinoContextMenu-class.html',
-          buildRoute: (_) => DeferredWidget(
-              cupertinoLoader,
-              // ignore: prefer_const_constructors
-              () => cupertino_demos.CupertinoContextMenuDemo()),
+          buildRoute: (_) => const Text(
+              'Yes, Users who open account under our referral get additional three months subscriptions at free of cost, if they subscribe to one year plan. So, all users who open account under us will get 1 year + 3 months of validity.'),
           code: CodeSegments.cupertinoContextMenuDemo,
         ),
       ],
       category: GalleryDemoCategory.cupertino,
     ),
     GalleryDemo(
-      title: localizations.demoCupertinoNavigationBarTitle,
+      title: 'Will this product suit a working professional?',
       icon: GalleryIcons.bottomSheetPersistent,
       slug: 'cupertino-navigation-bar',
-      subtitle: localizations.demoCupertinoNavigationBarSubtitle,
+      subtitle: 'Yes...',
       configurations: [
         GalleryDemoConfiguration(
-          title: localizations.demoCupertinoNavigationBarTitle,
-          description: localizations.demoCupertinoNavigationBarDescription,
+          title: 'Am a working professional, will this product suit me?',
+          description: '',
           documentationUrl:
               '$_docsBaseUrl/cupertino/CupertinoNavigationBar-class.html',
-          buildRoute: (_) => DeferredWidget(
-              cupertinoLoader,
-              // ignore: prefer_const_constructors
-              () => cupertino_demos.CupertinoNavigationBarDemo()),
+          buildRoute: (_) => Text(
+              'Yes, our platform doesn’t require you to sit in front of the system all the time, you just need to login to our platform once in the morning before market opens and update your capital, that’s all. You can carry on with your work, our fully automated bot will take care of all order placement by itself.'),
+          code: CodeSegments.cupertinoNavigationBarDemo,
+        ),
+        GalleryDemoConfiguration(
+          title:
+              'Do I need to keep the laptop/mobile web page open and running after logging in the morning?',
+          description: '',
+          documentationUrl:
+              '$_docsBaseUrl/cupertino/CupertinoNavigationBar-class.html',
+          buildRoute: (_) => Text(
+              'No, not required. Once you login to the platform and update your capital, its done. System records it. You don’t need to maintain any server or download any software or keep laptop open.'),
           code: CodeSegments.cupertinoNavigationBarDemo,
         ),
       ],
       category: GalleryDemoCategory.cupertino,
     ),
     GalleryDemo(
-      title: localizations.demoCupertinoPickerTitle,
+      title: 'Can I monitor the trades real time?',
       icon: GalleryIcons.event,
       slug: 'cupertino-picker',
-      subtitle: localizations.demoCupertinoPickerSubtitle,
+      subtitle: 'Yes...',
       configurations: [
         GalleryDemoConfiguration(
-          title: localizations.demoCupertinoPickerTitle,
-          description: localizations.demoCupertinoPickerDescription,
+          title: 'Can I monitor the trades real time?',
+          description: '',
           documentationUrl:
-              '$_docsBaseUrl/cupertino/CupertinoDatePicker-class.html',
-          buildRoute: (_) => DeferredWidget(
-              cupertinoLoader,
-              // ignore: prefer_const_constructors
-              () => cupertino_demos.CupertinoPickerDemo()),
-          code: CodeSegments.cupertinoPickersDemo,
+              '$_docsBaseUrl/cupertino/CupertinoNavigationBar-class.html',
+          buildRoute: (_) => Text(
+              'Yes, you can login to your trading account and check the trades in real time.'),
+          code: CodeSegments.cupertinoNavigationBarDemo,
+        ),
+        GalleryDemoConfiguration(
+          title: 'Can I monitor the trades triggered by bot on real time?',
+          description: '',
+          documentationUrl:
+              '$_docsBaseUrl/cupertino/CupertinoNavigationBar-class.html',
+          buildRoute: (_) => Text(
+              'Yes, in our algo dashboard we have orders tab, clicking that tab would show you list of orders triggered from each bot'),
+          code: CodeSegments.cupertinoNavigationBarDemo,
         ),
       ],
       category: GalleryDemoCategory.cupertino,
     ),
     GalleryDemo(
-      title: localizations.demoCupertinoPullToRefreshTitle,
+      title: 'What is the minimum capital required to trade?',
       icon: GalleryIcons.cupertinoPullToRefresh,
       slug: 'cupertino-pull-to-refresh',
-      subtitle: localizations.demoCupertinoPullToRefreshSubtitle,
+      subtitle: '',
       configurations: [
         GalleryDemoConfiguration(
-          title: localizations.demoCupertinoPullToRefreshTitle,
-          description: localizations.demoCupertinoPullToRefreshDescription,
+          title:
+              'What is the minimum capital required to trade the trading bots?',
+          description: '',
           documentationUrl:
               '$_docsBaseUrl/cupertino/CupertinoSliverRefreshControl-class.html',
-          buildRoute: (_) => DeferredWidget(
-              cupertinoLoader,
-              // ignore: prefer_const_constructors
-              () => cupertino_demos.CupertinoRefreshControlDemo()),
+          buildRoute: (_) =>
+              Text('Even with Rs.250,000 one can trade using our bots.'),
           code: CodeSegments.cupertinoRefreshDemo,
         ),
       ],
       category: GalleryDemoCategory.cupertino,
     ),
     GalleryDemo(
-      title: localizations.demoCupertinoSegmentedControlTitle,
+      title: 'Does it generate profits every month?',
       icon: GalleryIcons.tabs,
       slug: 'cupertino-segmented-control',
-      subtitle: localizations.demoCupertinoSegmentedControlSubtitle,
+      subtitle: '',
       configurations: [
         GalleryDemoConfiguration(
-          title: localizations.demoCupertinoSegmentedControlTitle,
-          description: localizations.demoCupertinoSegmentedControlDescription,
+          title: 'Does it generate profits every month?',
+          description: '',
           documentationUrl:
               '$_docsBaseUrl/cupertino/CupertinoSegmentedControl-class.html',
-          buildRoute: (_) => DeferredWidget(
-              cupertinoLoader,
-              // ignore: prefer_const_constructors
-              () => cupertino_demos.CupertinoSegmentedControlDemo()),
+          buildRoute: (_) => const Text(
+              'No, please note that algo trading makes the execution easier, it doesn’t guarantee profits. Just like any trading system, these trading bots also goes through streaks of losses. So, we should focus only on quarterly/half yearly period about the performance'),
           code: CodeSegments.cupertinoSegmentedControlDemo,
         ),
       ],
       category: GalleryDemoCategory.cupertino,
     ),
     GalleryDemo(
-      title: localizations.demoCupertinoSliderTitle,
-      icon: GalleryIcons.sliders,
-      slug: 'cupertino-slider',
-      subtitle: localizations.demoCupertinoSliderSubtitle,
+      title: 'Can I use the same account for my own manual Trading?',
+      icon: GalleryIcons.cupertinoPullToRefresh,
+      slug: 'cupertino-pull-to-refresh',
+      subtitle: 'Yes, you can use it.',
       configurations: [
         GalleryDemoConfiguration(
-          title: localizations.demoCupertinoSliderTitle,
-          description: localizations.demoCupertinoSliderDescription,
+          title: 'How can I reach Flink Capital for support?',
+          description: '',
           documentationUrl:
-              '$_docsBaseUrl/cupertino/CupertinoSlider-class.html',
-          buildRoute: (_) => DeferredWidget(
-              cupertinoLoader,
-              // ignore: prefer_const_constructors
-              () => cupertino_demos.CupertinoSliderDemo()),
-          code: CodeSegments.cupertinoSliderDemo,
+              '$_docsBaseUrl/cupertino/CupertinoSliverRefreshControl-class.html',
+          buildRoute: (_) => const Text(
+              'We can be reached at catalyst@flinkcapital.com or ping us in telegram at http://t.me/flinkcapital we do not have any help desk voice support, all queries are addressed only through our email/chat support system'),
+          code: CodeSegments.cupertinoRefreshDemo,
         ),
       ],
       category: GalleryDemoCategory.cupertino,
     ),
     GalleryDemo(
-      title: localizations.demoSelectionControlsSwitchTitle,
-      icon: GalleryIcons.cupertinoSwitch,
-      slug: 'cupertino-switch',
-      subtitle: localizations.demoCupertinoSwitchSubtitle,
+      title: 'How can I reach Flink Capital?',
+      icon: GalleryIcons.cupertinoPullToRefresh,
+      slug: 'cupertino-pull-to-refresh',
+      subtitle: 'We can be reached at...',
       configurations: [
         GalleryDemoConfiguration(
-          title: localizations.demoSelectionControlsSwitchTitle,
-          description: localizations.demoCupertinoSwitchDescription,
+          title: 'How can I reach Flink Capital for support?',
+          description: '',
           documentationUrl:
-              '$_docsBaseUrl/cupertino/CupertinoSwitch-class.html',
-          buildRoute: (_) => DeferredWidget(
-              cupertinoLoader,
-              // ignore: prefer_const_constructors
-              () => cupertino_demos.CupertinoSwitchDemo()),
-          code: CodeSegments.cupertinoSwitchDemo,
-        ),
-      ],
-      category: GalleryDemoCategory.cupertino,
-    ),
-    GalleryDemo(
-      title: localizations.demoCupertinoTabBarTitle,
-      icon: GalleryIcons.bottomNavigation,
-      slug: 'cupertino-tab-bar',
-      subtitle: localizations.demoCupertinoTabBarSubtitle,
-      configurations: [
-        GalleryDemoConfiguration(
-          title: localizations.demoCupertinoTabBarTitle,
-          description: localizations.demoCupertinoTabBarDescription,
-          documentationUrl:
-              '$_docsBaseUrl/cupertino/CupertinoTabBar-class.html',
-          buildRoute: (_) => DeferredWidget(
-              cupertinoLoader,
-              // ignore: prefer_const_constructors
-              () => cupertino_demos.CupertinoTabBarDemo()),
-          code: CodeSegments.cupertinoNavigationDemo,
-        ),
-      ],
-      category: GalleryDemoCategory.cupertino,
-    ),
-    GalleryDemo(
-      title: localizations.demoCupertinoTextFieldTitle,
-      icon: GalleryIcons.textFieldsAlt,
-      slug: 'cupertino-text-field',
-      subtitle: localizations.demoCupertinoTextFieldSubtitle,
-      configurations: [
-        GalleryDemoConfiguration(
-          title: localizations.demoCupertinoTextFieldTitle,
-          description: localizations.demoCupertinoTextFieldDescription,
-          documentationUrl:
-              '$_docsBaseUrl/cupertino/CupertinoTextField-class.html',
-          buildRoute: (_) => DeferredWidget(
-              cupertinoLoader,
-              // ignore: prefer_const_constructors
-              () => cupertino_demos.CupertinoTextFieldDemo()),
-          code: CodeSegments.cupertinoTextFieldDemo,
+              '$_docsBaseUrl/cupertino/CupertinoSliverRefreshControl-class.html',
+          buildRoute: (_) => const Text(
+              'We can be reached at catalyst@flinkcapital.com or ping us in telegram at http://t.me/flinkcapital we do not have any help desk voice support, all queries are addressed only through our email/chat support system'),
+          code: CodeSegments.cupertinoRefreshDemo,
         ),
       ],
       category: GalleryDemoCategory.cupertino,

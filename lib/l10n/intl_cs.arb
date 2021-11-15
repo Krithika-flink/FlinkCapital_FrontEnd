@@ -237,7 +237,7 @@
   "demoMenuAnItemWithASimpleMenu": "Položka s jednoduchou nabídkou",
   "demoCustomSlidersTitle": "Vlastní posuvníky",
   "demoMenuAnItemWithAChecklistMenu": "Položka s nabídkou se zaškrtávacími položkami",
-  "demoCupertinoActivityIndicatorTitle": "Indikátor aktivity",
+  "interestedFAQ": "Indikátor aktivity",
   "demoCupertinoActivityIndicatorSubtitle": "Indikátory aktivity ve stylu iOS",
   "demoCupertinoActivityIndicatorDescription": "Indikátor aktivity ve stylu iOS, který rotuje ve směru hodinových ručiček.",
   "demoCupertinoNavigationBarTitle": "Navigační panel",

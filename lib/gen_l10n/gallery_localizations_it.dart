@@ -913,7 +913,7 @@ class GalleryLocalizationsIt extends GalleryLocalizations {
       'La proprietà fullscreenDialog specifica se la pagina che sta per essere visualizzata è una finestra di dialogo modale a schermo intero';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicatore di attività';
+  String get interestedFAQ => 'Indicatore di attività';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

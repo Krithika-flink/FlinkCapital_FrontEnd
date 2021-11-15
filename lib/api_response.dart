@@ -13,8 +13,9 @@ class ApiResponse<T> {
 
   @override
   String toString() {
-    return "Status : $status \n Message : $message \n Data : $data";
+    return 'Status : $status \n Message : $message \n Data : $data';
   }
 }
 
+// ignore: constant_identifier_names
 enum Status { LOADING, COMPLETED, ERROR }

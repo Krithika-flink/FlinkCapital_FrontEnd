@@ -237,7 +237,7 @@
   "demoMenuAnItemWithASimpleMenu": "包含简单菜单的项",
   "demoCustomSlidersTitle": "自定义滑块",
   "demoMenuAnItemWithAChecklistMenu": "包含核对清单菜单的项",
-  "demoCupertinoActivityIndicatorTitle": "活动指示器",
+  "interestedFAQ": "活动指示器",
   "demoCupertinoActivityIndicatorSubtitle": "iOS 样式的活动指示器",
   "demoCupertinoActivityIndicatorDescription": "一种 iOS 样式的顺时针旋转的活动指示器",
   "demoCupertinoNavigationBarTitle": "导航栏",

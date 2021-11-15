@@ -911,7 +911,7 @@ class GalleryLocalizationsKa extends GalleryLocalizations {
       'fullscreenDialog თვისება განსაზღვრავს, არის თუ არა შემომავალი გვერდი სრულეკრანიანი მოდალური დიალოგი';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'აქტივობის ინდიკატორი';
+  String get interestedFAQ => 'აქტივობის ინდიკატორი';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

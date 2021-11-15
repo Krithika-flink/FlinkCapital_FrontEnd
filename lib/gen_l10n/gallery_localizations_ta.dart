@@ -916,8 +916,7 @@ class GalleryLocalizationsTa extends GalleryLocalizations {
       'The fullscreenDialog property specifies whether the incoming page is a fullscreen modal dialog';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle =>
-      'செயல்பாட்டு இண்டிக்கேட்டர்';
+  String get interestedFAQ => 'செயல்பாட்டு இண்டிக்கேட்டர்';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

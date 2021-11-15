@@ -901,7 +901,7 @@ class GalleryLocalizationsLo extends GalleryLocalizations {
       'ຄຸນສົມບັດ fullscreenDialog ກຳນົດວ່າຈະໃຫ້ໜ້າທີ່ສົ່ງເຂົ້າມານັ້ນເປັນກ່ອງໂຕ້ຕອບແບບເຕັມຈໍຫຼືບໍ່';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'ຕົວຊີ້ບອກການເຄື່ອນໄຫວ';
+  String get interestedFAQ => 'ຕົວຊີ້ບອກການເຄື່ອນໄຫວ';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

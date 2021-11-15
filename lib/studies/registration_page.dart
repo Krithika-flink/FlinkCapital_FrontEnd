@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:gallery/layout/adaptive.dart';
 import 'package:gallery/layout/image_placeholder.dart';
@@ -9,6 +10,11 @@ import 'package:flutter/services.dart';
 import 'package:gallery/studies/rally/app.dart';
 import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 import 'package:gallery/studies/rally/colors.dart';
+import 'package:gallery/studies/verifyemail.dart';
+import 'package:gallery/userModel.dart';
+//import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:gallery/utils/database.dart';
+import 'package:email_auth/email_auth.dart';
 
 class RegistrationPage extends StatefulWidget {
   @override
@@ -16,22 +22,26 @@ class RegistrationPage extends StatefulWidget {
 }
 
 class _RegistrationPageState extends State<RegistrationPage> {
+  EmailAuth emailAuth;
   final FirebaseAuth auth = FirebaseAuth.instance;
+  //final FirebaseMessaging _fcm = FirebaseMessaging.instance;
   String errorMessage = '';
   String successMessage = '';
   final GlobalKey<FormState> _formStateKey = GlobalKey<FormState>();
   String _emailId;
   String _password;
+  String _username;
+  final _usernameController = TextEditingController(text: '');
   final _emailIdController = TextEditingController(text: '');
   final _passwordController = TextEditingController(text: '');
   final _confirmPasswordController = TextEditingController(text: '');
   //final double maxWidth;
+
   @override
   Widget build(BuildContext context) {
     final isDesktop = isDisplayDesktop(context);
     if (isDesktop) {
-      final double desktopMaxWidth =
-          400.0 + 100.0 * (cappedTextScale(context) - 1);
+      final desktopMaxWidth = 400.0 + 100.0 * (cappedTextScale(context) - 1);
     }
     //final double maxWidth= desktopMaxWidth != null?0;
     final spacing = const SizedBox(height: 40);
@@ -39,9 +49,11 @@ class _RegistrationPageState extends State<RegistrationPage> {
         /* appBar: AppBar(
           title: Text('SignUp - Flink\'s Bigg Bott'),
         ), */
+        //appBar: AppBar(),
         body: Column(children: [
       spacing,
-      if (isDesktop) const _TopBar(),
+      // if (isDesktop)
+      const _TopBar(),
       spacing,
       Align(
         alignment: Alignment.center,
@@ -50,204 +62,255 @@ class _RegistrationPageState extends State<RegistrationPage> {
           constraints: BoxConstraints(
               //maxWidth: desktopMaxWidth ?? double.infinity),
               maxWidth: 400.0 + 100.0 * (cappedTextScale(context) - 1)),
-          //height: 500,
+          // height: 700,
           color: RallyColors.cardBackground,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              //Expanded(
               Card(
                 //margin: EdgeInsetsGeometry.lerp(375, , 100),
-                color: Colors.black,
-                child: Padding(
-                  padding: EdgeInsets.all(10),
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      Form(
-                        autovalidateMode: AutovalidateMode.always,
-                        key: _formStateKey,
-                        child: Column(
-                          children: <Widget>[
-                            Padding(
-                              padding: const EdgeInsets.only(
-                                  left: 10, right: 10, bottom: 5),
-                              child: TextFormField(
-                                validator: validateEmail,
-                                onSaved: (value) {
-                                  _emailId = value;
-                                },
-                                keyboardType: TextInputType.emailAddress,
-                                controller: _emailIdController,
-                                textInputAction: TextInputAction.next,
-                                decoration: InputDecoration(
-                                  focusedBorder: UnderlineInputBorder(
-                                    borderSide: new BorderSide(
-                                        color: RallyColors.buttonColor,
-                                        width: 2,
-                                        style: BorderStyle.solid),
-                                  ),
-                                  // hintText: "Company Name",
-                                  labelText: GalleryLocalizations.of(context)
-                                      .demoTextFieldEmail,
-                                  icon: Icon(
-                                    Icons.email,
-                                    color: RallyColors.buttonColor,
-                                  ),
-                                  fillColor: Colors.black,
-                                  labelStyle: TextStyle(
-                                    color: Colors.white,
-                                  ),
-                                ),
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(
-                                  left: 10, right: 10, bottom: 5),
-                              child: TextFormField(
-                                validator: validatePassword,
-                                onSaved: (value) {
-                                  _password = value;
-                                },
-                                controller: _passwordController,
-                                obscureText: true,
-                                textInputAction: TextInputAction.next,
-                                decoration: InputDecoration(
-                                  focusedBorder: new UnderlineInputBorder(
-                                      borderSide: new BorderSide(
+                //color: Colors.black,
+                child: Theme(
+                  data: ThemeData(
+                      primaryColor: RallyColors.cardBackground,
+                      primaryColorDark: RallyColors.cardBackground),
+                  child: Padding(
+                    padding: const EdgeInsets.all(15),
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        Form(
+                          autovalidateMode: AutovalidateMode.always,
+                          key: _formStateKey,
+                          child: Column(
+                            children: <Widget>[
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                    left: 10, right: 10, bottom: 15),
+                                child: TextFormField(
+                                  // validator: validatePassword,
+                                  onSaved: (value) {
+                                    _username = value;
+                                  },
+                                  controller: _usernameController,
+                                  textInputAction: TextInputAction.next,
+                                  decoration: InputDecoration(
+                                    border: OutlineInputBorder(
+                                        borderSide: BorderSide(
+                                            color: RallyColors.cardBackground)),
+
+                                    labelStyle: TextStyle(
+                                        color: RallyColors.cardBackground,
+                                        fontWeight: FontWeight.w600),
+                                    /* decoration: InputDecoration(
+                                  focusedBorder: const UnderlineInputBorder(
+                                      borderSide: BorderSide(
                                           color: RallyColors.buttonColor,
                                           width: 2,
-                                          style: BorderStyle.solid)),
-                                  // hintText: "Company Name",
-                                  labelText: GalleryLocalizations.of(context)
-                                      .rallyLoginPassword,
-                                  icon: Icon(
-                                    Icons.lock,
-                                    color: RallyColors.buttonColor,
-                                  ),
-                                  fillColor: Colors.black,
-                                  labelStyle: TextStyle(
-                                    color: Colors.white,
-                                  ),
-                                ),
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsets.only(
-                                  left: 10, right: 10, bottom: 5),
-                              child: TextFormField(
-                                validator: validateConfirmPassword,
-                                controller: _confirmPasswordController,
-                                obscureText: true,
-                                textInputAction: TextInputAction.next,
-                                decoration: InputDecoration(
-                                  focusedBorder: new UnderlineInputBorder(
-                                      borderSide: new BorderSide(
-                                          color: RallyColors.buttonColor,
-                                          width: 2,
-                                          style: BorderStyle.solid)),
-                                  // hintText: "Company Name",
-                                  labelText: "Confirm Password",
-                                  icon: Icon(
-                                    Icons.lock,
-                                    color: RallyColors.buttonColor,
-                                  ),
-                                  fillColor: Colors.black,
-                                  labelStyle: TextStyle(
-                                    color: Colors.white,
+                                          style: BorderStyle.solid)), */
+                                    labelText: GalleryLocalizations.of(context)
+                                        .rallyLoginUsername,
+                                    hintText: "Enter Username",
+                                    /*labelText: GalleryLocalizations.of(context)
+                                      .rallyLoginUsername,*/
+                                    icon: const Icon(
+                                      Icons.person,
+                                      color: RallyColors.buttonColor,
+                                    ),
+                                    //fillColor: Colors.black,
+                                    //labelStyle: const TextStyle(
+                                    //color: Colors.white,
                                   ),
                                 ),
                               ),
-                            ),
-                          ],
+                              // ),
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                    left: 10, right: 10, bottom: 15),
+                                child: TextFormField(
+                                  validator: validateEmail,
+                                  onSaved: (value) {
+                                    _emailId = value;
+                                  },
+                                  keyboardType: TextInputType.emailAddress,
+                                  controller: _emailIdController,
+                                  textInputAction: TextInputAction.next,
+                                  decoration: InputDecoration(
+                                    border: OutlineInputBorder(
+                                        borderSide: BorderSide(
+                                            color: RallyColors.cardBackground)),
+                                    labelStyle: TextStyle(
+                                        color: RallyColors.cardBackground,
+                                        fontWeight: FontWeight.w600),
+                                    hintText: "Enter Email Address",
+                                    labelText: GalleryLocalizations.of(context)
+                                        .demoTextFieldEmail,
+                                    icon: const Icon(
+                                      Icons.email,
+                                      color: RallyColors.buttonColor,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                    left: 10, right: 10, bottom: 15),
+                                child: TextFormField(
+                                  validator: validatePassword,
+                                  onSaved: (value) {
+                                    _password = value;
+                                  },
+                                  controller: _passwordController,
+                                  obscureText: true,
+                                  textInputAction: TextInputAction.next,
+                                  decoration: InputDecoration(
+                                    border: OutlineInputBorder(
+                                        borderSide: BorderSide(
+                                            color: RallyColors.cardBackground)),
+
+                                    labelStyle: TextStyle(
+                                        color: RallyColors.cardBackground,
+                                        fontWeight: FontWeight.w600),
+                                    // hintText: "Company Name",
+                                    labelText: GalleryLocalizations.of(context)
+                                        .rallyLoginPassword,
+                                    icon: const Icon(
+                                      Icons.lock,
+                                      color: RallyColors.buttonColor,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                    left: 10, right: 10, bottom: 15),
+                                child: TextFormField(
+                                  validator: validateConfirmPassword,
+                                  controller: _confirmPasswordController,
+                                  obscureText: true,
+                                  textInputAction: TextInputAction.next,
+                                  decoration: InputDecoration(
+                                    border: OutlineInputBorder(
+                                        borderSide: BorderSide(
+                                            color: RallyColors.cardBackground)),
+                                    labelStyle: TextStyle(
+                                        color: RallyColors.cardBackground,
+                                        fontWeight: FontWeight.w600),
+                                    // hintText: "Company Name",
+                                    labelText: GalleryLocalizations.of(context)
+                                        .demoTextFieldRetypePassword,
+                                    icon: const Icon(
+                                      Icons.lock,
+                                      color: RallyColors.buttonColor,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
-                      ),
-                      (errorMessage != ''
-                          ? Text(
-                              errorMessage,
-                              style: TextStyle(color: Colors.red),
-                            )
-                          : Container()),
-                      // make buttons use the appropriate styles for cards
-                      ButtonBar(
-                        children: <Widget>[
-                          /* FlatButton(
+                        (errorMessage != ''
+                            ? Text(
+                                errorMessage,
+                                style: const TextStyle(color: Colors.red),
+                              )
+                            : Container()),
+                        // make buttons use the appropriate styles for cards
+                        ButtonBar(
+                          children: <Widget>[
+                            /* FlatButton(
                           child: text:GalleryLocalizations.of(context).rallyLoginSignUp,
                             style: TextStyle(
                               fontSize: 18,
                               color: Colors.green,
                             ),
                           ), */
-                          OutlinedButton(
-                            style: OutlinedButton.styleFrom(
-                              primary: Colors.black,
-                              side: const BorderSide(
-                                  color: RallyColors.buttonColor),
-                              padding: const EdgeInsets.symmetric(
-                                  vertical: 14, horizontal: 24),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(12),
-                              ),
-                            ),
-                            onPressed: () {
-                              if (_formStateKey.currentState.validate()) {
-                                _formStateKey.currentState.save();
-                                signUp(_emailId, _password).then((user) {
-                                  if (user != null) {
-                                    print('Registered Successfully.');
-                                    showAlertDialog(context);
-                                    setState(() {
-                                      successMessage =
-                                          'Registered Successfully.\nYou can now navigate to Login Page.';
-                                    });
-                                  } else {
-                                    print('Error while Login.');
-                                  }
-                                });
-                              }
-                            },
-                            child: Text(
-                                GalleryLocalizations.of(context)
-                                    .rallyLoginSignUp,
-                                style: const TextStyle(color: Colors.white)),
-                          ),
-                          // ignore: deprecated_memer_use
-                          OutlinedButton(
-                            style: OutlinedButton.styleFrom(
-                              primary: Colors.white,
-                              side: const BorderSide(
-                                  color: RallyColors.buttonColor),
-                              padding: const EdgeInsets.symmetric(
-                                  vertical: 14, horizontal: 24),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(12),
-                              ),
-                            ),
-                            onPressed: () {
-                              Navigator.pushReplacement(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => const LoginPage(),
+                            OutlinedButton(
+                              style: OutlinedButton.styleFrom(
+                                primary: Colors.black,
+                                side: const BorderSide(
+                                    color: RallyColors.buttonColor),
+                                padding: const EdgeInsets.symmetric(
+                                    vertical: 14, horizontal: 24),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(12),
                                 ),
-                              );
-                            },
-                            child: Text(
-                                GalleryLocalizations.of(context)
-                                    .rallyLoginButtonLogin,
-                                style: const TextStyle(color: Colors.white)),
-                          ),
-                        ],
-                      ),
-                    ],
+                              ),
+                              onPressed: () {
+                                if (_formStateKey.currentState.validate()) {
+                                  _formStateKey.currentState.save();
+                                  //Navigator.of(context).pushReplacement(
+                                  //  MaterialPageRoute(
+                                  //    builder: (context) =>
+                                  //      VerifyScreen()));
+                                  signUp(_emailId, _password, _username)
+                                      .then((user) {
+                                    if (user != null) {
+                                      print(
+                                          'Registered Successfully ${user.user.emailVerified}');
+                                      //showAlertDialog(context);
+                                      setState(() {
+                                        successMessage =
+                                            'Registered Successfully.\nYou can now navigate to Login Page.';
+                                      });
+                                    } else {
+                                      print('Error while Login.');
+                                      setState(() {
+                                        successMessage = 'Error while Login';
+                                      });
+                                    }
+                                  });
+                                }
+                              },
+                              child: Text(
+                                  GalleryLocalizations.of(context)
+                                      .rallyLoginSignUp,
+                                  style: TextStyle(
+                                      color: RallyColors.cardBackground)),
+                            ),
+
+                            // ignore: deprecated_memer_use
+                            OutlinedButton(
+                              style: OutlinedButton.styleFrom(
+                                primary: Colors.white,
+                                side: const BorderSide(
+                                    color: RallyColors.buttonColor),
+                                padding: const EdgeInsets.symmetric(
+                                    vertical: 14, horizontal: 24),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(12),
+                                ),
+                              ),
+                              onPressed: () {
+                                Navigator.pushReplacement(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => const LoginPage(),
+                                  ),
+                                );
+                              },
+                              child: Text(
+                                  GalleryLocalizations.of(context)
+                                      .rallyLoginButtonLogin,
+                                  style: TextStyle(
+                                      color: RallyColors.cardBackground)),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),
+              // ),
               (successMessage != ''
                   ? Text(
                       successMessage,
                       textAlign: TextAlign.center,
-                      style: TextStyle(
+                      style: const TextStyle(
                           fontSize: 24, color: RallyColors.buttonColor),
                     )
                   : Container()),
@@ -258,30 +321,76 @@ class _RegistrationPageState extends State<RegistrationPage> {
     ]));
   }
 
-  Future<User> signUp(email, password) async {
+  Future<UserCredential> signUp(email, password, username) async {
+    var retVal = 'error';
+    UserCredential usercred;
     try {
       // ignore: omit_local_variable_types
-      UserCredential usercred = (await auth.createUserWithEmailAndPassword(
-          email: email.toString(), password: password.toString()));
+      //UserCredential usercred = (await auth
+      var usercred = await auth.createUserWithEmailAndPassword(
+          email: email.toString(), password: password.toString());
+      await usercred.user.updateProfile(displayName: username.toString());
+      //.then((usercred) {
+      /* try {
 
+      } catch (e) {
+        print(e);
+      } */
       assert(usercred.user != null);
-      assert(await usercred.user.getIdToken() != null);
-      return usercred.user;
-    } catch (error) {
-      print(error);
+      assert(usercred.user.getIdToken() != null);
+      if (usercred.user != null && usercred.user.emailVerified == false) {
+        // user.sendEmailVerification();
+        print('before');
+
+        await Navigator.of(context).pushReplacement(
+            MaterialPageRoute(builder: (context) => VerifyScreen()));
+      }
+
+      //  });
+
+      //return usercred.user;
+      // ignore: omit_local_variable_types
+      /* UserModel _user = UserModel(
+        uid: usercred.user.uid,
+        email: usercred.user.email,
+        fullName: username.toString(),
+        accountCreated: Timestamp.now(),
+        //notifToken: await _fcm.getToken(),
+      );
+      // ignore: omit_local_variable_types
+      String _returnString = await Database.createUser(_user);
+      if (_returnString == 'success') {
+        retVal = 'success';
+      } */
+    } on PlatformException catch (error) /* {
+      retVal = error.message;
+    } catch (error)  */
+    {
+      print(error.code.toString());
       switch (error.code.toString()) {
-        case 'ERROR_EMAIL_ALREADY_IN_USE':
+        case 'email-already-in-use':
           setState(() {
             errorMessage = 'Email Id already Exist!!!';
           });
           break;
+        case 'invalid-email':
+          setState(() {
+            errorMessage = 'Invalid Email Id!!!';
+          });
+          break;
+        case 'weak-password':
+          setState(() {
+            errorMessage = 'Weak Password,Please give a Strong Password.!!!';
+          });
+          break;
         default:
       }
-      return null;
     }
+
+    return usercred;
   }
 
-  handleError(PlatformException error) {
+  handleError(PlatformException error) async {
     print(error);
     switch (error.code) {
       case 'ERROR_EMAIL_ALREADY_IN_USE':
@@ -300,10 +409,11 @@ class _RegistrationPageState extends State<RegistrationPage> {
     // ignore: unnecessary_new
     // ignore: omit_local_variable_types
     RegExp regex = RegExp(pattern.toString());
-    if (value.isEmpty || !regex.hasMatch(value))
+    if (value.isEmpty || !regex.hasMatch(value)) {
       return 'Enter Valid Email Id!!!';
-    else
+    } else {
       return null;
+    }
   }
 
   String validatePassword(String value) {
@@ -315,7 +425,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
 
   String validateConfirmPassword(String value) {
     if (value.trim() != _passwordController.text.trim()) {
-      return 'Password Mismatch!!!';
+      return GalleryLocalizations.of(context).demoTextFieldPasswordsDoNotMatch;
     }
     return null;
   }
@@ -355,10 +465,11 @@ class _TopBar extends StatelessWidget {
               ),
               spacing,
               Text(
-                'SignUp at Flink\'s Bigg Bott',
+                'Signup Flink\'s Bigg Bott',
                 style: Theme.of(context).textTheme.bodyText1.copyWith(
-                      fontSize: 35 / reducedTextScale(context),
+                      fontSize: 30 / reducedTextScale(context),
                       fontWeight: FontWeight.w600,
+                      color: RallyColors.cardBackground,
                     ),
               ),
             ],
@@ -372,16 +483,17 @@ class _TopBar extends StatelessWidget {
 showAlertDialog(BuildContext context) {
   // set up the button
   Widget okButton = TextButton(
-    child: Text("Continue"),
+    child: const Text('Continue'),
     onPressed: () {
-      Navigator.of(context).restorablePushNamed(RallyApp.loginRoute);
+      Navigator.of(context).restorablePushNamed(RallyApp.homeRoute);
+      return null;
     },
   );
 
   // set up the AlertDialog
-  AlertDialog alert = AlertDialog(
-    title: Text("Notice"),
-    content: Text(
+  var alert = AlertDialog(
+    title: const Text('Notice'),
+    content: const Text(
         "Registered succesfully to Flink's Bot.Click on Continue to Login Page.",
         style: TextStyle(color: Colors.black)),
     actions: [
@@ -392,7 +504,7 @@ showAlertDialog(BuildContext context) {
   // show the dialog
   showDialog(
     context: context,
-    builder: (BuildContext context) {
+    builder: (context) {
       return alert;
     },
   );

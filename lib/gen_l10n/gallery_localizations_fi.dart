@@ -909,7 +909,7 @@ class GalleryLocalizationsFi extends GalleryLocalizations {
       'The fullscreenDialog property specifies whether the incoming page is a fullscreen modal dialog';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Toimintaosoitin';
+  String get interestedFAQ => 'Toimintaosoitin';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

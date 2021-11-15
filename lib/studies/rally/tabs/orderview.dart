@@ -4,11 +4,9 @@
 
 import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
-import 'package:gallery/studies/rally/charts/pie_chart.dart';
+import 'package:gallery/layout/text_scale.dart';
+import 'package:gallery/studies/rally/colors.dart';
 import 'package:gallery/studies/rally/data.dart';
-import 'package:gallery/studies/rally/finance.dart';
-import 'package:gallery/studies/rally/tabs/sidebar.dart';
 import 'package:gallery/data/gallery_options.dart';
 
 /// A page that shows a summary of bills.
@@ -23,6 +21,7 @@ class _OrderViewState extends State<OrderView>
   @override
   Widget build(BuildContext context) {
     //  final isDesktop = isDisplayDesktop(context);
+    final theme = Theme.of(context);
     return ApplyTextOptions(
       child: Scaffold(
         body:
@@ -35,11 +34,15 @@ class _OrderViewState extends State<OrderView>
             // ignore: prefer_const_constructors
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
+              // ignore: prefer_const_literals_to_create_immutables
               children: [
                 Text(
                   'ORDER SUMMARY',
-                  style: const TextStyle(
-                      fontSize: 15, fontStyle: FontStyle.italic),
+                  // style: TextStyle(fontSize: 15, fontStyle: FontStyle.italic,color:RallyColors.cardBackground),
+                  style: theme.textTheme.headline1.copyWith(
+                      fontSize: 25 / reducedTextScale(context),
+                      fontWeight: FontWeight.w600,
+                      color: RallyColors.cardBackground),
                   textAlign: TextAlign.left,
                 )
               ],

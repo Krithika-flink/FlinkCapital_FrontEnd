@@ -912,7 +912,7 @@ class GalleryLocalizationsSl extends GalleryLocalizations {
       'Element fullscreenDialog določa, ali je dohodna stran celozaslonsko pogovorno okno';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indikator dejavnosti';
+  String get interestedFAQ => 'Indikator dejavnosti';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

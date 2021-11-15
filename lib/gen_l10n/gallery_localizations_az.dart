@@ -907,7 +907,7 @@ class GalleryLocalizationsAz extends GalleryLocalizations {
       'Tam ekran dialoqu xüsusiyyəti yeni səhifənin tam ekran modal dialoqu olub-olmadığını göstərir';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Fəaliyyət indikatoru';
+  String get interestedFAQ => 'Fəaliyyət indikatoru';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

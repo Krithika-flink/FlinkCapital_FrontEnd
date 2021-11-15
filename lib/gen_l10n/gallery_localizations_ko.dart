@@ -887,7 +887,7 @@ class GalleryLocalizationsKo extends GalleryLocalizations {
       'fullscreenDialog 속성은 수신 페이지가 전체 화면 모달 대화상자인지 여부를 지정합니다.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => '활동 표시기';
+  String get interestedFAQ => '활동 표시기';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle => 'iOS 스타일 활동 표시기';

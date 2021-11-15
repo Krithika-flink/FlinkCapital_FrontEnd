@@ -902,7 +902,7 @@ class GalleryLocalizationsHe extends GalleryLocalizations {
       'המאפיין fullscreenDialog מציין אם הדף המתקבל הוא תיבת דו-שיח מודאלית במסך מלא';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'אינדיקטור של פעילות';
+  String get interestedFAQ => 'אינדיקטור של פעילות';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

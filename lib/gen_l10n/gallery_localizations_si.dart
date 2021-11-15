@@ -906,7 +906,7 @@ class GalleryLocalizationsSi extends GalleryLocalizations {
       'පූර්ණ තිර සංවාදය එන පිටුව පූර්ණ තිර ආකෘති සංවාදයක්ද යන්න නිශ්චිතව දක්වයි';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'ක්‍රියාකාරකම් දර්ශකය';
+  String get interestedFAQ => 'ක්‍රියාකාරකම් දර්ශකය';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

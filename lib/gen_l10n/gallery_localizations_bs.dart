@@ -911,7 +911,7 @@ class GalleryLocalizationsBs extends GalleryLocalizations {
       'Funkcija fullscreenDialog određuje da li se sljedeća stranica otvara u dijaloškom okviru preko cijelog ekrana';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Pokazatelj aktivnosti';
+  String get interestedFAQ => 'Pokazatelj aktivnosti';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

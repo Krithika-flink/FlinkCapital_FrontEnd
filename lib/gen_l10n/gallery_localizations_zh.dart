@@ -885,7 +885,7 @@ class GalleryLocalizationsZh extends GalleryLocalizations {
       '您可以利用 fullscreenDialog 属性指定接下来显示的页面是否为全屏模态对话框';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => '活动指示器';
+  String get interestedFAQ => '活动指示器';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle => 'iOS 样式的活动指示器';
@@ -3356,7 +3356,7 @@ class GalleryLocalizationsZhCn extends GalleryLocalizationsZh {
       '您可以利用 fullscreenDialog 属性指定接下来显示的页面是否为全屏模态对话框';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => '活动指示器';
+  String get interestedFAQ => '活动指示器';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle => 'iOS 样式的活动指示器';
@@ -5796,7 +5796,7 @@ class GalleryLocalizationsZhHk extends GalleryLocalizationsZh {
       '您可以利用 fullscreenDialog 屬性指定接下來顯示的頁面是否顯示為全螢幕強制回應對話框';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => '活動指標';
+  String get interestedFAQ => '活動指標';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle => 'iOS 樣式活動指標';
@@ -8239,7 +8239,7 @@ class GalleryLocalizationsZhTw extends GalleryLocalizationsZh {
       '你可以利用 fullscreenDialog 屬性，指定接下來顯示的頁面是否為全螢幕強制回應對話方塊';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => '活動指標';
+  String get interestedFAQ => '活動指標';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle => 'iOS 樣式的活動指標';

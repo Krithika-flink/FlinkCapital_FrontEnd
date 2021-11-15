@@ -1909,7 +1909,7 @@ abstract class GalleryLocalizations {
   ///
   /// In en, this message translates to:
   /// **'Activity indicator'**
-  String get demoCupertinoActivityIndicatorTitle;
+  String get interestedFAQ;
 
   /// Subtitle for the cupertino activity indicator component demo.
   ///

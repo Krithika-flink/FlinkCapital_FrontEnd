@@ -913,7 +913,7 @@ class GalleryLocalizationsHy extends GalleryLocalizations {
       'fullscreenDialog պարամետրը հատկորոշում է, թե արդյոք հաջորդ էկրանը պետք է լինի լիաէկրան մոդալ երկխոսության պատուհան։';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Գործողությունների ցուցիչ';
+  String get interestedFAQ => 'Գործողությունների ցուցիչ';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

@@ -13,7 +13,6 @@ import 'package:gallery/studies/rally/colors.dart';
 import 'package:gallery/studies/rally/home.dart';
 import 'package:gallery/studies/rally/login.dart';
 import 'package:gallery/studies/rally/routes.dart' as routes;
-import 'package:gallery/screens/sign_in_screen.dart';
 
 /// The RallyApp is a MaterialApp with a theme and 2 routes.
 ///

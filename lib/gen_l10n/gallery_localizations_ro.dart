@@ -911,7 +911,7 @@ class GalleryLocalizationsRo extends GalleryLocalizations {
       'Proprietatea casetei de dialog pe ecran complet arată dacă pagina următoare este o casetă de dialog modală pe ecran complet';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicator de activitate';
+  String get interestedFAQ => 'Indicator de activitate';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

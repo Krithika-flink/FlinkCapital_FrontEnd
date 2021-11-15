@@ -1082,7 +1082,7 @@
     description="Description for the fullscreen dialog component demo."
     >The fullscreenDialog property specifies whether the incoming page is a fullscreen modal dialog</string>
   <string
-    name="demoCupertinoActivityIndicatorTitle"
+    name="interestedFAQ"
     description="Title for the cupertino activity indicator component demo."
     >Activity indicator</string>
   <string

@@ -907,7 +907,7 @@ class GalleryLocalizationsOr extends GalleryLocalizations {
       'fullscreenDialog ବୈଶିଷ୍ଟ୍ୟ ଇନ୍‍କମିଂ ପୃଷ୍ଠାଟି ଏକ ପୂର୍ଣ୍ଣ ସ୍କ୍ରିନ୍ ମୋଡାଲ୍ ଡାଏଲଗ୍‍ ହେବ କି ନାହିଁ ତାହା ନିର୍ଦ୍ଦିଷ୍ଟ କରେ';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'କାର୍ଯ୍ୟକଳାପ ସୂଚକ';
+  String get interestedFAQ => 'କାର୍ଯ୍ୟକଳାପ ସୂଚକ';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

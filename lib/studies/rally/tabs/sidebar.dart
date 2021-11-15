@@ -35,7 +35,7 @@ class TabWithSidebar extends StatelessWidget {
           Expanded(
             flex: 1,
             child: Container(
-              color: RallyColors.inputBackground,
+              color: RallyColors.cardBackground,
               padding: const EdgeInsetsDirectional.only(start: 24),
               height: double.infinity,
               alignment: AlignmentDirectional.centerStart,
@@ -73,7 +73,7 @@ class SidebarItem extends StatelessWidget {
           title,
           style: textTheme.bodyText2.copyWith(
             fontSize: 16,
-            color: RallyColors.gray60,
+            color: RallyColors.primaryBackground,
           ),
         ),
         const SizedBox(height: 8),

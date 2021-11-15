@@ -912,7 +912,7 @@ class GalleryLocalizationsSq extends GalleryLocalizations {
       'Karakteristika e fullscreenDialog specifikon nëse faqja hyrëse është dialog modal në ekran të plotë';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Treguesi i aktivitetit';
+  String get interestedFAQ => 'Treguesi i aktivitetit';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

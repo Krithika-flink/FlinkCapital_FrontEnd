@@ -913,7 +913,7 @@ class GalleryLocalizationsCs extends GalleryLocalizations {
       'Hodnota fullscreenDialog určuje, zda následující stránka bude mít podobu modálního dialogového okna na celou obrazovku';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indikátor aktivity';
+  String get interestedFAQ => 'Indikátor aktivity';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

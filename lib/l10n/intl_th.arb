@@ -237,7 +237,7 @@
   "demoMenuAnItemWithASimpleMenu": "รายการพร้อมเมนูแบบง่าย",
   "demoCustomSlidersTitle": "แถบเลื่อนที่กำหนดเอง",
   "demoMenuAnItemWithAChecklistMenu": "รายการพร้อมเมนูแบบรายการตรวจสอบ",
-  "demoCupertinoActivityIndicatorTitle": "สัญญาณบอกสถานะกิจกรรม",
+  "interestedFAQ": "สัญญาณบอกสถานะกิจกรรม",
   "demoCupertinoActivityIndicatorSubtitle": "สัญญาณบอกสถานะกิจกรรมแบบ iOS",
   "demoCupertinoActivityIndicatorDescription": "สัญญาณบอกสถานะกิจกรรมแบบ iOS ที่หมุนตามเข็มนาฬิกา",
   "demoCupertinoNavigationBarTitle": "แถบนำทาง",

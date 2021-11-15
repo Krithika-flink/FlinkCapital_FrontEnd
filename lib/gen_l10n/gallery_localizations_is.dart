@@ -899,7 +899,7 @@ class GalleryLocalizationsIs extends GalleryLocalizations {
       'Eiginleikinn fullscreenDialog tilgreinir hvort móttekin síða er gluggi sem birtist á öllum skjánum';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Virknivísir';
+  String get interestedFAQ => 'Virknivísir';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

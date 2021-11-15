@@ -909,7 +909,7 @@ class GalleryLocalizationsMk extends GalleryLocalizations {
       'Својството fullscreenDialog одредува дали дојдовната страница е во модален дијалог на цел екран';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Индикатор на активност';
+  String get interestedFAQ => 'Индикатор на активност';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

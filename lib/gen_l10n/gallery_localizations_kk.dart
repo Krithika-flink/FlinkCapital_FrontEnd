@@ -911,7 +911,7 @@ class GalleryLocalizationsKk extends GalleryLocalizations {
       'fullscreenDialog сипаты кіріс бетінің толық экранды модальдік диалогтік терезе екенін анықтайды.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Әрекет индикаторы';
+  String get interestedFAQ => 'Әрекет индикаторы';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

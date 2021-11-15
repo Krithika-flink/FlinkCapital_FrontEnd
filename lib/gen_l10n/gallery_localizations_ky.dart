@@ -910,7 +910,7 @@ class GalleryLocalizationsKy extends GalleryLocalizations {
       'Кирүүчү барак толук экрандуу модалдык диалог экени толук экрандуу диалогдун касиеттеринде аныкталган';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Аракет индикатору';
+  String get interestedFAQ => 'Аракет индикатору';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

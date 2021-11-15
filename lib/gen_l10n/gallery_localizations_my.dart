@@ -920,7 +920,7 @@ class GalleryLocalizationsMy extends GalleryLocalizations {
       'FullscreenDialog အချက်အလက်က အဝင်စာမျက်နှာသည် မျက်နှာပြင်အပြည့် နမူနာဒိုင်ယာလော့ဂ် ဟုတ်မဟုတ် သတ်မှတ်ပေးသည်';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'လုပ်ဆောင်ချက် အညွှန်း';
+  String get interestedFAQ => 'လုပ်ဆောင်ချက် အညွှန်း';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

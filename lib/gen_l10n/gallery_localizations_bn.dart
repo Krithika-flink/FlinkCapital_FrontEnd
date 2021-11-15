@@ -907,7 +907,7 @@ class GalleryLocalizationsBn extends GalleryLocalizations {
       'ফুল-স্ক্রিন ডায়ালগ প্রপার্টি নির্দিষ্ট করে পরের পৃষ্ঠাটি একটি ফুল-স্ক্রিন মোডাল ডায়ালগ হবে কিনা';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'অ্যাক্টিভিটি নির্দেশক';
+  String get interestedFAQ => 'অ্যাক্টিভিটি নির্দেশক';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

@@ -906,7 +906,7 @@ class GalleryLocalizationsAr extends GalleryLocalizations {
       'تحدِّد خاصية fullscreenDialog ما إذا كانت الصفحة الواردة هي مربع حوار نمطي بملء الشاشة.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'مؤشر النشاط';
+  String get interestedFAQ => 'مؤشر النشاط';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle => 'مؤشرات نشاط بنمط iOS';
@@ -3463,7 +3463,7 @@ class GalleryLocalizationsArEg extends GalleryLocalizationsAr {
       'تحدِّد خاصية fullscreenDialog ما إذا كانت الصفحة الواردة هي مربع حوار نمطي بملء الشاشة.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'مؤشر النشاط';
+  String get interestedFAQ => 'مؤشر النشاط';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle => 'مؤشرات نشاط بنمط iOS';
@@ -5993,7 +5993,7 @@ class GalleryLocalizationsArJo extends GalleryLocalizationsAr {
       'تحدِّد خاصية fullscreenDialog ما إذا كانت الصفحة الواردة هي مربع حوار نمطي بملء الشاشة.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'مؤشر النشاط';
+  String get interestedFAQ => 'مؤشر النشاط';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle => 'مؤشرات نشاط بنمط iOS';
@@ -8523,7 +8523,7 @@ class GalleryLocalizationsArMa extends GalleryLocalizationsAr {
       'تحدِّد خاصية fullscreenDialog ما إذا كانت الصفحة الواردة هي مربع حوار نمطي بملء الشاشة.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'مؤشر النشاط';
+  String get interestedFAQ => 'مؤشر النشاط';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle => 'مؤشرات نشاط بنمط iOS';
@@ -11053,7 +11053,7 @@ class GalleryLocalizationsArSa extends GalleryLocalizationsAr {
       'تحدِّد خاصية fullscreenDialog ما إذا كانت الصفحة الواردة هي مربع حوار نمطي بملء الشاشة.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'مؤشر النشاط';
+  String get interestedFAQ => 'مؤشر النشاط';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle => 'مؤشرات نشاط بنمط iOS';

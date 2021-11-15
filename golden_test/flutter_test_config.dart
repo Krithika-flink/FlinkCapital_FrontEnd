@@ -22,6 +22,7 @@ Future<void> testExecutable(FutureOr<void> Function() testMain) async {
   // Disabling the warning because @visibleForTesting doesn't take the testing
   // framework into account.
   // ignore: invalid_use_of_visible_for_testing_member
+  // ignore: todo
   // TODO(rami-a): Add back shared_preferences mocking once migrated to NNBD.
   await loadFonts();
   await testMain();

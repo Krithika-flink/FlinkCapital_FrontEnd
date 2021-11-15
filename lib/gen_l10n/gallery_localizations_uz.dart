@@ -913,7 +913,7 @@ class GalleryLocalizationsUz extends GalleryLocalizations {
       'fullscreenDialog xossasi butun ekran rejimidagi modal muloqot oynasida keyingi sahifa borligini koʻrsatadi';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Faollik indikatori';
+  String get interestedFAQ => 'Faollik indikatori';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

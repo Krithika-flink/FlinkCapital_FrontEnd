@@ -906,7 +906,7 @@ class GalleryLocalizationsKm extends GalleryLocalizations {
       'លក្ខណៈ​របស់​ប្រអប់ពេញអេក្រង់​បញ្ជាក់ថាតើ​ទំព័របន្ទាប់​គឺជា​ប្រអប់ម៉ូដល​ពេញអេក្រង់​ឬអត់';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'សូចនាករ​សកម្មភាព';
+  String get interestedFAQ => 'សូចនាករ​សកម្មភាព';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

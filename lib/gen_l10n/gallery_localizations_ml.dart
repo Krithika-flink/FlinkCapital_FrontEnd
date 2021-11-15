@@ -912,8 +912,7 @@ class GalleryLocalizationsMl extends GalleryLocalizations {
       'ഇൻകമിംഗ് പേജ് ഒരു പൂർണ്ണസ്‌ക്രീൻ മോഡൽ ഡയലോഗാണോയെന്ന് പൂർണ്ണസ്‌ക്രീൻ ഡയലോഗ് പ്രോപ്പർട്ടി വ്യക്തമാക്കുന്നു';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle =>
-      'ആക്റ്റിവിറ്റി ഇൻഡിക്കേറ്റർ';
+  String get interestedFAQ => 'ആക്റ്റിവിറ്റി ഇൻഡിക്കേറ്റർ';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

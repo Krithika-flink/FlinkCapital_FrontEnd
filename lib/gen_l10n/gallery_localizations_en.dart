@@ -903,7 +903,7 @@ class GalleryLocalizationsEn extends GalleryLocalizations {
       'The fullscreenDialog property specifies whether the incoming page is a fullscreen modal dialog';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Activity indicator';
+  String get interestedFAQ => 'Activity indicator';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -3430,7 +3430,7 @@ class GalleryLocalizationsEnAu extends GalleryLocalizationsEn {
       'The fullscreenDialog property specifies whether the incoming page is a full-screen modal dialogue';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Activity indicator';
+  String get interestedFAQ => 'Activity indicator';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -5930,7 +5930,7 @@ class GalleryLocalizationsEnCa extends GalleryLocalizationsEn {
       'The fullscreenDialog property specifies whether the incoming page is a full-screen modal dialogue';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Activity indicator';
+  String get interestedFAQ => 'Activity indicator';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -8430,7 +8430,7 @@ class GalleryLocalizationsEnGb extends GalleryLocalizationsEn {
       'The fullscreenDialog property specifies whether the incoming page is a full-screen modal dialogue';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Activity indicator';
+  String get interestedFAQ => 'Activity indicator';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -10930,7 +10930,7 @@ class GalleryLocalizationsEnIe extends GalleryLocalizationsEn {
       'The fullscreenDialog property specifies whether the incoming page is a full-screen modal dialogue';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Activity indicator';
+  String get interestedFAQ => 'Activity indicator';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -13430,7 +13430,7 @@ class GalleryLocalizationsEnIn extends GalleryLocalizationsEn {
       'The fullscreenDialog property specifies whether the incoming page is a full-screen modal dialogue';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Activity indicator';
+  String get interestedFAQ => 'Activity indicator';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -15930,7 +15930,7 @@ class GalleryLocalizationsEnNz extends GalleryLocalizationsEn {
       'The fullscreenDialog property specifies whether the incoming page is a full-screen modal dialogue';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Activity indicator';
+  String get interestedFAQ => 'Activity indicator';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -18430,7 +18430,7 @@ class GalleryLocalizationsEnSg extends GalleryLocalizationsEn {
       'The fullscreenDialog property specifies whether the incoming page is a full-screen modal dialogue';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Activity indicator';
+  String get interestedFAQ => 'Activity indicator';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -20930,7 +20930,7 @@ class GalleryLocalizationsEnZa extends GalleryLocalizationsEn {
       'The fullscreenDialog property specifies whether the incoming page is a full-screen modal dialogue';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Activity indicator';
+  String get interestedFAQ => 'Activity indicator';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

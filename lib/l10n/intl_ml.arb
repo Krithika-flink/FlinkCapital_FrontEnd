@@ -238,7 +238,7 @@
   "demoCustomSlidersDescription": "സ്ലെെഡറുകൾ ഒരു ബാറിലുടനീളം മൂല്യങ്ങളുടെ ഒരു ശ്രേണിയെ പ്രതിഫലിപ്പിക്കുന്നു. ആ മൂല്യങ്ങളിൽ നിന്ന് ഒന്നോ മൂല്യങ്ങളുടെ ഒരു ശ്രേണിയോ ഉപയോക്താക്കൾക്ക് തിരഞ്ഞെടുക്കാം. സ്ലെെഡറുകൾക്ക് തീം നൽകാനും അവ ഇഷ്ടാനുസൃതമാക്കാനും കഴിയും.",
   "demoMenuAnItemWithASimpleMenu": "സിമ്പിൾ മെനു ഉള്ള ഒരിനം",
   "demoMenuAnItemWithAChecklistMenu": "ചെക്ക്‌ലിസ്റ്റ് മെനു ഉള്ള ഒരിനം",
-  "demoCupertinoActivityIndicatorTitle": "ആക്റ്റിവിറ്റി ഇൻഡിക്കേറ്റർ",
+  "interestedFAQ": "ആക്റ്റിവിറ്റി ഇൻഡിക്കേറ്റർ",
   "demoCupertinoActivityIndicatorSubtitle": "iOS-ശെെലിയിലുള്ള ആക്റ്റിവിറ്റി ഇൻഡിക്കേറ്ററുകൾ",
   "demoCupertinoActivityIndicatorDescription": "ഘടികാര ദിശയിൽ കറങ്ങുന്ന, iOS-ശെെലിയിലുള്ള ഒരു ആക്റ്റിവിറ്റി ഇൻഡിക്കേറ്ററുകൾ.",
   "demoCupertinoNavigationBarTitle": "നാവിഗേഷൻ ബാർ",

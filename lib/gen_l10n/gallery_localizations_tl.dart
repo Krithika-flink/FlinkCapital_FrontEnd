@@ -908,7 +908,7 @@ class GalleryLocalizationsTl extends GalleryLocalizations {
       'Tinutukoy ng property na fullscreenDialog kung fullscreen na modal dialog ang paparating na page';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicator ng aktibidad';
+  String get interestedFAQ => 'Indicator ng aktibidad';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

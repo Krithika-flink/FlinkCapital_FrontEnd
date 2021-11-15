@@ -915,7 +915,7 @@ class GalleryLocalizationsBe extends GalleryLocalizations {
       'Уласцівасць поўнаэкраннасці вызначае, ці будзе ўваходная старонка выглядаць як мадальнае дыялогавае акно ў поўнаэкранным рэжыме';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Індыкатар выканання';
+  String get interestedFAQ => 'Індыкатар выканання';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

@@ -905,7 +905,7 @@ class GalleryLocalizationsEt extends GalleryLocalizations {
       'Atribuut fullscreenDialog määrab, kas sissetulev leht on täisekraanil kuvatud modaaldialoog';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Tegevuste näidik';
+  String get interestedFAQ => 'Tegevuste näidik';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

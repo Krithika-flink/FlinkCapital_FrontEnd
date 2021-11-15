@@ -2,5 +2,5 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-const String loginRoute = '/rally/login';
-const String homeRoute = '/rally';
+const String loginRoute = '/flink/login';
+const String homeRoute = '/flink/';

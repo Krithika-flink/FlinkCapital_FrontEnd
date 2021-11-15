@@ -913,7 +913,7 @@ class GalleryLocalizationsZu extends GalleryLocalizations {
       'Isici se-FullscreenDialog sicacisa uma ngabe ikhasi elingenayo liyibhokisi lesikrini esigcwele se-modal yini';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Isikhombi somsebenzi';
+  String get interestedFAQ => 'Isikhombi somsebenzi';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

@@ -892,7 +892,7 @@ class GalleryLocalizationsAm extends GalleryLocalizations {
       'የ fullscreenDialog ባህሪ መጪው ገጽ ባለ ሙሉ ማያ ገጽ ሞዳል ንግግር መሆን አለመሆኑን ይጠቅሳል';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'የእንቅስቃሴ ጠቋሚ';
+  String get interestedFAQ => 'የእንቅስቃሴ ጠቋሚ';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle => 'iOS-ቅጥ እንቅስቃሴ ጠቋሚዎች';

@@ -19,10 +19,10 @@ class _CashViewState extends State<CashView>
     with SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
-    final items = DummyDataService.getBudgetDataList(context);
-    final capTotal = sumBudgetDataPrimaryAmount(items);
-    final usedTotal = sumBudgetDataAmountUsed(items);
-    final detailItems = DummyDataService.getBudgetDetailList(
+    final items = DummyDataService.getCashDataList(context);
+    final capTotal = sumCashDataPrimaryAmount(items);
+    final usedTotal = sumCashDataAmountUsed(items);
+    final detailItems = DummyDataService.getCashDetailList(
       context,
       capTotal: capTotal,
       usedTotal: usedTotal,
@@ -35,7 +35,7 @@ class _CashViewState extends State<CashView>
         heroAmount: capTotal - usedTotal,
         segments: buildSegmentsFromBudgetItems(items),
         wholeAmount: capTotal,
-        financialEntityCards: buildBudgetDataListViews(items, context),
+        financialEntityCards: buildCashDataListViews(items, context),
       ),
       sidebarItems: [
         for (UserDetailData item in detailItems)

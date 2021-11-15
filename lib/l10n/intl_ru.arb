@@ -237,7 +237,7 @@
   "demoMenuAnItemWithASimpleMenu": "Объект, у которого есть простое меню",
   "demoCustomSlidersTitle": "Настраиваемые ползунки",
   "demoMenuAnItemWithAChecklistMenu": "Объект, у которого есть меню с контрольным списком",
-  "demoCupertinoActivityIndicatorTitle": "Индикатор выполнения",
+  "interestedFAQ": "Индикатор выполнения",
   "demoCupertinoActivityIndicatorSubtitle": "Индикаторы выполнения в стиле iOS",
   "demoCupertinoActivityIndicatorDescription": "Вращающийся по часовой стрелке индикатор выполнения в стиле iOS.",
   "demoCupertinoNavigationBarTitle": "Панель навигации",

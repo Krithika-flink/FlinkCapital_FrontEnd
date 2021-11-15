@@ -912,7 +912,7 @@ class GalleryLocalizationsEu extends GalleryLocalizations {
       'Sarrerako orria pantaila osoko leiho bat den zehazten du fullscreenDialog propietateak';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Jardueren adierazlea';
+  String get interestedFAQ => 'Jardueren adierazlea';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

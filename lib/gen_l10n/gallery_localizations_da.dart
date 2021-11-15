@@ -906,7 +906,7 @@ class GalleryLocalizationsDa extends GalleryLocalizations {
       'Egenskaben fullscreenDialog angiver, om den delte side er en modal dialogboks i fuld skærm.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Aktivitetsindikator';
+  String get interestedFAQ => 'Aktivitetsindikator';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

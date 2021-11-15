@@ -908,7 +908,7 @@ class GalleryLocalizationsMn extends GalleryLocalizations {
       'Бүтэн дэлгэцийн харилцах цонхны шинж чанар нь тухайн ирж буй хуудас бүтэн дэлгэцийн зайлшгүй харилцах цонх мөн эсэхийг тодорхойлдог';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Үйл ажиллагааны заалт';
+  String get interestedFAQ => 'Үйл ажиллагааны заалт';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

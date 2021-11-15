@@ -911,7 +911,7 @@ class GalleryLocalizationsSw extends GalleryLocalizations {
       'Sifa ya fullscreenDialog hubainisha iwapo ukurasa ujao ni wa kidirisha cha kawaida cha skrini nzima';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Kiashirio cha shughuli';
+  String get interestedFAQ => 'Kiashirio cha shughuli';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

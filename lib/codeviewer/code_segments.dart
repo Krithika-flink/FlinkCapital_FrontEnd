@@ -9723,7 +9723,7 @@ class CodeSegments {
       TextSpan(style: codeStyle.punctuationStyle, text: ').'),
       TextSpan(
           style: codeStyle.baseStyle,
-          text: 'demoCupertinoActivityIndicatorTitle'),
+          text: 'interestedFAQ'),
       TextSpan(style: codeStyle.punctuationStyle, text: ','),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a        '),
       TextSpan(style: codeStyle.punctuationStyle, text: '),'),

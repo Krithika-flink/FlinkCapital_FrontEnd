@@ -911,7 +911,7 @@ class GalleryLocalizationsUk extends GalleryLocalizations {
       'Параметр fullscreenDialog визначає, чи є сторінка, що з\'явиться, діалоговим вікном на весь екран';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Індикатор активності';
+  String get interestedFAQ => 'Індикатор активності';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

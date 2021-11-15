@@ -911,7 +911,7 @@ class GalleryLocalizationsTe extends GalleryLocalizations {
       'ఇన్‌కమింగ్ పేజీ పూర్తి స్క్రీన్ మోడల్ డైలాగ్ కాదా అని పూర్తి స్క్రీన్ డైలాగ్ ఆస్తి నిర్దేశిస్తుంది';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'కార్యకలాప సూచీ';
+  String get interestedFAQ => 'కార్యకలాప సూచీ';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

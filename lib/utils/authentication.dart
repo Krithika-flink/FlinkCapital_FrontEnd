@@ -1,7 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:gallery/screens/user_info_screen.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
@@ -21,42 +20,40 @@ class Authentication {
   static Future<FirebaseApp> initializeFirebase({
     BuildContext context,
   }) async {
-    FirebaseApp firebaseApp = await Firebase.initializeApp();
+    var firebaseApp = await Firebase.initializeApp();
 
-    User user = FirebaseAuth.instance.currentUser;
+    var user = FirebaseAuth.instance.currentUser;
 
     if (user != null) {
       Navigator.of(context).restorablePushNamed(RallyApp.homeRoute);
-      ;
     }
 
     return firebaseApp;
   }
 
-  static Future<User> signInWithGoogle({BuildContext context}) async {
-    FirebaseAuth auth = FirebaseAuth.instance;
-    User user;
+  static Future<UserCredential> signInWithGoogle({BuildContext context}) async {
+    var auth = FirebaseAuth.instance;
+    UserCredential userCredential;
 
     if (kIsWeb) {
-      GoogleAuthProvider authProvider = GoogleAuthProvider();
+      var authProvider = GoogleAuthProvider();
 
       try {
-        final UserCredential userCredential =
-            await auth.signInWithPopup(authProvider);
-
-        user = userCredential.user;
+        userCredential = await auth.signInWithPopup(authProvider);
+        //return userCredential;
+        //user = userCredential.user;
       } catch (e) {
         print(e);
       }
     } else {
-      final GoogleSignIn googleSignIn = GoogleSignIn();
+      final googleSignIn = GoogleSignIn();
 
       // ignore: omit_local_variable_types
       final GoogleSignInAccount googleSignInAccount =
           await googleSignIn.signIn();
 
       if (googleSignInAccount != null) {
-        final GoogleSignInAuthentication googleSignInAuthentication =
+        final googleSignInAuthentication =
             await googleSignInAccount.authentication;
 
         final AuthCredential credential = GoogleAuthProvider.credential(
@@ -65,10 +62,9 @@ class Authentication {
         );
 
         try {
-          final UserCredential userCredential =
-              await auth.signInWithCredential(credential);
+          userCredential = await auth.signInWithCredential(credential);
 
-          user = userCredential.user;
+          // user = userCredential.user;
         } on FirebaseAuthException catch (e) {
           if (e.code == 'account-exists-with-different-credential') {
             ScaffoldMessenger.of(context).showSnackBar(
@@ -94,12 +90,11 @@ class Authentication {
         }
       }
     }
-
-    return user;
+    return userCredential;
   }
 
   static Future<void> signOut({BuildContext context}) async {
-    final GoogleSignIn googleSignIn = GoogleSignIn();
+    final googleSignIn = GoogleSignIn();
 
     try {
       if (!kIsWeb) {
@@ -115,24 +110,24 @@ class Authentication {
     }
   }
 
-  static Future<User> signInWithFacebook({BuildContext context}) async {
-    FirebaseAuth auth = FirebaseAuth.instance;
-    User user;
+  static Future<UserCredential> signInWithFacebook(
+      {BuildContext context}) async {
+    var auth = FirebaseAuth.instance;
+    UserCredential userCredential;
 
     if (kIsWeb) {
-      FacebookAuthProvider facebookProvider = FacebookAuthProvider();
+      var facebookProvider = FacebookAuthProvider();
 
       try {
-        final UserCredential userCredential =
-            await auth.signInWithPopup(facebookProvider);
+        userCredential = await auth.signInWithPopup(facebookProvider);
 
-        user = userCredential.user;
+        // user = userCredential.user;
       } catch (e) {
         print(e);
       }
     } else {
       //final GoogleSignIn googleSignIn = GoogleSignIn();
-      final AccessToken result = await FacebookAuth.instance.login();
+      final result = await FacebookAuth.instance.login();
 
       // ignore: omit_local_variable_types
       /* final GoogleSignInAccount googleSignInAccount =
@@ -150,10 +145,8 @@ class Authentication {
             FacebookAuthProvider.credential(result.token);
 
         try {
-          final UserCredential userCredential =
+          userCredential =
               await auth.signInWithCredential(facebookAuthCredential);
-
-          user = userCredential.user;
         } on FirebaseAuthException catch (e) {
           if (e.code == 'account-exists-with-different-credential') {
             ScaffoldMessenger.of(context).showSnackBar(
@@ -180,6 +173,6 @@ class Authentication {
       }
     }
 
-    return user;
+    return userCredential;
   }
 }

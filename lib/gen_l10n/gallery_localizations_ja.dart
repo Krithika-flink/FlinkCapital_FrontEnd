@@ -889,7 +889,7 @@ class GalleryLocalizationsJa extends GalleryLocalizations {
       'fullscreenDialog プロパティで、着信ページが全画面モード ダイアログかどうかを指定します';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'アクティビティ インジケーター';
+  String get interestedFAQ => 'アクティビティ インジケーター';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

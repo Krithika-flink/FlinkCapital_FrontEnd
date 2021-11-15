@@ -918,7 +918,7 @@ class GalleryLocalizationsPl extends GalleryLocalizations {
       'Właściwość fullscreenDialog określa, czy następna strona jest pełnoekranowym oknem modalnym';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Wskaźnik aktywności';
+  String get interestedFAQ => 'Wskaźnik aktywności';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

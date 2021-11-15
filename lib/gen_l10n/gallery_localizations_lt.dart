@@ -914,7 +914,7 @@ class GalleryLocalizationsLt extends GalleryLocalizations {
       'Viso ekrano dialogo lango nuosavybė nurodo, ar gaunamas puslapis yra viso ekrano modalinis dialogo langas';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Veiklos indikatorius';
+  String get interestedFAQ => 'Veiklos indikatorius';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

@@ -907,7 +907,7 @@ class GalleryLocalizationsUr extends GalleryLocalizations {
       'fullscreenDialog کی پراپرٹی اس بات کی وضاحت کرتی ہے کہ آنے والا صفحہ ایک پوری اسکرین کا ماڈل ڈائیلاگ ہے۔';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'سرگرمی انڈیکیٹر';
+  String get interestedFAQ => 'سرگرمی انڈیکیٹر';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

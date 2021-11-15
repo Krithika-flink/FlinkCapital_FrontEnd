@@ -20,10 +20,10 @@ class _OptionsViewState extends State<OptionsView>
     with SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
-    final items = DummyDataService.getBillDataList(context);
-    final dueTotal = sumBillDataPrimaryAmount(items);
-    final paidTotal = sumBillDataPaidAmount(items);
-    final detailItems = DummyDataService.getBillDetailList(
+    final items = DummyDataService.getOptionsDataList(context);
+    final dueTotal = sumOptionsDataPrimaryAmount(items);
+    final paidTotal = sumOptionsDataPaidAmount(items);
+    final detailItems = DummyDataService.getOptionsDetailList(
       context,
       dueTotal: dueTotal,
       paidTotal: paidTotal,
@@ -36,7 +36,7 @@ class _OptionsViewState extends State<OptionsView>
         heroAmount: dueTotal,
         segments: buildSegmentsFromBillItems(items),
         wholeAmount: dueTotal,
-        financialEntityCards: buildBillDataListViews(items, context),
+        financialEntityCards: buildOptionsDataListViews(items, context),
       ),
       sidebarItems: [
         for (UserDetailData item in detailItems)

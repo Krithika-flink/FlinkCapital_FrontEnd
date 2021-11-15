@@ -68,7 +68,8 @@ class _OverviewViewState extends State<OverviewView> {
           padding: const EdgeInsets.symmetric(vertical: 12),
           child: Column(
             children: [
-              _AlertsView(alerts: alerts.sublist(0, 1)),
+              //_AlertsView(alerts: alerts.sublist(0, 1)),
+              _AlertsView(alerts: alerts),
               const SizedBox(height: 12),
               const _OverviewGrid(spacing: 12),
             ],
@@ -86,9 +87,9 @@ class _OverviewGrid extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final accountDataList = DummyDataService.getAccountDataList(context);
-    final billDataList = DummyDataService.getBillDataList(context);
-    final budgetDataList = DummyDataService.getBudgetDataList(context);
+    final accountDataList = DummyDataService.getFutureDataList(context);
+    final optionsDataList = DummyDataService.getOptionsDataList(context);
+    final cashDataList = DummyDataService.getCashDataList(context);
 
     return LayoutBuilder(builder: (context, constraints) {
       final textScaleFactor =
@@ -111,9 +112,9 @@ class _OverviewGrid extends StatelessWidget {
             width: boxWidth,
             child: _FinancialView(
               title: GalleryLocalizations.of(context).rallyAccounts,
-              total: sumAccountDataPrimaryAmount(accountDataList),
+              total: sumFutureDataPrimaryAmount(accountDataList),
               financialItemViews:
-                  buildAccountDataListViews(accountDataList, context),
+                  buildFutureDataListViews(accountDataList, context),
               buttonSemanticsLabel:
                   GalleryLocalizations.of(context).rallySeeAllAccounts,
               order: 1,
@@ -124,8 +125,9 @@ class _OverviewGrid extends StatelessWidget {
             width: boxWidth,
             child: _FinancialView(
               title: GalleryLocalizations.of(context).rallyBills,
-              total: sumBillDataPrimaryAmount(billDataList),
-              financialItemViews: buildBillDataListViews(billDataList, context),
+              total: sumOptionsDataPrimaryAmount(optionsDataList),
+              financialItemViews:
+                  buildOptionsDataListViews(optionsDataList, context),
               buttonSemanticsLabel:
                   GalleryLocalizations.of(context).rallySeeAllBills,
               order: 2,
@@ -133,9 +135,8 @@ class _OverviewGrid extends StatelessWidget {
           ),
           _FinancialView(
             title: GalleryLocalizations.of(context).rallyBudgets,
-            total: sumBudgetDataPrimaryAmount(budgetDataList),
-            financialItemViews:
-                buildBudgetDataListViews(budgetDataList, context),
+            total: sumCashDataPrimaryAmount(cashDataList),
+            financialItemViews: buildCashDataListViews(cashDataList, context),
             buttonSemanticsLabel:
                 GalleryLocalizations.of(context).rallySeeAllBudgets,
             order: 3,
@@ -146,15 +147,35 @@ class _OverviewGrid extends StatelessWidget {
   }
 }
 
-class _AlertsView extends StatelessWidget {
-  const _AlertsView({Key key, this.alerts}) : super(key: key);
+class _AlertsView extends StatefulWidget {
+  _AlertsView({Key key, this.alerts}) : super(key: key);
+  List<AlertData> alerts;
 
-  final List<AlertData> alerts;
+  @override
+  _AlertsViewState createState() => _AlertsViewState();
+}
+
+class _AlertsViewState extends State<_AlertsView> {
+  bool seeall = false;
+  List<AlertData> tempalerts;
+
+  void _toggleseeallView(BuildContext context) {
+    setState(() {
+      seeall = !seeall;
+    });
+
+    if (seeall) {
+      tempalerts = widget.alerts;
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
     final isDesktop = isDisplayDesktop(context);
-
+    tempalerts = widget.alerts;
+    if (!isDesktop && !seeall) {
+      tempalerts = widget.alerts.sublist(0, 1);
+    }
     return Container(
       padding: const EdgeInsetsDirectional.only(start: 16, top: 4, bottom: 4),
       color: RallyColors.cardBackground,
@@ -173,14 +194,16 @@ class _AlertsView extends StatelessWidget {
                   if (!isDesktop)
                     TextButton(
                       style: TextButton.styleFrom(primary: Colors.white),
-                      onPressed: () {},
-                      child: Text(GalleryLocalizations.of(context).rallySeeAll),
-                    ),
+                      onPressed: () {
+                        _toggleseeallView(context);
+                      },
+                      child: seeall ? const Text('See Less') : Text("See All"),
+                    )
                 ],
               ),
             ),
           ),
-          for (AlertData alert in alerts) ...[
+          for (AlertData alert in tempalerts) ...[
             Container(color: RallyColors.primaryBackground, height: 1),
             _Alert(alert: alert),
           ]
@@ -249,29 +272,43 @@ class _FinancialView extends StatelessWidget {
     return FocusTraversalOrder(
       order: NumericFocusOrder(order),
       child: Container(
-        color: RallyColors.cardBackground,
+        //color: RallyColors.cardBackground,
+        decoration: BoxDecoration(
+          border: Border.all(
+            //side:BorderSide.merge(a, b),
+            color: RallyColors.cardBackground,
+            //right: BorderSide(width: 1.0, color: RallyColors.cardBackground)
+            width: 1,
+          ),
+          color: RallyColors.cardBackground,
+        ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             MergeSemantics(
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(
-                      top: 16,
-                      left: 16,
-                      right: 16,
-                    ),
-                    child: Text(title),
-                  ),
+                      padding: const EdgeInsets.only(
+                        top: 5,
+                        left: 16,
+                        right: 16,
+                      ),
+                      child: Text(
+                        title,
+                        style: theme.textTheme.bodyText1.copyWith(
+                            fontSize: 22 / reducedTextScale(context),
+                            fontWeight: FontWeight.w500),
+                      )),
                   Padding(
-                    padding: const EdgeInsets.only(left: 16, right: 16),
+                    padding: const EdgeInsets.only(
+                        top: 0, left: 16, right: 16, bottom: 5),
                     child: Text(
                       usdWithSignFormat(context).format(total),
-                      style: theme.textTheme.bodyText1.copyWith(
-                        fontSize: 44 / reducedTextScale(context),
-                        fontWeight: FontWeight.w600,
+                      style: theme.textTheme.subtitle1.copyWith(
+                        fontSize: 20 / reducedTextScale(context),
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                   ),
@@ -280,13 +317,16 @@ class _FinancialView extends StatelessWidget {
             ),
             ...financialItemViews.sublist(
                 0, math.min(financialItemViews.length, 3)),
-            TextButton(
-              style: TextButton.styleFrom(primary: Colors.white),
-              child: Text(
-                GalleryLocalizations.of(context).rallySeeAll,
-                semanticsLabel: buttonSemanticsLabel,
+            SizedBox(
+              //height: 30,
+              child: TextButton(
+                style: TextButton.styleFrom(primary: Colors.white),
+                child: Text(
+                  GalleryLocalizations.of(context).rallySeeAll,
+                  semanticsLabel: buttonSemanticsLabel,
+                ),
+                onPressed: () {},
               ),
-              onPressed: () {},
             ),
           ],
         ),

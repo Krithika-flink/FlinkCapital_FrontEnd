@@ -37,6 +37,10 @@ dependencies:
   flutter_auth_buttons: "^0.10.0"
   http: ^0.13.0
   cloud_firestore:
+  flutter_signin_button: ^2.0.0
+  getwidget: ^2.0.4
+  twitter_login: ^3.0.8
+  #firebase_messaging: ^10.0.6
    
 dev_dependencies:
   flutter_test:
@@ -50,6 +54,7 @@ dev_dependencies:
   string_scanner: ^1.1.0
   test: ^1.16.5
   web_benchmarks: ^0.0.4
+  email_auth: ^1.0.0
 
 dependency_overrides:
   path_provider: ^2.0.0-nullsafety.1

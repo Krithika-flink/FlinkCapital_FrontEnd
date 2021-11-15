@@ -902,7 +902,7 @@ class GalleryLocalizationsFa extends GalleryLocalizations {
       'ویژگی fullscreenDialog مشخص می‌کند آیا صفحه ورودی، کادر گفتگوی مودال تمام‌صفحه است یا نه.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'نشانگر فعالیت';
+  String get interestedFAQ => 'نشانگر فعالیت';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle => 'نشانگر فعالیت سبک iOS';

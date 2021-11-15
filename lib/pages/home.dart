@@ -1073,23 +1073,23 @@ class _StudyWrapperState extends State<StudyWrapper> {
                   button: true,
                   enabled: true,
                   excludeSemantics: true,
-                  child: FloatingActionButton.extended(
+                  /*  child: FloatingActionButton.extended(
                     heroTag: _BackButtonHeroTag(),
                     key: const ValueKey('Back'),
                     onPressed: () {
                       Navigator.of(context)
                           .popUntil((route) => route.settings.name == '/');
                     },
-                    icon: IconTheme(
-                      data: IconThemeData(color: colorScheme.onPrimary),
-                      child: const BackButtonIcon(),
-                    ),
+                    //icon: IconTheme(
+                    //data: IconThemeData(color: colorScheme.onPrimary),
+                    //child: const BackButtonIcon(),
+                    //),
                     label: Text(
                       MaterialLocalizations.of(context).backButtonTooltip,
                       style:
                           textTheme.button.apply(color: colorScheme.onPrimary),
                     ),
-                  ),
+                  ), */
                 ),
               ),
             ),

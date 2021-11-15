@@ -904,7 +904,7 @@ class GalleryLocalizationsId extends GalleryLocalizations {
       'Properti fullscreenDialog akan menentukan apakah halaman selanjutnya adalah dialog modal layar penuh atau bukan';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indikator aktivitas';
+  String get interestedFAQ => 'Indikator aktivitas';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

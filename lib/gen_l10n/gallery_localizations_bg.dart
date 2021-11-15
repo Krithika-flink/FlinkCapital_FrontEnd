@@ -909,7 +909,7 @@ class GalleryLocalizationsBg extends GalleryLocalizations {
       'Свойството fullscreenDialog посочва дали входящата страница е модален диалогов прозорец на цял екран';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Индикатор за активността';
+  String get interestedFAQ => 'Индикатор за активността';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>

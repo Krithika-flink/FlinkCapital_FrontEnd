@@ -237,7 +237,7 @@
   "demoMenuAnItemWithASimpleMenu": "Una opción con un menú sencillo",
   "demoCustomSlidersTitle": "Controles deslizantes personalizados",
   "demoMenuAnItemWithAChecklistMenu": "Una opción con un menú con lista de comprobación",
-  "demoCupertinoActivityIndicatorTitle": "Indicador de actividad",
+  "interestedFAQ": "Indicador de actividad",
   "demoCupertinoActivityIndicatorSubtitle": "Indicadores de actividad similares a los de iOS",
   "demoCupertinoActivityIndicatorDescription": "Un indicador de actividad similar al de iOS que gira en el sentido de las agujas del reloj.",
   "demoCupertinoNavigationBarTitle": "Barra de navegación",

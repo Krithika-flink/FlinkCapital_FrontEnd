@@ -908,7 +908,7 @@ class GalleryLocalizationsPt extends GalleryLocalizations {
       'A propriedade fullscreenDialog especifica se a página recebida é uma caixa de diálogo modal em tela cheia';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de atividade';
+  String get interestedFAQ => 'Indicador de atividade';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -3471,7 +3471,7 @@ class GalleryLocalizationsPtBr extends GalleryLocalizationsPt {
       'A propriedade fullscreenDialog especifica se a página recebida é uma caixa de diálogo modal em tela cheia';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de atividade';
+  String get interestedFAQ => 'Indicador de atividade';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
@@ -6006,7 +6006,7 @@ class GalleryLocalizationsPtPt extends GalleryLocalizationsPt {
       'A propriedade fullscreenDialog especifica se a página recebida é uma caixa de diálogo modal em ecrã inteiro.';
 
   @override
-  String get demoCupertinoActivityIndicatorTitle => 'Indicador de atividade';
+  String get interestedFAQ => 'Indicador de atividade';
 
   @override
   String get demoCupertinoActivityIndicatorSubtitle =>
