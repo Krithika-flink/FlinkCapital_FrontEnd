@@ -330,7 +330,7 @@ class _TopBar extends StatelessWidget {
                 style: Theme.of(context).textTheme.bodyText1.copyWith(
                       fontSize: 30 / reducedTextScale(context),
                       fontWeight: FontWeight.w600,
-                      color: RallyColors.cardBackground,
+                      color: Color(0xFF2C7095),
                     ),
               ),
             ],
@@ -343,7 +343,7 @@ class _TopBar extends StatelessWidget {
                 style: Theme.of(context)
                     .textTheme
                     .subtitle1
-                    .copyWith(color: RallyColors.cardBackground),
+                    .copyWith(color: Colors.black54),
               ),
               spacing,
               _BorderButton(
@@ -395,7 +395,7 @@ class _SmallLogo extends StatelessWidget {
                   style: Theme.of(context).textTheme.bodyText1.copyWith(
                         fontSize: 30 / reducedTextScale(context),
                         fontWeight: FontWeight.w600,
-                        color: RallyColors.cardBackground,
+                        color: Colors.black54,
                       ),
                 ),
               ],
@@ -435,10 +435,10 @@ class _ThumbButtonState extends State<_ThumbButton> {
               if (event.logicalKey == LogicalKeyboardKey.enter ||
                   event.logicalKey == LogicalKeyboardKey.space) {
                 widget.onTap();
-                return true;
+                return KeyEventResult.handled;
               }
             }
-            return false;
+            return KeyEventResult.ignored;
           },
           onFocusChange: (hasFocus) {
             if (hasFocus) {
@@ -529,7 +529,7 @@ class _LoginButtonState extends State<_LoginButton> {
                         style: Theme.of(context)
                             .textTheme
                             .subtitle1
-                            .copyWith(color: RallyColors.cardBackground),
+                            .copyWith(color: Colors.black54),
                       ),
                     ),
                     const Expanded(child: SizedBox(width: 200)),
@@ -811,7 +811,7 @@ class _BorderButton extends StatelessWidget {
         children: [
           const Icon(Icons.person_add_alt, size: 15),
           const SizedBox(width: 10),
-          Text(text, style: TextStyle(color: RallyColors.cardBackground)),
+          Text(text, style: TextStyle(color: Colors.black54))
         ],
       ),
     );
@@ -876,9 +876,8 @@ class _UsernameInput extends StatelessWidget {
               border: OutlineInputBorder(
                   borderSide: BorderSide(color: RallyColors.cardBackground)),
               labelText: GalleryLocalizations.of(context).demoTextFieldEmail,
-              labelStyle: TextStyle(
-                  color: RallyColors.cardBackground,
-                  fontWeight: FontWeight.w600),
+              labelStyle: const TextStyle(
+                  color: Colors.black54, fontWeight: FontWeight.w600),
               prefixIcon:
                   const Icon(Icons.email, color: RallyColors.buttonColor),
               //fillColor: Colors.blueGrey.shade100,
@@ -944,9 +943,8 @@ class __PasswordInputState extends State<_PasswordInput> {
               border: OutlineInputBorder(
                   borderSide: BorderSide(color: RallyColors.cardBackground)),
               labelText: GalleryLocalizations.of(context).rallyLoginPassword,
-              labelStyle: TextStyle(
-                  color: RallyColors.cardBackground,
-                  fontWeight: FontWeight.w600),
+              labelStyle: const TextStyle(
+                  color: Colors.black54, fontWeight: FontWeight.w600),
               prefixIcon:
                   const Icon(Icons.lock, color: RallyColors.buttonColor),
               suffixIcon: IconButton(

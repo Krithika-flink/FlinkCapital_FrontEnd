@@ -1,20 +1,15 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:email_auth/email_auth.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 import 'package:gallery/layout/adaptive.dart';
 import 'package:gallery/layout/image_placeholder.dart';
 import 'package:gallery/layout/text_scale.dart';
-import 'package:gallery/studies/rally/login.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:gallery/studies/rally/app.dart';
-import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 import 'package:gallery/studies/rally/colors.dart';
+import 'package:gallery/studies/rally/login.dart';
 import 'package:gallery/studies/verifyemail.dart';
-import 'package:gallery/userModel.dart';
-//import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:gallery/utils/database.dart';
-import 'package:email_auth/email_auth.dart';
 
 class RegistrationPage extends StatefulWidget {
   @override
@@ -102,8 +97,8 @@ class _RegistrationPageState extends State<RegistrationPage> {
                                         borderSide: BorderSide(
                                             color: RallyColors.cardBackground)),
 
-                                    labelStyle: TextStyle(
-                                        color: RallyColors.cardBackground,
+                                    labelStyle: const TextStyle(
+                                        color: Colors.black54,
                                         fontWeight: FontWeight.w600),
                                     /* decoration: InputDecoration(
                                   focusedBorder: const UnderlineInputBorder(
@@ -113,7 +108,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
                                           style: BorderStyle.solid)), */
                                     labelText: GalleryLocalizations.of(context)
                                         .rallyLoginUsername,
-                                    hintText: "Enter Username",
+                                    hintText: 'Enter Username',
                                     /*labelText: GalleryLocalizations.of(context)
                                       .rallyLoginUsername,*/
                                     icon: const Icon(
@@ -142,8 +137,8 @@ class _RegistrationPageState extends State<RegistrationPage> {
                                     border: OutlineInputBorder(
                                         borderSide: BorderSide(
                                             color: RallyColors.cardBackground)),
-                                    labelStyle: TextStyle(
-                                        color: RallyColors.cardBackground,
+                                    labelStyle: const TextStyle(
+                                        color: Colors.black54,
                                         fontWeight: FontWeight.w600),
                                     hintText: "Enter Email Address",
                                     labelText: GalleryLocalizations.of(context)
@@ -171,8 +166,8 @@ class _RegistrationPageState extends State<RegistrationPage> {
                                         borderSide: BorderSide(
                                             color: RallyColors.cardBackground)),
 
-                                    labelStyle: TextStyle(
-                                        color: RallyColors.cardBackground,
+                                    labelStyle: const TextStyle(
+                                        color: Colors.black54,
                                         fontWeight: FontWeight.w600),
                                     // hintText: "Company Name",
                                     labelText: GalleryLocalizations.of(context)
@@ -196,8 +191,8 @@ class _RegistrationPageState extends State<RegistrationPage> {
                                     border: OutlineInputBorder(
                                         borderSide: BorderSide(
                                             color: RallyColors.cardBackground)),
-                                    labelStyle: TextStyle(
-                                        color: RallyColors.cardBackground,
+                                    labelStyle: const TextStyle(
+                                        color: Colors.black54,
                                         fontWeight: FontWeight.w600),
                                     // hintText: "Company Name",
                                     labelText: GalleryLocalizations.of(context)
@@ -268,8 +263,8 @@ class _RegistrationPageState extends State<RegistrationPage> {
                               child: Text(
                                   GalleryLocalizations.of(context)
                                       .rallyLoginSignUp,
-                                  style: TextStyle(
-                                      color: RallyColors.cardBackground)),
+                                  style:
+                                      const TextStyle(color: Colors.black54)),
                             ),
 
                             // ignore: deprecated_memer_use
@@ -295,8 +290,8 @@ class _RegistrationPageState extends State<RegistrationPage> {
                               child: Text(
                                   GalleryLocalizations.of(context)
                                       .rallyLoginButtonLogin,
-                                  style: TextStyle(
-                                      color: RallyColors.cardBackground)),
+                                  style:
+                                      const TextStyle(color: Colors.black54)),
                             ),
                           ],
                         ),

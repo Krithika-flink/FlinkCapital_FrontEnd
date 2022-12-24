@@ -3,12 +3,10 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'package:gallery/gen_l10n/gallery_localizations.dart';
-
 import 'package:gallery/layout/adaptive.dart';
-import 'package:gallery/studies/rally/routes.dart' as rally_route;
 import 'package:gallery/studies/rally/colors.dart';
 import 'package:gallery/studies/rally/data.dart';
+import 'package:gallery/studies/rally/routes.dart' as rally_route;
 import 'package:gallery/utils/authentication.dart';
 import 'package:url_launcher/url_launcher.dart';
 

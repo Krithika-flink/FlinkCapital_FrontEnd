@@ -2,9 +2,8 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:http/http.dart' as http;
-
 import 'package:gallery/app_exceptions.dart';
+import 'package:http/http.dart' as http;
 
 class ApiBaseHelper {
   final String _baseUrl = 'http://127.0.0.1:8000/';
